@@ -299,6 +299,26 @@ export const videos = LandingVideoArraySchema.parse(rawVideos);
   Object.entries(stats).forEach(([category, count]) => {
     console.log(`   ${category}: ${count} 个`);
   });
+
+  // 生成 JSON 报告
+  const report = {
+    timestamp: new Date().toISOString(),
+    totalVideos: allVideos.length,
+    byCategory: stats,
+    byLocale: allVideos.reduce((acc, v) => {
+      acc[v.locale] = (acc[v.locale] || 0) + 1;
+      return acc;
+    }, {} as Record<string, number>),
+    latestVideos: allVideos.slice(0, 5).map(v => ({
+      id: v.id,
+      title: v.title,
+      category: v.category,
+      publishDate: v.publishDate,
+    })),
+  };
+
+  writeFileSync("reports/latest-fetch.json", JSON.stringify(report, null, 2), "utf-8");
+  console.log(`📄 报告已保存: reports/latest-fetch.json`);
 }
 
 main().catch(console.error);

@@ -1,0 +1,79 @@
+name: Update YouTube Videos
+
+on:
+  schedule:
+    # 每天 UTC 02:00 运行（北京时间 10:00）
+    - cron: '0 2 * * *'
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write  # 允许推送提交
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '22'  # 使用 Node.js 22 LTS
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Fetch YouTube videos
+        run: npm run fetch-videos
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code src/data/videos.ts || echo "changed=true" >> $GITHUB_OUTPUT
+          
+      - name: Commit and push if changed
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/videos.ts reports/latest-fetch.json
+          git commit -m "chore: auto-update videos [skip ci]"
+          git push
+          
+      - name: Generate summary report
+        if: always()
+        run: |
+          echo "## 📊 视频更新报告" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **运行时间**: $(date -u +"%Y-%m-%d %H:%M:%S UTC")" >> $GITHUB_STEP_SUMMARY
+          echo "- **状态**: ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "${{ steps.git-check.outputs.changed }}" == "true" ]; then
+            echo "- **结果**: ✅ 发现新视频，已更新" >> $GITHUB_STEP_SUMMARY
+            
+            # 显示报告详情（如果存在）
+            if [ -f reports/latest-fetch.json ]; then
+              echo "" >> $GITHUB_STEP_SUMMARY
+              echo "### 详细统计" >> $GITHUB_STEP_SUMMARY
+              echo '```json' >> $GITHUB_STEP_SUMMARY
+              cat reports/latest-fetch.json >> $GITHUB_STEP_SUMMARY
+              echo '```' >> $GITHUB_STEP_SUMMARY
+            fi
+          else
+            echo "- **结果**: ℹ️ 无新视频" >> $GITHUB_STEP_SUMMARY
+          fi
+      
+      - name: Upload report artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fetch-report-${{ github.run_number }}
+          path: reports/latest-fetch.json
+          retention-days: 30

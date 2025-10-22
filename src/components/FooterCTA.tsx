@@ -18,7 +18,7 @@ export function FooterCTA({ headline, subhead, ctaLabel, locale }: FooterCTAProp
             <h3 className="text-3xl font-semibold leading-tight text-white sm:text-4xl">
               {headline}
             </h3>
-            <p className="text-base leading-relaxed text-white/80 sm:text-lg">
+            <p className="text-base leading-relaxed !text-white sm:text-lg">
               {subhead}
             </p>
           </div>

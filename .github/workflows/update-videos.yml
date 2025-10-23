@@ -43,6 +43,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main
           git add src/data/videos.ts reports/latest-fetch.json
           git commit -m "chore: auto-update videos [skip ci]"
           git push

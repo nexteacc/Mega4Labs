@@ -19,7 +19,7 @@ export const SEARCH_QUERIES: SearchQuery[] = [
     
     // Hero - 精选教程（需要 3-4 个）
     {
-        query: "Comet browser Perplexity complete guide",
+        query: "Perplexity AI complete guide tutorial",
         category: "hero",
         locale: "en",
         maxResults: 5,
@@ -28,14 +28,14 @@ export const SEARCH_QUERIES: SearchQuery[] = [
 
     // Tutorial - 教程主体（需要 8+ 个）
     {
-        query: "Comet browser tutorial",
+        query: "Perplexity AI tutorial",
         category: "tutorial",
         locale: "en",
         maxResults: 10,
         minDuration: 120,
     },
     {
-        query: "Perplexity AI tutorial",
+        query: "Perplexity AI how to use",
         category: "tutorial",
         locale: "en",
         maxResults: 10,
@@ -48,14 +48,14 @@ export const SEARCH_QUERIES: SearchQuery[] = [
         category: "proReview",
         locale: "en",
         maxResults: 8,
-        minDuration: 480,
+        minDuration: 300,
     },
     {
         query: "Perplexity AI review",
         category: "proReview",
         locale: "en",
         maxResults: 8,
-        minDuration: 480,
+        minDuration: 300,
     },
 
     // Shorts - 快速技巧
@@ -109,7 +109,7 @@ export const SEARCH_QUERIES: SearchQuery[] = [
         category: "proReview",
         locale: "ko",
         maxResults: 8,
-        minDuration: 480,
+        minDuration: 300,
     },
 
     // Shorts - 快速技巧
@@ -156,7 +156,7 @@ export const SEARCH_QUERIES: SearchQuery[] = [
         category: "proReview",
         locale: "ja",
         maxResults: 8,
-        minDuration: 480,
+        minDuration: 300,
     },
 
     // Shorts - 快速技巧
@@ -203,7 +203,7 @@ export const SEARCH_QUERIES: SearchQuery[] = [
         category: "proReview",
         locale: "zh",
         maxResults: 8,
-        minDuration: 480,
+        minDuration: 300,
     },
 
     // Shorts - 快速技巧
@@ -219,13 +219,13 @@ export const SEARCH_QUERIES: SearchQuery[] = [
 /**
  * 质量筛选规则
  * 
- * minViewCount: 最少观看数（500 = 有一定曝光度）
- * minLikeRatio: 最低点赞率（0.02 = 2%，YouTube 优质内容标准）
- * maxAgeInDays: 最多发布天数（365 = 1年内，保持时效性）
+ * minViewCount: 最少观看数（1000 = 确保视频有一定热度）
+ * minLikeRatio: 最低点赞率（0.01 = 1%）
+ * maxAgeInDays: 最多发布天数（365 = 1年内，确保内容时效性）
  */
 export const QUALITY_FILTERS = {
-    minViewCount: 500,
-    minLikeRatio: 0.02,
+    minViewCount: 1000,
+    minLikeRatio: 0.01,
     maxAgeInDays: 365,
 };
 

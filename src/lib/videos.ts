@@ -12,7 +12,7 @@ const LandingVideoSchema = z.object({
   locale: z.custom<Locale>((value) =>
     typeof value === "string" && ["en", "ko", "ja", "zh"].includes(value),
   ),
-  category: z.enum(["hero", "tutorial", "demo", "proReview", "shorts"]),
+  category: z.enum(["hero", "tutorial", "proReview", "shorts"]),
   title: z.string().min(1),
   description: z.string().min(1),
   channelTitle: z.string().min(1),

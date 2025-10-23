@@ -149,12 +149,6 @@ function passesQualityFilter(
     return false;
   }
 
-  // 检查标题中的排除关键词
-  const title = video.snippet.title.toLowerCase();
-  if (QUALITY_FILTERS.excludeKeywords.some(keyword => title.includes(keyword))) {
-    return false;
-  }
-
   return true;
 }
 

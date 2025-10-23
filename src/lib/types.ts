@@ -1,6 +1,6 @@
 import type { Locale } from "@/lib/i18n";
 
-export type VideoCategory = "hero" | "tutorial" | "demo" | "proReview" | "shorts";
+export type VideoCategory = "hero" | "tutorial" | "proReview" | "shorts";
 
 export type VideoPlatform = "youtube";
 
@@ -25,7 +25,7 @@ export interface LandingVideo {
 }
 
 export interface VideoModule {
-  category: Extract<VideoCategory, "tutorial" | "demo" | "proReview" | "shorts">;
+  category: Extract<VideoCategory, "tutorial" | "proReview" | "shorts">;
   title: string;
   description: string;
   videos: LandingVideo[];

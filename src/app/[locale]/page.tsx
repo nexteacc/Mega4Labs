@@ -71,7 +71,6 @@ export default async function LocalePage({ params }: LocalePageProps) {
   const itemListJsonLd = buildVideoItemListJsonLd(locale, allVideos);
 
   const tutorialModule = modules.find((module) => module.category === "tutorial");
-  const demoModule = modules.find((module) => module.category === "demo");
   const proReviewModule = modules.find((module) => module.category === "proReview");
   const shortsModule = modules.find((module) => module.category === "shorts");
 
@@ -89,19 +88,6 @@ export default async function LocalePage({ params }: LocalePageProps) {
           ctaLabel={CTA_LABELS[locale]}
           cardVariant={tutorialModule.settings.cardVariant}
           columns={tutorialModule.settings.columns}
-        />
-      )}
-
-      {demoModule && (
-        <VideoModuleSection
-          key={demoModule.category}
-          title={demoModule.title}
-          description={demoModule.description}
-          videos={demoModule.videos}
-          locale={locale}
-          ctaLabel={CTA_LABELS[locale]}
-          cardVariant={demoModule.settings.cardVariant}
-          columns={demoModule.settings.columns}
         />
       )}
 

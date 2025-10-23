@@ -3,9 +3,9 @@ import type { LandingVideo } from "@/lib/types";
 import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
- * 自动生成的视频数据
- * 生成时间: 2025-10-22T14:58:49.351Z
- * 总数: 0 个视频
+ * 视频数据
+ * 
+ * 运行 `npm run fetch-videos` 来抓取 YouTube 视频数据
  */
 const rawVideos: LandingVideo[] = [];
 

@@ -62,29 +62,25 @@ export const HERO_SUPPORTING: Record<Locale, string> = {
 
 export const MODULE_TITLES: Record<
   Locale,
-  Record<"tutorial" | "demo" | "proReview" | "shorts", string>
+  Record<"tutorial" | "proReview" | "shorts", string>
 > = {
   en: {
     tutorial: "Tutorial Library",
-    demo: "Productivity Demos",
     proReview: "Pro Reviews & Deep Dives",
     shorts: "Shorts Wall",
   },
   ko: {
     tutorial: "튜토리얼 라이브러리",
-    demo: "생산성 데모",
     proReview: "전문 리뷰 & 딥 다이브",
     shorts: "쇼츠 월",
   },
   ja: {
     tutorial: "チュートリアルライブラリ",
-    demo: "プロダクティビティデモ",
     proReview: "プロレビュー & 深堀り",
     shorts: "ショート動画ウォール",
   },
   zh: {
     tutorial: "教程精选",
-    demo: "效率演示",
     proReview: "专业测评",
     shorts: "短视频墙",
   },
@@ -92,13 +88,11 @@ export const MODULE_TITLES: Record<
 
 export const MODULE_COPY: Record<
   Locale,
-  Record<"tutorial" | "demo" | "proReview" | "shorts", string>
+  Record<"tutorial" | "proReview" | "shorts", string>
 > = {
   en: {
     tutorial:
       "Master the fundamentals with step-by-step guides—from faster research to structured workflows.",
-    demo:
-      "Watch real workflows that boost daily productivity with Comet and Perplexity.",
     proReview:
       "Expert reviews analyzing strengths, limitations, and advanced use cases.",
     shorts:
@@ -107,8 +101,6 @@ export const MODULE_COPY: Record<
   ko: {
     tutorial:
       "단계별 가이드로 기본을 익히고 연구 속도와 워크플로를 높여보세요.",
-    demo:
-      "Comet과 Perplexity로 일상 생산성을 높이는 실제 워크플로를 확인하세요.",
     proReview:
       "전문가 리뷰로 장점, 한계, 고급 활용 사례를 분석합니다.",
     shorts:
@@ -117,8 +109,6 @@ export const MODULE_COPY: Record<
   ja: {
     tutorial:
       "ステップガイドで基本を習得し、リサーチとワークフローを加速。",
-    demo:
-      "Cometと Perplexityで日常の生産性を高める実際のワークフロー。",
     proReview:
       "エキスパートレビューで強み・限界・高度なユースケースを分析。",
     shorts:
@@ -127,8 +117,6 @@ export const MODULE_COPY: Record<
   zh: {
     tutorial:
       "通过分步指南掌握基础，从快速检索到结构化工作流。",
-    demo:
-      "观看 Comet 与 Perplexity 提升日常效率的实战演示。",
     proReview:
       "专家测评分析亮点、限制与高级应用场景。",
     shorts:

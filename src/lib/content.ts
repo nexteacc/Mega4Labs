@@ -11,7 +11,6 @@ import type { LandingVideo, VideoModule } from "@/lib/types";
 
 const MODULE_ORDER: VideoModule["category"][] = [
   "tutorial",
-  "demo",
   "proReview",
   "shorts",
 ];

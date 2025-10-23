@@ -177,7 +177,7 @@ function convertToLandingVideo(
     locale: locale as any,
     category: category as any,
     title: video.snippet.title,
-    description: video.snippet.description,
+    description: video.snippet.description || "No description available",
     channelTitle: video.snippet.channelTitle,
     publishDate: video.snippet.publishedAt.split("T")[0],
     duration: details.contentDetails.duration,

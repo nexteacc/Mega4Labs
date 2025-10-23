@@ -19,7 +19,14 @@ export const SEARCH_QUERIES: SearchQuery[] = [
     
     // Hero - 精选教程（需要 3-4 个）
     {
-        query: "Perplexity AI complete guide tutorial",
+        query: "Comet browser complete guide",
+        category: "hero",
+        locale: "en",
+        maxResults: 5,
+        minDuration: 180,
+    },
+    {
+        query: "Perplexity Comet browser tutorial",
         category: "hero",
         locale: "en",
         maxResults: 5,
@@ -28,14 +35,21 @@ export const SEARCH_QUERIES: SearchQuery[] = [
 
     // Tutorial - 教程主体（需要 8+ 个）
     {
-        query: "Perplexity AI tutorial",
+        query: "Comet browser tutorial",
         category: "tutorial",
         locale: "en",
         maxResults: 10,
         minDuration: 120,
     },
     {
-        query: "Perplexity AI how to use",
+        query: "Comet browser how to use",
+        category: "tutorial",
+        locale: "en",
+        maxResults: 10,
+        minDuration: 120,
+    },
+    {
+        query: "Comet AI browser guide",
         category: "tutorial",
         locale: "en",
         maxResults: 10,
@@ -51,7 +65,7 @@ export const SEARCH_QUERIES: SearchQuery[] = [
         minDuration: 300,
     },
     {
-        query: "Perplexity AI review",
+        query: "Perplexity Comet browser review",
         category: "proReview",
         locale: "en",
         maxResults: 8,
@@ -67,7 +81,7 @@ export const SEARCH_QUERIES: SearchQuery[] = [
         maxDuration: 90,
     },
     {
-        query: "Perplexity AI tips",
+        query: "Comet browser features",
         category: "shorts",
         locale: "en",
         maxResults: 10,
@@ -86,17 +100,24 @@ export const SEARCH_QUERIES: SearchQuery[] = [
         maxResults: 5,
         minDuration: 180,
     },
+    {
+        query: "Perplexity Comet 브라우저 튜토리얼",
+        category: "hero",
+        locale: "ko",
+        maxResults: 5,
+        minDuration: 180,
+    },
 
     // Tutorial - 教程主体
     {
-        query: "Comet 브라우저 튜토리얼",
+        query: "Comet 브라우저 사용법",
         category: "tutorial",
         locale: "ko",
         maxResults: 10,
         minDuration: 120,
     },
     {
-        query: "Perplexity AI 사용법",
+        query: "Comet AI 브라우저 가이드",
         category: "tutorial",
         locale: "ko",
         maxResults: 10,
@@ -133,17 +154,24 @@ export const SEARCH_QUERIES: SearchQuery[] = [
         maxResults: 5,
         minDuration: 180,
     },
+    {
+        query: "Perplexity Comet ブラウザ チュートリアル",
+        category: "hero",
+        locale: "ja",
+        maxResults: 5,
+        minDuration: 180,
+    },
 
     // Tutorial - 教程主体
     {
-        query: "Comet ブラウザ チュートリアル",
+        query: "Comet ブラウザ 使い方",
         category: "tutorial",
         locale: "ja",
         maxResults: 10,
         minDuration: 120,
     },
     {
-        query: "Perplexity AI 使い方",
+        query: "Comet AI ブラウザ ガイド",
         category: "tutorial",
         locale: "ja",
         maxResults: 10,
@@ -180,17 +208,24 @@ export const SEARCH_QUERIES: SearchQuery[] = [
         maxResults: 5,
         minDuration: 180,
     },
+    {
+        query: "Perplexity Comet 浏览器 教程",
+        category: "hero",
+        locale: "zh",
+        maxResults: 5,
+        minDuration: 180,
+    },
 
     // Tutorial - 教程主体
     {
-        query: "Comet 浏览器 教程",
+        query: "Comet 浏览器 使用教程",
         category: "tutorial",
         locale: "zh",
         maxResults: 10,
         minDuration: 120,
     },
     {
-        query: "Perplexity AI 使用教程",
+        query: "Comet AI 浏览器 指南",
         category: "tutorial",
         locale: "zh",
         maxResults: 10,
@@ -220,12 +255,12 @@ export const SEARCH_QUERIES: SearchQuery[] = [
  * 质量筛选规则
  * 
  * minViewCount: 最少观看数（1000 = 确保视频有一定热度）
- * minLikeRatio: 最低点赞率（0.01 = 1%）
+ * minLikeRatio: 最低点赞率（0.05 = 5%，确保高质量内容）
  * maxAgeInDays: 最多发布天数（365 = 1年内，确保内容时效性）
  */
 export const QUALITY_FILTERS = {
     minViewCount: 1000,
-    minLikeRatio: 0.01,
+    minLikeRatio: 0.05,
     maxAgeInDays: 365,
 };
 

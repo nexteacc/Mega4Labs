@@ -14,7 +14,7 @@ const LandingVideoSchema = z.object({
   ),
   category: z.enum(["hero", "tutorial", "proReview", "shorts"]),
   title: z.string().min(1),
-  description: z.string().min(1),
+  description: z.string(), // 允许空描述
   channelTitle: z.string().min(1),
   publishDate: z.string().min(1),
   duration: z.string().min(1),

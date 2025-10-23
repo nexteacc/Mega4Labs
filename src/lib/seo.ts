@@ -45,28 +45,19 @@ export const buildPageDescription = (locale: Locale) =>
 export const buildKeywords = (locale: Locale) => SEO_KEYWORDS[locale];
 
 export const buildOpenGraph = (locale: Locale): NonNullable<Metadata["openGraph"]> => ({
-  title: buildPageTitle(locale),
-  description: buildPageDescription(locale),
+  title: HERO_HEADLINE[locale].replace(/\n/g, " "),
+  description: HERO_SUBHEAD[locale],
   url: buildLocaleUrl(locale),
   siteName: SEO_SITE_NAME[locale],
   locale,
   type: "website",
   alternateLocale: LOCALES.filter((code) => code !== locale),
-  images: [
-    {
-      url: `${BASE_URL}/og-image.jpg`,
-      width: 1200,
-      height: 630,
-      alt: SEO_SITE_NAME[locale],
-    },
-  ],
 });
 
 export const buildTwitterCard = (locale: Locale): NonNullable<Metadata["twitter"]> => ({
   card: "summary_large_image",
   title: HERO_HEADLINE[locale].replace(/\n/g, " "),
   description: HERO_SUBHEAD[locale],
-  images: [`${BASE_URL}/og-image.jpg`],
   creator: "@perplexity_ai",
   site: "@perplexity_ai",
 });

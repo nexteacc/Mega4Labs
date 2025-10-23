@@ -15,6 +15,7 @@ import {
   buildAlternates,
   buildKeywords,
   buildOpenGraph,
+  buildTwitterCard,
   buildOrganizationJsonLd,
   buildPageDescription,
   buildPageTitle,
@@ -75,6 +76,7 @@ export async function generateMetadata(
     },
     alternates: buildAlternates(locale),
     openGraph: buildOpenGraph(locale),
+    twitter: buildTwitterCard(locale),
     verification: {
       google: "your-google-verification-code",
     },

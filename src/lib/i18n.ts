@@ -20,15 +20,15 @@ export const DEFAULT_CTA_URL = "https://pplx.ai/nexteacc52699";
 
 export const CTA_LABELS: Record<Locale, string> = {
   en: "Get 1 Month Pro Free",
-  ko: "1개월 Pro 무료 받기",
-  ja: "1ヶ月Pro無料取得",
+  ko: "Pro 1개월 무료 체험",
+  ja: "Pro版を1ヶ月無料で",
   zh: "免费领取 1 个月 Pro",
 };
 
 export const FOOTER_CTA_LABEL: Record<Locale, string> = {
   en: "Claim Free Pro Access",
-  ko: "무료 Pro 액세스 받기",
-  ja: "無料Proアクセスを取得",
+  ko: "무료로 Pro 시작하기",
+  ja: "無料でProを始める",
   zh: "领取免费 Pro 权限",
 };
 
@@ -40,23 +40,23 @@ export const HERO_PILL: Record<Locale, string> = {
 };
 
 export const HERO_HEADLINE: Record<Locale, string> = {
-  en: "Research Smarter.\nWork Faster.",
-  ko: "더 스마트한 리서치.\n더 빠른 작업.",
-  ja: "スマートに調査。\n速く仕事。",
+  en: "Research\nSmarter.\nWork\nFaster.",
+  ko: "더 똑똑한 검색,\n더 빠른 업무",
+  ja: "スマートに調査、効率的に仕事",
   zh: "更智能的研究，\n更高效的工作",
 };
 
 export const HERO_SUBHEAD: Record<Locale, string> = {
-  en: "Learn Comet and Perplexity through curated video tutorials.",
-  ko: "엄선된 비디오 튜토리얼로 Comet과 Perplexity를 배우세요.",
-  ja: "厳選されたビデオチュートリアルでCometとPerplexityを学ぶ。",
+  en: "Master Comet and Perplexity with curated video tutorials.",
+  ko: "엄선된 영상으로 Comet과 Perplexity 마스터하기",
+  ja: "厳選された動画でCometとPerplexityをマスター",
   zh: "通过精选视频教程学习 Comet 与 Perplexity。",
 };
 
 export const HERO_SUPPORTING: Record<Locale, string> = {
   en: "50+ videos • Updated weekly • Expert-curated",
-  ko: "50+ 비디오 • 매주 업데이트 • 전문가 선별",
-  ja: "50+ 動画 • 毎週更新 • 専門家厳選",
+  ko: "50+ 영상 • 매주 업데이트 • 전문가 엄선",
+  ja: "50本以上の動画 • 毎週更新 • 専門家が厳選",
   zh: "50+ 视频 • 每周更新 • 专家精选",
 };
 
@@ -67,22 +67,22 @@ export const MODULE_TITLES: Record<
   en: {
     tutorial: "Tutorial Library",
     proReview: "Pro Reviews & Deep Dives",
-    shorts: "Shorts Wall",
+    shorts: "Quick Tips",
   },
   ko: {
-    tutorial: "튜토리얼 라이브러리",
-    proReview: "전문 리뷰 & 딥 다이브",
-    shorts: "쇼츠 월",
+    tutorial: "튜토리얼 모음",
+    proReview: "전문가 리뷰",
+    shorts: "빠른 팁",
   },
   ja: {
-    tutorial: "チュートリアルライブラリ",
-    proReview: "プロレビュー & 深堀り",
-    shorts: "ショート動画ウォール",
+    tutorial: "チュートリアル集",
+    proReview: "プロレビュー",
+    shorts: "クイックTips",
   },
   zh: {
     tutorial: "教程精选",
     proReview: "专业测评",
-    shorts: "短视频墙",
+    shorts: "快速上手",
   },
 };
 
@@ -100,19 +100,19 @@ export const MODULE_COPY: Record<
   },
   ko: {
     tutorial:
-      "단계별 가이드로 기본을 익히고 연구 속도와 워크플로를 높여보세요.",
+      "단계별 가이드로 기초부터 실전 활용까지 완벽 마스터",
     proReview:
-      "전문가 리뷰로 장점, 한계, 고급 활용 사례를 분석합니다.",
+      "전문가가 분석하는 장단점과 실전 활용법",
     shorts:
-      "1분 안에 끝나는 꿀팁, 숨겨진 기능, 커뮤니티 하이라이트.",
+      "1분 안에 배우는 꿀팁과 숨겨진 기능",
   },
   ja: {
     tutorial:
-      "ステップガイドで基本を習得し、リサーチとワークフローを加速。",
+      "ステップバイステップで基礎から実践まで完全マスター",
     proReview:
-      "エキスパートレビューで強み・限界・高度なユースケースを分析。",
+      "専門家が解説する強みと実践的な活用法",
     shorts:
-      "1分以内のヒント・隠れ機能・コミュニティハイライト。",
+      "1分で学べる便利技と隠れた機能",
   },
   zh: {
     tutorial:
@@ -120,34 +120,34 @@ export const MODULE_COPY: Record<
     proReview:
       "专家测评分析亮点、限制与高级应用场景。",
     shorts:
-      "一分钟内的实用技巧、隐藏功能与社区精选。",
+      "一分钟速学实用技巧、隐藏功能与社区精选内容。",
   },
 };
 
 export const INTERMEDIATE_CTA: Record<Locale, string> = {
   en: "Ready to level up? Get 1 month of Pro access free.",
-  ko: "레벨업할 준비가 되셨나요? 1개월 Pro 액세스를 무료로 받으세요.",
-  ja: "レベルアップの準備はできましたか？1ヶ月のProアクセスを無料で。",
+  ko: "지금 바로 시작하세요. Pro 1개월 무료 체험",
+  ja: "今すぐ始めよう。Pro版1ヶ月無料",
   zh: "准备升级了吗？免费获取 1 个月 Pro 权限。",
 };
 
 export const FOOTER_COPY: Record<Locale, string> = {
   en: "Experience the combined power of Comet Browser and Perplexity AI with curated learning paths.",
-  ko: "Comet 브라우저와 Perplexity AI를 함께 사용해 정교하게 구성된 학습 경로를 경험해보세요.",
-  ja: "Comet ブラウザと Perplexity AI の組み合わせで設計された学習パスを体験しましょう。",
+  ko: "Comet 브라우저와 Perplexity AI의 강력한 조합을 지금 경험하세요",
+  ja: "CometブラウザとPerplexity AIの強力な組み合わせを今すぐ体験",
   zh: "通过精心策划的学习路径体验 Comet 浏览器与 Perplexity AI 的组合优势。",
 };
 
 export const BOTTOM_CTA_HEADLINE: Record<Locale, string> = {
   en: "Get Started with Pro—Free for 1 Month",
-  ko: "Pro로 시작하기—1개월 무료",
-  ja: "Proで始める—1ヶ月無料",
+  ko: "Pro 1개월 무료로 시작하기",
+  ja: "Pro版を1ヶ月無料で始める",
   zh: "免费开始使用 Pro 版—1 个月",
 };
 
 export const BOTTOM_CTA_SUBHEAD: Record<Locale, string> = {
   en: "Unlock Comet Browser and Perplexity Pro access. No credit card required.",
-  ko: "Comet 브라우저와 Perplexity Pro 액세스를 잠금 해제하세요. 신용카드 불필요.",
-  ja: "Comet ブラウザとPerplexity Proアクセスをアンロック。クレジットカード不要。",
+  ko: "Comet 브라우저와 Perplexity Pro를 바로 사용하세요. 카드 등록 불필요",
+  ja: "CometブラウザとPerplexity Proをすぐに利用できます。カード登録不要",
   zh: "解锁 Comet 浏览器与 Perplexity Pro 权限。无需信用卡。",
 };

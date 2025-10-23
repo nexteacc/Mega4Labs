@@ -68,7 +68,7 @@ async function searchVideos(query: string, maxResults: number) {
   };
 
   const response = await fetch(url.toString(), fetchOptions);
-  
+
   if (!response.ok) {
     throw new Error(`YouTube API 错误: ${response.status} ${response.statusText}`);
   }
@@ -87,7 +87,7 @@ async function getVideoDetails(videoIds: string[]) {
   url.searchParams.set("key", YOUTUBE_API_KEY!);
 
   const response = await fetch(url.toString());
-  
+
   if (!response.ok) {
     throw new Error(`YouTube API 错误: ${response.status} ${response.statusText}`);
   }
@@ -102,11 +102,11 @@ async function getVideoDetails(videoIds: string[]) {
 function parseDuration(duration: string): number {
   const match = duration.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
   if (!match) return 0;
-  
+
   const hours = parseInt(match[1] || "0");
   const minutes = parseInt(match[2] || "0");
   const seconds = parseInt(match[3] || "0");
-  
+
   return hours * 3600 + minutes * 60 + seconds;
 }
 
@@ -117,39 +117,50 @@ function passesQualityFilter(
   video: YouTubeSearchResult,
   details: YouTubeVideoDetails,
   minDuration?: number,
-  maxDuration?: number
-): boolean {
+  maxDuration?: number,
+  debug = false
+): { passed: boolean; reason?: string; stats?: any } {
   const viewCount = parseInt(details.statistics.viewCount || "0");
   const likeCount = parseInt(details.statistics.likeCount || "0");
   const duration = parseDuration(details.contentDetails.duration);
   const publishDate = new Date(video.snippet.publishedAt);
   const ageInDays = (Date.now() - publishDate.getTime()) / (1000 * 60 * 60 * 24);
+  const likeRatio = viewCount > 0 ? likeCount / viewCount : 0;
+
+  const stats = {
+    title: video.snippet.title.substring(0, 50),
+    viewCount,
+    likeCount,
+    likeRatio: (likeRatio * 100).toFixed(2) + "%",
+    ageInDays: Math.floor(ageInDays),
+    duration: Math.floor(duration / 60) + "分" + (duration % 60) + "秒",
+    publishDate: video.snippet.publishedAt.split("T")[0],
+  };
 
   // 检查观看数
   if (viewCount < QUALITY_FILTERS.minViewCount) {
-    return false;
+    return { passed: false, reason: `观看数不足 (${viewCount} < ${QUALITY_FILTERS.minViewCount})`, stats };
   }
 
   // 检查点赞率
-  const likeRatio = viewCount > 0 ? likeCount / viewCount : 0;
   if (likeRatio < QUALITY_FILTERS.minLikeRatio) {
-    return false;
+    return { passed: false, reason: `点赞率不足 (${(likeRatio * 100).toFixed(2)}% < ${QUALITY_FILTERS.minLikeRatio * 100}%)`, stats };
   }
 
   // 检查发布时间
   if (ageInDays > QUALITY_FILTERS.maxAgeInDays) {
-    return false;
+    return { passed: false, reason: `发布时间过久 (${Math.floor(ageInDays)}天 > ${QUALITY_FILTERS.maxAgeInDays}天)`, stats };
   }
 
   // 检查时长
   if (minDuration && duration < minDuration) {
-    return false;
+    return { passed: false, reason: `时长过短 (${Math.floor(duration)}秒 < ${minDuration}秒)`, stats };
   }
   if (maxDuration && duration > maxDuration) {
-    return false;
+    return { passed: false, reason: `时长过长 (${Math.floor(duration)}秒 > ${maxDuration}秒)`, stats };
   }
 
-  return true;
+  return { passed: true, stats };
 }
 
 /**
@@ -204,6 +215,8 @@ async function main() {
         continue;
       }
 
+      console.log(`   📊 找到 ${searchResults.length} 个原始结果`);
+
       // 2. 获取详细信息
       const videoIds = searchResults.map(v => v.id.videoId);
       const details = await getVideoDetails(videoIds);
@@ -211,20 +224,37 @@ async function main() {
 
       // 3. 筛选和转换
       let accepted = 0;
+      let duplicates = 0;
+      const filterReasons: Record<string, number> = {};
+
       for (const video of searchResults) {
         const detail = detailsMap.get(video.id.videoId);
-        if (!detail) continue;
+        if (!detail) {
+          console.log(`   ⚠️  无法获取视频详情: ${video.snippet.title.substring(0, 40)}`);
+          continue;
+        }
 
         // 去重
-        if (seenIds.has(video.id.videoId)) continue;
+        if (seenIds.has(video.id.videoId)) {
+          duplicates++;
+          continue;
+        }
 
         // 质量筛选
-        if (!passesQualityFilter(
+        const filterResult = passesQualityFilter(
           video,
           detail,
           searchQuery.minDuration,
-          searchQuery.maxDuration
-        )) {
+          searchQuery.maxDuration,
+          true
+        );
+
+        if (!filterResult.passed) {
+          console.log(`   ❌ 过滤: ${filterResult.stats?.title}`);
+          console.log(`      原因: ${filterResult.reason}`);
+          console.log(`      数据: 观看${filterResult.stats?.viewCount} | 点赞率${filterResult.stats?.likeRatio} | ${filterResult.stats?.ageInDays}天前 | ${filterResult.stats?.duration}`);
+
+          filterReasons[filterResult.reason!] = (filterReasons[filterResult.reason!] || 0) + 1;
           continue;
         }
 
@@ -236,12 +266,25 @@ async function main() {
           searchQuery.locale
         );
 
+        console.log(`   ✅ 通过: ${filterResult.stats?.title}`);
+        console.log(`      数据: 观看${filterResult.stats?.viewCount} | 点赞率${filterResult.stats?.likeRatio} | ${filterResult.stats?.ageInDays}天前 | ${filterResult.stats?.duration}`);
+
         allVideos.push(landingVideo);
         seenIds.add(video.id.videoId);
         accepted++;
       }
 
-      console.log(`   ✅ 接受 ${accepted}/${searchResults.length} 个视频\n`);
+      console.log(`\n   📈 结果: ${accepted}/${searchResults.length} 个通过筛选`);
+      if (duplicates > 0) {
+        console.log(`   🔄 去重: ${duplicates} 个重复`);
+      }
+      if (Object.keys(filterReasons).length > 0) {
+        console.log(`   📋 过滤原因统计:`);
+        Object.entries(filterReasons).forEach(([reason, count]) => {
+          console.log(`      - ${reason}: ${count} 个`);
+        });
+      }
+      console.log();
 
       // 避免超过 API 配额，添加延迟
       await new Promise(resolve => setTimeout(resolve, 1000));
@@ -259,7 +302,7 @@ async function main() {
   }
 
   // 4. 按发布日期排序
-  allVideos.sort((a, b) => 
+  allVideos.sort((a, b) =>
     new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime()
   );
 
@@ -282,13 +325,13 @@ export const videos = LandingVideoArraySchema.parse(rawVideos);
 
   console.log(`\n✨ 完成！共抓取 ${allVideos.length} 个视频`);
   console.log(`📝 已写入: src/data/videos.ts`);
-  
+
   // 统计
   const stats = allVideos.reduce((acc, v) => {
     acc[v.category] = (acc[v.category] || 0) + 1;
     return acc;
   }, {} as Record<string, number>);
-  
+
   console.log("\n📊 分类统计:");
   Object.entries(stats).forEach(([category, count]) => {
     console.log(`   ${category}: ${count} 个`);

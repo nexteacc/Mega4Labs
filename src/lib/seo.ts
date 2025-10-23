@@ -10,7 +10,7 @@ import {
 import type { LandingVideo } from "@/lib/types";
 import { formatVideoUrl } from "@/lib/format";
 
-export const BASE_URL = "https://cometperplexity.com";
+export const BASE_URL = "https://www.perplexitypro.info";
 
 export const buildLocalePath = (locale: Locale) =>
   locale === fallbackLocale ? "/" : `/${locale}`;

@@ -56,10 +56,9 @@ export const buildOpenGraph = (locale: Locale): NonNullable<Metadata["openGraph"
 
 export const buildTwitterCard = (locale: Locale): NonNullable<Metadata["twitter"]> => ({
   card: "summary_large_image",
-  title: HERO_HEADLINE[locale].replace(/\n/g, " "),
+  title: SEO_SITE_NAME[locale],
   description: HERO_SUBHEAD[locale],
-  creator: "@perplexity_ai",
-  site: "@perplexity_ai",
+  images: [`${BASE_URL}/twitter-image.jpg`],
 });
 
 

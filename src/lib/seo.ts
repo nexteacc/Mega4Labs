@@ -5,12 +5,16 @@ import {
   HERO_HEADLINE,
   HERO_SUBHEAD,
   HERO_SUPPORTING,
+  SEO_KEYWORDS,
+  SEO_SITE_NAME,
   fallbackLocale,
 } from "@/lib/i18n";
 import type { LandingVideo } from "@/lib/types";
 import { formatVideoUrl } from "@/lib/format";
 
 export const BASE_URL = "https://www.perplexitypro.info";
+export const SITE_AUTHOR = "www.perplexitypro.info";
+export const THEME_COLOR = "#21808d";
 
 export const buildLocalePath = (locale: Locale) =>
   locale === fallbackLocale ? "/" : `/${locale}`;
@@ -30,27 +34,77 @@ export const buildAlternates = (locale: Locale): NonNullable<Metadata["alternate
   };
 };
 
-export const buildPageTitle = (locale: Locale) =>
-  `${HERO_HEADLINE[locale]} · Comet × Perplexity Learning Hub`;
+export const buildPageTitle = (locale: Locale) => {
+  const headline = HERO_HEADLINE[locale].replace(/\n/g, " ");
+  return `${headline} | ${SEO_SITE_NAME[locale]}`;
+};
 
 export const buildPageDescription = (locale: Locale) =>
   `${HERO_SUBHEAD[locale]} ${HERO_SUPPORTING[locale]}`;
+
+export const buildKeywords = (locale: Locale) => SEO_KEYWORDS[locale];
 
 export const buildOpenGraph = (locale: Locale): NonNullable<Metadata["openGraph"]> => ({
   title: buildPageTitle(locale),
   description: buildPageDescription(locale),
   url: buildLocaleUrl(locale),
-  siteName: "Comet × Perplexity Learning Hub",
+  siteName: SEO_SITE_NAME[locale],
   locale,
   type: "website",
   alternateLocale: LOCALES.filter((code) => code !== locale),
+  images: [
+    {
+      url: `${BASE_URL}/og-image.jpg`,
+      width: 1200,
+      height: 630,
+      alt: SEO_SITE_NAME[locale],
+    },
+  ],
 });
 
-export const buildTwitterCard = (locale: Locale): NonNullable<Metadata["twitter"]> => ({
-  card: "summary_large_image",
-  title: buildPageTitle(locale),
-  description: buildPageDescription(locale),
-});
+
+
+export const buildWebsiteJsonLd = (locale: Locale): string => {
+  return JSON.stringify(
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: SEO_SITE_NAME[locale],
+      url: buildLocaleUrl(locale),
+      description: buildPageDescription(locale),
+      inLanguage: locale,
+      author: {
+        "@type": "Organization",
+        name: SITE_AUTHOR,
+      },
+      potentialAction: {
+        "@type": "SearchAction",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate: `${BASE_URL}/search?q={search_term_string}`,
+        },
+        "query-input": "required name=search_term_string",
+      },
+    },
+    null,
+    2
+  );
+};
+
+export const buildOrganizationJsonLd = (): string => {
+  return JSON.stringify(
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: SITE_AUTHOR,
+      url: BASE_URL,
+      logo: `${BASE_URL}/logo.png`,
+      sameAs: ["https://www.youtube.com/@perplexity_ai"],
+    },
+    null,
+    2
+  );
+};
 
 export const buildVideoItemListJsonLd = (
   locale: Locale,

@@ -13,11 +13,13 @@ import {
 } from "@/lib/i18n";
 import {
   buildAlternates,
+  buildKeywords,
   buildOpenGraph,
+  buildOrganizationJsonLd,
   buildPageDescription,
   buildPageTitle,
-  buildTwitterCard,
   buildVideoItemListJsonLd,
+  buildWebsiteJsonLd,
 } from "@/lib/seo";
 import {
   getAllVideosForLocale,
@@ -56,9 +58,26 @@ export async function generateMetadata(
   return {
     title: buildPageTitle(locale),
     description: buildPageDescription(locale),
+    keywords: buildKeywords(locale),
+    authors: [{ name: "Perplexity Pro" }],
+    creator: "Perplexity Pro",
+    publisher: "Perplexity Pro",
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
+    },
     alternates: buildAlternates(locale),
     openGraph: buildOpenGraph(locale),
-    twitter: buildTwitterCard(locale),
+    verification: {
+      google: "your-google-verification-code",
+    },
   };
 }
 
@@ -69,6 +88,8 @@ export default async function LocalePage({ params }: LocalePageProps) {
   const modules = mapModules(getVideoModules(locale));
   const allVideos = getAllVideosForLocale(locale);
   const itemListJsonLd = buildVideoItemListJsonLd(locale, allVideos);
+  const websiteJsonLd = buildWebsiteJsonLd(locale);
+  const organizationJsonLd = buildOrganizationJsonLd();
 
   const tutorialModule = modules.find((module) => module.category === "tutorial");
   const proReviewModule = modules.find((module) => module.category === "proReview");
@@ -130,6 +151,14 @@ export default async function LocalePage({ params }: LocalePageProps) {
         locale={locale}
       />
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: websiteJsonLd }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: organizationJsonLd }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: itemListJsonLd }}

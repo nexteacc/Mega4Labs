@@ -151,3 +151,17 @@ export const BOTTOM_CTA_SUBHEAD: Record<Locale, string> = {
   ja: "CometブラウザとPerplexity Proをすぐに利用できます。カード登録不要",
   zh: "解锁 Comet 浏览器与 Perplexity Pro 权限。无需信用卡。",
 };
+
+export const SEO_KEYWORDS: Record<Locale, string> = {
+  en: "Perplexity AI, Comet Browser, AI search, AI tutorial, productivity tools, research assistant, AI learning, video tutorials, Perplexity Pro, AI workflow",
+  ko: "Perplexity AI, Comet 브라우저, AI 검색, AI 튜토리얼, 생산성 도구, 연구 도우미, AI 학습, 비디오 튜토리얼, Perplexity Pro, AI 워크플로우",
+  ja: "Perplexity AI, Comet ブラウザ, AI検索, AIチュートリアル, 生産性ツール, リサーチアシスタント, AI学習, ビデオチュートリアル, Perplexity Pro, AIワークフロー",
+  zh: "Perplexity AI, Comet 浏览器, AI 搜索, AI 教程, 效率工具, 研究助手, AI 学习, 视频教程, Perplexity Pro, AI 工作流",
+};
+
+export const SEO_SITE_NAME: Record<Locale, string> = {
+  en: "Perplexity Pro Learning Hub",
+  ko: "Perplexity Pro 학습 센터",
+  ja: "Perplexity Pro ラーニングハブ",
+  zh: "Perplexity Pro 学习中心",
+};

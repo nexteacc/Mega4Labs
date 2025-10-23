@@ -1,0 +1,21 @@
+{
+  "name": "Perplexity Pro Learning Hub",
+  "short_name": "Perplexity Pro",
+  "description": "Master Comet Browser and Perplexity AI with curated video tutorials",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#21808d",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

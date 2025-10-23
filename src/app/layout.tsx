@@ -16,7 +16,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Comet & Perplexity Landing",
+  metadataBase: new URL("https://www.perplexitypro.info"),
+  title: {
+    default: "Perplexity Pro Learning Hub",
+    template: "%s | Perplexity Pro",
+  },
   description:
     "Learn how Comet Browser and Perplexity AI combine to accelerate your workflows with curated tutorials, demos, and pro reviews.",
   icons: {
@@ -28,6 +32,7 @@ export const metadata: Metadata = {
       { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
     ],
   },
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
@@ -37,6 +42,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <meta name="theme-color" content="#21808d" />
+        <link rel="preconnect" href="https://www.youtube.com" />
+        <link rel="dns-prefetch" href="https://www.youtube.com" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-base text-primary`}
       >

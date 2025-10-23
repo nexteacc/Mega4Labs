@@ -1,0 +1,48 @@
+{
+  "timestamp": "2025-10-23T13:10:44.009Z",
+  "totalVideos": 61,
+  "byCategory": {
+    "proReview": 16,
+    "hero": 11,
+    "tutorial": 33,
+    "shorts": 1
+  },
+  "byLocale": {
+    "en": 17,
+    "zh": 17,
+    "ko": 15,
+    "ja": 12
+  },
+  "latestVideos": [
+    {
+      "id": "g_lBZ-EJGYY",
+      "title": "Atlas vs Comet: Begun the AI Browser Wars Have",
+      "category": "proReview",
+      "publishDate": "2025-10-22"
+    },
+    {
+      "id": "Wlju7HqHvz4",
+      "title": "🚀ChatGPT Atlas浏览器深度评测：Agent模式自动操作网页太疯狂！从论文分析到网购下单，把搜索→执行变成一条龙！这才是真正的AI浏览器！自动执行复杂任务彻底解放双手！精准总结、翻译长文",
+      "category": "proReview",
+      "publishDate": "2025-10-22"
+    },
+    {
+      "id": "Lbi_YrlOutM",
+      "title": "Perplexity Comet 憑什麼讓我徹底拋棄 Chrome？10個功能自動化你的工作！徹底改變我的工作方式！普通人也能免費用的神級AI瀏覽器，每月 200 美元→現在免費！",
+      "category": "hero",
+      "publishDate": "2025-10-17"
+    },
+    {
+      "id": "p9WhwhYEPsA",
+      "title": "무료 AI 브라우저 퍼플렉시티 코멧 실전 에이전트 기능 총정리, Perplexity Comet Agent",
+      "category": "tutorial",
+      "publishDate": "2025-10-16"
+    },
+    {
+      "id": "XiRzrSdIxO0",
+      "title": "COMET Browser   What can an AI Browser ACTUALLY Do?",
+      "category": "proReview",
+      "publishDate": "2025-10-11"
+    }
+  ]
+}

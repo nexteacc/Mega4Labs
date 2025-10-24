@@ -14,14 +14,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: "daily" as const,
       priority: locale === fallbackLocale ? 1.0 : 0.9,
-      alternates: {
-        languages: Object.fromEntries(
-          LOCALES.map((lang) => [
-            lang,
-            `${BASE_URL}${lang === fallbackLocale ? "" : `/${lang}`}`,
-          ])
-        ),
-      },
     };
   });
 

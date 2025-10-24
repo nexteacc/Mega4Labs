@@ -32,6 +32,13 @@ export const FOOTER_CTA_LABEL: Record<Locale, string> = {
   zh: "领取免费 Pro 权限",
 };
 
+export const LOAD_MORE_LABEL: Record<Locale, string> = {
+  en: "Load More",
+  ko: "더 보기",
+  ja: "もっと見る",
+  zh: "加载更多",
+};
+
 export const HERO_PILL: Record<Locale, string> = {
   en: "⭐ Featured",
   ko: "⭐ 추천",

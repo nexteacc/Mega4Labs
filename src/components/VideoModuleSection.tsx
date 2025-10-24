@@ -1,8 +1,9 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import type { LandingVideo } from "@/lib/types";
 import type { Locale } from "@/lib/i18n";
+import { LOAD_MORE_LABEL } from "@/lib/i18n";
 import { CTAButton } from "@/components/CTAButton";
 import { VideoGrid } from "@/components/VideoGrid";
 import { VideoPlayerDialog } from "@/components/VideoPlayerDialog";
@@ -21,6 +22,9 @@ type VideoModuleSectionProps = {
   };
 };
 
+const INITIAL_LOAD = 6;
+const LOAD_MORE_COUNT = 6;
+
 export function VideoModuleSection({
   title,
   description,
@@ -32,8 +36,10 @@ export function VideoModuleSection({
 }: VideoModuleSectionProps) {
   const [open, setOpen] = useState(false);
   const [selected, setSelected] = useState<LandingVideo | null>(null);
+  const [visibleCount, setVisibleCount] = useState(INITIAL_LOAD);
 
-  const visibleVideos = useMemo(() => videos.slice(0, 6), [videos]);
+  const visibleVideos = videos.slice(0, visibleCount);
+  const hasMore = visibleCount < videos.length;
 
   const handleSelect = (video: LandingVideo) => {
     setSelected(video);
@@ -43,6 +49,10 @@ export function VideoModuleSection({
   const handleClose = () => {
     setOpen(false);
     setTimeout(() => setSelected(null), 200);
+  };
+
+  const handleLoadMore = () => {
+    setVisibleCount((prev) => Math.min(prev + LOAD_MORE_COUNT, videos.length));
   };
 
   return (
@@ -68,6 +78,17 @@ export function VideoModuleSection({
         columns={columns}
         onSelect={(video) => handleSelect(video)}
       />
+
+      {hasMore && (
+        <div className="mt-8 flex justify-center">
+          <button
+            onClick={handleLoadMore}
+            className="rounded-lg bg-primary px-6 py-3 text-base font-medium text-white transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+          >
+            {LOAD_MORE_LABEL[locale]}
+          </button>
+        </div>
+      )}
 
       <VideoPlayerDialog open={open} video={selected} onClose={handleClose} />
     </section>

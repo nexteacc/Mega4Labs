@@ -13,8 +13,8 @@ import type { LandingVideo } from "@/lib/types";
 import { formatVideoUrl } from "@/lib/format";
 import { getVideoCount } from "@/lib/video-stats";
 
-export const BASE_URL = "https://www.perplexitypro.info";
-export const SITE_AUTHOR = "www.perplexitypro.info";
+export const BASE_URL = "https://perplexitypro.info";
+export const SITE_AUTHOR = "perplexitypro.info";
 export const THEME_COLOR = "#21808d";
 
 export const buildLocalePath = (locale: Locale) =>

@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://www.perplexitypro.info/sitemap.xml
+Sitemap: https://perplexitypro.info/sitemap.xml

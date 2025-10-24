@@ -80,7 +80,7 @@ export async function generateMetadata(
     openGraph: buildOpenGraph(locale),
     twitter: buildTwitterCard(locale),
     verification: {
-      google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION || "your-google-verification-code", // 替换为真实的验证码
+      google: "cw9n5nwXJJ1oUv7QS5z0vCjAu7YeDIljmfBfEFE6-VQ",
     },
   };
 }

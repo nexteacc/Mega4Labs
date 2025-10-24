@@ -53,11 +53,34 @@ export const HERO_SUBHEAD: Record<Locale, string> = {
   zh: "通过精选视频教程学习 Comet 与 Perplexity。",
 };
 
-export const HERO_SUPPORTING: Record<Locale, string> = {
-  en: "50+ videos • Updated weekly • Expert-curated",
-  ko: "50+ 영상 • 매주 업데이트 • 전문가 엄선",
-  ja: "50本以上の動画 • 毎週更新 • 専門家が厳選",
-  zh: "50+ 视频 • 每周更新 • 专家精选",
+export const VIDEO_COUNT_LABEL: Record<Locale, string> = {
+  en: "videos",
+  ko: "개 영상",
+  ja: "本の動画",
+  zh: "个视频",
+};
+
+export const buildHeroSupporting = (locale: Locale, videoCount: number): string => {
+  const roundedCount = Math.floor(videoCount / 10) * 10;
+  const countText = locale === "en" 
+    ? `${roundedCount}+ ${VIDEO_COUNT_LABEL[locale]}`
+    : `${roundedCount}+ ${VIDEO_COUNT_LABEL[locale]}`;
+  
+  const updates: Record<Locale, string> = {
+    en: "Updated weekly",
+    ko: "매주 업데이트",
+    ja: "毎週更新",
+    zh: "每周更新",
+  };
+  
+  const curated: Record<Locale, string> = {
+    en: "Expert-curated",
+    ko: "전문가 엄선",
+    ja: "専門家が厳選",
+    zh: "专家精选",
+  };
+  
+  return `${countText} • ${updates[locale]} • ${curated[locale]}`;
 };
 
 export const MODULE_TITLES: Record<
@@ -150,6 +173,48 @@ export const BOTTOM_CTA_SUBHEAD: Record<Locale, string> = {
   ko: "Comet 브라우저와 Perplexity Pro를 바로 사용하세요. 카드 등록 불필요",
   ja: "CometブラウザとPerplexity Proをすぐに利用できます。カード登録不要",
   zh: "解锁 Comet 浏览器与 Perplexity Pro 权限。无需信用卡。",
+};
+
+export const ANNOUNCEMENT_BANNER: Record<Locale, string> = {
+  en: "🎁 Get 1 Month Pro Free — No Credit Card Required",
+  ko: "🎁 Pro 1개월 무료 체험 — 카드 등록 불필요",
+  ja: "🎁 Pro版1ヶ月無料 — カード登録不要",
+  zh: "🎁 免费领取 1 个月 Pro — 无需信用卡",
+};
+
+export const ANNOUNCEMENT_BANNER_MOBILE: Record<Locale, string> = {
+  en: "🎁 1 Month Pro Free — No Card Required",
+  ko: "🎁 Pro 1개월 무료 — 카드 불필요",
+  ja: "🎁 Pro版1ヶ月無料 — カード不要",
+  zh: "🎁 1 个月 Pro 免费 — 无需卡",
+};
+
+export const FOOTER_MADE_WITH_LOVE: Record<Locale, string> = {
+  en: "Made with ❤️ for Comet & Perplexity users",
+  ko: "Comet & Perplexity 사용자를 위해 ❤️로 제작",
+  ja: "Comet & Perplexity ユーザーのために ❤️ で作成",
+  zh: "为 Comet & Perplexity 用户用 ❤️ 制作",
+};
+
+export const FOOTER_BLOG: Record<Locale, string> = {
+  en: "Blog",
+  ko: "블로그",
+  ja: "ブログ",
+  zh: "博客",
+};
+
+export const FOOTER_SUBMIT_VIDEO: Record<Locale, string> = {
+  en: "Submit a Video",
+  ko: "영상 추천하기",
+  ja: "動画を推薦",
+  zh: "推荐视频",
+};
+
+export const FOOTER_COPYRIGHT: Record<Locale, string> = {
+  en: "© 2024 Perplexity Pro Learning Hub. Videos belong to their respective creators.",
+  ko: "© 2024 Perplexity Pro 학습 센터. 영상 저작권은 원 제작자에게 있습니다.",
+  ja: "© 2024 Perplexity Pro ラーニングハブ. 動画の著作権は各制作者に帰属します.",
+  zh: "© 2024 Perplexity Pro 学习中心. 视频版权归原作者所有。",
 };
 
 export const SEO_KEYWORDS: Record<Locale, string> = {

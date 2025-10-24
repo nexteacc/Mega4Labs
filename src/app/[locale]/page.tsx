@@ -10,6 +10,7 @@ import {
   BOTTOM_CTA_HEADLINE,
   BOTTOM_CTA_SUBHEAD,
   resolveLocale,
+  buildHeroSupporting,
 } from "@/lib/i18n";
 import {
   buildAlternates,
@@ -27,6 +28,7 @@ import {
   getHeroVideos,
   getVideoModules,
 } from "@/lib/content";
+import { getVideoCount } from "@/lib/video-stats";
 import type { VideoModule } from "@/lib/types";
 
 type LocalePageProps = Readonly<{
@@ -86,6 +88,8 @@ export async function generateMetadata(
 export default async function LocalePage({ params }: LocalePageProps) {
   const { locale: localeParam } = await params;
   const locale = resolveLocale(localeParam);
+  const videoCount = getVideoCount();
+  const heroSupporting = buildHeroSupporting(locale, videoCount);
   const heroVideos = getHeroVideos(locale);
   const modules = mapModules(getVideoModules(locale));
   const allVideos = getAllVideosForLocale(locale);
@@ -99,7 +103,7 @@ export default async function LocalePage({ params }: LocalePageProps) {
 
   return (
     <>
-      <HeroSection videos={heroVideos} locale={locale} />
+      <HeroSection videos={heroVideos} locale={locale} heroSupporting={heroSupporting} />
 
       {tutorialModule && (
         <VideoModuleSection

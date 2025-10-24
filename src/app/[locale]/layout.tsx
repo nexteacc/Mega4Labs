@@ -1,6 +1,8 @@
 import type { ReactNode } from "react";
 import { LOCALES, fallbackLocale, type Locale } from "@/lib/i18n";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { AnnouncementBanner } from "@/components/AnnouncementBanner";
+import { Footer } from "@/components/Footer";
 
 export const dynamicParams = false;
 
@@ -26,14 +28,18 @@ export default async function LocaleLayout({
   const locale = resolveLocale(localeParam);
 
   return (
-    <div className="min-h-screen bg-base">
-      <header className="mx-auto flex w-full max-w-[1180px] items-center justify-between gap-4 px-6 pb-6 pt-8 sm:px-8 lg:px-10">
-        <div className="rounded-full bg-hero px-4 py-1 text-sm font-medium text-accent">
-          Comet × Perplexity Learning Hub
-        </div>
-        <LanguageSwitcher currentLocale={locale} />
-      </header>
-      <main>{children}</main>
-    </div>
+    <>
+      <div className="min-h-screen bg-base">
+        <AnnouncementBanner locale={locale} />
+        <header className="mx-auto flex w-full max-w-[1180px] items-center justify-between gap-4 px-6 pb-6 pt-8 sm:px-8 lg:px-10">
+          <div className="rounded-full bg-hero px-4 py-1 text-sm font-medium text-accent">
+            Comet × Perplexity Learning Hub
+          </div>
+          <LanguageSwitcher currentLocale={locale} />
+        </header>
+        <main>{children}</main>
+      </div>
+      <Footer locale={locale} />
+    </>
   );
 }

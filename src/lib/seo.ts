@@ -4,13 +4,14 @@ import {
   LOCALES,
   HERO_HEADLINE,
   HERO_SUBHEAD,
-  HERO_SUPPORTING,
   SEO_KEYWORDS,
   SEO_SITE_NAME,
   fallbackLocale,
+  buildHeroSupporting,
 } from "@/lib/i18n";
 import type { LandingVideo } from "@/lib/types";
 import { formatVideoUrl } from "@/lib/format";
+import { getVideoCount } from "@/lib/video-stats";
 
 export const BASE_URL = "https://www.perplexitypro.info";
 export const SITE_AUTHOR = "www.perplexitypro.info";
@@ -39,8 +40,11 @@ export const buildPageTitle = (locale: Locale) => {
   return `${headline} | ${SEO_SITE_NAME[locale]}`;
 };
 
-export const buildPageDescription = (locale: Locale) =>
-  `${HERO_SUBHEAD[locale]} ${HERO_SUPPORTING[locale]}`;
+export const buildPageDescription = (locale: Locale) => {
+  const videoCount = getVideoCount();
+  const heroSupporting = buildHeroSupporting(locale, videoCount);
+  return `${HERO_SUBHEAD[locale]} ${heroSupporting}`;
+};
 
 export const buildKeywords = (locale: Locale) => SEO_KEYWORDS[locale];
 

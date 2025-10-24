@@ -7,7 +7,6 @@ import {
   HERO_HEADLINE,
   HERO_PILL,
   HERO_SUBHEAD,
-  HERO_SUPPORTING,
   CTA_LABELS,
 } from "@/lib/i18n";
 import { CTAButton } from "@/components/CTAButton";
@@ -17,9 +16,10 @@ import { VideoPlayerDialog } from "@/components/VideoPlayerDialog";
 type HeroSectionProps = {
   videos: LandingVideo[];
   locale: Locale;
+  heroSupporting: string;
 };
 
-export function HeroSection({ videos, locale }: HeroSectionProps) {
+export function HeroSection({ videos, locale, heroSupporting }: HeroSectionProps) {
   const [open, setOpen] = useState(false);
   const [selected, setSelected] = useState<LandingVideo | null>(null);
 
@@ -51,7 +51,7 @@ export function HeroSection({ videos, locale }: HeroSectionProps) {
               {HERO_SUBHEAD[locale]}
             </p>
             <p className="text-sm font-medium uppercase tracking-wide text-secondary/70">
-              {HERO_SUPPORTING[locale]}
+              {heroSupporting}
             </p>
           </div>
           <CTAButton locale={locale} location="hero">

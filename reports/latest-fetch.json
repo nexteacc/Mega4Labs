@@ -1,24 +1,18 @@
 {
-  "timestamp": "2025-10-25T10:44:38.268Z",
-  "totalVideos": 20,
+  "timestamp": "2025-10-25T10:53:40.632Z",
+  "totalVideos": 49,
   "byCategory": {
-    "hero": 9,
-    "proReview": 5,
-    "tutorial": 6
+    "proReview": 13,
+    "hero": 15,
+    "tutorial": 21
   },
   "byLocale": {
-    "ja": 5,
-    "en": 7,
-    "zh": 4,
-    "ko": 4
+    "en": 19,
+    "zh": 10,
+    "ja": 10,
+    "ko": 10
   },
   "latestVideos": [
-    {
-      "id": "lny83jEcc9Y",
-      "title": "perplexity refer and earn, perplexity ai refer and earn app, Comet Browser Refer &amp; earn",
-      "category": "hero",
-      "publishDate": "2025-10-25"
-    },
     {
       "id": "Eqe54cxeaUs",
       "title": "ChatGPT Atlas vs Comet: I Tested Both So You Don&#39;t Have To",
@@ -36,6 +30,12 @@
       "title": "How To Use ChatGPT Atlas To Start a One Person Business (New AI Browser)",
       "category": "proReview",
       "publishDate": "2025-10-23"
+    },
+    {
+      "id": "g_lBZ-EJGYY",
+      "title": "Atlas vs Comet: AI Browser Showdown",
+      "category": "hero",
+      "publishDate": "2025-10-22"
     },
     {
       "id": "5uSboan45Zg",

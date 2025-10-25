@@ -225,10 +225,10 @@ export const FOOTER_COPYRIGHT: Record<Locale, string> = {
 };
 
 export const SEO_KEYWORDS: Record<Locale, string> = {
-  en: "Perplexity AI, Comet Browser, AI search, AI tutorial, productivity tools, research assistant, AI learning, video tutorials, Perplexity Pro, AI workflow",
-  ko: "Perplexity AI, Comet 브라우저, AI 검색, AI 튜토리얼, 생산성 도구, 연구 도우미, AI 학습, 비디오 튜토리얼, Perplexity Pro, AI 워크플로우",
-  ja: "Perplexity AI, Comet ブラウザ, AI検索, AIチュートリアル, 生産性ツール, リサーチアシスタント, AI学習, ビデオチュートリアル, Perplexity Pro, AIワークフロー",
-  zh: "Perplexity AI, Comet 浏览器, AI 搜索, AI 教程, 效率工具, 研究助手, AI 学习, 视频教程, Perplexity Pro, AI 工作流",
+  en: "Perplexity AI, Comet Browser, ChatGPT Atlas, AI search, AI browser, AI tutorial, productivity tools, research assistant, AI learning, video tutorials, Perplexity Pro, AI workflow, Atlas vs Comet, browser comparison",
+  ko: "Perplexity AI, Comet 브라우저, ChatGPT Atlas, AI 검색, AI 브라우저, AI 튜토리얼, 생산성 도구, 연구 도우미, AI 학습, 비디오 튜토리얼, Perplexity Pro, AI 워크플로우, Atlas vs Comet, 브라우저 비교",
+  ja: "Perplexity AI, Comet ブラウザ, ChatGPT Atlas, AI検索, AIブラウザ, AIチュートリアル, 生産性ツール, リサーチアシスタント, AI学習, ビデオチュートリアル, Perplexity Pro, AIワークフロー, Atlas vs Comet, ブラウザ比較",
+  zh: "Perplexity AI, Comet 浏览器, ChatGPT Atlas, AI 搜索, AI 浏览器, AI 教程, 效率工具, 研究助手, AI 学习, 视频教程, Perplexity Pro, AI 工作流, Atlas vs Comet, 浏览器对比",
 };
 
 export const SEO_SITE_NAME: Record<Locale, string> = {

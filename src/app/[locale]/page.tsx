@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { IntermediateCTA } from "@/components/IntermediateCTA";
 import { FooterCTA } from "@/components/FooterCTA";
 import { VideoModuleSection } from "@/components/VideoModuleSection";
+import { FAQSection } from "@/components/FAQSection";
 import {
   CTA_LABELS,
   FOOTER_CTA_LABEL,
@@ -22,6 +23,7 @@ import {
   buildPageTitle,
   buildVideoItemListJsonLd,
   buildWebsiteJsonLd,
+  buildFAQPageJsonLd,
 } from "@/lib/seo";
 import {
   getAllVideosForLocale,
@@ -96,6 +98,7 @@ export default async function LocalePage({ params }: LocalePageProps) {
   const itemListJsonLd = buildVideoItemListJsonLd(locale, allVideos);
   const websiteJsonLd = buildWebsiteJsonLd(locale);
   const organizationJsonLd = buildOrganizationJsonLd();
+  const faqPageJsonLd = buildFAQPageJsonLd(locale);
 
   const tutorialModule = modules.find((module) => module.category === "tutorial");
   const proReviewModule = modules.find((module) => module.category === "proReview");
@@ -150,6 +153,8 @@ export default async function LocalePage({ params }: LocalePageProps) {
         />
       )}
 
+      <FAQSection locale={locale} />
+
       <FooterCTA
         headline={BOTTOM_CTA_HEADLINE[locale]}
         subhead={BOTTOM_CTA_SUBHEAD[locale]}
@@ -168,6 +173,10 @@ export default async function LocalePage({ params }: LocalePageProps) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: itemListJsonLd }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: faqPageJsonLd }}
       />
     </>
   );

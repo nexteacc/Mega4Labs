@@ -145,3 +145,28 @@ export const buildVideoItemListJsonLd = (
     2,
   );
 };
+
+export const buildFAQPageJsonLd = (locale: Locale): string => {
+  // 动态导入 FAQ 数据
+  const { FAQ_DATA } = require("@/data/faq");
+  const faqData = FAQ_DATA[locale];
+
+  const mainEntity = faqData.items.map((item: any) => ({
+    "@type": "Question",
+    name: item.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.answer.replace(/\*\*/g, "").replace(/\n/g, " "),
+    },
+  }));
+
+  return JSON.stringify(
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity,
+    },
+    null,
+    2
+  );
+};

@@ -71,6 +71,20 @@ export const SEARCH_QUERIES: SearchQuery[] = [
         maxResults: 8,
         minDuration: 300,
     },
+    {
+        query: "ChatGPT Atlas vs Comet browser",
+        category: "proReview",
+        locale: "en",
+        maxResults: 10,
+        minDuration: 300,
+    },
+    {
+        query: "ChatGPT Atlas browser comparison",
+        category: "proReview",
+        locale: "en",
+        maxResults: 8,
+        minDuration: 300,
+    },
 
     // Shorts - 快速技巧
     {

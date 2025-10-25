@@ -81,6 +81,15 @@ button {
   font-family: inherit;
 }
 
+/* FAQ 样式 */
+.faq-reference-link {
+  color: var(--color-accent);
+}
+
+.faq-reference-link:hover {
+  color: var(--color-accent);
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

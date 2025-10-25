@@ -269,19 +269,12 @@ export const SEARCH_QUERIES: SearchQuery[] = [
  * 质量筛选规则
  * 
  * minViewCount: 最少观看数（1000 = 确保视频有一定热度）
- * minLikeRatio: 最低点赞率（按语言区分）
- *   - en: 3%（英文内容质量高，标准严格）
- *   - ko/ja/zh: 2.5%（其他语言内容较少，适当放宽）
+ * minLikeRatio: 最低点赞率（1.5% = 确保基本质量，适用于所有语言）
  * maxAgeInDays: 最多发布天数（365 = 1年内，确保内容时效性）
  */
 export const QUALITY_FILTERS = {
     minViewCount: 1000,
-    minLikeRatio: {
-        en: 0.03,    // 英文：3%
-        ko: 0.025,   // 韩文：2.5%
-        ja: 0.025,   // 日文：2.5%
-        zh: 0.025,   // 中文：2.5%
-    },
+    minLikeRatio: 0.015,  // 统一 1.5%
     maxAgeInDays: 365,
 };
 

@@ -1,18 +1,47 @@
 {
-  "timestamp": "2025-10-25T10:30:49.581Z",
-  "totalVideos": 1,
+  "timestamp": "2025-10-25T10:44:38.268Z",
+  "totalVideos": 20,
   "byCategory": {
-    "hero": 1
+    "hero": 9,
+    "proReview": 5,
+    "tutorial": 6
   },
   "byLocale": {
-    "ja": 1
+    "ja": 5,
+    "en": 7,
+    "zh": 4,
+    "ko": 4
   },
   "latestVideos": [
     {
-      "id": "qSNRGeZuHeI",
-      "title": "COMET EXPLICADO FÁCIL. Automatiza con navegador agéntico#ia #ai #inteligenciaartificial #perplexity",
+      "id": "lny83jEcc9Y",
+      "title": "perplexity refer and earn, perplexity ai refer and earn app, Comet Browser Refer &amp; earn",
       "category": "hero",
-      "publishDate": "2025-10-10"
+      "publishDate": "2025-10-25"
+    },
+    {
+      "id": "Eqe54cxeaUs",
+      "title": "ChatGPT Atlas vs Comet: I Tested Both So You Don&#39;t Have To",
+      "category": "proReview",
+      "publishDate": "2025-10-24"
+    },
+    {
+      "id": "ya9XWiXA3XM",
+      "title": "ChatGPT Atlas VS Perplexity Comet (Which is Better?)",
+      "category": "proReview",
+      "publishDate": "2025-10-23"
+    },
+    {
+      "id": "M3aQ-_zNirI",
+      "title": "How To Use ChatGPT Atlas To Start a One Person Business (New AI Browser)",
+      "category": "proReview",
+      "publishDate": "2025-10-23"
+    },
+    {
+      "id": "5uSboan45Zg",
+      "title": "OpenAI’s new browser feels familiar…",
+      "category": "tutorial",
+      "publishDate": "2025-10-22"
     }
   ]
 }

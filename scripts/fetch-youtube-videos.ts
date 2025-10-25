@@ -116,6 +116,7 @@ function parseDuration(duration: string): number {
 function passesQualityFilter(
   video: YouTubeSearchResult,
   details: YouTubeVideoDetails,
+  locale: string,
   minDuration?: number,
   maxDuration?: number,
   debug = false
@@ -126,6 +127,11 @@ function passesQualityFilter(
   const publishDate = new Date(video.snippet.publishedAt);
   const ageInDays = (Date.now() - publishDate.getTime()) / (1000 * 60 * 60 * 24);
   const likeRatio = viewCount > 0 ? likeCount / viewCount : 0;
+  
+  // 根据语言获取对应的点赞率标准
+  const minLikeRatio = typeof QUALITY_FILTERS.minLikeRatio === 'object' 
+    ? (QUALITY_FILTERS.minLikeRatio as any)[locale] || 0.03
+    : QUALITY_FILTERS.minLikeRatio;
 
   const stats = {
     title: video.snippet.title.substring(0, 50),
@@ -142,9 +148,9 @@ function passesQualityFilter(
     return { passed: false, reason: `观看数不足 (${viewCount} < ${QUALITY_FILTERS.minViewCount})`, stats };
   }
 
-  // 检查点赞率
-  if (likeRatio < QUALITY_FILTERS.minLikeRatio) {
-    return { passed: false, reason: `点赞率不足 (${(likeRatio * 100).toFixed(2)}% < ${QUALITY_FILTERS.minLikeRatio * 100}%)`, stats };
+  // 检查点赞率（使用语言特定的标准）
+  if (likeRatio < minLikeRatio) {
+    return { passed: false, reason: `点赞率不足 (${(likeRatio * 100).toFixed(2)}% < ${minLikeRatio * 100}%)`, stats };
   }
 
   // 检查发布时间
@@ -244,6 +250,7 @@ async function main() {
         const filterResult = passesQualityFilter(
           video,
           detail,
+          searchQuery.locale,
           searchQuery.minDuration,
           searchQuery.maxDuration,
           true

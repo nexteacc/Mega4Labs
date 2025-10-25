@@ -1,7 +1,18 @@
 {
-  "timestamp": "2025-10-25T02:58:32.009Z",
-  "totalVideos": 0,
-  "byCategory": {},
-  "byLocale": {},
-  "latestVideos": []
+  "timestamp": "2025-10-25T10:30:49.581Z",
+  "totalVideos": 1,
+  "byCategory": {
+    "hero": 1
+  },
+  "byLocale": {
+    "ja": 1
+  },
+  "latestVideos": [
+    {
+      "id": "qSNRGeZuHeI",
+      "title": "COMET EXPLICADO FÁCIL. Automatiza con navegador agéntico#ia #ai #inteligenciaartificial #perplexity",
+      "category": "hero",
+      "publishDate": "2025-10-10"
+    }
+  ]
 }

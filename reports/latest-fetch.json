@@ -1,16 +1,14 @@
 {
-  "timestamp": "2025-10-25T10:53:40.632Z",
-  "totalVideos": 49,
+  "timestamp": "2025-10-26T03:05:19.748Z",
+  "totalVideos": 19,
   "byCategory": {
-    "proReview": 13,
-    "hero": 15,
-    "tutorial": 21
+    "proReview": 11,
+    "hero": 4,
+    "tutorial": 4
   },
   "byLocale": {
-    "en": 19,
-    "zh": 10,
-    "ja": 10,
-    "ko": 10
+    "en": 17,
+    "ko": 2
   },
   "latestVideos": [
     {
@@ -38,9 +36,9 @@
       "publishDate": "2025-10-22"
     },
     {
-      "id": "5uSboan45Zg",
-      "title": "OpenAI’s new browser feels familiar…",
-      "category": "tutorial",
+      "id": "z4EeX4iFk4Y",
+      "title": "OpenAI’s ChatGPT Atlas vs Perplexity&#39;s Comet: CRAZY Agentic Browsers",
+      "category": "proReview",
       "publishDate": "2025-10-22"
     }
   ]

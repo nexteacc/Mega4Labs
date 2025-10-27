@@ -1,16 +1,24 @@
 {
-  "timestamp": "2025-10-26T03:05:19.748Z",
-  "totalVideos": 19,
+  "timestamp": "2025-10-27T03:15:09.399Z",
+  "totalVideos": 47,
   "byCategory": {
-    "proReview": 11,
-    "hero": 4,
-    "tutorial": 4
+    "tutorial": 19,
+    "proReview": 13,
+    "hero": 15
   },
   "byLocale": {
-    "en": 17,
-    "ko": 2
+    "zh": 8,
+    "en": 20,
+    "ja": 9,
+    "ko": 10
   },
   "latestVideos": [
+    {
+      "id": "oFhi7N7NfhI",
+      "title": "【直接送钱】20刀/安装 + 1个月Pro会员 Perplexity AI浏览器Comet真实测评 能否吊打OpanAI Atlas？",
+      "category": "tutorial",
+      "publishDate": "2025-10-25"
+    },
     {
       "id": "Eqe54cxeaUs",
       "title": "ChatGPT Atlas vs Comet: I Tested Both So You Don&#39;t Have To",
@@ -24,21 +32,15 @@
       "publishDate": "2025-10-23"
     },
     {
-      "id": "M3aQ-_zNirI",
-      "title": "How To Use ChatGPT Atlas To Start a One Person Business (New AI Browser)",
-      "category": "proReview",
+      "id": "YkhZEDGwcyM",
+      "title": "Comet AI瀏覽器革命｜效率推薦｜11大實戰工作流全教學｜限時免費Pro版",
+      "category": "tutorial",
       "publishDate": "2025-10-23"
     },
     {
       "id": "g_lBZ-EJGYY",
       "title": "Atlas vs Comet: AI Browser Showdown",
       "category": "hero",
-      "publishDate": "2025-10-22"
-    },
-    {
-      "id": "z4EeX4iFk4Y",
-      "title": "OpenAI’s ChatGPT Atlas vs Perplexity&#39;s Comet: CRAZY Agentic Browsers",
-      "category": "proReview",
       "publishDate": "2025-10-22"
     }
   ]

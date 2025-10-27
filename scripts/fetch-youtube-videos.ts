@@ -53,7 +53,7 @@ type YouTubeVideoDetails = {
 /**
  * 搜索 YouTube 视频
  */
-async function searchVideos(query: string, maxResults: number) {
+async function searchVideos(query: string, maxResults: number, locale?: string) {
   const url = new URL(`${YOUTUBE_API_CONFIG.baseUrl}/search`);
   url.searchParams.set("part", "snippet");
   url.searchParams.set("q", query);
@@ -61,6 +61,20 @@ async function searchVideos(query: string, maxResults: number) {
   url.searchParams.set("order", YOUTUBE_API_CONFIG.order);
   url.searchParams.set("maxResults", maxResults.toString());
   url.searchParams.set("key", YOUTUBE_API_KEY!);
+
+  // 添加语言过滤（优先返回特定语言的视频）
+  // 注意：只对非英文语言添加过滤，英文不限制以获得更多结果
+  if (locale && locale !== "en") {
+    const languageMap: Record<string, string> = {
+      ko: "ko",
+      ja: "ja",
+      zh: "zh", // 中文（包含简体和繁体）
+    };
+    const relevanceLanguage = languageMap[locale];
+    if (relevanceLanguage) {
+      url.searchParams.set("relevanceLanguage", relevanceLanguage);
+    }
+  }
 
   // 如果需要代理，可以在这里配置
   const fetchOptions: RequestInit = {
@@ -111,14 +125,77 @@ function parseDuration(duration: string): number {
 }
 
 /**
+ * 检测视频语言是否匹配
+ * 通过标题和描述中的字符特征判断
+ */
+function detectVideoLanguage(video: YouTubeSearchResult): string {
+  const text = (video.snippet.title + " " + video.snippet.description).toLowerCase();
+
+  // 韩文字符检测
+  if (/[\uAC00-\uD7AF\u1100-\u11FF\u3130-\u318F]/.test(text)) {
+    return "ko";
+  }
+
+  // 日文字符检测（平假名、片假名、汉字）
+  if (/[\u3040-\u309F\u30A0-\u30FF]/.test(text)) {
+    return "ja";
+  }
+
+  // 中文字符检测（包含简体和繁体）
+  if (/[\u4E00-\u9FFF]/.test(text)) {
+    // 进一步区分：如果有日文假名，优先判定为日文
+    if (/[\u3040-\u309F\u30A0-\u30FF]/.test(text)) {
+      return "ja";
+    }
+    return "zh"; // 包含简体中文和繁体中文
+  }
+
+  // 默认为英文
+  return "en";
+}
+
+/**
+ * 检查视频语言是否匹配目标语言
+ */
+function isLanguageMatch(video: YouTubeSearchResult, targetLocale: string): boolean {
+  const detectedLang = detectVideoLanguage(video);
+
+  // 英文市场：接受英文视频
+  if (targetLocale === "en" && detectedLang === "en") {
+    return true;
+  }
+
+  // 非英文市场：优先匹配目标语言
+  if (targetLocale !== "en") {
+    // 如果检测到目标语言，直接通过
+    if (detectedLang === targetLocale) {
+      return true;
+    }
+
+    // 如果是英文视频，检查是否包含目标语言的关键词
+    if (detectedLang === "en") {
+      const text = (video.snippet.title + " " + video.snippet.description).toLowerCase();
+      const hasTargetLanguageKeywords =
+        (targetLocale === "ko" && /[\uAC00-\uD7AF]/.test(text)) ||
+        (targetLocale === "ja" && /[\u3040-\u309F\u30A0-\u30FF]/.test(text)) ||
+        (targetLocale === "zh" && /[\u4E00-\u9FFF]/.test(text));
+
+      // 如果英文视频中包含目标语言关键词，也可以接受
+      return hasTargetLanguageKeywords;
+    }
+  }
+
+  return false;
+}
+
+/**
  * 质量筛选
  */
 function passesQualityFilter(
   video: YouTubeSearchResult,
   details: YouTubeVideoDetails,
   minDuration?: number,
-  maxDuration?: number,
-  debug = false
+  maxDuration?: number
 ): { passed: boolean; reason?: string; stats?: any } {
   const viewCount = parseInt(details.statistics.viewCount || "0");
   const likeCount = parseInt(details.statistics.likeCount || "0");
@@ -204,10 +281,11 @@ async function main() {
     console.log(`🔍 搜索: "${searchQuery.query}" (${searchQuery.category})`);
 
     try {
-      // 1. 搜索视频
+      // 1. 搜索视频（传入 locale 参数进行语言过滤）
       const searchResults = await searchVideos(
         searchQuery.query,
-        searchQuery.maxResults
+        searchQuery.maxResults,
+        searchQuery.locale
       );
 
       if (searchResults.length === 0) {
@@ -240,13 +318,21 @@ async function main() {
           continue;
         }
 
+        // 语言匹配检测
+        if (!isLanguageMatch(video, searchQuery.locale)) {
+          const detectedLang = detectVideoLanguage(video);
+          console.log(`   🌐 语言不匹配: ${video.snippet.title.substring(0, 40)}`);
+          console.log(`      期望: ${searchQuery.locale} | 检测到: ${detectedLang}`);
+          filterReasons["语言不匹配"] = (filterReasons["语言不匹配"] || 0) + 1;
+          continue;
+        }
+
         // 质量筛选
         const filterResult = passesQualityFilter(
           video,
           detail,
           searchQuery.minDuration,
-          searchQuery.maxDuration,
-          true
+          searchQuery.maxDuration
         );
 
         if (!filterResult.passed) {

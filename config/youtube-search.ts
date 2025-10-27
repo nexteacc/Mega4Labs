@@ -268,12 +268,12 @@ export const SEARCH_QUERIES: SearchQuery[] = [
 /**
  * 质量筛选规则
  * 
- * minViewCount: 最少观看数（1000 = 确保视频有一定热度）
+ * minViewCount: 最少观看数（500 = 确保视频有一定热度）
  * minLikeRatio: 最低点赞率（1.5% = 确保基本质量，适用于所有语言）
  * maxAgeInDays: 最多发布天数（365 = 1年内，确保内容时效性）
  */
 export const QUALITY_FILTERS = {
-    minViewCount: 1000,
+    minViewCount: 500,
     minLikeRatio: 0.015,  // 统一 1.5%
     maxAgeInDays: 365,
 };

@@ -1,16 +1,16 @@
 {
-  "timestamp": "2025-10-27T03:15:09.399Z",
-  "totalVideos": 47,
+  "timestamp": "2025-10-28T03:03:09.893Z",
+  "totalVideos": 49,
   "byCategory": {
-    "tutorial": 19,
+    "tutorial": 22,
     "proReview": 13,
-    "hero": 15
+    "hero": 14
   },
   "byLocale": {
-    "zh": 8,
-    "en": 20,
-    "ja": 9,
-    "ko": 10
+    "zh": 9,
+    "en": 16,
+    "ko": 14,
+    "ja": 10
   },
   "latestVideos": [
     {
@@ -32,15 +32,15 @@
       "publishDate": "2025-10-23"
     },
     {
-      "id": "YkhZEDGwcyM",
-      "title": "Comet AI瀏覽器革命｜效率推薦｜11大實戰工作流全教學｜限時免費Pro版",
+      "id": "O-kKWv0m2lU",
+      "title": "오픈AI에서 만든 챗GPT 기반 AI 브라우저 아틀라스, Chat GPT Atlas 실사용 후기 vs 퍼플렉시트 코멧, Perplexity Comet",
       "category": "tutorial",
       "publishDate": "2025-10-23"
     },
     {
       "id": "g_lBZ-EJGYY",
       "title": "Atlas vs Comet: AI Browser Showdown",
-      "category": "hero",
+      "category": "tutorial",
       "publishDate": "2025-10-22"
     }
   ]

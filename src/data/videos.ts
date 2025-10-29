@@ -4,10 +4,107 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-10-28T03:03:09.892Z
- * 总数: 49 个视频
+ * 生成时间: 2025-10-29T03:10:54.715Z
+ * 总数: 54 个视频
  */
 const rawVideos: LandingVideo[] = [
+  {
+    "id": "tafNOU3fDgU",
+    "locale": "en",
+    "category": "hero",
+    "title": "This AI Website Pays $15 Per Task | Earn Money with Perplexity AI &amp; Comet Browser Referral Program",
+    "description": "Discover how to get paid $15-$20 per task from Perplexity AI's Comet browser invitation program. This is a limited-time offer where ...",
+    "channelTitle": "MediaFuse",
+    "publishDate": "2025-10-27",
+    "duration": "PT21M23S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/tafNOU3fDgU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
+    "id": "015ncEDzdRA",
+    "locale": "en",
+    "category": "proReview",
+    "title": "Atlas VS Comet VS Edge: AI Browser Showdown!",
+    "description": "Want to get more customers, make more profit & save 100s of hours with AI? https://go.juliangoldie.com/ai-profit-boardroom Get a ...",
+    "channelTitle": "Julian Goldie SEO",
+    "publishDate": "2025-10-27",
+    "duration": "PT8M8S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/015ncEDzdRA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "seo",
+      "chatgpt",
+      "seotips"
+    ]
+  },
+  {
+    "id": "3Xkb3Q4x0F8",
+    "locale": "zh",
+    "category": "tutorial",
+    "title": "💡AI改寫瀏覽器格局：Chrome與新世代AI瀏覽器的終極對決！",
+    "description": "註冊Comet  https://pplx.ai/service91956 加入AI投資學院+  https://link.brain168.com/ai 13年來，Chrome幾乎無人能撼動，直到 ...",
+    "channelTitle": "G股團長 金睿",
+    "publishDate": "2025-10-26",
+    "duration": "PT12M10S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/3Xkb3Q4x0F8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "投資",
+      "理財",
+      "投資理財",
+      "股票",
+      "G股團長",
+      "chrome",
+      "google chrome",
+      "chrome ai",
+      "chrome vs comet",
+      "comet browser",
+      "perplexity comet",
+      "ai 瀏覽器",
+      "瀏覽器比較",
+      "ai 搜尋",
+      "ai agent",
+      "上下文搜尋",
+      "知識搜尋",
+      "投資研究",
+      "股票研究",
+      "台股",
+      "被動元件",
+      "mlcc",
+      "產業分析",
+      "基本面分析",
+      "籌碼面",
+      "技術面",
+      "xq 全球贏家",
+      "第一根漲停",
+      "創新高",
+      "excel 匯出",
+      "csv 下載",
+      "自動化研究",
+      "ai 工具",
+      "生產力提升",
+      "研究流程",
+      "投資策略",
+      "g股團長",
+      "ai 投資學院",
+      "comet vs chrome",
+      "research workflow",
+      "stock analysis"
+    ]
+  },
   {
     "id": "oFhi7N7NfhI",
     "locale": "zh",
@@ -70,6 +167,45 @@ const rawVideos: LandingVideo[] = [
     "tags": []
   },
   {
+    "id": "xawn4C43TWo",
+    "locale": "en",
+    "category": "proReview",
+    "title": "ChatGPT Atlas, OpenAI’s new web browser",
+    "description": "Explore the podcast → https://ibm.biz/BdbfcG OpenAI is back and coming for search. This week on Mixture of Experts, we debrief ...",
+    "channelTitle": "IBM Technology",
+    "publishDate": "2025-10-24",
+    "duration": "PT44M48S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/xawn4C43TWo/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
+    "id": "OyMak1F6eoc",
+    "locale": "ko",
+    "category": "tutorial",
+    "title": "퍼플렉시티 + 코멧 첫 시작? 이것 부터 세팅하고 첫 대화 시작하세요! AI 검색을 위한 브라우저 Perplexity Comet",
+    "description": "퍼플렉시티 Pro 1개월 무료 & 코멧 무료 다운로드 받기 https://pplx.ai/potatoai ✓ 감자친구 월 12000원으로 프롬프트 강의를 시청 ...",
+    "channelTitle": "감자나라ai",
+    "publishDate": "2025-10-24",
+    "duration": "PT7M9S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/OyMak1F6eoc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "인공지능",
+      "AI",
+      "챗GPT",
+      "cheatgpt"
+    ]
+  },
+  {
     "id": "ya9XWiXA3XM",
     "locale": "en",
     "category": "proReview",
@@ -101,6 +237,30 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "M3aQ-_zNirI",
+    "locale": "en",
+    "category": "proReview",
+    "title": "How To Use ChatGPT Atlas To Start a One Person Business (New AI Browser)",
+    "description": "OpenAI Just released ChatGPT Atlas and it's incredible! In this video I'll show you how it works and why it's PERFECT for running ...",
+    "channelTitle": "Paul J Lipsky",
+    "publishDate": "2025-10-23",
+    "duration": "PT15M",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/M3aQ-_zNirI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "chatgpt atlas",
+      "ai browser",
+      "one person business",
+      "one person ai business",
+      "how to make money with chatgpt",
+      "how to make money with chatgpt atlas"
+    ]
+  },
+  {
     "id": "O-kKWv0m2lU",
     "locale": "ko",
     "category": "tutorial",
@@ -120,6 +280,65 @@ const rawVideos: LandingVideo[] = [
       "AI",
       "챗GPT",
       "cheatgpt"
+    ]
+  },
+  {
+    "id": "d96cKB8MInA",
+    "locale": "ko",
+    "category": "proReview",
+    "title": "챗GPT 아틀라스 vs 코멧, 누가 진짜 &#39;일&#39; 잘하나? (실전 자동화 예시 12가지 전격 비교)",
+    "description": "챗GPT가 만든 AI 브라우저 '아틀라스(Atlas)' 드디어 출시! (vs 퍼플렉시티 코멧) ✔️OpenAI의 '아틀라스' 참전으로 'AI 에이전트 ...",
+    "channelTitle": "단테랩스",
+    "publishDate": "2025-10-23",
+    "duration": "PT36M21S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/d96cKB8MInA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "코맷",
+      "아틀라스",
+      "ai브라우저"
+    ]
+  },
+  {
+    "id": "y5oDLba8Hig",
+    "locale": "ja",
+    "category": "tutorial",
+    "title": "【Atlas, Comet】AIブラウザを使う前に絶対に見るべき動画【プロンプトインジェクション】",
+    "description": "彗星の如く登場したOpenAIのAIブラウザAtlas、かねてよりCometやDiaなどAIブラウザは存在していましたが、今回一気に注目が ...",
+    "channelTitle": "AIでサボろうチャンネル",
+    "publishDate": "2025-10-23",
+    "duration": "PT4M57S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/y5oDLba8Hig/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
+    "id": "YkhZEDGwcyM",
+    "locale": "zh",
+    "category": "tutorial",
+    "title": "Comet AI瀏覽器革命｜效率推薦｜11大實戰工作流全教學｜限時免費Pro版",
+    "description": "Comet｜AI瀏覽器｜工作效率提升｜必看推薦！」 你是否也厭倦了無止盡的瀏覽器分頁地獄、被彈出式廣告打斷思緒，以及為了 ...",
+    "channelTitle": "🎧 憶筆M.S. | 陪你走過 AI 學習之路",
+    "publishDate": "2025-10-23",
+    "duration": "PT15M51S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/YkhZEDGwcyM/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "comet",
+      "perplexity",
+      "browser"
     ]
   },
   {
@@ -365,32 +584,9 @@ const rawVideos: LandingVideo[] = [
     "tags": []
   },
   {
-    "id": "DzhGIpOVJbU",
-    "locale": "en",
-    "category": "tutorial",
-    "title": "7 Mind-Blowing Use Cases of Perplexity Comet Agents",
-    "description": "Join my AI Playbook® community—in just one week, discover how to trim 5 hours off your workweek & unlock $500–$1K in new ...",
-    "channelTitle": "Rick Mulready",
-    "publishDate": "2025-10-16",
-    "duration": "PT12M42S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/DzhGIpOVJbU/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "Comet browser",
-      "Perplexity Comet",
-      "Comet agents",
-      "Comet AI",
-      "AI agents"
-    ]
-  },
-  {
     "id": "p9WhwhYEPsA",
     "locale": "ko",
-    "category": "tutorial",
+    "category": "hero",
     "title": "무료 AI 브라우저 퍼플렉시티 코멧 실전 에이전트 기능 총정리, Perplexity Comet Agent",
     "description": "퍼플렉시티 Pro 1개월 무료 & 코멧 무료 다운로드 받기 https://pplx.ai/potatoai ✓ 감자친구 월 12000원으로 프롬프트 강의를 시청 ...",
     "channelTitle": "감자나라ai",
@@ -541,39 +737,41 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "6TBpTvwNujA",
+    "id": "iTN-79VT8lo",
     "locale": "en",
-    "category": "proReview",
-    "title": "Perplexity Comet Review - Is it REALLY Worth the HYPE? | Comet Browser Review",
-    "description": "Perplexity Comet Review - Is it REALLY Worth the HYPE? | Comet Browser Review Perplexity Comet (Free Pro) ...",
-    "channelTitle": "Success Minder",
+    "category": "tutorial",
+    "title": "This AI Browser Completely Changes How I Build WordPress Websites (Perplexity Comet)",
+    "description": "AI did it again. Another way to speed up my design and development workflow in a way I never thought of...directly in the browser!",
+    "channelTitle": "Jeffrey @ Lytbox",
     "publishDate": "2025-10-08",
-    "duration": "PT9M22S",
+    "duration": "PT9M50S",
     "platform": "youtube",
     "thumbnail": {
-      "url": "https://i.ytimg.com/vi/6TBpTvwNujA/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/iTN-79VT8lo/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
     "tags": [
-      "Perplexity comet review",
-      "Perplexity comet browser review",
-      "Perplexity comet honest review",
-      "Comet browser honest review",
-      "Comet review",
-      "Comet browser review",
-      "Comet ai browser review",
-      "Perplexity comet ai browser review",
-      "comet ai review",
-      "Perplexity comet demo",
-      "Perplexity comet browser demo",
-      "Perplexity comet tutorial",
-      "Perplexity comet browser tutorial",
-      "Perplexity comet features",
-      "Perplexity comet use cases",
-      "hindi song to use perplexity comet",
-      "Comet browser tutorial",
-      "Comet use cases"
+      "perplexity comet",
+      "ai browser",
+      "ai productivity tools",
+      "comet browser review",
+      "perplexity ai",
+      "ai news",
+      "comet browser",
+      "comet perplexity",
+      "ai productivity tools for work",
+      "free ai productivity tools",
+      "ai productivity tools 2025",
+      "ai tools for productivity outskill",
+      "ai tools to help with productivity",
+      "wordpress ai",
+      "wordpress ai tools",
+      "wordpress ai integration",
+      "how to use ai tools for productivity",
+      "perplexity comet use cases",
+      "perplexity comet browser",
+      "perplexity comet features"
     ]
   },
   {
@@ -727,6 +925,31 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "lqAHw6TwLsk",
+    "locale": "en",
+    "category": "tutorial",
+    "title": "10 Perplexity Comet Agents to Automate Your Work (AI Browser)",
+    "description": "Perplexity just launched Comet — the free AI browser that doesn't just search, it executes. So that means, it's literally an AI agent ...",
+    "channelTitle": "Grace Leung",
+    "publishDate": "2025-10-03",
+    "duration": "PT16M9S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/lqAHw6TwLsk/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "perplexity comet",
+      "AI browser",
+      "Perplexity AI Browser",
+      "Perplexity tutorial",
+      "AI Browser Agent",
+      "Perplexity AI agent",
+      "AI agent use case"
+    ]
+  },
+  {
     "id": "ISHRonVyE_0",
     "locale": "ja",
     "category": "tutorial",
@@ -852,23 +1075,6 @@ const rawVideos: LandingVideo[] = [
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/fs2BUmxMP80/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
-    "id": "SySZWpDC-cY",
-    "locale": "zh",
-    "category": "tutorial",
-    "title": "Perplexity Comet 免費開放下載、免邀請碼啦！對決 ChatGPT 代理模式｜AI 助理誰比較強？功能實測一次看懂！#CometBrowser",
-    "description": "10/3起，Perplexity正式宣佈全球開放下載－也不需要邀請碼啦！） AI 助理大對決⚡誰才是真正的網路幫手？ 你還在自己比價、找 ...",
-    "channelTitle": "T客邦影新聞",
-    "publishDate": "2025-09-30",
-    "duration": "PT16M10S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/SySZWpDC-cY/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
@@ -1036,28 +1242,6 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "70ERnUFxvKs",
-    "locale": "ko",
-    "category": "tutorial",
-    "title": "파이썬으로 크롤링 할 필요 없다! AI로 코딩 없이 웹페이지 크롤링 하는 방법 | 퍼플렉시티 코멧, Perplexity Comet",
-    "description": "코멧 다운로드 받기 https://pplx.ai/potatoai 퍼플렉시티 1개월 무료 : https://perplexity.ai/pro?referral_code=FGUU42VB (이 링크를 ...",
-    "channelTitle": "감자나라ai",
-    "publishDate": "2025-09-01",
-    "duration": "PT6M37S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/70ERnUFxvKs/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "인공지능",
-      "AI",
-      "챗GPT",
-      "cheatgpt"
-    ]
-  },
-  {
     "id": "KayYycPHBpg",
     "locale": "ko",
     "category": "hero",
@@ -1157,7 +1341,7 @@ const rawVideos: LandingVideo[] = [
   {
     "id": "LCQoxxefeUg",
     "locale": "ja",
-    "category": "hero",
+    "category": "tutorial",
     "title": "【大注目】AI搭載の次世代ブラウザ！あのPerplexityが作ったブラウザ『Comet』がヤバすぎた。おすすめ機能・使い方・活用方法まで徹底解説します！",
     "description": "今回の動画について＞ あのPerplexityが作ったAIブラウザ『Comet』について、 機能・使い方・活用方法など詳しく解説してい ...",
     "channelTitle": "ウェブマニア",
@@ -1257,56 +1441,6 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "XeErHOHcE24",
-    "locale": "zh",
-    "category": "tutorial",
-    "title": "這個全新AI用法真的太狂！每天省下3小時 全部自動化",
-    "description": "搶先體驗美國限定的AI 新功能！使用我的Surfshark 專屬優惠連結，可獲得額外4 個月服務！",
-    "channelTitle": "蘋果妹",
-    "publishDate": "2025-08-05",
-    "duration": "PT13M39S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/XeErHOHcE24/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "蘋果妹",
-      "apple",
-      "UCIpZAGl9xHcuzmHW0AAJs7g",
-      "apple gal",
-      "蘋果爹",
-      "3c",
-      "iPhone",
-      "ios",
-      "教學",
-      "設定",
-      "小技巧",
-      "gemini",
-      "NotebookLM",
-      "Google",
-      "ChatGPT",
-      "AI",
-      "perplexity",
-      "comet",
-      "manus",
-      "grok",
-      "ai",
-      "代理",
-      "agent",
-      "旅遊",
-      "報告",
-      "簡報",
-      "分析",
-      "生圖",
-      "veo3",
-      "瀏覽器",
-      "chrome",
-      "nano banana"
-    ]
-  },
-  {
     "id": "KRmDj6RXXMg",
     "locale": "en",
     "category": "hero",
@@ -1347,7 +1481,7 @@ const rawVideos: LandingVideo[] = [
   {
     "id": "IRI4BRmt8cs",
     "locale": "en",
-    "category": "tutorial",
+    "category": "proReview",
     "title": "REVIEW   Perplexity Comet AI Browser",
     "description": "REVIEW Perplexity Comet AI Browser. ▶️MENTIONED TOOLS: (Video Specific Links If Needed) -. ▶️ABOUT ME: Unlock the ...",
     "channelTitle": "Jonathan Mast",
@@ -1405,23 +1539,6 @@ const rawVideos: LandingVideo[] = [
       "크롬",
       "브라우저전쟁"
     ]
-  },
-  {
-    "id": "QO7EE2xAa1M",
-    "locale": "ja",
-    "category": "proReview",
-    "title": "［切抜解説］Perplexityのブラウザ「Comet」ってどうなの？",
-    "description": "0:00 様々な利用ケース紹介 8:52 「認知的なオペレーティングシステム」のように機能を目指している ※本動画は2025/7/11配信版 ...",
-    "channelTitle": "The WAVE TV【AIの最新動向解説チャンネル】",
-    "publishDate": "2025-07-23",
-    "duration": "PT16M17S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/QO7EE2xAa1M/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
   },
   {
     "id": "dSSxWElsrMc",

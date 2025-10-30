@@ -71,34 +71,34 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   };
 
   return (
-    <div className="mx-auto w-full max-w-[1180px] px-6 py-12 sm:px-8 lg:px-10">
+    <div className="mx-auto w-full max-w-[1180px] px-4 py-8 sm:px-8 sm:py-12 lg:px-10">
       {/* Back Button */}
       <Link
         href={`/${locale}/blog`}
-        className="mb-8 inline-flex items-center text-sm text-secondary hover:text-primary transition-colors"
+        className="mb-6 inline-flex items-center text-xs text-secondary hover:text-primary transition-colors sm:mb-8 sm:text-sm"
       >
         {backLabels[locale]}
       </Link>
 
       {/* Article Header */}
       <article className="mx-auto max-w-[800px]">
-        <header className="mb-8">
-          <h1 className="mb-4 text-4xl font-bold text-primary sm:text-5xl">
+        <header className="mb-6 sm:mb-8">
+          <h1 className="mb-3 text-2xl font-bold text-primary break-words sm:mb-4 sm:text-4xl lg:text-5xl">
             {post.title}
           </h1>
-          <div className="flex flex-wrap items-center gap-4 text-sm text-secondary">
-            <span>{post.author}</span>
+          <div className="flex flex-wrap items-center gap-2 text-xs text-secondary sm:gap-4 sm:text-sm">
+            <span className="truncate">{post.author}</span>
             <span>•</span>
-            <time dateTime={post.publishDate}>{post.publishDate}</time>
+            <time dateTime={post.publishDate} className="truncate">{post.publishDate}</time>
             <span>•</span>
-            <span>{post.readingTime}</span>
+            <span className="truncate">{post.readingTime}</span>
           </div>
           {post.tags.length > 0 && (
-            <div className="mt-4 flex flex-wrap gap-2">
+            <div className="mt-3 flex flex-wrap gap-1.5 sm:mt-4 sm:gap-2">
               {post.tags.map((tag) => (
                 <span
                   key={tag}
-                  className="rounded-full bg-hero px-3 py-1 text-xs font-medium text-accent"
+                  className="rounded-full bg-hero px-2.5 py-0.5 text-[10px] font-medium text-accent sm:px-3 sm:py-1 sm:text-xs"
                 >
                   {tag}
                 </span>
@@ -109,18 +109,18 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
         {/* Article Content */}
         <div
-          className="prose prose-lg prose-invert max-w-none"
+          className="prose prose-sm prose-invert max-w-none sm:prose-base lg:prose-lg break-words"
           dangerouslySetInnerHTML={{ __html: post.content || "" }}
         />
       </article>
 
       {/* Related Posts */}
       {relatedPosts.length > 0 && (
-        <div className="mx-auto mt-16 max-w-[1180px]">
-          <h2 className="mb-8 text-2xl font-bold text-primary">
+        <div className="mx-auto mt-12 max-w-[1180px] sm:mt-16">
+          <h2 className="mb-6 text-xl font-bold text-primary break-words sm:mb-8 sm:text-2xl">
             {relatedLabels[locale]}
           </h2>
-          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3 lg:gap-8">
             {relatedPosts.map((relatedPost) => (
               <BlogCard key={relatedPost.slug} post={relatedPost} locale={locale} />
             ))}

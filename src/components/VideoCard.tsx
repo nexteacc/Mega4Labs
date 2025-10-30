@@ -68,29 +68,29 @@ export function VideoCard({
 
         {/* Hover overlay with play button */}
         <div className="absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-          <span className="inline-flex h-16 w-16 items-center justify-center rounded-full bg-white text-2xl font-semibold text-primary shadow-[0_16px_40px_rgba(33,128,141,0.4)] transition-transform duration-200 group-hover:scale-110">
+          <span className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-white text-xl font-semibold text-primary shadow-[0_16px_40px_rgba(33,128,141,0.4)] transition-transform duration-200 group-hover:scale-110 sm:h-16 sm:w-16 sm:text-2xl">
             ▶
           </span>
         </div>
 
-        <div className="absolute inset-x-4 bottom-4 flex flex-wrap items-center gap-2 text-xs font-semibold text-white">
-          <span className="inline-flex items-center gap-1 rounded-full bg-black/60 px-2 py-1">
+        <div className="absolute inset-x-2 bottom-2 flex flex-wrap items-center gap-1.5 text-[10px] font-semibold text-white sm:inset-x-4 sm:bottom-4 sm:gap-2 sm:text-xs">
+          <span className="inline-flex items-center gap-0.5 rounded-full bg-black/60 px-1.5 py-0.5 sm:gap-1 sm:px-2 sm:py-1">
             ⏱ {formatDuration(video.duration)}
           </span>
-          <span className="inline-flex items-center gap-1 rounded-full bg-white/15 px-2 py-1">
+          <span className="inline-flex items-center gap-0.5 rounded-full bg-white/15 px-1.5 py-0.5 sm:gap-1 sm:px-2 sm:py-1">
             📅 {formatPublishDate(video.publishDate, locale)}
           </span>
         </div>
       </div>
 
-      <div className="flex flex-1 flex-col gap-2 px-4 pb-4 pt-4 text-left">
-        <h3 className="text-base font-semibold leading-snug text-primary">
+      <div className="flex flex-1 flex-col gap-1.5 px-3 pb-3 pt-3 text-left sm:gap-2 sm:px-4 sm:pb-4 sm:pt-4">
+        <h3 className="text-sm font-semibold leading-snug text-primary break-words sm:text-base">
           {video.title}
         </h3>
-        <p className="line-clamp-2 text-sm leading-relaxed text-secondary">
+        <p className="line-clamp-2 text-xs leading-relaxed text-secondary break-words sm:text-sm">
           {video.description}
         </p>
-        <span className="text-xs font-semibold uppercase tracking-wide text-secondary/70">
+        <span className="text-[10px] font-semibold uppercase tracking-wide text-secondary/70 truncate sm:text-xs">
           {video.channelTitle}
         </span>
       </div>

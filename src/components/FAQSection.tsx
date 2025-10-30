@@ -17,14 +17,14 @@ export function FAQSection({ locale }: FAQSectionProps) {
   };
 
   return (
-    <section className="py-16 px-4 bg-gradient-to-b from-white to-gray-50">
+    <section className="py-12 px-4 bg-gradient-to-b from-white to-gray-50 sm:py-16">
       <div className="max-w-4xl mx-auto">
         {/* 标题 */}
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-3 break-words sm:mb-4">
             {faqData.title}
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-base text-gray-600 max-w-2xl mx-auto break-words sm:text-lg">
             {faqData.description}
           </p>
         </div>
@@ -39,14 +39,14 @@ export function FAQSection({ locale }: FAQSectionProps) {
               {/* 问题按钮 */}
               <button
                 onClick={() => toggleItem(index)}
-                className="w-full px-6 py-4 text-left flex items-center justify-between gap-4 hover:bg-gray-50 transition-colors rounded-lg"
+                className="w-full px-4 py-3 text-left flex items-center justify-between gap-3 hover:bg-gray-50 transition-colors rounded-lg sm:px-6 sm:py-4 sm:gap-4"
                 aria-expanded={openIndex === index}
               >
-                <span className="text-lg font-semibold text-gray-900 flex-1">
+                <span className="text-base font-semibold text-gray-900 flex-1 break-words sm:text-lg">
                   {item.question}
                 </span>
                 <svg
-                  className={`w-5 h-5 text-gray-500 transition-transform flex-shrink-0 ${openIndex === index ? "rotate-180" : ""
+                  className={`w-4 h-4 text-gray-500 transition-transform flex-shrink-0 sm:w-5 sm:h-5 ${openIndex === index ? "rotate-180" : ""
                     }`}
                   fill="none"
                   viewBox="0 0 24 24"
@@ -63,9 +63,9 @@ export function FAQSection({ locale }: FAQSectionProps) {
 
               {/* 答案内容 */}
               {openIndex === index && (
-                <div className="px-6 pb-6 pt-2">
+                <div className="px-4 pb-4 pt-2 sm:px-6 sm:pb-6">
                   <div
-                    className="prose prose-gray max-w-none text-gray-700 leading-relaxed"
+                    className="prose prose-gray max-w-none text-sm text-gray-700 leading-relaxed break-words sm:text-base"
                     dangerouslySetInnerHTML={{
                       __html: formatAnswer(item.answer, item.references),
                     }}

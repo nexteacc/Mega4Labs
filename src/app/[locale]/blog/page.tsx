@@ -58,20 +58,20 @@ export default async function BlogPage({ params }: BlogPageProps) {
   };
 
   return (
-    <div className="mx-auto w-full max-w-[1180px] px-6 py-12 sm:px-8 lg:px-10">
-      <div className="mb-12 text-center">
-        <h1 className="mb-4 text-4xl font-bold text-primary sm:text-5xl">
+    <div className="mx-auto w-full max-w-[1180px] px-4 py-8 sm:px-8 sm:py-12 lg:px-10">
+      <div className="mb-8 text-center sm:mb-12">
+        <h1 className="mb-3 text-3xl font-bold text-primary break-words sm:mb-4 sm:text-4xl lg:text-5xl">
           {headings[locale]}
         </h1>
-        <p className="text-lg text-secondary">{subheadings[locale]}</p>
+        <p className="text-base text-secondary break-words sm:text-lg">{subheadings[locale]}</p>
       </div>
 
       {posts.length === 0 ? (
-        <div className="py-20 text-center text-secondary">
+        <div className="py-16 text-center text-sm text-secondary sm:py-20 sm:text-base">
           {emptyMessages[locale]}
         </div>
       ) : (
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3 lg:gap-8">
           {posts.map((post) => (
             <BlogCard key={post.slug} post={post} locale={locale} />
           ))}

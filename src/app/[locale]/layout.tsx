@@ -39,17 +39,19 @@ export default async function LocaleLayout({
     <>
       <div className="min-h-screen bg-base">
         <AnnouncementBanner locale={locale} />
-        <header className="mx-auto flex w-full max-w-[1180px] items-center justify-between gap-4 px-6 pb-6 pt-8 sm:px-8 lg:px-10">
+        <header className="mx-auto flex w-full max-w-[1180px] items-center justify-between gap-2 px-4 pb-6 pt-8 sm:gap-4 sm:px-8 lg:px-10">
           <Link
             href={`/${locale}`}
-            className="rounded-full bg-hero px-4 py-1 text-sm font-medium text-accent hover:opacity-80 transition-opacity"
+            className="rounded-full bg-hero px-3 py-1 text-xs font-medium text-accent hover:opacity-80 transition-opacity sm:px-4 sm:text-sm truncate max-w-[140px] sm:max-w-none"
+            title="Comet × Perplexity Learning Hub"
           >
-            Comet × Perplexity Learning Hub
+            <span className="hidden sm:inline">Comet × Perplexity Learning Hub</span>
+            <span className="inline sm:hidden">C × P Hub</span>
           </Link>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2 sm:gap-4 flex-shrink-0">
             <Link
               href={`/${locale}/blog`}
-              className="rounded-full border border-border bg-panel px-4 py-1.5 text-sm font-medium text-primary hover:border-accent hover:text-accent transition-colors"
+              className="rounded-full border border-border bg-panel px-3 py-1.5 text-xs font-medium text-primary hover:border-accent hover:text-accent transition-colors sm:px-4 sm:text-sm"
             >
               {blogLabels[locale]}
             </Link>

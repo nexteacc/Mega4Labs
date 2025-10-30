@@ -34,7 +34,7 @@ export function VideoGrid({
   columns = { base: 1, md: 2, lg: 3 },
 }: VideoGridProps) {
   const gridClass = clsx(
-    "grid gap-6",
+    "grid gap-4 sm:gap-6",
     columns.base && columnClassMap[columns.base],
     columns.md && `sm:${columnClassMap[columns.md]}`,
     columns.lg && `lg:${columnClassMap[columns.lg]}`,

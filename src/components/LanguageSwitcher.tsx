@@ -72,13 +72,13 @@ export function LanguageSwitcher({
   return (
     <div
       className={clsx(
-        "inline-flex items-center gap-2 rounded-full border border-border bg-panel px-3 py-1.5 shadow-sm",
+        "inline-flex items-center gap-1.5 rounded-full border border-border bg-panel px-2.5 py-1.5 shadow-sm sm:gap-2 sm:px-3",
         className,
       )}
     >
-      <span className="text-xs font-medium text-secondary">Language</span>
+      <span className="hidden text-xs font-medium text-secondary sm:inline">Language</span>
       <select
-        className="appearance-none bg-transparent text-sm font-semibold text-primary focus:outline-none"
+        className="appearance-none bg-transparent text-xs font-semibold text-primary focus:outline-none sm:text-sm"
         value={currentLocale}
         onChange={handleChange}
         aria-label="Switch language"
@@ -89,7 +89,7 @@ export function LanguageSwitcher({
           </option>
         ))}
       </select>
-      <span aria-hidden className="text-secondary">⌄</span>
+      <span aria-hidden className="text-xs text-secondary sm:text-sm">⌄</span>
     </div>
   );
 }

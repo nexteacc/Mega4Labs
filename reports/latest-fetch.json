@@ -1,16 +1,16 @@
 {
-  "timestamp": "2025-10-30T03:06:43.498Z",
-  "totalVideos": 59,
+  "timestamp": "2025-10-31T03:06:31.588Z",
+  "totalVideos": 50,
   "byCategory": {
-    "tutorial": 24,
-    "proReview": 19,
-    "hero": 16
+    "tutorial": 20,
+    "proReview": 17,
+    "hero": 13
   },
   "byLocale": {
-    "en": 23,
-    "zh": 11,
-    "ko": 15,
-    "ja": 10
+    "en": 20,
+    "ko": 14,
+    "zh": 7,
+    "ja": 9
   },
   "latestVideos": [
     {
@@ -20,28 +20,28 @@
       "publishDate": "2025-10-29"
     },
     {
-      "id": "iWndPSMgVHA",
-      "title": "EP11 Google與Anthropic官宣合作！ChatGPT Atlas瀏覽器好用嗎？ Netflix財報“暴雷”？$GOOG $NFLX 最新估值分析 20251028",
-      "category": "tutorial",
-      "publishDate": "2025-10-28"
-    },
-    {
-      "id": "OYwxqP5rMT4",
-      "title": "Perplexity Comet vs Microsoft Edge: Best AI Browser?",
-      "category": "tutorial",
-      "publishDate": "2025-10-27"
-    },
-    {
       "id": "FcFgW_R4HB4",
       "title": "챗GPT AI브라우저 Atlas 출시! 크롬에서 코멧 말고 이걸로 갈아타야 할까?",
-      "category": "tutorial",
+      "category": "proReview",
       "publishDate": "2025-10-26"
     },
     {
       "id": "oFhi7N7NfhI",
       "title": "【直接送钱】20刀/安装 + 1个月Pro会员 Perplexity AI浏览器Comet真实测评 能否吊打OpanAI Atlas？",
-      "category": "tutorial",
+      "category": "hero",
       "publishDate": "2025-10-25"
+    },
+    {
+      "id": "Eqe54cxeaUs",
+      "title": "ChatGPT Atlas vs Comet: I Tested Both So You Don&#39;t Have To",
+      "category": "proReview",
+      "publishDate": "2025-10-24"
+    },
+    {
+      "id": "cmgnijeQ4GA",
+      "title": "Agentic Browser Showdown: ChatGPT Atlas vs. Perplexity Comet",
+      "category": "proReview",
+      "publishDate": "2025-10-24"
     }
   ]
 }

@@ -16,251 +16,128 @@ export const SEARCH_QUERIES: SearchQuery[] = [
     // ========================================
     // 英文市场 (en)
     // ========================================
-    
-    // Hero - 精选教程（需要 3-4 个）
-    {
-        query: "Comet browser complete guide",
-        category: "hero",
-        locale: "en",
-        maxResults: 5,
-        minDuration: 180,
-    },
-    {
-        query: "Perplexity Comet browser tutorial",
-        category: "hero",
-        locale: "en",
-        maxResults: 5,
-        minDuration: 180,
-    },
 
-    // Tutorial - 教程主体（需要 8+ 个）
-    {
-        query: "Comet browser tutorial",
-        category: "tutorial",
-        locale: "en",
-        maxResults: 10,
-        minDuration: 120,
-    },
+    // Tutorial - 教学类（how to 是核心区分词）
     {
         query: "Comet browser how to use",
         category: "tutorial",
         locale: "en",
-        maxResults: 10,
-        minDuration: 120,
-    },
-    {
-        query: "Comet AI browser guide",
-        category: "tutorial",
-        locale: "en",
-        maxResults: 10,
-        minDuration: 120,
+        maxResults: 30,
+        minDuration: 120,      // 2分钟+
+        maxDuration: 600,      // 10分钟内
     },
 
-    // ProReview - 深度测评
+    // ProReview - 评测类（review 是核心区分词）
     {
         query: "Comet browser review",
         category: "proReview",
         locale: "en",
-        maxResults: 8,
-        minDuration: 300,
-    },
-    {
-        query: "Perplexity Comet browser review",
-        category: "proReview",
-        locale: "en",
-        maxResults: 8,
-        minDuration: 300,
-    },
-    {
-        query: "ChatGPT Atlas vs Comet browser",
-        category: "proReview",
-        locale: "en",
-        maxResults: 10,
-        minDuration: 300,
-    },
-    {
-        query: "ChatGPT Atlas browser comparison",
-        category: "proReview",
-        locale: "en",
-        maxResults: 8,
-        minDuration: 300,
+        maxResults: 30,
+        minDuration: 300,      // 5分钟+（深度内容）
     },
 
-    // Shorts - 快速技巧
+    // Shorts - 快速内容（tips 是核心区分词，时长是物理边界）
     {
         query: "Comet browser tips",
         category: "shorts",
         locale: "en",
-        maxResults: 10,
-        maxDuration: 90,
-    },
-    {
-        query: "Comet browser features",
-        category: "shorts",
-        locale: "en",
-        maxResults: 10,
-        maxDuration: 90,
+        maxResults: 30,
+        maxDuration: 90,       // 90秒内
     },
 
     // ========================================
     // 韩文市场 (ko)
     // ========================================
-    
-    // Hero - 精选教程
-    {
-        query: "Comet 브라우저 완벽 가이드",
-        category: "hero",
-        locale: "ko",
-        maxResults: 5,
-        minDuration: 180,
-    },
-    {
-        query: "Perplexity Comet 브라우저 튜토리얼",
-        category: "hero",
-        locale: "ko",
-        maxResults: 5,
-        minDuration: 180,
-    },
 
-    // Tutorial - 教程主体
+    // Tutorial - 教学类
     {
-        query: "Comet 브라우저 사용법",
+        query: "Comet 브라우저 사용법",  // 使用方法（地道表达）
         category: "tutorial",
         locale: "ko",
-        maxResults: 10,
+        maxResults: 30,
         minDuration: 120,
-    },
-    {
-        query: "Comet AI 브라우저 가이드",
-        category: "tutorial",
-        locale: "ko",
-        maxResults: 10,
-        minDuration: 120,
+        maxDuration: 600,
     },
 
-    // ProReview - 深度测评
+    // ProReview - 评测类
     {
-        query: "Comet 브라우저 리뷰",
+        query: "Comet 브라우저 리뷰",  // 评测（韩国人常用 리뷰）
         category: "proReview",
         locale: "ko",
-        maxResults: 8,
+        maxResults: 30,
         minDuration: 300,
     },
 
-    // Shorts - 快速技巧
+    // Shorts - 快速内容
     {
-        query: "Comet 브라우저 팁",
+        query: "Comet 브라우저 팁",  // 技巧（韩国人常用 팁，也可用 사용 팁）
         category: "shorts",
         locale: "ko",
-        maxResults: 10,
+        maxResults: 30,
         maxDuration: 90,
     },
 
     // ========================================
     // 日文市场 (ja)
     // ========================================
-    
-    // Hero - 精选教程
-    {
-        query: "Comet ブラウザ 完全ガイド",
-        category: "hero",
-        locale: "ja",
-        maxResults: 5,
-        minDuration: 180,
-    },
-    {
-        query: "Perplexity Comet ブラウザ チュートリアル",
-        category: "hero",
-        locale: "ja",
-        maxResults: 5,
-        minDuration: 180,
-    },
 
-    // Tutorial - 教程主体
+    // Tutorial - 教学类
     {
-        query: "Comet ブラウザ 使い方",
+        query: "Comet ブラウザ 使い方",  // 使用方法（日本人最常用）
         category: "tutorial",
         locale: "ja",
-        maxResults: 10,
+        maxResults: 30,
         minDuration: 120,
-    },
-    {
-        query: "Comet AI ブラウザ ガイド",
-        category: "tutorial",
-        locale: "ja",
-        maxResults: 10,
-        minDuration: 120,
+        maxDuration: 600,
     },
 
-    // ProReview - 深度测评
+    // ProReview - 评测类
     {
-        query: "Comet ブラウザ レビュー",
+        query: "Comet ブラウザ レビュー",  // 评测（日本人常用 レビュー）
         category: "proReview",
         locale: "ja",
-        maxResults: 8,
+        maxResults: 30,
         minDuration: 300,
     },
 
-    // Shorts - 快速技巧
+    // Shorts - 快速内容
     {
-        query: "Comet ブラウザ ヒント",
+        query: "Comet ブラウザ 使い方 コツ",  // 使用技巧（コツ 比 ヒント 更地道）
         category: "shorts",
         locale: "ja",
-        maxResults: 10,
+        maxResults: 30,
         maxDuration: 90,
     },
 
     // ========================================
     // 中文市场 (zh)
     // ========================================
-    
-    // Hero - 精选教程
-    {
-        query: "Comet 浏览器 完整指南",
-        category: "hero",
-        locale: "zh",
-        maxResults: 5,
-        minDuration: 180,
-    },
-    {
-        query: "Perplexity Comet 浏览器 教程",
-        category: "hero",
-        locale: "zh",
-        maxResults: 5,
-        minDuration: 180,
-    },
 
-    // Tutorial - 教程主体
+    // Tutorial - 教学类
     {
         query: "Comet 浏览器 使用教程",
         category: "tutorial",
         locale: "zh",
-        maxResults: 10,
+        maxResults: 30,
         minDuration: 120,
-    },
-    {
-        query: "Comet AI 浏览器 指南",
-        category: "tutorial",
-        locale: "zh",
-        maxResults: 10,
-        minDuration: 120,
+        maxDuration: 600,
     },
 
-    // ProReview - 深度测评
+    // ProReview - 评测类
     {
         query: "Comet 浏览器 评测",
         category: "proReview",
         locale: "zh",
-        maxResults: 8,
+        maxResults: 30,
         minDuration: 300,
     },
 
-    // Shorts - 快速技巧
+    // Shorts - 快速内容
     {
         query: "Comet 浏览器 技巧",
         category: "shorts",
         locale: "zh",
-        maxResults: 10,
+        maxResults: 30,
         maxDuration: 90,
     },
 ];
@@ -268,14 +145,33 @@ export const SEARCH_QUERIES: SearchQuery[] = [
 /**
  * 质量筛选规则
  * 
- * minViewCount: 最少观看数（500 = 确保视频有一定热度）
- * minLikeRatio: 最低点赞率（1.5% = 确保基本质量，适用于所有语言）
- * maxAgeInDays: 最多发布天数（365 = 1年内，确保内容时效性）
+ * 不同类别有不同的质量要求：
+ * - Tutorial: 标准要求（观看数500+，点赞率1.5%+）
+ * - ProReview: 更高可信度要求（观看数1000+，点赞率2%+）
+ * - Shorts: 标准要求（观看数500+，点赞率1.5%+）
+ * - Hero: 从所有类别中精选（观看数2000+，点赞率2%+）
  */
 export const QUALITY_FILTERS = {
-    minViewCount: 500,
-    minLikeRatio: 0.015,  // 统一 1.5%
-    maxAgeInDays: 365,
+    tutorial: {
+        minViewCount: 500,
+        minLikeRatio: 0.015,
+        maxAgeInDays: 365,
+    },
+    proReview: {
+        minViewCount: 1000,
+        minLikeRatio: 0.02,
+        maxAgeInDays: 365,
+    },
+    shorts: {
+        minViewCount: 500,
+        minLikeRatio: 0.015,
+        maxAgeInDays: 365,
+    },
+    hero: {
+        minViewCount: 2000,
+        minLikeRatio: 0.02,
+        maxAgeInDays: 365,
+    },
 };
 
 /**

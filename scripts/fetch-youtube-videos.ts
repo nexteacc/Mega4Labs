@@ -194,6 +194,7 @@ function isLanguageMatch(video: YouTubeSearchResult, targetLocale: string): bool
 function passesQualityFilter(
   video: YouTubeSearchResult,
   details: YouTubeVideoDetails,
+  category: string,
   minDuration?: number,
   maxDuration?: number
 ): { passed: boolean; reason?: string; stats?: any } {
@@ -214,19 +215,23 @@ function passesQualityFilter(
     publishDate: video.snippet.publishedAt.split("T")[0],
   };
 
+  // 根据类别获取质量标准
+  const categoryKey = category as keyof typeof QUALITY_FILTERS;
+  const filters = QUALITY_FILTERS[categoryKey] || QUALITY_FILTERS.tutorial;
+
   // 检查观看数
-  if (viewCount < QUALITY_FILTERS.minViewCount) {
-    return { passed: false, reason: `观看数不足 (${viewCount} < ${QUALITY_FILTERS.minViewCount})`, stats };
+  if (viewCount < filters.minViewCount) {
+    return { passed: false, reason: `观看数不足 (${viewCount} < ${filters.minViewCount})`, stats };
   }
 
   // 检查点赞率
-  if (likeRatio < QUALITY_FILTERS.minLikeRatio) {
-    return { passed: false, reason: `点赞率不足 (${(likeRatio * 100).toFixed(2)}% < ${QUALITY_FILTERS.minLikeRatio * 100}%)`, stats };
+  if (likeRatio < filters.minLikeRatio) {
+    return { passed: false, reason: `点赞率不足 (${(likeRatio * 100).toFixed(2)}% < ${filters.minLikeRatio * 100}%)`, stats };
   }
 
   // 检查发布时间
-  if (ageInDays > QUALITY_FILTERS.maxAgeInDays) {
-    return { passed: false, reason: `发布时间过久 (${Math.floor(ageInDays)}天 > ${QUALITY_FILTERS.maxAgeInDays}天)`, stats };
+  if (ageInDays > filters.maxAgeInDays) {
+    return { passed: false, reason: `发布时间过久 (${Math.floor(ageInDays)}天 > ${filters.maxAgeInDays}天)`, stats };
   }
 
   // 检查时长
@@ -241,6 +246,14 @@ function passesQualityFilter(
 }
 
 /**
+ * 扩展的视频类型，包含统计数据用于 Hero 精选
+ */
+type LandingVideoWithStats = LandingVideo & {
+  viewCount: number;
+  likeRatio: number;
+};
+
+/**
  * 转换为 LandingVideo 格式
  */
 function convertToLandingVideo(
@@ -248,7 +261,11 @@ function convertToLandingVideo(
   details: YouTubeVideoDetails,
   category: string,
   locale: string
-): LandingVideo {
+): LandingVideoWithStats {
+  const viewCount = parseInt(details.statistics.viewCount || "0");
+  const likeCount = parseInt(details.statistics.likeCount || "0");
+  const likeRatio = viewCount > 0 ? likeCount / viewCount : 0;
+
   return {
     id: video.id.videoId,
     locale: locale as any,
@@ -265,6 +282,8 @@ function convertToLandingVideo(
       height: video.snippet.thumbnails.high.height,
     },
     tags: details.snippet.tags || [],
+    viewCount,
+    likeRatio,
   };
 }
 
@@ -273,12 +292,23 @@ function convertToLandingVideo(
  */
 async function main() {
   console.log("🚀 开始抓取 YouTube 视频...\n");
+  console.log("📋 优化策略:");
+  console.log("   - 每个语言市场只搜索 3 次（Tutorial、ProReview、Shorts）");
+  console.log("   - Hero 从其他类别中精选，可重复");
+  console.log("   - Tutorial、ProReview、Shorts 三者互斥\n");
 
-  const allVideos: LandingVideo[] = [];
+  // 按类别分组存储视频（包含统计数据）
+  const videosByCategory: Record<string, LandingVideoWithStats[]> = {
+    tutorial: [],
+    proReview: [],
+    shorts: [],
+  };
+  
+  // 全局去重（跨类别）
   const seenIds = new Set<string>();
 
   for (const searchQuery of SEARCH_QUERIES) {
-    console.log(`🔍 搜索: "${searchQuery.query}" (${searchQuery.category})`);
+    console.log(`🔍 搜索: "${searchQuery.query}" (${searchQuery.category} - ${searchQuery.locale})`);
 
     try {
       // 1. 搜索视频（传入 locale 参数进行语言过滤）
@@ -312,7 +342,7 @@ async function main() {
           continue;
         }
 
-        // 去重
+        // 去重（确保三个类别互斥）
         if (seenIds.has(video.id.videoId)) {
           duplicates++;
           continue;
@@ -327,10 +357,11 @@ async function main() {
           continue;
         }
 
-        // 质量筛选
+        // 质量筛选（传入类别以应用不同标准）
         const filterResult = passesQualityFilter(
           video,
           detail,
+          searchQuery.category,
           searchQuery.minDuration,
           searchQuery.maxDuration
         );
@@ -355,14 +386,14 @@ async function main() {
         console.log(`   ✅ 通过: ${filterResult.stats?.title}`);
         console.log(`      数据: 观看${filterResult.stats?.viewCount} | 点赞率${filterResult.stats?.likeRatio} | ${filterResult.stats?.ageInDays}天前 | ${filterResult.stats?.duration}`);
 
-        allVideos.push(landingVideo);
+        videosByCategory[searchQuery.category].push(landingVideo);
         seenIds.add(video.id.videoId);
         accepted++;
       }
 
       console.log(`\n   📈 结果: ${accepted}/${searchResults.length} 个通过筛选`);
       if (duplicates > 0) {
-        console.log(`   🔄 去重: ${duplicates} 个重复`);
+        console.log(`   🔄 去重: ${duplicates} 个重复（跨类别互斥）`);
       }
       if (Object.keys(filterReasons).length > 0) {
         console.log(`   📋 过滤原因统计:`);
@@ -387,12 +418,54 @@ async function main() {
     }
   }
 
-  // 4. 按发布日期排序
+  // 4. 从三个类别中精选 Hero（可以重复）
+  console.log("🌟 开始精选 Hero 视频...");
+  const allCategoryVideos = [
+    ...videosByCategory.tutorial,
+    ...videosByCategory.proReview,
+    ...videosByCategory.shorts,
+  ];
+
+  const heroFilters = QUALITY_FILTERS.hero;
+  const heroVideos = allCategoryVideos
+    .filter(v => {
+      // 使用 Hero 的更高质量标准
+      const meetsStandard = 
+        v.viewCount >= heroFilters.minViewCount &&
+        v.likeRatio >= heroFilters.minLikeRatio;
+      
+      if (meetsStandard) {
+        console.log(`   ✅ Hero 候选: ${v.title.substring(0, 40)} (观看${v.viewCount}, 点赞率${(v.likeRatio * 100).toFixed(2)}%)`);
+      }
+      
+      return meetsStandard;
+    })
+    .sort((a, b) => {
+      // 按观看数排序，选择最受欢迎的视频
+      return b.viewCount - a.viewCount;
+    })
+    .slice(0, 4) // 选择 Top 4
+    .map(v => {
+      const { viewCount, likeRatio, ...videoData } = v;
+      return { ...videoData, category: "hero" as const };
+    });
+
+  console.log(`   ✨ 精选了 ${heroVideos.length} 个 Hero 视频（标准: 观看数${heroFilters.minViewCount}+, 点赞率${heroFilters.minLikeRatio * 100}%+）\n`);
+
+  // 5. 合并所有视频（移除统计数据）
+  const allVideos: LandingVideo[] = [
+    ...heroVideos,
+    ...videosByCategory.tutorial.map(({ viewCount, likeRatio, ...v }) => v),
+    ...videosByCategory.proReview.map(({ viewCount, likeRatio, ...v }) => v),
+    ...videosByCategory.shorts.map(({ viewCount, likeRatio, ...v }) => v),
+  ];
+
+  // 6. 按发布日期排序
   allVideos.sort((a, b) =>
     new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime()
   );
 
-  // 5. 生成文件
+  // 7. 生成文件
   const output = `import type { LandingVideo } from "@/lib/types";
 
 import { LandingVideoArraySchema } from "@/lib/videos";
@@ -401,6 +474,11 @@ import { LandingVideoArraySchema } from "@/lib/videos";
  * 自动生成的视频数据
  * 生成时间: ${new Date().toISOString()}
  * 总数: ${allVideos.length} 个视频
+ * 
+ * 抓取策略:
+ * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
+ * - Hero 从其他类别精选（可重复）
+ * - Tutorial、ProReview、Shorts 互斥（无重复）
  */
 const rawVideos: LandingVideo[] = ${JSON.stringify(allVideos, null, 2)};
 
@@ -423,19 +501,34 @@ export const videos = LandingVideoArraySchema.parse(rawVideos);
     console.log(`   ${category}: ${count} 个`);
   });
 
+  const localeStats = allVideos.reduce((acc, v) => {
+    acc[v.locale] = (acc[v.locale] || 0) + 1;
+    return acc;
+  }, {} as Record<string, number>);
+
+  console.log("\n🌍 语言统计:");
+  Object.entries(localeStats).forEach(([locale, count]) => {
+    console.log(`   ${locale}: ${count} 个`);
+  });
+
   // 生成 JSON 报告
   const report = {
     timestamp: new Date().toISOString(),
     totalVideos: allVideos.length,
+    totalSearches: SEARCH_QUERIES.length,
     byCategory: stats,
-    byLocale: allVideos.reduce((acc, v) => {
-      acc[v.locale] = (acc[v.locale] || 0) + 1;
-      return acc;
-    }, {} as Record<string, number>),
+    byLocale: localeStats,
+    optimization: {
+      searchesPerLanguage: 3,
+      totalLanguages: 4,
+      heroSelectionStrategy: "从其他类别精选 Top 4",
+      deduplicationStrategy: "Tutorial、ProReview、Shorts 互斥",
+    },
     latestVideos: allVideos.slice(0, 5).map(v => ({
       id: v.id,
       title: v.title,
       category: v.category,
+      locale: v.locale,
       publishDate: v.publishDate,
     })),
   };

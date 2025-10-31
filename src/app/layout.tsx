@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
+import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -40,6 +41,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // 验证 Google Analytics Measurement ID 格式
+  const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+  const isValidGAId = gaId && /^G-[A-Z0-9]+$/.test(gaId);
+
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
@@ -52,6 +57,7 @@ export default function RootLayout({
       >
         {children}
         <Analytics />
+        {isValidGAId && <GoogleAnalytics measurementId={gaId} />}
       </body>
     </html>
   );

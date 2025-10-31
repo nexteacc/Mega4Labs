@@ -20,6 +20,7 @@ type VideoModuleSectionProps = {
     md?: 1 | 2 | 3 | 4;
     lg?: 1 | 2 | 3 | 4;
   };
+  showCTA?: boolean;
 };
 
 const INITIAL_LOAD = 6;
@@ -33,6 +34,7 @@ export function VideoModuleSection({
   ctaLabel,
   cardVariant = "default",
   columns,
+  showCTA = true,
 }: VideoModuleSectionProps) {
   const [open, setOpen] = useState(false);
   const [selected, setSelected] = useState<LandingVideo | null>(null);
@@ -66,9 +68,11 @@ export function VideoModuleSection({
             {description}
           </p>
         </div>
-        <CTAButton variant="ghost" locale={locale} location="module">
-          {ctaLabel}
-        </CTAButton>
+        {showCTA && (
+          <CTAButton variant="ghost" locale={locale} location="module">
+            {ctaLabel}
+          </CTAButton>
+        )}
       </div>
 
       <VideoGrid

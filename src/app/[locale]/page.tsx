@@ -118,6 +118,7 @@ export default async function LocalePage({ params }: LocalePageProps) {
           ctaLabel={CTA_LABELS[locale]}
           cardVariant={tutorialModule.settings.cardVariant}
           columns={tutorialModule.settings.columns}
+          showCTA={false}
         />
       )}
 
@@ -137,6 +138,7 @@ export default async function LocalePage({ params }: LocalePageProps) {
           ctaLabel={CTA_LABELS[locale]}
           cardVariant={proReviewModule.settings.cardVariant}
           columns={proReviewModule.settings.columns}
+          showCTA={false}
         />
       )}
 
@@ -150,6 +152,7 @@ export default async function LocalePage({ params }: LocalePageProps) {
           ctaLabel={CTA_LABELS[locale]}
           cardVariant={shortsModule.settings.cardVariant}
           columns={shortsModule.settings.columns}
+          showCTA={false}
         />
       )}
 

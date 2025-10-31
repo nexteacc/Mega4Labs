@@ -183,17 +183,17 @@ export const BOTTOM_CTA_SUBHEAD: Record<Locale, string> = {
 };
 
 export const ANNOUNCEMENT_BANNER: Record<Locale, string> = {
-  en: "🎁 Get 1 Month Pro Free — No Credit Card Required",
-  ko: "🎁 Pro 1개월 무료 체험 — 카드 등록 불필요",
-  ja: "🎁 Pro版1ヶ月無料 — カード登録不要",
-  zh: "🎁 免费领取 1 个月 Pro — 无需信用卡",
+  en: "⚠️ Perplexity has disabled the invitation code. We apologize for the inconvenience.",
+  ko: "⚠️ Perplexity 공식에서 초대 코드를 비활성화했습니다. 불편을 드려 죄송합니다.",
+  ja: "⚠️ Perplexity公式が招待コードを無効化しました。ご不便をおかけして申し訳ございません。",
+  zh: "⚠️ Perplexity 官方已禁用邀请码，非常抱歉给您带来不便。",
 };
 
 export const ANNOUNCEMENT_BANNER_MOBILE: Record<Locale, string> = {
-  en: "🎁 1 Month Pro Free — No Card Required",
-  ko: "🎁 Pro 1개월 무료 — 카드 불필요",
-  ja: "🎁 Pro版1ヶ月無料 — カード不要",
-  zh: "🎁 1 个月 Pro 免费 — 无需卡",
+  en: "⚠️ Invitation code disabled",
+  ko: "⚠️ 초대 코드 비활성화됨",
+  ja: "⚠️ 招待コード無効化",
+  zh: "⚠️ 邀请码已失效",
 };
 
 export const FOOTER_MADE_WITH_LOVE: Record<Locale, string> = {

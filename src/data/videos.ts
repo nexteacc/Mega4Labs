@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-10-31T03:33:27.391Z
- * 总数: 48 个视频
+ * 生成时间: 2025-11-01T03:06:37.379Z
+ * 总数: 44 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -52,6 +52,72 @@ const rawVideos: LandingVideo[] = [
       "Gmail integration browser",
       "best browser for research",
       "agentic browser"
+    ]
+  },
+  {
+    "id": "xEYWlIRTDXw",
+    "locale": "ja",
+    "category": "proReview",
+    "title": "すべてのブラウザをAI搭載の”次世代ブラウザ”に変えるクローム拡張機能がいろいろとすごい件",
+    "description": "ウェブマニア公式note始めました：https://note.com/webmania_note ＜今回の動画について＞ ChromeやVivaldiなどAIを搭載し ...",
+    "channelTitle": "ウェブマニア",
+    "publishDate": "2025-10-29",
+    "duration": "PT8M43S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/xEYWlIRTDXw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "ゆっくり",
+      "ゆっくり解説",
+      "ウェブ",
+      "ウェブマニア",
+      "拡張機能",
+      "クローム拡張機能",
+      "Chrome",
+      "ブラウザ",
+      "アドオン",
+      "Vivaldi"
+    ]
+  },
+  {
+    "id": "ohzNvM8AEqE",
+    "locale": "ko",
+    "category": "proReview",
+    "title": "오픈AI 아틀라스 리뷰 | 크롬을 대체한 진짜 AI 브라우저",
+    "description": "AI가 이제 쿠팡에서 장을 본다고요?“검색하고, 비교하고, 장바구니 담고” 이 모든 걸 ChatGPT가 대신해주는 시대가 왔습니다. 오픈AI ...",
+    "channelTitle": "일맛",
+    "publishDate": "2025-10-26",
+    "duration": "PT7M7S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/ohzNvM8AEqE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "ChatGPT",
+      "오픈AI",
+      "크롬대체",
+      "AI혁신",
+      "Atlas브라우저",
+      "인공지능",
+      "AI활용",
+      "퍼플렉시티",
+      "코멧",
+      "DIA",
+      "생산성툴",
+      "업무자동화",
+      "AI트렌드",
+      "AI생산성",
+      "AI리뷰",
+      "기술리뷰",
+      "일맛",
+      "나이스무브",
+      "IT트렌드",
+      "오픈AI아틀라스"
     ]
   },
   {
@@ -175,7 +241,7 @@ const rawVideos: LandingVideo[] = [
     "id": "YkhZEDGwcyM",
     "locale": "zh",
     "category": "proReview",
-    "title": "Comet AI瀏覽器革命｜效率推薦｜11大實戰工作流全教學｜限時免費Pro版",
+    "title": "Comet AI瀏覽器革命！效率推薦．11大實戰工作流全教學",
     "description": "Comet｜AI瀏覽器｜工作效率提升｜必看推薦！」 你是否也厭倦了無止盡的瀏覽器分頁地獄、被彈出式廣告打斷思緒，以及為了 ...",
     "channelTitle": "🎧 憶筆M.S. | 陪你走過 AI 學習之路",
     "publishDate": "2025-10-23",
@@ -229,52 +295,6 @@ const rawVideos: LandingVideo[] = [
       "smart browser tools",
       "podcast automation",
       "Comet vs Atlas test"
-    ]
-  },
-  {
-    "id": "0jygvelt5Bg",
-    "locale": "ko",
-    "category": "proReview",
-    "title": "챗GPT가 만든 미친 웹브라우저 &#39;아틀라스&#39; 직접 써봤습니다. AI가 이메일 답장, 쇼핑, 결제까지 전부 알아서 해줍니다. (feat. AI 에이전트)",
-    "description": "안녕하세요, 여러분의 'AI멘토 Jay'입니다. 인터넷의 판도가 완전히 바뀝니다. OpenAI가 챗GPT를 탑재한 새로운 웹브라우저 ...",
-    "channelTitle": "CONNECT AI LAB",
-    "publishDate": "2025-10-22",
-    "duration": "PT19M43S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/0jygvelt5Bg/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "ChatGPTAtlas",
-      "Atlas브라우저",
-      "ChatGPT",
-      "AI에이전트",
-      "AIAgent",
-      "인공지능",
-      "AI자동화",
-      "ChatGPT업데이트",
-      "OpenAI",
-      "Atlas설치법",
-      "Atlas사용법",
-      "ChatGPTAgent",
-      "AI비즈니스",
-      "AI트렌드",
-      "AI입문",
-      "커넥트AILAB",
-      "제이정",
-      "AI경제",
-      "AI활용",
-      "업무자동화",
-      "AI시대",
-      "인공지능활용",
-      "ChatGPT튜토리얼",
-      "ChatGPT브라우저",
-      "connectailab",
-      "jay",
-      "ai멘토",
-      "정원석"
     ]
   },
   {
@@ -500,6 +520,27 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "iBkzR9v6D-s",
+    "locale": "zh",
+    "category": "proReview",
+    "title": "改變舊思維！Perplexity Comet【完整教學】，「效率倍增」的多場景實戰應用",
+    "description": "你是否也厭倦了無止盡的瀏覽器分頁地獄、被彈出式廣告打斷思緒，以及為了使用AI 而必須在不同工具間反覆複製貼上的窘境？",
+    "channelTitle": "🎧 憶筆M.S. | 陪你走過 AI 學習之路",
+    "publishDate": "2025-10-11",
+    "duration": "PT22M11S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/iBkzR9v6D-s/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "comet",
+      "perplexity",
+      "browser"
+    ]
+  },
+  {
     "id": "qSNRGeZuHeI",
     "locale": "en",
     "category": "hero",
@@ -699,59 +740,6 @@ const rawVideos: LandingVideo[] = [
       "AIブラウザ",
       "ブラウザ",
       "ぷらぐら"
-    ]
-  },
-  {
-    "id": "DVBdNVHzWBQ",
-    "locale": "zh",
-    "category": "proReview",
-    "title": "三大AI Agent 實測現場：ChatGPT Agent、 Manus、Perplexity Comet｜智能體其實有多智能？｜廣東話｜文恩澄",
-    "description": "市面上最強的AI Agent 究竟是誰？今集，我將為大家帶來承諾已久的深度實測，將三大主流AI Agent：ChatGPT AI Agent、Manus、 ...",
-    "channelTitle": "Rannes Man",
-    "publishDate": "2025-09-20",
-    "duration": "PT24M15S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/DVBdNVHzWBQ/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "AI Agent",
-      "Manus",
-      "ChatGPT AI Agent",
-      "Perplexity Comet",
-      "AI實測",
-      "AI評測",
-      "AI比較",
-      "AI對決",
-      "生產力工具",
-      "自動化",
-      "研究報告",
-      "做簡報",
-      "Google Drive",
-      "Python",
-      "虛擬瀏覽器",
-      "VPN",
-      "N8N",
-      "Make.com",
-      "AI教學",
-      "文恩澄",
-      "Rannes Man",
-      "廣東話",
-      "科技",
-      "AI趨勢",
-      "價錢",
-      "邀請碼",
-      "1010",
-      "CSL",
-      "PayPal",
-      "Whisper",
-      "Sora",
-      "VEO",
-      "Runway",
-      "可靈",
-      "AI Agent比較"
     ]
   },
   {
@@ -1077,99 +1065,6 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "b-ahGuxtcME",
-    "locale": "en",
-    "category": "shorts",
-    "title": "The Future of the Web Browser - Perplexity Comet",
-    "description": "No description available",
-    "channelTitle": "Roberto Nickson",
-    "publishDate": "2025-07-20",
-    "duration": "PT1M20S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/b-ahGuxtcME/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
-    "id": "VLaqPLWfXO0",
-    "locale": "zh",
-    "category": "proReview",
-    "title": "Perplexity Pro 2025年最完整教學！20分鐘教你玩盡所有功能 🔥香港用戶隨時免費用一年？ #ChatGPT #grok4 #Claude #gemini #PerplexityLabs",
-    "description": "Perplexity Pro 2025年最完整教學20分鐘教你玩盡所有功能  香港用戶隨時免費用一年？ AI工具日日更新，邊個先最啱你？",
-    "channelTitle": "我想用Ai賺錢",
-    "publishDate": "2025-07-18",
-    "duration": "PT20M10S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/VLaqPLWfXO0/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "AI營銷",
-      "數字營銷",
-      "自動化營銷",
-      "AI賺錢",
-      "AI工具評測",
-      "AI教學",
-      "人工智能應用",
-      "技術創新",
-      "自動化賺錢",
-      "科技創富",
-      "我想用AI賺錢",
-      "市場推廣",
-      "品牌推廣",
-      "Coze工具",
-      "社交媒體管理",
-      "數據分析",
-      "企業推廣",
-      "品牌管理",
-      "行銷技巧",
-      "市場推廣工具",
-      "數位行銷",
-      "營銷自動化",
-      "AI機械人",
-      "AI自動化",
-      "自動化流程",
-      "工作流程",
-      "AI Workflow",
-      "廣東話",
-      "香港AI教學",
-      "香港",
-      "香港AI",
-      "AI工具",
-      "免費AI工具",
-      "AI automation",
-      "香港AI使用教學",
-      "AI使用教學",
-      "香港 AI Marketing",
-      "AI Automation Marketing",
-      "保姆級教學",
-      "廣東話AI",
-      "廣東話AI教學",
-      "AI應用",
-      "AI趣聞",
-      "AI資訊",
-      "chatgpt",
-      "perplexity ai",
-      "API",
-      "Gemini",
-      "Grok",
-      "Claude",
-      "Perplexity Pro",
-      "香港AI工具",
-      "香港AI優惠",
-      "AI搜尋神器",
-      "Perplexity Labs",
-      "AI生圖",
-      "GeminiPro",
-      "Grok 4"
-    ]
-  },
-  {
     "id": "nmkk_bmohJ0",
     "locale": "en",
     "category": "proReview",
@@ -1255,7 +1150,7 @@ const rawVideos: LandingVideo[] = [
   {
     "id": "ri_bFrDp44M",
     "locale": "en",
-    "category": "proReview",
+    "category": "hero",
     "title": "Perplexity&#39;s AI-Native Browser Comet is HERE",
     "description": "Get Started with Lindy For Free: https://go.lindy.ai/matthew-berman Discover The Best AI Tools     https://tools.forwardfuture.ai ...",
     "channelTitle": "Matthew Berman",
@@ -1286,21 +1181,37 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "Jy1sCkhAzU4",
-    "locale": "zh",
+    "id": "ri_bFrDp44M",
+    "locale": "en",
     "category": "proReview",
-    "title": "【省錢秘籍】別再亂花錢了！2025年還不知道哪個AI值得付費？ChatGPT vs Claude vs Gemini vs Perplexity，4大AI工具深度對比！11分鐘幫你做出最佳選擇！",
-    "description": "免費下載／ 《2025年AI自媒體寫作實戰指南》下載地址：https://aiteacherkong.kit.com ＼ 限時免費1對1咨詢／ 如果你對AI ...",
-    "channelTitle": "孔老師AI研習社",
-    "publishDate": "2025-06-15",
-    "duration": "PT11M19S",
+    "title": "Perplexity&#39;s AI-Native Browser Comet is HERE",
+    "description": "Get Started with Lindy For Free: https://go.lindy.ai/matthew-berman Discover The Best AI Tools     https://tools.forwardfuture.ai ...",
+    "channelTitle": "Matthew Berman",
+    "publishDate": "2025-07-09",
+    "duration": "PT14M38S",
     "platform": "youtube",
     "thumbnail": {
-      "url": "https://i.ytimg.com/vi/Jy1sCkhAzU4/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/ri_bFrDp44M/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
-    "tags": []
+    "tags": [
+      "ai",
+      "llm",
+      "artificial intelligence",
+      "large language model",
+      "openai",
+      "mistral",
+      "chatgpt",
+      "ai news",
+      "claude",
+      "anthropic",
+      "apple ai",
+      "apple intelligence",
+      "llama",
+      "meta ai",
+      "google ai"
+    ]
   },
   {
     "id": "lurRh7NgYXQ",
@@ -1382,54 +1293,6 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "_qRjotKjQx0",
-    "locale": "ja",
-    "category": "hero",
-    "title": "テトリスがつよつよのすいちゃん【ホロライブ】#shorts",
-    "description": "VOICEVOX:四国めたん 元動画↓ 【テトリス99】テトリスキャラだったことを覚えているだろうか【ホロライブ/星街すいせい】 ...",
-    "channelTitle": "ホロライブの雑学",
-    "publishDate": "2025-03-05",
-    "duration": "PT1M27S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/_qRjotKjQx0/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "ホロライブ",
-      "雑学",
-      "青山龍星",
-      "さくらみこ",
-      "星街すいせい",
-      "不知火フレア"
-    ]
-  },
-  {
-    "id": "_qRjotKjQx0",
-    "locale": "ja",
-    "category": "shorts",
-    "title": "テトリスがつよつよのすいちゃん【ホロライブ】#shorts",
-    "description": "VOICEVOX:四国めたん 元動画↓ 【テトリス99】テトリスキャラだったことを覚えているだろうか【ホロライブ/星街すいせい】 ...",
-    "channelTitle": "ホロライブの雑学",
-    "publishDate": "2025-03-05",
-    "duration": "PT1M27S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/_qRjotKjQx0/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "ホロライブ",
-      "雑学",
-      "青山龍星",
-      "さくらみこ",
-      "星街すいせい",
-      "不知火フレア"
-    ]
-  },
-  {
     "id": "3Lmqx5c7UYI",
     "locale": "zh",
     "category": "proReview",
@@ -1468,23 +1331,6 @@ const rawVideos: LandingVideo[] = [
       "阿里万相",
       "阿里巴巴"
     ]
-  },
-  {
-    "id": "Y_-UU8vzGDI",
-    "locale": "ja",
-    "category": "shorts",
-    "title": "【GTA5】結構使える小ネタ③ #gta5 #gta #gta5オンライン #gtaonline #gtaオンライン",
-    "description": "これから興味の持ってもらえる動画を作っていこうと思います。 APEXなどのFPSやマインクラフト、GTAなど様々なゲームを ...",
-    "channelTitle": "彫物ーほりもの",
-    "publishDate": "2025-01-17",
-    "duration": "PT30S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/Y_-UU8vzGDI/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
   }
 ];
 

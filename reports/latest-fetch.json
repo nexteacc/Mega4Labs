@@ -1,18 +1,18 @@
 {
-  "timestamp": "2025-11-01T03:06:37.381Z",
-  "totalVideos": 44,
+  "timestamp": "2025-11-02T03:10:20.867Z",
+  "totalVideos": 47,
   "totalSearches": 12,
   "byCategory": {
     "proReview": 25,
-    "tutorial": 14,
+    "tutorial": 16,
     "hero": 4,
-    "shorts": 1
+    "shorts": 2
   },
   "byLocale": {
-    "en": 16,
-    "ja": 7,
-    "ko": 11,
-    "zh": 10
+    "zh": 12,
+    "ko": 12,
+    "en": 17,
+    "ja": 6
   },
   "optimization": {
     "searchesPerLanguage": 3,
@@ -22,18 +22,18 @@
   },
   "latestVideos": [
     {
-      "id": "fq3KobEWiD8",
-      "title": "10 Game Changing Ways I Use the Comet Browser: Unlocking Next Level Browsing with AI",
+      "id": "u7EMV4NkPak",
+      "title": "Atlas VS Comet: AI瀏覽器最強實測，結果出乎意料！",
       "category": "proReview",
-      "locale": "en",
-      "publishDate": "2025-10-29"
+      "locale": "zh",
+      "publishDate": "2025-11-01"
     },
     {
-      "id": "xEYWlIRTDXw",
-      "title": "すべてのブラウザをAI搭載の”次世代ブラウザ”に変えるクローム拡張機能がいろいろとすごい件",
-      "category": "proReview",
-      "locale": "ja",
-      "publishDate": "2025-10-29"
+      "id": "ZisdN4IJ49c",
+      "title": "免费的AI浏览器，代价是什么？GPT和Perplexity争抢谷歌Chrome入口！白嫖Perplexity Pro会员+赚$20现金！Comet邀请实测 | 窗口期普通人怎么“撸羊毛”？|Atlas",
+      "category": "tutorial",
+      "locale": "zh",
+      "publishDate": "2025-10-28"
     },
     {
       "id": "ohzNvM8AEqE",
@@ -43,17 +43,17 @@
       "publishDate": "2025-10-26"
     },
     {
+      "id": "LxrIeDESSuA",
+      "title": "Comet Browser Invite &amp; Earn Program Step by Step Complete Process ",
+      "category": "tutorial",
+      "locale": "en",
+      "publishDate": "2025-10-24"
+    },
+    {
       "id": "OyMak1F6eoc",
       "title": "퍼플렉시티 + 코멧 첫 시작? 이것 부터 세팅하고 첫 대화 시작하세요! AI 검색을 위한 브라우저 Perplexity Comet",
       "category": "tutorial",
       "locale": "ko",
-      "publishDate": "2025-10-24"
-    },
-    {
-      "id": "MEGLoqn0jow",
-      "title": "【AI神器：油管博主必备】提高看片效率，快速创作内容！推荐Perplexity公司的AI浏览器Comet！",
-      "category": "tutorial",
-      "locale": "zh",
       "publishDate": "2025-10-24"
     }
   ]

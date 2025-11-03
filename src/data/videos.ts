@@ -4,7 +4,7 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-11-02T03:10:20.865Z
+ * 生成时间: 2025-11-03T03:12:05.100Z
  * 总数: 47 个视频
  * 
  * 抓取策略:
@@ -74,6 +74,47 @@ const rawVideos: LandingVideo[] = [
       "comet测评",
       "ai瀏覽器實測",
       "ai浏览器实测"
+    ]
+  },
+  {
+    "id": "fq3KobEWiD8",
+    "locale": "en",
+    "category": "proReview",
+    "title": "10 Game Changing Ways I Use the Comet Browser: Unlocking Next Level Browsing with AI",
+    "description": "Unlock the true power of the Comet Browser—the next-gen AI browser from Perplexity. In this video, I'm sharing 10 ...",
+    "channelTitle": "The Tech Girl",
+    "publishDate": "2025-10-29",
+    "duration": "PT14M22S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/fq3KobEWiD8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "the tech girl",
+      "Comet Browser",
+      "Comet Browser review",
+      "Comet AI browser",
+      "Perplexity browser",
+      "best AI browser 2025",
+      "AI web browser",
+      "productivity browser",
+      "Chrome alternative",
+      "smart browser features",
+      "browser for productivity",
+      "AI assistant browser",
+      "technical review",
+      "how to use Comet browser",
+      "browser hacks",
+      "automate browsing",
+      "Chrome vs Comet",
+      "tab management",
+      "online shopping hacks",
+      "summarize articles AI",
+      "Gmail integration browser",
+      "best browser for research",
+      "agentic browser"
     ]
   },
   {
@@ -341,52 +382,6 @@ const rawVideos: LandingVideo[] = [
       "smart browser tools",
       "podcast automation",
       "Comet vs Atlas test"
-    ]
-  },
-  {
-    "id": "0jygvelt5Bg",
-    "locale": "ko",
-    "category": "proReview",
-    "title": "챗GPT가 만든 미친 웹브라우저 &#39;아틀라스&#39; 직접 써봤습니다. AI가 이메일 답장, 쇼핑, 결제까지 전부 알아서 해줍니다. (feat. AI 에이전트)",
-    "description": "안녕하세요, 여러분의 'AI멘토 Jay'입니다. 인터넷의 판도가 완전히 바뀝니다. OpenAI가 챗GPT를 탑재한 새로운 웹브라우저 ...",
-    "channelTitle": "CONNECT AI LAB",
-    "publishDate": "2025-10-22",
-    "duration": "PT19M43S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/0jygvelt5Bg/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "ChatGPTAtlas",
-      "Atlas브라우저",
-      "ChatGPT",
-      "AI에이전트",
-      "AIAgent",
-      "인공지능",
-      "AI자동화",
-      "ChatGPT업데이트",
-      "OpenAI",
-      "Atlas설치법",
-      "Atlas사용법",
-      "ChatGPTAgent",
-      "AI비즈니스",
-      "AI트렌드",
-      "AI입문",
-      "커넥트AILAB",
-      "제이정",
-      "AI경제",
-      "AI활용",
-      "업무자동화",
-      "AI시대",
-      "인공지능활용",
-      "ChatGPT튜토리얼",
-      "ChatGPT브라우저",
-      "connectailab",
-      "jay",
-      "ai멘토",
-      "정원석"
     ]
   },
   {
@@ -810,6 +805,40 @@ const rawVideos: LandingVideo[] = [
       "AI 2025",
       "AI news"
     ]
+  },
+  {
+    "id": "-ix8UjYuF8Q",
+    "locale": "en",
+    "category": "hero",
+    "title": "AI Browser that works for you #carterpcs #tech #comet #perplexity #cometpartner",
+    "description": "No description available",
+    "channelTitle": "CarterPCs",
+    "publishDate": "2025-10-03",
+    "duration": "PT39S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/-ix8UjYuF8Q/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
+    "id": "-ix8UjYuF8Q",
+    "locale": "en",
+    "category": "shorts",
+    "title": "AI Browser that works for you #carterpcs #tech #comet #perplexity #cometpartner",
+    "description": "No description available",
+    "channelTitle": "CarterPCs",
+    "publishDate": "2025-10-03",
+    "duration": "PT39S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/-ix8UjYuF8Q/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
   },
   {
     "id": "R0jDcdFm8Fg",
@@ -1259,39 +1288,6 @@ const rawVideos: LandingVideo[] = [
   {
     "id": "ri_bFrDp44M",
     "locale": "en",
-    "category": "hero",
-    "title": "Perplexity&#39;s AI-Native Browser Comet is HERE",
-    "description": "Get Started with Lindy For Free: https://go.lindy.ai/matthew-berman Discover The Best AI Tools     https://tools.forwardfuture.ai ...",
-    "channelTitle": "Matthew Berman",
-    "publishDate": "2025-07-09",
-    "duration": "PT14M38S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/ri_bFrDp44M/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "ai",
-      "llm",
-      "artificial intelligence",
-      "large language model",
-      "openai",
-      "mistral",
-      "chatgpt",
-      "ai news",
-      "claude",
-      "anthropic",
-      "apple ai",
-      "apple intelligence",
-      "llama",
-      "meta ai",
-      "google ai"
-    ]
-  },
-  {
-    "id": "ri_bFrDp44M",
-    "locale": "en",
     "category": "proReview",
     "title": "Perplexity&#39;s AI-Native Browser Comet is HERE",
     "description": "Get Started with Lindy For Free: https://go.lindy.ai/matthew-berman Discover The Best AI Tools     https://tools.forwardfuture.ai ...",
@@ -1399,46 +1395,6 @@ const rawVideos: LandingVideo[] = [
       "AI browser",
       "AI plugins",
       "AI plugin"
-    ]
-  },
-  {
-    "id": "3Lmqx5c7UYI",
-    "locale": "zh",
-    "category": "proReview",
-    "title": "重磅Ai新闻: 阿里开源Wan2.1视频模型，Deepseek R2新消息，Claude Sonnet 3.7模型发布，Perplexity Comet浏览器",
-    "description": "本期视频提到的工具: 【通义万象2.1模型】https://huggingface.co/Wan-AI 【Wan2.1模型 ...",
-    "channelTitle": "小薇官方频道",
-    "publishDate": "2025-02-26",
-    "duration": "PT8M13S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/3Lmqx5c7UYI/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "AINEWS",
-      "AI视频模型",
-      "R2",
-      "ai",
-      "ai dna",
-      "claude3.7",
-      "comet浏览器",
-      "deepseek",
-      "qwen 2.5",
-      "sonnet",
-      "step-video-t2v",
-      "wan i2v",
-      "wan2.1",
-      "wan2.1本地部署",
-      "万相2.1",
-      "人工智能",
-      "新闻",
-      "通义万相",
-      "通义万相2.1",
-      "通义万象",
-      "阿里万相",
-      "阿里巴巴"
     ]
   }
 ];

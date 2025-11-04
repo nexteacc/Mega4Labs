@@ -1,17 +1,17 @@
 {
-  "timestamp": "2025-11-03T03:12:05.103Z",
-  "totalVideos": 47,
+  "timestamp": "2025-11-04T03:05:33.857Z",
+  "totalVideos": 48,
   "totalSearches": 12,
   "byCategory": {
-    "proReview": 24,
+    "proReview": 25,
     "tutorial": 16,
     "hero": 4,
     "shorts": 3
   },
   "byLocale": {
-    "zh": 11,
-    "en": 19,
-    "ko": 11,
+    "zh": 10,
+    "ko": 12,
+    "en": 20,
     "ja": 6
   },
   "optimization": {
@@ -27,13 +27,6 @@
       "category": "proReview",
       "locale": "zh",
       "publishDate": "2025-11-01"
-    },
-    {
-      "id": "fq3KobEWiD8",
-      "title": "10 Game Changing Ways I Use the Comet Browser: Unlocking Next Level Browsing with AI",
-      "category": "proReview",
-      "locale": "en",
-      "publishDate": "2025-10-29"
     },
     {
       "id": "ZisdN4IJ49c",
@@ -54,6 +47,13 @@
       "title": "Comet Browser Invite &amp; Earn Program Step by Step Complete Process ",
       "category": "tutorial",
       "locale": "en",
+      "publishDate": "2025-10-24"
+    },
+    {
+      "id": "OyMak1F6eoc",
+      "title": "퍼플렉시티 + 코멧 첫 시작? 이것 부터 세팅하고 첫 대화 시작하세요! AI 검색을 위한 브라우저 Perplexity Comet",
+      "category": "tutorial",
+      "locale": "ko",
       "publishDate": "2025-10-24"
     }
   ]

@@ -4,7 +4,7 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-11-04T03:05:33.856Z
+ * 生成时间: 2025-11-05T03:06:47.727Z
  * 总数: 48 个视频
  * 
  * 抓取策略:
@@ -186,6 +186,36 @@ const rawVideos: LandingVideo[] = [
       "AI",
       "챗GPT",
       "cheatgpt"
+    ]
+  },
+  {
+    "id": "MEGLoqn0jow",
+    "locale": "zh",
+    "category": "tutorial",
+    "title": "【AI神器：油管博主必备】提高看片效率，快速创作内容！推荐Perplexity公司的AI浏览器Comet！",
+    "description": "老胡在2025年提供以下服务，请按需选用： --------------------------------- 1.《老胡自媒体朋友圈》 * 电报/微信群，一次性费用100美元， ...",
+    "channelTitle": "老胡油管研究院",
+    "publishDate": "2025-10-24",
+    "duration": "PT8M23S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/MEGLoqn0jow/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "#西雅图老胡",
+      "自媒体",
+      "赚钱",
+      "Youtube赚钱",
+      "短视频",
+      "案例分析",
+      "频道点评",
+      "youtube tutorial",
+      "youtube make money",
+      "YouTube教学",
+      "YouTube培训",
+      "YouTube课程"
     ]
   },
   {
@@ -813,6 +843,67 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "cj2ejZMFfik",
+    "locale": "zh",
+    "category": "proReview",
+    "title": "AI浏览器革命来了！Perplexity开价345亿收购Chrome? AI浏览器Comet 6大场景实测+免费薅羊毛攻略",
+    "description": "专属优惠链接：https://pathunfold.com/serena 欢迎加入我们的「用AI发电」普通人AI 赋能成长社群⚡ 社群上线一周已经突破1000名 ...",
+    "channelTitle": "Serena Wang - 心心加州",
+    "publishDate": "2025-09-08",
+    "duration": "PT13M1S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/cj2ejZMFfik/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "AI浏览器",
+      "comet浏览器",
+      "perplexity",
+      "AI视频",
+      "AI动画",
+      "Google",
+      "AI社群",
+      "用AI发电",
+      "AI赋能",
+      "AI成长",
+      "人工智能学习",
+      "AI工具",
+      "AI副业",
+      "AI赚钱",
+      "普通人如何用AI",
+      "AI创作",
+      "AI创业",
+      "ChatGPT",
+      "Claude",
+      "Cursor",
+      "Remotion",
+      "AI学习社区",
+      "AI小白入门",
+      "AI改变生活",
+      "AI自我成长",
+      "AI赋能社群",
+      "早鸟价AI社群",
+      "Claude code",
+      "open ai",
+      "GPT5",
+      "anthropic",
+      "硅谷裁员",
+      "湾区裁员",
+      "码农失业",
+      "软件工程师",
+      "程序员",
+      "程序员失业",
+      "Gemini",
+      "生成式AI",
+      "AI时代",
+      "chrome浏览器",
+      "perplexity收购",
+      "google收购"
+    ]
+  },
+  {
     "id": "7aTM7u22Kw0",
     "locale": "ko",
     "category": "tutorial",
@@ -1108,38 +1199,6 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "IRI4BRmt8cs",
-    "locale": "en",
-    "category": "tutorial",
-    "title": "REVIEW   Perplexity Comet AI Browser",
-    "description": "REVIEW Perplexity Comet AI Browser. ▶️MENTIONED TOOLS: (Video Specific Links If Needed) -. ▶️ABOUT ME: Unlock the ...",
-    "channelTitle": "Jonathan Mast",
-    "publishDate": "2025-07-26",
-    "duration": "PT5M29S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/IRI4BRmt8cs/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "digital marketing",
-      "entrepreneurship",
-      "success",
-      "capitalism",
-      "consulting",
-      "AI",
-      "#AIMarketing",
-      "Chatgpt",
-      "Claude",
-      "Perplexity",
-      "Rubi.AI",
-      "Content Creator",
-      "Podcast",
-      "aibusiness"
-    ]
-  },
-  {
     "id": "b-ahGuxtcME",
     "locale": "en",
     "category": "shorts",
@@ -1155,82 +1214,6 @@ const rawVideos: LandingVideo[] = [
       "height": 360
     },
     "tags": []
-  },
-  {
-    "id": "VLaqPLWfXO0",
-    "locale": "zh",
-    "category": "proReview",
-    "title": "Perplexity Pro 2025年最完整教學！20分鐘教你玩盡所有功能 🔥香港用戶隨時免費用一年？ #ChatGPT #grok4 #Claude #gemini #PerplexityLabs",
-    "description": "Perplexity Pro 2025年最完整教學20分鐘教你玩盡所有功能  香港用戶隨時免費用一年？ AI工具日日更新，邊個先最啱你？",
-    "channelTitle": "我想用Ai賺錢",
-    "publishDate": "2025-07-18",
-    "duration": "PT20M10S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/VLaqPLWfXO0/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "AI營銷",
-      "數字營銷",
-      "自動化營銷",
-      "AI賺錢",
-      "AI工具評測",
-      "AI教學",
-      "人工智能應用",
-      "技術創新",
-      "自動化賺錢",
-      "科技創富",
-      "我想用AI賺錢",
-      "市場推廣",
-      "品牌推廣",
-      "Coze工具",
-      "社交媒體管理",
-      "數據分析",
-      "企業推廣",
-      "品牌管理",
-      "行銷技巧",
-      "市場推廣工具",
-      "數位行銷",
-      "營銷自動化",
-      "AI機械人",
-      "AI自動化",
-      "自動化流程",
-      "工作流程",
-      "AI Workflow",
-      "廣東話",
-      "香港AI教學",
-      "香港",
-      "香港AI",
-      "AI工具",
-      "免費AI工具",
-      "AI automation",
-      "香港AI使用教學",
-      "AI使用教學",
-      "香港 AI Marketing",
-      "AI Automation Marketing",
-      "保姆級教學",
-      "廣東話AI",
-      "廣東話AI教學",
-      "AI應用",
-      "AI趣聞",
-      "AI資訊",
-      "chatgpt",
-      "perplexity ai",
-      "API",
-      "Gemini",
-      "Grok",
-      "Claude",
-      "Perplexity Pro",
-      "香港AI工具",
-      "香港AI優惠",
-      "AI搜尋神器",
-      "Perplexity Labs",
-      "AI生圖",
-      "GeminiPro",
-      "Grok 4"
-    ]
   },
   {
     "id": "nmkk_bmohJ0",
@@ -1316,21 +1299,54 @@ const rawVideos: LandingVideo[] = [
     "tags": []
   },
   {
-    "id": "YeldJ4UezDQ",
+    "id": "VrE5bvlxzDI",
     "locale": "en",
-    "category": "hero",
-    "title": "Introducing Comet: Browse at the Speed of Thought",
-    "description": "Comet is a new web browser built for today's internet—one that matches the way we live, work, and ask questions online.",
-    "channelTitle": "Perplexity",
-    "publishDate": "2025-07-09",
-    "duration": "PT1M13S",
+    "category": "shorts",
+    "title": "Perplexity just launched Comet",
+    "description": "No description available",
+    "channelTitle": "100x Engineers",
+    "publishDate": "2025-07-10",
+    "duration": "PT37S",
     "platform": "youtube",
     "thumbnail": {
-      "url": "https://i.ytimg.com/vi/YeldJ4UezDQ/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/VrE5bvlxzDI/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
     "tags": []
+  },
+  {
+    "id": "ri_bFrDp44M",
+    "locale": "en",
+    "category": "hero",
+    "title": "Perplexity&#39;s AI-Native Browser Comet is HERE",
+    "description": "Get Started with Lindy For Free: https://go.lindy.ai/matthew-berman Discover The Best AI Tools     https://tools.forwardfuture.ai ...",
+    "channelTitle": "Matthew Berman",
+    "publishDate": "2025-07-09",
+    "duration": "PT14M38S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/ri_bFrDp44M/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "ai",
+      "llm",
+      "artificial intelligence",
+      "large language model",
+      "openai",
+      "mistral",
+      "chatgpt",
+      "ai news",
+      "claude",
+      "anthropic",
+      "apple ai",
+      "apple intelligence",
+      "llama",
+      "meta ai",
+      "google ai"
+    ]
   },
   {
     "id": "ri_bFrDp44M",
@@ -1366,21 +1382,32 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "YeldJ4UezDQ",
-    "locale": "en",
-    "category": "shorts",
-    "title": "Introducing Comet: Browse at the Speed of Thought",
-    "description": "Comet is a new web browser built for today's internet—one that matches the way we live, work, and ask questions online.",
-    "channelTitle": "Perplexity",
-    "publishDate": "2025-07-09",
-    "duration": "PT1M13S",
+    "id": "SRVBYGg7sBM",
+    "locale": "ja",
+    "category": "proReview",
+    "title": "無料の次世代AIブラウザ『Diaブラウザ』を徹底解説【活用事例９選】",
+    "description": "Arcブラウザの後継である無料のAIブラウザ『Diaブラウザ』を徹底解説！そして活用事例を9つ紹介します。無料で使えて、UI/UX ...",
+    "channelTitle": "KEITO【AI&WEB ch】",
+    "publishDate": "2025-06-16",
+    "duration": "PT37M27S",
     "platform": "youtube",
     "thumbnail": {
-      "url": "https://i.ytimg.com/vi/YeldJ4UezDQ/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/SRVBYGg7sBM/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
-    "tags": []
+    "tags": [
+      "AI",
+      "KEITO",
+      "AIブラウザ",
+      "AI検索",
+      "ai browser",
+      "Dia",
+      "Diaブラウザ",
+      "Dia Browser",
+      "ディアブラウザ",
+      "ディア"
+    ]
   },
   {
     "id": "lurRh7NgYXQ",
@@ -1459,46 +1486,6 @@ const rawVideos: LandingVideo[] = [
       "AI browser",
       "AI plugins",
       "AI plugin"
-    ]
-  },
-  {
-    "id": "3Lmqx5c7UYI",
-    "locale": "zh",
-    "category": "proReview",
-    "title": "重磅Ai新闻: 阿里开源Wan2.1视频模型，Deepseek R2新消息，Claude Sonnet 3.7模型发布，Perplexity Comet浏览器",
-    "description": "本期视频提到的工具: 【通义万象2.1模型】https://huggingface.co/Wan-AI 【Wan2.1模型 ...",
-    "channelTitle": "小薇官方频道",
-    "publishDate": "2025-02-26",
-    "duration": "PT8M13S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/3Lmqx5c7UYI/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "AINEWS",
-      "AI视频模型",
-      "R2",
-      "ai",
-      "ai dna",
-      "claude3.7",
-      "comet浏览器",
-      "deepseek",
-      "qwen 2.5",
-      "sonnet",
-      "step-video-t2v",
-      "wan i2v",
-      "wan2.1",
-      "wan2.1本地部署",
-      "万相2.1",
-      "人工智能",
-      "新闻",
-      "通义万相",
-      "通义万相2.1",
-      "通义万象",
-      "阿里万相",
-      "阿里巴巴"
     ]
   }
 ];

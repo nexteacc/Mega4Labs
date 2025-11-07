@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-11-06T03:08:59.944Z
- * 总数: 52 个视频
+ * 生成时间: 2025-11-07T03:06:08.207Z
+ * 总数: 47 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -92,6 +92,47 @@ const rawVideos: LandingVideo[] = [
       "height": 360
     },
     "tags": []
+  },
+  {
+    "id": "fq3KobEWiD8",
+    "locale": "en",
+    "category": "proReview",
+    "title": "10 Game Changing Ways I Use the Comet Browser: Unlocking Next Level Browsing with AI",
+    "description": "Unlock the true power of the Comet Browser—the next-gen AI browser from Perplexity. In this video, I'm sharing 10 ...",
+    "channelTitle": "The Tech Girl",
+    "publishDate": "2025-10-29",
+    "duration": "PT14M22S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/fq3KobEWiD8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "the tech girl",
+      "Comet Browser",
+      "Comet Browser review",
+      "Comet AI browser",
+      "Perplexity browser",
+      "best AI browser 2025",
+      "AI web browser",
+      "productivity browser",
+      "Chrome alternative",
+      "smart browser features",
+      "browser for productivity",
+      "AI assistant browser",
+      "technical review",
+      "how to use Comet browser",
+      "browser hacks",
+      "automate browsing",
+      "Chrome vs Comet",
+      "tab management",
+      "online shopping hacks",
+      "summarize articles AI",
+      "Gmail integration browser",
+      "best browser for research",
+      "agentic browser"
+    ]
   },
   {
     "id": "ZisdN4IJ49c",
@@ -489,6 +530,29 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "DzhGIpOVJbU",
+    "locale": "en",
+    "category": "proReview",
+    "title": "7 Mind-Blowing Use Cases of Perplexity Comet Agents",
+    "description": "Join my AI Playbook® community—in just one week, discover how to trim 5 hours off your workweek & unlock $500–$1K in new ...",
+    "channelTitle": "Rick Mulready",
+    "publishDate": "2025-10-16",
+    "duration": "PT12M42S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/DzhGIpOVJbU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "Comet browser",
+      "Perplexity Comet",
+      "Comet agents",
+      "Comet AI",
+      "AI agents"
+    ]
+  },
+  {
     "id": "p9WhwhYEPsA",
     "locale": "ko",
     "category": "proReview",
@@ -567,23 +631,6 @@ const rawVideos: LandingVideo[] = [
       "스마트폰 브라우저",
       "최신 브라우저"
     ]
-  },
-  {
-    "id": "hkI8ssg-ERc",
-    "locale": "ko",
-    "category": "proReview",
-    "title": "코드 한 줄 없이 웹데이터 크롤링! 퍼플릭시티 코멧 완전정복",
-    "description": "이번 영상에서는 퍼플릭시티 코멧(Perplexity Comet) 브라우저를 이용해누구나 손쉽게 웹데이터를 크롤링하는 방법을 다룹니다.",
-    "channelTitle": "AI 일잘러",
-    "publishDate": "2025-10-13",
-    "duration": "PT6M58S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/hkI8ssg-ERc/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
   },
   {
     "id": "XiRzrSdIxO0",
@@ -768,82 +815,6 @@ const rawVideos: LandingVideo[] = [
     "tags": []
   },
   {
-    "id": "sy3nQUOLTzc",
-    "locale": "en",
-    "category": "shorts",
-    "title": "🚀 Scrape Any Website in Seconds with Perplexity Comet (No Code Needed!)",
-    "description": "Learn how to use Perplexity Comet's AI browser to scrape product data from websites like Amazon — no coding, no APIs, just ...",
-    "channelTitle": "Analytics Vidhya",
-    "publishDate": "2025-10-06",
-    "duration": "PT1M",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/sy3nQUOLTzc/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "Perplexity Comet",
-      "web scraping",
-      "no code scraping",
-      "AI tools 2025",
-      "Comet browser tutorial",
-      "data scraping automation",
-      "Amazon scraping",
-      "Perplexity AI",
-      "AI web browser",
-      "Comet assistant",
-      "data extraction",
-      "productivity tools",
-      "AI for data analysts",
-      "scrape websites without code",
-      "JSON export",
-      "Excel scraping",
-      "AI agents",
-      "AI workflow automation",
-      "tech shorts",
-      "data projects",
-      "Analytics Vidhya",
-      "AI 2025",
-      "AI news"
-    ]
-  },
-  {
-    "id": "LcMDcwU7FVw",
-    "locale": "ja",
-    "category": "proReview",
-    "title": "Perplexity Comet ブラウザデモ（11の驚異的な使用例） | Perplexity Comet チュートリアル | Comet の使い方",
-    "description": "Perplexity Cometブラウザ デモ（11の驚きの活用例） | Perplexity Cometチュートリアル | Cometの使い方\n\n🌠Perplexity Comet（無料Pro版 ...",
-    "channelTitle": "Success Minder",
-    "publishDate": "2025-10-03",
-    "duration": "PT18M20S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/LcMDcwU7FVw/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "comet browser features",
-      "how to use comet browser",
-      "perplexity comet review",
-      "perplexity comet demo",
-      "perplexity comet browser review",
-      "perplexity comet browser demo",
-      "perplexity comet features",
-      "perplexity comet use cases",
-      "perplexity comet how to use",
-      "perplexity comet browser tutorial",
-      "perplexity comet browser setup",
-      "perplexity ai comet browser",
-      "how to use perplexity comet browser",
-      "comet browser review",
-      "comet browser use cases",
-      "comet browser demo",
-      "Comet browser review"
-    ]
-  },
-  {
     "id": "R0jDcdFm8Fg",
     "locale": "ja",
     "category": "tutorial",
@@ -1018,50 +989,6 @@ const rawVideos: LandingVideo[] = [
       "AI",
       "챗GPT",
       "cheatgpt"
-    ]
-  },
-  {
-    "id": "ZsBniZ_M7hs",
-    "locale": "en",
-    "category": "proReview",
-    "title": "Stop using Chrome. This AI browser is insane…",
-    "description": "Work 30% faster with Vectal: https://www.vectal.ai/ Wanna start a business with AI Agents? Go here: ...",
-    "channelTitle": "David Ondrej",
-    "publishDate": "2025-08-23",
-    "duration": "PT10M36S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/ZsBniZ_M7hs/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "David Ondrej",
-      "david ondrej",
-      "AI",
-      "ChatGPT",
-      "artificial intelligence",
-      "ai",
-      "Artificial Intelligence",
-      "OpenAI",
-      "chatgpt",
-      "chat gpt",
-      "Chat GPT",
-      "AGI",
-      "midjourney",
-      "david ondrej podcast",
-      "GPT",
-      "new society",
-      "david ondrej new society",
-      "david ondrej community",
-      "make money with AI",
-      "AI Agents",
-      "ai agent",
-      "AI Agent Startup",
-      "AI SaaS",
-      "AI Startup",
-      "perplexity comet",
-      "perplexity comet browser"
     ]
   },
   {
@@ -1326,99 +1253,6 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "b-ahGuxtcME",
-    "locale": "en",
-    "category": "shorts",
-    "title": "The Future of the Web Browser - Perplexity Comet",
-    "description": "No description available",
-    "channelTitle": "Roberto Nickson",
-    "publishDate": "2025-07-20",
-    "duration": "PT1M20S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/b-ahGuxtcME/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
-    "id": "VLaqPLWfXO0",
-    "locale": "zh",
-    "category": "proReview",
-    "title": "Perplexity Pro 2025年最完整教學！20分鐘教你玩盡所有功能 🔥香港用戶隨時免費用一年？ #ChatGPT #grok4 #Claude #gemini #PerplexityLabs",
-    "description": "Perplexity Pro 2025年最完整教學20分鐘教你玩盡所有功能  香港用戶隨時免費用一年？ ✓ Perplexity AI: PRO 計劃首月免費註冊 ...",
-    "channelTitle": "我想用Ai賺錢",
-    "publishDate": "2025-07-18",
-    "duration": "PT20M10S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/VLaqPLWfXO0/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "AI營銷",
-      "數字營銷",
-      "自動化營銷",
-      "AI賺錢",
-      "AI工具評測",
-      "AI教學",
-      "人工智能應用",
-      "技術創新",
-      "自動化賺錢",
-      "科技創富",
-      "我想用AI賺錢",
-      "市場推廣",
-      "品牌推廣",
-      "Coze工具",
-      "社交媒體管理",
-      "數據分析",
-      "企業推廣",
-      "品牌管理",
-      "行銷技巧",
-      "市場推廣工具",
-      "數位行銷",
-      "營銷自動化",
-      "AI機械人",
-      "AI自動化",
-      "自動化流程",
-      "工作流程",
-      "AI Workflow",
-      "廣東話",
-      "香港AI教學",
-      "香港",
-      "香港AI",
-      "AI工具",
-      "免費AI工具",
-      "AI automation",
-      "香港AI使用教學",
-      "AI使用教學",
-      "香港 AI Marketing",
-      "AI Automation Marketing",
-      "保姆級教學",
-      "廣東話AI",
-      "廣東話AI教學",
-      "AI應用",
-      "AI趣聞",
-      "AI資訊",
-      "chatgpt",
-      "perplexity ai",
-      "API",
-      "Gemini",
-      "Grok",
-      "Claude",
-      "Perplexity Pro",
-      "香港AI工具",
-      "香港AI優惠",
-      "AI搜尋神器",
-      "Perplexity Labs",
-      "AI生圖",
-      "GeminiPro",
-      "Grok 4"
-    ]
-  },
-  {
     "id": "nmkk_bmohJ0",
     "locale": "en",
     "category": "proReview",
@@ -1644,46 +1478,6 @@ const rawVideos: LandingVideo[] = [
       "AI browser",
       "AI plugins",
       "AI plugin"
-    ]
-  },
-  {
-    "id": "3Lmqx5c7UYI",
-    "locale": "zh",
-    "category": "proReview",
-    "title": "重磅Ai新闻: 阿里开源Wan2.1视频模型，Deepseek R2新消息，Claude Sonnet 3.7模型发布，Perplexity Comet浏览器",
-    "description": "本期视频提到的工具: 【通义万象2.1模型】https://huggingface.co/Wan-AI 【Wan2.1模型 ...",
-    "channelTitle": "小薇官方频道",
-    "publishDate": "2025-02-26",
-    "duration": "PT8M13S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/3Lmqx5c7UYI/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "AINEWS",
-      "AI视频模型",
-      "R2",
-      "ai",
-      "ai dna",
-      "claude3.7",
-      "comet浏览器",
-      "deepseek",
-      "qwen 2.5",
-      "sonnet",
-      "step-video-t2v",
-      "wan i2v",
-      "wan2.1",
-      "wan2.1本地部署",
-      "万相2.1",
-      "人工智能",
-      "新闻",
-      "通义万相",
-      "通义万相2.1",
-      "通义万象",
-      "阿里万相",
-      "阿里巴巴"
     ]
   }
 ];

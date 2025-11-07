@@ -1,18 +1,17 @@
 {
-  "timestamp": "2025-11-06T03:08:59.945Z",
-  "totalVideos": 52,
+  "timestamp": "2025-11-07T03:06:08.209Z",
+  "totalVideos": 47,
   "totalSearches": 12,
   "byCategory": {
-    "proReview": 29,
+    "proReview": 26,
     "tutorial": 17,
-    "hero": 4,
-    "shorts": 2
+    "hero": 4
   },
   "byLocale": {
-    "zh": 13,
-    "ko": 13,
-    "en": 19,
-    "ja": 7
+    "zh": 11,
+    "en": 18,
+    "ko": 12,
+    "ja": 6
   },
   "optimization": {
     "searchesPerLanguage": 3,
@@ -36,6 +35,13 @@
       "publishDate": "2025-10-31"
     },
     {
+      "id": "fq3KobEWiD8",
+      "title": "10 Game Changing Ways I Use the Comet Browser: Unlocking Next Level Browsing with AI",
+      "category": "proReview",
+      "locale": "en",
+      "publishDate": "2025-10-29"
+    },
+    {
       "id": "ZisdN4IJ49c",
       "title": "免费的AI浏览器，代价是什么？GPT和Perplexity争抢谷歌Chrome入口！白嫖Perplexity Pro会员+赚$20现金！Comet邀请实测 | 窗口期普通人怎么“撸羊毛”？|Atlas",
       "category": "tutorial",
@@ -48,13 +54,6 @@
       "category": "proReview",
       "locale": "ko",
       "publishDate": "2025-10-26"
-    },
-    {
-      "id": "LxrIeDESSuA",
-      "title": "Comet Browser Invite &amp; Earn Program Step by Step Complete Process ",
-      "category": "tutorial",
-      "locale": "en",
-      "publishDate": "2025-10-24"
     }
   ]
 }

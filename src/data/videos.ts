@@ -4,7 +4,7 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-11-07T03:06:08.207Z
+ * 生成时间: 2025-11-08T02:57:57.941Z
  * 总数: 47 个视频
  * 
  * 抓取策略:
@@ -381,52 +381,6 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "0jygvelt5Bg",
-    "locale": "ko",
-    "category": "proReview",
-    "title": "챗GPT가 만든 미친 웹브라우저 &#39;아틀라스&#39; 직접 써봤습니다. AI가 이메일 답장, 쇼핑, 결제까지 전부 알아서 해줍니다. (feat. AI 에이전트)",
-    "description": "안녕하세요, 여러분의 'AI멘토 Jay'입니다. 인터넷의 판도가 완전히 바뀝니다. OpenAI가 챗GPT를 탑재한 새로운 웹브라우저 ...",
-    "channelTitle": "CONNECT AI LAB",
-    "publishDate": "2025-10-22",
-    "duration": "PT19M43S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/0jygvelt5Bg/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "ChatGPTAtlas",
-      "Atlas브라우저",
-      "ChatGPT",
-      "AI에이전트",
-      "AIAgent",
-      "인공지능",
-      "AI자동화",
-      "ChatGPT업데이트",
-      "OpenAI",
-      "Atlas설치법",
-      "Atlas사용법",
-      "ChatGPTAgent",
-      "AI비즈니스",
-      "AI트렌드",
-      "AI입문",
-      "커넥트AILAB",
-      "제이정",
-      "AI경제",
-      "AI활용",
-      "업무자동화",
-      "AI시대",
-      "인공지능활용",
-      "ChatGPT튜토리얼",
-      "ChatGPT브라우저",
-      "connectailab",
-      "jay",
-      "ai멘토",
-      "정원석"
-    ]
-  },
-  {
     "id": "pmCUisfJQy4",
     "locale": "ko",
     "category": "tutorial",
@@ -527,29 +481,6 @@ const rawVideos: LandingVideo[] = [
       "AI",
       "챗GPT",
       "cheatgpt"
-    ]
-  },
-  {
-    "id": "DzhGIpOVJbU",
-    "locale": "en",
-    "category": "proReview",
-    "title": "7 Mind-Blowing Use Cases of Perplexity Comet Agents",
-    "description": "Join my AI Playbook® community—in just one week, discover how to trim 5 hours off your workweek & unlock $500–$1K in new ...",
-    "channelTitle": "Rick Mulready",
-    "publishDate": "2025-10-16",
-    "duration": "PT12M42S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/DzhGIpOVJbU/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "Comet browser",
-      "Perplexity Comet",
-      "Comet agents",
-      "Comet AI",
-      "AI agents"
     ]
   },
   {
@@ -813,6 +744,47 @@ const rawVideos: LandingVideo[] = [
       "height": 360
     },
     "tags": []
+  },
+  {
+    "id": "sy3nQUOLTzc",
+    "locale": "en",
+    "category": "shorts",
+    "title": "🚀 Scrape Any Website in Seconds with Perplexity Comet (No Code Needed!)",
+    "description": "Learn how to use Perplexity Comet's AI browser to scrape product data from websites like Amazon — no coding, no APIs, just ...",
+    "channelTitle": "Analytics Vidhya",
+    "publishDate": "2025-10-06",
+    "duration": "PT1M",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/sy3nQUOLTzc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "Perplexity Comet",
+      "web scraping",
+      "no code scraping",
+      "AI tools 2025",
+      "Comet browser tutorial",
+      "data scraping automation",
+      "Amazon scraping",
+      "Perplexity AI",
+      "AI web browser",
+      "Comet assistant",
+      "data extraction",
+      "productivity tools",
+      "AI for data analysts",
+      "scrape websites without code",
+      "JSON export",
+      "Excel scraping",
+      "AI agents",
+      "AI workflow automation",
+      "tech shorts",
+      "data projects",
+      "Analytics Vidhya",
+      "AI 2025",
+      "AI news"
+    ]
   },
   {
     "id": "R0jDcdFm8Fg",
@@ -1251,6 +1223,23 @@ const rawVideos: LandingVideo[] = [
       "Podcast",
       "aibusiness"
     ]
+  },
+  {
+    "id": "b-ahGuxtcME",
+    "locale": "en",
+    "category": "shorts",
+    "title": "The Future of the Web Browser - Perplexity Comet",
+    "description": "No description available",
+    "channelTitle": "Roberto Nickson",
+    "publishDate": "2025-07-20",
+    "duration": "PT1M20S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/b-ahGuxtcME/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
   },
   {
     "id": "nmkk_bmohJ0",

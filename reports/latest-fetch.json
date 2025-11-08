@@ -1,16 +1,17 @@
 {
-  "timestamp": "2025-11-07T03:06:08.209Z",
+  "timestamp": "2025-11-08T02:57:57.943Z",
   "totalVideos": 47,
   "totalSearches": 12,
   "byCategory": {
-    "proReview": 26,
+    "proReview": 24,
     "tutorial": 17,
-    "hero": 4
+    "hero": 4,
+    "shorts": 2
   },
   "byLocale": {
     "zh": 11,
-    "en": 18,
-    "ko": 12,
+    "en": 19,
+    "ko": 11,
     "ja": 6
   },
   "optimization": {

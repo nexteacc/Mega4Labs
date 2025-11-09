@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-11-08T02:57:57.941Z
- * 总数: 47 个视频
+ * 生成时间: 2025-11-09T03:08:15.315Z
+ * 总数: 48 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -75,23 +75,6 @@ const rawVideos: LandingVideo[] = [
       "ai瀏覽器實測",
       "ai浏览器实测"
     ]
-  },
-  {
-    "id": "zyBXSc3vQgk",
-    "locale": "zh",
-    "category": "proReview",
-    "title": "什麼是AI瀏覽器？3個範例解釋為何能完勝訊息機器人",
-    "description": "什麼是AI瀏覽器？過去我們透過AI機器人「提問與生成」內容，但AI瀏覽器更進一步，它能讓AI控制瀏覽器的每個操作步驟，是能夠 ...",
-    "channelTitle": "COOL3C",
-    "publishDate": "2025-10-31",
-    "duration": "PT7M59S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/zyBXSc3vQgk/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
   },
   {
     "id": "fq3KobEWiD8",
@@ -187,41 +170,6 @@ const rawVideos: LandingVideo[] = [
       "나이스무브",
       "IT트렌드",
       "오픈AI아틀라스"
-    ]
-  },
-  {
-    "id": "LxrIeDESSuA",
-    "locale": "en",
-    "category": "tutorial",
-    "title": "Comet Browser Invite &amp; Earn Program Step by Step Complete Process ",
-    "description": "In this Video, I Explained about Comet Browser Invite & Earn Program Step by Step Complete Process in Telugu, So You can ...",
-    "channelTitle": "Hello Tejaa",
-    "publishDate": "2025-10-24",
-    "duration": "PT7M3S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/LxrIeDESSuA/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "hello tejaa",
-      "Make 130$ with Comet Browser | Perplexity Referral Program",
-      "passive income online",
-      "perplexity referral program",
-      "perplexity payout proof",
-      "perplexity bonus offer",
-      "perplexity referral trick",
-      "perplexity ai rewards",
-      "perplexity income proof",
-      "comet browser refer and earn telugu",
-      "comet browser",
-      "how to install comet browser",
-      "perplexity comet download",
-      "ai browser",
-      "how to download comet browser",
-      "comet installation",
-      "comet browser free"
     ]
   },
   {
@@ -378,6 +326,52 @@ const rawVideos: LandingVideo[] = [
       "smart browser tools",
       "podcast automation",
       "Comet vs Atlas test"
+    ]
+  },
+  {
+    "id": "0jygvelt5Bg",
+    "locale": "ko",
+    "category": "proReview",
+    "title": "챗GPT가 만든 미친 웹브라우저 &#39;아틀라스&#39; 직접 써봤습니다. AI가 이메일 답장, 쇼핑, 결제까지 전부 알아서 해줍니다. (feat. AI 에이전트)",
+    "description": "안녕하세요, 여러분의 'AI멘토 Jay'입니다. 인터넷의 판도가 완전히 바뀝니다. OpenAI가 챗GPT를 탑재한 새로운 웹브라우저 ...",
+    "channelTitle": "CONNECT AI LAB",
+    "publishDate": "2025-10-22",
+    "duration": "PT19M43S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/0jygvelt5Bg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "ChatGPTAtlas",
+      "Atlas브라우저",
+      "ChatGPT",
+      "AI에이전트",
+      "AIAgent",
+      "인공지능",
+      "AI자동화",
+      "ChatGPT업데이트",
+      "OpenAI",
+      "Atlas설치법",
+      "Atlas사용법",
+      "ChatGPTAgent",
+      "AI비즈니스",
+      "AI트렌드",
+      "AI입문",
+      "커넥트AILAB",
+      "제이정",
+      "AI경제",
+      "AI활용",
+      "업무자동화",
+      "AI시대",
+      "인공지능활용",
+      "ChatGPT튜토리얼",
+      "ChatGPT브라우저",
+      "connectailab",
+      "jay",
+      "ai멘토",
+      "정원석"
     ]
   },
   {
@@ -608,40 +602,6 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "qSNRGeZuHeI",
-    "locale": "en",
-    "category": "hero",
-    "title": "COMET EXPLICADO FÁCIL. Automatiza con navegador agéntico#ia #ai #inteligenciaartificial #perplexity",
-    "description": "No description available",
-    "channelTitle": "maxmaxdata",
-    "publishDate": "2025-10-10",
-    "duration": "PT3M",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/qSNRGeZuHeI/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
-    "id": "qSNRGeZuHeI",
-    "locale": "en",
-    "category": "tutorial",
-    "title": "COMET EXPLICADO FÁCIL. Automatiza con navegador agéntico#ia #ai #inteligenciaartificial #perplexity",
-    "description": "No description available",
-    "channelTitle": "maxmaxdata",
-    "publishDate": "2025-10-10",
-    "duration": "PT3M",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/qSNRGeZuHeI/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
     "id": "6TBpTvwNujA",
     "locale": "en",
     "category": "proReview",
@@ -787,6 +747,109 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "-ix8UjYuF8Q",
+    "locale": "en",
+    "category": "hero",
+    "title": "AI Browser that works for you #carterpcs #tech #comet #perplexity #cometpartner",
+    "description": "No description available",
+    "channelTitle": "CarterPCs",
+    "publishDate": "2025-10-03",
+    "duration": "PT39S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/-ix8UjYuF8Q/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
+    "id": "ZKMd2nZ7M0s",
+    "locale": "zh",
+    "category": "tutorial",
+    "title": "【網頁AI自動化神器】Comet Browser 實測！用 Perplexity AI 幫你在 Google Whisk 上「一鍵」生成10張圖！",
+    "description": "Comet Browser 下載網址: https://pplx.ai/linyudatw30915 Google Whisk 相關介紹: https://youtu.be/Jg65-2SrYc4 給Comet Browser ...",
+    "channelTitle": "阿德的電腦資訊分享",
+    "publishDate": "2025-10-03",
+    "duration": "PT4M19S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/ZKMd2nZ7M0s/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
+    "id": "LcMDcwU7FVw",
+    "locale": "ja",
+    "category": "proReview",
+    "title": "Perplexity Comet ブラウザデモ（11の驚異的な使用例） | Perplexity Comet チュートリアル | Comet の使い方",
+    "description": "Perplexity Cometブラウザ デモ（11の驚きの活用例） | Perplexity Cometチュートリアル | Cometの使い方\n\n🌠Perplexity Comet（無料Pro版 ...",
+    "channelTitle": "Success Minder",
+    "publishDate": "2025-10-03",
+    "duration": "PT18M20S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/LcMDcwU7FVw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "comet browser features",
+      "how to use comet browser",
+      "perplexity comet review",
+      "perplexity comet demo",
+      "perplexity comet browser review",
+      "perplexity comet browser demo",
+      "perplexity comet features",
+      "perplexity comet use cases",
+      "perplexity comet how to use",
+      "perplexity comet browser tutorial",
+      "perplexity comet browser setup",
+      "perplexity ai comet browser",
+      "how to use perplexity comet browser",
+      "comet browser review",
+      "comet browser use cases",
+      "comet browser demo",
+      "Comet browser review"
+    ]
+  },
+  {
+    "id": "-ix8UjYuF8Q",
+    "locale": "en",
+    "category": "shorts",
+    "title": "AI Browser that works for you #carterpcs #tech #comet #perplexity #cometpartner",
+    "description": "No description available",
+    "channelTitle": "CarterPCs",
+    "publishDate": "2025-10-03",
+    "duration": "PT39S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/-ix8UjYuF8Q/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
+    "id": "fs2BUmxMP80",
+    "locale": "zh",
+    "category": "tutorial",
+    "title": "Perplexity Comet： AI瀏覽器正式上線！",
+    "description": "perplexity #Comet： #AI瀏覽器正式上線！ 1️⃣ #Chrome框架可以直接整合2️⃣ #Assistant功能側邊欄互動應用3️⃣ URL欄位 ...",
+    "channelTitle": "數位敘事力期刊",
+    "publishDate": "2025-10-02",
+    "duration": "PT8M36S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/fs2BUmxMP80/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
     "id": "R0jDcdFm8Fg",
     "locale": "ja",
     "category": "tutorial",
@@ -842,7 +905,7 @@ const rawVideos: LandingVideo[] = [
     "category": "proReview",
     "title": "AI浏览器革命来了！Perplexity开价345亿收购Chrome? AI浏览器Comet 6大场景实测+免费薅羊毛攻略",
     "description": "专属优惠链接：https://pathunfold.com/serena 欢迎加入我们的「用AI发电」普通人AI 赋能成长社群⚡ 社群上线一周已经突破1000名 ...",
-    "channelTitle": "Serena Wang - 心心加州",
+    "channelTitle": "Serena心心加州",
     "publishDate": "2025-09-08",
     "duration": "PT13M1S",
     "platform": "youtube",
@@ -1391,6 +1454,34 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "SRVBYGg7sBM",
+    "locale": "ja",
+    "category": "proReview",
+    "title": "無料の次世代AIブラウザ『Diaブラウザ』を徹底解説【活用事例９選】",
+    "description": "Arcブラウザの後継である無料のAIブラウザ『Diaブラウザ』を徹底解説！そして活用事例を9つ紹介します。無料で使えて、UI/UX ...",
+    "channelTitle": "KEITO【AI&WEB ch】",
+    "publishDate": "2025-06-16",
+    "duration": "PT37M27S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/SRVBYGg7sBM/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "AI",
+      "KEITO",
+      "AIブラウザ",
+      "AI検索",
+      "ai browser",
+      "Dia",
+      "Diaブラウザ",
+      "Dia Browser",
+      "ディアブラウザ",
+      "ディア"
+    ]
+  },
+  {
     "id": "lurRh7NgYXQ",
     "locale": "ja",
     "category": "proReview",
@@ -1415,58 +1506,6 @@ const rawVideos: LandingVideo[] = [
       "Power toys",
       "Power Toys",
       "パワートイズ"
-    ]
-  },
-  {
-    "id": "72v4YZU1rIA",
-    "locale": "zh",
-    "category": "tutorial",
-    "title": "网红AI浏览器Dia深度体验，测评Dia浏览器的4个逆天功能，TA会是下一代的浏览器么？",
-    "description": "最近，网红浏览器团队ARC推出了最新的AI浏览器-Dia，目前仍处于内测中，阳哥带来了一手测试体验，欢迎大家点赞评论和转发。",
-    "channelTitle": "阳哥NExT",
-    "publishDate": "2025-05-08",
-    "duration": "PT4M35S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/72v4YZU1rIA/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
-    "id": "YXedHHRP4OY",
-    "locale": "zh",
-    "category": "tutorial",
-    "title": "再见了谷歌插件！AI原生浏览器超级好用！【Dia实测】",
-    "description": "Arc团队重磅推出了一个“AI原生浏览器”Dia “AI原生”跟AI插件能有什么不一样呢？ 一起看看吧～ 感谢朋友们三连+关注～ Dia ...",
-    "channelTitle": "秋芝2046",
-    "publishDate": "2025-04-28",
-    "duration": "PT6M15S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/YXedHHRP4OY/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "AI",
-      "人工智能",
-      "浏览器",
-      "browser",
-      "AI浏览器",
-      "AIbrowser",
-      "Dia",
-      "Dia browser",
-      "Arc",
-      "the browser company",
-      "best AI browser",
-      "insane AI browser",
-      "Dia alpha test",
-      "秋芝2046",
-      "AI browser",
-      "AI plugins",
-      "AI plugin"
     ]
   }
 ];

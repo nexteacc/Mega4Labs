@@ -1,18 +1,18 @@
 {
-  "timestamp": "2025-11-10T03:14:20.733Z",
-  "totalVideos": 48,
+  "timestamp": "2025-11-11T03:08:41.709Z",
+  "totalVideos": 44,
   "totalSearches": 12,
   "byCategory": {
-    "proReview": 26,
+    "proReview": 23,
     "tutorial": 15,
     "hero": 4,
-    "shorts": 3
+    "shorts": 2
   },
   "byLocale": {
-    "en": 19,
+    "en": 17,
     "zh": 10,
-    "ko": 13,
-    "ja": 6
+    "ko": 12,
+    "ja": 5
   },
   "optimization": {
     "searchesPerLanguage": 3,
@@ -23,7 +23,7 @@
   "latestVideos": [
     {
       "id": "VWGkNvfkMys",
-      "title": "50+ Ways Perplexity JUST Changed How We Use The Internet (Comet Browser)",
+      "title": "Perplexity JUST Changed How I Use The Internet! (Comet Browser)",
       "category": "proReview",
       "locale": "en",
       "publishDate": "2025-11-08"

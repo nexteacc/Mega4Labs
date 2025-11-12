@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-11-11T03:08:41.708Z
- * 总数: 44 个视频
+ * 生成时间: 2025-11-12T03:07:20.837Z
+ * 总数: 49 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -303,42 +303,34 @@ const rawVideos: LandingVideo[] = [
     "tags": []
   },
   {
-    "id": "g_lBZ-EJGYY",
+    "id": "ya9XWiXA3XM",
     "locale": "en",
-    "category": "hero",
-    "title": "Atlas vs Comet: AI Browser Showdown",
-    "description": "OpenAI's new Atlas browser is sleek, powerful, and deeply integrated with ChatGPT—but is it better than Perplexity's Comet?",
-    "channelTitle": "Stephen Robles",
-    "publishDate": "2025-10-22",
-    "duration": "PT11M13S",
+    "category": "proReview",
+    "title": "ChatGPT Atlas VS Perplexity Comet (Which is Better?)",
+    "description": "In this video, I test the brand new ChatGPT Atlas browser vs Perplexity Comet. Both of these are agentic browsers that can not ...",
+    "channelTitle": "Brock Mesarich | AI for Non Techies",
+    "publishDate": "2025-10-23",
+    "duration": "PT14M7S",
     "platform": "youtube",
     "thumbnail": {
-      "url": "https://i.ytimg.com/vi/g_lBZ-EJGYY/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/ya9XWiXA3XM/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
     "tags": [
-      "AI browser",
-      "OpenAI Atlas",
-      "Perplexity Comet",
-      "Atlas vs Comet",
-      "best AI browser",
-      "AI tools 2025",
-      "browser automation",
-      "agentic workflows",
-      "ChatGPT browser",
-      "Comet Perplexity",
-      "Atlas OpenAI",
-      "Mac productivity",
-      "AI comparisons",
-      "tech review 2025",
-      "AI promo code finder",
-      "YouTube automation",
-      "browser speed test",
-      "AI vs AI",
-      "smart browser tools",
-      "podcast automation",
-      "Comet vs Atlas test"
+      "chatgpt browser",
+      "chatgpt atlas",
+      "chatgpt browser agent",
+      "chatgpt agentic browser",
+      "chatgpt Atlas review",
+      "chatgpt atlast",
+      "chatgpt atlas browser",
+      "chatgpt new update",
+      "chatgpt chrome",
+      "openai atlas browser demo",
+      "chatgpt atlas vs comet",
+      "atlas vs comet browser",
+      "atlas vs comet"
     ]
   },
   {
@@ -527,6 +519,29 @@ const rawVideos: LandingVideo[] = [
       "AI",
       "챗GPT",
       "cheatgpt"
+    ]
+  },
+  {
+    "id": "DzhGIpOVJbU",
+    "locale": "en",
+    "category": "proReview",
+    "title": "7 Mind-Blowing Use Cases of Perplexity Comet Agents",
+    "description": "Join my AI Playbook® community—in just one week, discover how to trim 5 hours off your workweek & unlock $500–$1K in new ...",
+    "channelTitle": "Rick Mulready",
+    "publishDate": "2025-10-16",
+    "duration": "PT12M42S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/DzhGIpOVJbU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "Comet browser",
+      "Perplexity Comet",
+      "Comet agents",
+      "Comet AI",
+      "AI agents"
     ]
   },
   {
@@ -1403,6 +1418,33 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "lurRh7NgYXQ",
+    "locale": "ja",
+    "category": "proReview",
+    "title": "2025年に間違いなく話題となる2つの神ブラウザ候補をご紹介します【2025年リリース予定の新ブラウザ情報まとめ】",
+    "description": "今回の動画について＞ 2025年にリリース予定の新しい2つのブラウザについて、 現時点で分かっている最新情報をまとめました。",
+    "channelTitle": "ウェブマニア",
+    "publishDate": "2025-05-24",
+    "duration": "PT5M31S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/lurRh7NgYXQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "ゆっくり",
+      "ゆっくり解説",
+      "WEB",
+      "フリーソフト",
+      "マイクロソフト",
+      "Microsoft",
+      "Power toys",
+      "Power Toys",
+      "パワートイズ"
+    ]
+  },
+  {
     "id": "72v4YZU1rIA",
     "locale": "zh",
     "category": "tutorial",
@@ -1453,6 +1495,71 @@ const rawVideos: LandingVideo[] = [
       "AI plugins",
       "AI plugin"
     ]
+  },
+  {
+    "id": "_qRjotKjQx0",
+    "locale": "ja",
+    "category": "hero",
+    "title": "テトリスがつよつよのすいちゃん【ホロライブ】#shorts",
+    "description": "VOICEVOX:四国めたん 元動画↓ 【テトリス99】テトリスキャラだったことを覚えているだろうか【ホロライブ/星街すいせい】 ...",
+    "channelTitle": "ホロライブの雑学",
+    "publishDate": "2025-03-05",
+    "duration": "PT1M27S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/_qRjotKjQx0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "ホロライブ",
+      "雑学",
+      "青山龍星",
+      "さくらみこ",
+      "星街すいせい",
+      "不知火フレア"
+    ]
+  },
+  {
+    "id": "_qRjotKjQx0",
+    "locale": "ja",
+    "category": "shorts",
+    "title": "テトリスがつよつよのすいちゃん【ホロライブ】#shorts",
+    "description": "VOICEVOX:四国めたん 元動画↓ 【テトリス99】テトリスキャラだったことを覚えているだろうか【ホロライブ/星街すいせい】 ...",
+    "channelTitle": "ホロライブの雑学",
+    "publishDate": "2025-03-05",
+    "duration": "PT1M27S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/_qRjotKjQx0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "ホロライブ",
+      "雑学",
+      "青山龍星",
+      "さくらみこ",
+      "星街すいせい",
+      "不知火フレア"
+    ]
+  },
+  {
+    "id": "IRhvdplqfK4",
+    "locale": "ja",
+    "category": "shorts",
+    "title": "ゲーセンスマートウォッチが使えるのか！？",
+    "description": "No description available",
+    "channelTitle": "ガジェットモ",
+    "publishDate": "2025-01-06",
+    "duration": "PT53S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/IRhvdplqfK4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
   }
 ];
 

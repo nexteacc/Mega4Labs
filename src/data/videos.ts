@@ -4,7 +4,7 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-11-12T03:07:20.837Z
+ * 生成时间: 2025-11-13T03:09:35.232Z
  * 总数: 49 个视频
  * 
  * 抓取策略:
@@ -13,50 +13,6 @@ import { LandingVideoArraySchema } from "@/lib/videos";
  * - Tutorial、ProReview、Shorts 互斥（无重复）
  */
 const rawVideos: LandingVideo[] = [
-  {
-    "id": "VWGkNvfkMys",
-    "locale": "en",
-    "category": "proReview",
-    "title": "Perplexity JUST Changed How I Use The Internet! (Comet Browser)",
-    "description": "Check out monday sidekick in Early Access on monday.com: https://bit.ly/4grWJ8F Breaking down all the cool uses of the Comet ...",
-    "channelTitle": "Matt Wolfe",
-    "publishDate": "2025-11-08",
-    "duration": "PT43M35S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/VWGkNvfkMys/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "AI",
-      "Artificial Intelligence",
-      "FutureTools",
-      "Futurism",
-      "Deep Learning",
-      "Matt Wolfe",
-      "AI News",
-      "AI Tools",
-      "AI browser",
-      "Perplexity Comet",
-      "Perplexity browser",
-      "browser agent",
-      "Chrome replacement",
-      "AI workflow automation",
-      "Comet assistant",
-      "slash shortcuts",
-      "YouTube creator tools",
-      "Google Docs proofreading",
-      "calendar automation",
-      "Amazon shopping automation",
-      "Feedly newsletters",
-      "social media trends AI",
-      "GPT-5 vs Claude vs Gemini",
-      "Matt Wolfe AI",
-      "AI productivity tools",
-      "agentic browsing"
-    ]
-  },
   {
     "id": "u7EMV4NkPak",
     "locale": "zh",
@@ -522,27 +478,21 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "DzhGIpOVJbU",
-    "locale": "en",
+    "id": "1Fo3ErKipCc",
+    "locale": "zh",
     "category": "proReview",
-    "title": "7 Mind-Blowing Use Cases of Perplexity Comet Agents",
-    "description": "Join my AI Playbook® community—in just one week, discover how to trim 5 hours off your workweek & unlock $500–$1K in new ...",
-    "channelTitle": "Rick Mulready",
-    "publishDate": "2025-10-16",
-    "duration": "PT12M42S",
+    "title": "【2025最新】Perplexity Comet 評測：AI瀏覽器完整功能、免費下載、5大優缺點實測!月費NT$6500→免費開放",
+    "description": "【2025最新】Perplexity Comet AI瀏覽器深度評測！月費6500→免費開放原本要價NT$6500/月的AI 瀏覽器Perplexity Comet，現在 ...",
+    "channelTitle": "AI 新視界",
+    "publishDate": "2025-10-17",
+    "duration": "PT6M2S",
     "platform": "youtube",
     "thumbnail": {
-      "url": "https://i.ytimg.com/vi/DzhGIpOVJbU/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/1Fo3ErKipCc/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
-    "tags": [
-      "Comet browser",
-      "Perplexity Comet",
-      "Comet agents",
-      "Comet AI",
-      "AI agents"
-    ]
+    "tags": []
   },
   {
     "id": "p9WhwhYEPsA",
@@ -623,6 +573,23 @@ const rawVideos: LandingVideo[] = [
       "스마트폰 브라우저",
       "최신 브라우저"
     ]
+  },
+  {
+    "id": "hkI8ssg-ERc",
+    "locale": "ko",
+    "category": "proReview",
+    "title": "코드 한 줄 없이 웹데이터 크롤링! 퍼플릭시티 코멧 완전정복",
+    "description": "이번 영상에서는 퍼플릭시티 코멧(Perplexity Comet) 브라우저를 이용해누구나 손쉽게 웹데이터를 크롤링하는 방법을 다룹니다.",
+    "channelTitle": "AI 일잘러",
+    "publishDate": "2025-10-13",
+    "duration": "PT6M58S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/hkI8ssg-ERc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
   },
   {
     "id": "XiRzrSdIxO0",
@@ -814,6 +781,40 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "-ix8UjYuF8Q",
+    "locale": "en",
+    "category": "hero",
+    "title": "AI Browser that works for you #carterpcs #tech #comet #perplexity #cometpartner",
+    "description": "No description available",
+    "channelTitle": "CarterPCs",
+    "publishDate": "2025-10-03",
+    "duration": "PT39S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/-ix8UjYuF8Q/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
+    "id": "-ix8UjYuF8Q",
+    "locale": "en",
+    "category": "shorts",
+    "title": "AI Browser that works for you #carterpcs #tech #comet #perplexity #cometpartner",
+    "description": "No description available",
+    "channelTitle": "CarterPCs",
+    "publishDate": "2025-10-03",
+    "duration": "PT39S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/-ix8UjYuF8Q/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
     "id": "R0jDcdFm8Fg",
     "locale": "ja",
     "category": "tutorial",
@@ -947,28 +948,6 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "70ERnUFxvKs",
-    "locale": "ko",
-    "category": "tutorial",
-    "title": "파이썬으로 크롤링 할 필요 없다! AI로 코딩 없이 웹페이지 크롤링 하는 방법 | 퍼플렉시티 코멧, Perplexity Comet",
-    "description": "코멧 다운로드 받기 https://pplx.ai/potatoai 퍼플렉시티 1개월 무료 : https://perplexity.ai/pro?referral_code=FGUU42VB (이 링크를 ...",
-    "channelTitle": "감자나라ai",
-    "publishDate": "2025-09-01",
-    "duration": "PT6M37S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/70ERnUFxvKs/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "인공지능",
-      "AI",
-      "챗GPT",
-      "cheatgpt"
-    ]
-  },
-  {
     "id": "KayYycPHBpg",
     "locale": "ko",
     "category": "tutorial",
@@ -988,6 +967,50 @@ const rawVideos: LandingVideo[] = [
       "AI",
       "챗GPT",
       "cheatgpt"
+    ]
+  },
+  {
+    "id": "ZsBniZ_M7hs",
+    "locale": "en",
+    "category": "proReview",
+    "title": "Stop using Chrome. This AI browser is insane…",
+    "description": "Work 30% faster with Vectal: https://www.vectal.ai/ Wanna start a business with AI Agents? Go here: ...",
+    "channelTitle": "David Ondrej",
+    "publishDate": "2025-08-23",
+    "duration": "PT10M36S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/ZsBniZ_M7hs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "David Ondrej",
+      "david ondrej",
+      "AI",
+      "ChatGPT",
+      "artificial intelligence",
+      "ai",
+      "Artificial Intelligence",
+      "OpenAI",
+      "chatgpt",
+      "chat gpt",
+      "Chat GPT",
+      "AGI",
+      "midjourney",
+      "david ondrej podcast",
+      "GPT",
+      "new society",
+      "david ondrej new society",
+      "david ondrej community",
+      "make money with AI",
+      "AI Agents",
+      "ai agent",
+      "AI Agent Startup",
+      "AI SaaS",
+      "AI Startup",
+      "perplexity comet",
+      "perplexity comet browser"
     ]
   },
   {
@@ -1497,69 +1520,37 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "_qRjotKjQx0",
+    "id": "QPtyGTnNhtc",
     "locale": "ja",
-    "category": "hero",
-    "title": "テトリスがつよつよのすいちゃん【ホロライブ】#shorts",
-    "description": "VOICEVOX:四国めたん 元動画↓ 【テトリス99】テトリスキャラだったことを覚えているだろうか【ホロライブ/星街すいせい】 ...",
-    "channelTitle": "ホロライブの雑学",
-    "publishDate": "2025-03-05",
-    "duration": "PT1M27S",
+    "category": "shorts",
+    "title": "Windows 11 PCまたはラップトップでWindows生体認証サービスを有効にする方法",
+    "description": "この短いチュートリアルでは、Windows 11 の PC またはノートパソコンで Windows 生体認証サービスを簡単に有効にする方法を解説します。このサービスは ...",
+    "channelTitle": "Discover You",
+    "publishDate": "2024-11-19",
+    "duration": "PT46S",
     "platform": "youtube",
     "thumbnail": {
-      "url": "https://i.ytimg.com/vi/_qRjotKjQx0/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/QPtyGTnNhtc/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
     "tags": [
-      "ホロライブ",
-      "雑学",
-      "青山龍星",
-      "さくらみこ",
-      "星街すいせい",
-      "不知火フレア"
+      "Enable Windows Biometric Service Windows 11",
+      "Windows 11 Biometric Service tutorial",
+      "Fingerprint login not working fix",
+      "enable biometric login Windows 11",
+      "Windows Biometric Service settings",
+      "Windows 11 fingerprint setup guide",
+      "Fix biometric service in Windows 11",
+      "Enable fingerprint login on laptop",
+      "Facial recognition setup Windows 11",
+      "Activate biometric service Windows 11",
+      "Biometric service not running fix",
+      "Enable Windows Biometric Service",
+      "Windows 11",
+      "Windows",
+      "Windows Biometric"
     ]
-  },
-  {
-    "id": "_qRjotKjQx0",
-    "locale": "ja",
-    "category": "shorts",
-    "title": "テトリスがつよつよのすいちゃん【ホロライブ】#shorts",
-    "description": "VOICEVOX:四国めたん 元動画↓ 【テトリス99】テトリスキャラだったことを覚えているだろうか【ホロライブ/星街すいせい】 ...",
-    "channelTitle": "ホロライブの雑学",
-    "publishDate": "2025-03-05",
-    "duration": "PT1M27S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/_qRjotKjQx0/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "ホロライブ",
-      "雑学",
-      "青山龍星",
-      "さくらみこ",
-      "星街すいせい",
-      "不知火フレア"
-    ]
-  },
-  {
-    "id": "IRhvdplqfK4",
-    "locale": "ja",
-    "category": "shorts",
-    "title": "ゲーセンスマートウォッチが使えるのか！？",
-    "description": "No description available",
-    "channelTitle": "ガジェットモ",
-    "publishDate": "2025-01-06",
-    "duration": "PT53S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/IRhvdplqfK4/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
   }
 ];
 

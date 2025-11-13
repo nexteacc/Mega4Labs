@@ -1,18 +1,18 @@
 {
-  "timestamp": "2025-11-12T03:07:20.839Z",
+  "timestamp": "2025-11-13T03:09:35.233Z",
   "totalVideos": 49,
   "totalSearches": 12,
   "byCategory": {
-    "proReview": 26,
-    "tutorial": 15,
+    "proReview": 27,
+    "tutorial": 14,
     "hero": 4,
     "shorts": 4
   },
   "byLocale": {
-    "en": 18,
-    "zh": 10,
+    "zh": 11,
+    "en": 19,
     "ko": 12,
-    "ja": 9
+    "ja": 7
   },
   "optimization": {
     "searchesPerLanguage": 3,
@@ -21,13 +21,6 @@
     "deduplicationStrategy": "Tutorial、ProReview、Shorts 互斥"
   },
   "latestVideos": [
-    {
-      "id": "VWGkNvfkMys",
-      "title": "Perplexity JUST Changed How I Use The Internet! (Comet Browser)",
-      "category": "proReview",
-      "locale": "en",
-      "publishDate": "2025-11-08"
-    },
     {
       "id": "u7EMV4NkPak",
       "title": "Atlas VS Comet: AI瀏覽器最強實測，結果出乎意料！",
@@ -55,6 +48,13 @@
       "category": "proReview",
       "locale": "ko",
       "publishDate": "2025-10-26"
+    },
+    {
+      "id": "OyMak1F6eoc",
+      "title": "퍼플렉시티 + 코멧 첫 시작? 이것 부터 세팅하고 첫 대화 시작하세요! AI 검색을 위한 브라우저 Perplexity Comet",
+      "category": "tutorial",
+      "locale": "ko",
+      "publishDate": "2025-10-24"
     }
   ]
 }

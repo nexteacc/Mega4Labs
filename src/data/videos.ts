@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-11-13T03:09:35.232Z
- * 总数: 49 个视频
+ * 生成时间: 2025-11-14T03:07:54.576Z
+ * 总数: 48 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -13,6 +13,50 @@ import { LandingVideoArraySchema } from "@/lib/videos";
  * - Tutorial、ProReview、Shorts 互斥（无重复）
  */
 const rawVideos: LandingVideo[] = [
+  {
+    "id": "VWGkNvfkMys",
+    "locale": "en",
+    "category": "proReview",
+    "title": "50+ INSANE Ways To Use Perplexity AI Browser",
+    "description": "Check out monday sidekick in Early Access on monday.com: https://bit.ly/4grWJ8F Breaking down all the cool uses of the Comet ...",
+    "channelTitle": "Matt Wolfe",
+    "publishDate": "2025-11-08",
+    "duration": "PT43M35S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/VWGkNvfkMys/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "AI",
+      "Artificial Intelligence",
+      "FutureTools",
+      "Futurism",
+      "Deep Learning",
+      "Matt Wolfe",
+      "AI News",
+      "AI Tools",
+      "AI browser",
+      "Perplexity Comet",
+      "Perplexity browser",
+      "browser agent",
+      "Chrome replacement",
+      "AI workflow automation",
+      "Comet assistant",
+      "slash shortcuts",
+      "YouTube creator tools",
+      "Google Docs proofreading",
+      "calendar automation",
+      "Amazon shopping automation",
+      "Feedly newsletters",
+      "social media trends AI",
+      "GPT-5 vs Claude vs Gemini",
+      "Matt Wolfe AI",
+      "AI productivity tools",
+      "agentic browsing"
+    ]
+  },
   {
     "id": "u7EMV4NkPak",
     "locale": "zh",
@@ -257,37 +301,6 @@ const rawVideos: LandingVideo[] = [
       "height": 360
     },
     "tags": []
-  },
-  {
-    "id": "ya9XWiXA3XM",
-    "locale": "en",
-    "category": "proReview",
-    "title": "ChatGPT Atlas VS Perplexity Comet (Which is Better?)",
-    "description": "In this video, I test the brand new ChatGPT Atlas browser vs Perplexity Comet. Both of these are agentic browsers that can not ...",
-    "channelTitle": "Brock Mesarich | AI for Non Techies",
-    "publishDate": "2025-10-23",
-    "duration": "PT14M7S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/ya9XWiXA3XM/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "chatgpt browser",
-      "chatgpt atlas",
-      "chatgpt browser agent",
-      "chatgpt agentic browser",
-      "chatgpt Atlas review",
-      "chatgpt atlast",
-      "chatgpt atlas browser",
-      "chatgpt new update",
-      "chatgpt chrome",
-      "openai atlas browser demo",
-      "chatgpt atlas vs comet",
-      "atlas vs comet browser",
-      "atlas vs comet"
-    ]
   },
   {
     "id": "g_lBZ-EJGYY",
@@ -948,6 +961,28 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "70ERnUFxvKs",
+    "locale": "ko",
+    "category": "tutorial",
+    "title": "파이썬으로 크롤링 할 필요 없다! AI로 코딩 없이 웹페이지 크롤링 하는 방법 | 퍼플렉시티 코멧, Perplexity Comet",
+    "description": "코멧 다운로드 받기 https://pplx.ai/potatoai 퍼플렉시티 1개월 무료 : https://perplexity.ai/pro?referral_code=FGUU42VB (이 링크를 ...",
+    "channelTitle": "감자나라ai",
+    "publishDate": "2025-09-01",
+    "duration": "PT6M37S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/70ERnUFxvKs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "인공지능",
+      "AI",
+      "챗GPT",
+      "cheatgpt"
+    ]
+  },
+  {
     "id": "KayYycPHBpg",
     "locale": "ko",
     "category": "tutorial",
@@ -1358,23 +1393,6 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "arK2NeS2KX4",
-    "locale": "zh",
-    "category": "proReview",
-    "title": "Ai News：Higgsfield推出Soul ID，Veo3上线图生视频模式，Grok4发布，开源版剪映opencut，Perplexity Comet浏览器上线",
-    "description": "今天提到的工具: ▶︎ https://x.ai/news/grok-4 ▶︎ https://github.com/OpenCut-app/OpenCut ▶︎ https://comet.perplexity.ai/ ...",
-    "channelTitle": "小薇官方频道",
-    "publishDate": "2025-07-12",
-    "duration": "PT6M31S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/arK2NeS2KX4/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
     "id": "ri_bFrDp44M",
     "locale": "en",
     "category": "hero",
@@ -1438,33 +1456,6 @@ const rawVideos: LandingVideo[] = [
       "llama",
       "meta ai",
       "google ai"
-    ]
-  },
-  {
-    "id": "lurRh7NgYXQ",
-    "locale": "ja",
-    "category": "proReview",
-    "title": "2025年に間違いなく話題となる2つの神ブラウザ候補をご紹介します【2025年リリース予定の新ブラウザ情報まとめ】",
-    "description": "今回の動画について＞ 2025年にリリース予定の新しい2つのブラウザについて、 現時点で分かっている最新情報をまとめました。",
-    "channelTitle": "ウェブマニア",
-    "publishDate": "2025-05-24",
-    "duration": "PT5M31S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/lurRh7NgYXQ/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "ゆっくり",
-      "ゆっくり解説",
-      "WEB",
-      "フリーソフト",
-      "マイクロソフト",
-      "Microsoft",
-      "Power toys",
-      "Power Toys",
-      "パワートイズ"
     ]
   },
   {

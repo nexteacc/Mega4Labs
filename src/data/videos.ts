@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-11-14T03:07:54.576Z
- * 总数: 48 个视频
+ * 生成时间: 2025-11-15T03:02:02.504Z
+ * 总数: 47 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -239,36 +239,6 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "MEGLoqn0jow",
-    "locale": "zh",
-    "category": "tutorial",
-    "title": "【AI神器：油管博主必备】提高看片效率，快速创作内容！推荐Perplexity公司的AI浏览器Comet！",
-    "description": "老胡在2025年提供以下服务，请按需选用： --------------------------------- 1.《老胡自媒体朋友圈》 * 电报/微信群，一次性费用100美元， ...",
-    "channelTitle": "老胡油管研究院",
-    "publishDate": "2025-10-24",
-    "duration": "PT8M23S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/MEGLoqn0jow/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "#西雅图老胡",
-      "自媒体",
-      "赚钱",
-      "Youtube赚钱",
-      "短视频",
-      "案例分析",
-      "频道点评",
-      "youtube tutorial",
-      "youtube make money",
-      "YouTube教学",
-      "YouTube培训",
-      "YouTube课程"
-    ]
-  },
-  {
     "id": "Eqe54cxeaUs",
     "locale": "en",
     "category": "proReview",
@@ -301,6 +271,37 @@ const rawVideos: LandingVideo[] = [
       "height": 360
     },
     "tags": []
+  },
+  {
+    "id": "ya9XWiXA3XM",
+    "locale": "en",
+    "category": "proReview",
+    "title": "ChatGPT Atlas VS Perplexity Comet (Which is Better?)",
+    "description": "In this video, I test the brand new ChatGPT Atlas browser vs Perplexity Comet. Both of these are agentic browsers that can not ...",
+    "channelTitle": "Brock Mesarich | AI for Non Techies",
+    "publishDate": "2025-10-23",
+    "duration": "PT14M7S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/ya9XWiXA3XM/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "chatgpt browser",
+      "chatgpt atlas",
+      "chatgpt browser agent",
+      "chatgpt agentic browser",
+      "chatgpt Atlas review",
+      "chatgpt atlast",
+      "chatgpt atlas browser",
+      "chatgpt new update",
+      "chatgpt chrome",
+      "openai atlas browser demo",
+      "chatgpt atlas vs comet",
+      "atlas vs comet browser",
+      "atlas vs comet"
+    ]
   },
   {
     "id": "g_lBZ-EJGYY",
@@ -586,23 +587,6 @@ const rawVideos: LandingVideo[] = [
       "스마트폰 브라우저",
       "최신 브라우저"
     ]
-  },
-  {
-    "id": "hkI8ssg-ERc",
-    "locale": "ko",
-    "category": "proReview",
-    "title": "코드 한 줄 없이 웹데이터 크롤링! 퍼플릭시티 코멧 완전정복",
-    "description": "이번 영상에서는 퍼플릭시티 코멧(Perplexity Comet) 브라우저를 이용해누구나 손쉽게 웹데이터를 크롤링하는 방법을 다룹니다.",
-    "channelTitle": "AI 일잘러",
-    "publishDate": "2025-10-13",
-    "duration": "PT6M58S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/hkI8ssg-ERc/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
   },
   {
     "id": "XiRzrSdIxO0",
@@ -1002,50 +986,6 @@ const rawVideos: LandingVideo[] = [
       "AI",
       "챗GPT",
       "cheatgpt"
-    ]
-  },
-  {
-    "id": "ZsBniZ_M7hs",
-    "locale": "en",
-    "category": "proReview",
-    "title": "Stop using Chrome. This AI browser is insane…",
-    "description": "Work 30% faster with Vectal: https://www.vectal.ai/ Wanna start a business with AI Agents? Go here: ...",
-    "channelTitle": "David Ondrej",
-    "publishDate": "2025-08-23",
-    "duration": "PT10M36S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/ZsBniZ_M7hs/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "David Ondrej",
-      "david ondrej",
-      "AI",
-      "ChatGPT",
-      "artificial intelligence",
-      "ai",
-      "Artificial Intelligence",
-      "OpenAI",
-      "chatgpt",
-      "chat gpt",
-      "Chat GPT",
-      "AGI",
-      "midjourney",
-      "david ondrej podcast",
-      "GPT",
-      "new society",
-      "david ondrej new society",
-      "david ondrej community",
-      "make money with AI",
-      "AI Agents",
-      "ai agent",
-      "AI Agent Startup",
-      "AI SaaS",
-      "AI Startup",
-      "perplexity comet",
-      "perplexity comet browser"
     ]
   },
   {
@@ -1456,6 +1396,33 @@ const rawVideos: LandingVideo[] = [
       "llama",
       "meta ai",
       "google ai"
+    ]
+  },
+  {
+    "id": "lurRh7NgYXQ",
+    "locale": "ja",
+    "category": "proReview",
+    "title": "2025年に間違いなく話題となる2つの神ブラウザ候補をご紹介します【2025年リリース予定の新ブラウザ情報まとめ】",
+    "description": "今回の動画について＞ 2025年にリリース予定の新しい2つのブラウザについて、 現時点で分かっている最新情報をまとめました。",
+    "channelTitle": "ウェブマニア",
+    "publishDate": "2025-05-24",
+    "duration": "PT5M31S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/lurRh7NgYXQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "ゆっくり",
+      "ゆっくり解説",
+      "WEB",
+      "フリーソフト",
+      "マイクロソフト",
+      "Microsoft",
+      "Power toys",
+      "Power Toys",
+      "パワートイズ"
     ]
   },
   {

@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-11-15T03:02:02.504Z
- * 总数: 47 个视频
+ * 生成时间: 2025-11-16T03:13:15.464Z
+ * 总数: 50 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -13,6 +13,68 @@ import { LandingVideoArraySchema } from "@/lib/videos";
  * - Tutorial、ProReview、Shorts 互斥（无重复）
  */
 const rawVideos: LandingVideo[] = [
+  {
+    "id": "CMyhoSSj_PI",
+    "locale": "en",
+    "category": "tutorial",
+    "title": "NEW Perplexity Comet AI Browser Update!",
+    "description": "Want to get more customers, make more profit & save 100s of hours with AI? https://go.juliangoldie.com/ai-profit-boardroom Get a ...",
+    "channelTitle": "Julian Goldie SEO",
+    "publishDate": "2025-11-15",
+    "duration": "PT9M28S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/CMyhoSSj_PI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "seo",
+      "chatgpt",
+      "seotips"
+    ]
+  },
+  {
+    "id": "hl8CVsITVQo",
+    "locale": "en",
+    "category": "proReview",
+    "title": "This New AI Browser Just K*LLED Comet &amp; ChatGPT Atlas (FlowithOS Tutorial)",
+    "description": "Try The BEST AI Browser For Yourself: https://try.flowith.io/?utm_source=robtheaiguy I just found a brand new AI browser that is ...",
+    "channelTitle": "Rob The AI Guy",
+    "publishDate": "2025-11-14",
+    "duration": "PT11M27S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/hl8CVsITVQo/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "Flowith",
+      "Flowith ai browser",
+      "ai browser",
+      "new ai browser",
+      "free ai browser",
+      "chatgpt atlas",
+      "chatgpt atlas tutorial",
+      "how to use chatgpt atlas",
+      "comet browser",
+      "comet browser review",
+      "chatgpt atlas review",
+      "Flowith review",
+      "Flowith browser review",
+      "chatgpt atlas alternatives",
+      "comet browser alternatives",
+      "openai browser",
+      "artificial intelligence",
+      "atlas chatgpt browser",
+      "ai productivity tools",
+      "comet ai browser",
+      "chatgpt atlas access",
+      "comet browser tutorial",
+      "chatgpt atlas vs chrome"
+    ]
+  },
   {
     "id": "VWGkNvfkMys",
     "locale": "en",
@@ -239,6 +301,36 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "MEGLoqn0jow",
+    "locale": "zh",
+    "category": "tutorial",
+    "title": "【AI神器：油管博主必备】提高看片效率，快速创作内容！推荐Perplexity公司的AI浏览器Comet！",
+    "description": "老胡在2025年提供以下服务，请按需选用： --------------------------------- 1.《老胡自媒体朋友圈》 * 电报/微信群，一次性费用100美元， ...",
+    "channelTitle": "老胡油管研究院",
+    "publishDate": "2025-10-24",
+    "duration": "PT8M23S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/MEGLoqn0jow/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "#西雅图老胡",
+      "自媒体",
+      "赚钱",
+      "Youtube赚钱",
+      "短视频",
+      "案例分析",
+      "频道点评",
+      "youtube tutorial",
+      "youtube make money",
+      "YouTube教学",
+      "YouTube培训",
+      "YouTube课程"
+    ]
+  },
+  {
     "id": "Eqe54cxeaUs",
     "locale": "en",
     "category": "proReview",
@@ -301,6 +393,45 @@ const rawVideos: LandingVideo[] = [
       "chatgpt atlas vs comet",
       "atlas vs comet browser",
       "atlas vs comet"
+    ]
+  },
+  {
+    "id": "g_lBZ-EJGYY",
+    "locale": "en",
+    "category": "hero",
+    "title": "Atlas vs Comet: AI Browser Showdown",
+    "description": "OpenAI's new Atlas browser is sleek, powerful, and deeply integrated with ChatGPT—but is it better than Perplexity's Comet?",
+    "channelTitle": "Stephen Robles",
+    "publishDate": "2025-10-22",
+    "duration": "PT11M13S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/g_lBZ-EJGYY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "AI browser",
+      "OpenAI Atlas",
+      "Perplexity Comet",
+      "Atlas vs Comet",
+      "best AI browser",
+      "AI tools 2025",
+      "browser automation",
+      "agentic workflows",
+      "ChatGPT browser",
+      "Comet Perplexity",
+      "Atlas OpenAI",
+      "Mac productivity",
+      "AI comparisons",
+      "tech review 2025",
+      "AI promo code finder",
+      "YouTube automation",
+      "browser speed test",
+      "AI vs AI",
+      "smart browser tools",
+      "podcast automation",
+      "Comet vs Atlas test"
     ]
   },
   {
@@ -776,40 +907,6 @@ const rawVideos: LandingVideo[] = [
       "AI 2025",
       "AI news"
     ]
-  },
-  {
-    "id": "-ix8UjYuF8Q",
-    "locale": "en",
-    "category": "hero",
-    "title": "AI Browser that works for you #carterpcs #tech #comet #perplexity #cometpartner",
-    "description": "No description available",
-    "channelTitle": "CarterPCs",
-    "publishDate": "2025-10-03",
-    "duration": "PT39S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/-ix8UjYuF8Q/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
-    "id": "-ix8UjYuF8Q",
-    "locale": "en",
-    "category": "shorts",
-    "title": "AI Browser that works for you #carterpcs #tech #comet #perplexity #cometpartner",
-    "description": "No description available",
-    "channelTitle": "CarterPCs",
-    "publishDate": "2025-10-03",
-    "duration": "PT39S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/-ix8UjYuF8Q/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
   },
   {
     "id": "R0jDcdFm8Fg",
@@ -1331,6 +1428,23 @@ const rawVideos: LandingVideo[] = [
       "Claude",
       "Anthropic"
     ]
+  },
+  {
+    "id": "arK2NeS2KX4",
+    "locale": "zh",
+    "category": "proReview",
+    "title": "Ai News：Higgsfield推出Soul ID，Veo3上线图生视频模式，Grok4发布，开源版剪映opencut，Perplexity Comet浏览器上线",
+    "description": "今天提到的工具: ▶︎ https://x.ai/news/grok-4 ▶︎ https://github.com/OpenCut-app/OpenCut ▶︎ https://comet.perplexity.ai/ ...",
+    "channelTitle": "小薇官方频道",
+    "publishDate": "2025-07-12",
+    "duration": "PT6M31S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/arK2NeS2KX4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
   },
   {
     "id": "ri_bFrDp44M",

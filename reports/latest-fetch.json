@@ -1,16 +1,16 @@
 {
-  "timestamp": "2025-11-15T03:02:02.505Z",
-  "totalVideos": 47,
+  "timestamp": "2025-11-16T03:13:15.466Z",
+  "totalVideos": 50,
   "totalSearches": 12,
   "byCategory": {
-    "proReview": 25,
-    "tutorial": 14,
+    "tutorial": 16,
+    "proReview": 27,
     "hero": 4,
-    "shorts": 4
+    "shorts": 3
   },
   "byLocale": {
-    "en": 19,
-    "zh": 9,
+    "en": 20,
+    "zh": 11,
     "ko": 12,
     "ja": 7
   },
@@ -21,6 +21,20 @@
     "deduplicationStrategy": "Tutorial、ProReview、Shorts 互斥"
   },
   "latestVideos": [
+    {
+      "id": "CMyhoSSj_PI",
+      "title": "NEW Perplexity Comet AI Browser Update!",
+      "category": "tutorial",
+      "locale": "en",
+      "publishDate": "2025-11-15"
+    },
+    {
+      "id": "hl8CVsITVQo",
+      "title": "This New AI Browser Just K*LLED Comet &amp; ChatGPT Atlas (FlowithOS Tutorial)",
+      "category": "proReview",
+      "locale": "en",
+      "publishDate": "2025-11-14"
+    },
     {
       "id": "VWGkNvfkMys",
       "title": "50+ INSANE Ways To Use Perplexity AI Browser",
@@ -41,20 +55,6 @@
       "category": "proReview",
       "locale": "en",
       "publishDate": "2025-10-29"
-    },
-    {
-      "id": "ZisdN4IJ49c",
-      "title": "免费的AI浏览器，代价是什么？GPT和Perplexity争抢谷歌Chrome入口！白嫖Perplexity Pro会员+赚$20现金！Comet邀请实测 | 窗口期普通人怎么“撸羊毛”？|Atlas",
-      "category": "tutorial",
-      "locale": "zh",
-      "publishDate": "2025-10-28"
-    },
-    {
-      "id": "ohzNvM8AEqE",
-      "title": "오픈AI 아틀라스 리뷰 | 크롬을 대체한 진짜 AI 브라우저",
-      "category": "proReview",
-      "locale": "ko",
-      "publishDate": "2025-10-26"
     }
   ]
 }

@@ -1,18 +1,18 @@
 {
-  "timestamp": "2025-11-19T03:06:47.874Z",
-  "totalVideos": 50,
+  "timestamp": "2025-11-20T03:05:05.900Z",
+  "totalVideos": 48,
   "totalSearches": 12,
   "byCategory": {
-    "proReview": 28,
     "tutorial": 15,
+    "proReview": 25,
     "hero": 4,
-    "shorts": 3
+    "shorts": 4
   },
   "byLocale": {
-    "ja": 8,
     "en": 20,
     "zh": 9,
-    "ko": 13
+    "ko": 13,
+    "ja": 6
   },
   "optimization": {
     "searchesPerLanguage": 3,
@@ -23,9 +23,9 @@
   "latestVideos": [
     {
       "id": "CMyhoSSj_PI",
-      "title": "新しい Perplexity Comet AI ブラウザのアップデート!",
-      "category": "proReview",
-      "locale": "ja",
+      "title": "NEW Perplexity Comet AI Browser Update!",
+      "category": "tutorial",
+      "locale": "en",
       "publishDate": "2025-11-15"
     },
     {

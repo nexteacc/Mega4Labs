@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-11-19T03:06:47.871Z
- * 总数: 50 个视频
+ * 生成时间: 2025-11-20T03:05:05.898Z
+ * 总数: 48 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -15,10 +15,10 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 const rawVideos: LandingVideo[] = [
   {
     "id": "CMyhoSSj_PI",
-    "locale": "ja",
-    "category": "proReview",
-    "title": "新しい Perplexity Comet AI ブラウザのアップデート!",
-    "description": "AIを活用して、顧客獲得、収益向上、そして数百時間の節約を実現しませんか？ https://go.juliangoldie.com/ai-profit-boardroom\n\n無料AIコース ...",
+    "locale": "en",
+    "category": "tutorial",
+    "title": "NEW Perplexity Comet AI Browser Update!",
+    "description": "Want to get more customers, make more profit & save 100s of hours with AI? https://go.juliangoldie.com/ai-profit-boardroom Get a ...",
     "channelTitle": "Julian Goldie SEO",
     "publishDate": "2025-11-15",
     "duration": "PT9M28S",
@@ -200,27 +200,6 @@ const rawVideos: LandingVideo[] = [
     "tags": []
   },
   {
-    "id": "OYwxqP5rMT4",
-    "locale": "en",
-    "category": "tutorial",
-    "title": "Perplexity Comet vs Microsoft Edge: Best AI Browser?",
-    "description": "Want to get more customers, make more profit & save 100s of hours with AI? https://go.juliangoldie.com/ai-profit-boardroom Get a ...",
-    "channelTitle": "Julian Goldie SEO",
-    "publishDate": "2025-10-27",
-    "duration": "PT8M16S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/OYwxqP5rMT4/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "seo",
-      "chatgpt",
-      "seotips"
-    ]
-  },
-  {
     "id": "ohzNvM8AEqE",
     "locale": "ko",
     "category": "proReview",
@@ -313,76 +292,6 @@ const rawVideos: LandingVideo[] = [
       "height": 360
     },
     "tags": []
-  },
-  {
-    "id": "ya9XWiXA3XM",
-    "locale": "en",
-    "category": "proReview",
-    "title": "ChatGPT Atlas VS Perplexity Comet (Which is Better?)",
-    "description": "In this video, I test the brand new ChatGPT Atlas browser vs Perplexity Comet. Both of these are agentic browsers that can not ...",
-    "channelTitle": "Brock Mesarich | AI for Non Techies",
-    "publishDate": "2025-10-23",
-    "duration": "PT14M7S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/ya9XWiXA3XM/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "chatgpt browser",
-      "chatgpt atlas",
-      "chatgpt browser agent",
-      "chatgpt agentic browser",
-      "chatgpt Atlas review",
-      "chatgpt atlast",
-      "chatgpt atlas browser",
-      "chatgpt new update",
-      "chatgpt chrome",
-      "openai atlas browser demo",
-      "chatgpt atlas vs comet",
-      "atlas vs comet browser",
-      "atlas vs comet"
-    ]
-  },
-  {
-    "id": "g_lBZ-EJGYY",
-    "locale": "en",
-    "category": "hero",
-    "title": "Atlas vs Comet: AI Browser Showdown",
-    "description": "OpenAI's new Atlas browser is sleek, powerful, and deeply integrated with ChatGPT—but is it better than Perplexity's Comet?",
-    "channelTitle": "Stephen Robles",
-    "publishDate": "2025-10-22",
-    "duration": "PT11M13S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/g_lBZ-EJGYY/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "AI browser",
-      "OpenAI Atlas",
-      "Perplexity Comet",
-      "Atlas vs Comet",
-      "best AI browser",
-      "AI tools 2025",
-      "browser automation",
-      "agentic workflows",
-      "ChatGPT browser",
-      "Comet Perplexity",
-      "Atlas OpenAI",
-      "Mac productivity",
-      "AI comparisons",
-      "tech review 2025",
-      "AI promo code finder",
-      "YouTube automation",
-      "browser speed test",
-      "AI vs AI",
-      "smart browser tools",
-      "podcast automation",
-      "Comet vs Atlas test"
-    ]
   },
   {
     "id": "g_lBZ-EJGYY",
@@ -588,29 +497,6 @@ const rawVideos: LandingVideo[] = [
       "height": 360
     },
     "tags": []
-  },
-  {
-    "id": "DzhGIpOVJbU",
-    "locale": "en",
-    "category": "proReview",
-    "title": "7 Mind-Blowing Use Cases of Perplexity Comet Agents",
-    "description": "Join my AI Playbook® community—in just one week, discover how to trim 5 hours off your workweek & unlock $500–$1K in new ...",
-    "channelTitle": "Rick Mulready",
-    "publishDate": "2025-10-16",
-    "duration": "PT12M42S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/DzhGIpOVJbU/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "Comet browser",
-      "Perplexity Comet",
-      "Comet agents",
-      "Comet AI",
-      "AI agents"
-    ]
   },
   {
     "id": "p9WhwhYEPsA",
@@ -897,6 +783,79 @@ const rawVideos: LandingVideo[] = [
       "AI 2025",
       "AI news"
     ]
+  },
+  {
+    "id": "Hh6GA4QGsrY",
+    "locale": "en",
+    "category": "shorts",
+    "title": "Delete Chrome! Get This Browser Instead!",
+    "description": "No description available",
+    "channelTitle": "Trakin Tech English",
+    "publishDate": "2025-10-06",
+    "duration": "PT45S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/Hh6GA4QGsrY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "comet browser",
+      "comet browser free",
+      "comet browser demo",
+      "comet ai browser",
+      "ai browser comet",
+      "comet web browser",
+      "comet browser review",
+      "comet browser launch",
+      "install comet browser",
+      "comet browser use case",
+      "comet browser worth it",
+      "how to get comet browser",
+      "comet browser download",
+      "comet browser features",
+      "comet browser use cases",
+      "download comet browser",
+      "comet browser vs chrome",
+      "is comet a good browser",
+      "perplexity comet browser",
+      "comet browser perplexity",
+      "comet browser automation"
+    ]
+  },
+  {
+    "id": "-ix8UjYuF8Q",
+    "locale": "en",
+    "category": "hero",
+    "title": "AI Browser that works for you #carterpcs #tech #comet #perplexity #cometpartner",
+    "description": "No description available",
+    "channelTitle": "CarterPCs",
+    "publishDate": "2025-10-03",
+    "duration": "PT39S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/-ix8UjYuF8Q/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
+    "id": "-ix8UjYuF8Q",
+    "locale": "en",
+    "category": "shorts",
+    "title": "AI Browser that works for you #carterpcs #tech #comet #perplexity #cometpartner",
+    "description": "No description available",
+    "channelTitle": "CarterPCs",
+    "publishDate": "2025-10-03",
+    "duration": "PT39S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/-ix8UjYuF8Q/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
   },
   {
     "id": "R0jDcdFm8Fg",
@@ -1562,39 +1521,6 @@ const rawVideos: LandingVideo[] = [
       "AI browser",
       "AI plugins",
       "AI plugin"
-    ]
-  },
-  {
-    "id": "QPtyGTnNhtc",
-    "locale": "ja",
-    "category": "shorts",
-    "title": "Windows 11 PCまたはラップトップでWindows生体認証サービスを有効にする方法",
-    "description": "この短いチュートリアルでは、Windows 11 の PC またはノートパソコンで Windows 生体認証サービスを簡単に有効にする方法を解説します。このサービスは ...",
-    "channelTitle": "Discover You",
-    "publishDate": "2024-11-19",
-    "duration": "PT46S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/QPtyGTnNhtc/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "Enable Windows Biometric Service Windows 11",
-      "Windows 11 Biometric Service tutorial",
-      "Fingerprint login not working fix",
-      "enable biometric login Windows 11",
-      "Windows Biometric Service settings",
-      "Windows 11 fingerprint setup guide",
-      "Fix biometric service in Windows 11",
-      "Enable fingerprint login on laptop",
-      "Facial recognition setup Windows 11",
-      "Activate biometric service Windows 11",
-      "Biometric service not running fix",
-      "Enable Windows Biometric Service",
-      "Windows 11",
-      "Windows",
-      "Windows Biometric"
     ]
   }
 ];

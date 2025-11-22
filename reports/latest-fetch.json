@@ -1,18 +1,18 @@
 {
-  "timestamp": "2025-11-21T03:05:48.452Z",
-  "totalVideos": 54,
+  "timestamp": "2025-11-22T02:59:21.880Z",
+  "totalVideos": 46,
   "totalSearches": 12,
   "byCategory": {
-    "tutorial": 17,
-    "proReview": 30,
-    "hero": 4,
-    "shorts": 3
+    "shorts": 3,
+    "proReview": 23,
+    "tutorial": 16,
+    "hero": 4
   },
   "byLocale": {
-    "en": 23,
-    "zh": 11,
-    "ko": 14,
-    "ja": 6
+    "en": 21,
+    "zh": 9,
+    "ko": 11,
+    "ja": 5
   },
   "optimization": {
     "searchesPerLanguage": 3,
@@ -22,9 +22,9 @@
   },
   "latestVideos": [
     {
-      "id": "FLnUx1wjqaM",
-      "title": "Upgrade Your Android Browsing Experience - Comet by Perplexity",
-      "category": "tutorial",
+      "id": "Asr9huXuheI",
+      "title": "Comet for Android: The First AI-Native Browser Is Here",
+      "category": "shorts",
       "locale": "en",
       "publishDate": "2025-11-20"
     },
@@ -44,7 +44,7 @@
     },
     {
       "id": "VWGkNvfkMys",
-      "title": "50+ INSANE Ways To Use Perplexity AI Browser",
+      "title": "After Decades, I stopped using Chrome (Why I Chose Comet)",
       "category": "proReview",
       "locale": "en",
       "publishDate": "2025-11-08"

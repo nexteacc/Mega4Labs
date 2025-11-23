@@ -1,18 +1,18 @@
 {
-  "timestamp": "2025-11-22T02:59:21.880Z",
+  "timestamp": "2025-11-23T03:21:48.250Z",
   "totalVideos": 46,
   "totalSearches": 12,
   "byCategory": {
-    "shorts": 3,
-    "proReview": 23,
-    "tutorial": 16,
-    "hero": 4
+    "proReview": 24,
+    "tutorial": 14,
+    "hero": 4,
+    "shorts": 4
   },
   "byLocale": {
-    "en": 21,
+    "en": 20,
     "zh": 9,
-    "ko": 11,
-    "ja": 5
+    "ko": 13,
+    "ja": 4
   },
   "optimization": {
     "searchesPerLanguage": 3,
@@ -22,25 +22,11 @@
   },
   "latestVideos": [
     {
-      "id": "Asr9huXuheI",
-      "title": "Comet for Android: The First AI-Native Browser Is Here",
-      "category": "shorts",
-      "locale": "en",
-      "publishDate": "2025-11-20"
-    },
-    {
       "id": "9SKavWOf-PY",
       "title": "The MOST Exciting Android Browser App in YEARS // Comet by Perplexity",
       "category": "proReview",
       "locale": "en",
       "publishDate": "2025-11-19"
-    },
-    {
-      "id": "CMyhoSSj_PI",
-      "title": "NEW Perplexity Comet AI Browser Update!",
-      "category": "tutorial",
-      "locale": "en",
-      "publishDate": "2025-11-15"
     },
     {
       "id": "VWGkNvfkMys",
@@ -55,6 +41,20 @@
       "category": "proReview",
       "locale": "zh",
       "publishDate": "2025-11-01"
+    },
+    {
+      "id": "fq3KobEWiD8",
+      "title": "10 Game Changing Ways I Use the Comet Browser: Unlocking Next Level Browsing with AI",
+      "category": "proReview",
+      "locale": "en",
+      "publishDate": "2025-10-29"
+    },
+    {
+      "id": "ZisdN4IJ49c",
+      "title": "免费的AI浏览器，代价是什么？GPT和Perplexity争抢谷歌Chrome入口！白嫖Perplexity Pro会员+赚$20现金！Comet邀请实测 | 窗口期普通人怎么“撸羊毛”？|Atlas",
+      "category": "tutorial",
+      "locale": "zh",
+      "publishDate": "2025-10-28"
     }
   ]
 }

@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-11-23T03:21:48.248Z
- * 总数: 46 个视频
+ * 生成时间: 2025-11-24T03:18:05.193Z
+ * 总数: 45 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -14,30 +14,24 @@ import { LandingVideoArraySchema } from "@/lib/videos";
  */
 const rawVideos: LandingVideo[] = [
   {
-    "id": "9SKavWOf-PY",
+    "id": "CMyhoSSj_PI",
     "locale": "en",
-    "category": "proReview",
-    "title": "The MOST Exciting Android Browser App in YEARS // Comet by Perplexity",
-    "description": "Comet for Android launches tomorrow! Visit the Google Play Store to download, available to users worldwide ...",
-    "channelTitle": "Sam Beckman",
-    "publishDate": "2025-11-19",
-    "duration": "PT10M53S",
+    "category": "tutorial",
+    "title": "NEW Perplexity Comet AI Browser Update!",
+    "description": "Want to get more customers, make more profit & save 100s of hours with AI? https://go.juliangoldie.com/ai-profit-boardroom Get a ...",
+    "channelTitle": "Julian Goldie SEO",
+    "publishDate": "2025-11-15",
+    "duration": "PT9M28S",
     "platform": "youtube",
     "thumbnail": {
-      "url": "https://i.ytimg.com/vi/9SKavWOf-PY/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/CMyhoSSj_PI/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
     "tags": [
-      "sam",
-      "beckman",
-      "comet",
-      "perplexity",
-      "comet browser",
-      "comet assistant",
-      "perplexity ai",
-      "perplexity browser",
-      "comet by perplexity"
+      "seo",
+      "chatgpt",
+      "seotips"
     ]
   },
   {
@@ -283,23 +277,6 @@ const rawVideos: LandingVideo[] = [
     "tags": []
   },
   {
-    "id": "FmKT5Uspv8w",
-    "locale": "en",
-    "category": "tutorial",
-    "title": "chatGPT’s Atlas browser and Perplexity’s Comet browser will change everything about how we work.",
-    "description": "No description available",
-    "channelTitle": "Jen Lehner",
-    "publishDate": "2025-10-23",
-    "duration": "PT2M46S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/FmKT5Uspv8w/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
     "id": "y5oDLba8Hig",
     "locale": "ja",
     "category": "tutorial",
@@ -353,52 +330,6 @@ const rawVideos: LandingVideo[] = [
       "smart browser tools",
       "podcast automation",
       "Comet vs Atlas test"
-    ]
-  },
-  {
-    "id": "0jygvelt5Bg",
-    "locale": "ko",
-    "category": "proReview",
-    "title": "챗GPT가 만든 미친 웹브라우저 &#39;아틀라스&#39; 직접 써봤습니다. AI가 이메일 답장, 쇼핑, 결제까지 전부 알아서 해줍니다. (feat. AI 에이전트)",
-    "description": "안녕하세요, 여러분의 'AI멘토 Jay'입니다. 인터넷의 판도가 완전히 바뀝니다. OpenAI가 챗GPT를 탑재한 새로운 웹브라우저 ...",
-    "channelTitle": "CONNECT AI LAB",
-    "publishDate": "2025-10-22",
-    "duration": "PT19M43S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/0jygvelt5Bg/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "ChatGPTAtlas",
-      "Atlas브라우저",
-      "ChatGPT",
-      "AI에이전트",
-      "AIAgent",
-      "인공지능",
-      "AI자동화",
-      "ChatGPT업데이트",
-      "OpenAI",
-      "Atlas설치법",
-      "Atlas사용법",
-      "ChatGPTAgent",
-      "AI비즈니스",
-      "AI트렌드",
-      "AI입문",
-      "커넥트AILAB",
-      "제이정",
-      "AI경제",
-      "AI활용",
-      "업무자동화",
-      "AI시대",
-      "인공지능활용",
-      "ChatGPT튜토리얼",
-      "ChatGPT브라우저",
-      "connectailab",
-      "jay",
-      "ai멘토",
-      "정원석"
     ]
   },
   {
@@ -600,23 +531,6 @@ const rawVideos: LandingVideo[] = [
       "스마트폰 브라우저",
       "최신 브라우저"
     ]
-  },
-  {
-    "id": "hkI8ssg-ERc",
-    "locale": "ko",
-    "category": "proReview",
-    "title": "코드 한 줄 없이 웹데이터 크롤링! 퍼플릭시티 코멧 완전정복",
-    "description": "이번 영상에서는 퍼플릭시티 코멧(Perplexity Comet) 브라우저를 이용해누구나 손쉽게 웹데이터를 크롤링하는 방법을 다룹니다.",
-    "channelTitle": "AI 일잘러",
-    "publishDate": "2025-10-13",
-    "duration": "PT6M58S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/hkI8ssg-ERc/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
   },
   {
     "id": "XiRzrSdIxO0",
@@ -1231,6 +1145,38 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "IRI4BRmt8cs",
+    "locale": "en",
+    "category": "tutorial",
+    "title": "REVIEW   Perplexity Comet AI Browser",
+    "description": "REVIEW Perplexity Comet AI Browser. ▶️MENTIONED TOOLS: (Video Specific Links If Needed) -. ▶️ABOUT ME: Unlock the ...",
+    "channelTitle": "Jonathan Mast",
+    "publishDate": "2025-07-26",
+    "duration": "PT5M29S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/IRI4BRmt8cs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "digital marketing",
+      "entrepreneurship",
+      "success",
+      "capitalism",
+      "consulting",
+      "AI",
+      "#AIMarketing",
+      "Chatgpt",
+      "Claude",
+      "Perplexity",
+      "Rubi.AI",
+      "Content Creator",
+      "Podcast",
+      "aibusiness"
+    ]
+  },
+  {
     "id": "b-ahGuxtcME",
     "locale": "en",
     "category": "shorts",
@@ -1314,17 +1260,17 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "VrE5bvlxzDI",
-    "locale": "en",
-    "category": "shorts",
-    "title": "Perplexity just launched Comet",
-    "description": "No description available",
-    "channelTitle": "100x Engineers",
-    "publishDate": "2025-07-10",
-    "duration": "PT37S",
+    "id": "arK2NeS2KX4",
+    "locale": "zh",
+    "category": "proReview",
+    "title": "Ai News：Higgsfield推出Soul ID，Veo3上线图生视频模式，Grok4发布，开源版剪映opencut，Perplexity Comet浏览器上线",
+    "description": "今天提到的工具: ▶︎ https://x.ai/news/grok-4 ▶︎ https://github.com/OpenCut-app/OpenCut ▶︎ https://comet.perplexity.ai/ ...",
+    "channelTitle": "小薇官方频道",
+    "publishDate": "2025-07-12",
+    "duration": "PT6M31S",
     "platform": "youtube",
     "thumbnail": {
-      "url": "https://i.ytimg.com/vi/VrE5bvlxzDI/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/arK2NeS2KX4/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
@@ -1394,6 +1340,34 @@ const rawVideos: LandingVideo[] = [
       "llama",
       "meta ai",
       "google ai"
+    ]
+  },
+  {
+    "id": "SRVBYGg7sBM",
+    "locale": "ja",
+    "category": "proReview",
+    "title": "無料の次世代AIブラウザ『Diaブラウザ』を徹底解説【活用事例９選】",
+    "description": "Arcブラウザの後継である無料のAIブラウザ『Diaブラウザ』を徹底解説！そして活用事例を9つ紹介します。無料で使えて、UI/UX ...",
+    "channelTitle": "KEITO【AI&WEB ch】",
+    "publishDate": "2025-06-16",
+    "duration": "PT37M27S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/SRVBYGg7sBM/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "AI",
+      "KEITO",
+      "AIブラウザ",
+      "AI検索",
+      "ai browser",
+      "Dia",
+      "Diaブラウザ",
+      "Dia Browser",
+      "ディアブラウザ",
+      "ディア"
     ]
   },
   {

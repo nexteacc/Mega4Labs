@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-11-24T03:18:05.193Z
- * 总数: 45 个视频
+ * 生成时间: 2025-11-25T03:09:34.314Z
+ * 总数: 47 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -200,6 +200,27 @@ const rawVideos: LandingVideo[] = [
     "tags": []
   },
   {
+    "id": "OYwxqP5rMT4",
+    "locale": "en",
+    "category": "proReview",
+    "title": "Perplexity Comet vs Microsoft Edge: Best AI Browser?",
+    "description": "Want to get more customers, make more profit & save 100s of hours with AI? https://go.juliangoldie.com/ai-profit-boardroom Get a ...",
+    "channelTitle": "Julian Goldie SEO",
+    "publishDate": "2025-10-27",
+    "duration": "PT8M16S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/OYwxqP5rMT4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "seo",
+      "chatgpt",
+      "seotips"
+    ]
+  },
+  {
     "id": "ohzNvM8AEqE",
     "locale": "ko",
     "category": "proReview",
@@ -296,6 +317,45 @@ const rawVideos: LandingVideo[] = [
   {
     "id": "g_lBZ-EJGYY",
     "locale": "en",
+    "category": "hero",
+    "title": "Atlas vs Comet: AI Browser Showdown",
+    "description": "OpenAI's new Atlas browser is sleek, powerful, and deeply integrated with ChatGPT—but is it better than Perplexity's Comet?",
+    "channelTitle": "Stephen Robles",
+    "publishDate": "2025-10-22",
+    "duration": "PT11M13S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/g_lBZ-EJGYY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "AI browser",
+      "OpenAI Atlas",
+      "Perplexity Comet",
+      "Atlas vs Comet",
+      "best AI browser",
+      "AI tools 2025",
+      "browser automation",
+      "agentic workflows",
+      "ChatGPT browser",
+      "Comet Perplexity",
+      "Atlas OpenAI",
+      "Mac productivity",
+      "AI comparisons",
+      "tech review 2025",
+      "AI promo code finder",
+      "YouTube automation",
+      "browser speed test",
+      "AI vs AI",
+      "smart browser tools",
+      "podcast automation",
+      "Comet vs Atlas test"
+    ]
+  },
+  {
+    "id": "g_lBZ-EJGYY",
+    "locale": "en",
     "category": "proReview",
     "title": "Atlas vs Comet: AI Browser Showdown",
     "description": "OpenAI's new Atlas browser is sleek, powerful, and deeply integrated with ChatGPT—but is it better than Perplexity's Comet?",
@@ -330,6 +390,52 @@ const rawVideos: LandingVideo[] = [
       "smart browser tools",
       "podcast automation",
       "Comet vs Atlas test"
+    ]
+  },
+  {
+    "id": "0jygvelt5Bg",
+    "locale": "ko",
+    "category": "proReview",
+    "title": "챗GPT가 만든 미친 웹브라우저 &#39;아틀라스&#39; 직접 써봤습니다. AI가 이메일 답장, 쇼핑, 결제까지 전부 알아서 해줍니다. (feat. AI 에이전트)",
+    "description": "안녕하세요, 여러분의 'AI멘토 Jay'입니다. 인터넷의 판도가 완전히 바뀝니다. OpenAI가 챗GPT를 탑재한 새로운 웹브라우저 ...",
+    "channelTitle": "CONNECT AI LAB",
+    "publishDate": "2025-10-22",
+    "duration": "PT19M43S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/0jygvelt5Bg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "ChatGPTAtlas",
+      "Atlas브라우저",
+      "ChatGPT",
+      "AI에이전트",
+      "AIAgent",
+      "인공지능",
+      "AI자동화",
+      "ChatGPT업데이트",
+      "OpenAI",
+      "Atlas설치법",
+      "Atlas사용법",
+      "ChatGPTAgent",
+      "AI비즈니스",
+      "AI트렌드",
+      "AI입문",
+      "커넥트AILAB",
+      "제이정",
+      "AI경제",
+      "AI활용",
+      "업무자동화",
+      "AI시대",
+      "인공지능활용",
+      "ChatGPT튜토리얼",
+      "ChatGPT브라우저",
+      "connectailab",
+      "jay",
+      "ai멘토",
+      "정원석"
     ]
   },
   {
@@ -533,6 +639,23 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "hkI8ssg-ERc",
+    "locale": "ko",
+    "category": "proReview",
+    "title": "코드 한 줄 없이 웹데이터 크롤링! 퍼플릭시티 코멧 완전정복",
+    "description": "이번 영상에서는 퍼플릭시티 코멧(Perplexity Comet) 브라우저를 이용해누구나 손쉽게 웹데이터를 크롤링하는 방법을 다룹니다.",
+    "channelTitle": "AI 일잘러",
+    "publishDate": "2025-10-13",
+    "duration": "PT6M58S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/hkI8ssg-ERc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
     "id": "XiRzrSdIxO0",
     "locale": "en",
     "category": "proReview",
@@ -703,40 +826,6 @@ const rawVideos: LandingVideo[] = [
       "AI 2025",
       "AI news"
     ]
-  },
-  {
-    "id": "-ix8UjYuF8Q",
-    "locale": "en",
-    "category": "hero",
-    "title": "AI Browser that works for you #carterpcs #tech #comet #perplexity #cometpartner",
-    "description": "No description available",
-    "channelTitle": "CarterPCs",
-    "publishDate": "2025-10-03",
-    "duration": "PT39S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/-ix8UjYuF8Q/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
-    "id": "-ix8UjYuF8Q",
-    "locale": "en",
-    "category": "shorts",
-    "title": "AI Browser that works for you #carterpcs #tech #comet #perplexity #cometpartner",
-    "description": "No description available",
-    "channelTitle": "CarterPCs",
-    "publishDate": "2025-10-03",
-    "duration": "PT39S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/-ix8UjYuF8Q/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
   },
   {
     "id": "R0jDcdFm8Fg",

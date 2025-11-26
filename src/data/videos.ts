@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-11-25T03:09:34.314Z
- * 总数: 47 个视频
+ * 生成时间: 2025-11-26T03:09:33.545Z
+ * 总数: 46 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -13,27 +13,6 @@ import { LandingVideoArraySchema } from "@/lib/videos";
  * - Tutorial、ProReview、Shorts 互斥（无重复）
  */
 const rawVideos: LandingVideo[] = [
-  {
-    "id": "CMyhoSSj_PI",
-    "locale": "en",
-    "category": "tutorial",
-    "title": "NEW Perplexity Comet AI Browser Update!",
-    "description": "Want to get more customers, make more profit & save 100s of hours with AI? https://go.juliangoldie.com/ai-profit-boardroom Get a ...",
-    "channelTitle": "Julian Goldie SEO",
-    "publishDate": "2025-11-15",
-    "duration": "PT9M28S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/CMyhoSSj_PI/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "seo",
-      "chatgpt",
-      "seotips"
-    ]
-  },
   {
     "id": "VWGkNvfkMys",
     "locale": "en",
@@ -200,27 +179,6 @@ const rawVideos: LandingVideo[] = [
     "tags": []
   },
   {
-    "id": "OYwxqP5rMT4",
-    "locale": "en",
-    "category": "proReview",
-    "title": "Perplexity Comet vs Microsoft Edge: Best AI Browser?",
-    "description": "Want to get more customers, make more profit & save 100s of hours with AI? https://go.juliangoldie.com/ai-profit-boardroom Get a ...",
-    "channelTitle": "Julian Goldie SEO",
-    "publishDate": "2025-10-27",
-    "duration": "PT8M16S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/OYwxqP5rMT4/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "seo",
-      "chatgpt",
-      "seotips"
-    ]
-  },
-  {
     "id": "ohzNvM8AEqE",
     "locale": "ko",
     "category": "proReview",
@@ -313,45 +271,6 @@ const rawVideos: LandingVideo[] = [
       "height": 360
     },
     "tags": []
-  },
-  {
-    "id": "g_lBZ-EJGYY",
-    "locale": "en",
-    "category": "hero",
-    "title": "Atlas vs Comet: AI Browser Showdown",
-    "description": "OpenAI's new Atlas browser is sleek, powerful, and deeply integrated with ChatGPT—but is it better than Perplexity's Comet?",
-    "channelTitle": "Stephen Robles",
-    "publishDate": "2025-10-22",
-    "duration": "PT11M13S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/g_lBZ-EJGYY/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "AI browser",
-      "OpenAI Atlas",
-      "Perplexity Comet",
-      "Atlas vs Comet",
-      "best AI browser",
-      "AI tools 2025",
-      "browser automation",
-      "agentic workflows",
-      "ChatGPT browser",
-      "Comet Perplexity",
-      "Atlas OpenAI",
-      "Mac productivity",
-      "AI comparisons",
-      "tech review 2025",
-      "AI promo code finder",
-      "YouTube automation",
-      "browser speed test",
-      "AI vs AI",
-      "smart browser tools",
-      "podcast automation",
-      "Comet vs Atlas test"
-    ]
   },
   {
     "id": "g_lBZ-EJGYY",
@@ -700,6 +619,40 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "qSNRGeZuHeI",
+    "locale": "en",
+    "category": "hero",
+    "title": "COMET EXPLICADO FÁCIL. Automatiza con navegador agéntico#ia #ai #inteligenciaartificial #perplexity",
+    "description": "No description available",
+    "channelTitle": "maxmaxdata",
+    "publishDate": "2025-10-10",
+    "duration": "PT3M",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/qSNRGeZuHeI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
+    "id": "qSNRGeZuHeI",
+    "locale": "en",
+    "category": "tutorial",
+    "title": "COMET EXPLICADO FÁCIL. Automatiza con navegador agéntico#ia #ai #inteligenciaartificial #perplexity",
+    "description": "No description available",
+    "channelTitle": "maxmaxdata",
+    "publishDate": "2025-10-10",
+    "duration": "PT3M",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/qSNRGeZuHeI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
     "id": "6TBpTvwNujA",
     "locale": "en",
     "category": "proReview",
@@ -825,6 +778,45 @@ const rawVideos: LandingVideo[] = [
       "Analytics Vidhya",
       "AI 2025",
       "AI news"
+    ]
+  },
+  {
+    "id": "Hh6GA4QGsrY",
+    "locale": "en",
+    "category": "shorts",
+    "title": "Delete Chrome! Get This Browser Instead!",
+    "description": "No description available",
+    "channelTitle": "Trakin Tech English",
+    "publishDate": "2025-10-06",
+    "duration": "PT45S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/Hh6GA4QGsrY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "comet browser",
+      "comet browser free",
+      "comet browser demo",
+      "comet ai browser",
+      "ai browser comet",
+      "comet web browser",
+      "comet browser review",
+      "comet browser launch",
+      "install comet browser",
+      "comet browser use case",
+      "comet browser worth it",
+      "how to get comet browser",
+      "comet browser download",
+      "comet browser features",
+      "comet browser use cases",
+      "download comet browser",
+      "comet browser vs chrome",
+      "is comet a good browser",
+      "perplexity comet browser",
+      "comet browser perplexity",
+      "comet browser automation"
     ]
   },
   {
@@ -1231,38 +1223,6 @@ const rawVideos: LandingVideo[] = [
       "Apple podcast automation",
       "AI for creators",
       "Perplexity features"
-    ]
-  },
-  {
-    "id": "IRI4BRmt8cs",
-    "locale": "en",
-    "category": "tutorial",
-    "title": "REVIEW   Perplexity Comet AI Browser",
-    "description": "REVIEW Perplexity Comet AI Browser. ▶️MENTIONED TOOLS: (Video Specific Links If Needed) -. ▶️ABOUT ME: Unlock the ...",
-    "channelTitle": "Jonathan Mast",
-    "publishDate": "2025-07-26",
-    "duration": "PT5M29S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/IRI4BRmt8cs/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "digital marketing",
-      "entrepreneurship",
-      "success",
-      "capitalism",
-      "consulting",
-      "AI",
-      "#AIMarketing",
-      "Chatgpt",
-      "Claude",
-      "Perplexity",
-      "Rubi.AI",
-      "Content Creator",
-      "Podcast",
-      "aibusiness"
     ]
   },
   {

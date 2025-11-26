@@ -1,15 +1,15 @@
 {
-  "timestamp": "2025-11-25T03:09:34.316Z",
-  "totalVideos": 47,
+  "timestamp": "2025-11-26T03:09:33.547Z",
+  "totalVideos": 46,
   "totalSearches": 12,
   "byCategory": {
-    "tutorial": 15,
-    "proReview": 26,
+    "proReview": 25,
+    "tutorial": 14,
     "hero": 4,
-    "shorts": 2
+    "shorts": 3
   },
   "byLocale": {
-    "en": 19,
+    "en": 18,
     "zh": 10,
     "ko": 13,
     "ja": 5
@@ -21,13 +21,6 @@
     "deduplicationStrategy": "Tutorial、ProReview、Shorts 互斥"
   },
   "latestVideos": [
-    {
-      "id": "CMyhoSSj_PI",
-      "title": "NEW Perplexity Comet AI Browser Update!",
-      "category": "tutorial",
-      "locale": "en",
-      "publishDate": "2025-11-15"
-    },
     {
       "id": "VWGkNvfkMys",
       "title": "After Decades, I stopped using Chrome (Why I Chose Comet)",
@@ -55,6 +48,13 @@
       "category": "tutorial",
       "locale": "zh",
       "publishDate": "2025-10-28"
+    },
+    {
+      "id": "ohzNvM8AEqE",
+      "title": "오픈AI 아틀라스 리뷰 | 크롬을 대체한 진짜 AI 브라우저",
+      "category": "proReview",
+      "locale": "ko",
+      "publishDate": "2025-10-26"
     }
   ]
 }

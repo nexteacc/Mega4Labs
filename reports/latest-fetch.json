@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-11-26T03:09:33.547Z",
+  "timestamp": "2025-11-27T03:06:34.957Z",
   "totalVideos": 46,
   "totalSearches": 12,
   "byCategory": {
-    "proReview": 25,
+    "proReview": 24,
     "tutorial": 14,
-    "hero": 4,
-    "shorts": 3
+    "shorts": 4,
+    "hero": 4
   },
   "byLocale": {
     "en": 18,
@@ -22,6 +22,20 @@
   },
   "latestVideos": [
     {
+      "id": "9SKavWOf-PY",
+      "title": "The MOST Exciting Android Browser App in YEARS // Comet by Perplexity",
+      "category": "proReview",
+      "locale": "en",
+      "publishDate": "2025-11-19"
+    },
+    {
+      "id": "CMyhoSSj_PI",
+      "title": "NEW Perplexity Comet AI Browser Update!",
+      "category": "tutorial",
+      "locale": "en",
+      "publishDate": "2025-11-15"
+    },
+    {
       "id": "VWGkNvfkMys",
       "title": "After Decades, I stopped using Chrome (Why I Chose Comet)",
       "category": "proReview",
@@ -36,25 +50,11 @@
       "publishDate": "2025-11-01"
     },
     {
-      "id": "fq3KobEWiD8",
-      "title": "10 Game Changing Ways I Use the Comet Browser: Unlocking Next Level Browsing with AI",
-      "category": "proReview",
-      "locale": "en",
-      "publishDate": "2025-10-29"
-    },
-    {
       "id": "ZisdN4IJ49c",
       "title": "免费的AI浏览器，代价是什么？GPT和Perplexity争抢谷歌Chrome入口！白嫖Perplexity Pro会员+赚$20现金！Comet邀请实测 | 窗口期普通人怎么“撸羊毛”？|Atlas",
       "category": "tutorial",
       "locale": "zh",
       "publishDate": "2025-10-28"
-    },
-    {
-      "id": "ohzNvM8AEqE",
-      "title": "오픈AI 아틀라스 리뷰 | 크롬을 대체한 진짜 AI 브라우저",
-      "category": "proReview",
-      "locale": "ko",
-      "publishDate": "2025-10-26"
     }
   ]
 }

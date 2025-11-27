@@ -4,7 +4,7 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-11-26T03:09:33.545Z
+ * 生成时间: 2025-11-27T03:06:34.955Z
  * 总数: 46 个视频
  * 
  * 抓取策略:
@@ -13,6 +13,54 @@ import { LandingVideoArraySchema } from "@/lib/videos";
  * - Tutorial、ProReview、Shorts 互斥（无重复）
  */
 const rawVideos: LandingVideo[] = [
+  {
+    "id": "9SKavWOf-PY",
+    "locale": "en",
+    "category": "proReview",
+    "title": "The MOST Exciting Android Browser App in YEARS // Comet by Perplexity",
+    "description": "Comet for Android launches tomorrow! Visit the Google Play Store to download, available to users worldwide ...",
+    "channelTitle": "Sam Beckman",
+    "publishDate": "2025-11-19",
+    "duration": "PT10M53S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/9SKavWOf-PY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "sam",
+      "beckman",
+      "comet",
+      "perplexity",
+      "comet browser",
+      "comet assistant",
+      "perplexity ai",
+      "perplexity browser",
+      "comet by perplexity"
+    ]
+  },
+  {
+    "id": "CMyhoSSj_PI",
+    "locale": "en",
+    "category": "tutorial",
+    "title": "NEW Perplexity Comet AI Browser Update!",
+    "description": "Want to get more customers, make more profit & save 100s of hours with AI? https://go.juliangoldie.com/ai-profit-boardroom Get a ...",
+    "channelTitle": "Julian Goldie SEO",
+    "publishDate": "2025-11-15",
+    "duration": "PT9M28S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/CMyhoSSj_PI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "seo",
+      "chatgpt",
+      "seotips"
+    ]
+  },
   {
     "id": "VWGkNvfkMys",
     "locale": "en",
@@ -118,47 +166,6 @@ const rawVideos: LandingVideo[] = [
       "comet测评",
       "ai瀏覽器實測",
       "ai浏览器实测"
-    ]
-  },
-  {
-    "id": "fq3KobEWiD8",
-    "locale": "en",
-    "category": "proReview",
-    "title": "10 Game Changing Ways I Use the Comet Browser: Unlocking Next Level Browsing with AI",
-    "description": "Unlock the true power of the Comet Browser—the next-gen AI browser from Perplexity. In this video, I'm sharing 10 ...",
-    "channelTitle": "The Tech Girl",
-    "publishDate": "2025-10-29",
-    "duration": "PT14M22S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/fq3KobEWiD8/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "the tech girl",
-      "Comet Browser",
-      "Comet Browser review",
-      "Comet AI browser",
-      "Perplexity browser",
-      "best AI browser 2025",
-      "AI web browser",
-      "productivity browser",
-      "Chrome alternative",
-      "smart browser features",
-      "browser for productivity",
-      "AI assistant browser",
-      "technical review",
-      "how to use Comet browser",
-      "browser hacks",
-      "automate browsing",
-      "Chrome vs Comet",
-      "tab management",
-      "online shopping hacks",
-      "summarize articles AI",
-      "Gmail integration browser",
-      "best browser for research",
-      "agentic browser"
     ]
   },
   {
@@ -558,23 +565,6 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "hkI8ssg-ERc",
-    "locale": "ko",
-    "category": "proReview",
-    "title": "코드 한 줄 없이 웹데이터 크롤링! 퍼플릭시티 코멧 완전정복",
-    "description": "이번 영상에서는 퍼플릭시티 코멧(Perplexity Comet) 브라우저를 이용해누구나 손쉽게 웹데이터를 크롤링하는 방법을 다룹니다.",
-    "channelTitle": "AI 일잘러",
-    "publishDate": "2025-10-13",
-    "duration": "PT6M58S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/hkI8ssg-ERc/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
     "id": "XiRzrSdIxO0",
     "locale": "en",
     "category": "proReview",
@@ -619,40 +609,6 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "qSNRGeZuHeI",
-    "locale": "en",
-    "category": "hero",
-    "title": "COMET EXPLICADO FÁCIL. Automatiza con navegador agéntico#ia #ai #inteligenciaartificial #perplexity",
-    "description": "No description available",
-    "channelTitle": "maxmaxdata",
-    "publishDate": "2025-10-10",
-    "duration": "PT3M",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/qSNRGeZuHeI/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
-    "id": "qSNRGeZuHeI",
-    "locale": "en",
-    "category": "tutorial",
-    "title": "COMET EXPLICADO FÁCIL. Automatiza con navegador agéntico#ia #ai #inteligenciaartificial #perplexity",
-    "description": "No description available",
-    "channelTitle": "maxmaxdata",
-    "publishDate": "2025-10-10",
-    "duration": "PT3M",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/qSNRGeZuHeI/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
     "id": "6TBpTvwNujA",
     "locale": "en",
     "category": "proReview",
@@ -687,6 +643,23 @@ const rawVideos: LandingVideo[] = [
       "Comet browser tutorial",
       "Comet use cases"
     ]
+  },
+  {
+    "id": "QGA_Ru0kRtc",
+    "locale": "ko",
+    "category": "shorts",
+    "title": "90%는 모르는 퍼플렉시티 활용법",
+    "description": "No description available",
+    "channelTitle": "그린코딩",
+    "publishDate": "2025-10-07",
+    "duration": "PT1M13S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/QGA_Ru0kRtc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
   },
   {
     "id": "PEkjsbdPr9I",
@@ -781,43 +754,38 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "Hh6GA4QGsrY",
+    "id": "-ix8UjYuF8Q",
     "locale": "en",
-    "category": "shorts",
-    "title": "Delete Chrome! Get This Browser Instead!",
+    "category": "hero",
+    "title": "AI Browser that works for you #carterpcs #tech #comet #perplexity #cometpartner",
     "description": "No description available",
-    "channelTitle": "Trakin Tech English",
-    "publishDate": "2025-10-06",
-    "duration": "PT45S",
+    "channelTitle": "CarterPCs",
+    "publishDate": "2025-10-03",
+    "duration": "PT39S",
     "platform": "youtube",
     "thumbnail": {
-      "url": "https://i.ytimg.com/vi/Hh6GA4QGsrY/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/-ix8UjYuF8Q/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
-    "tags": [
-      "comet browser",
-      "comet browser free",
-      "comet browser demo",
-      "comet ai browser",
-      "ai browser comet",
-      "comet web browser",
-      "comet browser review",
-      "comet browser launch",
-      "install comet browser",
-      "comet browser use case",
-      "comet browser worth it",
-      "how to get comet browser",
-      "comet browser download",
-      "comet browser features",
-      "comet browser use cases",
-      "download comet browser",
-      "comet browser vs chrome",
-      "is comet a good browser",
-      "perplexity comet browser",
-      "comet browser perplexity",
-      "comet browser automation"
-    ]
+    "tags": []
+  },
+  {
+    "id": "-ix8UjYuF8Q",
+    "locale": "en",
+    "category": "shorts",
+    "title": "AI Browser that works for you #carterpcs #tech #comet #perplexity #cometpartner",
+    "description": "No description available",
+    "channelTitle": "CarterPCs",
+    "publishDate": "2025-10-03",
+    "duration": "PT39S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/-ix8UjYuF8Q/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
   },
   {
     "id": "R0jDcdFm8Fg",

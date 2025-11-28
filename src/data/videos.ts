@@ -4,7 +4,7 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-11-27T03:06:34.955Z
+ * 生成时间: 2025-11-28T03:06:16.934Z
  * 总数: 46 个视频
  * 
  * 抓取策略:
@@ -13,6 +13,23 @@ import { LandingVideoArraySchema } from "@/lib/videos";
  * - Tutorial、ProReview、Shorts 互斥（无重复）
  */
 const rawVideos: LandingVideo[] = [
+  {
+    "id": "QEsPDElvTyI",
+    "locale": "zh",
+    "category": "proReview",
+    "title": "AI 瀏覽器試玩 !  Perplexity Comet 登陸 Android　功能夠唔夠班飛甩 Chrome 做 Browser Default",
+    "description": "perplexityai #cometbrowser #samsunggalxyzfold7 Perplexity 突然推咗個Android 版嘅Comet Browser 出嚟。身為科技迷， ...",
+    "channelTitle": "輕鬆講科技 (XYZ 香港科技頻道)",
+    "publishDate": "2025-11-22",
+    "duration": "PT10M56S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/QEsPDElvTyI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
   {
     "id": "9SKavWOf-PY",
     "locale": "en",
@@ -38,27 +55,6 @@ const rawVideos: LandingVideo[] = [
       "perplexity ai",
       "perplexity browser",
       "comet by perplexity"
-    ]
-  },
-  {
-    "id": "CMyhoSSj_PI",
-    "locale": "en",
-    "category": "tutorial",
-    "title": "NEW Perplexity Comet AI Browser Update!",
-    "description": "Want to get more customers, make more profit & save 100s of hours with AI? https://go.juliangoldie.com/ai-profit-boardroom Get a ...",
-    "channelTitle": "Julian Goldie SEO",
-    "publishDate": "2025-11-15",
-    "duration": "PT9M28S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/CMyhoSSj_PI/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "seo",
-      "chatgpt",
-      "seotips"
     ]
   },
   {
@@ -507,62 +503,21 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "DmzOF3q-wpg",
+    "id": "hkI8ssg-ERc",
     "locale": "ko",
     "category": "proReview",
-    "title": "공짜로 쓰는 AI 초고수용 퍼플렉시티 코멧 브라우저",
-    "description": "코멧 브라우저 프로버전 최신기능 무료 사용하기: https://pplx.ai/successwiki 코인 폭락 분석부터 복잡한 트럼프 관세 영향 분석 보고서 ...",
-    "channelTitle": "성공지식백과",
-    "publishDate": "2025-10-16",
-    "duration": "PT14M27S",
+    "title": "코드 한 줄 없이 웹데이터 크롤링! 퍼플릭시티 코멧 완전정복",
+    "description": "이번 영상에서는 퍼플릭시티 코멧(Perplexity Comet) 브라우저를 이용해누구나 손쉽게 웹데이터를 크롤링하는 방법을 다룹니다.",
+    "channelTitle": "AI 일잘러",
+    "publishDate": "2025-10-13",
+    "duration": "PT6M58S",
     "platform": "youtube",
     "thumbnail": {
-      "url": "https://i.ytimg.com/vi/DmzOF3q-wpg/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/hkI8ssg-ERc/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
-    "tags": [
-      "코멧 브라우저",
-      "코멧",
-      "Comet Browser",
-      "Perplexity",
-      "퍼플렉시티",
-      "AI 브라우저",
-      "AI 검색",
-      "인공지능 활용",
-      "AI 업무 자동화",
-      "업무 생산성",
-      "SUPER휴먼",
-      "슈퍼휴먼",
-      "10배 성능",
-      "무료 AI",
-      "무료 사용법",
-      "크롬 대체",
-      "구글 크롬",
-      "검색 끝판왕",
-      "AI 보고서",
-      "보고서 자동 작성",
-      "AI 에이전트",
-      "GPTs",
-      "제미나이 젬",
-      "미니 에이전트",
-      "코인 분석",
-      "최저가 항공권",
-      "트럼프 관세",
-      "일론 머스크",
-      "챗GPT",
-      "AI 툴 추천",
-      "브라우저 추천",
-      "AI 도구",
-      "최신 AI",
-      "인공지능 브라우저",
-      "퍼플렉시티 브라우저",
-      "퍼플렉시티AI",
-      "AI 뉴스",
-      "맥북 브라우저",
-      "스마트폰 브라우저",
-      "최신 브라우저"
-    ]
+    "tags": []
   },
   {
     "id": "XiRzrSdIxO0",
@@ -696,23 +651,6 @@ const rawVideos: LandingVideo[] = [
     "tags": []
   },
   {
-    "id": "0px-F97q3RI",
-    "locale": "zh",
-    "category": "proReview",
-    "title": "AI新闻: Sora2水印移除工作流，Nano banana更新，Octave2文本生语音模型，Comet Ai浏览器发布, Higgsfield新功能",
-    "description": "sora2 AI视频剪辑工具：https://filmora.go.link/5bdV3 ▻ sora2 AI去水印工具：https://filmora.go.link/3DRAt 今天提到的工具地址： ...",
-    "channelTitle": "小薇官方频道",
-    "publishDate": "2025-10-06",
-    "duration": "PT5M38S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/0px-F97q3RI/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
     "id": "sy3nQUOLTzc",
     "locale": "en",
     "category": "shorts",
@@ -808,6 +746,59 @@ const rawVideos: LandingVideo[] = [
       "AIブラウザ",
       "ブラウザ",
       "ぷらぐら"
+    ]
+  },
+  {
+    "id": "DVBdNVHzWBQ",
+    "locale": "zh",
+    "category": "proReview",
+    "title": "三大AI Agent 實測現場：ChatGPT Agent、 Manus、Perplexity Comet｜智能體其實有多智能？｜廣東話｜文恩澄",
+    "description": "市面上最強的AI Agent 究竟是誰？今集，我將為大家帶來承諾已久的深度實測，將三大主流AI Agent：ChatGPT AI Agent、Manus、 ...",
+    "channelTitle": "Rannes Man",
+    "publishDate": "2025-09-20",
+    "duration": "PT24M15S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/DVBdNVHzWBQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "AI Agent",
+      "Manus",
+      "ChatGPT AI Agent",
+      "Perplexity Comet",
+      "AI實測",
+      "AI評測",
+      "AI比較",
+      "AI對決",
+      "生產力工具",
+      "自動化",
+      "研究報告",
+      "做簡報",
+      "Google Drive",
+      "Python",
+      "虛擬瀏覽器",
+      "VPN",
+      "N8N",
+      "Make.com",
+      "AI教學",
+      "文恩澄",
+      "Rannes Man",
+      "廣東話",
+      "科技",
+      "AI趨勢",
+      "價錢",
+      "邀請碼",
+      "1010",
+      "CSL",
+      "PayPal",
+      "Whisper",
+      "Sora",
+      "VEO",
+      "Runway",
+      "可靈",
+      "AI Agent比較"
     ]
   },
   {
@@ -962,6 +953,50 @@ const rawVideos: LandingVideo[] = [
       "AI",
       "챗GPT",
       "cheatgpt"
+    ]
+  },
+  {
+    "id": "ZsBniZ_M7hs",
+    "locale": "en",
+    "category": "proReview",
+    "title": "Stop using Chrome. This AI browser is insane…",
+    "description": "Work 30% faster with Vectal: https://www.vectal.ai/ Wanna start a business with AI Agents? Go here: ...",
+    "channelTitle": "David Ondrej",
+    "publishDate": "2025-08-23",
+    "duration": "PT10M36S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/ZsBniZ_M7hs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "David Ondrej",
+      "david ondrej",
+      "AI",
+      "ChatGPT",
+      "artificial intelligence",
+      "ai",
+      "Artificial Intelligence",
+      "OpenAI",
+      "chatgpt",
+      "chat gpt",
+      "Chat GPT",
+      "AGI",
+      "midjourney",
+      "david ondrej podcast",
+      "GPT",
+      "new society",
+      "david ondrej new society",
+      "david ondrej community",
+      "make money with AI",
+      "AI Agents",
+      "ai agent",
+      "AI Agent Startup",
+      "AI SaaS",
+      "AI Startup",
+      "perplexity comet",
+      "perplexity comet browser"
     ]
   },
   {
@@ -1194,6 +1229,38 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "IRI4BRmt8cs",
+    "locale": "en",
+    "category": "tutorial",
+    "title": "REVIEW   Perplexity Comet AI Browser",
+    "description": "REVIEW Perplexity Comet AI Browser. ▶️MENTIONED TOOLS: (Video Specific Links If Needed) -. ▶️ABOUT ME: Unlock the ...",
+    "channelTitle": "Jonathan Mast",
+    "publishDate": "2025-07-26",
+    "duration": "PT5M29S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/IRI4BRmt8cs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "digital marketing",
+      "entrepreneurship",
+      "success",
+      "capitalism",
+      "consulting",
+      "AI",
+      "#AIMarketing",
+      "Chatgpt",
+      "Claude",
+      "Perplexity",
+      "Rubi.AI",
+      "Content Creator",
+      "Podcast",
+      "aibusiness"
+    ]
+  },
+  {
     "id": "b-ahGuxtcME",
     "locale": "en",
     "category": "shorts",
@@ -1277,23 +1344,6 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "arK2NeS2KX4",
-    "locale": "zh",
-    "category": "proReview",
-    "title": "Ai News：Higgsfield推出Soul ID，Veo3上线图生视频模式，Grok4发布，开源版剪映opencut，Perplexity Comet浏览器上线",
-    "description": "今天提到的工具: ▶︎ https://x.ai/news/grok-4 ▶︎ https://github.com/OpenCut-app/OpenCut ▶︎ https://comet.perplexity.ai/ ...",
-    "channelTitle": "小薇官方频道",
-    "publishDate": "2025-07-12",
-    "duration": "PT6M31S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/arK2NeS2KX4/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
     "id": "ri_bFrDp44M",
     "locale": "en",
     "category": "hero",
@@ -1357,34 +1407,6 @@ const rawVideos: LandingVideo[] = [
       "llama",
       "meta ai",
       "google ai"
-    ]
-  },
-  {
-    "id": "SRVBYGg7sBM",
-    "locale": "ja",
-    "category": "proReview",
-    "title": "無料の次世代AIブラウザ『Diaブラウザ』を徹底解説【活用事例９選】",
-    "description": "Arcブラウザの後継である無料のAIブラウザ『Diaブラウザ』を徹底解説！そして活用事例を9つ紹介します。無料で使えて、UI/UX ...",
-    "channelTitle": "KEITO【AI&WEB ch】",
-    "publishDate": "2025-06-16",
-    "duration": "PT37M27S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/SRVBYGg7sBM/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "AI",
-      "KEITO",
-      "AIブラウザ",
-      "AI検索",
-      "ai browser",
-      "Dia",
-      "Diaブラウザ",
-      "Dia Browser",
-      "ディアブラウザ",
-      "ディア"
     ]
   },
   {

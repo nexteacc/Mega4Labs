@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-11-29T03:06:16.015Z
- * 总数: 44 个视频
+ * 生成时间: 2025-11-30T03:21:12.723Z
+ * 总数: 49 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -13,6 +13,23 @@ import { LandingVideoArraySchema } from "@/lib/videos";
  * - Tutorial、ProReview、Shorts 互斥（无重复）
  */
 const rawVideos: LandingVideo[] = [
+  {
+    "id": "QEsPDElvTyI",
+    "locale": "zh",
+    "category": "proReview",
+    "title": "AI 瀏覽器試玩 !  Perplexity Comet 登陸 Android　功能夠唔夠班飛甩 Chrome 做 Browser Default",
+    "description": "perplexityai #cometbrowser #samsunggalxyzfold7 Perplexity 突然推咗個Android 版嘅Comet Browser 出嚟。身為科技迷， ...",
+    "channelTitle": "輕鬆講科技 (XYZ 香港科技頻道)",
+    "publishDate": "2025-11-22",
+    "duration": "PT10M56S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/QEsPDElvTyI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
   {
     "id": "9SKavWOf-PY",
     "locale": "en",
@@ -38,27 +55,6 @@ const rawVideos: LandingVideo[] = [
       "perplexity ai",
       "perplexity browser",
       "comet by perplexity"
-    ]
-  },
-  {
-    "id": "CMyhoSSj_PI",
-    "locale": "en",
-    "category": "tutorial",
-    "title": "NEW Perplexity Comet AI Browser Update!",
-    "description": "Want to get more customers, make more profit & save 100s of hours with AI? https://go.juliangoldie.com/ai-profit-boardroom Get a ...",
-    "channelTitle": "Julian Goldie SEO",
-    "publishDate": "2025-11-15",
-    "duration": "PT9M28S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/CMyhoSSj_PI/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "seo",
-      "chatgpt",
-      "seotips"
     ]
   },
   {
@@ -282,7 +278,7 @@ const rawVideos: LandingVideo[] = [
   {
     "id": "g_lBZ-EJGYY",
     "locale": "en",
-    "category": "hero",
+    "category": "proReview",
     "title": "Atlas vs Comet: AI Browser Showdown",
     "description": "OpenAI's new Atlas browser is sleek, powerful, and deeply integrated with ChatGPT—but is it better than Perplexity's Comet?",
     "channelTitle": "Stephen Robles",
@@ -319,42 +315,49 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "g_lBZ-EJGYY",
-    "locale": "en",
+    "id": "0jygvelt5Bg",
+    "locale": "ko",
     "category": "proReview",
-    "title": "Atlas vs Comet: AI Browser Showdown",
-    "description": "OpenAI's new Atlas browser is sleek, powerful, and deeply integrated with ChatGPT—but is it better than Perplexity's Comet?",
-    "channelTitle": "Stephen Robles",
+    "title": "챗GPT가 만든 미친 웹브라우저 &#39;아틀라스&#39; 직접 써봤습니다. AI가 이메일 답장, 쇼핑, 결제까지 전부 알아서 해줍니다. (feat. AI 에이전트)",
+    "description": "안녕하세요, 여러분의 'AI멘토 Jay'입니다. 인터넷의 판도가 완전히 바뀝니다. OpenAI가 챗GPT를 탑재한 새로운 웹브라우저 ...",
+    "channelTitle": "CONNECT AI LAB",
     "publishDate": "2025-10-22",
-    "duration": "PT11M13S",
+    "duration": "PT19M43S",
     "platform": "youtube",
     "thumbnail": {
-      "url": "https://i.ytimg.com/vi/g_lBZ-EJGYY/hqdefault.jpg",
+      "url": "https://i.ytimg.com/vi/0jygvelt5Bg/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
     "tags": [
-      "AI browser",
-      "OpenAI Atlas",
-      "Perplexity Comet",
-      "Atlas vs Comet",
-      "best AI browser",
-      "AI tools 2025",
-      "browser automation",
-      "agentic workflows",
-      "ChatGPT browser",
-      "Comet Perplexity",
-      "Atlas OpenAI",
-      "Mac productivity",
-      "AI comparisons",
-      "tech review 2025",
-      "AI promo code finder",
-      "YouTube automation",
-      "browser speed test",
-      "AI vs AI",
-      "smart browser tools",
-      "podcast automation",
-      "Comet vs Atlas test"
+      "ChatGPTAtlas",
+      "Atlas브라우저",
+      "ChatGPT",
+      "AI에이전트",
+      "AIAgent",
+      "인공지능",
+      "AI자동화",
+      "ChatGPT업데이트",
+      "OpenAI",
+      "Atlas설치법",
+      "Atlas사용법",
+      "ChatGPTAgent",
+      "AI비즈니스",
+      "AI트렌드",
+      "AI입문",
+      "커넥트AILAB",
+      "제이정",
+      "AI경제",
+      "AI활용",
+      "업무자동화",
+      "AI시대",
+      "인공지능활용",
+      "ChatGPT튜토리얼",
+      "ChatGPT브라우저",
+      "connectailab",
+      "jay",
+      "ai멘토",
+      "정원석"
     ]
   },
   {
@@ -558,6 +561,23 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "hkI8ssg-ERc",
+    "locale": "ko",
+    "category": "proReview",
+    "title": "코드 한 줄 없이 웹데이터 크롤링! 퍼플릭시티 코멧 완전정복",
+    "description": "이번 영상에서는 퍼플릭시티 코멧(Perplexity Comet) 브라우저를 이용해누구나 손쉽게 웹데이터를 크롤링하는 방법을 다룹니다.",
+    "channelTitle": "AI 일잘러",
+    "publishDate": "2025-10-13",
+    "duration": "PT6M58S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/hkI8ssg-ERc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
     "id": "XiRzrSdIxO0",
     "locale": "en",
     "category": "proReview",
@@ -600,6 +620,40 @@ const rawVideos: LandingVideo[] = [
       "ai shortcuts",
       "time saving tools"
     ]
+  },
+  {
+    "id": "qSNRGeZuHeI",
+    "locale": "en",
+    "category": "hero",
+    "title": "COMET EXPLICADO FÁCIL. Automatiza con navegador agéntico#ia #ai #inteligenciaartificial #perplexity",
+    "description": "No description available",
+    "channelTitle": "maxmaxdata",
+    "publishDate": "2025-10-10",
+    "duration": "PT3M",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/qSNRGeZuHeI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
+    "id": "qSNRGeZuHeI",
+    "locale": "en",
+    "category": "tutorial",
+    "title": "COMET EXPLICADO FÁCIL. Automatiza con navegador agéntico#ia #ai #inteligenciaartificial #perplexity",
+    "description": "No description available",
+    "channelTitle": "maxmaxdata",
+    "publishDate": "2025-10-10",
+    "duration": "PT3M",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/qSNRGeZuHeI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
   },
   {
     "id": "6TBpTvwNujA",
@@ -657,23 +711,6 @@ const rawVideos: LandingVideo[] = [
   {
     "id": "PEkjsbdPr9I",
     "locale": "en",
-    "category": "hero",
-    "title": "Please Don&#39;t Download The Comet Browser...",
-    "description": "Hello guys and gals, it's me Mutahar again! This time we take a look at a web browser that apparently browses the web for you.",
-    "channelTitle": "SomeOrdinaryGamers",
-    "publishDate": "2025-10-06",
-    "duration": "PT22M58S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/PEkjsbdPr9I/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
-    "id": "PEkjsbdPr9I",
-    "locale": "en",
     "category": "proReview",
     "title": "Please Don&#39;t Download The Comet Browser...",
     "description": "Hello guys and gals, it's me Mutahar again! This time we take a look at a web browser that apparently browses the web for you.",
@@ -683,23 +720,6 @@ const rawVideos: LandingVideo[] = [
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/PEkjsbdPr9I/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
-    "id": "0px-F97q3RI",
-    "locale": "zh",
-    "category": "proReview",
-    "title": "AI新闻: Sora2水印移除工作流，Nano banana更新，Octave2文本生语音模型，Comet Ai浏览器发布, Higgsfield新功能",
-    "description": "sora2 AI视频剪辑工具：https://filmora.go.link/5bdV3 ▻ sora2 AI去水印工具：https://filmora.go.link/3DRAt 今天提到的工具地址： ...",
-    "channelTitle": "小薇官方频道",
-    "publishDate": "2025-10-06",
-    "duration": "PT5M38S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/0px-F97q3RI/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
@@ -745,6 +765,40 @@ const rawVideos: LandingVideo[] = [
       "AI 2025",
       "AI news"
     ]
+  },
+  {
+    "id": "-ix8UjYuF8Q",
+    "locale": "en",
+    "category": "hero",
+    "title": "AI Browser that works for you #carterpcs #tech #comet #perplexity #cometpartner",
+    "description": "No description available",
+    "channelTitle": "CarterPCs",
+    "publishDate": "2025-10-03",
+    "duration": "PT39S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/-ix8UjYuF8Q/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
+    "id": "-ix8UjYuF8Q",
+    "locale": "en",
+    "category": "shorts",
+    "title": "AI Browser that works for you #carterpcs #tech #comet #perplexity #cometpartner",
+    "description": "No description available",
+    "channelTitle": "CarterPCs",
+    "publishDate": "2025-10-03",
+    "duration": "PT39S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/-ix8UjYuF8Q/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
   },
   {
     "id": "R0jDcdFm8Fg",
@@ -1206,6 +1260,38 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "IRI4BRmt8cs",
+    "locale": "en",
+    "category": "tutorial",
+    "title": "REVIEW   Perplexity Comet AI Browser",
+    "description": "REVIEW Perplexity Comet AI Browser. ▶️MENTIONED TOOLS: (Video Specific Links If Needed) -. ▶️ABOUT ME: Unlock the ...",
+    "channelTitle": "Jonathan Mast",
+    "publishDate": "2025-07-26",
+    "duration": "PT5M29S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/IRI4BRmt8cs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "digital marketing",
+      "entrepreneurship",
+      "success",
+      "capitalism",
+      "consulting",
+      "AI",
+      "#AIMarketing",
+      "Chatgpt",
+      "Claude",
+      "Perplexity",
+      "Rubi.AI",
+      "Content Creator",
+      "Podcast",
+      "aibusiness"
+    ]
+  },
+  {
     "id": "b-ahGuxtcME",
     "locale": "en",
     "category": "shorts",
@@ -1286,39 +1372,6 @@ const rawVideos: LandingVideo[] = [
       "OpenAI",
       "Claude",
       "Anthropic"
-    ]
-  },
-  {
-    "id": "ri_bFrDp44M",
-    "locale": "en",
-    "category": "hero",
-    "title": "Perplexity&#39;s AI-Native Browser Comet is HERE",
-    "description": "Get Started with Lindy For Free: https://go.lindy.ai/matthew-berman Discover The Best AI Tools     https://tools.forwardfuture.ai ...",
-    "channelTitle": "Matthew Berman",
-    "publishDate": "2025-07-09",
-    "duration": "PT14M38S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/ri_bFrDp44M/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "ai",
-      "llm",
-      "artificial intelligence",
-      "large language model",
-      "openai",
-      "mistral",
-      "chatgpt",
-      "ai news",
-      "claude",
-      "anthropic",
-      "apple ai",
-      "apple intelligence",
-      "llama",
-      "meta ai",
-      "google ai"
     ]
   },
   {
@@ -1432,6 +1485,106 @@ const rawVideos: LandingVideo[] = [
       "AI browser",
       "AI plugins",
       "AI plugin"
+    ]
+  },
+  {
+    "id": "meNP-5elTwg",
+    "locale": "ja",
+    "category": "hero",
+    "title": "最高のシミ抜き術 - ドライクリーニング店の洗濯のコツ #laundry",
+    "description": "市販されているシミ抜き剤の中で、最も効果的なものの一つは、高品質の液体洗濯洗剤です。\n\n少量を小分けにしてスプレーボトルに入れ、必要に応じて使 ...",
+    "channelTitle": "Jeeves NY",
+    "publishDate": "2025-02-18",
+    "duration": "PT27S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/meNP-5elTwg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "stain",
+      "stains",
+      "stain removal",
+      "stain removal tips",
+      "how to get out stains",
+      "how to remove stains",
+      "laundry",
+      "laundry tips",
+      "laundry hacks",
+      "laundry guides",
+      "stain removal guide",
+      "red wine stain",
+      "chocolate stain",
+      "oil stain",
+      "grease stain",
+      "olive oil stain",
+      "wine stain",
+      "tomato sauce stain",
+      "red stain",
+      "get out stains",
+      "remove stains",
+      "dry cleaning",
+      "jeeves ny",
+      "jeeves",
+      "the dry cleaning guy",
+      "the laundry guy",
+      "liquid detergent",
+      "laundry detergent",
+      "detergent as a stain remover",
+      "cleaning",
+      "clean",
+      "nyc"
+    ]
+  },
+  {
+    "id": "meNP-5elTwg",
+    "locale": "ja",
+    "category": "shorts",
+    "title": "最高のシミ抜き術 - ドライクリーニング店の洗濯のコツ #laundry",
+    "description": "市販されているシミ抜き剤の中で、最も効果的なものの一つは、高品質の液体洗濯洗剤です。\n\n少量を小分けにしてスプレーボトルに入れ、必要に応じて使 ...",
+    "channelTitle": "Jeeves NY",
+    "publishDate": "2025-02-18",
+    "duration": "PT27S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/meNP-5elTwg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "stain",
+      "stains",
+      "stain removal",
+      "stain removal tips",
+      "how to get out stains",
+      "how to remove stains",
+      "laundry",
+      "laundry tips",
+      "laundry hacks",
+      "laundry guides",
+      "stain removal guide",
+      "red wine stain",
+      "chocolate stain",
+      "oil stain",
+      "grease stain",
+      "olive oil stain",
+      "wine stain",
+      "tomato sauce stain",
+      "red stain",
+      "get out stains",
+      "remove stains",
+      "dry cleaning",
+      "jeeves ny",
+      "jeeves",
+      "the dry cleaning guy",
+      "the laundry guy",
+      "liquid detergent",
+      "laundry detergent",
+      "detergent as a stain remover",
+      "cleaning",
+      "clean",
+      "nyc"
     ]
   }
 ];

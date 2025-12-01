@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-11-30T03:21:12.726Z",
+  "timestamp": "2025-12-01T03:44:46.014Z",
   "totalVideos": 49,
   "totalSearches": 12,
   "byCategory": {
@@ -10,9 +10,9 @@
   },
   "byLocale": {
     "zh": 10,
-    "en": 18,
+    "en": 21,
     "ko": 14,
-    "ja": 7
+    "ja": 4
   },
   "optimization": {
     "searchesPerLanguage": 3,

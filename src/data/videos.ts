@@ -4,7 +4,7 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-11-30T03:21:12.723Z
+ * 生成时间: 2025-12-01T03:44:46.013Z
  * 总数: 49 个视频
  * 
  * 抓取策略:
@@ -481,6 +481,29 @@ const rawVideos: LandingVideo[] = [
     "tags": []
   },
   {
+    "id": "DzhGIpOVJbU",
+    "locale": "en",
+    "category": "proReview",
+    "title": "7 Mind-Blowing Use Cases of Perplexity Comet Agents",
+    "description": "Join my AI Playbook® community—in just one week, discover how to trim 5 hours off your workweek & unlock $500–$1K in new ...",
+    "channelTitle": "Rick Mulready",
+    "publishDate": "2025-10-16",
+    "duration": "PT12M42S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/DzhGIpOVJbU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "Comet browser",
+      "Perplexity Comet",
+      "Comet agents",
+      "Comet AI",
+      "AI agents"
+    ]
+  },
+  {
     "id": "p9WhwhYEPsA",
     "locale": "ko",
     "category": "proReview",
@@ -711,6 +734,23 @@ const rawVideos: LandingVideo[] = [
   {
     "id": "PEkjsbdPr9I",
     "locale": "en",
+    "category": "hero",
+    "title": "Please Don&#39;t Download The Comet Browser...",
+    "description": "Hello guys and gals, it's me Mutahar again! This time we take a look at a web browser that apparently browses the web for you.",
+    "channelTitle": "SomeOrdinaryGamers",
+    "publishDate": "2025-10-06",
+    "duration": "PT22M58S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/PEkjsbdPr9I/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
+    "id": "PEkjsbdPr9I",
+    "locale": "en",
     "category": "proReview",
     "title": "Please Don&#39;t Download The Comet Browser...",
     "description": "Hello guys and gals, it's me Mutahar again! This time we take a look at a web browser that apparently browses the web for you.",
@@ -764,6 +804,45 @@ const rawVideos: LandingVideo[] = [
       "Analytics Vidhya",
       "AI 2025",
       "AI news"
+    ]
+  },
+  {
+    "id": "Hh6GA4QGsrY",
+    "locale": "en",
+    "category": "shorts",
+    "title": "Delete Chrome! Get This Browser Instead!",
+    "description": "No description available",
+    "channelTitle": "Trakin Tech English",
+    "publishDate": "2025-10-06",
+    "duration": "PT45S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/Hh6GA4QGsrY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "comet browser",
+      "comet browser free",
+      "comet browser demo",
+      "comet ai browser",
+      "ai browser comet",
+      "comet web browser",
+      "comet browser review",
+      "comet browser launch",
+      "install comet browser",
+      "comet browser use case",
+      "comet browser worth it",
+      "how to get comet browser",
+      "comet browser download",
+      "comet browser features",
+      "comet browser use cases",
+      "download comet browser",
+      "comet browser vs chrome",
+      "is comet a good browser",
+      "perplexity comet browser",
+      "comet browser perplexity",
+      "comet browser automation"
     ]
   },
   {
@@ -1157,7 +1236,7 @@ const rawVideos: LandingVideo[] = [
     "id": "mCjaXq8_m1Y",
     "locale": "zh",
     "category": "proReview",
-    "title": "【廣東話】哇哇聲，超前半年AI全新用法，必學！Perplexity Comet",
+    "title": "【廣東話】哇哇聲，超前半年AI全新用法，必學！Perplexity Comet #廣東話 #一人公司 #aiagent #onepersoncompany",
     "description": "註冊Perplexity Max並使用Comet： https://perplexity.ai/pro?referral_code=VJ5F4HU6 Comet + Perplexity 激活【淘寶】： ...",
     "channelTitle": "AI Bunny",
     "publishDate": "2025-08-07",
@@ -1408,34 +1487,6 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "SRVBYGg7sBM",
-    "locale": "ja",
-    "category": "proReview",
-    "title": "無料の次世代AIブラウザ『Diaブラウザ』を徹底解説【活用事例９選】",
-    "description": "Arcブラウザの後継である無料のAIブラウザ『Diaブラウザ』を徹底解説！そして活用事例を9つ紹介します。無料で使えて、UI/UX ...",
-    "channelTitle": "KEITO【AI&WEB ch】",
-    "publishDate": "2025-06-16",
-    "duration": "PT37M27S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/SRVBYGg7sBM/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "AI",
-      "KEITO",
-      "AIブラウザ",
-      "AI検索",
-      "ai browser",
-      "Dia",
-      "Diaブラウザ",
-      "Dia Browser",
-      "ディアブラウザ",
-      "ディア"
-    ]
-  },
-  {
     "id": "72v4YZU1rIA",
     "locale": "zh",
     "category": "tutorial",
@@ -1485,106 +1536,6 @@ const rawVideos: LandingVideo[] = [
       "AI browser",
       "AI plugins",
       "AI plugin"
-    ]
-  },
-  {
-    "id": "meNP-5elTwg",
-    "locale": "ja",
-    "category": "hero",
-    "title": "最高のシミ抜き術 - ドライクリーニング店の洗濯のコツ #laundry",
-    "description": "市販されているシミ抜き剤の中で、最も効果的なものの一つは、高品質の液体洗濯洗剤です。\n\n少量を小分けにしてスプレーボトルに入れ、必要に応じて使 ...",
-    "channelTitle": "Jeeves NY",
-    "publishDate": "2025-02-18",
-    "duration": "PT27S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/meNP-5elTwg/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "stain",
-      "stains",
-      "stain removal",
-      "stain removal tips",
-      "how to get out stains",
-      "how to remove stains",
-      "laundry",
-      "laundry tips",
-      "laundry hacks",
-      "laundry guides",
-      "stain removal guide",
-      "red wine stain",
-      "chocolate stain",
-      "oil stain",
-      "grease stain",
-      "olive oil stain",
-      "wine stain",
-      "tomato sauce stain",
-      "red stain",
-      "get out stains",
-      "remove stains",
-      "dry cleaning",
-      "jeeves ny",
-      "jeeves",
-      "the dry cleaning guy",
-      "the laundry guy",
-      "liquid detergent",
-      "laundry detergent",
-      "detergent as a stain remover",
-      "cleaning",
-      "clean",
-      "nyc"
-    ]
-  },
-  {
-    "id": "meNP-5elTwg",
-    "locale": "ja",
-    "category": "shorts",
-    "title": "最高のシミ抜き術 - ドライクリーニング店の洗濯のコツ #laundry",
-    "description": "市販されているシミ抜き剤の中で、最も効果的なものの一つは、高品質の液体洗濯洗剤です。\n\n少量を小分けにしてスプレーボトルに入れ、必要に応じて使 ...",
-    "channelTitle": "Jeeves NY",
-    "publishDate": "2025-02-18",
-    "duration": "PT27S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/meNP-5elTwg/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "stain",
-      "stains",
-      "stain removal",
-      "stain removal tips",
-      "how to get out stains",
-      "how to remove stains",
-      "laundry",
-      "laundry tips",
-      "laundry hacks",
-      "laundry guides",
-      "stain removal guide",
-      "red wine stain",
-      "chocolate stain",
-      "oil stain",
-      "grease stain",
-      "olive oil stain",
-      "wine stain",
-      "tomato sauce stain",
-      "red stain",
-      "get out stains",
-      "remove stains",
-      "dry cleaning",
-      "jeeves ny",
-      "jeeves",
-      "the dry cleaning guy",
-      "the laundry guy",
-      "liquid detergent",
-      "laundry detergent",
-      "detergent as a stain remover",
-      "cleaning",
-      "clean",
-      "nyc"
     ]
   }
 ];

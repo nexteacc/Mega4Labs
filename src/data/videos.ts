@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-12-01T03:44:46.013Z
- * 总数: 49 个视频
+ * 生成时间: 2025-12-02T03:13:12.361Z
+ * 总数: 47 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -259,6 +259,23 @@ const rawVideos: LandingVideo[] = [
     "tags": []
   },
   {
+    "id": "mKymO-TQsf4",
+    "locale": "en",
+    "category": "shorts",
+    "title": "These 3 AI Browsers will change how you use the internet, forever.",
+    "description": "AI is coming for your browser. And it's not here to take sides. It's here to take over how we browse. Let's start with Comet by ...",
+    "channelTitle": "Nick Automates",
+    "publishDate": "2025-10-24",
+    "duration": "PT40S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/mKymO-TQsf4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
     "id": "y5oDLba8Hig",
     "locale": "ja",
     "category": "tutorial",
@@ -479,29 +496,6 @@ const rawVideos: LandingVideo[] = [
       "height": 360
     },
     "tags": []
-  },
-  {
-    "id": "DzhGIpOVJbU",
-    "locale": "en",
-    "category": "proReview",
-    "title": "7 Mind-Blowing Use Cases of Perplexity Comet Agents",
-    "description": "Join my AI Playbook® community—in just one week, discover how to trim 5 hours off your workweek & unlock $500–$1K in new ...",
-    "channelTitle": "Rick Mulready",
-    "publishDate": "2025-10-16",
-    "duration": "PT12M42S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/DzhGIpOVJbU/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "Comet browser",
-      "Perplexity Comet",
-      "Comet agents",
-      "Comet AI",
-      "AI agents"
-    ]
   },
   {
     "id": "p9WhwhYEPsA",
@@ -804,45 +798,6 @@ const rawVideos: LandingVideo[] = [
       "Analytics Vidhya",
       "AI 2025",
       "AI news"
-    ]
-  },
-  {
-    "id": "Hh6GA4QGsrY",
-    "locale": "en",
-    "category": "shorts",
-    "title": "Delete Chrome! Get This Browser Instead!",
-    "description": "No description available",
-    "channelTitle": "Trakin Tech English",
-    "publishDate": "2025-10-06",
-    "duration": "PT45S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/Hh6GA4QGsrY/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "comet browser",
-      "comet browser free",
-      "comet browser demo",
-      "comet ai browser",
-      "ai browser comet",
-      "comet web browser",
-      "comet browser review",
-      "comet browser launch",
-      "install comet browser",
-      "comet browser use case",
-      "comet browser worth it",
-      "how to get comet browser",
-      "comet browser download",
-      "comet browser features",
-      "comet browser use cases",
-      "download comet browser",
-      "comet browser vs chrome",
-      "is comet a good browser",
-      "perplexity comet browser",
-      "comet browser perplexity",
-      "comet browser automation"
     ]
   },
   {
@@ -1502,41 +1457,6 @@ const rawVideos: LandingVideo[] = [
       "height": 360
     },
     "tags": []
-  },
-  {
-    "id": "YXedHHRP4OY",
-    "locale": "zh",
-    "category": "tutorial",
-    "title": "再见了谷歌插件！AI原生浏览器超级好用！【Dia实测】",
-    "description": "Arc团队重磅推出了一个“AI原生浏览器”Dia “AI原生”跟AI插件能有什么不一样呢？ 一起看看吧～ 感谢朋友们三连+关注～ Dia ...",
-    "channelTitle": "秋芝2046",
-    "publishDate": "2025-04-28",
-    "duration": "PT6M15S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/YXedHHRP4OY/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "AI",
-      "人工智能",
-      "浏览器",
-      "browser",
-      "AI浏览器",
-      "AIbrowser",
-      "Dia",
-      "Dia browser",
-      "Arc",
-      "the browser company",
-      "best AI browser",
-      "insane AI browser",
-      "Dia alpha test",
-      "秋芝2046",
-      "AI browser",
-      "AI plugins",
-      "AI plugin"
-    ]
   }
 ];
 

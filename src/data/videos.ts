@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-12-02T03:13:12.361Z
- * 总数: 47 个视频
+ * 生成时间: 2025-12-03T03:11:51.712Z
+ * 总数: 48 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -242,6 +242,36 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "MEGLoqn0jow",
+    "locale": "zh",
+    "category": "tutorial",
+    "title": "【AI神器：油管博主必备】提高看片效率，快速创作内容！推荐Perplexity公司的AI浏览器Comet！",
+    "description": "老胡在2025年提供以下服务，请按需选用： --------------------------------- 1.《老胡自媒体朋友圈》 * 电报/微信群，一次性费用100美元， ...",
+    "channelTitle": "老胡油管研究院",
+    "publishDate": "2025-10-24",
+    "duration": "PT8M23S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/MEGLoqn0jow/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "#西雅图老胡",
+      "自媒体",
+      "赚钱",
+      "Youtube赚钱",
+      "短视频",
+      "案例分析",
+      "频道点评",
+      "youtube tutorial",
+      "youtube make money",
+      "YouTube教学",
+      "YouTube培训",
+      "YouTube课程"
+    ]
+  },
+  {
     "id": "Eqe54cxeaUs",
     "locale": "en",
     "category": "proReview",
@@ -253,23 +283,6 @@ const rawVideos: LandingVideo[] = [
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/Eqe54cxeaUs/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
-    "id": "mKymO-TQsf4",
-    "locale": "en",
-    "category": "shorts",
-    "title": "These 3 AI Browsers will change how you use the internet, forever.",
-    "description": "AI is coming for your browser. And it's not here to take sides. It's here to take over how we browse. Let's start with Comet by ...",
-    "channelTitle": "Nick Automates",
-    "publishDate": "2025-10-24",
-    "duration": "PT40S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/mKymO-TQsf4/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
@@ -1294,38 +1307,6 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "IRI4BRmt8cs",
-    "locale": "en",
-    "category": "tutorial",
-    "title": "REVIEW   Perplexity Comet AI Browser",
-    "description": "REVIEW Perplexity Comet AI Browser. ▶️MENTIONED TOOLS: (Video Specific Links If Needed) -. ▶️ABOUT ME: Unlock the ...",
-    "channelTitle": "Jonathan Mast",
-    "publishDate": "2025-07-26",
-    "duration": "PT5M29S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/IRI4BRmt8cs/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "digital marketing",
-      "entrepreneurship",
-      "success",
-      "capitalism",
-      "consulting",
-      "AI",
-      "#AIMarketing",
-      "Chatgpt",
-      "Claude",
-      "Perplexity",
-      "Rubi.AI",
-      "Content Creator",
-      "Podcast",
-      "aibusiness"
-    ]
-  },
-  {
     "id": "b-ahGuxtcME",
     "locale": "en",
     "category": "shorts",
@@ -1442,6 +1423,34 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "SRVBYGg7sBM",
+    "locale": "ja",
+    "category": "proReview",
+    "title": "無料の次世代AIブラウザ『Diaブラウザ』を徹底解説【活用事例９選】",
+    "description": "Arcブラウザの後継である無料のAIブラウザ『Diaブラウザ』を徹底解説！そして活用事例を9つ紹介します。無料で使えて、UI/UX ...",
+    "channelTitle": "KEITO【AI&WEB ch】",
+    "publishDate": "2025-06-16",
+    "duration": "PT37M27S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/SRVBYGg7sBM/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "AI",
+      "KEITO",
+      "AIブラウザ",
+      "AI検索",
+      "ai browser",
+      "Dia",
+      "Diaブラウザ",
+      "Dia Browser",
+      "ディアブラウザ",
+      "ディア"
+    ]
+  },
+  {
     "id": "72v4YZU1rIA",
     "locale": "zh",
     "category": "tutorial",
@@ -1457,6 +1466,41 @@ const rawVideos: LandingVideo[] = [
       "height": 360
     },
     "tags": []
+  },
+  {
+    "id": "YXedHHRP4OY",
+    "locale": "zh",
+    "category": "tutorial",
+    "title": "再见了谷歌插件！AI原生浏览器超级好用！【Dia实测】",
+    "description": "Arc团队重磅推出了一个“AI原生浏览器”Dia “AI原生”跟AI插件能有什么不一样呢？ 一起看看吧～ 感谢朋友们三连+关注～ Dia ...",
+    "channelTitle": "秋芝2046",
+    "publishDate": "2025-04-28",
+    "duration": "PT6M15S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/YXedHHRP4OY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "AI",
+      "人工智能",
+      "浏览器",
+      "browser",
+      "AI浏览器",
+      "AIbrowser",
+      "Dia",
+      "Dia browser",
+      "Arc",
+      "the browser company",
+      "best AI browser",
+      "insane AI browser",
+      "Dia alpha test",
+      "秋芝2046",
+      "AI browser",
+      "AI plugins",
+      "AI plugin"
+    ]
   }
 ];
 

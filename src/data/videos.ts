@@ -4,7 +4,7 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-12-03T03:11:51.712Z
+ * 生成时间: 2025-12-04T03:13:57.146Z
  * 总数: 48 个视频
  * 
  * 抓取策略:
@@ -13,23 +13,6 @@ import { LandingVideoArraySchema } from "@/lib/videos";
  * - Tutorial、ProReview、Shorts 互斥（无重复）
  */
 const rawVideos: LandingVideo[] = [
-  {
-    "id": "QEsPDElvTyI",
-    "locale": "zh",
-    "category": "proReview",
-    "title": "AI 瀏覽器試玩 !  Perplexity Comet 登陸 Android　功能夠唔夠班飛甩 Chrome 做 Browser Default",
-    "description": "perplexityai #cometbrowser #samsunggalxyzfold7 Perplexity 突然推咗個Android 版嘅Comet Browser 出嚟。身為科技迷， ...",
-    "channelTitle": "輕鬆講科技 (XYZ 香港科技頻道)",
-    "publishDate": "2025-11-22",
-    "duration": "PT10M56S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/QEsPDElvTyI/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
   {
     "id": "9SKavWOf-PY",
     "locale": "en",
@@ -239,36 +222,6 @@ const rawVideos: LandingVideo[] = [
       "AI",
       "챗GPT",
       "cheatgpt"
-    ]
-  },
-  {
-    "id": "MEGLoqn0jow",
-    "locale": "zh",
-    "category": "tutorial",
-    "title": "【AI神器：油管博主必备】提高看片效率，快速创作内容！推荐Perplexity公司的AI浏览器Comet！",
-    "description": "老胡在2025年提供以下服务，请按需选用： --------------------------------- 1.《老胡自媒体朋友圈》 * 电报/微信群，一次性费用100美元， ...",
-    "channelTitle": "老胡油管研究院",
-    "publishDate": "2025-10-24",
-    "duration": "PT8M23S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/MEGLoqn0jow/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "#西雅图老胡",
-      "自媒体",
-      "赚钱",
-      "Youtube赚钱",
-      "短视频",
-      "案例分析",
-      "频道点评",
-      "youtube tutorial",
-      "youtube make money",
-      "YouTube教学",
-      "YouTube培训",
-      "YouTube课程"
     ]
   },
   {
@@ -1307,6 +1260,38 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "IRI4BRmt8cs",
+    "locale": "en",
+    "category": "tutorial",
+    "title": "REVIEW   Perplexity Comet AI Browser",
+    "description": "REVIEW Perplexity Comet AI Browser. ▶️MENTIONED TOOLS: (Video Specific Links If Needed) -. ▶️ABOUT ME: Unlock the ...",
+    "channelTitle": "Jonathan Mast",
+    "publishDate": "2025-07-26",
+    "duration": "PT5M29S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/IRI4BRmt8cs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "digital marketing",
+      "entrepreneurship",
+      "success",
+      "capitalism",
+      "consulting",
+      "AI",
+      "#AIMarketing",
+      "Chatgpt",
+      "Claude",
+      "Perplexity",
+      "Rubi.AI",
+      "Content Creator",
+      "Podcast",
+      "aibusiness"
+    ]
+  },
+  {
     "id": "b-ahGuxtcME",
     "locale": "en",
     "category": "shorts",
@@ -1388,6 +1373,23 @@ const rawVideos: LandingVideo[] = [
       "Claude",
       "Anthropic"
     ]
+  },
+  {
+    "id": "arK2NeS2KX4",
+    "locale": "zh",
+    "category": "proReview",
+    "title": "Ai News：Higgsfield推出Soul ID，Veo3上线图生视频模式，Grok4发布，开源版剪映opencut，Perplexity Comet浏览器上线",
+    "description": "今天提到的工具: ▶︎ https://x.ai/news/grok-4 ▶︎ https://github.com/OpenCut-app/OpenCut ▶︎ https://comet.perplexity.ai/ ...",
+    "channelTitle": "小薇官方频道",
+    "publishDate": "2025-07-12",
+    "duration": "PT6M31S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/arK2NeS2KX4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
   },
   {
     "id": "ri_bFrDp44M",

@@ -1,16 +1,16 @@
 {
-  "timestamp": "2025-12-04T03:13:57.147Z",
-  "totalVideos": 48,
+  "timestamp": "2025-12-05T03:13:25.608Z",
+  "totalVideos": 46,
   "totalSearches": 12,
   "byCategory": {
-    "proReview": 25,
-    "tutorial": 15,
+    "proReview": 24,
+    "tutorial": 14,
     "hero": 4,
     "shorts": 4
   },
   "byLocale": {
-    "en": 19,
-    "zh": 10,
+    "zh": 9,
+    "en": 18,
     "ko": 14,
     "ja": 5
   },
@@ -21,6 +21,13 @@
     "deduplicationStrategy": "Tutorial、ProReview、Shorts 互斥"
   },
   "latestVideos": [
+    {
+      "id": "QEsPDElvTyI",
+      "title": "AI 瀏覽器試玩 !  Perplexity Comet 登陸 Android　功能夠唔夠班飛甩 Chrome 做 Browser Default",
+      "category": "proReview",
+      "locale": "zh",
+      "publishDate": "2025-11-22"
+    },
     {
       "id": "9SKavWOf-PY",
       "title": "The MOST Exciting Android Browser App in YEARS // Comet by Perplexity",
@@ -48,13 +55,6 @@
       "category": "tutorial",
       "locale": "zh",
       "publishDate": "2025-10-28"
-    },
-    {
-      "id": "ohzNvM8AEqE",
-      "title": "오픈AI 아틀라스 리뷰 | 크롬을 대체한 진짜 AI 브라우저",
-      "category": "proReview",
-      "locale": "ko",
-      "publishDate": "2025-10-26"
     }
   ]
 }

@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-12-06T03:03:52.482Z
- * 总数: 48 个视频
+ * 生成时间: 2025-12-07T03:21:28.387Z
+ * 总数: 49 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -461,6 +461,35 @@ const rawVideos: LandingVideo[] = [
       "AI",
       "챗GPT",
       "cheatgpt"
+    ]
+  },
+  {
+    "id": "5w6lRGe85U0",
+    "locale": "ja",
+    "category": "tutorial",
+    "title": "指示だけで動く！AIブラウザCometを試してみた！良い点・イマイチな点は？【AIエージェント】",
+    "description": "面倒なブラウザ作業、AIに丸投げしたい…」そんな願いを叶えるAIブラウザ「Comet」を使ってみました！ 指示だけでブラウザ ...",
+    "channelTitle": "AIコウリツカ",
+    "publishDate": "2025-10-17",
+    "duration": "PT9M24S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/5w6lRGe85U0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "comet ai",
+      "ai ブラウザ",
+      "ai エージェント",
+      "ai 活用",
+      "ai 副業",
+      "AI",
+      "人工知能",
+      "生成AI",
+      "AIコウリツカ",
+      "comet browser",
+      "perplexity ai"
     ]
   },
   {

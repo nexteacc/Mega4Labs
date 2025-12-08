@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-12-07T03:21:28.387Z
- * 总数: 49 个视频
+ * 生成时间: 2025-12-08T03:16:07.576Z
+ * 总数: 48 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -176,6 +176,23 @@ const rawVideos: LandingVideo[] = [
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/ZisdN4IJ49c/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
+    "id": "Yztx9tnoTco",
+    "locale": "zh",
+    "category": "tutorial",
+    "title": "一站式提升工作效率！Comet浏览器基础+高级玩法教学（附免费Pro会员领取方法）",
+    "description": "想彻底解放双手？本期深度讲解Comet AI浏览器如何自动操控网页，帮你高效完成搜索、批量操作与内容整理等任务！ 你将学到： ...",
+    "channelTitle": "stephen ai技能变现站",
+    "publishDate": "2025-10-26",
+    "duration": "PT8M6S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/Yztx9tnoTco/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
@@ -1033,28 +1050,6 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "70ERnUFxvKs",
-    "locale": "ko",
-    "category": "tutorial",
-    "title": "파이썬으로 크롤링 할 필요 없다! AI로 코딩 없이 웹페이지 크롤링 하는 방법 | 퍼플렉시티 코멧, Perplexity Comet",
-    "description": "코멧 다운로드 받기 https://pplx.ai/potatoai 퍼플렉시티 1개월 무료 : https://perplexity.ai/pro?referral_code=FGUU42VB (이 링크를 ...",
-    "channelTitle": "감자나라ai",
-    "publishDate": "2025-09-01",
-    "duration": "PT6M37S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/70ERnUFxvKs/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "인공지능",
-      "AI",
-      "챗GPT",
-      "cheatgpt"
-    ]
-  },
-  {
     "id": "KayYycPHBpg",
     "locale": "ko",
     "category": "tutorial",
@@ -1451,34 +1446,6 @@ const rawVideos: LandingVideo[] = [
       "llama",
       "meta ai",
       "google ai"
-    ]
-  },
-  {
-    "id": "SRVBYGg7sBM",
-    "locale": "ja",
-    "category": "proReview",
-    "title": "無料の次世代AIブラウザ『Diaブラウザ』を徹底解説【活用事例９選】",
-    "description": "Arcブラウザの後継である無料のAIブラウザ『Diaブラウザ』を徹底解説！そして活用事例を9つ紹介します。無料で使えて、UI/UX ...",
-    "channelTitle": "KEITO【AI&WEB ch】",
-    "publishDate": "2025-06-16",
-    "duration": "PT37M27S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/SRVBYGg7sBM/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "AI",
-      "KEITO",
-      "AIブラウザ",
-      "AI検索",
-      "ai browser",
-      "Dia",
-      "Diaブラウザ",
-      "Dia Browser",
-      "ディアブラウザ",
-      "ディア"
     ]
   },
   {

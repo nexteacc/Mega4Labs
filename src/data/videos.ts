@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-12-08T03:16:07.576Z
- * 总数: 48 个视频
+ * 生成时间: 2025-12-09T03:13:35.623Z
+ * 总数: 49 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -1039,6 +1039,28 @@ const rawVideos: LandingVideo[] = [
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/7aTM7u22Kw0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "인공지능",
+      "AI",
+      "챗GPT",
+      "cheatgpt"
+    ]
+  },
+  {
+    "id": "70ERnUFxvKs",
+    "locale": "ko",
+    "category": "tutorial",
+    "title": "파이썬으로 크롤링 할 필요 없다! AI로 코딩 없이 웹페이지 크롤링 하는 방법 | 퍼플렉시티 코멧, Perplexity Comet",
+    "description": "코멧 다운로드 받기 https://pplx.ai/potatoai 퍼플렉시티 1개월 무료 : https://perplexity.ai/pro?referral_code=FGUU42VB (이 링크를 ...",
+    "channelTitle": "감자나라ai",
+    "publishDate": "2025-09-01",
+    "duration": "PT6M37S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/70ERnUFxvKs/hqdefault.jpg",
       "width": 480,
       "height": 360
     },

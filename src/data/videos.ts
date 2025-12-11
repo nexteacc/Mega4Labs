@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-12-10T03:16:52.815Z
- * 总数: 49 个视频
+ * 生成时间: 2025-12-11T03:19:05.272Z
+ * 总数: 51 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -738,6 +738,85 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "r1Nldq-mJBw",
+    "locale": "zh",
+    "category": "proReview",
+    "title": "🚀【Google末日？】新 AI 瀏覽器Perplexity Comet 一出，全世界震驚！搜尋已經過時了？🔥 一步到位 幫你慳99%時間 ！？未來仲需唔需要人腦分析？｜#31 Henry 平行偉論",
+    "description": "【AI瀏覽器新時代】搜尋已死？Perplexity Comet顛覆Google！   你還在用Google搜尋嗎？新一代AI瀏覽器Perplexity Comet 不止幫 ...",
+    "channelTitle": "Sun Channel",
+    "publishDate": "2025-10-08",
+    "duration": "PT13M40S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/r1Nldq-mJBw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "sunchannel",
+      "lorey讀好書",
+      "lorey快閃講",
+      "投資",
+      "經濟",
+      "股票",
+      "恒指",
+      "美國",
+      "中國",
+      "股市",
+      "比特幣",
+      "裁員",
+      "加密貨幣",
+      "減息",
+      "通脹",
+      "黃金",
+      "樓市",
+      "樓價",
+      "租金",
+      "健康",
+      "美國國債",
+      "美元",
+      "局勢",
+      "貧富懸殊",
+      "致富",
+      "免費講座",
+      "GreatLearning",
+      "MES HK",
+      "Grammarly",
+      "國泰",
+      "安聯汽車保險 Allianz",
+      "Citibank Hong Kong",
+      "Bowtie 保泰人壽",
+      "Brian Cha Motivation",
+      "Viu Hong Kong",
+      "Tesla",
+      "維特健靈健康產品集團",
+      "恒生銀行",
+      "LVMH",
+      "屈臣氏",
+      "Samsung",
+      "P&G",
+      "匯豐",
+      "GSK",
+      "Shopify",
+      "YouTube",
+      "Disney Plus",
+      "Adobe",
+      "Ray White Hong Kong",
+      "Adobe Document Cloud Media",
+      "恒生銀行 Hang Seng Bank",
+      "FENDI 芬迪",
+      "譚新強世界Zoom",
+      "Adobe Creative Cloud Media",
+      "FWD 富衛保險",
+      "保柏香港",
+      "HSBC HK",
+      "WeWa銀聯卡",
+      "拼多多",
+      "Gucci",
+      "英雄傳說：卡卡布三部曲"
+    ]
+  },
+  {
     "id": "QGA_Ru0kRtc",
     "locale": "ko",
     "category": "shorts",
@@ -749,23 +828,6 @@ const rawVideos: LandingVideo[] = [
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/QGA_Ru0kRtc/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
-    "id": "PEkjsbdPr9I",
-    "locale": "en",
-    "category": "hero",
-    "title": "Please Don&#39;t Download The Comet Browser...",
-    "description": "Hello guys and gals, it's me Mutahar again! This time we take a look at a web browser that apparently browses the web for you.",
-    "channelTitle": "SomeOrdinaryGamers",
-    "publishDate": "2025-10-06",
-    "duration": "PT22M58S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/PEkjsbdPr9I/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
@@ -858,6 +920,23 @@ const rawVideos: LandingVideo[] = [
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/-ix8UjYuF8Q/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
+    "id": "fs2BUmxMP80",
+    "locale": "zh",
+    "category": "tutorial",
+    "title": "Perplexity Comet： AI瀏覽器正式上線！",
+    "description": "perplexity #Comet： #AI瀏覽器正式上線！ 1️⃣ #Chrome框架可以直接整合2️⃣ #Assistant功能側邊欄互動應用3️⃣ URL欄位 ...",
+    "channelTitle": "數位敘事力期刊",
+    "publishDate": "2025-10-02",
+    "duration": "PT8M36S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/fs2BUmxMP80/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
@@ -1050,28 +1129,6 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "70ERnUFxvKs",
-    "locale": "ko",
-    "category": "tutorial",
-    "title": "파이썬으로 크롤링 할 필요 없다! AI로 코딩 없이 웹페이지 크롤링 하는 방법 | 퍼플렉시티 코멧, Perplexity Comet",
-    "description": "코멧 다운로드 받기 https://pplx.ai/potatoai 퍼플렉시티 1개월 무료 : https://perplexity.ai/pro?referral_code=FGUU42VB (이 링크를 ...",
-    "channelTitle": "감자나라ai",
-    "publishDate": "2025-09-01",
-    "duration": "PT6M37S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/70ERnUFxvKs/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "인공지능",
-      "AI",
-      "챗GPT",
-      "cheatgpt"
-    ]
-  },
-  {
     "id": "KayYycPHBpg",
     "locale": "ko",
     "category": "tutorial",
@@ -1221,7 +1278,7 @@ const rawVideos: LandingVideo[] = [
     "locale": "zh",
     "category": "proReview",
     "title": "【廣東話】哇哇聲，超前半年AI全新用法，必學！Perplexity Comet #廣東話 #一人公司 #aiagent #onepersoncompany",
-    "description": "註冊Perplexity Max並使用Comet： https://perplexity.ai/pro?referral_code=VJ5F4HU6 Comet + Perplexity 激活【淘寶】： ...",
+    "description": "註冊Perplexity Max並使用Comet： https://perplexity.ai/pro?referral_code=VJ5F4HU6 Lemon Helper註冊 ...",
     "channelTitle": "AI Bunny",
     "publishDate": "2025-08-07",
     "duration": "PT11M50S",
@@ -1520,6 +1577,106 @@ const rawVideos: LandingVideo[] = [
       "AI browser",
       "AI plugins",
       "AI plugin"
+    ]
+  },
+  {
+    "id": "meNP-5elTwg",
+    "locale": "ja",
+    "category": "hero",
+    "title": "最高のシミ抜き術 - ドライクリーニング店の洗濯のコツ #laundry",
+    "description": "市販されているシミ抜き剤の中で、最も効果的なものの一つは、高品質の液体洗濯洗剤です。\n\n少量を小分けにしてスプレーボトルに入れ、必要に応じて使 ...",
+    "channelTitle": "Jeeves NY",
+    "publishDate": "2025-02-18",
+    "duration": "PT27S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/meNP-5elTwg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "stain",
+      "stains",
+      "stain removal",
+      "stain removal tips",
+      "how to get out stains",
+      "how to remove stains",
+      "laundry",
+      "laundry tips",
+      "laundry hacks",
+      "laundry guides",
+      "stain removal guide",
+      "red wine stain",
+      "chocolate stain",
+      "oil stain",
+      "grease stain",
+      "olive oil stain",
+      "wine stain",
+      "tomato sauce stain",
+      "red stain",
+      "get out stains",
+      "remove stains",
+      "dry cleaning",
+      "jeeves ny",
+      "jeeves",
+      "the dry cleaning guy",
+      "the laundry guy",
+      "liquid detergent",
+      "laundry detergent",
+      "detergent as a stain remover",
+      "cleaning",
+      "clean",
+      "nyc"
+    ]
+  },
+  {
+    "id": "meNP-5elTwg",
+    "locale": "ja",
+    "category": "shorts",
+    "title": "最高のシミ抜き術 - ドライクリーニング店の洗濯のコツ #laundry",
+    "description": "市販されているシミ抜き剤の中で、最も効果的なものの一つは、高品質の液体洗濯洗剤です。\n\n少量を小分けにしてスプレーボトルに入れ、必要に応じて使 ...",
+    "channelTitle": "Jeeves NY",
+    "publishDate": "2025-02-18",
+    "duration": "PT27S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/meNP-5elTwg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "stain",
+      "stains",
+      "stain removal",
+      "stain removal tips",
+      "how to get out stains",
+      "how to remove stains",
+      "laundry",
+      "laundry tips",
+      "laundry hacks",
+      "laundry guides",
+      "stain removal guide",
+      "red wine stain",
+      "chocolate stain",
+      "oil stain",
+      "grease stain",
+      "olive oil stain",
+      "wine stain",
+      "tomato sauce stain",
+      "red stain",
+      "get out stains",
+      "remove stains",
+      "dry cleaning",
+      "jeeves ny",
+      "jeeves",
+      "the dry cleaning guy",
+      "the laundry guy",
+      "liquid detergent",
+      "laundry detergent",
+      "detergent as a stain remover",
+      "cleaning",
+      "clean",
+      "nyc"
     ]
   }
 ];

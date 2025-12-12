@@ -1,18 +1,18 @@
 {
-  "timestamp": "2025-12-11T03:19:05.273Z",
+  "timestamp": "2025-12-12T03:17:43.174Z",
   "totalVideos": 51,
   "totalSearches": 12,
   "byCategory": {
-    "proReview": 25,
-    "tutorial": 17,
-    "hero": 4,
-    "shorts": 5
+    "proReview": 26,
+    "tutorial": 16,
+    "shorts": 5,
+    "hero": 4
   },
   "byLocale": {
-    "zh": 13,
-    "en": 18,
-    "ko": 13,
-    "ja": 7
+    "ja": 8,
+    "zh": 12,
+    "en": 17,
+    "ko": 14
   },
   "optimization": {
     "searchesPerLanguage": 3,
@@ -21,6 +21,13 @@
     "deduplicationStrategy": "Tutorial、ProReview、Shorts 互斥"
   },
   "latestVideos": [
+    {
+      "id": "9zCVb07l1lA",
+      "title": "AIブラウザ3つを試してみた。真実はこれだ。",
+      "category": "proReview",
+      "locale": "ja",
+      "publishDate": "2025-12-08"
+    },
     {
       "id": "QEsPDElvTyI",
       "title": "AI 瀏覽器試玩 !  Perplexity Comet 登陸 Android　功能夠唔夠班飛甩 Chrome 做 Browser Default",
@@ -48,13 +55,6 @@
       "category": "proReview",
       "locale": "zh",
       "publishDate": "2025-11-01"
-    },
-    {
-      "id": "ZisdN4IJ49c",
-      "title": "免费的AI浏览器，代价是什么？GPT和Perplexity争抢谷歌Chrome入口！白嫖Perplexity Pro会员+赚$20现金！Comet邀请实测 | 窗口期普通人怎么“撸羊毛”？|Atlas",
-      "category": "tutorial",
-      "locale": "zh",
-      "publishDate": "2025-10-28"
     }
   ]
 }

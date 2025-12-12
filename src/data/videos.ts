@@ -4,7 +4,7 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-12-11T03:19:05.272Z
+ * 生成时间: 2025-12-12T03:17:43.173Z
  * 总数: 51 个视频
  * 
  * 抓取策略:
@@ -13,6 +13,54 @@ import { LandingVideoArraySchema } from "@/lib/videos";
  * - Tutorial、ProReview、Shorts 互斥（无重复）
  */
 const rawVideos: LandingVideo[] = [
+  {
+    "id": "9zCVb07l1lA",
+    "locale": "ja",
+    "category": "proReview",
+    "title": "AIブラウザ3つを試してみた。真実はこれだ。",
+    "description": "最高のAIウェブブラウザ: https://efficient.link/browser?ref=youtube&utm_source=youtube&utm_medium=description&utm_campaign ...",
+    "channelTitle": "Efficient App (Alex & Andra)",
+    "publishDate": "2025-12-08",
+    "duration": "PT8M15S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/9zCVb07l1lA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "Best AI Browser",
+      "AI Browser",
+      "AI Browsers",
+      "ChatGPT Atlas",
+      "Comet",
+      "Dia",
+      "Arc",
+      "Atlas Browser",
+      "Comet Browser",
+      "Dia Browser",
+      "Arc Browser",
+      "ChatGPT Atlas Browser",
+      "AI web browser",
+      "AI browser review",
+      "AI browser comparison",
+      "Best AI web browser",
+      "AI browser tests",
+      "Comet browser review",
+      "ChatGPT browser",
+      "Atlas browser review",
+      "Dia browser review",
+      "Arc browser review",
+      "Atlas vs Comet",
+      "ChatGPT vs Perplexity",
+      "Atlas vs Dia",
+      "Comet vs Dia",
+      "Atlas vs Arc",
+      "Dia vs Arc",
+      "best browser 2026",
+      "best browser"
+    ]
+  },
   {
     "id": "QEsPDElvTyI",
     "locale": "zh",
@@ -668,40 +716,6 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "qSNRGeZuHeI",
-    "locale": "en",
-    "category": "hero",
-    "title": "COMET EXPLICADO FÁCIL. Automatiza con navegador agéntico#ia #ai #inteligenciaartificial #perplexity",
-    "description": "No description available",
-    "channelTitle": "maxmaxdata",
-    "publishDate": "2025-10-10",
-    "duration": "PT3M",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/qSNRGeZuHeI/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
-    "id": "qSNRGeZuHeI",
-    "locale": "en",
-    "category": "tutorial",
-    "title": "COMET EXPLICADO FÁCIL. Automatiza con navegador agéntico#ia #ai #inteligenciaartificial #perplexity",
-    "description": "No description available",
-    "channelTitle": "maxmaxdata",
-    "publishDate": "2025-10-10",
-    "duration": "PT3M",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/qSNRGeZuHeI/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
     "id": "6TBpTvwNujA",
     "locale": "en",
     "category": "proReview",
@@ -828,6 +842,23 @@ const rawVideos: LandingVideo[] = [
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/QGA_Ru0kRtc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
+    "id": "PEkjsbdPr9I",
+    "locale": "en",
+    "category": "hero",
+    "title": "Please Don&#39;t Download The Comet Browser...",
+    "description": "Hello guys and gals, it's me Mutahar again! This time we take a look at a web browser that apparently browses the web for you.",
+    "channelTitle": "SomeOrdinaryGamers",
+    "publishDate": "2025-10-06",
+    "duration": "PT22M58S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/PEkjsbdPr9I/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
@@ -1129,6 +1160,28 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "70ERnUFxvKs",
+    "locale": "ko",
+    "category": "tutorial",
+    "title": "파이썬으로 크롤링 할 필요 없다! AI로 코딩 없이 웹페이지 크롤링 하는 방법 | 퍼플렉시티 코멧, Perplexity Comet",
+    "description": "코멧 다운로드 받기 https://pplx.ai/potatoai 퍼플렉시티 1개월 무료 : https://perplexity.ai/pro?referral_code=FGUU42VB (이 링크를 ...",
+    "channelTitle": "감자나라ai",
+    "publishDate": "2025-09-01",
+    "duration": "PT6M37S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/70ERnUFxvKs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "인공지능",
+      "AI",
+      "챗GPT",
+      "cheatgpt"
+    ]
+  },
+  {
     "id": "KayYycPHBpg",
     "locale": "ko",
     "category": "tutorial",
@@ -1249,7 +1302,7 @@ const rawVideos: LandingVideo[] = [
     "locale": "ja",
     "category": "proReview",
     "title": "【大注目】AI搭載の次世代ブラウザ！あのPerplexityが作ったブラウザ『Comet』がヤバすぎた。おすすめ機能・使い方・活用方法まで徹底解説します！",
-    "description": "今回の動画について＞ あのPerplexityが作ったAIブラウザ『Comet』について、 機能・使い方・活用方法など詳しく解説してい ...",
+    "description": "ウェブマニアが開発した自作ゲーム『0.0035%』が近日リリース予定！ →https://store.steampowered.com/app/4234500/00035/ ...",
     "channelTitle": "ウェブマニア",
     "publishDate": "2025-08-16",
     "duration": "PT13M58S",
@@ -1526,23 +1579,6 @@ const rawVideos: LandingVideo[] = [
       "meta ai",
       "google ai"
     ]
-  },
-  {
-    "id": "72v4YZU1rIA",
-    "locale": "zh",
-    "category": "tutorial",
-    "title": "网红AI浏览器Dia深度体验，测评Dia浏览器的4个逆天功能，TA会是下一代的浏览器么？",
-    "description": "最近，网红浏览器团队ARC推出了最新的AI浏览器-Dia，目前仍处于内测中，阳哥带来了一手测试体验，欢迎大家点赞评论和转发。",
-    "channelTitle": "阳哥NExT",
-    "publishDate": "2025-05-08",
-    "duration": "PT4M35S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/72v4YZU1rIA/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
   },
   {
     "id": "YXedHHRP4OY",

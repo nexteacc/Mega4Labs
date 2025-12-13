@@ -4,7 +4,7 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-12-12T03:17:43.173Z
+ * 生成时间: 2025-12-13T03:10:49.067Z
  * 总数: 51 个视频
  * 
  * 抓取策略:
@@ -324,6 +324,23 @@ const rawVideos: LandingVideo[] = [
     "tags": []
   },
   {
+    "id": "FmKT5Uspv8w",
+    "locale": "en",
+    "category": "tutorial",
+    "title": "chatGPT’s Atlas browser and Perplexity’s Comet browser will change everything about how we work.",
+    "description": "No description available",
+    "channelTitle": "Jen Lehner",
+    "publishDate": "2025-10-23",
+    "duration": "PT2M46S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/FmKT5Uspv8w/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
     "id": "y5oDLba8Hig",
     "locale": "ja",
     "category": "tutorial",
@@ -594,64 +611,6 @@ const rawVideos: LandingVideo[] = [
       "AI",
       "챗GPT",
       "cheatgpt"
-    ]
-  },
-  {
-    "id": "DmzOF3q-wpg",
-    "locale": "ko",
-    "category": "proReview",
-    "title": "공짜로 쓰는 AI 초고수용 퍼플렉시티 코멧 브라우저",
-    "description": "코멧 브라우저 프로버전 최신기능 무료 사용하기: https://pplx.ai/successwiki 코인 폭락 분석부터 복잡한 트럼프 관세 영향 분석 보고서 ...",
-    "channelTitle": "성공지식백과",
-    "publishDate": "2025-10-16",
-    "duration": "PT14M27S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/DmzOF3q-wpg/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "코멧 브라우저",
-      "코멧",
-      "Comet Browser",
-      "Perplexity",
-      "퍼플렉시티",
-      "AI 브라우저",
-      "AI 검색",
-      "인공지능 활용",
-      "AI 업무 자동화",
-      "업무 생산성",
-      "SUPER휴먼",
-      "슈퍼휴먼",
-      "10배 성능",
-      "무료 AI",
-      "무료 사용법",
-      "크롬 대체",
-      "구글 크롬",
-      "검색 끝판왕",
-      "AI 보고서",
-      "보고서 자동 작성",
-      "AI 에이전트",
-      "GPTs",
-      "제미나이 젬",
-      "미니 에이전트",
-      "코인 분석",
-      "최저가 항공권",
-      "트럼프 관세",
-      "일론 머스크",
-      "챗GPT",
-      "AI 툴 추천",
-      "브라우저 추천",
-      "AI 도구",
-      "최신 AI",
-      "인공지능 브라우저",
-      "퍼플렉시티 브라우저",
-      "퍼플렉시티AI",
-      "AI 뉴스",
-      "맥북 브라우저",
-      "스마트폰 브라우저",
-      "최신 브라우저"
     ]
   },
   {
@@ -1204,6 +1163,50 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "ZsBniZ_M7hs",
+    "locale": "en",
+    "category": "proReview",
+    "title": "Stop using Chrome. This AI browser is insane…",
+    "description": "Work 30% faster with Vectal: https://www.vectal.ai/ Wanna start a business with AI Agents? Go here: ...",
+    "channelTitle": "David Ondrej",
+    "publishDate": "2025-08-23",
+    "duration": "PT10M36S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/ZsBniZ_M7hs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "David Ondrej",
+      "david ondrej",
+      "AI",
+      "ChatGPT",
+      "artificial intelligence",
+      "ai",
+      "Artificial Intelligence",
+      "OpenAI",
+      "chatgpt",
+      "chat gpt",
+      "Chat GPT",
+      "AGI",
+      "midjourney",
+      "david ondrej podcast",
+      "GPT",
+      "new society",
+      "david ondrej new society",
+      "david ondrej community",
+      "make money with AI",
+      "AI Agents",
+      "ai agent",
+      "AI Agent Startup",
+      "AI SaaS",
+      "AI Startup",
+      "perplexity comet",
+      "perplexity comet browser"
+    ]
+  },
+  {
     "id": "rDjGxKp8N8E",
     "locale": "zh",
     "category": "proReview",
@@ -1327,36 +1330,6 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "mCjaXq8_m1Y",
-    "locale": "zh",
-    "category": "proReview",
-    "title": "【廣東話】哇哇聲，超前半年AI全新用法，必學！Perplexity Comet #廣東話 #一人公司 #aiagent #onepersoncompany",
-    "description": "註冊Perplexity Max並使用Comet： https://perplexity.ai/pro?referral_code=VJ5F4HU6 Lemon Helper註冊 ...",
-    "channelTitle": "AI Bunny",
-    "publishDate": "2025-08-07",
-    "duration": "PT11M50S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/mCjaXq8_m1Y/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "#人工智能代理",
-      "#超級個體",
-      "#智慧企業",
-      "#無人化流程",
-      "#自動化工作流",
-      "#工作流自動化",
-      "#AI工作流",
-      "#效率提升",
-      "#數碼時代",
-      "#Manus",
-      "#DeepSeek",
-      "#Grok"
-    ]
-  },
-  {
     "id": "KRmDj6RXXMg",
     "locale": "en",
     "category": "hero",
@@ -1430,38 +1403,6 @@ const rawVideos: LandingVideo[] = [
       "Apple podcast automation",
       "AI for creators",
       "Perplexity features"
-    ]
-  },
-  {
-    "id": "IRI4BRmt8cs",
-    "locale": "en",
-    "category": "tutorial",
-    "title": "REVIEW   Perplexity Comet AI Browser",
-    "description": "REVIEW Perplexity Comet AI Browser. ▶️MENTIONED TOOLS: (Video Specific Links If Needed) -. ▶️ABOUT ME: Unlock the ...",
-    "channelTitle": "Jonathan Mast",
-    "publishDate": "2025-07-26",
-    "duration": "PT5M29S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/IRI4BRmt8cs/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "digital marketing",
-      "entrepreneurship",
-      "success",
-      "capitalism",
-      "consulting",
-      "AI",
-      "#AIMarketing",
-      "Chatgpt",
-      "Claude",
-      "Perplexity",
-      "Rubi.AI",
-      "Content Creator",
-      "Podcast",
-      "aibusiness"
     ]
   },
   {
@@ -1579,6 +1520,23 @@ const rawVideos: LandingVideo[] = [
       "meta ai",
       "google ai"
     ]
+  },
+  {
+    "id": "72v4YZU1rIA",
+    "locale": "zh",
+    "category": "tutorial",
+    "title": "网红AI浏览器Dia深度体验，测评Dia浏览器的4个逆天功能，TA会是下一代的浏览器么？",
+    "description": "最近，网红浏览器团队ARC推出了最新的AI浏览器-Dia，目前仍处于内测中，阳哥带来了一手测试体验，欢迎大家点赞评论和转发。",
+    "channelTitle": "阳哥NExT",
+    "publishDate": "2025-05-08",
+    "duration": "PT4M35S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/72v4YZU1rIA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
   },
   {
     "id": "YXedHHRP4OY",

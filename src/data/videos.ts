@@ -4,7 +4,7 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-12-13T03:10:49.067Z
+ * 生成时间: 2025-12-14T03:23:18.682Z
  * 总数: 51 个视频
  * 
  * 抓取策略:
@@ -318,23 +318,6 @@ const rawVideos: LandingVideo[] = [
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/Eqe54cxeaUs/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
-    "id": "FmKT5Uspv8w",
-    "locale": "en",
-    "category": "tutorial",
-    "title": "chatGPT’s Atlas browser and Perplexity’s Comet browser will change everything about how we work.",
-    "description": "No description available",
-    "channelTitle": "Jen Lehner",
-    "publishDate": "2025-10-23",
-    "duration": "PT2M46S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/FmKT5Uspv8w/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
@@ -675,6 +658,40 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "qSNRGeZuHeI",
+    "locale": "en",
+    "category": "hero",
+    "title": "COMET EXPLICADO FÁCIL. Automatiza con navegador agéntico#ia #ai #inteligenciaartificial #perplexity",
+    "description": "No description available",
+    "channelTitle": "maxmaxdata",
+    "publishDate": "2025-10-10",
+    "duration": "PT3M",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/qSNRGeZuHeI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
+    "id": "qSNRGeZuHeI",
+    "locale": "en",
+    "category": "tutorial",
+    "title": "COMET EXPLICADO FÁCIL. Automatiza con navegador agéntico#ia #ai #inteligenciaartificial #perplexity",
+    "description": "No description available",
+    "channelTitle": "maxmaxdata",
+    "publishDate": "2025-10-10",
+    "duration": "PT3M",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/qSNRGeZuHeI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
     "id": "6TBpTvwNujA",
     "locale": "en",
     "category": "proReview",
@@ -801,23 +818,6 @@ const rawVideos: LandingVideo[] = [
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/QGA_Ru0kRtc/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
-    "id": "PEkjsbdPr9I",
-    "locale": "en",
-    "category": "hero",
-    "title": "Please Don&#39;t Download The Comet Browser...",
-    "description": "Hello guys and gals, it's me Mutahar again! This time we take a look at a web browser that apparently browses the web for you.",
-    "channelTitle": "SomeOrdinaryGamers",
-    "publishDate": "2025-10-06",
-    "duration": "PT22M58S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/PEkjsbdPr9I/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
@@ -961,7 +961,7 @@ const rawVideos: LandingVideo[] = [
     "category": "proReview",
     "title": "三大AI Agent 實測現場：ChatGPT Agent、 Manus、Perplexity Comet｜智能體其實有多智能？｜廣東話｜文恩澄",
     "description": "市面上最強的AI Agent 究竟是誰？今集，我將為大家帶來承諾已久的深度實測，將三大主流AI Agent：ChatGPT AI Agent、Manus、 ...",
-    "channelTitle": "Rannes Man",
+    "channelTitle": "文恩澄 Rannes Man",
     "publishDate": "2025-09-20",
     "duration": "PT24M15S",
     "platform": "youtube",
@@ -1119,28 +1119,6 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "70ERnUFxvKs",
-    "locale": "ko",
-    "category": "tutorial",
-    "title": "파이썬으로 크롤링 할 필요 없다! AI로 코딩 없이 웹페이지 크롤링 하는 방법 | 퍼플렉시티 코멧, Perplexity Comet",
-    "description": "코멧 다운로드 받기 https://pplx.ai/potatoai 퍼플렉시티 1개월 무료 : https://perplexity.ai/pro?referral_code=FGUU42VB (이 링크를 ...",
-    "channelTitle": "감자나라ai",
-    "publishDate": "2025-09-01",
-    "duration": "PT6M37S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/70ERnUFxvKs/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "인공지능",
-      "AI",
-      "챗GPT",
-      "cheatgpt"
-    ]
-  },
-  {
     "id": "KayYycPHBpg",
     "locale": "ko",
     "category": "tutorial",
@@ -1160,50 +1138,6 @@ const rawVideos: LandingVideo[] = [
       "AI",
       "챗GPT",
       "cheatgpt"
-    ]
-  },
-  {
-    "id": "ZsBniZ_M7hs",
-    "locale": "en",
-    "category": "proReview",
-    "title": "Stop using Chrome. This AI browser is insane…",
-    "description": "Work 30% faster with Vectal: https://www.vectal.ai/ Wanna start a business with AI Agents? Go here: ...",
-    "channelTitle": "David Ondrej",
-    "publishDate": "2025-08-23",
-    "duration": "PT10M36S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/ZsBniZ_M7hs/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "David Ondrej",
-      "david ondrej",
-      "AI",
-      "ChatGPT",
-      "artificial intelligence",
-      "ai",
-      "Artificial Intelligence",
-      "OpenAI",
-      "chatgpt",
-      "chat gpt",
-      "Chat GPT",
-      "AGI",
-      "midjourney",
-      "david ondrej podcast",
-      "GPT",
-      "new society",
-      "david ondrej new society",
-      "david ondrej community",
-      "make money with AI",
-      "AI Agents",
-      "ai agent",
-      "AI Agent Startup",
-      "AI SaaS",
-      "AI Startup",
-      "perplexity comet",
-      "perplexity comet browser"
     ]
   },
   {
@@ -1330,6 +1264,36 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "mCjaXq8_m1Y",
+    "locale": "zh",
+    "category": "proReview",
+    "title": "【廣東話】哇哇聲，超前半年AI全新用法，必學！Perplexity Comet #廣東話 #一人公司 #aiagent #onepersoncompany",
+    "description": "註冊Perplexity Max並使用Comet： https://perplexity.ai/pro?referral_code=VJ5F4HU6 Lemon Helper註冊 ...",
+    "channelTitle": "AI Bunny",
+    "publishDate": "2025-08-07",
+    "duration": "PT11M50S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/mCjaXq8_m1Y/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "#人工智能代理",
+      "#超級個體",
+      "#智慧企業",
+      "#無人化流程",
+      "#自動化工作流",
+      "#工作流自動化",
+      "#AI工作流",
+      "#效率提升",
+      "#數碼時代",
+      "#Manus",
+      "#DeepSeek",
+      "#Grok"
+    ]
+  },
+  {
     "id": "KRmDj6RXXMg",
     "locale": "en",
     "category": "hero",
@@ -1403,6 +1367,38 @@ const rawVideos: LandingVideo[] = [
       "Apple podcast automation",
       "AI for creators",
       "Perplexity features"
+    ]
+  },
+  {
+    "id": "IRI4BRmt8cs",
+    "locale": "en",
+    "category": "tutorial",
+    "title": "REVIEW   Perplexity Comet AI Browser",
+    "description": "REVIEW Perplexity Comet AI Browser. ▶️MENTIONED TOOLS: (Video Specific Links If Needed) -. ▶️ABOUT ME: Unlock the ...",
+    "channelTitle": "Jonathan Mast",
+    "publishDate": "2025-07-26",
+    "duration": "PT5M29S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/IRI4BRmt8cs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "digital marketing",
+      "entrepreneurship",
+      "success",
+      "capitalism",
+      "consulting",
+      "AI",
+      "#AIMarketing",
+      "Chatgpt",
+      "Claude",
+      "Perplexity",
+      "Rubi.AI",
+      "Content Creator",
+      "Podcast",
+      "aibusiness"
     ]
   },
   {

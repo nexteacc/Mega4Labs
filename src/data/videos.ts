@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-12-14T03:23:18.682Z
- * 总数: 51 个视频
+ * 生成时间: 2025-12-15T03:24:27.409Z
+ * 总数: 52 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -60,6 +60,23 @@ const rawVideos: LandingVideo[] = [
       "best browser 2026",
       "best browser"
     ]
+  },
+  {
+    "id": "R-mIPPFIqqQ",
+    "locale": "en",
+    "category": "proReview",
+    "title": "UPGRADE Your BROWSER - Comet From Perplexity ! The AI Browser is here !",
+    "description": "oneui8 #oneui8.5 #samsung #oneui #galaxys25ultra #s25ultra #galaxys24ultra #s23ultra #s22ultra #samsung #s25ultra, S 24 ...",
+    "channelTitle": "AppX",
+    "publishDate": "2025-11-22",
+    "duration": "PT6M47S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/R-mIPPFIqqQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
   },
   {
     "id": "QEsPDElvTyI",
@@ -1119,6 +1136,28 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "70ERnUFxvKs",
+    "locale": "ko",
+    "category": "tutorial",
+    "title": "파이썬으로 크롤링 할 필요 없다! AI로 코딩 없이 웹페이지 크롤링 하는 방법 | 퍼플렉시티 코멧, Perplexity Comet",
+    "description": "코멧 다운로드 받기 https://pplx.ai/potatoai 퍼플렉시티 1개월 무료 : https://perplexity.ai/pro?referral_code=FGUU42VB (이 링크를 ...",
+    "channelTitle": "감자나라ai",
+    "publishDate": "2025-09-01",
+    "duration": "PT6M37S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/70ERnUFxvKs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "인공지능",
+      "AI",
+      "챗GPT",
+      "cheatgpt"
+    ]
+  },
+  {
     "id": "KayYycPHBpg",
     "locale": "ko",
     "category": "tutorial",
@@ -1367,38 +1406,6 @@ const rawVideos: LandingVideo[] = [
       "Apple podcast automation",
       "AI for creators",
       "Perplexity features"
-    ]
-  },
-  {
-    "id": "IRI4BRmt8cs",
-    "locale": "en",
-    "category": "tutorial",
-    "title": "REVIEW   Perplexity Comet AI Browser",
-    "description": "REVIEW Perplexity Comet AI Browser. ▶️MENTIONED TOOLS: (Video Specific Links If Needed) -. ▶️ABOUT ME: Unlock the ...",
-    "channelTitle": "Jonathan Mast",
-    "publishDate": "2025-07-26",
-    "duration": "PT5M29S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/IRI4BRmt8cs/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "digital marketing",
-      "entrepreneurship",
-      "success",
-      "capitalism",
-      "consulting",
-      "AI",
-      "#AIMarketing",
-      "Chatgpt",
-      "Claude",
-      "Perplexity",
-      "Rubi.AI",
-      "Content Creator",
-      "Podcast",
-      "aibusiness"
     ]
   },
   {

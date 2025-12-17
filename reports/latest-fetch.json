@@ -1,18 +1,18 @@
 {
-  "timestamp": "2025-12-16T03:19:15.231Z",
-  "totalVideos": 51,
+  "timestamp": "2025-12-17T03:14:44.253Z",
+  "totalVideos": 53,
   "totalSearches": 12,
   "byCategory": {
-    "proReview": 25,
-    "tutorial": 17,
+    "proReview": 26,
+    "tutorial": 18,
     "hero": 4,
     "shorts": 5
   },
   "byLocale": {
     "ja": 8,
-    "en": 19,
     "zh": 13,
-    "ko": 11
+    "en": 19,
+    "ko": 13
   },
   "optimization": {
     "searchesPerLanguage": 3,
@@ -27,13 +27,6 @@
       "category": "proReview",
       "locale": "ja",
       "publishDate": "2025-12-08"
-    },
-    {
-      "id": "R-mIPPFIqqQ",
-      "title": "UPGRADE Your BROWSER - Comet From Perplexity ! The AI Browser is here !",
-      "category": "proReview",
-      "locale": "en",
-      "publishDate": "2025-11-22"
     },
     {
       "id": "QEsPDElvTyI",
@@ -55,6 +48,13 @@
       "category": "proReview",
       "locale": "en",
       "publishDate": "2025-11-08"
+    },
+    {
+      "id": "u7EMV4NkPak",
+      "title": "Atlas VS Comet: AI瀏覽器最強實測，結果出乎意料！",
+      "category": "proReview",
+      "locale": "zh",
+      "publishDate": "2025-11-01"
     }
   ]
 }

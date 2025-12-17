@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-12-16T03:19:15.228Z
- * 总数: 51 个视频
+ * 生成时间: 2025-12-17T03:14:44.252Z
+ * 总数: 53 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -60,23 +60,6 @@ const rawVideos: LandingVideo[] = [
       "best browser 2026",
       "best browser"
     ]
-  },
-  {
-    "id": "R-mIPPFIqqQ",
-    "locale": "en",
-    "category": "proReview",
-    "title": "UPGRADE Your BROWSER - Comet From Perplexity ! The AI Browser is here !",
-    "description": "oneui8 #oneui8.5 #samsung #oneui #galaxys25ultra #s25ultra #galaxys24ultra #s23ultra #s22ultra #samsung #s25ultra, S 24 ...",
-    "channelTitle": "AppX",
-    "publishDate": "2025-11-22",
-    "duration": "PT6M47S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/R-mIPPFIqqQ/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
   },
   {
     "id": "QEsPDElvTyI",
@@ -227,6 +210,47 @@ const rawVideos: LandingVideo[] = [
       "comet测评",
       "ai瀏覽器實測",
       "ai浏览器实测"
+    ]
+  },
+  {
+    "id": "fq3KobEWiD8",
+    "locale": "en",
+    "category": "proReview",
+    "title": "10 Game Changing Ways I Use the Comet Browser: Unlocking Next Level Browsing with AI",
+    "description": "Unlock the true power of the Comet Browser—the next-gen AI browser from Perplexity. In this video, I'm sharing 10 ...",
+    "channelTitle": "The Tech Girl",
+    "publishDate": "2025-10-29",
+    "duration": "PT14M22S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/fq3KobEWiD8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "the tech girl",
+      "Comet Browser",
+      "Comet Browser review",
+      "Comet AI browser",
+      "Perplexity browser",
+      "best AI browser 2025",
+      "AI web browser",
+      "productivity browser",
+      "Chrome alternative",
+      "smart browser features",
+      "browser for productivity",
+      "AI assistant browser",
+      "technical review",
+      "how to use Comet browser",
+      "browser hacks",
+      "automate browsing",
+      "Chrome vs Comet",
+      "tab management",
+      "online shopping hacks",
+      "summarize articles AI",
+      "Gmail integration browser",
+      "best browser for research",
+      "agentic browser"
     ]
   },
   {
@@ -592,6 +616,29 @@ const rawVideos: LandingVideo[] = [
     "tags": []
   },
   {
+    "id": "DzhGIpOVJbU",
+    "locale": "en",
+    "category": "proReview",
+    "title": "7 Mind-Blowing Use Cases of Perplexity Comet Agents",
+    "description": "Join my AI Playbook® community—in just one week, discover how to trim 5 hours off your workweek & unlock $500–$1K in new ...",
+    "channelTitle": "Rick Mulready",
+    "publishDate": "2025-10-16",
+    "duration": "PT12M42S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/DzhGIpOVJbU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "Comet browser",
+      "Perplexity Comet",
+      "Comet agents",
+      "Comet AI",
+      "AI agents"
+    ]
+  },
+  {
     "id": "p9WhwhYEPsA",
     "locale": "ko",
     "category": "proReview",
@@ -612,6 +659,23 @@ const rawVideos: LandingVideo[] = [
       "챗GPT",
       "cheatgpt"
     ]
+  },
+  {
+    "id": "hkI8ssg-ERc",
+    "locale": "ko",
+    "category": "proReview",
+    "title": "코드 한 줄 없이 웹데이터 크롤링! 퍼플릭시티 코멧 완전정복",
+    "description": "이번 영상에서는 퍼플릭시티 코멧(Perplexity Comet) 브라우저를 이용해누구나 손쉽게 웹데이터를 크롤링하는 방법을 다룹니다.",
+    "channelTitle": "AI 일잘러",
+    "publishDate": "2025-10-13",
+    "duration": "PT6M58S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/hkI8ssg-ERc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
   },
   {
     "id": "XiRzrSdIxO0",
@@ -1119,6 +1183,28 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "70ERnUFxvKs",
+    "locale": "ko",
+    "category": "tutorial",
+    "title": "파이썬으로 크롤링 할 필요 없다! AI로 코딩 없이 웹페이지 크롤링 하는 방법 | 퍼플렉시티 코멧, Perplexity Comet",
+    "description": "코멧 다운로드 받기 https://pplx.ai/potatoai 퍼플렉시티 1개월 무료 : https://perplexity.ai/pro?referral_code=FGUU42VB (이 링크를 ...",
+    "channelTitle": "감자나라ai",
+    "publishDate": "2025-09-01",
+    "duration": "PT6M37S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/70ERnUFxvKs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "인공지능",
+      "AI",
+      "챗GPT",
+      "cheatgpt"
+    ]
+  },
+  {
     "id": "KayYycPHBpg",
     "locale": "ko",
     "category": "tutorial",
@@ -1417,72 +1503,6 @@ const rawVideos: LandingVideo[] = [
       "height": 360
     },
     "tags": []
-  },
-  {
-    "id": "nmkk_bmohJ0",
-    "locale": "en",
-    "category": "proReview",
-    "title": "Perplexity&#39;s &quot;Comet&quot; Browser is CLOWNWARE",
-    "description": "Perplexity's CEO admitted on a podcast that Comet browser exists to track everything you do online - \"that was the key reason to ...",
-    "channelTitle": "Sam Bent",
-    "publishDate": "2025-07-12",
-    "duration": "PT19M9S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/nmkk_bmohJ0/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "surveillance",
-      "tracking",
-      "privacy",
-      "browser",
-      "spyware",
-      "data",
-      "harvesting",
-      "monitoring",
-      "local",
-      "AI",
-      "free",
-      "alternative",
-      "perplexity",
-      "comet",
-      "subscription",
-      "overpriced",
-      "scam",
-      "exposed",
-      "terms",
-      "service",
-      "opensource",
-      "ollama",
-      "brave",
-      "selfhosted",
-      "secure",
-      "corporate",
-      "middleman",
-      "profile",
-      "advertising",
-      "behavioral",
-      "collection",
-      "exploitation",
-      "premium",
-      "ripoff",
-      "clownware",
-      "backpedaling",
-      "damage",
-      "control",
-      "opt-out",
-      "ai",
-      "chatgpt",
-      "ai webbrowser",
-      "web browser",
-      "ai web browser",
-      "comet browser",
-      "OpenAI",
-      "Claude",
-      "Anthropic"
-    ]
   },
   {
     "id": "ri_bFrDp44M",

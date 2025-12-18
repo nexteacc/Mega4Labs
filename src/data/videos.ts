@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-12-17T03:14:44.252Z
- * 总数: 53 个视频
+ * 生成时间: 2025-12-18T03:15:20.825Z
+ * 总数: 54 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -213,47 +213,6 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "fq3KobEWiD8",
-    "locale": "en",
-    "category": "proReview",
-    "title": "10 Game Changing Ways I Use the Comet Browser: Unlocking Next Level Browsing with AI",
-    "description": "Unlock the true power of the Comet Browser—the next-gen AI browser from Perplexity. In this video, I'm sharing 10 ...",
-    "channelTitle": "The Tech Girl",
-    "publishDate": "2025-10-29",
-    "duration": "PT14M22S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/fq3KobEWiD8/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "the tech girl",
-      "Comet Browser",
-      "Comet Browser review",
-      "Comet AI browser",
-      "Perplexity browser",
-      "best AI browser 2025",
-      "AI web browser",
-      "productivity browser",
-      "Chrome alternative",
-      "smart browser features",
-      "browser for productivity",
-      "AI assistant browser",
-      "technical review",
-      "how to use Comet browser",
-      "browser hacks",
-      "automate browsing",
-      "Chrome vs Comet",
-      "tab management",
-      "online shopping hacks",
-      "summarize articles AI",
-      "Gmail integration browser",
-      "best browser for research",
-      "agentic browser"
-    ]
-  },
-  {
     "id": "ZisdN4IJ49c",
     "locale": "zh",
     "category": "tutorial",
@@ -359,6 +318,23 @@ const rawVideos: LandingVideo[] = [
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/Eqe54cxeaUs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
+    "id": "FmKT5Uspv8w",
+    "locale": "en",
+    "category": "tutorial",
+    "title": "chatGPT’s Atlas browser and Perplexity’s Comet browser will change everything about how we work.",
+    "description": "No description available",
+    "channelTitle": "Jen Lehner",
+    "publishDate": "2025-10-23",
+    "duration": "PT2M46S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/FmKT5Uspv8w/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
@@ -614,29 +590,6 @@ const rawVideos: LandingVideo[] = [
       "height": 360
     },
     "tags": []
-  },
-  {
-    "id": "DzhGIpOVJbU",
-    "locale": "en",
-    "category": "proReview",
-    "title": "7 Mind-Blowing Use Cases of Perplexity Comet Agents",
-    "description": "Join my AI Playbook® community—in just one week, discover how to trim 5 hours off your workweek & unlock $500–$1K in new ...",
-    "channelTitle": "Rick Mulready",
-    "publishDate": "2025-10-16",
-    "duration": "PT12M42S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/DzhGIpOVJbU/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "Comet browser",
-      "Perplexity Comet",
-      "Comet agents",
-      "Comet AI",
-      "AI agents"
-    ]
   },
   {
     "id": "p9WhwhYEPsA",
@@ -961,6 +914,41 @@ const rawVideos: LandingVideo[] = [
       "height": 360
     },
     "tags": []
+  },
+  {
+    "id": "LcMDcwU7FVw",
+    "locale": "ja",
+    "category": "proReview",
+    "title": "Perplexity Comet ブラウザデモ（11の驚異的な使用例） | Perplexity Comet チュートリアル | Comet の使い方",
+    "description": "Perplexity Comet ブラウザデモ（11の驚異的なユースケース）| Perplexity Comet チュートリアル | Comet の使い方\n\n🌠Perplexity Comet（無料 ...",
+    "channelTitle": "Success Minder",
+    "publishDate": "2025-10-03",
+    "duration": "PT18M20S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/LcMDcwU7FVw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "comet browser features",
+      "how to use comet browser",
+      "perplexity comet review",
+      "perplexity comet demo",
+      "perplexity comet browser review",
+      "perplexity comet browser demo",
+      "perplexity comet features",
+      "perplexity comet use cases",
+      "perplexity comet how to use",
+      "perplexity comet browser tutorial",
+      "perplexity comet browser setup",
+      "perplexity ai comet browser",
+      "how to use perplexity comet browser",
+      "comet browser review",
+      "comet browser use cases",
+      "comet browser demo",
+      "Comet browser review"
+    ]
   },
   {
     "id": "-ix8UjYuF8Q",
@@ -1503,6 +1491,72 @@ const rawVideos: LandingVideo[] = [
       "height": 360
     },
     "tags": []
+  },
+  {
+    "id": "nmkk_bmohJ0",
+    "locale": "en",
+    "category": "proReview",
+    "title": "Perplexity&#39;s &quot;Comet&quot; Browser is CLOWNWARE",
+    "description": "Perplexity's CEO admitted on a podcast that Comet browser exists to track everything you do online - \"that was the key reason to ...",
+    "channelTitle": "Sam Bent",
+    "publishDate": "2025-07-12",
+    "duration": "PT19M9S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/nmkk_bmohJ0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "surveillance",
+      "tracking",
+      "privacy",
+      "browser",
+      "spyware",
+      "data",
+      "harvesting",
+      "monitoring",
+      "local",
+      "AI",
+      "free",
+      "alternative",
+      "perplexity",
+      "comet",
+      "subscription",
+      "overpriced",
+      "scam",
+      "exposed",
+      "terms",
+      "service",
+      "opensource",
+      "ollama",
+      "brave",
+      "selfhosted",
+      "secure",
+      "corporate",
+      "middleman",
+      "profile",
+      "advertising",
+      "behavioral",
+      "collection",
+      "exploitation",
+      "premium",
+      "ripoff",
+      "clownware",
+      "backpedaling",
+      "damage",
+      "control",
+      "opt-out",
+      "ai",
+      "chatgpt",
+      "ai webbrowser",
+      "web browser",
+      "ai web browser",
+      "comet browser",
+      "OpenAI",
+      "Claude",
+      "Anthropic"
+    ]
   },
   {
     "id": "ri_bFrDp44M",

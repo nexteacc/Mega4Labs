@@ -1,18 +1,18 @@
 {
-  "timestamp": "2025-12-18T03:15:20.826Z",
-  "totalVideos": 54,
+  "timestamp": "2025-12-19T03:18:26.153Z",
+  "totalVideos": 51,
   "totalSearches": 12,
   "byCategory": {
     "proReview": 26,
-    "tutorial": 19,
+    "tutorial": 17,
     "hero": 4,
-    "shorts": 5
+    "shorts": 4
   },
   "byLocale": {
-    "ja": 9,
-    "zh": 13,
     "en": 19,
-    "ko": 13
+    "zh": 12,
+    "ko": 13,
+    "ja": 7
   },
   "optimization": {
     "searchesPerLanguage": 3,
@@ -23,10 +23,17 @@
   "latestVideos": [
     {
       "id": "9zCVb07l1lA",
-      "title": "AIブラウザ3つを試してみた。真実はこれだ。",
+      "title": "I Tried 3 AI Browsers. Here&#39;s the Truth.",
       "category": "proReview",
-      "locale": "ja",
+      "locale": "en",
       "publishDate": "2025-12-08"
+    },
+    {
+      "id": "R-mIPPFIqqQ",
+      "title": "UPGRADE Your BROWSER - Comet From Perplexity ! The AI Browser is here !",
+      "category": "proReview",
+      "locale": "en",
+      "publishDate": "2025-11-22"
     },
     {
       "id": "QEsPDElvTyI",
@@ -48,13 +55,6 @@
       "category": "proReview",
       "locale": "en",
       "publishDate": "2025-11-08"
-    },
-    {
-      "id": "u7EMV4NkPak",
-      "title": "Atlas VS Comet: AI瀏覽器最強實測，結果出乎意料！",
-      "category": "proReview",
-      "locale": "zh",
-      "publishDate": "2025-11-01"
     }
   ]
 }

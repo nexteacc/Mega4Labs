@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-12-18T03:15:20.825Z
- * 总数: 54 个视频
+ * 生成时间: 2025-12-19T03:18:26.152Z
+ * 总数: 51 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -15,10 +15,10 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 const rawVideos: LandingVideo[] = [
   {
     "id": "9zCVb07l1lA",
-    "locale": "ja",
+    "locale": "en",
     "category": "proReview",
-    "title": "AIブラウザ3つを試してみた。真実はこれだ。",
-    "description": "最高のAIウェブブラウザ: https://efficient.link/browser?ref=youtube&utm_source=youtube&utm_medium=description&utm_campaign ...",
+    "title": "I Tried 3 AI Browsers. Here&#39;s the Truth.",
+    "description": "Best AI Web Browser: ...",
     "channelTitle": "Efficient App (Alex & Andra)",
     "publishDate": "2025-12-08",
     "duration": "PT8M15S",
@@ -60,6 +60,23 @@ const rawVideos: LandingVideo[] = [
       "best browser 2026",
       "best browser"
     ]
+  },
+  {
+    "id": "R-mIPPFIqqQ",
+    "locale": "en",
+    "category": "proReview",
+    "title": "UPGRADE Your BROWSER - Comet From Perplexity ! The AI Browser is here !",
+    "description": "oneui8 #oneui8.5 #samsung #oneui #galaxys25ultra #s25ultra #galaxys24ultra #s23ultra #s22ultra #samsung #s25ultra, S 24 ...",
+    "channelTitle": "AppX",
+    "publishDate": "2025-11-22",
+    "duration": "PT6M47S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/R-mIPPFIqqQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
   },
   {
     "id": "QEsPDElvTyI",
@@ -318,23 +335,6 @@ const rawVideos: LandingVideo[] = [
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/Eqe54cxeaUs/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
-    "id": "FmKT5Uspv8w",
-    "locale": "en",
-    "category": "tutorial",
-    "title": "chatGPT’s Atlas browser and Perplexity’s Comet browser will change everything about how we work.",
-    "description": "No description available",
-    "channelTitle": "Jen Lehner",
-    "publishDate": "2025-10-23",
-    "duration": "PT2M46S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/FmKT5Uspv8w/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
@@ -843,6 +843,23 @@ const rawVideos: LandingVideo[] = [
   {
     "id": "PEkjsbdPr9I",
     "locale": "en",
+    "category": "hero",
+    "title": "Please Don&#39;t Download The Comet Browser...",
+    "description": "Hello guys and gals, it's me Mutahar again! This time we take a look at a web browser that apparently browses the web for you.",
+    "channelTitle": "SomeOrdinaryGamers",
+    "publishDate": "2025-10-06",
+    "duration": "PT22M58S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/PEkjsbdPr9I/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
+    "id": "PEkjsbdPr9I",
+    "locale": "en",
     "category": "proReview",
     "title": "Please Don&#39;t Download The Comet Browser...",
     "description": "Hello guys and gals, it's me Mutahar again! This time we take a look at a web browser that apparently browses the web for you.",
@@ -897,75 +914,6 @@ const rawVideos: LandingVideo[] = [
       "AI 2025",
       "AI news"
     ]
-  },
-  {
-    "id": "-ix8UjYuF8Q",
-    "locale": "en",
-    "category": "hero",
-    "title": "AI Browser that works for you #carterpcs #tech #comet #perplexity #cometpartner",
-    "description": "No description available",
-    "channelTitle": "CarterPCs",
-    "publishDate": "2025-10-03",
-    "duration": "PT39S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/-ix8UjYuF8Q/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
-    "id": "LcMDcwU7FVw",
-    "locale": "ja",
-    "category": "proReview",
-    "title": "Perplexity Comet ブラウザデモ（11の驚異的な使用例） | Perplexity Comet チュートリアル | Comet の使い方",
-    "description": "Perplexity Comet ブラウザデモ（11の驚異的なユースケース）| Perplexity Comet チュートリアル | Comet の使い方\n\n🌠Perplexity Comet（無料 ...",
-    "channelTitle": "Success Minder",
-    "publishDate": "2025-10-03",
-    "duration": "PT18M20S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/LcMDcwU7FVw/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "comet browser features",
-      "how to use comet browser",
-      "perplexity comet review",
-      "perplexity comet demo",
-      "perplexity comet browser review",
-      "perplexity comet browser demo",
-      "perplexity comet features",
-      "perplexity comet use cases",
-      "perplexity comet how to use",
-      "perplexity comet browser tutorial",
-      "perplexity comet browser setup",
-      "perplexity ai comet browser",
-      "how to use perplexity comet browser",
-      "comet browser review",
-      "comet browser use cases",
-      "comet browser demo",
-      "Comet browser review"
-    ]
-  },
-  {
-    "id": "-ix8UjYuF8Q",
-    "locale": "en",
-    "category": "shorts",
-    "title": "AI Browser that works for you #carterpcs #tech #comet #perplexity #cometpartner",
-    "description": "No description available",
-    "channelTitle": "CarterPCs",
-    "publishDate": "2025-10-03",
-    "duration": "PT39S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/-ix8UjYuF8Q/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
   },
   {
     "id": "fs2BUmxMP80",
@@ -1590,23 +1538,6 @@ const rawVideos: LandingVideo[] = [
       "meta ai",
       "google ai"
     ]
-  },
-  {
-    "id": "72v4YZU1rIA",
-    "locale": "zh",
-    "category": "tutorial",
-    "title": "网红AI浏览器Dia深度体验，测评Dia浏览器的4个逆天功能，TA会是下一代的浏览器么？",
-    "description": "最近，网红浏览器团队ARC推出了最新的AI浏览器-Dia，目前仍处于内测中，阳哥带来了一手测试体验，欢迎大家点赞评论和转发。",
-    "channelTitle": "阳哥NExT",
-    "publishDate": "2025-05-08",
-    "duration": "PT4M35S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/72v4YZU1rIA/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
   },
   {
     "id": "YXedHHRP4OY",

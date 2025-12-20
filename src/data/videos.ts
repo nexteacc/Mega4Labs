@@ -4,7 +4,7 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-12-19T03:18:26.152Z
+ * 生成时间: 2025-12-20T03:10:13.039Z
  * 总数: 51 个视频
  * 
  * 抓取策略:
@@ -60,23 +60,6 @@ const rawVideos: LandingVideo[] = [
       "best browser 2026",
       "best browser"
     ]
-  },
-  {
-    "id": "R-mIPPFIqqQ",
-    "locale": "en",
-    "category": "proReview",
-    "title": "UPGRADE Your BROWSER - Comet From Perplexity ! The AI Browser is here !",
-    "description": "oneui8 #oneui8.5 #samsung #oneui #galaxys25ultra #s25ultra #galaxys24ultra #s23ultra #s22ultra #samsung #s25ultra, S 24 ...",
-    "channelTitle": "AppX",
-    "publishDate": "2025-11-22",
-    "duration": "PT6M47S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/R-mIPPFIqqQ/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
   },
   {
     "id": "QEsPDElvTyI",
@@ -675,40 +658,6 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "qSNRGeZuHeI",
-    "locale": "en",
-    "category": "hero",
-    "title": "COMET EXPLICADO FÁCIL. Automatiza con navegador agéntico#ia #ai #inteligenciaartificial #perplexity",
-    "description": "No description available",
-    "channelTitle": "maxmaxdata",
-    "publishDate": "2025-10-10",
-    "duration": "PT3M",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/qSNRGeZuHeI/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
-    "id": "qSNRGeZuHeI",
-    "locale": "en",
-    "category": "tutorial",
-    "title": "COMET EXPLICADO FÁCIL. Automatiza con navegador agéntico#ia #ai #inteligenciaartificial #perplexity",
-    "description": "No description available",
-    "channelTitle": "maxmaxdata",
-    "publishDate": "2025-10-10",
-    "duration": "PT3M",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/qSNRGeZuHeI/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
     "id": "6TBpTvwNujA",
     "locale": "en",
     "category": "proReview",
@@ -914,6 +863,40 @@ const rawVideos: LandingVideo[] = [
       "AI 2025",
       "AI news"
     ]
+  },
+  {
+    "id": "-ix8UjYuF8Q",
+    "locale": "en",
+    "category": "hero",
+    "title": "AI Browser that works for you #carterpcs #tech #comet #perplexity #cometpartner",
+    "description": "No description available",
+    "channelTitle": "CarterPCs",
+    "publishDate": "2025-10-03",
+    "duration": "PT39S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/-ix8UjYuF8Q/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
+    "id": "-ix8UjYuF8Q",
+    "locale": "en",
+    "category": "shorts",
+    "title": "AI Browser that works for you #carterpcs #tech #comet #perplexity #cometpartner",
+    "description": "No description available",
+    "channelTitle": "CarterPCs",
+    "publishDate": "2025-10-03",
+    "duration": "PT39S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/-ix8UjYuF8Q/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
   },
   {
     "id": "fs2BUmxMP80",
@@ -1538,6 +1521,23 @@ const rawVideos: LandingVideo[] = [
       "meta ai",
       "google ai"
     ]
+  },
+  {
+    "id": "72v4YZU1rIA",
+    "locale": "zh",
+    "category": "tutorial",
+    "title": "网红AI浏览器Dia深度体验，测评Dia浏览器的4个逆天功能，TA会是下一代的浏览器么？",
+    "description": "最近，网红浏览器团队ARC推出了最新的AI浏览器-Dia，目前仍处于内测中，阳哥带来了一手测试体验，欢迎大家点赞评论和转发。",
+    "channelTitle": "阳哥NExT",
+    "publishDate": "2025-05-08",
+    "duration": "PT4M35S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/72v4YZU1rIA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
   },
   {
     "id": "YXedHHRP4OY",

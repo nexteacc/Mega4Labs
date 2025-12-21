@@ -1,15 +1,15 @@
 {
-  "timestamp": "2025-12-20T03:10:13.041Z",
-  "totalVideos": 51,
+  "timestamp": "2025-12-21T03:23:32.073Z",
+  "totalVideos": 52,
   "totalSearches": 12,
   "byCategory": {
-    "proReview": 25,
+    "proReview": 26,
     "tutorial": 17,
     "shorts": 5,
     "hero": 4
   },
   "byLocale": {
-    "en": 18,
+    "en": 19,
     "zh": 13,
     "ko": 13,
     "ja": 7
@@ -43,18 +43,18 @@
       "publishDate": "2025-11-19"
     },
     {
+      "id": "o9Cnk2k4zRg",
+      "title": "&quot;크롬&quot; 당장 삭제하세요! 💣 GPT 탑재 AI 브라우저 끝판왕 &quot;아틀라스&quot;가 1가지 기능으로 코멧을 압살했습니다 (feat. 초보자용)",
+      "category": "proReview",
+      "locale": "ko",
+      "publishDate": "2025-11-19"
+    },
+    {
       "id": "VWGkNvfkMys",
       "title": "After Decades, I stopped using Chrome (Why I Chose Comet)",
       "category": "proReview",
       "locale": "en",
       "publishDate": "2025-11-08"
-    },
-    {
-      "id": "u7EMV4NkPak",
-      "title": "Atlas VS Comet: AI瀏覽器最強實測，結果出乎意料！",
-      "category": "proReview",
-      "locale": "zh",
-      "publishDate": "2025-11-01"
     }
   ]
 }

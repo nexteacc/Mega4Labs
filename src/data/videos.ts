@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-12-20T03:10:13.039Z
- * 总数: 51 个视频
+ * 生成时间: 2025-12-21T03:23:32.071Z
+ * 总数: 52 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -104,6 +104,23 @@ const rawVideos: LandingVideo[] = [
       "perplexity browser",
       "comet by perplexity"
     ]
+  },
+  {
+    "id": "o9Cnk2k4zRg",
+    "locale": "ko",
+    "category": "proReview",
+    "title": "&quot;크롬&quot; 당장 삭제하세요! 💣 GPT 탑재 AI 브라우저 끝판왕 &quot;아틀라스&quot;가 1가지 기능으로 코멧을 압살했습니다 (feat. 초보자용)",
+    "description": "안녕하세요 엠마쌤입니다 :) 여러분, AI 브라우저 다들 쓰고 계신가요? 설마 아직도 안 쓰고 계신가요? 오늘은 제가 초보자들 입장에서 ...",
+    "channelTitle": "엠마쌤",
+    "publishDate": "2025-11-19",
+    "duration": "PT22M38S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/o9Cnk2k4zRg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
   },
   {
     "id": "VWGkNvfkMys",
@@ -210,6 +227,47 @@ const rawVideos: LandingVideo[] = [
       "comet测评",
       "ai瀏覽器實測",
       "ai浏览器实测"
+    ]
+  },
+  {
+    "id": "fq3KobEWiD8",
+    "locale": "en",
+    "category": "proReview",
+    "title": "10 Game Changing Ways I Use the Comet Browser: Unlocking Next Level Browsing with AI",
+    "description": "Unlock the true power of the Comet Browser—the next-gen AI browser from Perplexity. In this video, I'm sharing 10 ...",
+    "channelTitle": "The Tech Girl",
+    "publishDate": "2025-10-29",
+    "duration": "PT14M22S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/fq3KobEWiD8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "the tech girl",
+      "Comet Browser",
+      "Comet Browser review",
+      "Comet AI browser",
+      "Perplexity browser",
+      "best AI browser 2025",
+      "AI web browser",
+      "productivity browser",
+      "Chrome alternative",
+      "smart browser features",
+      "browser for productivity",
+      "AI assistant browser",
+      "technical review",
+      "how to use Comet browser",
+      "browser hacks",
+      "automate browsing",
+      "Chrome vs Comet",
+      "tab management",
+      "online shopping hacks",
+      "summarize articles AI",
+      "Gmail integration browser",
+      "best browser for research",
+      "agentic browser"
     ]
   },
   {
@@ -595,23 +653,6 @@ const rawVideos: LandingVideo[] = [
       "챗GPT",
       "cheatgpt"
     ]
-  },
-  {
-    "id": "hkI8ssg-ERc",
-    "locale": "ko",
-    "category": "proReview",
-    "title": "코드 한 줄 없이 웹데이터 크롤링! 퍼플릭시티 코멧 완전정복",
-    "description": "이번 영상에서는 퍼플릭시티 코멧(Perplexity Comet) 브라우저를 이용해누구나 손쉽게 웹데이터를 크롤링하는 방법을 다룹니다.",
-    "channelTitle": "AI 일잘러",
-    "publishDate": "2025-10-13",
-    "duration": "PT6M58S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/hkI8ssg-ERc/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
   },
   {
     "id": "XiRzrSdIxO0",

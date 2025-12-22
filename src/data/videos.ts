@@ -4,7 +4,7 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-12-21T03:23:32.071Z
+ * 生成时间: 2025-12-22T03:26:29.054Z
  * 总数: 52 个视频
  * 
  * 抓取策略:
@@ -565,28 +565,6 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "KSNgi8dPcsE",
-    "locale": "ko",
-    "category": "tutorial",
-    "title": "[공짜] 퍼플렉시티 프로 1개월 무료 + 코멧 브라우저? 이 방법 모르면 손해",
-    "description": "퍼플렉시티 Pro 1개월 무료 & 코멧 무료 다운로드 받기 https://pplx.ai/potatoai ✓ 감자친구 월 12000원으로 프롬프트 강의를 시청 ...",
-    "channelTitle": "감자나라ai",
-    "publishDate": "2025-10-18",
-    "duration": "PT2M53S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/KSNgi8dPcsE/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "인공지능",
-      "AI",
-      "챗GPT",
-      "cheatgpt"
-    ]
-  },
-  {
     "id": "5w6lRGe85U0",
     "locale": "ja",
     "category": "tutorial",
@@ -653,6 +631,23 @@ const rawVideos: LandingVideo[] = [
       "챗GPT",
       "cheatgpt"
     ]
+  },
+  {
+    "id": "hkI8ssg-ERc",
+    "locale": "ko",
+    "category": "proReview",
+    "title": "코드 한 줄 없이 웹데이터 크롤링! 퍼플릭시티 코멧 완전정복",
+    "description": "이번 영상에서는 퍼플릭시티 코멧(Perplexity Comet) 브라우저를 이용해누구나 손쉽게 웹데이터를 크롤링하는 방법을 다룹니다.",
+    "channelTitle": "AI 일잘러",
+    "publishDate": "2025-10-13",
+    "duration": "PT6M58S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/hkI8ssg-ERc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
   },
   {
     "id": "XiRzrSdIxO0",

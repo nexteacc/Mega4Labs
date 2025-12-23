@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-12-22T03:26:29.054Z
- * 总数: 52 个视频
+ * 生成时间: 2025-12-23T03:20:49.996Z
+ * 总数: 53 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -562,6 +562,28 @@ const rawVideos: LandingVideo[] = [
       "AI사용법",
       "AI자동화",
       "AI활용"
+    ]
+  },
+  {
+    "id": "KSNgi8dPcsE",
+    "locale": "ko",
+    "category": "tutorial",
+    "title": "[공짜] 퍼플렉시티 프로 1개월 무료 + 코멧 브라우저? 이 방법 모르면 손해",
+    "description": "퍼플렉시티 Pro 1개월 무료 & 코멧 무료 다운로드 받기 https://pplx.ai/potatoai ✓ 감자친구 월 12000원으로 프롬프트 강의를 시청 ...",
+    "channelTitle": "감자나라ai",
+    "publishDate": "2025-10-18",
+    "duration": "PT2M53S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/KSNgi8dPcsE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "인공지능",
+      "AI",
+      "챗GPT",
+      "cheatgpt"
     ]
   },
   {

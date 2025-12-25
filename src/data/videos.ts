@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-12-24T03:18:18.173Z
- * 总数: 50 个视频
+ * 生成时间: 2025-12-25T03:21:29.030Z
+ * 总数: 53 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -288,6 +288,28 @@ const rawVideos: LandingVideo[] = [
     "tags": []
   },
   {
+    "id": "OUMfTy34ym8",
+    "locale": "ko",
+    "category": "tutorial",
+    "title": "퍼플렉시티 + 코멧에서 AI 검색의 종류 3가지, 검색 - 연구 - 실험실 | Perplexity Comet",
+    "description": "[이벤트] 퍼플렉시티 Pro 1개월 무료 & 코멧 무료 다운로드 받기 https://pplx.ai/potatoai ✓ 감자친구 월 12000원으로 프롬프트 강의를 ...",
+    "channelTitle": "감자나라ai",
+    "publishDate": "2025-10-27",
+    "duration": "PT5M30S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/OUMfTy34ym8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "인공지능",
+      "AI",
+      "챗GPT",
+      "cheatgpt"
+    ]
+  },
+  {
     "id": "Yztx9tnoTco",
     "locale": "zh",
     "category": "tutorial",
@@ -484,6 +506,54 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "pmCUisfJQy4",
+    "locale": "ko",
+    "category": "tutorial",
+    "title": "챗GPT &#39;최신기술&#39; 공개. 크롬은 이제 구석기 유물이 됩니다 (AI 브라우저 아틀라스)",
+    "description": "코멧 AI 브라우저 프로버전 최신기능 무료 사용하기: https://pplx.ai/successwiki 크롬이 곧 구석기 유물 신세가 되게 생겼습니다.",
+    "channelTitle": "성공지식백과",
+    "publishDate": "2025-10-21",
+    "duration": "PT4M39S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/pmCUisfJQy4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "챗GPT",
+      "챗GPT 최신기술",
+      "최신기술",
+      "AI 브라우저",
+      "챗GPT 아틀라스",
+      "ChatGPT Atlas",
+      "크롬",
+      "구글 크롬",
+      "Chrome",
+      "OpenAI",
+      "오픈AI",
+      "AI 검색",
+      "AI 비서",
+      "AI 에이전트",
+      "생산성",
+      "업무 자동화",
+      "인터넷 브라우저",
+      "챗GPT 브라우저",
+      "퍼플렉시티",
+      "코멧",
+      "챗GPT 아틀라스 윈도우",
+      "챗GPT 아틀라스 단점",
+      "AI 신기능",
+      "챗GPT 사용법",
+      "챗GPT 아틀라스 공개",
+      "브라우저 추천",
+      "AI 요약",
+      "퍼플렉시티 코멧",
+      "아틀라스 브라우저",
+      "아틀라스"
+    ]
+  },
+  {
     "id": "zDp_UXPvqys",
     "locale": "ko",
     "category": "tutorial",
@@ -514,28 +584,6 @@ const rawVideos: LandingVideo[] = [
       "AI사용법",
       "AI자동화",
       "AI활용"
-    ]
-  },
-  {
-    "id": "KSNgi8dPcsE",
-    "locale": "ko",
-    "category": "tutorial",
-    "title": "[공짜] 퍼플렉시티 프로 1개월 무료 + 코멧 브라우저? 이 방법 모르면 손해",
-    "description": "퍼플렉시티 Pro 1개월 무료 & 코멧 무료 다운로드 받기 https://pplx.ai/potatoai ✓ 감자친구 월 12000원으로 프롬프트 강의를 시청 ...",
-    "channelTitle": "감자나라ai",
-    "publishDate": "2025-10-18",
-    "duration": "PT2M53S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/KSNgi8dPcsE/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "인공지능",
-      "AI",
-      "챗GPT",
-      "cheatgpt"
     ]
   },
   {
@@ -1112,6 +1160,28 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "70ERnUFxvKs",
+    "locale": "ko",
+    "category": "tutorial",
+    "title": "파이썬으로 크롤링 할 필요 없다! AI로 코딩 없이 웹페이지 크롤링 하는 방법 | 퍼플렉시티 코멧, Perplexity Comet",
+    "description": "코멧 다운로드 받기 https://pplx.ai/potatoai 퍼플렉시티 1개월 무료 : https://perplexity.ai/pro?referral_code=FGUU42VB (이 링크를 ...",
+    "channelTitle": "감자나라ai",
+    "publishDate": "2025-09-01",
+    "duration": "PT6M37S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/70ERnUFxvKs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "인공지능",
+      "AI",
+      "챗GPT",
+      "cheatgpt"
+    ]
+  },
+  {
     "id": "KayYycPHBpg",
     "locale": "ko",
     "category": "tutorial",
@@ -1509,6 +1579,23 @@ const rawVideos: LandingVideo[] = [
       "meta ai",
       "google ai"
     ]
+  },
+  {
+    "id": "72v4YZU1rIA",
+    "locale": "zh",
+    "category": "tutorial",
+    "title": "网红AI浏览器Dia深度体验，测评Dia浏览器的4个逆天功能，TA会是下一代的浏览器么？",
+    "description": "最近，网红浏览器团队ARC推出了最新的AI浏览器-Dia，目前仍处于内测中，阳哥带来了一手测试体验，欢迎大家点赞评论和转发。",
+    "channelTitle": "阳哥NExT",
+    "publishDate": "2025-05-08",
+    "duration": "PT4M35S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/72v4YZU1rIA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
   },
   {
     "id": "YXedHHRP4OY",

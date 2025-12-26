@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-12-25T03:21:29.030Z
- * 总数: 53 个视频
+ * 生成时间: 2025-12-26T03:19:19.238Z
+ * 总数: 52 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -227,47 +227,6 @@ const rawVideos: LandingVideo[] = [
       "comet测评",
       "ai瀏覽器實測",
       "ai浏览器实测"
-    ]
-  },
-  {
-    "id": "fq3KobEWiD8",
-    "locale": "en",
-    "category": "proReview",
-    "title": "10 Game Changing Ways I Use the Comet Browser: Unlocking Next Level Browsing with AI",
-    "description": "Unlock the true power of the Comet Browser—the next-gen AI browser from Perplexity. In this video, I'm sharing 10 ...",
-    "channelTitle": "The Tech Girl",
-    "publishDate": "2025-10-29",
-    "duration": "PT14M22S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/fq3KobEWiD8/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "the tech girl",
-      "Comet Browser",
-      "Comet Browser review",
-      "Comet AI browser",
-      "Perplexity browser",
-      "best AI browser 2025",
-      "AI web browser",
-      "productivity browser",
-      "Chrome alternative",
-      "smart browser features",
-      "browser for productivity",
-      "AI assistant browser",
-      "technical review",
-      "how to use Comet browser",
-      "browser hacks",
-      "automate browsing",
-      "Chrome vs Comet",
-      "tab management",
-      "online shopping hacks",
-      "summarize articles AI",
-      "Gmail integration browser",
-      "best browser for research",
-      "agentic browser"
     ]
   },
   {
@@ -923,40 +882,6 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
-    "id": "-ix8UjYuF8Q",
-    "locale": "en",
-    "category": "hero",
-    "title": "AI Browser that works for you #carterpcs #tech #comet #perplexity #cometpartner",
-    "description": "No description available",
-    "channelTitle": "CarterPCs",
-    "publishDate": "2025-10-03",
-    "duration": "PT39S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/-ix8UjYuF8Q/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
-    "id": "-ix8UjYuF8Q",
-    "locale": "en",
-    "category": "shorts",
-    "title": "AI Browser that works for you #carterpcs #tech #comet #perplexity #cometpartner",
-    "description": "No description available",
-    "channelTitle": "CarterPCs",
-    "publishDate": "2025-10-03",
-    "duration": "PT39S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/-ix8UjYuF8Q/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": []
-  },
-  {
     "id": "fs2BUmxMP80",
     "locale": "zh",
     "category": "tutorial",
@@ -1201,6 +1126,50 @@ const rawVideos: LandingVideo[] = [
       "AI",
       "챗GPT",
       "cheatgpt"
+    ]
+  },
+  {
+    "id": "ZsBniZ_M7hs",
+    "locale": "en",
+    "category": "proReview",
+    "title": "Stop using Chrome. This AI browser is insane…",
+    "description": "Work 30% faster with Vectal: https://www.vectal.ai/ Wanna start a business with AI Agents? Go here: ...",
+    "channelTitle": "David Ondrej",
+    "publishDate": "2025-08-23",
+    "duration": "PT10M36S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/ZsBniZ_M7hs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "David Ondrej",
+      "david ondrej",
+      "AI",
+      "ChatGPT",
+      "artificial intelligence",
+      "ai",
+      "Artificial Intelligence",
+      "OpenAI",
+      "chatgpt",
+      "chat gpt",
+      "Chat GPT",
+      "AGI",
+      "midjourney",
+      "david ondrej podcast",
+      "GPT",
+      "new society",
+      "david ondrej new society",
+      "david ondrej community",
+      "make money with AI",
+      "AI Agents",
+      "ai agent",
+      "AI Agent Startup",
+      "AI SaaS",
+      "AI Startup",
+      "perplexity comet",
+      "perplexity comet browser"
     ]
   },
   {
@@ -1545,6 +1514,39 @@ const rawVideos: LandingVideo[] = [
       "OpenAI",
       "Claude",
       "Anthropic"
+    ]
+  },
+  {
+    "id": "ri_bFrDp44M",
+    "locale": "en",
+    "category": "hero",
+    "title": "Perplexity&#39;s AI-Native Browser Comet is HERE",
+    "description": "Get Started with Lindy For Free: https://go.lindy.ai/matthew-berman Discover The Best AI Tools     https://tools.forwardfuture.ai ...",
+    "channelTitle": "Matthew Berman",
+    "publishDate": "2025-07-09",
+    "duration": "PT14M38S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/ri_bFrDp44M/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [
+      "ai",
+      "llm",
+      "artificial intelligence",
+      "large language model",
+      "openai",
+      "mistral",
+      "chatgpt",
+      "ai news",
+      "claude",
+      "anthropic",
+      "apple ai",
+      "apple intelligence",
+      "llama",
+      "meta ai",
+      "google ai"
     ]
   },
   {

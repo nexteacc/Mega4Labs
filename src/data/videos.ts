@@ -4,7 +4,7 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-12-26T03:19:19.238Z
+ * 生成时间: 2025-12-27T03:17:26.711Z
  * 总数: 52 个视频
  * 
  * 抓取策略:
@@ -882,6 +882,40 @@ const rawVideos: LandingVideo[] = [
     ]
   },
   {
+    "id": "-ix8UjYuF8Q",
+    "locale": "en",
+    "category": "hero",
+    "title": "AI Browser that works for you #carterpcs #tech #comet #perplexity #cometpartner",
+    "description": "No description available",
+    "channelTitle": "CarterPCs",
+    "publishDate": "2025-10-03",
+    "duration": "PT39S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/-ix8UjYuF8Q/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
+    "id": "-ix8UjYuF8Q",
+    "locale": "en",
+    "category": "shorts",
+    "title": "AI Browser that works for you #carterpcs #tech #comet #perplexity #cometpartner",
+    "description": "No description available",
+    "channelTitle": "CarterPCs",
+    "publishDate": "2025-10-03",
+    "duration": "PT39S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/-ix8UjYuF8Q/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": []
+  },
+  {
     "id": "fs2BUmxMP80",
     "locale": "zh",
     "category": "tutorial",
@@ -1126,50 +1160,6 @@ const rawVideos: LandingVideo[] = [
       "AI",
       "챗GPT",
       "cheatgpt"
-    ]
-  },
-  {
-    "id": "ZsBniZ_M7hs",
-    "locale": "en",
-    "category": "proReview",
-    "title": "Stop using Chrome. This AI browser is insane…",
-    "description": "Work 30% faster with Vectal: https://www.vectal.ai/ Wanna start a business with AI Agents? Go here: ...",
-    "channelTitle": "David Ondrej",
-    "publishDate": "2025-08-23",
-    "duration": "PT10M36S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/ZsBniZ_M7hs/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "David Ondrej",
-      "david ondrej",
-      "AI",
-      "ChatGPT",
-      "artificial intelligence",
-      "ai",
-      "Artificial Intelligence",
-      "OpenAI",
-      "chatgpt",
-      "chat gpt",
-      "Chat GPT",
-      "AGI",
-      "midjourney",
-      "david ondrej podcast",
-      "GPT",
-      "new society",
-      "david ondrej new society",
-      "david ondrej community",
-      "make money with AI",
-      "AI Agents",
-      "ai agent",
-      "AI Agent Startup",
-      "AI SaaS",
-      "AI Startup",
-      "perplexity comet",
-      "perplexity comet browser"
     ]
   },
   {
@@ -1514,39 +1504,6 @@ const rawVideos: LandingVideo[] = [
       "OpenAI",
       "Claude",
       "Anthropic"
-    ]
-  },
-  {
-    "id": "ri_bFrDp44M",
-    "locale": "en",
-    "category": "hero",
-    "title": "Perplexity&#39;s AI-Native Browser Comet is HERE",
-    "description": "Get Started with Lindy For Free: https://go.lindy.ai/matthew-berman Discover The Best AI Tools     https://tools.forwardfuture.ai ...",
-    "channelTitle": "Matthew Berman",
-    "publishDate": "2025-07-09",
-    "duration": "PT14M38S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/ri_bFrDp44M/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "ai",
-      "llm",
-      "artificial intelligence",
-      "large language model",
-      "openai",
-      "mistral",
-      "chatgpt",
-      "ai news",
-      "claude",
-      "anthropic",
-      "apple ai",
-      "apple intelligence",
-      "llama",
-      "meta ai",
-      "google ai"
     ]
   },
   {

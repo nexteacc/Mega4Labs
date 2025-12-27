@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-12-26T03:19:19.239Z",
+  "timestamp": "2025-12-27T03:17:26.714Z",
   "totalVideos": 52,
   "totalSearches": 12,
   "byCategory": {
-    "proReview": 27,
+    "proReview": 26,
     "tutorial": 17,
-    "shorts": 4,
+    "shorts": 5,
     "hero": 4
   },
   "byLocale": {

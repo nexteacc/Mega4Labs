@@ -4,8 +4,8 @@ import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
  * 自动生成的视频数据
- * 生成时间: 2025-12-27T03:17:26.711Z
- * 总数: 52 个视频
+ * 生成时间: 2025-12-28T03:41:43.705Z
+ * 总数: 51 个视频
  * 
  * 抓取策略:
  * - 每个语言市场 3 次搜索（Tutorial、ProReview、Shorts）
@@ -1389,38 +1389,6 @@ const rawVideos: LandingVideo[] = [
       "Apple podcast automation",
       "AI for creators",
       "Perplexity features"
-    ]
-  },
-  {
-    "id": "IRI4BRmt8cs",
-    "locale": "en",
-    "category": "tutorial",
-    "title": "REVIEW   Perplexity Comet AI Browser",
-    "description": "REVIEW Perplexity Comet AI Browser. ▶️MENTIONED TOOLS: (Video Specific Links If Needed) -. ▶️ABOUT ME: Unlock the ...",
-    "channelTitle": "Jonathan Mast",
-    "publishDate": "2025-07-26",
-    "duration": "PT5M29S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/IRI4BRmt8cs/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [
-      "digital marketing",
-      "entrepreneurship",
-      "success",
-      "capitalism",
-      "consulting",
-      "AI",
-      "#AIMarketing",
-      "Chatgpt",
-      "Claude",
-      "Perplexity",
-      "Rubi.AI",
-      "Content Creator",
-      "Podcast",
-      "aibusiness"
     ]
   },
   {

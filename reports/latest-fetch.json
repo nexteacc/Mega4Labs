@@ -1,19 +1,19 @@
 {
-  "timestamp": "2025-12-29T13:04:58.401Z",
-  "totalVideos": 9,
+  "timestamp": "2025-12-29T13:18:35.789Z",
+  "totalVideos": 98,
   "totalSearches": 13,
   "byCompany": {
-    "cursor": 3,
-    "openai": 3,
-    "deepmind": 2,
-    "anthropic": 1
+    "anthropic": 30,
+    "cursor": 21,
+    "openai": 20,
+    "deepmind": 27
   },
   "byCategory": {
-    "cursor": 3,
-    "hero": 1,
-    "openai": 2,
-    "deepmind": 2,
-    "anthropic": 1
+    "anthropic": 28,
+    "cursor": 21,
+    "openai": 18,
+    "deepmind": 27,
+    "hero": 4
   },
   "strategy": {
     "companies": [
@@ -26,18 +26,18 @@
   },
   "latestVideos": [
     {
+      "id": "XP9Zg--DLr8",
+      "title": "This leaked Anthropic interview is crazy",
+      "company": "anthropic",
+      "person": "Dario Amodei",
+      "publishDate": "2025-12-20"
+    },
+    {
       "id": "AApjEHsMkTU",
       "title": "This was the biggest debate in design this year",
       "company": "cursor",
       "person": "Ryo Lu",
       "publishDate": "2025-12-19"
-    },
-    {
-      "id": "2P27Ef-LLuQ",
-      "title": "Sam Altman: How OpenAI Wins, ChatGPT’s Future, AI Buildout Logic, IPO in 2026?",
-      "company": "openai",
-      "person": "Sam Altman",
-      "publishDate": "2025-12-18"
     },
     {
       "id": "2P27Ef-LLuQ",
@@ -54,11 +54,11 @@
       "publishDate": "2025-12-18"
     },
     {
-      "id": "E_IANHdYqfQ",
-      "title": "Shane Legg, (Google DeepMind) : la llegada de la AGI | Podcast en español",
-      "company": "deepmind",
-      "person": "Shane Legg",
-      "publishDate": "2025-12-12"
+      "id": "29BYxvvF1iM",
+      "title": "John Schulman on dead ends, scaling RL, and building research institutions",
+      "company": "cursor",
+      "person": "Michael Truell",
+      "publishDate": "2025-12-17"
     }
   ]
 }

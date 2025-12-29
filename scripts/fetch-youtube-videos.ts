@@ -1,6 +1,6 @@
 #!/usr/bin/env tsx
 /**
- * YouTube Video Fetching Script for MEGA 4 LAB
+ * YouTube Video Fetching Script for Mega 4 Labs
  *
  * Usage:
  * 1. Set YOUTUBE_API_KEY in .env.local
@@ -206,7 +206,7 @@ function convertToLandingVideo(
  * Main function
  */
 async function main() {
-  console.log("🚀 Starting YouTube video fetch for MEGA 4 LAB...\n");
+  console.log("🚀 Starting YouTube video fetch for Mega 4 Labs...\n");
   console.log("📋 Strategy:");
   console.log("   - Fetching videos for 4 companies: OpenAI, Cursor, DeepMind, Anthropic");
   console.log("   - Hero videos selected from top performers\n");
@@ -369,7 +369,7 @@ async function main() {
 import { LandingVideoArraySchema } from "@/lib/videos";
 
 /**
- * Auto-generated video data for MEGA 4 LAB
+ * Auto-generated video data for Mega 4 Labs
  * Generated: ${new Date().toISOString()}
  * Total: ${allVideos.length} videos
  *

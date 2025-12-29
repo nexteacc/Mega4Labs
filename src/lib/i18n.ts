@@ -1,11 +1,11 @@
 /**
- * Content and copy for MEGA 4 LAB (English only)
+ * Content and copy for Mega 4 Labs (English only)
  */
 
 import type { Company } from "@/lib/types";
 
 // Site branding
-export const SITE_NAME = "MEGA 4 LAB";
+export const SITE_NAME = "Mega 4 Labs";
 export const SITE_TAGLINE = "Watch the Minds Behind AI Innovation";
 
 // Hero section
@@ -51,9 +51,9 @@ export const COMPANY_COLORS: Record<Company, string> = {
 // Footer
 export const FOOTER_MADE_WITH_LOVE = "Made with care for AI enthusiasts";
 export const FOOTER_SUBMIT_VIDEO = "Submit a Video";
-export const FOOTER_COPYRIGHT = `© ${new Date().getFullYear()} MEGA 4 LAB. Videos belong to their respective creators.`;
+export const FOOTER_COPYRIGHT = `© ${new Date().getFullYear()} Mega 4 Labs. Videos belong to their respective creators.`;
 
 // SEO
 export const SEO_KEYWORDS = "AI leaders, Sam Altman, Dario Amodei, Demis Hassabis, Cursor AI, OpenAI interview, Anthropic CEO, DeepMind, AI industry, artificial intelligence, AGI, GPT, Claude";
-export const SEO_SITE_NAME = "MEGA 4 LAB";
+export const SEO_SITE_NAME = "Mega 4 Labs";
 export const SEO_DESCRIPTION = "Curated interviews, talks, and insights from AI industry leaders including Sam Altman (OpenAI), Dario Amodei (Anthropic), Demis Hassabis (DeepMind), and Cursor's founding team.";

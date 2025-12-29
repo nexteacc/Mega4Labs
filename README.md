@@ -1,13 +1,14 @@
-# Perplexity Pro Learning Hub
+# Mega 4 Labs
 
-多语言视频学习平台，展示 Comet Browser 和 Perplexity AI 的教程、评测和使用技巧。
+AI 行业领袖访谈视频聚合平台，展示 OpenAI、Cursor、DeepMind 和 Anthropic 四大公司领导者的访谈、演讲和见解。
 
 ## 功能特性
 
-- 🌍 **多语言支持** - 英文、韩文、日文、中文
-- 📹 **视频模块** - Tutorial、Pro Review、Shorts
-- 🎯 **智能分类** - Hero 精选 + 三大内容类别
-- 📊 **用户跟踪** - Google Analytics 4 集成
+- 🎯 **四大 AI 公司** - OpenAI、Cursor、DeepMind、Anthropic
+- 👥 **行业领袖** - Sam Altman、Dario Amodei、Demis Hassabis 等
+- 🌟 **Hero 精选** - 自动选择高质量热门视频
+- 📊 **智能过滤** - 播放量、点赞率、发布时间多维度筛选
+- 🚀 **自动抓取** - YouTube 视频自动抓取脚本
 - 🚀 **自动抓取** - YouTube 视频自动抓取脚本
 
 ## 快速开始

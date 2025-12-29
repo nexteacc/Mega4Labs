@@ -1,5 +1,5 @@
 /**
- * FAQ Data for MEGA 4 LAB
+ * FAQ Data for Mega 4 Labs
  */
 
 export type FAQItem = {

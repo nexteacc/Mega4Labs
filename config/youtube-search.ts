@@ -1,5 +1,5 @@
 /**
- * YouTube Search Configuration for MEGA 4 LAB
+ * YouTube Search Configuration for Mega 4 Labs
  * Defines search queries for AI industry leaders
  */
 
@@ -64,133 +64,92 @@ export const SEARCH_QUERIES: SearchQuery[] = [
   // OpenAI
   // ========================================
   {
-    query: "Sam Altman interview",
+    query: "Sam Altman OpenAI interview",
     company: "openai",
     person: "Sam Altman",
-    maxResults: 20,
+    maxResults: 30,
     minDuration: 300,
   },
   {
-    query: "Sam Altman podcast AI",
-    company: "openai",
-    person: "Sam Altman",
-    maxResults: 20,
-    minDuration: 300,
-  },
-  {
-    query: "Sam Altman GPT future AGI",
-    company: "openai",
-    person: "Sam Altman",
-    maxResults: 15,
-  },
-  {
-    query: "Kevin Weil OpenAI product",
+    query: "Kevin Weil OpenAI interview",
     company: "openai",
     person: "Kevin Weil",
-    maxResults: 10,
+    maxResults: 20,
+    minDuration: 300,
   },
 
   // ========================================
   // Cursor
   // ========================================
   {
-    query: "Cursor AI CEO interview",
+    query: "Michael Truell Cursor interview",
     company: "cursor",
-    maxResults: 15,
+    person: "Michael Truell",
+    maxResults: 30,
     minDuration: 180,
   },
   {
-    query: "Michael Truell Cursor",
-    company: "cursor",
-    person: "Michael Truell",
-    maxResults: 15,
-  },
-  {
-    query: "Aman Sanger Cursor AI",
+    query: "Aman Sanger Cursor interview",
     company: "cursor",
     person: "Aman Sanger",
-    maxResults: 10,
+    maxResults: 20,
+    minDuration: 180,
   },
   {
-    query: "Ryo Lu Cursor design",
+    query: "Ryo Lu Cursor interview",
     company: "cursor",
     person: "Ryo Lu",
-    maxResults: 10,
-  },
-  {
-    query: "Cursor AI founder interview",
-    company: "cursor",
-    maxResults: 15,
-    minDuration: 120,
+    maxResults: 20,
+    minDuration: 180,
   },
 
   // ========================================
   // DeepMind
   // ========================================
   {
-    query: "Demis Hassabis interview",
+    query: "Demis Hassabis DeepMind interview",
     company: "deepmind",
     person: "Demis Hassabis",
-    maxResults: 20,
+    maxResults: 30,
     minDuration: 300,
   },
   {
-    query: "Demis Hassabis AI future AGI",
-    company: "deepmind",
-    person: "Demis Hassabis",
-    maxResults: 15,
-  },
-  {
-    query: "DeepMind CEO podcast",
-    company: "deepmind",
-    maxResults: 15,
-    minDuration: 300,
-  },
-  {
-    query: "Shane Legg AGI DeepMind",
+    query: "Shane Legg DeepMind interview",
     company: "deepmind",
     person: "Shane Legg",
-    maxResults: 10,
+    maxResults: 20,
+    minDuration: 300,
   },
 
   // ========================================
   // Anthropic
   // ========================================
   {
-    query: "Dario Amodei interview",
+    query: "Dario Amodei Anthropic interview",
     company: "anthropic",
     person: "Dario Amodei",
-    maxResults: 20,
+    maxResults: 30,
     minDuration: 300,
-  },
-  {
-    query: "Dario Amodei AI safety podcast",
-    company: "anthropic",
-    person: "Dario Amodei",
-    maxResults: 15,
   },
   {
     query: "Daniela Amodei Anthropic interview",
     company: "anthropic",
     person: "Daniela Amodei",
-    maxResults: 10,
+    maxResults: 20,
+    minDuration: 300,
   },
   {
-    query: "Amanda Askell Claude AI",
+    query: "Amanda Askell Anthropic interview",
     company: "anthropic",
     person: "Amanda Askell",
-    maxResults: 10,
+    maxResults: 20,
+    minDuration: 300,
   },
   {
-    query: "Boris Cherny Claude Code",
+    query: "Boris Cherny Anthropic interview",
     company: "anthropic",
     person: "Boris Cherny",
-    maxResults: 10,
-  },
-  {
-    query: "Anthropic CEO podcast",
-    company: "anthropic",
-    maxResults: 15,
+    maxResults: 20,
     minDuration: 300,
   },
 ];

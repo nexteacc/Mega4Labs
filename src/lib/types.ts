@@ -1,5 +1,5 @@
 /**
- * Company types for MEGA 4 LAB
+ * Company types for Mega 4 Labs
  */
 export type Company = "openai" | "cursor" | "deepmind" | "anthropic";
 

@@ -1,28 +1,28 @@
 # Mega 4 Labs
 
-AI 行业领袖访谈视频聚合平台，展示 OpenAI、Cursor、DeepMind (Gemini) 和 Anthropic 四大公司领导者的访谈、演讲和见解。
+AI industry leader interview video aggregation platform, featuring interviews, talks, and insights from leaders at OpenAI, Cursor, DeepMind (Gemini), and Anthropic.
 
-## 快速开始
+## Quick Start
 
-### 1. 安装依赖
+### 1. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 2. 配置环境变量
+### 2. Configure Environment Variables
 
-创建 `.env.local` 文件：
+Create a `.env.local` file:
 
 ```bash
-# YouTube API Key (用于视频抓取)
+# YouTube API Key (for video fetching)
 YOUTUBE_API_KEY=your_youtube_api_key_here
 ```
 
-### 3. 运行开发服务器
+### 3. Run Development Server
 
 ```bash
 npm run dev
 ```
 
-访问 [http://localhost:3000](http://localhost:3000)
+Visit [http://localhost:3000](http://localhost:3000)

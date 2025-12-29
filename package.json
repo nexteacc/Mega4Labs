@@ -10,6 +10,7 @@
     "fetch-videos": "tsx scripts/fetch-youtube-videos.ts"
   },
   "dependencies": {
+    "@lobehub/icons": "^4.0.2",
     "@vercel/analytics": "^1.4.1",
     "clsx": "^2.1.1",
     "gray-matter": "^4.0.3",

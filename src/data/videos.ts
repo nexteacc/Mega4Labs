@@ -7,7 +7,7 @@ import { LandingVideoArraySchema } from "@/lib/videos";
  * Generated: 2025-12-29T13:18:35.788Z
  * Total: 98 videos
  *
- * Companies: OpenAI, Cursor, DeepMind, Anthropic
+ * Companies: OpenAI, Cursor, Google, Anthropic
  * Hero videos selected from top performers
  */
 const rawVideos: LandingVideo[] = [
@@ -84,8 +84,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "cNGDAqFXvew",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "”We’re Ahead of Where I Thought We’d Be” — Gemini 3 &amp; the Future of AI",
     "description": "Gemini 3 was a landmark frontier model launch in AI this year — but the story behind its performance isn't just about adding more ...",
     "channelTitle": "The MAD Podcast with Matt Turck",
@@ -171,8 +171,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "hUabJaV0h8w",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "Google DeepMind: &quot;The arrival of AGI&quot;",
     "description": "Check out AWS re:Invent: https://reinvent.awsevents.com/keynotes/ AWS re:Invent 2025 - Keynote with CEO Matt Garman: ...",
     "channelTitle": "Wes Roth",
@@ -189,8 +189,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "E_IANHdYqfQ",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "Shane Legg, (Google DeepMind) : la llegada de la AGI | Podcast en español",
     "description": "En este episodio del podcast de Google DeepMind, Hannah Fry entrevista a Shane Legg (cofundador y científico jefe de ...",
     "channelTitle": "iabro",
@@ -207,8 +207,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "tDSDR7QILLg",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "Google DeepMind’s Demis Hassabis with Axios’ Mike Allen",
     "description": "Axios co-founder Mike Allen speaks to Google DeepMind co-founder and CEO Demis Hassabis at Axios' AI+ Summit in San ...",
     "channelTitle": "Axios",
@@ -327,8 +327,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "mci0f2dy7G0",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "Gemini 3: Launch day reactions",
     "description": "Join us for a special episode of Release Notes as we unpack Gemini 3, Google's latest AI model with key team members.",
     "channelTitle": "Google for Developers",
@@ -349,8 +349,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "rq-2i1blAlU",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "Demis Hassabis &amp; Josh Woodward Tell Us Why Gemini 3.0 Puts Google in Front of the A.I. Race",
     "description": "Today we have a special segment on the release of Google's Gemini 3 A.I. model. Demis Hassabis and Josh Woodward, two of ...",
     "channelTitle": "Hard Fork",
@@ -552,8 +552,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "r-xjo7MYc18",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "Inside Gemini and NotebookLM: How Google is Shipping Non-Stop | Josh Woodward",
     "description": "As the VP of Gemini, Google Labs (NotebookLM), and AI Studio, Josh is widely considered one of Google's most beloved leaders.",
     "channelTitle": "Peter Yang",
@@ -629,8 +629,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "sDZ1j0J-fe8",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "Demis Hassabis: The CEO Working to Solve Cancer With AI",
     "description": "Google DeepMind Co-Founder and Chief Executive Officer Demis Hassabis is positioning Google to win the artificial general ...",
     "channelTitle": "Bloomberg Technology",
@@ -704,8 +704,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "Kr3Sh2PKA8Y",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "Inside Google DeepMind: AGI, Robotics, &amp; World Models Explained - Demis Hassabis",
     "description": "(0:00) Introducing Sir Demis Hassabis, reflecting on his Nobel Prize win (2:39) What is Google Deepmind? How does it interact ...",
     "channelTitle": "All-In Podcast",
@@ -878,8 +878,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "njDochQ2zHs",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "Demis Hassabis on shipping momentum, better evals and world models",
     "description": "Demis Hassabis, CEO of Google DeepMind, sits down with host Logan Kilpatrick. In this episode, learn about the evolution from ...",
     "channelTitle": "Google for Developers",
@@ -1302,8 +1302,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "CRraHg4Ks_g",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "Demis Hassabis On The Future of Work in the Age of AI",
     "description": "WIRED Editor At Large Steven Levy sits down with Google DeepMind CEO Demis Hassabis for a deep dive discussion on the ...",
     "channelTitle": "WIRED",
@@ -1388,8 +1388,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "U3d2OKEibQ4",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "DeepMind CEO Demis Hassabis on How A.I. Is Reshaping Google | Interview",
     "description": "This week, we sit down with Google DeepMind's chief executive and co-founder, Demis Hassabis, to discuss what his A.I. lab is ...",
     "channelTitle": "Hard Fork",
@@ -1416,8 +1416,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "KUzuQpMdQZo",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "Google DeepMind C.E.O. Demis Hassabis on Living in an A.I. Future | EP 137",
     "description": "This week, we take a field trip to Google and report back about everything the company announced at its biggest show of the year, ...",
     "channelTitle": "Hard Fork",
@@ -1444,8 +1444,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "VJllI3jMEb4",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "Darren Aronofsky and Demis Hassabis on storytelling in the age of AI",
     "description": "Join Primordial Soup Founder Darren Aronofsky and Google DeepMind CEO and Co-Founder Demis Hassabis for a conversation ...",
     "channelTitle": "Google for Developers",
@@ -1469,8 +1469,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "Uh-7YX8tkxI",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "Demis Hassabis on the frontiers of AI",
     "description": "Join Demis Hassabis, co-founder and CEO of Google DeepMind, Sergey Brin, Co-Founder, Google, and Alex Kantrowitz, Host of ...",
     "channelTitle": "Google for Developers",
@@ -1494,8 +1494,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "DPQF_6o4G_E",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "Release Notes: Google I/O 2025 Recap with Josh Woodward and Tulsee Doshi",
     "description": "Tulsee Doshi (Head of Product, Gemini) and Josh Woodward (VP of Google Labs and Google Gemini) join host Logan Kilpatrick ...",
     "channelTitle": "Google for Developers",
@@ -1657,8 +1657,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "zzXyPGEtseI",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "Is human data enough? | David Silver",
     "description": "In this episode of Google DeepMind: The Podcast, VP of Reinforcement Learning, David Silver, describes his vision for the future ...",
     "channelTitle": "Google DeepMind",
@@ -1693,8 +1693,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "3-wVLpHGstQ",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "Josh Woodward: Google Labs is Rapidly Building AI Products from 0-to-1",
     "description": "As VP of Google Labs, Josh Woodward leads teams exploring the frontiers of AI applications. He shares insights on their rapid ...",
     "channelTitle": "Sequoia Capital",
@@ -1761,8 +1761,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "4poqjZlM8Lo",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "AI bosses on what keeps them up at night",
     "description": "Google DeepMind and Anthropic founders, Demis Hassabis and Dario Amodei, are two of the world's foremost leaders in artificial ...",
     "channelTitle": "The Economist",
@@ -1779,8 +1779,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "yr0GiSgUvPU",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "Google DeepMind CEO Demis Hassabis: The Path To AGI, Deceptive AIs, Building a Virtual Cell",
     "description": "Demis Hassabis is the CEO of Google DeepMind. He joins Big Technology Podcast to discuss the cutting edge of AI and where ...",
     "channelTitle": "Alex Kantrowitz",
@@ -1926,8 +1926,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "AhiYRseTAVw",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "The A.I. Revolution | DealBook Summit 2024",
     "description": "Powerful technologies have always been double-edged swords. That's been true since fire; it could cook your food and keep you ...",
     "channelTitle": "New York Times Events",
@@ -1944,8 +1944,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "nQKmVhLIGcs",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "AI for science | Sir Paul Nurse, Demis Hassabis, Jennifer Doudna, and John Jumper",
     "description": "Join Professor Hannah Fry at the AI for Science Forum for a fascinating conversation with Google DeepMind CEO Demis ...",
     "channelTitle": "Google DeepMind",
@@ -2011,8 +2011,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "Ms4jypwIefE",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "Google Labs VP Josh Woodward on new AI podcast tool features",
     "description": "CNBC's Deirdre Bosa and Kelly Evans discuss updates to Google's viral NotebookLM software with Google Labs Vice President ...",
     "channelTitle": "CNBC Television",
@@ -2222,8 +2222,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "pZybROKrj2Q",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "Unreasonably effective AI | Demis Hassabis",
     "description": "It has been a few years since Google DeepMind CEO and co-founder, Demis Hassabis, and Professor Hannah Fry caught up.",
     "channelTitle": "Google DeepMind",
@@ -2240,8 +2240,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "0_M_syPuFos",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "How AI Is Unlocking the Secrets of Nature and the Universe | Demis Hassabis | TED",
     "description": "Can AI help us answer life's biggest questions? In this visionary conversation, Google DeepMind cofounder and CEO Demis ...",
     "channelTitle": "TED",
@@ -2326,8 +2326,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "qTogNUV3CAI",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "Demis Hassabis — Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
     "description": "Here is my episode with Demis Hassabis, CEO of Google DeepMind. We discuss: * Why scaling is an artform * Adding search, ...",
     "channelTitle": "Dwarkesh Patel",
@@ -2344,8 +2344,8 @@ const rawVideos: LandingVideo[] = [
   },
   {
     "id": "nwUARJeeplA",
-    "company": "deepmind",
-    "category": "deepmind",
+    "company": "google",
+    "category": "google",
     "title": "Demis Hassabis on Chatbots to AGI | EP 71",
     "description": "This week's episode is a conversation with Demis Hassabis, the head of Google's artificial intelligence division. We talk about ...",
     "channelTitle": "Hard Fork",

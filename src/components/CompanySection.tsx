@@ -5,6 +5,7 @@ import type { LandingVideo, Company } from "@/lib/types";
 import { LOAD_MORE_LABEL } from "@/lib/i18n";
 import { VideoGrid } from "@/components/VideoGrid";
 import { VideoPlayerDialog } from "@/components/VideoPlayerDialog";
+import { OpenAI, Anthropic, Google, Cursor } from "@lobehub/icons";
 
 type CompanySectionProps = {
   company: Company;
@@ -16,6 +17,14 @@ type CompanySectionProps = {
 
 const INITIAL_LOAD = 6;
 const LOAD_MORE_COUNT = 6;
+
+// Company logo mapping
+const COMPANY_LOGOS = {
+  openai: OpenAI,
+  anthropic: Anthropic,
+  google: Google,
+  cursor: Cursor,
+} as const;
 
 export function CompanySection({
   company,
@@ -45,6 +54,8 @@ export function CompanySection({
     setVisibleCount((prev) => Math.min(prev + LOAD_MORE_COUNT, videos.length));
   };
 
+  const LogoComponent = COMPANY_LOGOS[company];
+
   return (
     <section
       id={company}
@@ -52,18 +63,12 @@ export function CompanySection({
     >
       <div className="mb-6 flex flex-col gap-3 sm:mb-8 sm:gap-4">
         <div className="space-y-3">
-          <div
-            className="inline-block rounded-full px-3 py-1 text-xs font-medium sm:text-sm"
-            style={{
-              backgroundColor: `${color}15`,
-              color: color,
-            }}
-          >
-            {displayName}
+          <div className="flex items-center gap-3 sm:gap-4">
+            <LogoComponent size={48} className="flex-shrink-0" />
+            <h2 className="text-2xl font-semibold text-primary break-words sm:text-3xl lg:text-4xl">
+              {displayName}
+            </h2>
           </div>
-          <h2 className="text-2xl font-semibold text-primary break-words sm:text-3xl lg:text-4xl">
-            {displayName}
-          </h2>
           <p className="text-sm leading-relaxed text-secondary break-words sm:text-base lg:text-lg max-w-2xl">
             {description}
           </p>

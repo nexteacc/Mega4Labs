@@ -1,6 +1,6 @@
 # Mega 4 Labs
 
-AI industry leader interview video aggregation platform, featuring interviews, talks, and insights from leaders at OpenAI, Cursor, DeepMind (Gemini), and Anthropic.
+AI industry leader interview video aggregation platform, featuring interviews, talks, and insights from leaders at OpenAI, Cursor, Google (Gemini), and Anthropic.
 
 ## Quick Start
 

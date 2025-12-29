@@ -11,7 +11,7 @@ export const SEO_KEYWORDS = [
   "Demis Hassabis",
   "OpenAI",
   "Anthropic",
-  "DeepMind",
+  "Google",
   "Gemini",
   "Cursor AI",
   "AI interviews",

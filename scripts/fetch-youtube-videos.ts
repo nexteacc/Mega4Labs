@@ -208,14 +208,14 @@ function convertToLandingVideo(
 async function main() {
   console.log("🚀 Starting YouTube video fetch for Mega 4 Labs...\n");
   console.log("📋 Strategy:");
-  console.log("   - Fetching videos for 4 companies: OpenAI, Cursor, DeepMind, Anthropic");
+  console.log("   - Fetching videos for 4 companies: OpenAI, Cursor, Google, Anthropic");
   console.log("   - Hero videos selected from top performers\n");
 
   // Store videos by company
   const videosByCompany: Record<Company, LandingVideoWithStats[]> = {
     openai: [],
     cursor: [],
-    deepmind: [],
+    google: [],
     anthropic: [],
   };
 
@@ -323,7 +323,7 @@ async function main() {
   const allCompanyVideos = [
     ...videosByCompany.openai,
     ...videosByCompany.cursor,
-    ...videosByCompany.deepmind,
+    ...videosByCompany.google,
     ...videosByCompany.anthropic,
   ];
 
@@ -354,7 +354,7 @@ async function main() {
     ...heroVideos,
     ...videosByCompany.openai.map(({ viewCount, likeRatio, ...v }) => v),
     ...videosByCompany.cursor.map(({ viewCount, likeRatio, ...v }) => v),
-    ...videosByCompany.deepmind.map(({ viewCount, likeRatio, ...v }) => v),
+    ...videosByCompany.google.map(({ viewCount, likeRatio, ...v }) => v),
     ...videosByCompany.anthropic.map(({ viewCount, likeRatio, ...v }) => v),
   ];
 
@@ -373,7 +373,7 @@ import { LandingVideoArraySchema } from "@/lib/videos";
  * Generated: ${new Date().toISOString()}
  * Total: ${allVideos.length} videos
  *
- * Companies: OpenAI, Cursor, DeepMind, Anthropic
+ * Companies: OpenAI, Cursor, Google, Anthropic
  * Hero videos selected from top performers
  */
 const rawVideos: LandingVideo[] = ${JSON.stringify(allVideos, null, 2)};
@@ -416,7 +416,7 @@ export const videos = LandingVideoArraySchema.parse(rawVideos);
     byCompany: companyStats,
     byCategory: categoryStats,
     strategy: {
-      companies: ["openai", "cursor", "deepmind", "anthropic"],
+      companies: ["openai", "cursor", "google", "anthropic"],
       heroSelectionStrategy: "Top 4 by view count from all companies",
     },
     latestVideos: allVideos.slice(0, 5).map(v => ({

@@ -37,9 +37,9 @@ export const AI_LEADERS = {
       { name: "Ryo Lu", role: "Head of Design" },
     ],
   },
-  deepmind: {
-    name: "DeepMind",
-    displayName: "Google DeepMind / Gemini",
+  google: {
+    name: "Google",
+    displayName: "Google / Gemini",
     color: "#4285F4",
     people: [
       { name: "Demis Hassabis", role: "CEO & Chief AGI Scientist" },
@@ -106,32 +106,32 @@ export const SEARCH_QUERIES: SearchQuery[] = [
   },
 
   // ========================================
-  // DeepMind
+  // Google
   // ========================================
   {
     query: "Demis Hassabis Google interview",
-    company: "deepmind",
+    company: "google",
     person: "Demis Hassabis",
     maxResults: 30,
     minDuration: 300,
   },
   {
     query: "Josh Woodward Google interview",
-    company: "deepmind",
+    company: "google",
     person: "Josh Woodward",
     maxResults: 20,
     minDuration: 300,
   },
   {
     query: "Sebastian Borgeaud Google interview",
-    company: "deepmind",
+    company: "google",
     person: "Sebastian Borgeaud",
     maxResults: 20,
     minDuration: 300,
   },
   {
     query: "Shane Legg Google interview",
-    company: "deepmind",
+    company: "google",
     person: "Shane Legg",
     maxResults: 20,
     minDuration: 300,

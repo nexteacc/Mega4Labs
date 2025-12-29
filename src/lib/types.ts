@@ -1,7 +1,7 @@
 /**
  * Company types for Mega 4 Labs
  */
-export type Company = "openai" | "cursor" | "deepmind" | "anthropic";
+export type Company = "openai" | "cursor" | "google" | "anthropic";
 
 export type VideoCategory = "hero" | Company;
 

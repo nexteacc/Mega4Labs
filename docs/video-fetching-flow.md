@@ -59,7 +59,7 @@
 │                                                             │
 │ Validation points:                                          │
 │   ✓ id is not empty                                         │
-│   ✓ company is valid (openai/cursor/deepmind/anthropic)     │
+│   ✓ company is valid (openai/cursor/google/anthropic)     │
 │   ✓ category is valid (hero + companies)                    │
 │   ✓ title/description not empty                             │
 │   ✓ thumbnail URL format correct                            │
@@ -80,7 +80,7 @@
 │                                                             │
 │ Function 2: getVideoModules()                               │
 │   - Organize videos by company                              │
-│   - Return OpenAI/Cursor/DeepMind/Anthropic modules         │
+│   - Return OpenAI/Cursor/Google/Anthropic modules         │
 │   - Each module: displayName, description, color, videos    │
 └─────────────────────────────────────────────────────────────┘
                     ↓

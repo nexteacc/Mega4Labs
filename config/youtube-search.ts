@@ -175,13 +175,13 @@ export const SEARCH_QUERIES: SearchQuery[] = [
  */
 export const QUALITY_FILTERS = {
   default: {
-    minViewCount: 10000,      // 1万播放量起
-    minLikeRatio: 0.03,       // 3% 点赞率
+    minViewCount: 5000,       // 5千播放量起（降低门槛，包含更多优质小众访谈）
+    minLikeRatio: 0.015,      // 1.5% 点赞率（更现实的标准）
     maxAgeInDays: 730,        // 2年内
   },
   hero: {
-    minViewCount: 100000,     // 10万播放量
-    minLikeRatio: 0.035,      // 3.5% 点赞率
+    minViewCount: 50000,      // 5万播放量（降低门槛，确保有足够候选）
+    minLikeRatio: 0.025,      // 2.5% 点赞率（更现实的标准）
     maxAgeInDays: 365,        // 1年内
   },
 };

@@ -44,3 +44,14 @@ This will:
 1. Search for videos using Exa AI
 2. Fetch metadata from YouTube API
 3. Generate `src/data/videos.ts` and `reports/latest-fetch.json`
+
+### GitHub Actions Setup
+
+For automated video updates, configure these secrets in your GitHub repository:
+
+1. Go to **Settings → Secrets and variables → Actions**
+2. Add the following secrets:
+   - `EXA_API_KEY` - Your Exa AI API key
+   - `YOUTUBE_API_KEY` - Your YouTube API key
+
+The workflow runs automatically daily or can be triggered manually via **Actions → Update Videos → Run workflow**.

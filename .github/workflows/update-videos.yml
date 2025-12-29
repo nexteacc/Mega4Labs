@@ -42,7 +42,7 @@ jobs:
       - name: Check for changes
         id: git-check
         run: |
-          git add src/data/videos.ts reports/latest-fetch.json
+          git add src/data/videos.ts
           git diff --cached --exit-code || echo "changed=true" >> $GITHUB_OUTPUT
           
       - name: Commit and push if changed
@@ -50,7 +50,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/data/videos.ts reports/latest-fetch.json
+          git add src/data/videos.ts
           git commit -m "chore: auto-update videos [skip ci]"
           git pull --rebase origin main || (git rebase --abort && git pull --no-rebase origin main)
           git push

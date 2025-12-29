@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { OpenAI, Anthropic, Google, Cursor } from "@lobehub/icons";
-import { AI_LEADERS } from "../../config/youtube-search";
+import { AI_LEADERS } from "@/config/video-search";
 import type { Company } from "@/lib/types";
 
 const COMPANY_LOGOS = {

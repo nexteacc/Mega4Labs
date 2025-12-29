@@ -1,4 +1,4 @@
-name: Update YouTube Videos
+name: Update Videos
 
 on:
   schedule:
@@ -23,14 +23,20 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: '22'  # 使用 Node.js 22 LTS
-          cache: 'npm'
+          cache: 'pnpm'
+          
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 9
           
       - name: Install dependencies
-        run: npm ci
+        run: pnpm install --frozen-lockfile
         
-      - name: Fetch YouTube videos
-        run: npm run fetch-videos
+      - name: Fetch videos
+        run: pnpm run fetch-videos
         env:
+          EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           
       - name: Check for changes

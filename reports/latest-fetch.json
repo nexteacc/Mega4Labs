@@ -1,60 +1,64 @@
 {
-  "timestamp": "2025-12-29T03:42:53.287Z",
-  "totalVideos": 52,
-  "totalSearches": 12,
+  "timestamp": "2025-12-29T13:04:58.401Z",
+  "totalVideos": 9,
+  "totalSearches": 13,
+  "byCompany": {
+    "cursor": 3,
+    "openai": 3,
+    "deepmind": 2,
+    "anthropic": 1
+  },
   "byCategory": {
-    "proReview": 26,
-    "tutorial": 17,
-    "shorts": 5,
-    "hero": 4
+    "cursor": 3,
+    "hero": 1,
+    "openai": 2,
+    "deepmind": 2,
+    "anthropic": 1
   },
-  "byLocale": {
-    "en": 18,
-    "zh": 13,
-    "ko": 14,
-    "ja": 7
-  },
-  "optimization": {
-    "searchesPerLanguage": 3,
-    "totalLanguages": 4,
-    "heroSelectionStrategy": "从其他类别精选 Top 4",
-    "deduplicationStrategy": "Tutorial、ProReview、Shorts 互斥"
+  "strategy": {
+    "companies": [
+      "openai",
+      "cursor",
+      "deepmind",
+      "anthropic"
+    ],
+    "heroSelectionStrategy": "Top 4 by view count from all companies"
   },
   "latestVideos": [
     {
-      "id": "9zCVb07l1lA",
-      "title": "I Tried 3 AI Browsers. Here&#39;s the Truth.",
-      "category": "proReview",
-      "locale": "en",
-      "publishDate": "2025-12-08"
+      "id": "AApjEHsMkTU",
+      "title": "This was the biggest debate in design this year",
+      "company": "cursor",
+      "person": "Ryo Lu",
+      "publishDate": "2025-12-19"
     },
     {
-      "id": "QEsPDElvTyI",
-      "title": "AI 瀏覽器試玩 !  Perplexity Comet 登陸 Android　功能夠唔夠班飛甩 Chrome 做 Browser Default",
-      "category": "proReview",
-      "locale": "zh",
-      "publishDate": "2025-11-22"
+      "id": "2P27Ef-LLuQ",
+      "title": "Sam Altman: How OpenAI Wins, ChatGPT’s Future, AI Buildout Logic, IPO in 2026?",
+      "company": "openai",
+      "person": "Sam Altman",
+      "publishDate": "2025-12-18"
     },
     {
-      "id": "9SKavWOf-PY",
-      "title": "The MOST Exciting Android Browser App in YEARS // Comet by Perplexity",
-      "category": "proReview",
-      "locale": "en",
-      "publishDate": "2025-11-19"
+      "id": "2P27Ef-LLuQ",
+      "title": "Sam Altman: How OpenAI Wins, ChatGPT’s Future, AI Buildout Logic, IPO in 2026?",
+      "company": "openai",
+      "person": "Sam Altman",
+      "publishDate": "2025-12-18"
     },
     {
-      "id": "o9Cnk2k4zRg",
-      "title": "&quot;크롬&quot; 당장 삭제하세요! 💣 GPT 탑재 AI 브라우저 끝판왕 &quot;아틀라스&quot;가 1가지 기능으로 코멧을 압살했습니다 (feat. 초보자용)",
-      "category": "proReview",
-      "locale": "ko",
-      "publishDate": "2025-11-19"
+      "id": "cNGDAqFXvew",
+      "title": "”We’re Ahead of Where I Thought We’d Be” — Gemini 3 &amp; the Future of AI",
+      "company": "deepmind",
+      "person": "Sebastian Borgeaud",
+      "publishDate": "2025-12-18"
     },
     {
-      "id": "VWGkNvfkMys",
-      "title": "After Decades, I stopped using Chrome (Why I Chose Comet)",
-      "category": "proReview",
-      "locale": "en",
-      "publishDate": "2025-11-08"
+      "id": "E_IANHdYqfQ",
+      "title": "Shane Legg, (Google DeepMind) : la llegada de la AGI | Podcast en español",
+      "company": "deepmind",
+      "person": "Shane Legg",
+      "publishDate": "2025-12-12"
     }
   ]
 }

@@ -1,12 +1,3 @@
-import type { Locale } from "@/lib/i18n";
-
-const LOCALE_MAP: Record<Locale, string> = {
-  en: "en-US",
-  ko: "ko-KR",
-  ja: "ja-JP",
-  zh: "zh-CN",
-};
-
 const padNumber = (value: number) => value.toString().padStart(2, "0");
 
 const parseIsoDurationToSeconds = (isoDuration: string): number | null => {
@@ -44,15 +35,14 @@ export const formatDuration = (isoDuration: string): string => {
   return `${padNumber(minutes)}:${padNumber(seconds)}`;
 };
 
-export const formatPublishDate = (isoDate: string, locale: Locale): string => {
+export const formatPublishDate = (isoDate: string): string => {
   const date = new Date(isoDate);
   if (Number.isNaN(date.getTime())) {
     return isoDate;
   }
 
-  const resolvedLocale = LOCALE_MAP[locale] ?? "en-US";
   try {
-    return new Intl.DateTimeFormat(resolvedLocale, {
+    return new Intl.DateTimeFormat("en-US", {
       year: "numeric",
       month: "short",
       day: "numeric",

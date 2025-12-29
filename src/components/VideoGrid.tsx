@@ -2,14 +2,12 @@
 
 import clsx from "clsx";
 import type { LandingVideo } from "@/lib/types";
-import type { Locale } from "@/lib/i18n";
 import { VideoCard } from "@/components/VideoCard";
 
 type GridColumns = 1 | 2 | 3 | 4;
 
 type VideoGridProps = {
   videos: LandingVideo[];
-  locale: Locale;
   onSelect?: (video: LandingVideo, index: number) => void;
   cardVariant?: "default" | "hero" | "short";
   columns?: {
@@ -28,7 +26,6 @@ const columnClassMap: Record<GridColumns, string> = {
 
 export function VideoGrid({
   videos,
-  locale,
   onSelect,
   cardVariant = "default",
   columns = { base: 1, md: 2, lg: 3 },
@@ -46,7 +43,6 @@ export function VideoGrid({
         <VideoCard
           key={`${video.id}-${index}`}
           video={video}
-          locale={locale}
           variant={cardVariant}
           index={index}
           onSelect={() => onSelect?.(video, index)}

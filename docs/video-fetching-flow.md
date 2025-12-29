@@ -1,106 +1,100 @@
 ┌─────────────────────────────────────────────────────────────┐
-│ 阶段 0: 准备工作                                              │
+│ Phase 0: Setup                                              │
 ├─────────────────────────────────────────────────────────────┤
-│ 文件: .env.local                                             │
-│ 作用: 配置 YOUTUBE_API_KEY                                   │
-│                                                              │
-│ 文件: config/youtube-search.ts                               │
-│ 作用: 定义搜索策略                                            │
-│   - SEARCH_QUERIES: 搜索关键词 + 分类 + 语言                  │
-│   - QUALITY_FILTERS: 质量筛选规则                            │
-│   - YOUTUBE_API_CONFIG: API 配置                            │
+│ File: .env.local                                            │
+│ Purpose: Configure YOUTUBE_API_KEY                          │
+│                                                             │
+│ File: config/youtube-search.ts                              │
+│ Purpose: Define search strategy                             │
+│   - AI_LEADERS: Company config (name, color, people)        │
+│   - SEARCH_QUERIES: Keywords + company + person             │
+│   - QUALITY_FILTERS: Quality filtering rules                │
+│   - YOUTUBE_API_CONFIG: API configuration                   │
 └─────────────────────────────────────────────────────────────┘
-                     ↓
+                    ↓
 ┌─────────────────────────────────────────────────────────────┐
-│ 阶段 1: 执行抓取                                              │
+│ Phase 1: Fetch Videos                                       │
 ├─────────────────────────────────────────────────────────────┤
-│ 命令: npm run fetch-videos                                   │
-│ 文件: scripts/fetch-youtube-videos.ts                        │
-│                                                              │
-│ 子流程 1.1: 初始化                                            │
-│   - 加载环境变量                                              │
-│   - 验证 API Key                                             │
-│   - 准备数据容器                                              │
-│                                                              │
-│ 子流程 1.2: 循环搜索 (for each SEARCH_QUERY)                 │
-│   ├─ 调用 Search API                                         │
-│   ├─ 调用 Videos API (批量获取详情)                          │
-│   ├─ 质量筛选 (passesQualityFilter)                          │
-│   ├─ 数据转换 (convertToLandingVideo)                        │
-│   ├─ 去重 (基于 videoId)                                     │
-│   └─ 延迟 1 秒 (避免超配额)                                   │
-│                                                              │
-│ 子流程 1.3: 后处理                                            │
-│   ├─ 全局去重                                                │
-│   ├─ 按发布日期排序                                           │
-│   └─ 生成统计报告                                             │
+│ Command: npm run fetch-videos                               │
+│ File: scripts/fetch-youtube-videos.ts                       │
+│                                                             │
+│ Subprocess 1.1: Initialize                                  │
+│   - Load environment variables                              │
+│   - Validate API Key                                        │
+│   - Prepare data containers                                 │
+│                                                             │
+│ Subprocess 1.2: Search Loop (for each SEARCH_QUERY)         │
+│   ├─ Call Search API                                        │
+│   ├─ Call Videos API (batch fetch details)                  │
+│   ├─ Quality filter (passesQualityFilter)                   │
+│   ├─ Data transform (convertToLandingVideo)                 │
+│   ├─ Dedupe (by videoId)                                    │
+│   └─ Delay 1 second (avoid quota)                           │
+│                                                             │
+│ Subprocess 1.3: Post-processing                             │
+│   ├─ Global dedupe                                          │
+│   ├─ Sort by publish date                                   │
+│   └─ Generate statistics report                             │
 └─────────────────────────────────────────────────────────────┘
-                     ↓
+                    ↓
 ┌─────────────────────────────────────────────────────────────┐
-│ 阶段 2: 生成文件                                              │
+│ Phase 2: Generate Files                                     │
 ├─────────────────────────────────────────────────────────────┤
-│ 输出 1: src/data/videos.ts                                   │
-│   - TypeScript 格式                                          │
-│   - 包含所有视频数据                                          │
-│   - 自动导入 Zod Schema 验证                                  │
-│                                                              │
-│ 输出 2: reports/latest-fetch.json                            │
-│   - JSON 格式报告                                             │
-│   - 统计信息 (总数、分类、语言)                                │
-│   - 最新视频列表                                              │
+│ Output 1: src/data/videos.ts                                │
+│   - TypeScript format                                       │
+│   - Contains all video data                                 │
+│   - Auto-imports Zod Schema validation                      │
+│                                                             │
+│ Output 2: reports/latest-fetch.json                         │
+│   - JSON format report                                      │
+│   - Statistics (total, by company)                          │
+│   - Latest videos list                                      │
 └─────────────────────────────────────────────────────────────┘
-                     ↓
+                    ↓
 ┌─────────────────────────────────────────────────────────────┐
-│ 阶段 3: 数据验证                                              │
+│ Phase 3: Data Validation                                    │
 ├─────────────────────────────────────────────────────────────┤
-│ 文件: src/lib/videos.ts                                      │
-│ 作用: 定义 Zod Schema                                         │
-│                                                              │
-│ 验证点:                                                       │
-│   ✓ id 不为空                                                │
-│   ✓ locale 是有效语言                                         │
-│   ✓ category 是有效分类                                       │
-│   ✓ title/description 不为空                                 │
-│   ✓ thumbnail URL 格式正确                                   │
-│                                                              │
-│ 文件: src/data/videos.ts                                     │
-│ 执行: export const videos = Schema.parse(rawVideos)          │
-│ 结果: 如果数据不合法，构建时报错                               │
+│ File: src/lib/videos.ts                                     │
+│ Purpose: Define Zod Schema                                  │
+│                                                             │
+│ Validation points:                                          │
+│   ✓ id is not empty                                         │
+│   ✓ company is valid (openai/cursor/deepmind/anthropic)     │
+│   ✓ category is valid (hero + companies)                    │
+│   ✓ title/description not empty                             │
+│   ✓ thumbnail URL format correct                            │
+│                                                             │
+│ File: src/data/videos.ts                                    │
+│ Execute: export const videos = Schema.parse(rawVideos)      │
+│ Result: If data invalid, build error                        │
 └─────────────────────────────────────────────────────────────┘
-                     ↓
+                    ↓
 ┌─────────────────────────────────────────────────────────────┐
-│ 阶段 4: 内容聚合                                              │
+│ Phase 4: Content Aggregation                                │
 ├─────────────────────────────────────────────────────────────┤
-│ 文件: src/lib/content.ts                                     │
-│                                                              │
-│ 函数 1: getAllVideosForLocale(locale)                        │
-│   - 筛选指定语言的视频                                         │
-│   - 如果没有，回退到英文                                       │
-│   - 去重 + 按日期排序                                         │
-│                                                              │
-│ 函数 2: getHeroVideos(locale)                                │
-│   - 获取 category="hero" 的视频                               │
-│   - 最多返回 4 个                                             │
-│                                                              │
-│ 函数 3: getVideoModules(locale)                              │
-│   - 按分类组织视频                                            │
-│   - 返回 Tutorial/Demo/ProReview/Shorts 模块                 │
-│   - 每个模块包含标题、描述、视频列表                            │
+│ File: src/lib/content.ts                                    │
+│                                                             │
+│ Function 1: getHeroVideos()                                 │
+│   - Get videos with category="hero"                         │
+│   - Return max 4 videos                                     │
+│                                                             │
+│ Function 2: getVideoModules()                               │
+│   - Organize videos by company                              │
+│   - Return OpenAI/Cursor/DeepMind/Anthropic modules         │
+│   - Each module: displayName, description, color, videos    │
 └─────────────────────────────────────────────────────────────┘
-                     ↓
+                    ↓
 ┌─────────────────────────────────────────────────────────────┐
-│ 阶段 5: 页面渲染                                              │
+│ Phase 5: Page Rendering                                     │
 ├─────────────────────────────────────────────────────────────┤
-│ 文件: src/app/[locale]/page.tsx                              │
-│                                                              │
-│ 渲染流程:                                                     │
-│   1. 解析 locale 参数                                         │
-│   2. 调用 getHeroVideos(locale)                              │
-│   3. 调用 getVideoModules(locale)                            │
-│   4. 渲染组件:                                                │
-│      - HeroSection (精选视频)                                │
-│      - VideoModuleSection × 4 (各分类模块)                   │
-│      - IntermediateCTA (中间 CTA)                            │
-│      - FooterCTA (底部 CTA)                                  │
-│   5. 注入 JSON-LD 结构化数据                                  │
+│ File: src/app/page.tsx                                      │
+│                                                             │
+│ Render flow:                                                │
+│   1. Call getHeroVideos()                                   │
+│   2. Call getVideoModules()                                 │
+│   3. Render components:                                     │
+│      - HeroSection (featured videos)                        │
+│      - CompanySection × 4 (company modules)                 │
+│      - FAQSection (FAQ)                                     │
+│   4. Inject JSON-LD structured data                         │
 └─────────────────────────────────────────────────────────────┘

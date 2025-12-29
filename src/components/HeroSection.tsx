@@ -2,24 +2,20 @@
 
 import { useState, useMemo } from "react";
 import type { LandingVideo } from "@/lib/types";
-import type { Locale } from "@/lib/i18n";
 import {
   HERO_HEADLINE,
   HERO_PILL,
   HERO_SUBHEAD,
-  CTA_LABELS,
 } from "@/lib/i18n";
-import { CTAButton } from "@/components/CTAButton";
 import { VideoCard } from "@/components/VideoCard";
 import { VideoPlayerDialog } from "@/components/VideoPlayerDialog";
 
 type HeroSectionProps = {
   videos: LandingVideo[];
-  locale: Locale;
   heroSupporting: string;
 };
 
-export function HeroSection({ videos, locale, heroSupporting }: HeroSectionProps) {
+export function HeroSection({ videos, heroSupporting }: HeroSectionProps) {
   const [open, setOpen] = useState(false);
   const [selected, setSelected] = useState<LandingVideo | null>(null);
 
@@ -41,22 +37,19 @@ export function HeroSection({ videos, locale, heroSupporting }: HeroSectionProps
       <div className="grid gap-8 sm:gap-12 lg:grid-cols-[minmax(0,1fr)_1.2fr] lg:items-start">
         <div className="space-y-5 sm:space-y-6">
           <span className="inline-flex items-center rounded-full bg-white/80 px-3 py-1.5 text-xs font-semibold text-accent shadow-sm backdrop-blur sm:px-4 sm:py-2 sm:text-sm">
-            {HERO_PILL[locale]}
+            {HERO_PILL}
           </span>
           <div className="space-y-3 sm:space-y-4">
             <h1 className="whitespace-pre-line text-3xl font-semibold leading-tight text-primary sm:text-5xl lg:text-6xl break-words">
-              {HERO_HEADLINE[locale]}
+              {HERO_HEADLINE}
             </h1>
             <p className="text-base leading-relaxed text-secondary sm:text-lg lg:text-xl break-words">
-              {HERO_SUBHEAD[locale]}
+              {HERO_SUBHEAD}
             </p>
             <p className="text-xs font-medium uppercase tracking-wide text-secondary/70 sm:text-sm break-words">
               {heroSupporting}
             </p>
           </div>
-          <CTAButton locale={locale} location="hero">
-            {CTA_LABELS[locale]}
-          </CTAButton>
         </div>
 
         <div className="grid gap-4 sm:grid-cols-2 sm:gap-6">
@@ -64,7 +57,6 @@ export function HeroSection({ videos, locale, heroSupporting }: HeroSectionProps
             <VideoCard
               key={`${video.id}-${index}`}
               video={video}
-              locale={locale}
               variant="hero"
               index={index}
               onSelect={handleSelect}

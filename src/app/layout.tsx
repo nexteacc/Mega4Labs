@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
+import { Footer } from "@/components/Footer";
+import { SITE_NAME, SEO_DESCRIPTION } from "@/lib/i18n";
+import Link from "next/link";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -17,13 +20,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.perplexitypro.info"),
+  metadataBase: new URL("https://mega4lab.com"),
   title: {
-    default: "Perplexity Pro Learning Hub",
-    template: "%s | Perplexity Pro",
+    default: SITE_NAME,
+    template: `%s | ${SITE_NAME}`,
   },
-  description:
-    "Learn how Comet Browser and Perplexity AI combine to accelerate your workflows with curated tutorials, demos, and pro reviews.",
+  description: SEO_DESCRIPTION,
   icons: {
     icon: [
       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
@@ -41,21 +43,33 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  // 验证 Google Analytics Measurement ID 格式
   const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
   const isValidGAId = gaId && /^G-[A-Z0-9]+$/.test(gaId);
 
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <meta name="theme-color" content="#21808d" />
+        <meta name="theme-color" content="#1a1a2e" />
         <link rel="preconnect" href="https://www.youtube.com" />
         <link rel="dns-prefetch" href="https://www.youtube.com" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-base text-primary`}
       >
-        {children}
+        <div className="min-h-screen bg-base">
+          <header className="mx-auto flex w-full max-w-[1180px] items-center justify-between gap-2 px-4 pb-6 pt-8 sm:gap-4 sm:px-8 lg:px-10">
+            <Link
+              href="/"
+              className="rounded-full bg-hero px-3 py-1 text-xs font-medium text-accent hover:opacity-80 transition-opacity sm:px-4 sm:text-sm"
+              title={SITE_NAME}
+            >
+              <span className="hidden sm:inline">{SITE_NAME}</span>
+              <span className="inline sm:hidden">MEGA 4</span>
+            </Link>
+          </header>
+          <main>{children}</main>
+        </div>
+        <Footer />
         <Analytics />
         {isValidGAId && <GoogleAnalytics measurementId={gaId} />}
       </body>

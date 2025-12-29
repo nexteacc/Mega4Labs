@@ -1,41 +1,29 @@
 "use client";
 
 import { useState } from "react";
-import type { LandingVideo } from "@/lib/types";
-import type { Locale } from "@/lib/i18n";
+import type { LandingVideo, Company } from "@/lib/types";
 import { LOAD_MORE_LABEL } from "@/lib/i18n";
-import { CTAButton } from "@/components/CTAButton";
 import { VideoGrid } from "@/components/VideoGrid";
 import { VideoPlayerDialog } from "@/components/VideoPlayerDialog";
 
-type VideoModuleSectionProps = {
-  title: string;
+type CompanySectionProps = {
+  company: Company;
+  displayName: string;
   description: string;
+  color: string;
   videos: LandingVideo[];
-  locale: Locale;
-  ctaLabel: string;
-  cardVariant?: "default" | "short";
-  columns?: {
-    base?: 1 | 2 | 3 | 4;
-    md?: 1 | 2 | 3 | 4;
-    lg?: 1 | 2 | 3 | 4;
-  };
-  showCTA?: boolean;
 };
 
 const INITIAL_LOAD = 6;
 const LOAD_MORE_COUNT = 6;
 
-export function VideoModuleSection({
-  title,
+export function CompanySection({
+  company,
+  displayName,
   description,
+  color,
   videos,
-  locale,
-  ctaLabel,
-  cardVariant = "default",
-  columns,
-  showCTA = true,
-}: VideoModuleSectionProps) {
+}: CompanySectionProps) {
   const [open, setOpen] = useState(false);
   const [selected, setSelected] = useState<LandingVideo | null>(null);
   const [visibleCount, setVisibleCount] = useState(INITIAL_LOAD);
@@ -58,29 +46,35 @@ export function VideoModuleSection({
   };
 
   return (
-    <section className="mx-auto w-full max-w-[1180px] px-4 py-[var(--spacing-section)] sm:px-8 lg:px-10">
-      <div className="mb-6 flex flex-col gap-3 sm:mb-8 sm:flex-row sm:items-end sm:justify-between sm:gap-4">
-        <div className="space-y-2 max-w-2xl sm:space-y-3">
+    <section
+      id={company}
+      className="mx-auto w-full max-w-[1180px] px-4 py-[var(--spacing-section)] sm:px-8 lg:px-10"
+    >
+      <div className="mb-6 flex flex-col gap-3 sm:mb-8 sm:gap-4">
+        <div className="space-y-3">
+          <div
+            className="inline-block rounded-full px-3 py-1 text-xs font-medium sm:text-sm"
+            style={{
+              backgroundColor: `${color}15`,
+              color: color,
+            }}
+          >
+            {displayName}
+          </div>
           <h2 className="text-2xl font-semibold text-primary break-words sm:text-3xl lg:text-4xl">
-            {title}
+            {displayName}
           </h2>
-          <p className="text-sm leading-relaxed text-secondary break-words sm:text-base lg:text-lg">
+          <p className="text-sm leading-relaxed text-secondary break-words sm:text-base lg:text-lg max-w-2xl">
             {description}
           </p>
         </div>
-        {showCTA && (
-          <CTAButton variant="ghost" locale={locale} location="module">
-            {ctaLabel}
-          </CTAButton>
-        )}
       </div>
 
       <VideoGrid
         videos={visibleVideos}
-        locale={locale}
-        cardVariant={cardVariant}
-        columns={columns}
-        onSelect={(video) => handleSelect(video)}
+        cardVariant="default"
+        columns={{ base: 1, md: 2, lg: 3 }}
+        onSelect={handleSelect}
       />
 
       {hasMore && (
@@ -89,7 +83,7 @@ export function VideoModuleSection({
             onClick={handleLoadMore}
             className="rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 sm:px-6 sm:py-3 sm:text-base"
           >
-            {LOAD_MORE_LABEL[locale]}
+            {LOAD_MORE_LABEL}
           </button>
         </div>
       )}

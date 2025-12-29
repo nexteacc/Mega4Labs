@@ -1,6 +1,9 @@
-import type { Locale } from "@/lib/i18n";
+/**
+ * Company types for MEGA 4 LAB
+ */
+export type Company = "openai" | "cursor" | "deepmind" | "anthropic";
 
-export type VideoCategory = "hero" | "tutorial" | "proReview" | "shorts";
+export type VideoCategory = "hero" | Company;
 
 export type VideoPlatform = "youtube";
 
@@ -12,7 +15,7 @@ export interface VideoThumbnail {
 
 export interface LandingVideo {
   id: string;
-  locale: Locale;
+  company: Company;
   category: VideoCategory;
   title: string;
   description: string;
@@ -22,11 +25,13 @@ export interface LandingVideo {
   platform: VideoPlatform;
   thumbnail: VideoThumbnail;
   tags?: string[];
+  person?: string; // Featured person name (e.g., "Sam Altman")
 }
 
 export interface VideoModule {
-  category: Extract<VideoCategory, "tutorial" | "proReview" | "shorts">;
-  title: string;
+  company: Company;
+  displayName: string;
   description: string;
+  color: string;
   videos: LandingVideo[];
 }

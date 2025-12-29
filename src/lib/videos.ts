@@ -1,5 +1,5 @@
 import { z } from "zod";
-import type { Locale } from "@/lib/i18n";
+import type { Company } from "@/lib/types";
 
 const VideoThumbnailSchema = z.object({
   url: z.string().url(),
@@ -7,20 +7,21 @@ const VideoThumbnailSchema = z.object({
   height: z.number().positive(),
 });
 
+const CompanySchema = z.enum(["openai", "cursor", "deepmind", "anthropic"]);
+
 const LandingVideoSchema = z.object({
   id: z.string().min(1),
-  locale: z.custom<Locale>((value) =>
-    typeof value === "string" && ["en", "ko", "ja", "zh"].includes(value),
-  ),
-  category: z.enum(["hero", "tutorial", "proReview", "shorts"]),
+  company: CompanySchema,
+  category: z.union([z.literal("hero"), CompanySchema]),
   title: z.string().min(1),
-  description: z.string(), // 允许空描述
+  description: z.string(),
   channelTitle: z.string().min(1),
   publishDate: z.string().min(1),
   duration: z.string().min(1),
   platform: z.literal("youtube"),
   thumbnail: VideoThumbnailSchema,
   tags: z.array(z.string()).optional(),
+  person: z.string().optional(),
 });
 
 export const LandingVideoArraySchema = z.array(LandingVideoSchema);

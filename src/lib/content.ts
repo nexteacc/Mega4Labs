@@ -1,19 +1,11 @@
 import { videos } from "@/data/videos";
 import {
-  LOCALES,
-  MODULE_COPY,
-  MODULE_TITLES,
-  fallbackLocale,
-  resolveLocale,
-  type Locale,
+  COMPANIES,
+  COMPANY_TITLES,
+  COMPANY_DESCRIPTIONS,
+  COMPANY_COLORS,
 } from "@/lib/i18n";
-import type { LandingVideo, VideoModule } from "@/lib/types";
-
-const MODULE_ORDER: VideoModule["category"][] = [
-  "tutorial",
-  "proReview",
-  "shorts",
-];
+import type { LandingVideo, VideoModule, Company } from "@/lib/types";
 
 const sortByPublishDateDesc = (items: LandingVideo[]): LandingVideo[] =>
   [...items].sort(
@@ -31,60 +23,63 @@ const dedupeById = (items: LandingVideo[]): LandingVideo[] => {
   });
 };
 
-const collectVideosForLocale = (locale: Locale): LandingVideo[] => {
-  const normalized = resolveLocale(locale);
-  const localized = videos.filter((video) => video.locale === normalized);
+/**
+ * Get all videos sorted by publish date
+ */
+export const getAllVideos = (): LandingVideo[] =>
+  dedupeById(sortByPublishDateDesc(videos));
 
-  if (localized.length > 0) {
-    return dedupeById(sortByPublishDateDesc(localized));
-  }
-
-  const fallbackVideos = videos.filter((video) => video.locale === fallbackLocale);
-  return dedupeById(sortByPublishDateDesc(fallbackVideos));
-};
-
-export const getAllVideosForLocale = (locale: Locale): LandingVideo[] =>
-  collectVideosForLocale(locale);
-
-export const getHeroVideos = (locale: Locale): LandingVideo[] => {
-  const pool = collectVideosForLocale(locale);
-  const heroes = pool.filter((video) => video.category === "hero");
+/**
+ * Get hero videos (top 4)
+ */
+export const getHeroVideos = (): LandingVideo[] => {
+  const heroes = videos.filter((video) => video.category === "hero");
 
   if (heroes.length > 0) {
     return heroes.slice(0, 4);
   }
 
-  const fallbackHeroes = videos.filter(
-    (video) => video.locale === fallbackLocale && video.category === "hero",
-  );
-
-  return sortByPublishDateDesc(fallbackHeroes).slice(0, 4);
-};
-
-export const getVideoModules = (locale: Locale): VideoModule[] => {
-  const pool = collectVideosForLocale(locale);
-
-  return MODULE_ORDER.reduce<VideoModule[]>((accumulator, category) => {
-    const categoryVideos = pool.filter((video) => video.category === category);
-    if (categoryVideos.length === 0) {
-      return accumulator;
+  // Fallback: pick one from each company
+  const fallbackHeroes: LandingVideo[] = [];
+  for (const company of COMPANIES) {
+    const companyVideo = videos.find((v) => v.company === company);
+    if (companyVideo) {
+      fallbackHeroes.push(companyVideo);
     }
+  }
 
-    const localizedTitle = MODULE_TITLES[locale]?.[category];
-    const fallbackTitle = MODULE_TITLES[fallbackLocale][category];
-    const localizedCopy = MODULE_COPY[locale]?.[category];
-    const fallbackCopy = MODULE_COPY[fallbackLocale][category];
-
-    accumulator.push({
-      category,
-      title: localizedTitle ?? fallbackTitle,
-      description: localizedCopy ?? fallbackCopy,
-      videos: categoryVideos,
-    });
-
-    return accumulator;
-  }, []);
+  return fallbackHeroes.slice(0, 4);
 };
 
-export const isSupportedLocale = (locale: string): locale is Locale =>
-  LOCALES.includes(locale as Locale);
+/**
+ * Get video modules organized by company
+ */
+export const getVideoModules = (): VideoModule[] => {
+  return COMPANIES.map((company) => {
+    const companyVideos = videos.filter(
+      (video) => video.company === company && video.category !== "hero"
+    );
+
+    return {
+      company,
+      displayName: COMPANY_TITLES[company],
+      description: COMPANY_DESCRIPTIONS[company],
+      color: COMPANY_COLORS[company],
+      videos: sortByPublishDateDesc(companyVideos),
+    };
+  }).filter((module) => module.videos.length > 0);
+};
+
+/**
+ * Get videos for a specific company
+ */
+export const getVideosByCompany = (company: Company): LandingVideo[] => {
+  return dedupeById(
+    sortByPublishDateDesc(videos.filter((v) => v.company === company))
+  );
+};
+
+/**
+ * Get total video count
+ */
+export const getVideoCount = (): number => videos.length;

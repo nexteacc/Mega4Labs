@@ -1,11 +1,11 @@
 {
-  "name": "Perplexity Pro Learning Hub",
-  "short_name": "Perplexity Pro",
-  "description": "Master Comet Browser and Perplexity AI with curated video tutorials",
+  "name": "MEGA 4 LAB",
+  "short_name": "MEGA 4 LAB",
+  "description": "Curated interviews and insights from AI industry leaders",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f9fafb",
-  "theme_color": "#21808d",
+  "theme_color": "#1a1a2e",
   "icons": [
     {
       "src": "/favicon-32x32.png",

@@ -4,14 +4,12 @@ import Image from "next/image";
 import clsx from "clsx";
 import { formatDuration, formatPublishDate } from "@/lib/format";
 import type { LandingVideo } from "@/lib/types";
-import type { Locale } from "@/lib/i18n";
 import { useAnalytics } from "@/hooks/useAnalytics";
 
 type VideoCardVariant = "default" | "hero" | "short";
 
 type VideoCardProps = {
   video: LandingVideo;
-  locale: Locale;
   onSelect: (video: LandingVideo) => void;
   variant?: VideoCardVariant;
   index?: number;
@@ -28,7 +26,6 @@ const variantClasses: Record<VideoCardVariant, string> = {
 
 export function VideoCard({
   video,
-  locale,
   onSelect,
   variant = "default",
   index,
@@ -38,8 +35,8 @@ export function VideoCard({
   const handleClick = () => {
     track("video_play", {
       videoId: video.id,
+      company: video.company,
       category: video.category,
-      locale,
       position: index ?? -1,
       context: variant,
     });
@@ -78,7 +75,7 @@ export function VideoCard({
             ⏱ {formatDuration(video.duration)}
           </span>
           <span className="inline-flex items-center gap-0.5 rounded-full bg-white/15 px-1.5 py-0.5 sm:gap-1 sm:px-2 sm:py-1">
-            📅 {formatPublishDate(video.publishDate, locale)}
+            📅 {formatPublishDate(video.publishDate)}
           </span>
         </div>
       </div>
@@ -90,9 +87,16 @@ export function VideoCard({
         <p className="line-clamp-2 text-xs leading-relaxed text-secondary break-words sm:text-sm">
           {video.description}
         </p>
-        <span className="text-[10px] font-semibold uppercase tracking-wide text-secondary/70 truncate sm:text-xs">
-          {video.channelTitle}
-        </span>
+        <div className="flex items-center gap-2">
+          <span className="text-[10px] font-semibold uppercase tracking-wide text-secondary/70 truncate sm:text-xs">
+            {video.channelTitle}
+          </span>
+          {video.person && (
+            <span className="text-[10px] font-medium text-accent truncate sm:text-xs">
+              • {video.person}
+            </span>
+          )}
+        </div>
       </div>
     </button>
   );

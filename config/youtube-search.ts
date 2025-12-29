@@ -39,11 +39,13 @@ export const AI_LEADERS = {
   },
   deepmind: {
     name: "DeepMind",
-    displayName: "Google DeepMind",
+    displayName: "Google DeepMind / Gemini",
     color: "#4285F4",
     people: [
-      { name: "Demis Hassabis", role: "CEO" },
-      { name: "Shane Legg", role: "Co-founder" },
+      { name: "Demis Hassabis", role: "CEO & Chief AGI Scientist" },
+      { name: "Josh Woodward", role: "VP of Gemini" },
+      { name: "Sebastian Borgeaud", role: "Research Lead" },
+      { name: "Shane Legg", role: "Co-founder & Chief AGI Scientist" },
     ],
   },
   anthropic: {
@@ -107,14 +109,28 @@ export const SEARCH_QUERIES: SearchQuery[] = [
   // DeepMind
   // ========================================
   {
-    query: "Demis Hassabis DeepMind interview",
+    query: "Demis Hassabis Google interview",
     company: "deepmind",
     person: "Demis Hassabis",
     maxResults: 30,
     minDuration: 300,
   },
   {
-    query: "Shane Legg DeepMind interview",
+    query: "Josh Woodward Google interview",
+    company: "deepmind",
+    person: "Josh Woodward",
+    maxResults: 20,
+    minDuration: 300,
+  },
+  {
+    query: "Sebastian Borgeaud Google interview",
+    company: "deepmind",
+    person: "Sebastian Borgeaud",
+    maxResults: 20,
+    minDuration: 300,
+  },
+  {
+    query: "Shane Legg Google interview",
     company: "deepmind",
     person: "Shane Legg",
     maxResults: 20,

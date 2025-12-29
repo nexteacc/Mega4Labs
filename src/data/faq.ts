@@ -19,7 +19,7 @@ export const FAQ_DATA: FAQData = {
   items: [
     {
       question: "Who are the AI leaders featured on this site?",
-      answer: "We curate content from leaders at four major AI companies: **Sam Altman** (CEO, OpenAI), **Dario Amodei** (CEO, Anthropic), **Demis Hassabis** (CEO, Google DeepMind), and the founding team at **Cursor AI**. These individuals are shaping the future of artificial intelligence through their work on GPT, Claude, AlphaFold, and AI-powered development tools.",
+      answer: "We curate content from leaders at four major AI companies: **Sam Altman** (CEO, OpenAI), **Dario Amodei** (CEO, Anthropic), **Demis Hassabis** (CEO, Google DeepMind), and the founding team at **Cursor AI**. These individuals are shaping the future of artificial intelligence through their work on GPT, Claude, Gemini, and AI-powered development tools.",
     },
     {
       question: "How often is new content added?",
@@ -35,7 +35,7 @@ export const FAQ_DATA: FAQData = {
     },
     {
       question: "Why these four companies?",
-      answer: "We focus on **OpenAI** (creators of GPT and ChatGPT), **Anthropic** (creators of Claude, focused on AI safety), **Google DeepMind** (pioneering AI research including AlphaFold), and **Cursor** (revolutionizing AI-assisted software development). These companies represent the cutting edge of AI development across different domains.",
+      answer: "We focus on **OpenAI** (creators of GPT and ChatGPT), **Anthropic** (creators of Claude, focused on AI safety), **Google DeepMind** (creators of Gemini, pioneering AI research and multimodal AI), and **Cursor** (revolutionizing AI-assisted software development). These companies represent the cutting edge of AI development across different domains.",
     },
   ],
 };

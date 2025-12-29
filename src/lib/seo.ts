@@ -12,6 +12,7 @@ export const SEO_KEYWORDS = [
   "OpenAI",
   "Anthropic",
   "DeepMind",
+  "Gemini",
   "Cursor AI",
   "AI interviews",
   "AI podcasts",

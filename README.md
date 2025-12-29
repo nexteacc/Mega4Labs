@@ -1,10 +1,10 @@
 # Mega 4 Labs
 
-AI 行业领袖访谈视频聚合平台，展示 OpenAI、Cursor、DeepMind 和 Anthropic 四大公司领导者的访谈、演讲和见解。
+AI 行业领袖访谈视频聚合平台，展示 OpenAI、Cursor、DeepMind (Gemini) 和 Anthropic 四大公司领导者的访谈、演讲和见解。
 
 ## 功能特性
 
-- 🎯 **四大 AI 公司** - OpenAI、Cursor、DeepMind、Anthropic
+- 🎯 **四大 AI 公司** - OpenAI、Cursor、DeepMind (Gemini)、Anthropic
 - 👥 **行业领袖** - Sam Altman、Dario Amodei、Demis Hassabis 等
 - 🌟 **Hero 精选** - 自动选择高质量热门视频
 - 📊 **智能过滤** - 播放量、点赞率、发布时间多维度筛选

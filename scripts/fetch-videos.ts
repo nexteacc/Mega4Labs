@@ -11,7 +11,7 @@
 import { config } from "dotenv";
 import { writeFileSync } from "fs";
 import Exa from "exa-js";
-import { SEARCH_QUERIES, CONFIG, EXA_CONFIG } from "../config/video-search";
+import { SEARCH_QUERIES, CONFIG, EXA_CONFIG } from "../src/config/video-search";
 import type { LandingVideo, Company } from "../src/lib/types";
 
 // Load .env.local
@@ -36,11 +36,11 @@ const exa = new Exa(EXA_API_KEY);
 
 type ExaResult = {
   id: string;
-  title: string;
+  title: string | null;
   url: string;
-  publishedDate: string;
-  author: string;
-  text: string;
+  publishedDate?: string;
+  author?: string;
+  text?: string;
   summary?: string;
   image?: string;
 };
@@ -93,7 +93,7 @@ function formatVideoStats(
   result: ExaResult,
   youtubeDetails?: YouTubeVideoDetails
 ): Record<string, unknown> {
-  const publishDate = new Date(result.publishedDate);
+  const publishDate = result.publishedDate ? new Date(result.publishedDate) : new Date();
   const ageInDays = (Date.now() - publishDate.getTime()) / (1000 * 60 * 60 * 24);
   
   let duration = "unknown";
@@ -110,11 +110,11 @@ function formatVideoStats(
   }
   
   return {
-    title: result.title.substring(0, 50),
-    author: result.author,
+    title: (result.title || "Untitled").substring(0, 50),
+    author: result.author || "Unknown",
     ageInDays: Math.floor(ageInDays),
     duration,
-    publishDate: result.publishedDate.split("T")[0],
+    publishDate: result.publishedDate?.split("T")[0] || "Unknown",
   };
 }
 
@@ -134,10 +134,10 @@ function convertToLandingVideo(
     id: videoId || result.id,
     company,
     category: company,
-    title: result.title,
-    description: result.summary || result.text.substring(0, 200),
-    channelTitle: result.author,
-    publishDate: result.publishedDate.split("T")[0],
+    title: result.title || "Untitled",
+    description: result.summary || result.text?.substring(0, 200) || "No description available",
+    channelTitle: result.author || "Unknown",
+    publishDate: result.publishedDate?.split("T")[0] || new Date().toISOString().split("T")[0],
     duration,
     platform: "youtube",
     thumbnail: {
@@ -198,9 +198,10 @@ async function main() {
       
       for (const exaResult of result.results) {
         const videoId = extractVideoId(exaResult.url);
-        if (videoId && !seenIds.has(videoId)) {
+        // Filter: must have videoId, title, and publishedDate
+        if (videoId && !seenIds.has(videoId) && exaResult.title && exaResult.publishedDate) {
           videoIds.push(videoId);
-          exaResultsMap.set(videoId, exaResult);
+          exaResultsMap.set(videoId, exaResult as ExaResult);
         }
       }
       

@@ -98,7 +98,7 @@ export const EXA_CONFIG = {
   type: "auto" as const,
   
   // Content options
-  text: true,
+  text: true as const,
   summary: {
     query: "summary youtube within 50 words",
   },

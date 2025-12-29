@@ -1,49 +1,62 @@
-# 视频抓取报告
+# Video Fetch Reports
 
-这个目录存储每次运行 `npm run fetch-videos` 的报告。
+This directory stores reports from each `pnpm run fetch-videos` execution.
 
-## 报告文件
+## Report Files
 
-- `latest-fetch.json` - 最新一次抓取的详细报告
+- `latest-fetch.json` - Latest fetch report with statistics
 
-## 报告内容
+## Report Content
 
 ```json
 {
-  "timestamp": "2024-10-22T10:30:00.000Z",
-  "totalVideos": 45,
-  "byCategory": {
-    "hero": 5,
-    "tutorial": 15,
-    "demo": 12,
-    "proReview": 8,
-    "shorts": 5
+  "timestamp": "2025-12-29T13:18:35.789Z",
+  "source": "Exa AI + YouTube API",
+  "totalVideos": 98,
+  "byCompany": {
+    "openai": 20,
+    "cursor": 21,
+    "google": 27,
+    "anthropic": 30
   },
-  "byLocale": {
-    "en": 35,
-    "ko": 4,
-    "ja": 3,
-    "zh": 3
+  "byPerson": {
+    "Sam Altman": 15,
+    "Kevin Weil": 5,
+    ...
+  },
+  "strategy": {
+    "searchEngine": "Exa AI auto search",
+    "metadataSource": "YouTube API (duration only)",
+    "filtering": "Date range (2 years) + domain (youtube.com)",
+    "organization": "By person (interview subjects)"
   },
   "latestVideos": [
     {
       "id": "abc123",
-      "title": "How to use Comet Browser",
-      "category": "tutorial",
-      "publishDate": "2024-10-20"
+      "title": "Sam Altman on AI Future",
+      "company": "openai",
+      "person": "Sam Altman",
+      "publishDate": "2025-12-28"
     }
   ]
 }
 ```
 
-## 查看报告
+## View Reports
 
-### 本地查看
+### Local
 ```bash
 cat reports/latest-fetch.json | jq
 ```
 
-### GitHub Actions 查看
-1. 进入仓库的 **Actions** 标签
-2. 点击最新的 "Update YouTube Videos" 工作流
-3. 查看 **Summary** 部分的报告
+### GitHub Actions
+1. Go to **Actions** tab
+2. Click latest "Update Videos" workflow
+3. View **Summary** section for report details
+
+## Purpose
+
+- Monitor daily automated fetch health
+- Track video count trends by company/person
+- Debug issues with Exa AI or YouTube API
+- Verify fetch strategy is working correctly

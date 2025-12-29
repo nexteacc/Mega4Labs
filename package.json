@@ -7,12 +7,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "fetch-videos": "tsx scripts/fetch-youtube-videos.ts"
+    "fetch-videos": "tsx scripts/fetch-videos.ts"
   },
   "dependencies": {
     "@lobehub/icons": "^4.0.2",
     "@vercel/analytics": "^1.4.1",
     "clsx": "^2.1.1",
+    "exa-js": "^2.0.12",
     "gray-matter": "^4.0.3",
     "next": "^16.1.1",
     "react": "19.2.0",

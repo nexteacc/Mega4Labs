@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import { Footer } from "@/components/Footer";
+import { Navigation } from "@/components/Navigation";
 import { SITE_NAME, SEO_DESCRIPTION } from "@/lib/i18n";
 import Link from "next/link";
 import "./globals.css";
@@ -67,6 +68,7 @@ export default function RootLayout({
               <span className="inline sm:hidden">MEGA 4</span>
             </Link>
           </header>
+          <Navigation />
           <main>{children}</main>
         </div>
         <Footer />

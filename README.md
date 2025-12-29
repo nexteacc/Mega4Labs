@@ -15,7 +15,10 @@ npm install
 Create a `.env.local` file:
 
 ```bash
-# YouTube API Key (for video fetching)
+# Exa AI API Key (for intelligent video search)
+EXA_API_KEY=your_exa_api_key_here
+
+# YouTube API Key (for video metadata: duration, views, likes)
 YOUTUBE_API_KEY=your_youtube_api_key_here
 ```
 

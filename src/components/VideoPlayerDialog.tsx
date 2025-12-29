@@ -71,6 +71,7 @@ export function VideoPlayerDialog({ open, video, onClose }: VideoPlayerDialogPro
           </button>
         </div>
 
+        {/* Video Info Card */}
         <div className="mt-4 flex flex-wrap items-center justify-between gap-3 rounded-3xl bg-panel/95 px-6 py-4 shadow-[0_14px_40px_rgba(17,24,39,0.18)]">
           <div className="min-w-0">
             <p className="text-base font-semibold text-primary">{video.title}</p>
@@ -86,6 +87,20 @@ export function VideoPlayerDialog({ open, video, onClose }: VideoPlayerDialogPro
             <span aria-hidden>↗</span>
           </a>
         </div>
+
+        {/* AI Summary Section - Scrollable */}
+        {video.description && (
+          <div className="mt-4 max-h-[200px] overflow-y-auto rounded-3xl bg-panel/95 px-6 py-4 shadow-[0_14px_40px_rgba(17,24,39,0.18)] scrollbar-thin scrollbar-track-transparent scrollbar-thumb-white/20 hover:scrollbar-thumb-white/30">
+            <div className="mb-2 flex items-center gap-2">
+              <span className="text-xs font-semibold uppercase tracking-wide text-accent">
+                ✨ AI Summary
+              </span>
+            </div>
+            <p className="text-sm leading-relaxed text-secondary">
+              {video.description}
+            </p>
+          </div>
+        )}
       </div>
     </div>,
     document.body,

@@ -42,7 +42,8 @@ jobs:
       - name: Check for changes
         id: git-check
         run: |
-          git diff --exit-code src/data/videos.ts || echo "changed=true" >> $GITHUB_OUTPUT
+          git add src/data/videos.ts reports/latest-fetch.json
+          git diff --cached --exit-code || echo "changed=true" >> $GITHUB_OUTPUT
           
       - name: Commit and push if changed
         if: steps.git-check.outputs.changed == 'true'

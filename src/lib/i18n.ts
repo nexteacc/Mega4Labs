@@ -49,7 +49,7 @@ export const COMPANY_COLORS: Record<Company, string> = {
 
 // Footer
 export const FOOTER_MADE_WITH_LOVE = "Made with care for AI enthusiasts";
-export const FOOTER_SUBMIT_VIDEO = "Submit a Video";
+export const FOOTER_SUBMIT_VIDEO = "Submit a Leader";
 export const FOOTER_COPYRIGHT = `© ${new Date().getFullYear()} Mega 4 Labs. Videos belong to their respective creators.`;
 
 // SEO

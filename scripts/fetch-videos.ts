@@ -198,8 +198,21 @@ async function main() {
       
       for (const exaResult of result.results) {
         const videoId = extractVideoId(exaResult.url);
-        // Filter: must have videoId, title, and publishedDate
+        // Filter: must have videoId, title, publishedDate, and duration > 20 minutes
         if (videoId && !seenIds.has(videoId) && exaResult.title && exaResult.publishedDate) {
+          const youtubeDetails = youtubeDetailsMap.get(videoId);
+          if (youtubeDetails) {
+            const match = youtubeDetails.contentDetails.duration.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
+            if (match) {
+              const hours = parseInt(match[1] || "0");
+              const minutes = parseInt(match[2] || "0");
+              const seconds = parseInt(match[3] || "0");
+              const totalMinutes = hours * 60 + minutes + Math.round(seconds / 60);
+              if (totalMinutes <= 20) {
+                continue; // Skip videos with duration <= 20 minutes
+              }
+            }
+          }
           videoIds.push(videoId);
           exaResultsMap.set(videoId, exaResult as ExaResult);
         }

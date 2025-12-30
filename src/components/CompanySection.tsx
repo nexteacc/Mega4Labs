@@ -1,11 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import type { LandingVideo, Company } from "@/lib/types";
 import { LOAD_MORE_LABEL } from "@/lib/i18n";
 import { VideoGrid } from "@/components/VideoGrid";
 import { VideoPlayerDialog } from "@/components/VideoPlayerDialog";
 import { OpenAI, Anthropic, Google, Cursor } from "@lobehub/icons";
+import { PersonVideoList } from "@/components/PersonVideoList";
 
 type CompanySectionProps = {
   company: Company;
@@ -33,12 +34,55 @@ export function CompanySection({
   color,
   videos,
 }: CompanySectionProps) {
+  // Group videos by person
+  const groupedVideos = useMemo(() => {
+    const groups: Record<string, LandingVideo[]> = {};
+    
+    videos.forEach(video => {
+      const person = video.person || 'Unknown';
+      if (!groups[person]) {
+        groups[person] = [];
+      }
+      groups[person].push(video);
+    });
+    
+    // Sort videos by date (newest first)
+    Object.keys(groups).forEach(person => {
+      groups[person].sort((a, b) => {
+        return new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime();
+      });
+    });
+    
+    return groups;
+  }, [videos]);
   const [open, setOpen] = useState(false);
   const [selected, setSelected] = useState<LandingVideo | null>(null);
   const [visibleCount, setVisibleCount] = useState(INITIAL_LOAD);
 
-  const visibleVideos = videos.slice(0, visibleCount);
-  const hasMore = visibleCount < videos.length;
+  // Get all persons and their videos
+  const persons = Object.keys(groupedVideos);
+  
+  // Calculate total videos across all persons
+  const totalVideos = persons.reduce((sum, person) => sum + groupedVideos[person].length, 0);
+  
+  // Calculate how many videos to show based on visibleCount
+  let videosToShow = [];
+  let count = 0;
+  
+  for (const person of persons) {
+    const personVideos = groupedVideos[person];
+    for (const video of personVideos) {
+      if (count < visibleCount) {
+        videosToShow.push(video);
+        count++;
+      } else {
+        break;
+      }
+    }
+    if (count >= visibleCount) break;
+  }
+  
+  const hasMore = visibleCount < totalVideos;
 
   const handleSelect = (video: LandingVideo) => {
     setSelected(video);
@@ -51,7 +95,7 @@ export function CompanySection({
   };
 
   const handleLoadMore = () => {
-    setVisibleCount((prev) => Math.min(prev + LOAD_MORE_COUNT, videos.length));
+    setVisibleCount((prev) => Math.min(prev + LOAD_MORE_COUNT, totalVideos));
   };
 
   const LogoComponent = COMPANY_LOGOS[company];
@@ -75,12 +119,17 @@ export function CompanySection({
         </div>
       </div>
 
-      <VideoGrid
-        videos={visibleVideos}
-        cardVariant="default"
-        columns={{ base: 1, md: 2, lg: 3 }}
-        onSelect={handleSelect}
-      />
+      {/* Display videos grouped by person in horizontal 3-column layout using PersonVideoList component */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {persons.map((person) => (
+          <PersonVideoList 
+            key={person} 
+            person={person} 
+            videos={groupedVideos[person]} 
+            onSelect={handleSelect} 
+          />
+        ))}
+      </div>
 
       {hasMore && (
         <div className="mt-6 flex justify-center sm:mt-8">

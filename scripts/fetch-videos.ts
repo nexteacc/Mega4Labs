@@ -198,21 +198,8 @@ async function main() {
       
       for (const exaResult of result.results) {
         const videoId = extractVideoId(exaResult.url);
-        // Filter: must have videoId, title, publishedDate, and duration > 20 minutes
+        // Filter: must have videoId, title, publishedDate
         if (videoId && !seenIds.has(videoId) && exaResult.title && exaResult.publishedDate) {
-          const youtubeDetails = youtubeDetailsMap.get(videoId);
-          if (youtubeDetails) {
-            const match = youtubeDetails.contentDetails.duration.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
-            if (match) {
-              const hours = parseInt(match[1] || "0");
-              const minutes = parseInt(match[2] || "0");
-              const seconds = parseInt(match[3] || "0");
-              const totalMinutes = hours * 60 + minutes + Math.round(seconds / 60);
-              if (totalMinutes <= 20) {
-                continue; // Skip videos with duration <= 20 minutes
-              }
-            }
-          }
           videoIds.push(videoId);
           exaResultsMap.set(videoId, exaResult as ExaResult);
         }
@@ -221,9 +208,10 @@ async function main() {
       console.log(`   🎬 Fetching YouTube metadata for ${videoIds.length} videos...`);
       const youtubeDetailsMap = await getYouTubeDetails(videoIds);
       
-      // Step 3: Convert and deduplicate
+      // Step 3: Convert, filter by duration, and deduplicate
       let accepted = 0;
       let duplicates = 0;
+      let filteredByDuration = 0;
       
       for (const [videoId, exaResult] of exaResultsMap) {
         // Deduplication
@@ -233,6 +221,22 @@ async function main() {
         }
         
         const youtubeDetails = youtubeDetailsMap.get(videoId);
+        
+        // Filter by duration (> 20 minutes)
+        if (youtubeDetails) {
+          const match = youtubeDetails.contentDetails.duration.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
+          if (match) {
+            const hours = parseInt(match[1] || "0");
+            const minutes = parseInt(match[2] || "0");
+            const seconds = parseInt(match[3] || "0");
+            const totalMinutes = hours * 60 + minutes + Math.round(seconds / 60);
+            if (totalMinutes <= 20) {
+              filteredByDuration++;
+              continue; // Skip videos with duration <= 20 minutes
+            }
+          }
+        }
+        
         const stats = formatVideoStats(exaResult, youtubeDetails);
         
         // Convert format

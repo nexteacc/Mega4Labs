@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
-import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import { Footer } from "@/components/Footer";
 import { Navigation } from "@/components/Navigation";
 import { SITE_NAME, SEO_DESCRIPTION } from "@/lib/i18n";
@@ -41,9 +40,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
-  const isValidGAId = gaId && /^G-[A-Z0-9]+$/.test(gaId);
-
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
@@ -83,7 +79,6 @@ export default function RootLayout({
         </div>
         <Footer />
         <Analytics />
-        {isValidGAId && <GoogleAnalytics measurementId={gaId} />}
       </body>
     </html>
   );

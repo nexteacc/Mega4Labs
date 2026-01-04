@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import { createPortal } from "react-dom";
 import { formatEmbedUrl, formatVideoUrl } from "@/lib/format";
+import { useAnalytics } from "@/hooks/useAnalytics";
 import type { LandingVideo } from "@/lib/types";
 
 type VideoPlayerDialogProps = {
@@ -14,8 +15,19 @@ type VideoPlayerDialogProps = {
 const overlayClass = "fixed inset-0 z-[100] flex items-center justify-center bg-black/70 backdrop-blur-sm px-4";
 
 export function VideoPlayerDialog({ open, video, onClose }: VideoPlayerDialogProps) {
+  const { track } = useAnalytics();
+
   useEffect(() => {
     if (!open) return;
+
+    // 追踪视频播放
+    if (video) {
+      track('video_play', { 
+        videoId: video.id, 
+        title: video.title,
+        channelTitle: video.channelTitle 
+      });
+    }
 
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
@@ -33,7 +45,7 @@ export function VideoPlayerDialog({ open, video, onClose }: VideoPlayerDialogPro
       window.removeEventListener("keydown", handleKeyDown);
       body.style.overflow = previousOverflow;
     };
-  }, [open, onClose]);
+  }, [open, onClose, video]);
 
   if (!open || !video) return null;
   if (typeof document === "undefined") return null;
@@ -82,6 +94,7 @@ export function VideoPlayerDialog({ open, video, onClose }: VideoPlayerDialogPro
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-semibold text-white transition hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+            onClick={() => track('external_link_click', { url: formatVideoUrl(video.id), linkText: 'Watch on YouTube' })}
           >
             Watch on YouTube
             <span aria-hidden>↗</span>

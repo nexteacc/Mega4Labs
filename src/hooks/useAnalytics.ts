@@ -2,7 +2,15 @@
 
 import { useCallback } from "react";
 
-type AnalyticsEvent = "video_play" | "cta_click" | "language_switch";
+type AnalyticsEvent = 
+  | "video_play" 
+  | "video_click"
+  | "cta_click" 
+  | "language_switch"
+  | "social_click"
+  | "external_link_click"
+  | "faq_expand"
+  | "navigation_click";
 
 type AnalyticsPayload = Record<string, string | number | boolean | undefined>;
 

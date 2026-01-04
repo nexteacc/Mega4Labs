@@ -23,7 +23,7 @@ export const FAQ_DATA: FAQData = {
     },
     {
       question: "How often is new content added?",
-      answer: "We update our video collection **daily** at UTC 02:00 (Beijing time 10:00), automatically scanning YouTube for new interviews and discussions featuring our featured AI leaders.",
+      answer: "We update our video collection **daily** at UTC 02:00, automatically scanning YouTube for new interviews and discussions featuring our featured AI leaders.",
     },
     {
       question: "How are videos selected and curated?",
@@ -31,7 +31,7 @@ export const FAQ_DATA: FAQData = {
     },
     {
       question: "Why these four companies?",
-      answer: "OpenAI, Anthropic, Google DeepMind, and Cursor represent the cutting edge of AI development across different domains - from large language models to AI safety to AI-assisted development.",
+      answer: "**OpenAI** pioneered large language models at scale with ChatGPT. **Anthropic** focuses on AI safety and building reliable, interpretable AI systems. **Google DeepMind** leads in fundamental AI research and multimodal models. **Cursor** demonstrates practical AI applications in software development.",
     },
   ],
 };

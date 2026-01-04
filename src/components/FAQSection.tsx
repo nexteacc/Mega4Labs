@@ -28,12 +28,12 @@ export function FAQSection() {
           {FAQ_DATA.items.map((item, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-shadow"
+              className="bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-shadow overflow-hidden"
             >
               {/* Question button */}
               <button
                 onClick={() => toggleItem(index)}
-                className="w-full px-4 py-3 text-left flex items-center justify-between gap-3 hover:bg-gray-50 transition-colors rounded-lg sm:px-6 sm:py-4 sm:gap-4"
+                className="w-full px-4 py-3 text-left flex items-center justify-between gap-3 hover:bg-gray-50 transition-colors sm:px-6 sm:py-4 sm:gap-4"
                 aria-expanded={openIndex === index}
               >
                 <span className="text-base font-semibold text-gray-900 flex-1 break-words sm:text-lg">
@@ -58,9 +58,9 @@ export function FAQSection() {
 
               {/* Answer content */}
               {openIndex === index && (
-                <div className="px-4 pb-4 pt-2 sm:px-6 sm:pb-6">
+                <div className="border-t border-gray-200 px-4 py-3 sm:px-6 sm:py-4 bg-gray-50">
                   <div
-                    className="prose prose-gray max-w-none text-sm text-gray-700 leading-relaxed break-words sm:text-base"
+                    className="text-sm text-gray-700 leading-relaxed break-words sm:text-base"
                     dangerouslySetInnerHTML={{
                       __html: formatAnswer(item.answer),
                     }}

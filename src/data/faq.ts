@@ -14,7 +14,7 @@ export type FAQData = {
 };
 
 export const FAQ_DATA: FAQData = {
-  title: "Frequently Asked Questions",
+  title: "FAQ",
   description: "Learn more about the AI leaders and companies featured on this platform.",
   items: [
     {

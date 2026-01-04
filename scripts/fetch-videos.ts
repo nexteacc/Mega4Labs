@@ -182,6 +182,8 @@ async function main() {
         {
           ...EXA_CONFIG,
           numResults: searchQuery.maxResults,
+          // Force results to contain the person's name
+          includeText: searchQuery.person ? [searchQuery.person] : undefined,
         }
       );
       

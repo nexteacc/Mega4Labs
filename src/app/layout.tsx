@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 import { Navigation } from "@/components/Navigation";
 import { SITE_NAME, SEO_DESCRIPTION } from "@/lib/i18n";
 import Link from "next/link";
+import Image from "next/image";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -29,11 +30,7 @@ export const metadata: Metadata = {
   description: SEO_DESCRIPTION,
   icons: {
     icon: [
-      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
-    ],
-    apple: [
-      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+      { url: "/M.svg", type: "image/svg+xml" }
     ],
   },
   manifest: "/manifest.json",
@@ -70,6 +67,19 @@ export default function RootLayout({
           </header>
           <Navigation />
           <main>{children}</main>
+        </div>
+        {/* M4 Logo 区域 - 在 Footer 之外 */}
+        <div className="bg-base px-4 py-16 sm:px-6 sm:py-20 lg:px-10 lg:py-24">
+          <div className="mx-auto flex justify-center">
+            <Image
+              src="/m4.svg"
+              alt="Mega 4 Labs"
+              width={453}
+              height={174}
+              className="w-[300px] sm:w-[400px] lg:w-[453px] h-auto"
+              priority
+            />
+          </div>
         </div>
         <Footer />
         <Analytics />

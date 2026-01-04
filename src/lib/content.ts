@@ -80,6 +80,15 @@ export const getVideosByCompany = (company: Company): LandingVideo[] => {
 };
 
 /**
+ * Get videos for a specific person (optimized with direct filter)
+ */
+export const getVideosByPerson = (personName: string): LandingVideo[] => {
+  return dedupeById(
+    sortByPublishDateDesc(videos.filter((v) => v.person === personName))
+  );
+};
+
+/**
  * Get total video count
  */
 export const getVideoCount = (): number => videos.length;

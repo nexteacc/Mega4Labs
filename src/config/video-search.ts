@@ -30,8 +30,8 @@ export const AI_LEADERS = {
     displayName: "Cursor AI",
     color: "#000000",
     people: [
-      { name: "Michael Truell", role: "CEO" },
-      { name: "Aman Sanger", role: "Co-founder" },
+      { name: "Michael Truell", role: "Co-founder & CEO, Anysphere" },
+      { name: "Aman Sanger", role: "Co-founder, Anysphere" },
       { name: "Ryo Lu", role: "Head of Design" },
     ],
   },
@@ -40,10 +40,10 @@ export const AI_LEADERS = {
     displayName: "Google / Gemini",
     color: "#4285F4",
     people: [
-      { name: "Demis Hassabis", role: "CEO & Chief AGI Scientist" },
-      { name: "Josh Woodward", role: "VP of Gemini" },
-      { name: "Sebastian Borgeaud", role: "Research Lead" },
-      { name: "Shane Legg", role: "Co-founder & Chief AGI Scientist" },
+      { name: "Demis Hassabis", role: "Co-Founder & CEO, DeepMind" },
+      { name: "Josh Woodward", role: "VP, Labs & Gemini" },
+      { name: "Sebastian Borgeaud", role: "Research Engineer & Gemini 3 Pre-training Lead, DeepMind" },
+      { name: "Shane Legg", role: "Co-founder & Chief AGI Scientist, DeepMind" },
     ],
   },
   anthropic: {
@@ -52,9 +52,9 @@ export const AI_LEADERS = {
     color: "#D97757",
     people: [
       { name: "Dario Amodei", role: "CEO" },
-      { name: "Daniela Amodei", role: "President" },
-      { name: "Amanda Askell", role: "Character Lead" },
-      { name: "Boris Cherny", role: "Claude Code Creator" },
+      { name: "Daniela Amodei", role: "President & Co-founder" },
+      { name: "Amanda Askell", role: "Philosopher" },
+      { name: "Boris Cherny", role: "Creator & Head of Claude Code" },
     ],
   },
 } as const;

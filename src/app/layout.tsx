@@ -22,7 +22,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mega4lab.com"),
+  metadataBase: new URL("https://mega4labs.vercel.app"),
   title: {
     default: SITE_NAME,
     template: `%s | ${SITE_NAME}`,

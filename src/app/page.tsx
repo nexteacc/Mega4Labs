@@ -38,23 +38,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: SITE_NAME,
     description: SEO_DESCRIPTION,
-    url: "https://mega4lab.com",
     siteName: SITE_NAME,
     type: "website",
-    images: [
-      {
-        url: "https://mega4lab.com/opengraph-image.png",
-        width: 1200,
-        height: 628,
-        alt: SITE_NAME,
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: SITE_NAME,
     description: SEO_DESCRIPTION,
-    images: ["https://mega4lab.com/twitter-image.png"],
   },
 };
 
@@ -70,7 +60,6 @@ export default function HomePage() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: SITE_NAME,
-    url: "https://mega4lab.com",
     description: SEO_DESCRIPTION,
   });
 
@@ -78,7 +67,6 @@ export default function HomePage() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: SITE_NAME,
-    url: "https://mega4lab.com",
   });
 
   const itemListJsonLd = JSON.stringify({

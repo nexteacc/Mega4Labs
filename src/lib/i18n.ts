@@ -54,4 +54,4 @@ export const FOOTER_COPYRIGHT = `© ${new Date().getFullYear()} Mega 4 Labs. Vid
 
 // SEO
 export const SEO_KEYWORDS = "AI leaders, Sam Altman, Dario Amodei, Demis Hassabis, Cursor AI, OpenAI interview, Anthropic CEO, Google, Gemini, AI industry, artificial intelligence, AGI, GPT, Claude";
-export const SEO_DESCRIPTION = "Curated interviews, talks, and insights from AI industry leaders including Sam Altman (OpenAI), Dario Amodei (Anthropic), Demis Hassabis (Google/Gemini), and Cursor's founding team.";
+export const SEO_DESCRIPTION = "Watch interviews and insights from 14 visionary AI leaders shaping the future at OpenAI, Anthropic, Google DeepMind, and Cursor.";

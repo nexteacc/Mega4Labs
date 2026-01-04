@@ -41,11 +41,20 @@ export const metadata: Metadata = {
     url: "https://mega4lab.com",
     siteName: SITE_NAME,
     type: "website",
+    images: [
+      {
+        url: "https://mega4lab.com/opengraph-image.png",
+        width: 1200,
+        height: 628,
+        alt: SITE_NAME,
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: SITE_NAME,
     description: SEO_DESCRIPTION,
+    images: ["https://mega4lab.com/twitter-image.png"],
   },
 };
 

@@ -12,6 +12,15 @@ export function Footer() {
           <span className="font-medium text-gray-900 break-words">
             {FOOTER_MADE_WITH_LOVE}
           </span>
+          <span className="text-gray-400">•</span>
+          <a
+            href="https://github.com/nexteacc/Mega4Labs"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium text-gray-900 hover:text-gray-600 transition-colors"
+          >
+            GitHub
+          </a>
         </div>
 
         {/* 版权信息 */}

@@ -67,26 +67,28 @@ export function Navigation() {
 
                 {/* Dropdown Menu */}
                 {isActive && (
-                  <div className="absolute left-0 top-full mt-1 min-w-[200px] rounded-lg border border-gray-200 bg-white shadow-lg">
-                    <div className="p-2">
-                      <div className="mb-2 px-3 py-1 text-xs font-semibold text-gray-500">
-                        {config.name}
+                  <div className="absolute left-0 top-full pt-1 min-w-[200px]">
+                    <div className="rounded-lg border border-gray-200 bg-white shadow-lg">
+                      <div className="p-2">
+                        <div className="mb-2 px-3 py-1 text-xs font-semibold text-gray-500">
+                          {config.name}
+                        </div>
+                        {config.people.map((person: { name: string; role: string }) => (
+                          <Link
+                            key={person.name}
+                            href={`/people/${generateSlug(person.name)}`}
+                            onClick={() => setActiveMenu(null)}
+                            className="block w-full rounded-md px-3 py-2 text-left transition-colors hover:bg-gray-100"
+                          >
+                            <div className="text-sm font-medium text-gray-900">
+                              {person.name}
+                            </div>
+                            <div className="text-xs text-gray-500">
+                              {person.role}
+                            </div>
+                          </Link>
+                        ))}
                       </div>
-                      {config.people.map((person: { name: string; role: string }) => (
-                        <Link
-                          key={person.name}
-                          href={`/people/${generateSlug(person.name)}`}
-                          onClick={() => setActiveMenu(null)}
-                          className="block w-full rounded-md px-3 py-2 text-left transition-colors hover:bg-gray-100"
-                        >
-                          <div className="text-sm font-medium text-gray-900">
-                            {person.name}
-                          </div>
-                          <div className="text-xs text-gray-500">
-                            {person.role}
-                          </div>
-                        </Link>
-                      ))}
                     </div>
                   </div>
                 )}

@@ -213,7 +213,6 @@ async function main() {
       // Step 3: Convert, filter by duration, and deduplicate
       let accepted = 0;
       let duplicates = 0;
-      let filteredByDuration = 0;
       
       for (const [videoId, exaResult] of exaResultsMap) {
         // Deduplication
@@ -233,7 +232,6 @@ async function main() {
             const seconds = parseInt(match[3] || "0");
             const totalMinutes = hours * 60 + minutes + Math.round(seconds / 60);
             if (totalMinutes <= 20) {
-              filteredByDuration++;
               continue; // Skip videos with duration <= 20 minutes
             }
           }

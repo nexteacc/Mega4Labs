@@ -11,7 +11,6 @@ type CompanySectionProps = {
   company: Company;
   displayName: string;
   description: string;
-  color: string;
   videos: LandingVideo[];
 };
 
@@ -30,7 +29,6 @@ export function CompanySection({
   company,
   displayName,
   description,
-  color,
   videos,
 }: CompanySectionProps) {
   const [open, setOpen] = useState(false);

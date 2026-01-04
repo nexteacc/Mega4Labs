@@ -9,8 +9,8 @@ type AnalyticsPayload = Record<string, string | number | boolean | undefined>;
 // 扩展 Window 类型以支持 Google Analytics
 declare global {
   interface Window {
-    gtag?: (...args: any[]) => void;
-    dataLayer?: any[];
+    gtag?: (...args: unknown[]) => void;
+    dataLayer?: unknown[];
   }
 }
 

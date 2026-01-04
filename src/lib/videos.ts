@@ -1,5 +1,4 @@
 import { z } from "zod";
-import type { Company } from "@/lib/types";
 
 const VideoThumbnailSchema = z.object({
   url: z.string().url(),

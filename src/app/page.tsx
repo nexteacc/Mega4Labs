@@ -100,7 +100,6 @@ export default function HomePage() {
           company={module.company}
           displayName={module.displayName}
           description={module.description}
-          color={module.color}
           videos={module.videos}
         />
       ))}

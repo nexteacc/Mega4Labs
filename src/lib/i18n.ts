@@ -17,7 +17,7 @@ export const VIDEO_COUNT_LABEL = "videos";
 
 export const buildHeroSupporting = (videoCount: number): string => {
   const roundedCount = Math.floor(videoCount / 10) * 10;
-  return `${roundedCount}+ ${VIDEO_COUNT_LABEL} • Updated weekly • Expert-curated`;
+  return `${roundedCount}+ ${VIDEO_COUNT_LABEL} • Updated daily • Expert-curated`;
 };
 
 // Load more
@@ -54,4 +54,4 @@ export const FOOTER_COPYRIGHT = `© ${new Date().getFullYear()} Mega 4 Labs. Vid
 
 // SEO
 export const SEO_KEYWORDS = "AI leaders, Sam Altman, Dario Amodei, Demis Hassabis, Cursor AI, OpenAI interview, Anthropic CEO, Google, Gemini, AI industry, artificial intelligence, AGI, GPT, Claude";
-export const SEO_DESCRIPTION = "Watch interviews and insights from 14 visionary AI leaders shaping the future at OpenAI, Anthropic, Google DeepMind, and Cursor.";
+export const SEO_DESCRIPTION = "Watch interviews and insights from 13 visionary AI leaders shaping the future at OpenAI, Anthropic, Google DeepMind, and Cursor.";

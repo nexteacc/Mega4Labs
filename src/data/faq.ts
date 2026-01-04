@@ -19,7 +19,7 @@ export const FAQ_DATA: FAQData = {
   items: [
     {
       question: "Who are the AI leaders featured on this site?",
-      answer: "We feature 14 leaders across four major AI companies: OpenAI, Cursor, Google DeepMind, and Anthropic. These individuals are shaping the future of AI through their work on GPT, Claude, Gemini, and AI-powered development tools.",
+      answer: "We feature 13 leaders across four major AI companies: OpenAI, Cursor, Google DeepMind, and Anthropic. These individuals are shaping the future of AI through their work on GPT, Claude, Gemini, and AI-powered development tools.",
     },
     {
       question: "How often is new content added?",

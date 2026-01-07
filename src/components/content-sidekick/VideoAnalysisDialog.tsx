@@ -210,7 +210,7 @@ export function VideoAnalysisDialog({ open, video, onClose }: VideoAnalysisDialo
                                         value={customPrompt}
                                         onChange={(e) => setCustomPrompt(e.target.value)}
                                         placeholder="E.g. Focus more on technical architecture..."
-                                        className="w-full rounded-xl border border-white/10 bg-black/20 px-4 py-3 pr-12 text-sm text-white focus:border-indigo-500/50 focus:bg-black/40 focus:outline-none focus:ring-1 focus:ring-indigo-500/50 placeholder:text-white/20"
+                                        className="w-full rounded-xl border border-white/10 bg-black/20 px-4 py-3 pr-12 text-sm text-white focus:border-indigo-500/50 focus:bg-black/40 focus:outline-none focus:ring-1 focus:ring-indigo-500/50 placeholder:text-white/50"
                                         onKeyDown={(e) => {
                                             if (e.key === 'Enter') handleGenerate();
                                         }}

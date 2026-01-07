@@ -11,8 +11,7 @@ type AnalyticsEvent =
   | "external_link_click"
   | "faq_expand"
   | "navigation_click"
-  | "share_button_click"
-  | "ai_analysis_click";
+  | "share_click";
 
 type AnalyticsPayload = Record<string, string | number | boolean | undefined>;
 

@@ -12,8 +12,6 @@ export async function analyzeVideo(videoUrl: string, customInstruction?: string,
 
     (async () => {
         try {
-            const promptContent = `Analyze this video URL directly: ${videoUrl}`;
-
             const { partialObjectStream } = await streamObject({
                 model: google('gemini-2.5-flash'),
                 output: 'object',
@@ -28,12 +26,12 @@ export async function analyzeVideo(videoUrl: string, customInstruction?: string,
                         role: 'system',
                         content: `
 # Role
-You are an expert tech interview analyst. Your task is to deeply understand the provided video content (URL) and extract a structured interview summary.
+You are an expert tech interview analyst. Your task is to deeply understand the provided video content and extract a structured interview summary.
 
 # Task
 1.  **Identify**: Accurately identify the **Host** and the **Guest**.
 2.  **Extract**: Find the each question asked by the Host.
-3.  **Summarize**: For each question, summarize the Guest's answer.
+3.  **Summarize**: For each question, briefly summarize the Guest's answer.
 
 # Language Requirement
 **IMPORTANT**: You MUST output the content in **${language}**.
@@ -46,7 +44,17 @@ ${customInstruction ? `User specific focus: ${customInstruction}` : ''}
                     },
                     {
                         role: 'user',
-                        content: promptContent
+                        content: [
+                            {
+                                type: 'file',
+                                data: videoUrl,
+                                mediaType: 'video/mp4'
+                            },
+                            {
+                                type: 'text',
+                                text: 'Please analyze this video according to the system instructions.'
+                            }
+                        ]
                     },
                 ],
             });

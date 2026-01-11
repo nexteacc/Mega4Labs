@@ -144,6 +144,24 @@
     "person": "Sebastian Borgeaud"
   },
   {
+    "id": "0kWNTlhXMUI",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "A scientist and a philosopher on the pros and cons of ...",
+    "description": "In this podcast episode, philosopher Ellie Anderson and physicist Krishna Choudhary discuss the implications of AI, particularly ChatGPT. Choudhary highlights the technological advancements of large language models, while Anderson raises concerns about their impact on students and the potential underestimation of AI's dangers by corporate interests.",
+    "channelTitle": "Overthink Podcast",
+    "publishDate": "2025-12-21",
+    "duration": "PT46M54S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/0kWNTlhXMUI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Amanda Askell"
+  },
+  {
     "id": "3JiVDYL20G4",
     "company": "cursor",
     "category": "cursor",
@@ -736,6 +754,60 @@
     },
     "tags": [],
     "person": "Michael Truell"
+  },
+  {
+    "id": "kOyIjt6FUrw",
+    "company": "cursor",
+    "category": "cursor",
+    "title": "How Replit Went From $10M to $100M ARR In Just 9 Months",
+    "description": "Amjad Masad discusses Replit's rapid growth from $10M to $100M ARR in just 9 months, highlighting its evolution from a coding education tool to a platform for AI-assisted software creation. He shares insights on programming's future, human-computer collaboration, and advice for founders. Watch the full interview [here](https://www.youtube.com/watch?v=kOyIjt6FUrw).",
+    "channelTitle": "Y Combinator",
+    "publishDate": "2025-08-11",
+    "duration": "PT35M51S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/kOyIjt6FUrw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Aman Sanger"
+  },
+  {
+    "id": "-HzgcbRXUK8",
+    "company": "google",
+    "category": "google",
+    "title": "Demis Hassabis: Future of AI, Simulating Reality, Physics and ...",
+    "description": "Demis Hassabis, CEO of Google DeepMind and Nobel Prize winner, discusses AI advancements, including protein structure prediction, the path to AGI, and the future of energy in a podcast episode. Key topics include computation, biological simulations, and the implications of AI on humanity.",
+    "channelTitle": "Lex Fridman",
+    "publishDate": "2025-08-11",
+    "duration": "PT2H28M15S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/-HzgcbRXUK8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Demis Hassabis"
+  },
+  {
+    "id": "qaPHK1fJL5s",
+    "company": "google",
+    "category": "google",
+    "title": "Ex-Google CEO: What Artificial Superintelligence Will Actually ...",
+    "description": "In this YouTube discussion, former Google CEO Eric Schmidt and Dave Blundin explore the future of artificial superintelligence, covering topics like its impact on jobs, education, ethics, and creativity. They emphasize the balance between innovation and responsibility in an AI-driven world.",
+    "channelTitle": "Peter H. Diamandis",
+    "publishDate": "2025-08-11",
+    "duration": "PT1H25M54S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/qaPHK1fJL5s/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Shane Legg"
   },
   {
     "id": "VX3jmwPzPrA",
@@ -1494,6 +1566,24 @@
     "person": "Josh Woodward"
   },
   {
+    "id": "SnSoMh9m5hc",
+    "company": "openai",
+    "category": "openai",
+    "title": "OpenAI CPO Reveals Coding Will Be Automated THIS YEAR ...",
+    "description": "In a discussion with OpenAI's CPO Kevin Weil, he predicts that coding will be fully automated this year. The conversation covers AI advancements, the future of jobs, and the potential of GPT-5. Weil also shares insights on AI's impact on education and new startup ideas.",
+    "channelTitle": "Overpowered",
+    "publishDate": "2025-03-11",
+    "duration": "PT50M9S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/SnSoMh9m5hc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Kevin Weil"
+  },
+  {
     "id": "esCSpbDPJik",
     "company": "anthropic",
     "category": "anthropic",
@@ -1582,6 +1672,24 @@
     },
     "tags": [],
     "person": "Dario Amodei"
+  },
+  {
+    "id": "s8bgB8TCdBs",
+    "company": "google",
+    "category": "google",
+    "title": "The Open Source AI Question | Robert Wright & Nathan Labenz",
+    "description": "In this discussion, Robert Wright and Nathan Labenz explore the implications of open source AI, addressing its definition, the secrecy surrounding AI training data, and the arguments for and against open source AI. They also touch on potential future scenarios and the role of AI in resolving human disputes.",
+    "channelTitle": "Nonzero",
+    "publishDate": "2025-01-11",
+    "duration": "PT1H1M34S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/s8bgB8TCdBs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sebastian Borgeaud"
   },
   {
     "id": "FVRHTWWEIz4",
@@ -1906,6 +2014,24 @@
     },
     "tags": [],
     "person": "Amanda Askell"
+  },
+  {
+    "id": "eaHAutrUr2k",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "A conversation with Dario Amodei, Co-Founder and CEO of Anthropic | BoxWorks 2024",
+    "description": "In a 23-minute fireside chat at BoxWorks 2024, Dario Amodei, CEO of Anthropic, discusses with Aaron Levie the transformative impact of AI on business operations globally, highlighting how AI can accelerate work processes across various industries.",
+    "channelTitle": "Box",
+    "publishDate": "2024-11-19",
+    "duration": "PT23M13S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/eaHAutrUr2k/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Dario Amodei"
   },
   {
     "id": "E7JsL3sAPeQ",

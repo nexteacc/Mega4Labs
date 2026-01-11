@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
+import Image from "next/image";
 import { useAnalytics } from "@/hooks/useAnalytics";
 
 type ShareButtonProps = {
@@ -80,7 +81,7 @@ export function ShareButton({ videoId, videoTitle }: ShareButtonProps) {
         aria-label="Share video"
         aria-expanded={isOpen}
       >
-        <img
+        <Image
           src="/ai-analysis-icon.svg"
           alt="Share"
           width={64}

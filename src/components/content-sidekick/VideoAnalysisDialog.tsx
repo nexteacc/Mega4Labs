@@ -1,10 +1,9 @@
 "use client";
 
-import { useEffect, useState, useRef, useMemo } from "react";
+import { useEffect, useState, useRef, useMemo, useCallback } from "react";
 import { createPortal } from "react-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { readStreamableValue } from '@ai-sdk/rsc';
-import ReactMarkdown from "react-markdown";
 import { analyzeVideo } from "@/app/actions/analyze-video";
 import type { LandingVideo } from "@/lib/types";
 import { Sparkle } from "lucide-react";
@@ -58,10 +57,19 @@ type VideoAnalysisDialogProps = {
     onClose: () => void;
 };
 
+type AnalysisItem = {
+    question: string;
+    answer: string[];
+};
+
+type AnalysisContent = {
+    analysis: AnalysisItem[];
+};
+
 const overlayClass = "fixed inset-0 z-[200] flex items-center justify-center bg-black/60 backdrop-blur-md p-4";
 
 export function VideoAnalysisDialog({ open, video, onClose }: VideoAnalysisDialogProps) {
-    const [content, setContent] = useState<any>(null); // Use proper type if possible, or any for agile dev
+    const [content, setContent] = useState<AnalysisContent | null>(null);
     const [isGenerating, setIsGenerating] = useState(false);
     const [customPrompt, setCustomPrompt] = useState("");
     const [language, setLanguage] = useState("Chinese (Simplified)");
@@ -90,11 +98,31 @@ export function VideoAnalysisDialog({ open, video, onClose }: VideoAnalysisDialo
         return newOptions;
     }, [isHoveringButton]);
 
+    const handleGenerate = useCallback(async () => {
+        if (!video) return;
+        setIsGenerating(true);
+        setContent(null); // Clear previous content
+
+        const videoUrl = `https://www.youtube.com/watch?v=${video.id}`;
+
+        try {
+            const { output } = await analyzeVideo(videoUrl, customPrompt, language);
+
+            for await (const delta of readStreamableValue(output)) {
+                setContent(delta as AnalysisContent);
+            }
+        } catch (error) {
+            console.error("Analysis failed:", error);
+        } finally {
+            setIsGenerating(false);
+        }
+    }, [video, customPrompt, language]);
+
     useEffect(() => {
         if (open && video && !content) {
             handleGenerate();
         }
-    }, [open, video]);
+    }, [open, video, content, handleGenerate]);
 
     useEffect(() => {
         if (contentEndRef.current) {
@@ -111,26 +139,6 @@ export function VideoAnalysisDialog({ open, video, onClose }: VideoAnalysisDialo
             document.body.style.overflow = originalStyle;
         };
     }, [open]);
-
-    const handleGenerate = async () => {
-        if (!video) return;
-        setIsGenerating(true);
-        setContent(null); // Clear previous content
-
-        const videoUrl = `https://www.youtube.com/watch?v=${video.id}`;
-
-        try {
-            const { output } = await analyzeVideo(videoUrl, customPrompt, language);
-
-            for await (const delta of readStreamableValue(output)) {
-                setContent(delta);
-            }
-        } catch (error) {
-            console.error("Analysis failed:", error);
-        } finally {
-            setIsGenerating(false);
-        }
-    };
 
     if (!open || !video) return null;
     if (typeof document === "undefined") return null;
@@ -173,7 +181,7 @@ export function VideoAnalysisDialog({ open, video, onClose }: VideoAnalysisDialo
                         <div className="flex-1 overflow-y-auto px-10 py-8 scrollbar-thin scrollbar-track-transparent scrollbar-thumb-white/10">
                             {content && content.analysis ? (
                                 <div className="space-y-10">
-                                    {content.analysis.map((qa: any, index: number) => (
+                                    {content.analysis.map((qa: AnalysisItem, index: number) => (
                                         <div key={index} className="space-y-4">
                                             <h4 className="text-lg font-bold leading-relaxed" style={{ color: '#a5b4fc' }}>
                                                 Q{index + 1}: {qa.question}

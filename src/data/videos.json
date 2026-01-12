@@ -1314,6 +1314,24 @@
     "person": "Boris Cherny"
   },
   {
+    "id": "vcLU0DhDhi0",
+    "company": "google",
+    "category": "google",
+    "title": "- YouTube",
+    "description": "In the final episode of \"DeepMind: The Podcast,\" CEO Demis Hassabis discusses his journey from chess player to AI pioneer, sharing insights on DeepMind's ambitions and the challenges of artificial intelligence. He reflects on the significance of the brain in understanding intelligence and his vision for the future of AI.",
+    "channelTitle": "Google DeepMind",
+    "publishDate": "2025-06-05",
+    "duration": "PT36M58S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/vcLU0DhDhi0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Demis Hassabis"
+  },
+  {
     "id": "fpujdDJg6l0",
     "company": "anthropic",
     "category": "anthropic",
@@ -1325,6 +1343,24 @@
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/fpujdDJg6l0/maxresdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Dario Amodei"
+  },
+  {
+    "id": "MUU-QI00C5s",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "LIVE | Anthropic CEO Dario Amodei Says AI Will Cause \\\"White Collar Bloodbath\\\", Mass Unemployment",
+    "description": "Anthropic CEO Dario Amodei warns that AI could lead to a \"white-collar bloodbath,\" potentially eliminating half of entry-level jobs and pushing US unemployment to 20% within five years. He emphasizes that society is unprepared for this significant shift in the job market.",
+    "channelTitle": "CRUX",
+    "publishDate": "2025-06-01",
+    "duration": "PT11H37M11S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/MUU-QI00C5s/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
@@ -1379,6 +1415,60 @@
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/GhIJs4zbH0o/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
+  },
+  {
+    "id": "tFgJHzliy94",
+    "company": "google",
+    "category": "google",
+    "title": "- YouTube",
+    "description": "In this 2009 lecture, Shane Legg, co-founder of DeepMind, discusses concepts related to machine superintelligence. The talk, given before DeepMind's founding, explores foundational ideas in machine learning and artificial intelligence. The video has garnered 5.8K views and 83 likes.",
+    "channelTitle": "The Artificial Intelligence Channel",
+    "publishDate": "2025-05-14",
+    "duration": "PT1H53M34S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/tFgJHzliy94/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Shane Legg"
+  },
+  {
+    "id": "ctcMA6chfDY",
+    "company": "openai",
+    "category": "openai",
+    "title": "OpenAI's Sam Altman on Building the 'Core AI Subscription ...",
+    "description": "Sam Altman discusses OpenAI's evolution and envisions ChatGPT as a personal AI that remembers users' life contexts, enhancing daily interactions with technology. He highlights the shift in how younger users perceive AI, aiming for a seamless, efficient model that integrates across services.",
+    "channelTitle": "Sequoia Capital",
+    "publishDate": "2025-05-12",
+    "duration": "PT31M59S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/ctcMA6chfDY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
+  },
+  {
+    "id": "3KUjNumRxGI",
+    "company": "openai",
+    "category": "openai",
+    "title": "OpenAI CEO Sam Altman, AMD CEO Dr. Lisa Su, others testify at Senate hearing | full video",
+    "description": "OpenAI CEO Sam Altman, AMD CEO Dr. Lisa Su, and other tech leaders testified before the Senate Commerce Committee about the artificial intelligence race. The discussion, part of CBS's \"Face the Nation,\" highlights key issues and developments in AI technology. Watch the full video [here](https://www.youtube.com/watch?v=3KUjNumRxGI&pp=0gc).",
+    "channelTitle": "Face the Nation",
+    "publishDate": "2025-05-08",
+    "duration": "PT3H12M17S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/3KUjNumRxGI/maxresdefault.jpg",
       "width": 480,
       "height": 360
     },
@@ -1505,6 +1595,42 @@
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/uvMolVW_2v0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Dario Amodei"
+  },
+  {
+    "id": "02qZmK1RRhk",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "“The Urgency of Interpretability”–By Dario Amodei📜🔈",
+    "description": "Dario Amodei's essay, \"The Urgency of Interpretability,\" emphasizes the critical need for understanding AI behavior as systems grow more autonomous. He argues that interpretability is essential for ensuring humanity can effectively manage AI, addressing the risks of black-box models and the challenges of oversight.",
+    "channelTitle": "Understand to Enlighten",
+    "publishDate": "2025-04-29",
+    "duration": "PT30M45S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/02qZmK1RRhk/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Dario Amodei"
+  },
+  {
+    "id": "1CpCdolHdeA",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "- YouTube",
+    "description": "In a conversation with a16z's Anjney Midha, Anthropic CEO Dario Amodei discusses scaling laws in AI, GPT-2's capabilities, the prevalence of physicists in AI, and the concept of Constitutional AI, outlining Anthropic's future roadmap. This is part of the AI Revolution series.",
+    "channelTitle": "a16z",
+    "publishDate": "2025-04-29",
+    "duration": "PT20M41S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/1CpCdolHdeA/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
@@ -2214,6 +2340,24 @@
     "person": "Sam Altman"
   },
   {
+    "id": "SAu2jgAF1i8",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Anthropic Founders Share Roadmap to Advance AI",
+    "description": "Dario and Daniela Amodei, co-founders of Anthropic, discuss their strategy for advancing AI safely and responsibly in an interview with Bloomberg's Brad Stone. The conversation emphasizes innovation while prioritizing ethical considerations in AI development. The video lasts 21 minutes and 50 seconds.",
+    "channelTitle": "Bloomberg Live",
+    "publishDate": "2024-05-09",
+    "duration": "PT22M",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/SAu2jgAF1i8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Daniela Amodei"
+  },
+  {
     "id": "XOp02BJ7Q3k",
     "company": "google",
     "category": "google",
@@ -2351,6 +2495,42 @@
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/O77UyYK51s4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
+  },
+  {
+    "id": "0X7oEPe4x5E",
+    "company": "openai",
+    "category": "openai",
+    "title": "OpenAI CEO Sam Altman On The Breakthrough Potential Of AI | Forbes",
+    "description": "Sam Altman, CEO of OpenAI, discusses AI's transformative potential for humanity in a conversation with David Blundin, Lex Fridman, and John Werner at an event on April 13, 2023. The discussion highlights AI's impact on business and society. Watch the full video [here](https://www.youtube.com/watch?v=0X7oEPe4x5E).",
+    "channelTitle": "Forbes",
+    "publishDate": "2023-06-23",
+    "duration": "PT21M27S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/0X7oEPe4x5E/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
+  },
+  {
+    "id": "57OU18cogJI",
+    "company": "openai",
+    "category": "openai",
+    "title": "StrictlyVC in conversation with Sam Altman, part one",
+    "description": "In a StrictlyVC event, Sam Altman discusses his investments, particularly in Helion Energy, and shares insights on various topics including Twitter, supersonic jets, and his disinterest in crypto. This is part one of a two-part interview, with the second part focusing on OpenAI.",
+    "channelTitle": "Connie Loizos",
+    "publishDate": "2023-01-16",
+    "duration": "PT20M33S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/57OU18cogJI/hqdefault.jpg",
       "width": 480,
       "height": 360
     },

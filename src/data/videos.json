@@ -1404,6 +1404,24 @@
     "person": "Sam Altman"
   },
   {
+    "id": "STMN5N-bDko",
+    "company": "google",
+    "category": "google",
+    "title": "Under the hood with Google AI",
+    "description": "In the YouTube video \"Under the hood with Google AI,\" Google leaders discuss the transformative impact of Gemini on knowledge, productivity, and search. They highlight recent AI advancements and future possibilities. The session is part of Google I/O 2025, featuring insights from key speakers.",
+    "channelTitle": "Google for Developers",
+    "publishDate": "2025-05-22",
+    "duration": "PT43M24S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/STMN5N-bDko/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Josh Woodward"
+  },
+  {
     "id": "GhIJs4zbH0o",
     "company": "openai",
     "category": "openai",
@@ -1438,6 +1456,24 @@
     },
     "tags": [],
     "person": "Shane Legg"
+  },
+  {
+    "id": "zDmW5hJPsvQ",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Claude Code: Anthropic's CLI Agent",
+    "description": "The video discusses Claude Code, Anthropic's CLI agent, emphasizing its Unix utility design philosophy. Key features include memory simplification, cost-effectiveness, and interactive capabilities. The discussion also covers AI developer tools, pricing models, and future developments, highlighting Claude Code's efficiency compared to competitors.",
+    "channelTitle": "Latent Space",
+    "publishDate": "2025-05-13",
+    "duration": "PT1H16M22S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/zDmW5hJPsvQ/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Boris Cherny"
   },
   {
     "id": "ctcMA6chfDY",
@@ -1744,6 +1780,24 @@
     },
     "tags": [],
     "person": "Dario Amodei"
+  },
+  {
+    "id": "9w-JjvO9OzM",
+    "company": "google",
+    "category": "google",
+    "title": "AI will make your job worse | AI expert interview",
+    "description": "In this interview, AI expert James Muldoon discusses the potential negative impact of AI on jobs, the role of DeepSeek, and common misconceptions held by governments about AI. He emphasizes the need for awareness and adaptation in the face of advancing technology.",
+    "channelTitle": "PoliticsJOE",
+    "publishDate": "2025-02-13",
+    "duration": "PT39M54S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/9w-JjvO9OzM/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Shane Legg"
   },
   {
     "id": "ge-rN5tDaC8",
@@ -2464,6 +2518,24 @@
     },
     "tags": [],
     "person": "Shane Legg"
+  },
+  {
+    "id": "Ut9zcpOEGgc%7C",
+    "company": "openai",
+    "category": "openai",
+    "title": "Microsoft Wants to Work With OpenAI’s Sam Altman, No Matter Where he is, CEO Nadella Says",
+    "description": "Microsoft CEO Satya Nadella expressed his commitment to working with OpenAI co-founder Sam Altman, stating that Altman will continue to collaborate with Microsoft regardless of his location. This statement was made during an interview with Bloomberg.",
+    "channelTitle": "Bloomberg Television",
+    "publishDate": "2023-11-20",
+    "duration": "PT30M",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/Ut9zcpOEGgc/maxresdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
   },
   {
     "id": "Zc4csOv7QtM",

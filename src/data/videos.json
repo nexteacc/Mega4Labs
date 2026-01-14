@@ -504,6 +504,24 @@
     "person": "Boris Cherny"
   },
   {
+    "id": "lCEB7xHer5U",
+    "company": "google",
+    "category": "google",
+    "title": "Google: The AI Company. Google is amazingly well ...",
+    "description": "The video discusses Google's AI journey, highlighting its innovations, challenges, and responses to competition, particularly after the launch of ChatGPT. It covers key developments like the Transformer technology, talent shifts to OpenAI, and Google's strategic moves with Gemini and Waymo, emphasizing the company's struggle to innovate while maintaining profitability.",
+    "channelTitle": "Acquired",
+    "publishDate": "2025-10-14",
+    "duration": "PT4H6M38S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/lCEB7xHer5U/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Josh Woodward"
+  },
+  {
     "id": "JfE1Wun9xkk",
     "company": "openai",
     "category": "openai",
@@ -1674,6 +1692,24 @@
     "person": "Dario Amodei"
   },
   {
+    "id": "uAA6PZkek4A",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "- YouTube",
+    "description": "Daniela and Dario Amodei discuss Anthropic, an AI safety and research company, focusing on its mission, research strategies, and career opportunities. They explore AI alignment, safety concerns, and the implications of large-scale models, emphasizing the importance of reliable and interpretable AI systems.",
+    "channelTitle": "Future of Life Institute",
+    "publishDate": "2025-04-29",
+    "duration": "PT2H13M41S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/uAA6PZkek4A/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Dario Amodei"
+  },
+  {
     "id": "scsW6_2SPC4",
     "company": "openai",
     "category": "openai",
@@ -1852,6 +1888,24 @@
     },
     "tags": [],
     "person": "Dario Amodei"
+  },
+  {
+    "id": "8vHr_8k8IbM",
+    "company": "openai",
+    "category": "openai",
+    "title": "LIVE: ChatGPT-Maker OpenAI CEO Sam Altman on OpenAI's India agenda, regulation, investments and more",
+    "description": "Sam Altman, CEO of OpenAI, discusses the company's agenda in India, focusing on regulation, investments, and collaborations with government officials and startups during his visit. This fireside chat highlights OpenAI's strategic interests in the Indian market. Watch the full conversation [here](https://www.youtube.com/watch?v=8vHr_8k8IbM).",
+    "channelTitle": "Unknown",
+    "publishDate": "2025-02-05",
+    "duration": "PT4H17M10S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/8vHr_8k8IbM/maxresdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
   },
   {
     "id": "s8bgB8TCdBs",
@@ -2232,6 +2286,24 @@
     "person": "Dario Amodei"
   },
   {
+    "id": "riniamTdUSo",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Mechanistic Interpretability explained | Chris Olah and Lex Fridman",
+    "description": "In this episode of the Lex Fridman Podcast, Chris Olah and Dario Amodei discuss mechanistic interpretability in AI, focusing on the development of Claude by Anthropic. The conversation explores AI's understanding and transparency, emphasizing the importance of interpretability in advancing artificial general intelligence (AGI).",
+    "channelTitle": "Lex Clips",
+    "publishDate": "2024-11-14",
+    "duration": "PT22M48S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/riniamTdUSo/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Amanda Askell"
+  },
+  {
     "id": "N16L5Bc-ldg",
     "company": "anthropic",
     "category": "anthropic",
@@ -2466,6 +2538,42 @@
     "person": "Sam Altman"
   },
   {
+    "id": "5fv4IH67uGM",
+    "company": "google",
+    "category": "google",
+    "title": "Log Cabin with a Twist! :: Ark Survival Ascended :: Building Tutorial",
+    "description": "This YouTube tutorial showcases a whimsical log cabin build in Ark Survival Ascended, inspired by a miniature design. It features a detailed, four-part guide covering construction, color, texture, and a building tour, all set to music by Josh Woodward. Perfect for players seeking creative building ideas.",
+    "channelTitle": "UniteTheClans",
+    "publishDate": "2024-01-22",
+    "duration": "PT33M55S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/5fv4IH67uGM/maxresdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Josh Woodward"
+  },
+  {
+    "id": "L_Guz73e6fw",
+    "company": "openai",
+    "category": "openai",
+    "title": "Sam Altman: OpenAI CEO on GPT-4, ChatGPT, and the Future ...",
+    "description": "In this podcast episode, Sam Altman, CEO of OpenAI, discusses GPT-4, AI safety, political bias, and the future of AI. Key topics include AGI, competition, and the impact of misinformation. The conversation also touches on personal advice and the meaning of life.",
+    "channelTitle": "Lex Fridman",
+    "publishDate": "2024-01-14",
+    "duration": "PT2H23M57S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/L_Guz73e6fw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
+  },
+  {
     "id": "Kc1atfJkiJU",
     "company": "google",
     "category": "google",
@@ -2585,6 +2693,24 @@
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/0X7oEPe4x5E/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
+  },
+  {
+    "id": "ebjkD1Om4uw",
+    "company": "openai",
+    "category": "openai",
+    "title": "StrictlyVC in conversation with Sam Altman, part two (OpenAI)",
+    "description": "In this interview segment, OpenAI CEO Sam Altman discusses the future of artificial intelligence, addressing regulation, concerns about AI commodification, and Alphabet's hesitance to release powerful AI. He also explores potential best- and worst-case scenarios as AI becomes increasingly integral to society.",
+    "channelTitle": "Connie Loizos",
+    "publishDate": "2023-01-18",
+    "duration": "PT38M59S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/ebjkD1Om4uw/hqdefault.jpg",
       "width": 480,
       "height": 360
     },

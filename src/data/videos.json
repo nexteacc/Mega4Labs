@@ -468,6 +468,24 @@
     "person": "Amanda Askell"
   },
   {
+    "id": "nNFdug3olOw",
+    "company": "cursor",
+    "category": "cursor",
+    "title": "AI Funding Frenzy Continues With Cursor, Thinking Machines ...",
+    "description": "Bloomberg's Caroline Hyde and Ed Ludlow discuss tech stocks amid Federal Reserve interest rate uncertainty. They highlight AI startup Thinking Machines, founded by ex-OpenAI executive Mira Murati, seeking funding at a $50 billion valuation, and Cursor, an AI-coding startup, raising funds at a $29.3 billion valuation.",
+    "channelTitle": "Bloomberg Technology",
+    "publishDate": "2025-11-15",
+    "duration": "PT44M4S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/nNFdug3olOw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Michael Truell"
+  },
+  {
     "id": "r-xjo7MYc18",
     "company": "google",
     "category": "google",
@@ -1901,6 +1919,24 @@
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/8vHr_8k8IbM/maxresdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
+  },
+  {
+    "id": "jvqFAi7vkBc",
+    "company": "openai",
+    "category": "openai",
+    "title": "Sam Altman: OpenAI, GPT-5, Sora, Board Saga, Elon Musk ...",
+    "description": "In this podcast episode, Lex Fridman interviews Sam Altman, CEO of OpenAI, discussing topics like the OpenAI board saga, GPT-4, privacy, and future developments including GPT-5 and AGI. The conversation also touches on Elon Musk's lawsuit and the implications of AI technologies.",
+    "channelTitle": "Lex Fridman",
+    "publishDate": "2025-01-15",
+    "duration": "PT1H55M10S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/jvqFAi7vkBc/hqdefault.jpg",
       "width": 480,
       "height": 360
     },

@@ -522,6 +522,24 @@
     "person": "Boris Cherny"
   },
   {
+    "id": "aI3M9gUrDdg",
+    "company": "openai",
+    "category": "openai",
+    "title": "Sam Altman Loses Cool During Interview \\\"Ive Had ENOUGH!!",
+    "description": "In a recent interview, Sam Altman expressed frustration, stating, \"I've had enough!\" The video discusses his insights on AI developments and challenges. For more AI news and updates, viewers are encouraged to subscribe to the channel. The video lasts 22 minutes and has garnered over 58,000 views.",
+    "channelTitle": "TheAIGRID",
+    "publishDate": "2025-11-03",
+    "duration": "PT22M42S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/aI3M9gUrDdg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
+  },
+  {
     "id": "lCEB7xHer5U",
     "company": "google",
     "category": "google",
@@ -1134,6 +1152,24 @@
     "person": "Kevin Weil"
   },
   {
+    "id": "JowVDHYw7Ww",
+    "company": "openai",
+    "category": "openai",
+    "title": "OpenAI's GPT-5 Is Coming But Sam Altman Won't Stop Throwing Shade",
+    "description": "OpenAI's Sam Altman discusses the anticipated release of GPT-5 and the competitive landscape in AI during a media tour. Highlights include Meta's $100 million bonuses for OpenAI staff, updates on AI models like Midjourney Video, and implications of AI on workforce dynamics.",
+    "channelTitle": "AI For Humans",
+    "publishDate": "2025-06-19",
+    "duration": "PT51M33S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/JowVDHYw7Ww/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
+  },
+  {
     "id": "LZr6Rhu8_as",
     "company": "openai",
     "category": "openai",
@@ -1726,6 +1762,24 @@
     },
     "tags": [],
     "person": "Dario Amodei"
+  },
+  {
+    "id": "ivdXr1PHFPo",
+    "company": "openai",
+    "category": "openai",
+    "title": "- YouTube",
+    "description": "In this episode, hosts Kevin Roose and Casey Newton interview Sam Altman just before his firing from OpenAI. They discuss the timeline of events surrounding his departure and subsequent hiring by Microsoft. The episode provides insights into the rapidly changing tech landscape.",
+    "channelTitle": "Hard Fork",
+    "publishDate": "2025-04-29",
+    "duration": "PT1H33M39S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/ivdXr1PHFPo/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
   },
   {
     "id": "scsW6_2SPC4",

@@ -1782,6 +1782,24 @@
     "person": "Sam Altman"
   },
   {
+    "id": "QnABGJ8cy_U",
+    "company": "cursor",
+    "category": "cursor",
+    "title": "Cursor AI Tutorial: Build a Full Stack App with AI in 30 Minutes ...",
+    "description": "In this tutorial, Nat Eliason demonstrates building a full-stack app that remixes long-form content into viral tweets using Cursor AI. He shares insights on AI's role in coding, app development, and writing, including tips for effective use of AI tools. Watch for practical advice and creative applications.",
+    "channelTitle": "Peter Yang",
+    "publishDate": "2025-04-17",
+    "duration": "PT47M4S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/QnABGJ8cy_U/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Ryo Lu"
+  },
+  {
     "id": "scsW6_2SPC4",
     "company": "openai",
     "category": "openai",
@@ -2644,6 +2662,24 @@
     },
     "tags": [],
     "person": "Josh Woodward"
+  },
+  {
+    "id": "C3vS7RNfCXM",
+    "company": "cursor",
+    "category": "cursor",
+    "title": "-1 to 0 in the Founder Journey with Avichal Garg, Peter ...",
+    "description": "The panel discussion features Avichal Garg, Peter Reinhardt, Ruchi Sanghvi, and Aditya Agarwal, focusing on the crucial stage of the founder journey from -1 to 0, emphasizing its importance before the well-known 0 to 1 phase. The event was part of SF TechWeek.",
+    "channelTitle": "South Park Commons",
+    "publishDate": "2024-01-17",
+    "duration": "PT1H8M31S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/C3vS7RNfCXM/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Aman Sanger"
   },
   {
     "id": "L_Guz73e6fw",

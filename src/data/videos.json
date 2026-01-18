@@ -1170,6 +1170,24 @@
     "person": "Sam Altman"
   },
   {
+    "id": "2HK9Th7GDiU",
+    "company": "cursor",
+    "category": "cursor",
+    "title": "Complete Vibe Coding Tutorial: Build a Full Stack App in 30 ...",
+    "description": "In this 51-minute tutorial, Matt Palmer from Replit demonstrates how to build a kid-friendly app in 30 minutes using vibe coding, emphasizing AI tools and no-code solutions. Key topics include project management, debugging, and the mindset needed for successful vibe coding.",
+    "channelTitle": "Peter Yang",
+    "publishDate": "2025-06-18",
+    "duration": "PT51M55S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/2HK9Th7GDiU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Ryo Lu"
+  },
+  {
     "id": "LZr6Rhu8_as",
     "company": "openai",
     "category": "openai",
@@ -1854,6 +1872,24 @@
     "person": "Josh Woodward"
   },
   {
+    "id": "4jDQi9P9UIw",
+    "company": "cursor",
+    "category": "cursor",
+    "title": "Stanford CS 153: Infra @ Scale - Cursor CTO & Co-Founder ...",
+    "description": "YouTube is a video-sharing platform where users can upload, view, and interact with videos. The provided link features a video with 1.9K views and 125 likes, showcasing content from a channel with 2.95K subscribers.",
+    "channelTitle": "Unknown",
+    "publishDate": "2025-03-18",
+    "duration": "PT48M37S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/4jDQi9P9UIw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Aman Sanger"
+  },
+  {
     "id": "SnSoMh9m5hc",
     "company": "openai",
     "category": "openai",
@@ -1991,6 +2027,24 @@
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/8vHr_8k8IbM/maxresdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
+  },
+  {
+    "id": "RIp1TdYeutU",
+    "company": "openai",
+    "category": "openai",
+    "title": "Sam Altman - OpenAI/ChatGPT",
+    "description": "In a January 2024 discussion at Howard University, OpenAI CEO Sam Altman explores the implications of artificial intelligence, addressing concerns about job displacement, online bias, and misinformation. The conversation, moderated by President Ben Vinson III, examines whether AI is ultimately beneficial or harmful to society.",
+    "channelTitle": "WHUT TV",
+    "publishDate": "2025-01-18",
+    "duration": "PT41M35S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/RIp1TdYeutU/maxresdefault.jpg",
       "width": 480,
       "height": 360
     },
@@ -2765,6 +2819,24 @@
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/Ut9zcpOEGgc/maxresdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
+  },
+  {
+    "id": "rJ9CyupbHnk",
+    "company": "openai",
+    "category": "openai",
+    "title": "ITW 2023, the world with ChatGpt - Sam Altman's full interview",
+    "description": "Sam Altman, CEO of OpenAI, discusses ChatGPT's future applications during an interview at Italian Tech Week 2023. He shares insights on how this technology will impact users globally, emphasizing innovation and the evolving role of AI in society.",
+    "channelTitle": "La Repubblica",
+    "publishDate": "2023-09-27",
+    "duration": "PT30M15S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/rJ9CyupbHnk/maxresdefault.jpg",
       "width": 480,
       "height": 360
     },

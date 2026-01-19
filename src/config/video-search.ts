@@ -23,6 +23,7 @@ export const AI_LEADERS = {
     people: [
       { name: "Sam Altman", role: "CEO" },
       { name: "Kevin Weil", role: "CPO" },
+      { name: "Alexander Embiricos", role: "Product Lead, Codex" },
     ],
   },
   cursor: {

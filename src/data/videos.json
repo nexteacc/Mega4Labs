@@ -1,5 +1,41 @@
 [
   {
+    "id": "q6fq4_uP7aM",
+    "company": "google",
+    "category": "hero",
+    "title": "The Man Behind Google's AI Machine | Demis Hassabis ...",
+    "description": "In a CNBC interview, Demis Hassabis, CEO of Google DeepMind, discusses the lab's advancements in AI and the implications of the race toward artificial general intelligence for science, business, and society. The episode is part of \"The Tech Download\" series hosted by Arjun Kharpal and Steve Kovach.",
+    "channelTitle": "CNBC International",
+    "publishDate": "2026-01-16",
+    "duration": "PT52M36S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/q6fq4_uP7aM/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Demis Hassabis"
+  },
+  {
+    "id": "q6fq4_uP7aM",
+    "company": "google",
+    "category": "google",
+    "title": "The Man Behind Google's AI Machine | Demis Hassabis ...",
+    "description": "In a CNBC interview, Demis Hassabis, CEO of Google DeepMind, discusses the lab's advancements in AI and the implications of the race toward artificial general intelligence for science, business, and society. The episode is part of \"The Tech Download\" series hosted by Arjun Kharpal and Steve Kovach.",
+    "channelTitle": "CNBC International",
+    "publishDate": "2026-01-16",
+    "duration": "PT52M36S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/q6fq4_uP7aM/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Demis Hassabis"
+  },
+  {
     "id": "GMXnmaky9FY",
     "company": "anthropic",
     "category": "hero",
@@ -70,24 +106,6 @@
     },
     "tags": [],
     "person": "Ryo Lu"
-  },
-  {
-    "id": "cNGDAqFXvew",
-    "company": "google",
-    "category": "hero",
-    "title": "”We're Ahead of Where I Thought We'd Be” — Gemini 3 & the ...",
-    "description": "In a podcast with Sebastian Borgeaud from Google DeepMind, insights on Gemini 3 reveal a shift from infinite data to a data-limited era, emphasizing better pre-training and evaluation. The discussion covers scaling laws, continual learning, and the evolving landscape of AI research and engineering.",
-    "channelTitle": "The MAD Podcast with Matt Turck",
-    "publishDate": "2025-12-24",
-    "duration": "PT55M4S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/cNGDAqFXvew/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [],
-    "person": "Sebastian Borgeaud"
   },
   {
     "id": "2P27Ef-LLuQ",
@@ -160,6 +178,24 @@
     },
     "tags": [],
     "person": "Amanda Askell"
+  },
+  {
+    "id": "9sTUJvwWC9k",
+    "company": "google",
+    "category": "google",
+    "title": "Google's Gemini 3 takes the lead in AI race",
+    "description": "In Episode 720 of Morning Brew Daily, hosts Neal and Toby discuss Google's recent successes, leading to its market value surpassing Microsoft's. They also touch on America's affordability crisis, Eli Lilly reaching a $1 trillion market value, and the box office success of \"Wicked: For Good.\"",
+    "channelTitle": "Morning Brew Daily",
+    "publishDate": "2025-12-19",
+    "duration": "PT25M1S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/9sTUJvwWC9k/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Josh Woodward"
   },
   {
     "id": "3JiVDYL20G4",
@@ -466,6 +502,24 @@
     },
     "tags": [],
     "person": "Amanda Askell"
+  },
+  {
+    "id": "cuSDy0Rmdks",
+    "company": "openai",
+    "category": "openai",
+    "title": "Sam Altman on Trust, Persuasion, and the Future of ...",
+    "description": "Sam Altman discusses OpenAI's growth, the future of AI, and its impact on industries like healthcare and housing. He shares insights on hiring, GPT-6's potential, AI's role in productivity, and concerns about AI persuasion. The conversation is part of the Progress Conference, recorded on October 17, 2025.",
+    "channelTitle": "Conversations with Tyler",
+    "publishDate": "2025-11-19",
+    "duration": "PT54M31S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/cuSDy0Rmdks/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
   },
   {
     "id": "nNFdug3olOw",

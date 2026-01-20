@@ -93,7 +93,7 @@ export const EXA_CONFIG = {
   includeDomains: ["youtube.com"],
   
   // Date range filtering (last 2 years)
-  startPublishedDate: "2023-01-01T00:00:00.000Z",
+  startPublishedDate: "2025-01-01T00:00:00.000Z",
   endPublishedDate: new Date().toISOString(),
   
   // Search type - auto lets Exa decide between neural and keyword

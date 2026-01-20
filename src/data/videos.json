@@ -36,42 +36,6 @@
     "person": "Demis Hassabis"
   },
   {
-    "id": "ZKnASs_d7aE",
-    "company": "openai",
-    "category": "hero",
-    "title": "Zapier's CEO shares his personal AI stack | Wade Foster",
-    "description": "Wade Foster, CEO of Zapier, discusses his use of AI for hiring and company culture in this episode. He shares workflows for analyzing meeting transcripts, creating AI interview evaluators, and sourcing talent through unconventional channels, emphasizing the importance of CEO involvement in AI adoption.",
-    "channelTitle": "How I AI",
-    "publishDate": "2026-01-06",
-    "duration": "PT41M28S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/ZKnASs_d7aE/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [],
-    "person": "Alexander Embiricos"
-  },
-  {
-    "id": "ZKnASs_d7aE",
-    "company": "openai",
-    "category": "openai",
-    "title": "Zapier's CEO shares his personal AI stack | Wade Foster",
-    "description": "Wade Foster, CEO of Zapier, discusses his use of AI for hiring and company culture in this episode. He shares workflows for analyzing meeting transcripts, creating AI interview evaluators, and sourcing talent through unconventional channels, emphasizing the importance of CEO involvement in AI adoption.",
-    "channelTitle": "How I AI",
-    "publishDate": "2026-01-06",
-    "duration": "PT41M28S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/ZKnASs_d7aE/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [],
-    "person": "Alexander Embiricos"
-  },
-  {
     "id": "GMXnmaky9FY",
     "company": "anthropic",
     "category": "hero",

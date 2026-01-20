@@ -11,6 +11,9 @@
 import { config } from "dotenv";
 import { writeFileSync, readFileSync, existsSync } from "fs";
 import Exa from "exa-js";
+import { google } from "@ai-sdk/google";
+import { generateObject } from "ai";
+import { z } from "zod";
 import { SEARCH_QUERIES, CONFIG, EXA_CONFIG } from "../src/config/video-search";
 import type { LandingVideo, Company } from "../src/lib/types";
 
@@ -21,6 +24,7 @@ config({ path: ".env.local" });
 
 const EXA_API_KEY = process.env.EXA_API_KEY;
 const YOUTUBE_API_KEY = process.env.YOUTUBE_API_KEY;
+const GOOGLE_API_KEY = process.env.GOOGLE_GENERATIVE_AI_API_KEY;
 
 if (!EXA_API_KEY) {
   console.error("❌ Error: EXA_API_KEY environment variable not set");
@@ -34,7 +38,14 @@ if (!YOUTUBE_API_KEY) {
   process.exit(1);
 }
 
+if (!GOOGLE_API_KEY) {
+  console.error("❌ Error: GOOGLE_GENERATIVE_AI_API_KEY environment variable not set");
+  console.error("Please add GOOGLE_GENERATIVE_AI_API_KEY to .env.local");
+  process.exit(1);
+}
+
 const exa = new Exa(EXA_API_KEY);
+const verificationModel = google("gemini-3-flash-preview");
 
 /**
  * Load existing videos from videos.ts file
@@ -113,6 +124,61 @@ async function getYouTubeDetails(videoIds: string[]): Promise<Map<string, YouTub
 }
 
 /**
+ * Verify a batch of videos for relevance using LLM (Gemini Flash)
+ */
+async function verifyVideoRelevanceBatch(
+  videos: { id: string; title: string; description: string; channelTitle: string }[],
+  personName: string
+): Promise<Map<string, { isRelevant: boolean; reason: string }>> {
+  if (videos.length === 0) return new Map();
+
+  try {
+    const { object } = await generateObject({
+      model: verificationModel,
+      schema: z.object({
+        results: z.array(z.object({
+          id: z.string(),
+          isRelevant: z.boolean().describe("Whether the video is primarily featuring the person."),
+          reason: z.string().describe("Brief reason for the decision."),
+        })),
+      }),
+      prompt: `
+        Analyze the following list of videos and determine if each one is relevant to "${personName}".
+        
+        Input Data (JSON):
+        ${JSON.stringify(videos, null, 2)}
+        
+        Task:
+        For EACH video, determine if ${personName} is the MAIN subject, guest, or speaker (e.g. interview, speech, podcast guest).
+        
+        Rules:
+        - Return false if the person is only mentioned in credits (e.g. "Music by ${personName}", "Edited by ${personName}").
+        - Return false if the person is only briefly mentioned or is a topic of discussion without being present (unless it's a deep dive documentary).
+        - Return false if it's a different person with the same name.
+        - Return true if it is an interview, speech, fireside chat, or presentation by ${personName}.
+        
+        Return a JSON object with a "results" array containing the decision for each video.
+      `,
+    });
+
+    const resultMap = new Map<string, { isRelevant: boolean; reason: string }>();
+    object.results.forEach(r => resultMap.set(r.id, { isRelevant: r.isRelevant, reason: r.reason }));
+    
+    // Fill in missing ones as false (fail-closed)
+    videos.forEach(v => {
+      if (!resultMap.has(v.id)) {
+        resultMap.set(v.id, { isRelevant: false, reason: "LLM missed this video" });
+      }
+    });
+
+    return resultMap;
+  } catch (error) {
+    console.error("   ⚠️  Batch LLM Verification failed:", error);
+    return new Map(); // Fail all
+  }
+}
+
+/**
  * Format video stats for logging
  */
 function formatVideoStats(
@@ -182,14 +248,13 @@ function convertToLandingVideo(
 async function main() {
   console.log("🚀 Starting video fetch for Mega 4 Labs...\n");
   console.log("📋 Strategy:");
-  console.log("   - Exa AI: Auto search (neural/keyword) with minimal filtering");
+  console.log("   - Exa AI: Auto search (neural/keyword)");
   console.log("   - YouTube API: Precise duration metadata");
   console.log("   - Organization: By person (interview subjects)");
   console.log("   - Mode: INCREMENTAL (preserve existing + add new)\n");
 
   // Load existing videos for incremental update
-  const { videos: existingVideos, existingIds } = loadExistingVideos();
-
+  const { videos: existingVideos } = loadExistingVideos();
   // Filter out hero videos from existing (we'll re-select heroes later)
   const existingNonHeroVideos = existingVideos.filter(v => v.category !== "hero");
 
@@ -202,7 +267,7 @@ async function main() {
   };
 
   // Global deduplication: start with existing IDs
-  const seenIds = new Set<string>(existingIds);
+  const seenIds = new Set<string>(existingVideos.map(v => v.id));
 
   for (const searchQuery of SEARCH_QUERIES) {
     console.log(`🔍 Searching: "${searchQuery.query}" (${searchQuery.company}${searchQuery.person ? ` - ${searchQuery.person}` : ""})`);
@@ -214,8 +279,6 @@ async function main() {
         {
           ...EXA_CONFIG,
           numResults: searchQuery.maxResults,
-          // Force results to contain the person's name
-          includeText: searchQuery.person ? [searchQuery.person] : undefined,
         }
       );
 
@@ -226,7 +289,7 @@ async function main() {
 
       console.log(`   📊 Found ${result.results.length} results from Exa AI`);
 
-      // Step 2: Extract video IDs and get YouTube metadata
+      // Step 2: Extract video IDs
       const videoIds: string[] = [];
       const exaResultsMap = new Map<string, ExaResult>();
 
@@ -239,36 +302,78 @@ async function main() {
         }
       }
 
-      console.log(`   🎬 Fetching YouTube metadata for ${videoIds.length} videos...`);
-      const youtubeDetailsMap = await getYouTubeDetails(videoIds);
-
-      // Step 3: Convert, filter by duration, and deduplicate
+      // Step 3: Filter duplicates and prepare candidates
+      const candidates: { id: string; exaResult: ExaResult }[] = [];
       let accepted = 0;
       let duplicates = 0;
 
       for (const [videoId, exaResult] of exaResultsMap) {
-        // Deduplication
         if (seenIds.has(videoId)) {
           duplicates++;
           continue;
         }
+        candidates.push({ id: videoId, exaResult });
+      }
 
-        const youtubeDetails = youtubeDetailsMap.get(videoId);
+      // Step 4: Batch Verification (AI First)
+      const verificationResults = new Map<string, { isRelevant: boolean; reason: string }>();
+      
+      if (searchQuery.person && candidates.length > 0) {
+        console.log(`      🤖 Batch verifying ${candidates.length} videos for "${searchQuery.person}"... `);
+        
+        const batchInput = candidates.map(c => ({
+          id: c.id,
+          title: c.exaResult.title || "",
+          description: c.exaResult.summary || c.exaResult.text || "",
+          channelTitle: c.exaResult.author || ""
+        }));
+        
+        const results = await verifyVideoRelevanceBatch(batchInput, searchQuery.person);
+        results.forEach((v, k) => verificationResults.set(k, v));
+      } else {
+        // If no person specified, assume relevant
+        candidates.forEach(c => verificationResults.set(c.id, { isRelevant: true, reason: "No person specified" }));
+      }
 
-        // Filter by duration (> 20 minutes)
-        if (youtubeDetails) {
-          const match = youtubeDetails.contentDetails.duration.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
-          if (match) {
-            const hours = parseInt(match[1] || "0");
-            const minutes = parseInt(match[2] || "0");
-            const seconds = parseInt(match[3] || "0");
-            const totalMinutes = hours * 60 + minutes + Math.round(seconds / 60);
-            if (totalMinutes <= 20) {
-              continue; // Skip videos with duration <= 20 minutes
-            }
+      // Collect IDs that passed AI verification
+      const passedVideoIds: string[] = [];
+      for (const candidate of candidates) {
+        const verification = verificationResults.get(candidate.id);
+        
+        // Fail-Closed Logic
+        if (searchQuery.person) {
+          if (!verification || !verification.isRelevant) {
+             continue; // Skip failed videos
           }
         }
+        passedVideoIds.push(candidate.id);
+      }
 
+      // Step 5: Fetch YouTube metadata ONLY for verified videos
+      console.log(`   🎬 Fetching YouTube metadata for ${passedVideoIds.length} verified videos...`);
+      const youtubeDetailsMap = await getYouTubeDetails(passedVideoIds);
+
+      // Step 6: Process results
+      for (const candidate of candidates) {
+        const videoId = candidate.id;
+        const exaResult = candidate.exaResult;
+        const verification = verificationResults.get(videoId);
+
+        // Fail-Closed Logic (Logging)
+        if (searchQuery.person) {
+          if (!verification) {
+             console.log(`❌ Rejected: ${exaResult.title?.substring(0, 30)}... (Verification missing/failed)`);
+             continue;
+          }
+          if (!verification.isRelevant) {
+            console.log(`❌ Rejected: ${exaResult.title?.substring(0, 30)}... (${verification.reason})`);
+            continue;
+          }
+          console.log(`✅ Accepted: ${exaResult.title?.substring(0, 30)}...`);
+        }
+
+        // Get details (might be undefined if YouTube fetch failed, but we handle that)
+        const youtubeDetails = youtubeDetailsMap.get(videoId);
         const stats = formatVideoStats(exaResult, youtubeDetails);
 
         // Convert format
@@ -341,6 +446,16 @@ async function main() {
     new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime()
   );
 
+  // Final validation before writing:
+  // Ensure we are not accidentally wiping the database with an empty or suspiciously small dataset.
+  // Safety threshold: The new dataset should have at least 50% of the count of the existing dataset (unless it was empty).
+  if (existingNonHeroVideos.length > 10 && allVideos.length < existingNonHeroVideos.length * 0.5) {
+    console.error(`\n❌ CRITICAL ERROR: New dataset size (${allVideos.length}) is significantly smaller than existing dataset (${existingNonHeroVideos.length}).`);
+    console.error("   Aborting write operation to prevent data loss.");
+    console.error("   Please check the logs for AI verification failures or API errors.");
+    process.exit(1);
+  }
+
   // Generate output file
   writeFileSync("src/data/videos.json", JSON.stringify(allVideos, null, 2), "utf-8");
 
@@ -382,7 +497,7 @@ async function main() {
     strategy: {
       searchEngine: "Exa AI auto search (neural/keyword)",
       metadataSource: "YouTube API (duration only)",
-      filtering: "Minimal - date range (2 years) + domain (youtube.com)",
+      filtering: "Date range + domain + LLM Semantic Verification",
       organization: "By person (interview subjects)",
       heroSelection: "Most recent 4 videos from all companies",
     },

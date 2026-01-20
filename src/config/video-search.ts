@@ -64,6 +64,7 @@ export const SEARCH_QUERIES: SearchQuery[] = [
   // OpenAI
   { query: "sam altman openai interview video", company: "openai", person: "Sam Altman", maxResults: 30 },
   { query: "kevin weil openai interview video", company: "openai", person: "Kevin Weil", maxResults: 20 },
+  { query: "alexander embiricos openai codex interview video", company: "openai", person: "Alexander Embiricos", maxResults: 20 },
   
   // Cursor
   { query: "michael truell cursor interview video", company: "cursor", person: "Michael Truell", maxResults: 30 },

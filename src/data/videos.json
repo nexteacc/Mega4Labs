@@ -36,6 +36,42 @@
     "person": "Demis Hassabis"
   },
   {
+    "id": "4ovdPwGwMlY",
+    "company": "anthropic",
+    "category": "hero",
+    "title": "2025 in review: AI - Anthropic's Dario & Daniela Amodei 60 ...",
+    "description": "In a 60 Minutes interview, Dario and Daniela Amodei of Anthropic discuss AI's impact on society, reflecting on 2025's trends. They explore the balance between the benefits and risks of AI, emphasizing its significant role in the future. The full interview is available on the 60 Minutes YouTube channel.",
+    "channelTitle": "TelevisionVanguard",
+    "publishDate": "2026-01-06",
+    "duration": "PT3M37S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/4ovdPwGwMlY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Daniela Amodei"
+  },
+  {
+    "id": "4ovdPwGwMlY",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "2025 in review: AI - Anthropic's Dario & Daniela Amodei 60 ...",
+    "description": "In a 60 Minutes interview, Dario and Daniela Amodei of Anthropic discuss AI's impact on society, reflecting on 2025's trends. They explore the balance between the benefits and risks of AI, emphasizing its significant role in the future. The full interview is available on the 60 Minutes YouTube channel.",
+    "channelTitle": "TelevisionVanguard",
+    "publishDate": "2026-01-06",
+    "duration": "PT3M37S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/4ovdPwGwMlY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Daniela Amodei"
+  },
+  {
     "id": "GMXnmaky9FY",
     "company": "anthropic",
     "category": "hero",
@@ -178,6 +214,78 @@
     },
     "tags": [],
     "person": "Alexander Embiricos"
+  },
+  {
+    "id": "qMAg8_yf9zA",
+    "company": "openai",
+    "category": "openai",
+    "title": "Sam Altman Says Technology Is the Greatest Equalizing ...",
+    "description": "In an interview on The Tonight Show, Sam Altman discusses the evolution of ChatGPT, his experience as a new father, and emphasizes that technology acts as a significant equalizing force in society. The conversation highlights the transformative potential of technology in bridging societal gaps.",
+    "channelTitle": "The Tonight Show Starring Jimmy Fallon",
+    "publishDate": "2025-12-20",
+    "duration": "PT8M2S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/qMAg8_yf9zA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
+  },
+  {
+    "id": "01E1SfsSYY8",
+    "company": "openai",
+    "category": "openai",
+    "title": "OpenAI Demo: Learn the ABSOLUTE basics of coding with AI ...",
+    "description": "Join Alexander Embiricos in a live 2-hour session exploring OpenAI's GPT-5.1 Codex Max. Learn to code with agents, tackle real-world software tasks, and participate in a Q&A. Ideal for beginners and those looking to enhance their coding skills. Watch here: [YouTube Link](https://www.youtube.com/watch?v=01E1SfsSYY8).",
+    "channelTitle": "The Neuron",
+    "publishDate": "2025-12-20",
+    "duration": "PT2H21S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/01E1SfsSYY8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Alexander Embiricos"
+  },
+  {
+    "id": "JZlYVkNv9dg",
+    "company": "cursor",
+    "category": "cursor",
+    "title": "How Cursor Is Redefining Coding In The AI Age | Aman ...",
+    "description": "In a conversation at IIT Bombay, Aman Sanger, co-founder of Cursor, discusses how AI is transforming coding and software development. Cursor, valued at over $29 billion, is reshaping engineering work, education, and the future of India's IT industry as efficiency skyrockets.",
+    "channelTitle": "CNBC-TV18",
+    "publishDate": "2025-12-20",
+    "duration": "PT23M32S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/JZlYVkNv9dg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Aman Sanger"
+  },
+  {
+    "id": "AApjEHsMkTU",
+    "company": "cursor",
+    "category": "cursor",
+    "title": "This was the biggest debate in design this year",
+    "description": "A heated debate between designers Karri Saarinen and Ryo Lu on Twitter about AI coding tools in design sparked discussions on current software design trends. The video explores both perspectives and features insights from various industry professionals, highlighting the evolving role of AI in design work.",
+    "channelTitle": "Tommy Geoco",
+    "publishDate": "2025-12-20",
+    "duration": "PT19M35S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/AApjEHsMkTU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Ryo Lu"
   },
   {
     "id": "9sTUJvwWC9k",
@@ -504,6 +612,42 @@
     "person": "Amanda Askell"
   },
   {
+    "id": "mP43PgF82Ns",
+    "company": "openai",
+    "category": "openai",
+    "title": "OpenAI Podcast — How AI Accelerates Science with Kevin Weil \\u0026 Alex Lupsasca — 4 Min",
+    "description": "In this 4-minute summary of the OpenAI Podcast, Kevin Weil and Alex Lupsasca discuss how AI accelerates scientific discovery, highlighting strategies like warm-up techniques and pruning search spaces. They emphasize the synergy between human and AI collaboration in enhancing research efficiency and generating novel solutions.",
+    "channelTitle": "TranscriptedAI Podcast Summaries",
+    "publishDate": "2025-11-20",
+    "duration": "PT4M15S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/mP43PgF82Ns/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Kevin Weil"
+  },
+  {
+    "id": "1fh4ks6FO50",
+    "company": "cursor",
+    "category": "cursor",
+    "title": "Cursor CEO Michael Truell: We're seeing success with our AI ...",
+    "description": "Cursor CEO Michael Truell discusses the company's fundraising success, current valuation, and product demand in an interview on CNBC's 'Closing Bell Overtime.' He emphasizes that they are thriving in the AI era, not just experiencing increased demand. For more details, watch the full interview [here](https://www.youtube.com/watch?v=1fh4ks6FO50).",
+    "channelTitle": "CNBC Television",
+    "publishDate": "2025-11-20",
+    "duration": "PT3M3S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/1fh4ks6FO50/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Michael Truell"
+  },
+  {
     "id": "cuSDy0Rmdks",
     "company": "openai",
     "category": "openai",
@@ -520,6 +664,24 @@
     },
     "tags": [],
     "person": "Sam Altman"
+  },
+  {
+    "id": "aAPpQC-3EyE",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Anthropic CEO warns that without guardrails, AI could be on dangerous path",
+    "description": "Anthropic CEO Dario Amodei discusses the risks of unregulated AI development, emphasizing the need for guardrails to prevent potential dangers. He highlights the urgency of addressing these issues as competition in advanced AI intensifies. The interview is part of a segment from \"60 Minutes.\"",
+    "channelTitle": "60 Minutes",
+    "publishDate": "2025-11-16",
+    "duration": "PT13M52S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/aAPpQC-3EyE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Dario Amodei"
   },
   {
     "id": "nNFdug3olOw",
@@ -592,6 +754,60 @@
     },
     "tags": [],
     "person": "Sam Altman"
+  },
+  {
+    "id": "NjpNG0CJRMM",
+    "company": "openai",
+    "category": "openai",
+    "title": "Sam Altman \\u0026 OpenAI | 2023 Hawking Fellow | Cambridge Union",
+    "description": "Sam Altman, CEO of OpenAI, accepted the 2023 Hawking Fellowship at the Cambridge Union, discussing AI's societal impact, OpenAI's unique approach, and future challenges. He emphasized the importance of ethical AI, education, and critical thinking in the face of an AI revolution. The event celebrated Stephen Hawking's legacy.",
+    "channelTitle": "Cambridge Union",
+    "publishDate": "2025-10-30",
+    "duration": "PT1H4M20S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/NjpNG0CJRMM/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
+  },
+  {
+    "id": "wUOjTR1511M",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "A Conversation with Dario Amodei and Marc Benioff ...",
+    "description": "In a discussion at Dreamforce 2025, Marc Benioff and Dario Amodei explore the future of AI, emphasizing the need for responsible governance and ethical deployment to ensure AI benefits society. They highlight the leadership necessary to harness AI as a positive force.",
+    "channelTitle": "Salesforce",
+    "publishDate": "2025-10-20",
+    "duration": "PT38M36S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/wUOjTR1511M/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Dario Amodei"
+  },
+  {
+    "id": "Yiy0cU6ChSw",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Scaling enterprise AI: Fireside chat with Eli Lilly’s Diogo Rau and Dario Amodei",
+    "description": "In a fireside chat, Dario Amodei of Anthropic and Diogo Rau from Eli Lilly discuss the integration of AI in regulated industries like life sciences. They explore strategies for using AI models like Claude in clinical research and emphasize the need for specialized AI solutions tailored to industry requirements.",
+    "channelTitle": "Anthropic",
+    "publishDate": "2025-10-20",
+    "duration": "PT5M35S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/Yiy0cU6ChSw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Dario Amodei"
   },
   {
     "id": "lCEB7xHer5U",
@@ -720,6 +936,60 @@
     "person": "Sam Altman"
   },
   {
+    "id": "Bvp4RDTSCws",
+    "company": "openai",
+    "category": "openai",
+    "title": "OpenAI Exec Says AGI Is ALREADY HERE... And Reveals ...",
+    "description": "OpenAI's Chief Product Officer, Kevin Weil, discusses the current state of AGI, its infinite compute demands, and what AGI products will look like. He reveals that AGI is already here, mentions OpenAI's chip development, and explores how humans can find purpose in an AGI-driven world.",
+    "channelTitle": "AI Copium",
+    "publishDate": "2025-09-20",
+    "duration": "PT12M52S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/Bvp4RDTSCws/maxresdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Kevin Weil"
+  },
+  {
+    "id": "QM_I3cTi3og",
+    "company": "cursor",
+    "category": "cursor",
+    "title": "Cursor CEO shares: The smart way to scale when every hire ...",
+    "description": "In a discussion between Parker Conrad and Michael Truell, they explore strategies for scaling companies rapidly in the AI era. The conversation offers insights for founders and operators on building successful businesses, emphasizing the importance of efficient hiring and innovative practices.",
+    "channelTitle": "Rippling",
+    "publishDate": "2025-09-20",
+    "duration": "PT1M5S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/QM_I3cTi3og/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Michael Truell"
+  },
+  {
+    "id": "sDZ1j0J-fe8",
+    "company": "google",
+    "category": "google",
+    "title": "Demis Hassabis: The CEO Working to Solve Cancer With AI",
+    "description": "Demis Hassabis, CEO of Google DeepMind, discusses using AI to accelerate drug development and tackle diseases like cancer through Isomorphic Labs. In an interview with Bloomberg, he explores AI's potential in drug discovery, trials, and its broader applications in medicine. Watch the full episode for insights.",
+    "channelTitle": "Bloomberg Technology",
+    "publishDate": "2025-09-13",
+    "duration": "PT8M51S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/sDZ1j0J-fe8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Demis Hassabis"
+  },
+  {
     "id": "3IZagDdwIno",
     "company": "google",
     "category": "google",
@@ -738,6 +1008,24 @@
     "person": "Demis Hassabis"
   },
   {
+    "id": "jAxFaZFzb00",
+    "company": "cursor",
+    "category": "cursor",
+    "title": "First Block: Rewriting startup playbooks with founders of Mercor, Cursor, and Clay",
+    "description": "In a recent First Block episode, founders Brendan Foody (Mercor), Varun Anand (Clay), and Michael Truell (Cursor) discuss how innovative startups are redefining early-stage strategies. They emphasize a focus on product obsession, high hiring standards, and leveraging customer feedback to drive growth, moving away from traditional startup advice.",
+    "channelTitle": "Notion",
+    "publishDate": "2025-09-11",
+    "duration": "PT53S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/jAxFaZFzb00/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Michael Truell"
+  },
+  {
     "id": "5KmpT-BoVf4",
     "company": "openai",
     "category": "openai",
@@ -749,6 +1037,24 @@
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/5KmpT-BoVf4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
+  },
+  {
+    "id": "6NwK-uq16U8",
+    "company": "openai",
+    "category": "openai",
+    "title": "Where is AI Taking Us? | Sam Altman \\u0026 Vinod Khosla",
+    "description": "In this discussion, Sam Altman and Vinod Khosla examine the future of AI, covering its evolution from chatbots to artificial general intelligence (AGI). They explore the changing dynamics between humans and machines and how AI will impact creation, learning, and innovation.",
+    "channelTitle": "Khosla Ventures",
+    "publishDate": "2025-09-08",
+    "duration": "PT56M2S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/6NwK-uq16U8/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
@@ -846,6 +1152,24 @@
     "person": "Boris Cherny"
   },
   {
+    "id": "RhOB3g0yZ5k",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Leading AI boss warns about risks of the technology | BBC News",
+    "description": "In a BBC interview, Anthropic CEO Dario Amodei discusses how hackers exploited their AI technology for cyber attacks, leading to data theft. He emphasizes the need for increased AI regulation and criticizes tech companies opposing such measures. The full interview is available on BBC Sounds and iPlayer.",
+    "channelTitle": "BBC News",
+    "publishDate": "2025-09-05",
+    "duration": "PT9M11S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/RhOB3g0yZ5k/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Dario Amodei"
+  },
+  {
     "id": "TrXi3naD6Og",
     "company": "cursor",
     "category": "cursor",
@@ -862,6 +1186,42 @@
     },
     "tags": [],
     "person": "Michael Truell"
+  },
+  {
+    "id": "TQhv6Wol6Ns",
+    "company": "cursor",
+    "category": "cursor",
+    "title": "Our designer built an operating system with Cursor",
+    "description": "Ryo Lu, Cursor's Head of Design, discusses his personal operating system, ryOS, and the role of AI in building innovative tools. The video showcases ryOS and invites viewers to explore it further. Watch it here: [ryOS](https://os.ryo.lu). Duration: 18:50.",
+    "channelTitle": "Cursor",
+    "publishDate": "2025-08-20",
+    "duration": "PT18M54S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/TQhv6Wol6Ns/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Ryo Lu"
+  },
+  {
+    "id": "SfOaZIGJ_gs",
+    "company": "openai",
+    "category": "openai",
+    "title": "Sam Altman x Nikhil Kamath: How to Win When AI Changes Everything | People by WTF | Episode 13",
+    "description": "In this episode, Sam Altman, CEO of OpenAI, discusses GPT-5's advancements, the future of AI, and its implications for society, including capitalism and climate change. He shares insights on personal growth, humility, and the evolving landscape of technology and human intelligence.",
+    "channelTitle": "Nikhil Kamath",
+    "publishDate": "2025-08-14",
+    "duration": "PT45M11S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/SfOaZIGJ_gs/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
   },
   {
     "id": "kOyIjt6FUrw",
@@ -929,6 +1289,78 @@
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/VX3jmwPzPrA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
+  },
+  {
+    "id": "xx_5ADX21-4",
+    "company": "openai",
+    "category": "openai",
+    "title": "OpenAI CEO Sam Altman on GPT-5: We've built an 'integrated single experience'",
+    "description": "OpenAI CEO Sam Altman discusses the launch of GPT-5, new ChatGPT features, company growth, AI talent competition, tokenization, profitability, and the partnership with Microsoft in a CNBC interview. The conversation highlights the future of AI and OpenAI's integrated approach.",
+    "channelTitle": "CNBC Television",
+    "publishDate": "2025-08-08",
+    "duration": "PT6M15S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/xx_5ADX21-4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
+  },
+  {
+    "id": "fNdSsz3x6Rk",
+    "company": "openai",
+    "category": "openai",
+    "title": "OpenAI CEO Sam Altman on Elon Musk: I don't think about him that much",
+    "description": "In a recent 'Squawk Box' interview, OpenAI CEO Sam Altman discusses the launch of GPT-5, new ChatGPT features, and the company's growth. He also shares insights on AI talent, profitability, and his relationship with Microsoft, while downplaying his thoughts on Elon Musk.",
+    "channelTitle": "CNBC Television",
+    "publishDate": "2025-08-08",
+    "duration": "PT1M46S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/fNdSsz3x6Rk/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
+  },
+  {
+    "id": "hT-HhQtr7H4",
+    "company": "openai",
+    "category": "openai",
+    "title": "OpenAI CEO Sam Altman on race for AI talent: The most intense talent market I've seen in my career",
+    "description": "OpenAI CEO Sam Altman discusses the intense competition for AI talent, the rollout of GPT-5, new ChatGPT features, and the company's growth outlook in a CNBC interview. He also shares insights on tokenization, profitability, and OpenAI's relationship with Microsoft. Watch the full interview [here](https://www.youtube.com/watch?v=hT-HhQtr7H4).",
+    "channelTitle": "CNBC Television",
+    "publishDate": "2025-08-08",
+    "duration": "PT3M39S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/hT-HhQtr7H4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
+  },
+  {
+    "id": "xnTsdDTayW0",
+    "company": "openai",
+    "category": "openai",
+    "title": "OpenAI CEO Sam Altman on path to profitability: Willing to run at a loss to focus on growth",
+    "description": "OpenAI CEO Sam Altman discusses the company's growth strategy, the upcoming GPT-5 model, and new ChatGPT features in a CNBC interview. He emphasizes a willingness to operate at a loss for growth, the competitive AI talent landscape, and the relationship with Microsoft.",
+    "channelTitle": "CNBC Television",
+    "publishDate": "2025-08-08",
+    "duration": "PT2M36S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/xnTsdDTayW0/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
@@ -1098,6 +1530,96 @@
     "person": "Boris Cherny"
   },
   {
+    "id": "raikcKu-_WI",
+    "company": "google",
+    "category": "google",
+    "title": "Demis Hassabis on scaling laws: Will AI progress hit a wall? | Lex Fridman Podcast Clips",
+    "description": "Demis Hassabis, CEO of Google DeepMind, discusses AI's future and potential limitations in a Lex Fridman podcast episode. He highlights scaling laws and the implications for AI progress, drawing from his expertise in AI and protein structure prediction. For more insights, watch the full episode [here](https://www.youtube.com/watch?v=raikcKu-_WI).",
+    "channelTitle": "Lex Clips",
+    "publishDate": "2025-07-30",
+    "duration": "PT2M52S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/raikcKu-_WI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Demis Hassabis"
+  },
+  {
+    "id": "GDHq0iDojtY",
+    "company": "google",
+    "category": "google",
+    "title": "When will Gemini 3 come out? | Demis Hassabis and Lex Fridman",
+    "description": "In this episode of the Lex Fridman Podcast, Demis Hassabis, CEO of Google DeepMind, discusses the future of AI and the anticipated release of Gemini 3. The conversation covers advancements in AI technology and its implications. For more details, watch the full episode [here](https://www.youtube.com/watch?v=GDHq0iDojtY).",
+    "channelTitle": "Lex Clips",
+    "publishDate": "2025-07-30",
+    "duration": "PT4M",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/GDHq0iDojtY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Demis Hassabis"
+  },
+  {
+    "id": "INgtZNNuj38",
+    "company": "google",
+    "category": "google",
+    "title": "Will programmers lose their jobs (to AI)? | Demis Hassabis and Lex Fridman",
+    "description": "In this Lex Fridman Podcast episode, Demis Hassabis, CEO of Google DeepMind, discusses the future of AI and its implications for jobs, particularly in programming. He explores whether AI will replace programmers and the evolving role of technology in the workforce. The episode lasts 6 minutes and 45 seconds.",
+    "channelTitle": "Lex Clips",
+    "publishDate": "2025-07-29",
+    "duration": "PT6M49S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/INgtZNNuj38/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Demis Hassabis"
+  },
+  {
+    "id": "QrZPYvKz7Yo",
+    "company": "google",
+    "category": "google",
+    "title": "Future of video games | Demis Hassabis and Lex Fridman",
+    "description": "In this episode of the Lex Fridman Podcast, Demis Hassabis, CEO of Google DeepMind, discusses the future of AI and video games, highlighting advancements in simulation and AI's role in gaming. The conversation explores the intersection of technology and creativity in shaping the gaming landscape.",
+    "channelTitle": "Lex Clips",
+    "publishDate": "2025-07-23",
+    "duration": "PT12M25S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/QrZPYvKz7Yo/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Demis Hassabis"
+  },
+  {
+    "id": "gShEnL6-_0E",
+    "company": "openai",
+    "category": "openai",
+    "title": "OpenAI's CPO Kevin Weil explains: AI myths vs. reality",
+    "description": "OpenAI's CPO Kevin Weil discusses common AI myths and realities with Azeem. They explore AI's impact on daily life, future developments from OpenAI, and why the future of AI may be more exciting than feared. For more insights, watch the full episode [here](https://www.youtube.com/watch?v=gShEnL6-_0E).",
+    "channelTitle": "Azeem Azhar",
+    "publishDate": "2025-07-20",
+    "duration": "PT6M17S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/gShEnL6-_0E/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Kevin Weil"
+  },
+  {
     "id": "mZUG0pr5hBo",
     "company": "openai",
     "category": "openai",
@@ -1206,6 +1728,24 @@
     "person": "Kevin Weil"
   },
   {
+    "id": "V979Wd1gmTU",
+    "company": "openai",
+    "category": "openai",
+    "title": "Sam Altman: The Future of OpenAI, ChatGPT's Origins, and Building AI Hardware",
+    "description": "In a June 2025 fireside chat, Sam Altman discusses his journey from early tech ambitions to founding OpenAI. He shares insights on AI development, including ChatGPT's evolution, future models, and the importance of collaboration and purpose in building impactful technology.",
+    "channelTitle": "Y Combinator",
+    "publishDate": "2025-06-21",
+    "duration": "PT42M44S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/V979Wd1gmTU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
+  },
+  {
     "id": "TCCHe0PslQw",
     "company": "openai",
     "category": "openai",
@@ -1242,6 +1782,60 @@
     "person": "Josh Woodward"
   },
   {
+    "id": "CRraHg4Ks_g",
+    "company": "google",
+    "category": "google",
+    "title": "Demis Hassabis On The Future of Work in the Age of AI",
+    "description": "In a 20-minute interview, Demis Hassabis, CEO of Google DeepMind, discusses the rise of AI and its implications for the future workplace with WIRED's Steven Levy. They explore the journey towards Artificial General Intelligence (AGI) and Google's competitive strategy in this evolving landscape.",
+    "channelTitle": "WIRED",
+    "publishDate": "2025-06-20",
+    "duration": "PT20M11S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/CRraHg4Ks_g/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Demis Hassabis"
+  },
+  {
+    "id": "Oq5Kg2wBAmw",
+    "company": "google",
+    "category": "google",
+    "title": "Google IO 2025 Keynote | Jason Baldridge and Josh ...",
+    "description": "Jason Baldridge, a Google research scientist, discussed advancements in natural language processing at Google I/O 2025. He focused on enhancing language models like Gemini for better user experiences in Search and Google Meet, emphasizing improvements in real-time communication and ethical AI development. Watch the full presentation [here](https://www.youtube.com/watch?v=Oq5Kg2wBAmw).",
+    "channelTitle": "Techusiness",
+    "publishDate": "2025-06-20",
+    "duration": "PT12M54S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/Oq5Kg2wBAmw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Josh Woodward"
+  },
+  {
+    "id": "zju51INmW7U",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "AI company's CEO issues warning about mass unemployment",
+    "description": "Anthropic CEO Dario Amodei warns about the potential for mass unemployment due to the rise of AI in an interview with CNN's Anderson Cooper. He emphasizes the need to raise awareness about the implications of AI advancements. The video is 10 minutes and 45 seconds long.",
+    "channelTitle": "CNN",
+    "publishDate": "2025-06-20",
+    "duration": "PT10M47S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/zju51INmW7U/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Dario Amodei"
+  },
+  {
     "id": "JowVDHYw7Ww",
     "company": "openai",
     "category": "openai",
@@ -1276,6 +1870,60 @@
     },
     "tags": [],
     "person": "Ryo Lu"
+  },
+  {
+    "id": "DB9mjd-65gw",
+    "company": "openai",
+    "category": "openai",
+    "title": "Sam Altman on AGI, GPT-5, and what’s next — the OpenAI Podcast Ep. 1",
+    "description": "In the inaugural episode of the OpenAI Podcast, Sam Altman discusses the future of AI, covering topics like GPT-5, AGI, Project Stargate, and AI's impact on parenting. He also addresses user privacy, potential advertising on ChatGPT, and the importance of computational power for future advancements.",
+    "channelTitle": "OpenAI",
+    "publishDate": "2025-06-18",
+    "duration": "PT40M24S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/DB9mjd-65gw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
+  },
+  {
+    "id": "yTu0ak4GoyM",
+    "company": "openai",
+    "category": "openai",
+    "title": "Sam Altman on Stargate, Humanoid Robots and OpenAI's Future | The Circuit with Emily Chang",
+    "description": "In a 17-minute interview, OpenAI CEO Sam Altman discusses the Stargate data center project, OpenAI's future ambitions, and humanoid robots with Emily Chang. He also shares insights on balancing his professional life with being a new father. The conversation highlights key developments in AI and technology.",
+    "channelTitle": "Bloomberg Originals",
+    "publishDate": "2025-06-12",
+    "duration": "PT17M40S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/yTu0ak4GoyM/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
+  },
+  {
+    "id": "Gc_EWijTx9o",
+    "company": "google",
+    "category": "google",
+    "title": "Demis Hassabis explains LLMs, public safety, and what comes next in AI",
+    "description": "In this video, Demis Hassabis discusses the rapid advancements in AI, emphasizing the importance of safety measures to prevent misuse. He explores future developments, including AI designing AI, and stresses the need to maintain public trust as the field evolves. The conversation is both inspiring and reassuring.",
+    "channelTitle": "Matt Wolfe",
+    "publishDate": "2025-06-11",
+    "duration": "PT18M6S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/Gc_EWijTx9o/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Demis Hassabis"
   },
   {
     "id": "LZr6Rhu8_as",
@@ -1440,6 +2088,24 @@
     "person": "Boris Cherny"
   },
   {
+    "id": "S_5DhptpI6g",
+    "company": "cursor",
+    "category": "cursor",
+    "title": "Anysphere CEO on Cursor Being Valued at $9.9 Billion",
+    "description": "Anysphere CEO Michael Truell discusses the company's AI coding assistant, Cursor, which has achieved a valuation of $9.9 billion, positioning it as one of the fastest-growing software companies. The interview is featured on Bloomberg Technology with hosts Caroline Hyde and Ed Ludlow.",
+    "channelTitle": "Bloomberg Technology",
+    "publishDate": "2025-06-06",
+    "duration": "PT4M19S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/S_5DhptpI6g/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Michael Truell"
+  },
+  {
     "id": "nkb4qEuxoJc",
     "company": "google",
     "category": "google",
@@ -1512,6 +2178,96 @@
     "person": "Demis Hassabis"
   },
   {
+    "id": "GRiAcL-Q9uI",
+    "company": "cursor",
+    "category": "cursor",
+    "title": "- YouTube",
+    "description": "Michael Truell introduces Cursor, an AI-first code editor. The video highlights open roles for a founding full-stack engineer and a founding machine learning engineer. For more information, visit the official website at https://www.cursor.so. The video has garnered 3.7K views and 40 likes.",
+    "channelTitle": "Founders You Should Know",
+    "publishDate": "2025-06-05",
+    "duration": "PT4M10S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/GRiAcL-Q9uI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Michael Truell"
+  },
+  {
+    "id": "_XmPcaYXFYo",
+    "company": "google",
+    "category": "google",
+    "title": "AI That Sees Your World?",
+    "description": "Demis Hassabis, CEO of Google DeepMind, discusses his vision for developing AI that can perceive the world alongside humans. He emphasizes that this capability is essential for advancing robotics and enhancing human-AI interaction.",
+    "channelTitle": "Alex Kantrowitz",
+    "publishDate": "2025-06-05",
+    "duration": "PT1M1S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/_XmPcaYXFYo/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Demis Hassabis"
+  },
+  {
+    "id": "qhnJDDX2hhU",
+    "company": "openai",
+    "category": "openai",
+    "title": "Sam Altman Talks AGI Timeline \\u0026 Next-Gen AI Capabilities | Snowflake Summit 2025 Fireside Chat",
+    "description": "In a fireside chat at Snowflake Summit 2025, OpenAI CEO Sam Altman discusses the future of AI, focusing on enterprise strategies for 2025, advancements in memory and retrieval systems, the concept of AGI, and the potential of next-gen models with significantly increased computing power.",
+    "channelTitle": "Maginative",
+    "publishDate": "2025-06-03",
+    "duration": "PT20M54S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/qhnJDDX2hhU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
+  },
+  {
+    "id": "JDKShC-ef9A",
+    "company": "openai",
+    "category": "openai",
+    "title": "OpenAI’s Altman sees 2026 as a turning point for AI in business | REUTERS",
+    "description": "OpenAI CEO Sam Altman predicts that by 2026, AI systems will significantly aid businesses in solving complex problems and discovering new insights. This statement was made during a keynote at the Snowflake Summit in San Francisco.",
+    "channelTitle": "Reuters",
+    "publishDate": "2025-06-03",
+    "duration": "PT1M6S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/JDKShC-ef9A/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
+  },
+  {
+    "id": "TgS0nFeYul8",
+    "company": "google",
+    "category": "google",
+    "title": "Sir Demis Hassabis on The Future of Knowledge | Institute for Advanced Study",
+    "description": "In a May 2025 discussion, Sir Demis Hassabis, co-founder of Google DeepMind, explores AI's impact on knowledge and discovery with IAS Director David Nirenberg. They cover Hassabis's journey, AI breakthroughs like AlphaFold, and societal implications of advancing technology, including the P vs NP problem.",
+    "channelTitle": "Institute for Advanced Study",
+    "publishDate": "2025-06-03",
+    "duration": "PT57M42S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/TgS0nFeYul8/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Demis Hassabis"
+  },
+  {
     "id": "fpujdDJg6l0",
     "company": "anthropic",
     "category": "anthropic",
@@ -1566,6 +2322,42 @@
     "person": "Dario Amodei"
   },
   {
+    "id": "70uNJpSHLBo",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "CEO warns AI ‘job bloodbath’ coming",
+    "description": "Anthropic CEO Dario Amodei warns of an impending \"job bloodbath\" due to advancements in AI technology. He expresses concerns about the impact of AI on employment, highlighting the need for awareness and preparation in the workforce. For more details, watch the full video [here](https://www.youtube.com/watch?v=70uNJpSHLBo&pp=0gc).",
+    "channelTitle": "Good Morning America",
+    "publishDate": "2025-05-29",
+    "duration": "PT2M18S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/70uNJpSHLBo/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Dario Amodei"
+  },
+  {
+    "id": "2YcO6_WC4TE",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Tech CEO warns AI could cause mass unemployment",
+    "description": "Dario Amodei, CEO of Anthropic, discusses the potential for AI to lead to mass unemployment in an interview with Anderson Cooper on CNN. The conversation highlights concerns about the impact of AI advancements on the job market. Watch the full discussion [here](https://www.youtube.com/watch?v=2YcO6_WC4TE).",
+    "channelTitle": "CNN",
+    "publishDate": "2025-05-29",
+    "duration": "PT47S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/2YcO6_WC4TE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Dario Amodei"
+  },
+  {
     "id": "xHoLsxvf6N4",
     "company": "openai",
     "category": "openai",
@@ -1582,6 +2374,24 @@
     },
     "tags": [],
     "person": "Sam Altman"
+  },
+  {
+    "id": "N3EKt9mZ7RE",
+    "company": "google",
+    "category": "google",
+    "title": "Google DeepMind CEO Demis Hassabis on How Students and Kids Should Adapt to AI Era",
+    "description": "Demis Hassabis, CEO of Google DeepMind, discusses how students and children can adapt to the AI era, emphasizing the importance of embracing technology and developing skills that complement AI. He highlights the need for creativity and critical thinking in an increasingly automated world.",
+    "channelTitle": "PodiumVC",
+    "publishDate": "2025-05-26",
+    "duration": "PT1M58S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/N3EKt9mZ7RE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Demis Hassabis"
   },
   {
     "id": "STMN5N-bDko",
@@ -1602,6 +2412,42 @@
     "person": "Josh Woodward"
   },
   {
+    "id": "Z8Qip0kgl3A",
+    "company": "google",
+    "category": "google",
+    "title": "Google DeepMind + Gemini for Developers | I/O 2025 Keynote",
+    "description": "In the Google I/O 2025 keynote, Demis Hassabis and Tulsee Doshi from Google DeepMind discuss groundbreaking AI advancements and their implications for future innovations. The presentation highlights the transformative potential of AI in shaping technology and society. Watch the full keynote [here](https://www.youtube.com/watch?v=Z8Qip0kgl3A).",
+    "channelTitle": "Google",
+    "publishDate": "2025-05-22",
+    "duration": "PT26M36S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/Z8Qip0kgl3A/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Demis Hassabis"
+  },
+  {
+    "id": "Fe2adi-OWV0",
+    "company": "google",
+    "category": "google",
+    "title": "Demis Hassabis and Veritasium's Derek Muller talk AI, AlphaFold and human intelligence",
+    "description": "In a live Q&A at the London premiere of *The Thinking Game*, Derek Muller interviews Demis Hassabis about AI advancements, including AlphaFold, and the ethical implications of artificial general intelligence. The film chronicles DeepMind's journey over five years, highlighting key breakthroughs and challenges in AI research.",
+    "channelTitle": "The Thinking Game Film",
+    "publishDate": "2025-05-21",
+    "duration": "PT19M59S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/Fe2adi-OWV0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Demis Hassabis"
+  },
+  {
     "id": "GhIJs4zbH0o",
     "company": "openai",
     "category": "openai",
@@ -1613,6 +2459,42 @@
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/GhIJs4zbH0o/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
+  },
+  {
+    "id": "UL_mym1p8Po",
+    "company": "cursor",
+    "category": "cursor",
+    "title": "Michael Truell, CEO of Cursor, Introducing Cursor v0.50",
+    "description": "Michael Truell, CEO of Cursor, introduces Cursor v0.50 in this video. He discusses the latest features and improvements of the software, aiming to enhance user experience and productivity. The presentation highlights key updates and invites viewers to explore the new capabilities of Cursor.",
+    "channelTitle": "2k1ric",
+    "publishDate": "2025-05-20",
+    "duration": "PT2M12S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/UL_mym1p8Po/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Michael Truell"
+  },
+  {
+    "id": "cXROx1EewjM",
+    "company": "openai",
+    "category": "openai",
+    "title": "Conversation with OpenAI CEO Sam Altman: Satya Nadella at Microsoft Build 2025",
+    "description": "In a 4-minute conversation at Microsoft Build 2025, Satya Nadella interviews OpenAI CEO Sam Altman, discussing advancements in AI technology and its implications. The video highlights their insights on innovation and collaboration between Microsoft and OpenAI. Watch it [here](https://www.youtube.com/watch?v=cXROx1EewjM).",
+    "channelTitle": "Microsoft",
+    "publishDate": "2025-05-19",
+    "duration": "PT4M50S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/cXROx1EewjM/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
@@ -1638,6 +2520,24 @@
     "person": "Alexander Embiricos"
   },
   {
+    "id": "LIHP4BqwSw0",
+    "company": "openai",
+    "category": "openai",
+    "title": "ChatGPT Codex: The Missing Manual",
+    "description": "The video \"ChatGPT Codex: The Missing Manual\" features developers Josh Ma and Alexander Embiricos discussing the launch and evolution of ChatGPT Codex, an Autonomous Software Engineer. They cover AI development journeys, best practices, human-AI collaboration, and future directions in software engineering. The video lasts 53 minutes and 30 seconds.",
+    "channelTitle": "Latent Space",
+    "publishDate": "2025-05-16",
+    "duration": "PT53M32S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/LIHP4BqwSw0/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Alexander Embiricos"
+  },
+  {
     "id": "tFgJHzliy94",
     "company": "google",
     "category": "google",
@@ -1649,6 +2549,24 @@
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/tFgJHzliy94/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Shane Legg"
+  },
+  {
+    "id": "kMUdrUP-QCs",
+    "company": "google",
+    "category": "google",
+    "title": "- YouTube",
+    "description": "Shane Legg, cofounder of Google DeepMind, discusses the transformative potential of artificial general intelligence (AGI) in a TED Talk with Chris Anderson. He explores AGI's evolution, its future impact, and the importance of ensuring its safe and ethical development. Watch the full talk [here](https://www.youtube.com/watch?v=kMUdrUP-QCs&pp=0gc).",
+    "channelTitle": "TED",
+    "publishDate": "2025-05-14",
+    "duration": "PT16M12S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/kMUdrUP-QCs/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
@@ -1703,6 +2621,24 @@
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/3KUjNumRxGI/maxresdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
+  },
+  {
+    "id": "NbKWcrYxGdo",
+    "company": "openai",
+    "category": "openai",
+    "title": "Watch: OpenAI CEO Sam Altman, other executives give opening statements at Senate AI hearing",
+    "description": "OpenAI CEO Sam Altman and other tech executives, including AMD's Dr. Lisa Su and Microsoft's Brad Smith, delivered opening statements at a Senate hearing focused on the competition in artificial intelligence. The session highlights the ongoing discussions around AI's impact and regulation. Watch the full video [here](https://www.youtube.com/watch?v=NbKWcrYxGdo).",
+    "channelTitle": "CBS News",
+    "publishDate": "2025-05-08",
+    "duration": "PT20M12S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/NbKWcrYxGdo/hqdefault.jpg",
       "width": 480,
       "height": 360
     },
@@ -1798,6 +2734,24 @@
     },
     "tags": [],
     "person": "Daniela Amodei"
+  },
+  {
+    "id": "gk4vq8zl9zI",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Anthropic CEO Reveals: By 2027, AI Will Be Smarter Than Us (And We Can't Control It)",
+    "description": "Anthropic CEO Dario Amodei warns that by 2027, AI may surpass human intelligence, raising concerns about control and understanding. Key issues include the \"opacity problem\" and the urgent need for interpretability. Immediate action is crucial to ensure AI benefits humanity rather than posing a threat.",
+    "channelTitle": "Julia McCoy",
+    "publishDate": "2025-05-06",
+    "duration": "PT11M33S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/gk4vq8zl9zI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Dario Amodei"
   },
   {
     "id": "z8VPf7qmp4I",
@@ -1908,6 +2862,24 @@
     "person": "Sam Altman"
   },
   {
+    "id": "qUbx5RC8ro4",
+    "company": "google",
+    "category": "google",
+    "title": "Google DeepMind CEO demonstrates world-building AI model Genie 2",
+    "description": "Google DeepMind CEO Demis Hassabis showcased Genie 2, an AI model capable of creating 3D interactive environments, on 60 Minutes. This technology has potential applications in training robots, marking a significant advancement in AI capabilities. The segment highlights the future of AI in robotics.",
+    "channelTitle": "60 Minutes",
+    "publishDate": "2025-04-20",
+    "duration": "PT5M48S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/qUbx5RC8ro4/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Demis Hassabis"
+  },
+  {
     "id": "QnABGJ8cy_U",
     "company": "cursor",
     "category": "cursor",
@@ -1978,6 +2950,24 @@
     },
     "tags": [],
     "person": "Josh Woodward"
+  },
+  {
+    "id": "c0NqpG--Pzw",
+    "company": "openai",
+    "category": "openai",
+    "title": "Sam Altman on the future of AI | ReThinking with Adam Grant",
+    "description": "In a conversation with Adam Grant, Sam Altman, CEO of OpenAI, discusses AI's advancements in creativity and empathy, ethical challenges, and the importance of human oversight. They explore strategies for adapting to an AI-driven world while emphasizing the need to uphold human values and progress.",
+    "channelTitle": "TED Audio Collective",
+    "publishDate": "2025-03-21",
+    "duration": "PT44M25S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/c0NqpG--Pzw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Sam Altman"
   },
   {
     "id": "4jDQi9P9UIw",
@@ -2052,6 +3042,42 @@
     "person": "Dario Amodei"
   },
   {
+    "id": "rd7fB9b9Y9E",
+    "company": "openai",
+    "category": "openai",
+    "title": "OpenAI CPO Kevin Weil on DeepSeek: The 'first big salvo' in ...",
+    "description": "OpenAI's CPO Kevin Weil discusses the company's initiatives and partnerships, as well as the implications of China's DeepSeek AI development in the ongoing U.S.-China AI arms race, during an interview on CNBC's 'Squawk on the Street.'",
+    "channelTitle": "CNBC Television",
+    "publishDate": "2025-02-20",
+    "duration": "PT7M9S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/rd7fB9b9Y9E/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Kevin Weil"
+  },
+  {
+    "id": "4poqjZlM8Lo",
+    "company": "google",
+    "category": "google",
+    "title": "AI bosses on what keeps them up at night",
+    "description": "In a 14-minute discussion, Google DeepMind's Demis Hassabis and Anthropic's Dario Amodei address AI safety, the timeline for achieving artificial general intelligence, and their concerns about the implications of their work, likening their potential impact to that of Oppenheimer.",
+    "channelTitle": "The Economist",
+    "publishDate": "2025-02-18",
+    "duration": "PT14M24S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/4poqjZlM8Lo/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Demis Hassabis"
+  },
+  {
     "id": "9w-JjvO9OzM",
     "company": "google",
     "category": "google",
@@ -2068,6 +3094,24 @@
     },
     "tags": [],
     "person": "Shane Legg"
+  },
+  {
+    "id": "bNQbqU4gWlM",
+    "company": "google",
+    "category": "google",
+    "title": "How Google, DeepMind View AI, Regulation, Productivity | Paris AI Summit",
+    "description": "Demis Hassabis and James Manyika discuss AI's impact on productivity and regulation at the Paris AI Summit. They highlight DeepMind's influence on the industry and the differing regulatory approaches in the US and EU. The conversation is part of Bloomberg Technology's coverage.",
+    "channelTitle": "Bloomberg Technology",
+    "publishDate": "2025-02-10",
+    "duration": "PT8M28S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/bNQbqU4gWlM/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Demis Hassabis"
   },
   {
     "id": "ge-rN5tDaC8",
@@ -2142,6 +3186,60 @@
     "person": "Sam Altman"
   },
   {
+    "id": "ooM4QOETFGk",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Anthropic CEO Calls for Policy Action on AI",
+    "description": "Dario Amodei, CEO of Anthropic, emphasized the need for policy action on autonomous AI during a discussion at Bloomberg House in Davos. He plans to collaborate with the Trump administration on energy provisions to enhance security around AI systems. The conversation was led by Bloomberg's Shirin Ghaffary and Brad Stone.",
+    "channelTitle": "Bloomberg Live",
+    "publishDate": "2025-01-23",
+    "duration": "PT23M12S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/ooM4QOETFGk/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Dario Amodei"
+  },
+  {
+    "id": "ICv03VysLaE",
+    "company": "google",
+    "category": "google",
+    "title": "How can AI unlock solutions to our biggest challenges?",
+    "description": "In a live discussion from Davos, Demis Hassabis, CEO of Google DeepMind, explores how AI can transform scientific discovery and address major global challenges, highlighting its potential to create a brighter future for humanity. The talk emphasizes AI's role in innovation and problem-solving.",
+    "channelTitle": "FT Live",
+    "publishDate": "2025-01-21",
+    "duration": "PT43M55S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/ICv03VysLaE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Demis Hassabis"
+  },
+  {
+    "id": "7LNyUbii0zw",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Anthropic CEO: More confident than ever that we're 'very close ...",
+    "description": "Dario Amodei, CEO of Anthropic, discusses AI development on CNBC's 'Squawk Box,' expressing confidence in nearing powerful AI capabilities. He addresses the competitive landscape, the Anthropic-Amazon partnership, and potential challenges in AI technology advancement. The interview highlights the current state and future of AI innovation.",
+    "channelTitle": "CNBC Television",
+    "publishDate": "2025-01-20",
+    "duration": "PT6M32S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/7LNyUbii0zw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Dario Amodei"
+  },
+  {
     "id": "RIp1TdYeutU",
     "company": "openai",
     "category": "openai",
@@ -2158,6 +3256,24 @@
     },
     "tags": [],
     "person": "Sam Altman"
+  },
+  {
+    "id": "YtPaZsasmNA",
+    "company": "google",
+    "category": "google",
+    "title": "Nobel Prize lecture: Demis Hassabis, Nobel Prize in Chemistry 2024",
+    "description": "In his Nobel Prize lecture, Demis Hassabis discusses \"Accelerating scientific discovery with AI,\" highlighting advancements in protein structure prediction. The 2024 Nobel Prize in Chemistry was awarded to him and John Jumper, alongside David Baker for computational protein design. The lecture took place on December 8, 2024.",
+    "channelTitle": "Nobel Prize",
+    "publishDate": "2025-01-17",
+    "duration": "PT29M2S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/YtPaZsasmNA/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Demis Hassabis"
   },
   {
     "id": "jvqFAi7vkBc",

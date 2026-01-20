@@ -36,6 +36,42 @@
     "person": "Demis Hassabis"
   },
   {
+    "id": "ZKnASs_d7aE",
+    "company": "openai",
+    "category": "hero",
+    "title": "Zapier's CEO shares his personal AI stack | Wade Foster",
+    "description": "Wade Foster, CEO of Zapier, discusses his use of AI for hiring and company culture in this episode. He shares workflows for analyzing meeting transcripts, creating AI interview evaluators, and sourcing talent through unconventional channels, emphasizing the importance of CEO involvement in AI adoption.",
+    "channelTitle": "How I AI",
+    "publishDate": "2026-01-06",
+    "duration": "PT41M28S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/ZKnASs_d7aE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Alexander Embiricos"
+  },
+  {
+    "id": "ZKnASs_d7aE",
+    "company": "openai",
+    "category": "openai",
+    "title": "Zapier's CEO shares his personal AI stack | Wade Foster",
+    "description": "Wade Foster, CEO of Zapier, discusses his use of AI for hiring and company culture in this episode. He shares workflows for analyzing meeting transcripts, creating AI interview evaluators, and sourcing talent through unconventional channels, emphasizing the importance of CEO involvement in AI adoption.",
+    "channelTitle": "How I AI",
+    "publishDate": "2026-01-06",
+    "duration": "PT41M28S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/ZKnASs_d7aE/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Alexander Embiricos"
+  },
+  {
     "id": "GMXnmaky9FY",
     "company": "anthropic",
     "category": "hero",
@@ -88,24 +124,6 @@
     },
     "tags": [],
     "person": "Sam Altman"
-  },
-  {
-    "id": "8ncYSGbfeyY",
-    "company": "cursor",
-    "category": "hero",
-    "title": "Cursor's Ryo Lu on Designing Living Tools, the Future of ...",
-    "description": "Ryo Lu, head of Design at Cursor, discusses his design philosophy, emphasizing modularity and the interplay of simplicity and complexity. He explores the evolution of design with AI, creating personalized tools like ryOS, and the importance of balancing agility and quality in crafting soulful technology.",
-    "channelTitle": "Dialectic Podcast with Jackson Dahl",
-    "publishDate": "2025-12-24",
-    "duration": "PT2H1M46S",
-    "platform": "youtube",
-    "thumbnail": {
-      "url": "https://i.ytimg.com/vi/8ncYSGbfeyY/hqdefault.jpg",
-      "width": 480,
-      "height": 360
-    },
-    "tags": [],
-    "person": "Ryo Lu"
   },
   {
     "id": "2P27Ef-LLuQ",
@@ -178,6 +196,24 @@
     },
     "tags": [],
     "person": "Amanda Askell"
+  },
+  {
+    "id": "z1ISq9Ty4Cg",
+    "company": "openai",
+    "category": "openai",
+    "title": "Inside OpenAI: 2026 is the year of agents, AI's biggest ...",
+    "description": "In a discussion led by Alexander Embiricos, OpenAI's Codex coding agent is highlighted for its 20x growth and role in software development. Key points include the importance of human typing speed as a bottleneck, Codex's proactive capabilities, and its impact on engineering productivity.",
+    "channelTitle": "Lenny's Podcast",
+    "publishDate": "2025-12-20",
+    "duration": "PT1H25M13S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/z1ISq9Ty4Cg/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Alexander Embiricos"
   },
   {
     "id": "9sTUJvwWC9k",
@@ -1206,6 +1242,42 @@
     "person": "Kevin Weil"
   },
   {
+    "id": "TCCHe0PslQw",
+    "company": "openai",
+    "category": "openai",
+    "title": "OpenAI Codex Team: From Coding Autocomplete to ...",
+    "description": "OpenAI's Codex team discusses their AI coding agent that autonomously generates pull requests from task descriptions. They explore its training for real-world applications, technical challenges, and the future of coding with AI agents. The conversation highlights Codex's role in software development and practical tips for developers.",
+    "channelTitle": "Sequoia Capital",
+    "publishDate": "2025-06-20",
+    "duration": "PT37M45S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/TCCHe0PslQw/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Alexander Embiricos"
+  },
+  {
+    "id": "exuuGrbaxxc",
+    "company": "google",
+    "category": "google",
+    "title": "Google I/O Afterparty: The Future of Human-AI Collaboration ...",
+    "description": "In this Google I/O Afterparty discussion, leaders from Google Labs explore innovative AI tools like Whisk, Veo, and Project Mariner, focusing on creative workflows and productivity. They address the evolution of AI in filmmaking, intelligent assistants, and the future of human-AI collaboration. Hosted by Sonya Huang.",
+    "channelTitle": "Sequoia Capital",
+    "publishDate": "2025-06-20",
+    "duration": "PT53M52S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/exuuGrbaxxc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Josh Woodward"
+  },
+  {
     "id": "JowVDHYw7Ww",
     "company": "openai",
     "category": "openai",
@@ -1582,6 +1654,24 @@
     },
     "tags": [],
     "person": "Sam Altman"
+  },
+  {
+    "id": "qIhdpIP1d-I",
+    "company": "openai",
+    "category": "openai",
+    "title": "OpenAI Launches Codex: An Autonomous Programming Agent",
+    "description": "OpenAI's Codex is an autonomous coding agent that builds features and fixes bugs. In a live demo, its interface and functionality were showcased, emphasizing an \"abundance mindset\" for task delegation. The future of programming is envisioned as more collaborative, focusing on guiding agents rather than routine coding.",
+    "channelTitle": "Every",
+    "publishDate": "2025-05-16",
+    "duration": "PT42M40S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/qIhdpIP1d-I/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "tags": [],
+    "person": "Alexander Embiricos"
   },
   {
     "id": "tFgJHzliy94",

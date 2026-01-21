@@ -24,6 +24,7 @@ export const AI_LEADERS = {
       { name: "Sam Altman", role: "CEO" },
       { name: "Kevin Weil", role: "CPO" },
       { name: "Alexander Embiricos", role: "Product Lead, Codex" },
+      { name: "Chris Lehane", role: "Chief Global Affairs Officer" },
     ],
   },
   cursor: {
@@ -62,23 +63,24 @@ export const AI_LEADERS = {
 
 export const SEARCH_QUERIES: SearchQuery[] = [
   // OpenAI
-  { query: "sam altman openai interview video", company: "openai", person: "Sam Altman", maxResults: 30 },
+  { query: "sam altman openai interview video", company: "openai", person: "Sam Altman", maxResults: 20 },
   { query: "kevin weil openai interview video", company: "openai", person: "Kevin Weil", maxResults: 20 },
+  { query: "chris lehane openai interview video", company: "openai", person: "Chris Lehane", maxResults: 20 },
   { query: "alexander embiricos openai codex interview video", company: "openai", person: "Alexander Embiricos", maxResults: 20 },
   
   // Cursor
-  { query: "michael truell cursor interview video", company: "cursor", person: "Michael Truell", maxResults: 30 },
+  { query: "michael truell cursor interview video", company: "cursor", person: "Michael Truell", maxResults: 20 },
   { query: "aman sanger cursor interview video", company: "cursor", person: "Aman Sanger", maxResults: 20 },
   { query: "ryo lu cursor interview video", company: "cursor", person: "Ryo Lu", maxResults: 20 },
   
   // Google
-  { query: "demis hassabis google interview video", company: "google", person: "Demis Hassabis", maxResults: 30 },
+  { query: "demis hassabis google interview video", company: "google", person: "Demis Hassabis", maxResults: 20 },
   { query: "josh woodward google interview video", company: "google", person: "Josh Woodward", maxResults: 20 },
   { query: "sebastian borgeaud google interview video", company: "google", person: "Sebastian Borgeaud", maxResults: 20 },
   { query: "shane legg google interview video", company: "google", person: "Shane Legg", maxResults: 20 },
   
   // Anthropic
-  { query: "dario amodei anthropic interview video", company: "anthropic", person: "Dario Amodei", maxResults: 30 },
+  { query: "dario amodei anthropic interview video", company: "anthropic", person: "Dario Amodei", maxResults: 20 },
   { query: "daniela amodei anthropic interview video", company: "anthropic", person: "Daniela Amodei", maxResults: 20 },
   { query: "amanda askell anthropic interview video", company: "anthropic", person: "Amanda Askell", maxResults: 20 },
   { query: "boris cherny anthropic interview video", company: "anthropic", person: "Boris Cherny", maxResults: 20 },
@@ -92,18 +94,8 @@ export const EXA_CONFIG = {
   // Domain filtering
   includeDomains: ["youtube.com"],
   
-  // Date range filtering (last 2 years)
-  startPublishedDate: "2025-01-01T00:00:00.000Z",
+  // Date range filtering
   endPublishedDate: new Date().toISOString(),
-  
-  // Search type - auto lets Exa decide between neural and keyword
-  type: "auto" as const,
-  
-  // Content options
-  text: true as const,
-  summary: {
-    query: "summary youtube within 50 words",
-  },
 };
 
 /**

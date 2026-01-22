@@ -25,6 +25,7 @@ export const AI_LEADERS = {
       { name: "Kevin Weil", role: "CPO" },
       { name: "Alexander Embiricos", role: "Product Lead, Codex" },
       { name: "Chris Lehane", role: "Chief Global Affairs Officer" },
+      { name: "Miqdad Jaffer", role: "Head of Product, Enterprise" },
     ],
   },
   cursor: {
@@ -66,6 +67,7 @@ export const SEARCH_QUERIES: SearchQuery[] = [
   { query: "sam altman openai interview video", company: "openai", person: "Sam Altman", maxResults: 20 },
   { query: "kevin weil openai interview video", company: "openai", person: "Kevin Weil", maxResults: 20 },
   { query: "chris lehane openai interview video", company: "openai", person: "Chris Lehane", maxResults: 20 },
+  { query: "miqdad jaffer openai interview video", company: "openai", person: "Miqdad Jaffer", maxResults: 20 },
   { query: "alexander embiricos openai codex interview video", company: "openai", person: "Alexander Embiricos", maxResults: 20 },
   
   // Cursor

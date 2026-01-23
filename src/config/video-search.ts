@@ -70,6 +70,7 @@ export const SEARCH_QUERIES: SearchQuery[] = [
   { query: "chris lehane openai interview video", company: "openai", person: "Chris Lehane", maxResults: 20 },
   { query: "miqdad jaffer openai interview video", company: "openai", person: "Miqdad Jaffer", maxResults: 20 },
   { query: "jiayi weng openai interview video", company: "openai", person: "Jiayi Weng", maxResults: 20 },
+  { query: "翁家翌 openai 访谈 视频", company: "openai", person: "Jiayi Weng", maxResults: 20 },
   { query: "alexander embiricos openai codex interview video", company: "openai", person: "Alexander Embiricos", maxResults: 20 },
   
   // Cursor

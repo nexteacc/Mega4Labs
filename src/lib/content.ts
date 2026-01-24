@@ -5,6 +5,7 @@ import {
   COMPANY_DESCRIPTIONS,
   COMPANY_COLORS,
 } from "@/lib/i18n";
+import { AI_LEADERS } from "@/config/video-search";
 import type { LandingVideo, VideoModule, Company } from "@/lib/types";
 
 const sortByPublishDateDesc = (items: LandingVideo[]): LandingVideo[] =>
@@ -86,6 +87,17 @@ export const getVideosByPerson = (personName: string): LandingVideo[] => {
   return dedupeById(
     sortByPublishDateDesc(videos.filter((v) => v.person === personName))
   );
+};
+
+/**
+ * Get total person count
+ */
+export const getPersonCount = (): number => {
+  let count = 0;
+  for (const company of COMPANIES) {
+    count += AI_LEADERS[company].people.length;
+  }
+  return count;
 };
 
 /**

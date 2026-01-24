@@ -4,6 +4,7 @@ import { useState } from "react";
 import { OpenAI, Anthropic, Google, Cursor } from "@lobehub/icons";
 import { AI_LEADERS } from "@/config/video-search";
 import { generateSlug } from "@/lib/slug";
+import { getPersonCount } from "@/lib/content";
 import type { Company } from "@/lib/types";
 import Link from "next/link";
 
@@ -18,6 +19,7 @@ const COMPANIES: Company[] = ["openai", "cursor", "google", "anthropic"];
 
 export function Navigation() {
   const [activeMenu, setActiveMenu] = useState<Company | null>(null);
+  const personCount = getPersonCount();
 
   const handleCompanyClick = (company: Company) => {
     // Scroll to company section
@@ -33,12 +35,27 @@ export function Navigation() {
       <div className="mx-auto max-w-[1180px] px-4 sm:px-8 lg:px-10">
         <div className="flex items-center justify-between py-3 sm:py-4">
           {/* People Link */}
-          <Link
-            href="/people"
-            className="rounded-lg px-3 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-100 hover:text-gray-900 sm:px-4"
-          >
-            People
-          </Link>
+          <div className="flex items-center gap-4">
+            <Link
+              href="/people"
+              className="rounded-lg px-3 py-2 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-100 hover:text-gray-900 sm:px-4"
+            >
+              People
+            </Link>
+            
+            <div className="hidden text-xs text-gray-500 sm:block border-l border-gray-200 pl-4">
+              <div className="flex items-center gap-1.5">
+                <span className="relative flex h-2 w-2">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+                </span>
+                <span>Weekly Updates</span>
+              </div>
+              <div className="mt-0.5 font-medium">
+                Tracking {personCount} AI Leaders
+              </div>
+            </div>
+          </div>
 
           {/* Company Navigation */}
           <div className="flex items-center justify-center gap-2 sm:gap-4">

@@ -52,7 +52,7 @@ export function Navigation() {
                 <span>Weekly Updates</span>
               </div>
               <div className="mt-0.5 font-medium">
-                Tracking {personCount} AI Leaders
+                Tracking {personCount} AI Sailors
               </div>
             </div>
           </div>

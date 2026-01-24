@@ -13,7 +13,7 @@ export type SearchQuery = {
 };
 
 /**
- * AI Leaders Configuration
+ * AI Sailors Configuration
  */
 export const AI_LEADERS = {
   openai: {

@@ -16,7 +16,7 @@ import {
 } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: `${SITE_NAME} - Interviews & Insights from AI Industry Leaders`,
+  title: `${SITE_NAME} - Interviews & Insights from AI Industry Sailors`,
   description: SEO_DESCRIPTION,
   keywords: SEO_KEYWORDS,
   authors: [{ name: SITE_NAME }],

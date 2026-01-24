@@ -48,6 +48,7 @@ export const AI_LEADERS = {
       { name: "Josh Woodward", role: "VP, Labs & Gemini" },
       { name: "Sebastian Borgeaud", role: "Research Engineer & Gemini 3 Pre-training Lead, DeepMind" },
       { name: "Shane Legg", role: "Co-founder & Chief AGI Scientist, DeepMind" },
+      { name: "Logan Kilpatrick", role: "Lead Product, Google AI Studio & Gemini API" },
     ],
   },
   anthropic: {
@@ -83,6 +84,7 @@ export const SEARCH_QUERIES: SearchQuery[] = [
   { query: "josh woodward google interview video", company: "google", person: "Josh Woodward", maxResults: 20 },
   { query: "sebastian borgeaud google interview video", company: "google", person: "Sebastian Borgeaud", maxResults: 20 },
   { query: "shane legg google interview video", company: "google", person: "Shane Legg", maxResults: 20 },
+  { query: "logan kilpatrick google interview video", company: "google", person: "Logan Kilpatrick", maxResults: 20 },
   
   // Anthropic
   { query: "dario amodei anthropic interview video", company: "anthropic", person: "Dario Amodei", maxResults: 20 },

@@ -15,8 +15,6 @@ import {
   getVideoCount,
 } from "@/lib/content";
 
-export const revalidate = 21600; // 6 hours
-
 export const metadata: Metadata = {
   title: `${SITE_NAME} - Interviews & Insights from AI Industry Leaders`,
   description: SEO_DESCRIPTION,

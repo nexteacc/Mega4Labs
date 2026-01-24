@@ -6,7 +6,7 @@ import Link from "next/link";
 import type { Company } from "@/lib/types";
 
 export const metadata: Metadata = {
-  title: "AI 水手",
+  title: "AI Sailors",
   description: "Meet the sailors navigating the future of AI - visionaries from OpenAI, Anthropic, Google, and Cursor.",
 };
 

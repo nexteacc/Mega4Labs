@@ -24,7 +24,7 @@ export default function PeoplePage() {
     <div className="mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-8 sm:py-16 lg:px-10 lg:py-20">
       <div className="mb-12 text-center">
         <h1 className="mb-4 text-4xl font-bold text-primary sm:text-5xl lg:text-6xl">
-          AI 水手
+          AI Sailors
         </h1>
         <p className="text-lg text-secondary sm:text-xl">
           Meet the sailors navigating the future of AI

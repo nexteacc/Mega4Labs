@@ -305,10 +305,10 @@ async function main() {
     // 5. Prepare for Verification
     const videosToVerify = [];
     for (const [id, details] of youtubeDetailsMap.entries()) {
-      // Basic duration filter (> 5 mins)
+      // Basic duration filter (> 20 mins)
       const minutes = getDurationMinutes(details.contentDetails.duration);
       if (minutes === null) continue;
-      if (minutes < 5) continue; // Skip shorts/clips
+      if (minutes < 20) continue; // Skip shorts/clips/short interviews
 
       videosToVerify.push({
         id: id,

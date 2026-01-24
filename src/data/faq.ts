@@ -27,7 +27,7 @@ export const FAQ_DATA: FAQData = {
     },
     {
       question: "How are videos selected and curated?",
-      answer: "Videos are automatically curated using **Exa AI's neural search** combined with YouTube API. We filter for: videos longer than **5 minutes**, published within the **last 1 year**, and from **YouTube only**.",
+      answer: "Videos are automatically curated using **Exa AI's neural search** combined with YouTube API. We filter for: videos longer than **20 minutes**, published within the **last 1 year**, and from **YouTube only**.",
     },
     {
       question: "Why these four companies?",

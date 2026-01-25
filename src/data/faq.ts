@@ -19,7 +19,7 @@ export const FAQ_DATA: FAQData = {
   items: [
     {
       question: "Who are the AI sailors featured on this site?",
-      answer: "We feature 18 sailors across four major AI companies: OpenAI, Cursor, Google DeepMind, and Anthropic. These individuals are shaping the future of AI through their work on GPT, Claude, Gemini, and AI-powered development tools.",
+      answer: "We feature 19 sailors across four major AI companies: OpenAI, Cursor, Google DeepMind, and Anthropic. These individuals are shaping the future of AI through their work on GPT, Claude, Gemini, and AI-powered development tools.",
     },
     {
       question: "How often is new content added?",

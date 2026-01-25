@@ -60,6 +60,7 @@ export const AI_LEADERS = {
       { name: "Daniela Amodei", role: "President & Co-founder" },
       { name: "Amanda Askell", role: "Philosopher" },
       { name: "Boris Cherny", role: "Creator & Head of Claude Code" },
+      { name: "Jenny Wen", role: "Design Lead" },
     ],
   },
 } as const;
@@ -91,6 +92,7 @@ export const SEARCH_QUERIES: SearchQuery[] = [
   { query: "daniela amodei anthropic interview video", company: "anthropic", person: "Daniela Amodei", maxResults: 20 },
   { query: "amanda askell anthropic interview video", company: "anthropic", person: "Amanda Askell", maxResults: 20 },
   { query: "boris cherny anthropic interview video", company: "anthropic", person: "Boris Cherny", maxResults: 20 },
+  { query: "jenny wen anthropic interview video", company: "anthropic", person: "Jenny Wen", maxResults: 20 },
 ];
 
 /**

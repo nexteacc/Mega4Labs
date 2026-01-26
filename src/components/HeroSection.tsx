@@ -28,7 +28,7 @@ export function HeroSection({ videos, heroSupporting }: HeroSectionProps) {
 
   const handleClose = () => {
     setOpen(false);
-    setTimeout(() => setSelected(null), 250);
+    setSelected(null);
   };
 
   return (

@@ -20,7 +20,7 @@ export function PersonVideoGrid({ videos }: PersonVideoGridProps) {
 
   const handleClose = () => {
     setOpen(false);
-    setTimeout(() => setSelected(null), 200);
+    setSelected(null);
   };
 
   return (

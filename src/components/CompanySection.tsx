@@ -45,7 +45,7 @@ export function CompanySection({
 
   const handleClose = () => {
     setOpen(false);
-    setTimeout(() => setSelected(null), 200);
+    setSelected(null);
   };
 
   const handleLoadMore = () => {

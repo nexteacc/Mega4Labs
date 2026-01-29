@@ -15,36 +15,84 @@ import {
   getVideoCount,
 } from "@/lib/content";
 
-export const metadata: Metadata = {
-  title: `${SITE_NAME} - Interviews & Insights from AI Industry Sailors`,
-  description: SEO_DESCRIPTION,
-  keywords: SEO_KEYWORDS,
-  authors: [{ name: SITE_NAME }],
-  creator: SITE_NAME,
-  publisher: SITE_NAME,
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
+type Props = {
+  params: Record<string, string | string[] | undefined>;
+  searchParams: Record<string, string | string[] | undefined>;
+};
+
+export async function generateMetadata(
+  { searchParams }: Props
+): Promise<Metadata> {
+  // Await searchParams in case it's a promise (Next.js 15+ compatible)
+  const sp = await Promise.resolve(searchParams);
+  const videoId = sp?.video;
+  
+  const defaultMetadata: Metadata = {
+    title: `${SITE_NAME} - Interviews & Insights from AI Industry Sailors`,
+    description: SEO_DESCRIPTION,
+    keywords: SEO_KEYWORDS,
+    authors: [{ name: SITE_NAME }],
+    creator: SITE_NAME,
+    publisher: SITE_NAME,
+    robots: {
       index: true,
       follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
     },
-  },
-  openGraph: {
-    title: SITE_NAME,
-    description: SEO_DESCRIPTION,
-    siteName: SITE_NAME,
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: SITE_NAME,
-    description: SEO_DESCRIPTION,
-  },
-};
+    openGraph: {
+      title: SITE_NAME,
+      description: SEO_DESCRIPTION,
+      siteName: SITE_NAME,
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: SITE_NAME,
+      description: SEO_DESCRIPTION,
+    },
+  };
+
+  if (typeof videoId === "string") {
+    const allVideos = getAllVideos();
+    const video = allVideos.find((v) => v.id === videoId);
+
+    if (video) {
+      const videoMetadata: Metadata = {
+        ...defaultMetadata,
+        title: `${video.title} | ${SITE_NAME}`,
+        description: video.description || SEO_DESCRIPTION,
+        openGraph: {
+          ...defaultMetadata.openGraph,
+          title: video.title,
+          description: video.description || SEO_DESCRIPTION,
+          images: [
+            {
+              url: video.thumbnail.url,
+              width: video.thumbnail.width,
+              height: video.thumbnail.height,
+              alt: video.title,
+            },
+          ],
+        },
+        twitter: {
+          ...defaultMetadata.twitter,
+          title: video.title,
+          description: video.description || SEO_DESCRIPTION,
+          images: [video.thumbnail.url],
+        },
+      };
+      return videoMetadata;
+    }
+  }
+
+  return defaultMetadata;
+}
 
 export default function HomePage() {
   const videoCount = getVideoCount();

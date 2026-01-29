@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useMemo } from "react";
 import type { LandingVideo } from "@/lib/types";
 import {
   HERO_HEADLINE,
@@ -8,7 +8,7 @@ import {
   HERO_SUBHEAD,
 } from "@/lib/i18n";
 import { VideoCard } from "@/components/VideoCard";
-import { VideoPlayerDialog } from "@/components/VideoPlayerDialog";
+import { useVideoPlayer } from "@/lib/video-context";
 
 type HeroSectionProps = {
   videos: LandingVideo[];
@@ -16,20 +16,8 @@ type HeroSectionProps = {
 };
 
 export function HeroSection({ videos, heroSupporting }: HeroSectionProps) {
-  const [open, setOpen] = useState(false);
-  const [selected, setSelected] = useState<LandingVideo | null>(null);
-
+  const { playVideo } = useVideoPlayer();
   const heroVideos = useMemo(() => videos.slice(0, 4), [videos]);
-
-  const handleSelect = (video: LandingVideo) => {
-    setSelected(video);
-    setOpen(true);
-  };
-
-  const handleClose = () => {
-    setOpen(false);
-    setSelected(null);
-  };
 
   return (
     <section className="relative mx-auto mt-4 w-full max-w-[1180px] overflow-hidden rounded-[32px] bg-hero px-4 py-10 sm:rounded-[48px] sm:px-8 sm:py-14 lg:px-16">
@@ -59,13 +47,11 @@ export function HeroSection({ videos, heroSupporting }: HeroSectionProps) {
               video={video}
               variant="hero"
               index={index}
-              onSelect={handleSelect}
+              onSelect={playVideo}
             />
           ))}
         </div>
       </div>
-
-      <VideoPlayerDialog open={open} video={selected} onClose={handleClose} />
     </section>
   );
 }

@@ -1,11 +1,30 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState, useRef } from "react";
 import { createPortal } from "react-dom";
-import { formatEmbedUrl, formatVideoUrl } from "@/lib/format";
 import { useAnalytics } from "@/hooks/useAnalytics";
 import type { LandingVideo } from "@/lib/types";
 import { ShareButton } from "./ShareButton";
+import { VideoSidekick } from "./content-sidekick/VideoSidekick";
+
+declare global {
+  interface Window {
+    onYouTubeIframeAPIReady: () => void;
+    YT: {
+      Player: new (element: HTMLElement | null, options: object) => YouTubePlayer;
+      PlayerState: {
+        PLAYING: number;
+      };
+    } | undefined;
+  }
+}
+
+interface YouTubePlayer {
+  destroy: () => void;
+  seekTo: (seconds: number, allowSeekAhead: boolean) => void;
+  playVideo: () => void;
+  getCurrentTime: () => number;
+}
 
 type VideoPlayerDialogProps = {
   open: boolean;
@@ -13,21 +32,72 @@ type VideoPlayerDialogProps = {
   onClose: () => void;
 };
 
-const overlayClass = "fixed inset-0 z-[100] flex items-center justify-center bg-black/70 backdrop-blur-sm px-4";
+const overlayClass = "fixed inset-0 z-[100] flex items-center justify-center bg-black/80 backdrop-blur-md px-4 md:px-8";
 
 export function VideoPlayerDialog({ open, video, onClose }: VideoPlayerDialogProps) {
   const { track } = useAnalytics();
+  const [currentTime, setCurrentTime] = useState(0);
+  const playerContainerRef = useRef<HTMLDivElement>(null);
+  const playerInstanceRef = useRef<YouTubePlayer | null>(null);
+  const timeIntervalRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
-    if (!open) return;
+    if (!open || !video) return;
 
-    if (video) {
-      track('video_play', {
-        videoId: video.id,
-        title: video.title,
-        channelTitle: video.channelTitle
-      });
+    if (!window.YT) {
+      const tag = document.createElement('script');
+      tag.src = "https://www.youtube.com/iframe_api";
+      const firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode?.insertBefore(tag, firstScriptTag);
     }
+
+    const initPlayer = () => {
+      if (window.YT && window.YT.Player && playerContainerRef.current) {
+        if (playerInstanceRef.current) {
+          playerInstanceRef.current.destroy();
+        }
+        playerInstanceRef.current = new window.YT.Player(playerContainerRef.current, {
+          videoId: video.id,
+          playerVars: {
+            autoplay: 1,
+            modestbranding: 1,
+            rel: 0,
+          },
+          events: {
+            onReady: (event: { target: YouTubePlayer }) => {
+              playerInstanceRef.current = event.target;
+            },
+            onStateChange: (event: { data: number; target: YouTubePlayer }) => {
+              // Start/Stop time tracking
+              if (window.YT && event.data === window.YT.PlayerState.PLAYING) {
+                if (!timeIntervalRef.current) {
+                  timeIntervalRef.current = setInterval(() => {
+                    setCurrentTime(event.target.getCurrentTime());
+                  }, 500);
+                }
+              } else {
+                if (timeIntervalRef.current) {
+                  clearInterval(timeIntervalRef.current);
+                  timeIntervalRef.current = null;
+                }
+              }
+            }
+          }
+        });
+      }
+    };
+
+    if (window.YT && window.YT.Player) {
+      initPlayer();
+    } else {
+      window.onYouTubeIframeAPIReady = initPlayer;
+    }
+
+    track('video_play', {
+      videoId: video.id,
+      title: video.title,
+      channelTitle: video.channelTitle
+    });
 
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
@@ -44,13 +114,23 @@ export function VideoPlayerDialog({ open, video, onClose }: VideoPlayerDialogPro
     return () => {
       window.removeEventListener("keydown", handleKeyDown);
       body.style.overflow = previousOverflow;
+      if (timeIntervalRef.current) clearInterval(timeIntervalRef.current);
+      if (playerInstanceRef.current) {
+        playerInstanceRef.current.destroy();
+        playerInstanceRef.current = null;
+      }
     };
-  }, [open, onClose, video, track]);
+  }, [open, video, onClose, track]);
+
+  const seekTo = (time: number) => {
+    if (playerInstanceRef.current) {
+      playerInstanceRef.current.seekTo(time, true);
+      playerInstanceRef.current.playVideo();
+    }
+  };
 
   if (!open || !video) return null;
   if (typeof document === "undefined") return null;
-
-  const embedUrl = `${formatEmbedUrl(video.id)}&autoplay=1`;
 
   return createPortal(
     <div
@@ -65,53 +145,28 @@ export function VideoPlayerDialog({ open, video, onClose }: VideoPlayerDialogPro
         onClick={onClose}
       />
 
-      <div className="relative z-[101] flex items-start gap-6">
-        <div className="w-full max-w-4xl">
-          <div className="relative overflow-hidden rounded-[32px] bg-black shadow-[0_40px_90px_rgba(0,0,0,0.45)]">
-            <iframe
-              className="aspect-video w-full"
-              src={embedUrl}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              title={video.title}
-            />
+      <div className="relative z-[101] flex flex-col lg:flex-row items-stretch gap-6 w-full max-w-[1400px] h-[85vh]">
+        <div className="flex-1 flex flex-col min-w-0">
+          <div className="relative flex-1 overflow-hidden rounded-[32px] bg-black shadow-[0_40px_90px_rgba(0,0,0,0.45)]">
+            <div ref={playerContainerRef} className="w-full h-full" />
           </div>
 
           <div className="mt-4 flex flex-wrap items-center justify-between gap-3 rounded-3xl bg-panel/95 px-6 py-4 shadow-[0_14px_40px_rgba(17,24,39,0.18)]">
             <div className="min-w-0 flex-1">
-              <p className="text-base font-semibold text-primary">{video.title}</p>
+              <p className="text-base font-semibold text-primary line-clamp-1">{video.title}</p>
               <p className="text-sm text-secondary">{video.channelTitle}</p>
             </div>
-            <a
-              href={formatVideoUrl(video.id)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-semibold text-white transition hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-              onClick={() => track('external_link_click', { url: formatVideoUrl(video.id), linkText: 'Watch on YouTube' })}
-            >
-              Watch on YouTube
-              <span aria-hidden>↗</span>
-            </a>
-          </div>
-
-          {video.description && (
-            <div className="mt-4 max-h-[200px] overflow-y-auto rounded-3xl bg-panel/95 px-6 py-4 shadow-[0_14px_40px_rgba(17,24,39,0.18)] scrollbar-thin scrollbar-track-transparent scrollbar-thumb-white/20 hover:scrollbar-thumb-white/30">
-              <div className="mb-2 flex items-center gap-2">
-                <span className="text-xs font-semibold uppercase tracking-wide text-accent">
-                  ✨ AI Summary
-                </span>
-              </div>
-              <p className="text-sm leading-relaxed text-secondary">
-                {video.description}
-              </p>
+            <div className="flex items-center gap-3">
+              <ShareButton videoId={video.id} videoTitle={video.title} />
             </div>
-          )}
+          </div>
         </div>
 
-        <div className="pt-4 lg:pt-16">
-          <ShareButton
-            videoId={video.id}
-            videoTitle={video.title}
+        <div className="w-full lg:w-[400px] xl:w-[450px] flex flex-col h-full">
+          <VideoSidekick 
+            video={video} 
+            currentTime={currentTime} 
+            onSeek={seekTo} 
           />
         </div>
       </div>

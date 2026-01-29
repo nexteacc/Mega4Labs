@@ -4,7 +4,7 @@ import { useState } from "react";
 import type { LandingVideo, Company } from "@/lib/types";
 import { LOAD_MORE_LABEL } from "@/lib/i18n";
 import { VideoGrid } from "@/components/VideoGrid";
-import { VideoPlayerDialog } from "@/components/VideoPlayerDialog";
+import { useVideoPlayer } from "@/lib/video-context";
 import { OpenAI, Anthropic, Google, Cursor } from "@lobehub/icons";
 
 type CompanySectionProps = {
@@ -31,22 +31,11 @@ export function CompanySection({
   description,
   videos,
 }: CompanySectionProps) {
-  const [open, setOpen] = useState(false);
-  const [selected, setSelected] = useState<LandingVideo | null>(null);
+  const { playVideo } = useVideoPlayer();
   const [visibleCount, setVisibleCount] = useState(INITIAL_LOAD);
-
+  
   const visibleVideos = videos.slice(0, visibleCount);
   const hasMore = visibleCount < videos.length;
-
-  const handleSelect = (video: LandingVideo) => {
-    setSelected(video);
-    setOpen(true);
-  };
-
-  const handleClose = () => {
-    setOpen(false);
-    setSelected(null);
-  };
 
   const handleLoadMore = () => {
     setVisibleCount((prev) => Math.min(prev + LOAD_MORE_COUNT, videos.length));
@@ -67,7 +56,7 @@ export function CompanySection({
               {displayName}
             </h2>
           </div>
-          <p className="text-sm leading-relaxed text-secondary break-words sm:text-base lg:text-lg max-w-2xl">
+          <p className="max-w-2xl text-base leading-relaxed text-secondary sm:text-lg">
             {description}
           </p>
         </div>
@@ -75,23 +64,19 @@ export function CompanySection({
 
       <VideoGrid
         videos={visibleVideos}
-        cardVariant="default"
-        columns={{ base: 1, md: 2, lg: 3 }}
-        onSelect={handleSelect}
+        onSelect={playVideo}
       />
 
       {hasMore && (
-        <div className="mt-6 flex justify-center sm:mt-8">
+        <div className="mt-8 flex justify-center sm:mt-12">
           <button
             onClick={handleLoadMore}
-            className="rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 sm:px-6 sm:py-3 sm:text-base"
+            className="group relative inline-flex items-center justify-center overflow-hidden rounded-full bg-surface px-6 py-2.5 text-sm font-medium text-primary transition-all hover:bg-surface-hover hover:text-accent sm:px-8 sm:py-3 sm:text-base"
           >
-            {LOAD_MORE_LABEL}
+            <span className="relative z-10">{LOAD_MORE_LABEL}</span>
           </button>
         </div>
       )}
-
-      <VideoPlayerDialog open={open} video={selected} onClose={handleClose} />
     </section>
   );
 }

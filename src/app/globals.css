@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:is(.dark *));
+
 :root {
   --surface-base: #f9fafb;
   --surface-panel: #ffffff;
@@ -32,6 +34,9 @@
   --color-cta: var(--color-cta);
   --color-cta-strong: var(--color-cta-strong);
   --color-cta-foreground: var(--color-cta-foreground);
+  --color-ring: var(--color-accent);
+  --color-background: var(--surface-base);
+  --color-foreground: var(--color-primary);
   --shadow-card: var(--shadow-card);
   --shadow-soft: var(--shadow-soft);
   --font-sans: var(--font-geist-sans);
@@ -304,7 +309,6 @@ button {
   overflow: hidden;
 }
 
-
 /* Share Button 脉冲光晕动画 */
 @keyframes pulse-glow {
   0%, 100% {
@@ -325,7 +329,6 @@ button {
   animation: pulse-glow 2s ease-in-out infinite;
   animation-delay: 0.5s;
 }
-
 
 /* Share Button 抖动动画 */
 @keyframes wiggle {
@@ -370,4 +373,113 @@ button {
 
 .animate-sparkle {
   animation: sparkle 2s ease-in-out infinite;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .gradient-button {
+    background: #111827; /* Dark background matching --color-primary */
+    color: white;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    z-index: 0;
+  }
+  
+  /* Colorful Gradient Border/Glow on Hover */
+  .gradient-button::before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    z-index: -1;
+    background: linear-gradient(
+      45deg,
+      #21808d, /* App Accent */
+      #7928ca, /* Purple */
+      #ff0080  /* Pink */
+    );
+    filter: blur(10px);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  /* Sweep Animation */
+  .gradient-button::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.3),
+      transparent
+    );
+    transition: left 0.5s ease;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .gradient-button:hover::before {
+    opacity: 0.6;
+  }
+
+  .gradient-button:hover::after {
+    left: 100%;
+  }
+
+  .gradient-button:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 20px rgba(33, 128, 141, 0.3);
+  }
+
+  /* Variant: Classic Silver/Glass Effect (银色/白色半透明扫光) */
+  .gradient-button-variant {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    color: white;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    z-index: 0;
+  }
+
+  .gradient-button-variant::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.2),
+      transparent
+    );
+    transition: left 0.5s ease;
+    z-index: 2;
+  }
+
+  .gradient-button-variant:hover::before {
+    left: 100%;
+  }
+
+  .gradient-button-variant:hover {
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
 }

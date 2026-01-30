@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
@@ -52,38 +53,39 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-base text-primary`}
       >
-        <VideoPlayerProvider>
-          <div className="min-h-screen bg-base">
-            <header className="mx-auto flex w-full max-w-[1180px] items-center justify-between gap-2 px-4 pb-6 pt-8 sm:gap-4 sm:px-8 lg:px-10">
-              <Link
-                href="/"
-                className="rounded-full bg-hero px-3 py-1 text-xs font-medium text-accent hover:opacity-80 transition-opacity sm:px-4 sm:text-sm"
-                title={SITE_NAME}
-              >
-                <span className="hidden sm:inline">{SITE_NAME}</span>
-                <span className="inline sm:hidden">MEGA 4</span>
-              </Link>
-            </header>
-            <Navigation />
-            <main>{children}</main>
-          </div>
-          {/* M4 Logo 区域 - 在 Footer 之外 */}
-          <div className="bg-base px-4 py-16 sm:px-6 sm:py-20 lg:px-10 lg:py-24">
-            <div className="mx-auto flex justify-center">
-              <Image
-                src="/m4.svg"
-                alt="Mega 4 Labs"
-                width={453}
-                height={174}
-                className="w-[300px] sm:w-[400px] lg:w-[453px] h-auto"
-                priority
-              />
+        <Suspense fallback={null}>
+          <VideoPlayerProvider>
+            <div className="min-h-screen bg-base">
+              <header className="mx-auto flex w-full max-w-[1180px] items-center justify-between gap-2 px-4 pb-6 pt-8 sm:gap-4 sm:px-8 lg:px-10">
+                <Link
+                  href="/"
+                  className="flex items-center hover:opacity-80 transition-opacity"
+                  title={SITE_NAME}
+                >
+                  <Image src="/m4.svg" alt="Mega 4 Labs" width={100} height={38} className="h-8 w-auto" />
+                </Link>
+              </header>
+              <Navigation />
+              <main>{children}</main>
             </div>
-          </div>
-          <Footer />
-          <Analytics />
-          <GlobalVideoPlayer />
-        </VideoPlayerProvider>
+            {/* M4 Logo 区域 - 在 Footer 之外 */}
+            <div className="bg-base px-4 py-16 sm:px-6 sm:py-20 lg:px-10 lg:py-24">
+              <div className="mx-auto flex justify-center">
+                <Image
+                  src="/m4.svg"
+                  alt="Mega 4 Labs"
+                  width={453}
+                  height={174}
+                  className="w-[300px] sm:w-[400px] lg:w-[453px] h-auto"
+                  priority
+                />
+              </div>
+            </div>
+            <Footer />
+            <Analytics />
+            <GlobalVideoPlayer />
+          </VideoPlayerProvider>
+        </Suspense>
       </body>
     </html>
   );

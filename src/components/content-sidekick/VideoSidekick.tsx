@@ -3,13 +3,9 @@
 import { useEffect, useRef, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import type { LandingVideo } from "@/lib/types";
+import { GradientButton } from "@/components/ui/gradient-button";
 import { Sparkle, Play } from "lucide-react";
-import { clsx, type ClassValue } from "clsx";
-import { twMerge } from "tailwind-merge";
-
-function cn(...inputs: ClassValue[]) {
-    return twMerge(clsx(inputs));
-}
+import { cn } from "@/lib/utils";
 
 type AnalysisItem = {
     timestamp: number;
@@ -108,29 +104,9 @@ export function VideoSidekick({ currentTime, onSeek }: VideoSidekickProps) {
                 <AnimatePresence mode="popLayout">
                     {content?.analysis.map((item, idx) => {
                         const isActive = activeIndex === idx;
-                        return (
-                            <motion.div
-                                key={idx}
-                                initial={{ opacity: 0, y: 20 }}
-                                animate={{ 
-                                    opacity: 1, 
-                                    y: 0,
-                                    scale: isActive ? 1 : 0.98,
-                                }}
-                                transition={{ duration: 0.4, delay: idx * 0.1 }}
-                                onClick={() => onSeek(item.timestamp)}
-                                className={cn(
-                                    "relative rounded-2xl p-5 transition-all duration-500 cursor-pointer border",
-                                    isActive 
-                                        ? "bg-white/10 border-accent/50 shadow-[0_0_30px_rgba(33,128,141,0.25)] backdrop-blur-md" 
-                                        : "bg-white/5 border-white/10 hover:bg-white/10 hover:border-white/20"
-                                )}
-                            >
-                                {/* Active Indicator Glow */}
-                                {isActive && (
-                                    <div className="absolute inset-0 rounded-2xl bg-accent/10 blur-xl -z-10" />
-                                )}
 
+                        const CardInner = (
+                            <>
                                 {/* Topic Badge */}
                                 <div className="flex items-center justify-between mb-4">
                                     <span className={cn(
@@ -165,6 +141,43 @@ export function VideoSidekick({ currentTime, onSeek }: VideoSidekickProps) {
                                         {item.answer[0]}
                                     </p>
                                 </div>
+                            </>
+                        );
+
+                        const motionProps = {
+                            initial: { opacity: 0, y: 20 },
+                            animate: { 
+                                opacity: 1, 
+                                y: 0,
+                                scale: isActive ? 1 : 0.98,
+                            },
+                            transition: { duration: 0.4, delay: idx * 0.1 },
+                            onClick: () => onSeek(item.timestamp),
+                            className: cn(
+                                "relative rounded-2xl p-5 transition-all duration-500 cursor-pointer border w-full text-left",
+                                isActive 
+                                    ? "bg-transparent border-transparent shadow-none" 
+                                    : "bg-white/5 border-white/10 hover:bg-white/10 hover:border-white/20"
+                            )
+                        };
+
+                        if (isActive) {
+                            return (
+                                <GradientButton 
+                                    key={idx} 
+                                    asChild 
+                                    className="w-full h-auto p-0 rounded-2xl border-0 block"
+                                >
+                                    <motion.div {...motionProps}>
+                                        {CardInner}
+                                    </motion.div>
+                                </GradientButton>
+                            );
+                        }
+
+                        return (
+                            <motion.div key={idx} {...motionProps}>
+                                {CardInner}
                             </motion.div>
                         );
                     })}

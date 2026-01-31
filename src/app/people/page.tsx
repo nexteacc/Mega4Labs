@@ -4,20 +4,32 @@ import { generateSlug } from "@/lib/slug";
 import { OpenAI, Anthropic, Google, Cursor } from "@lobehub/icons";
 import Link from "next/link";
 import type { Company } from "@/lib/types";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "AI Sailors",
-  description: "Meet the sailors navigating the future of AI - visionaries from OpenAI, Anthropic, Google, and Cursor.",
+  description: "Meet the sailors navigating the future of AI - visionaries from OpenAI, Anthropic, Google, Cursor, and a16z.",
 };
+
+const A16zLogo = ({ size = 24, className }: { size?: number; className?: string }) => (
+  <Image
+    src="/a16z.png"
+    alt="a16z"
+    width={size}
+    height={size}
+    className={`object-contain ${className || ""}`}
+  />
+);
 
 const COMPANY_LOGOS = {
   openai: OpenAI,
   anthropic: Anthropic,
   google: Google,
   cursor: Cursor,
+  a16z: A16zLogo,
 } as const;
 
-const COMPANIES: Company[] = ["openai", "cursor", "google", "anthropic"];
+const COMPANIES: Company[] = ["openai", "cursor", "google", "anthropic", "a16z"];
 
 export default function PeoplePage() {
   return (
@@ -34,6 +46,7 @@ export default function PeoplePage() {
       <div className="space-y-12">
         {COMPANIES.map((company) => {
           const config = AI_LEADERS[company];
+          if (!config) return null;
           const LogoComponent = COMPANY_LOGOS[company];
 
           return (

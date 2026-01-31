@@ -95,7 +95,9 @@ export const getVideosByPerson = (personName: string): LandingVideo[] => {
 export const getPersonCount = (): number => {
   let count = 0;
   for (const company of COMPANIES) {
-    count += AI_LEADERS[company].people.length;
+    if (AI_LEADERS[company]) {
+      count += AI_LEADERS[company].people.length;
+    }
   }
   return count;
 };

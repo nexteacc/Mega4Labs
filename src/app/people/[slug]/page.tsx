@@ -5,12 +5,24 @@ import { findPersonBySlug, getAllPersonSlugs } from "@/lib/slug";
 import { PersonVideoGrid } from "@/components/PersonVideoGrid";
 import { OpenAI, Anthropic, Google, Cursor } from "@lobehub/icons";
 import Link from "next/link";
+import Image from "next/image";
+
+const A16zLogo = ({ size = 24, className }: { size?: number; className?: string }) => (
+  <Image
+    src="/a16z.png"
+    alt="a16z"
+    width={size}
+    height={size}
+    className={`object-contain ${className || ""}`}
+  />
+);
 
 const COMPANY_LOGOS = {
   openai: OpenAI,
   anthropic: Anthropic,
   google: Google,
   cursor: Cursor,
+  a16z: A16zLogo,
 } as const;
 
 // Get all possible slugs for static generation

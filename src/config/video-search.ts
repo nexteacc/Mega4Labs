@@ -63,6 +63,14 @@ export const AI_LEADERS = {
       { name: "Jenny Wen", role: "Design Lead" },
     ],
   },
+  a16z: {
+    name: "a16z",
+    displayName: "a16z / Andreessen Horowitz",
+    color: "#FF4F00",
+    people: [
+      { name: "Marc Andreessen", role: "Co-founder & General Partner" },
+    ],
+  },
 } as const;
 
 export const SEARCH_QUERIES: SearchQuery[] = [
@@ -93,6 +101,9 @@ export const SEARCH_QUERIES: SearchQuery[] = [
   { query: "amanda askell anthropic interview video", company: "anthropic", person: "Amanda Askell", maxResults: 20 },
   { query: "boris cherny anthropic interview video", company: "anthropic", person: "Boris Cherny", maxResults: 20 },
   { query: "jenny wen anthropic interview video", company: "anthropic", person: "Jenny Wen", maxResults: 20 },
+  
+  // a16z
+  { query: "marc andreessen a16z interview video", company: "a16z", person: "Marc Andreessen", maxResults: 20 },
 ];
 
 /**

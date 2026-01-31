@@ -5,17 +5,28 @@ import { OpenAI, Anthropic, Google, Cursor } from "@lobehub/icons";
 import { AI_LEADERS } from "@/config/video-search";
 import { generateSlug } from "@/lib/slug";
 import { getPersonCount } from "@/lib/content";
+import { COMPANIES } from "@/lib/i18n";
 import type { Company } from "@/lib/types";
 import Link from "next/link";
+import Image from "next/image";
+
+const A16zLogo = ({ size = 24, className }: { size?: number; className?: string }) => (
+  <Image
+    src="/a16z.png"
+    alt="a16z"
+    width={size}
+    height={size}
+    className={`object-contain ${className || ""}`}
+  />
+);
 
 const COMPANY_LOGOS = {
   openai: OpenAI,
   anthropic: Anthropic,
   google: Google,
   cursor: Cursor,
+  a16z: A16zLogo,
 } as const;
-
-const COMPANIES: Company[] = ["openai", "cursor", "google", "anthropic"];
 
 export function Navigation() {
   const [activeMenu, setActiveMenu] = useState<Company | null>(null);
@@ -61,13 +72,14 @@ export function Navigation() {
           <div className="flex items-center justify-center gap-2 sm:gap-4">
           {COMPANIES.map((company) => {
             const config = AI_LEADERS[company];
+            if (!config) return null;
             const LogoComponent = COMPANY_LOGOS[company];
             const isActive = activeMenu === company;
 
             return (
               <div
                 key={company}
-                className="relative"
+                className={company === "a16z" ? "relative ml-8 sm:ml-16" : "relative"}
                 onMouseEnter={() => setActiveMenu(company)}
                 onMouseLeave={() => setActiveMenu(null)}
               >

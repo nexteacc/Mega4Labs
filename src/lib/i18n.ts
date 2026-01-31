@@ -24,13 +24,14 @@ export const buildHeroSupporting = (videoCount: number): string => {
 export const LOAD_MORE_LABEL = "Load More";
 
 // Company configuration
-export const COMPANIES: Company[] = ["openai", "cursor", "google", "anthropic"];
+export const COMPANIES: Company[] = ["openai", "cursor", "google", "anthropic", "a16z"];
 
 export const COMPANY_TITLES: Record<Company, string> = {
   openai: "OpenAI / ChatGPT",
   cursor: "Cursor AI",
   google: "Google / Gemini",
   anthropic: "Anthropic / Claude",
+  a16z: "a16z / Andreessen Horowitz",
 };
 
 export const COMPANY_DESCRIPTIONS: Record<Company, string> = {
@@ -38,6 +39,7 @@ export const COMPANY_DESCRIPTIONS: Record<Company, string> = {
   cursor: "The team revolutionizing AI-powered code editors and developer productivity.",
   google: "Demis Hassabis and colleagues on Gemini, breakthrough AI research, and multimodal AI.",
   anthropic: "Dario Amodei and the Anthropic team on AI safety and Claude's development.",
+  a16z: "Marc Andreessen and partners on the future of technology, AI, and startups.",
 };
 
 export const COMPANY_COLORS: Record<Company, string> = {
@@ -45,6 +47,7 @@ export const COMPANY_COLORS: Record<Company, string> = {
   cursor: "#000000",
   google: "#4285F4",
   anthropic: "#D97757",
+  a16z: "#FF4F00",
 };
 
 // Footer

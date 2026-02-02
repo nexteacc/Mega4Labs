@@ -1,5 +1,22 @@
 [
   {
+    "id": "Wpxv-8nG8ec",
+    "company": "openai",
+    "category": "openai",
+    "title": "OpenAI Town Hall with Sam Altman",
+    "description": "Sam Altman answers questions and discusses the future of AI with builders from across the AI ecosystem.\n\n00:00 Introduction\n00:33 Will AI make software engineers obsolete or massively increase demand? (Jevons paradox)\n02:18 If building is easy now, is go-to-market the real bottleneck?\n04:35 What is OpenAI’s vision for agent builders and multi-agent UIs?\n07:03 How can AI help close long-standing economic gaps like the gender wage gap?\n09:53 Should models be specialized or general, given GPT-5’s tradeoffs?\n12:27 How should developers think about “intelligence too cheap to meter” and model costs?\n14:32 Why could custom interfaces accelerate micro-apps built just for individuals?\n16:26 How do builders create durability when features can be replaced by model updates?\n18:14 When will agents run long workflows autonomously without human intervention?\n19:32 How can AI help improve the *quality of ideas*, not just execution?\n23:06 Are we locking in foundations today that will be hard to change later?\n25:08 Will AI eventually take over the full scientific research process?\n29:50 How should we think about AI security and biocurity risks?\n33:16 If AI makes individual learning instant, what happens to human collaboration?\n38:18 What are the most underestimated failure modes as agents run production systems?\n41:13 How should AI be introduced into early education and kindergarten?\n43:00 Is there an inflection point coming for 3D reasoning and drug design?\n43:47 Is university becoming limiting for AI builders, and do you still angel invest?\n45:46 How will software engineering interviews change in an AI-first world?\n51:40 How will human creative identity evolve alongside AI creation?\n55:28 How will personalization and memory evolve across work and personal identities?\n57:45 What is the most important skill to learn in the age of AI?",
+    "channelTitle": "OpenAI",
+    "publishDate": "2026-01-27T01:06:09Z",
+    "duration": "60m",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/Wpxv-8nG8ec/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Sam Altman"
+  },
+  {
     "id": "-RPbxvz6sB8",
     "company": "google",
     "category": "google",
@@ -11,6 +28,74 @@
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/-RPbxvz6sB8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Demis Hassabis"
+  },
+  {
+    "id": "HDfr8PvfoOw",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Can You Teach Claude to be ‘Good’? | Meet Anthropic Philosopher Amanda Askell",
+    "description": "Ads are coming to ChatGPT’s free and low-cost subscription tiers. We explain what they’ll look like, why OpenAI is taking this approach and whether the company can court advertising dollars without compromising quality and user trust. Then, Amanda Askell, Anthropic’s in-house philosopher in charge of shaping Claude’s personality, joins us to discuss the company’s newly released “Claude Constitution” and what it takes to teach a chatbot to be good.\n\nAs a bonus, check out our tutorial on how to get started with Claude Code: https://www.youtube.com/watch?v=ji_xpQzZDHo\n\nFor more on this episode, go to https://www.nytimes.com/2026/01/23/podcasts/hardfork-chatgpt-ads-claude-constitution.html\n\nGuests:\nAmanda Askell, a member of Anthropic’s technical staff\n\nChapters:\n\n00:00:01 Intro to Hard Fork\n00:00:25 Ads are coming to ChatGPT\n00:03:24 What will ChatGPT ads look like? \n00:06:56 Long-term problems with ads\n00:08:20 How did we get here?\n00:11:00 Does this change the relationship with the user?\n00:13:09 Are ads coming to Gemini and Claude?\n00:15:12 OpenAI's business model\n00:18:54 Predictions for one year from now\n00:20:45 Interview with “Claude Mother” Amanda Askell\n00:22:32 Claude's New \"Constitution\"\n00:24:40 Amanda's career path to OpenAI\n00:26:40 The origins of Claude's constitution\n00:34:47 Trusting the model\n00:39:48 The \"fragility\" of A.I. personas\n00:47:36 Key sections of the constitution\n00:53:08 Do the models already have feelings?\n01:03:48 What if Claude gets more intelligent?\n\nAdditional Reading\nOpenAI Starts Testing Ads in ChatGPT\nhttps://www.nytimes.com/2026/01/16/technology/chatgpt-ads-openai.html\n\nClaude’s Constitution\nhttps://www.anthropic.com/constitution\n\nHard Fork is a weekly look into the future that's already here. Hosts Kevin Roose and Casey Newton explore stories from the bleeding edge of tech.\nCasey’s publication, Platformer: https://www.platformer.news/\n\nFOLLOW US ON SOCIAL\n\nTikTok: https://www.tiktok.com/@hardfork\n\nInsta:\nKevin Roose - https://www.instagram.com/kevinroose/\nCasey Newton - https://www.instagram.com/crumbler/\n\nTwitter (X):\nKevin - https://x.com/kevinroose\nCasey - https://x.com/CaseyNewton\n\nThreads:\nKevin - https://www.threads.net/@kevinroose\nCasey - https://www.threads.net/@crumbler\n\nSubscribe to the audio only podcast:\nApple - https://podcasts.apple.com/us/podcast/hard-fork/id1528594034\nSpotify - https://open.spotify.com/show/44fllCS2FTFr2x2kjP9xeT?si=86ba626802b849cd\nAmazon - https://music.amazon.com/podcasts/7c7fe198-e6a8-41a8-b0fe-1d46b976dcd8/hard-fork\nYouTube Music - https://music.youtube.com/playlist?list=PLB9gMmtMLXxsa8C0PzHFL2tJFh7FrKrYD&si=Fwb9Uwon1ZneNsBp\nThe New York Times - https://www.nytimes.com/column/hard-fork\n\nCredits\n“Hard Fork” is hosted by Kevin Roose and Casey Newton. Produced by Rachel Cohn and Whitney Jones. Edited by Vjeran Pavic. Engineering by Chris Wood and original music by Dan Powell, Marion Lozano, Sophia Lanman and Rowan Niemisto. Fact-checking by Caitlin Love. Our executive producer is Jen Poyant. Video production by Chris Schodt, Jake Nicol, Sawyer Roque, and Rebecca Blandón. Video QC by Isabella Anderson. Podcast Art Direction by Benjamin Wilkerson Tousley. Podcast Art & Animations by Julian Hespenheide. Additional Motion graphics by Phil Robibero. Thumbnails by Julia Moburg and Elizabeth Bristow. Special thanks to Paula Szuchman, Pui-Wing Tam and Dahlia Haddad.",
+    "channelTitle": "Hard Fork",
+    "publishDate": "2026-01-23T17:32:47Z",
+    "duration": "70m",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/HDfr8PvfoOw/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Amanda Askell"
+  },
+  {
+    "id": "bgBfobN2A7A",
+    "company": "google",
+    "category": "google",
+    "title": "Google DeepMind CEO Demis Hassabis: AI's Next Breakthroughs, AGI Timeline, Google's AI Glasses Bet",
+    "description": "Demis Hassabis is the CEO of Google DeepMind. Hassabis joins Big Technology Podcast to discuss where AI progress really stands, where the next breakthroughs might come from, and whether we’ve hit AGI already. Tune in for a deep discussion covering the latest in AI research, from continual learning to world models. We also dig into product, discussing Google’s big bet on AI glasses, its advertising plans, and Ai coding. We also cover what AI means for knowledge work and scientific discovery. Hit play for a wide-ranging, high-signal conversation about where AI is headed next from one of the leaders driving it forward.",
+    "channelTitle": "Alex Kantrowitz",
+    "publishDate": "2026-01-23T17:30:06Z",
+    "duration": "34m",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/bgBfobN2A7A/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Demis Hassabis"
+  },
+  {
+    "id": "WNU078Hwgqs",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Dario Amodei (Anthropic) Drops ATOMIC BOMBSHELL at Davos!",
+    "description": "Check out my Patreon community for exclusive Discord server! Links on main channel page.",
+    "channelTitle": "David Shapiro",
+    "publishDate": "2026-01-23T13:41:52Z",
+    "duration": "32m",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/WNU078Hwgqs/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Dario Amodei"
+  },
+  {
+    "id": "i0mUnzaXNj8",
+    "company": "google",
+    "category": "google",
+    "title": "The Day After AGI w/ Google DeepMind's Demis Hassabis, Anthropic's Dario Amodei",
+    "description": "The Day After AGI | World Economic Forum 2026\n\nA credible pathway to artificial general intelligence (AGI) is increasingly coming into view as advances in scaling, multimodal systems and agentic models converge, placing growing demands on compute, data and energy resources.\n\nWhich breakthroughs matter most on the road to AGI and what must be solved before the day after arrives?\n\nSpeakers: \nGoogle DeepMind's Demis Hassabis, Anthropic's Dario Amodei, The Economist's Zanny Minton Beddoes",
+    "channelTitle": "Diya TV",
+    "publishDate": "2026-01-22T10:50:21Z",
+    "duration": "31m",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/i0mUnzaXNj8/maxresdefault.jpg",
       "width": 1280,
       "height": 720
     },
@@ -32,6 +117,23 @@
       "height": 720
     },
     "person": "Chris Lehane"
+  },
+  {
+    "id": "Xcyox1CP1Wk",
+    "company": "google",
+    "category": "google",
+    "title": "Hassabis on an AI Shift Bigger Than Industrial Age",
+    "description": "Demis Hassabis, Co-Founder & CEO of Google DeepMind, discusses the years ahead in artificial intelligence, including advances in foundational models, real-world applications and responsible AI development, with Bloomberg's Emily Chang at Bloomberg House in Davos on the sidelines of the 2026 World Economic Forum.",
+    "channelTitle": "Bloomberg Live",
+    "publishDate": "2026-01-21T15:57:30Z",
+    "duration": "26m",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/Xcyox1CP1Wk/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "person": "Demis Hassabis"
   },
   {
     "id": "BbIaYFHxW3Y",
@@ -155,6 +257,23 @@
     "person": "Demis Hassabis"
   },
   {
+    "id": "Kdql4I-NJ0M",
+    "company": "a16z",
+    "category": "a16z",
+    "title": "Ben & Marc: Why Everything Is About to Get 10x Bigger",
+    "description": "a16z cofounders Marc Andreessen and Ben Horowitz join a16z general partner Erik Torenberg and Not Boring founder Packy McCormick for a conversation on how the media and information ecosystem has changed over the past decade. The discussion breaks down the shift toward a more open and decentralized speech environment, the rise of writer- and creator-led platforms like Substack, and the erosion of centralized media gatekeepers. Marc and Ben also tie these dynamics to their investing worldview, outlining how supply-driven markets, major technological step changes, and reputation-driven venture platforms shape outcomes in the AI era.\n\nTimestamps:\n00:00 - Introduction\n00:46 - How the Media Ecosystem Is Changing   \n04:20 - Why a16z Invested in Substack   \n06:28 - Supply-Driven Markets and New Content Creation  \n08:07 - Why Writers Felt Trapped by Media Companies  \n10:09 - Databricks and the 10x Cloud Multiplier \n13:58 - Long-Form Podcasting Proves Demand  \n15:40 - What the New Fund Signals About the Future  \n16:24 - AI as a Universal Problem Solver  \n18:49 - Why Market Sizing Is Broken\n20:45 - Go-to-Market, Policy, and Platform Power  \n22:37 - Turning Inventors into Confident CEOs  \n25:58 - Borrowing Power to Scale Faster  \n27:29 - Building Dreamers, Not Killing Dreams  \n30:46 - Reputation as a Core Competitive Advantage \n35:57 - Taking Arrows in Public \n38:56 - Avoiding Big Company Failure Modes    \n40:39 - Autonomous Teams Inside a16z  \n41:54 - Venture Capital as the Last Job  \n46:01 - Why Intangibles Matter More Than Ever  \n48:17 - Original Thinkers with Charisma   \n50:06 - Why Zoomers Are Different\n\nResources: \nhttps://www.notboring.co/p/a16z-the-power-brokers \nhttps://www.a16z.news/p/firm-fund\n\nFollow Marc Andreessen on X: https://twitter.com/pmarca\nFollow Ben Horowitz on X: https://twitter.com/bhorowitz\nFollow Erik Torenberg on X: https://twitter.com/eriktorenberg\nFollow Packy McCormick on X: https://twitter.com/packyM\n\nStay Updated:\n\nIf you enjoyed this episode, be sure to like, subscribe, and share with your friends!\n\nFind a16z on X: https://twitter.com/a16z\n\nFind a16z on LinkedIn: https://www.linkedin.com/company/a16z\n\nListen to the a16z Podcast on Spotify: https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX\n\nListen to the a16z Podcast on Apple Podcasts: https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711\n\nFollow our host: https://twitter.com/eriktorenberg](https://x.com/eriktorenberg\n\nPlease note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures.",
+    "channelTitle": "a16z",
+    "publishDate": "2026-01-15T17:39:20Z",
+    "duration": "55m",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/Kdql4I-NJ0M/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Marc Andreessen"
+  },
+  {
     "id": "JILSzhssMsk",
     "company": "anthropic",
     "category": "anthropic",
@@ -170,6 +289,23 @@
       "height": 720
     },
     "person": "Daniela Amodei"
+  },
+  {
+    "id": "xRh2sVcNXQ8",
+    "company": "a16z",
+    "category": "a16z",
+    "title": "Marc Andreessen's 2026 Outlook: AI Timelines, US vs. China, and The Price of AI",
+    "description": "a16z cofounder Marc Andreessen joins an AMA-style conversation to explain why AI is the largest technology shift he has experienced, how the cost of intelligence is collapsing, and why the market still feels early despite rapid adoption. The discussion covers how falling model costs and fast capability gains are reshaping pricing, distribution, and competition across the AI stack, why usage-based and value-based pricing are becoming standard, and how startups and incumbents are navigating big versus small models and open versus closed systems. Marc also addresses China’s progress, regulatory fragmentation, lessons from Europe, and why venture portfolios are designed to back multiple, conflicting outcomes at once.\n\nTimestamps: \n0:00 —  Introduction  \n1:51 — What Inning Are We In? How Early the AI Shift Really Is\n9:11 — Revenue Growth vs. Burn: Can AI Companies Scale Profitably?\n15:52 — GPUs, Compute & Infrastructure: Shelf Life and Bottlenecks\n24:23 — China, Open Source & the Global AI Race\n32:46 — Policy & Regulation: State vs. Federal Dynamics\n41:54 — AI Pricing Models: Usage-Based vs. Value-Based\n47:10 — Open vs. Closed Models: Tradeoffs and Long-Term Winners\n50:42 — Incumbents vs. Startups: Who Has the Advantage?\n58:39 — a16z AMA: Disagree & Commit, Org Design, and Scaling Teams\n1:08:44 — Jobs, Labor & How Society Adopts AI at Scale\n1:15:50— Lightning Round: Rapid-Fire & Fun Questions\n\nResources: \nFollow Marc Andreesen on X: https://twitter.com/pmarca \nFollow Jen Kha on X: https://twitter.com/jkhamehl  \n\nStay Updated:\n\nIf you enjoyed this episode, be sure to like, subscribe, and share with your friends!\n\nFind a16z on X :https://twitter.com/a16z\n\nFind a16z on LinkedIn: https://www.linkedin.com/company/a16z\n\nListen to the a16z Podcast on Spotify: https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX\n\nListen to the a16z Podcast on Apple Podcasts: https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711\n\nFollow our host: https://twitter.com/eriktorenberg\n\nPlease note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details, please see a16z.com/disclosures.",
+    "channelTitle": "a16z",
+    "publishDate": "2026-01-07T16:23:46Z",
+    "duration": "81m",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/xRh2sVcNXQ8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Marc Andreessen"
   },
   {
     "id": "4ovdPwGwMlY",
@@ -782,6 +918,23 @@
     "person": "Logan Kilpatrick"
   },
   {
+    "id": "xmbSQz-PNMM",
+    "company": "openai",
+    "category": "openai",
+    "title": "AIE CODE Day 2: ft Google Deepmind, Anthropic, Cursor, Netflix, Cline, OpenAI, Meta, and METR",
+    "description": "NOVEMBER 21 - all times in EST\n\n* 9:06 am – Opening Remarks\nSwyx  |  Organizer, AI Engineer\n\n* 9:11 am – Stop Building Agents\nBarry Zhang   |  AI Engineer, Anthropic\nMahesh Murag |  AI Engineer, Anthropic\n\n* 9:31 am – No Vibes Allowed: Solving Hard Problems in Complex Codebases\nDex Horthy |  Founder, HumanLayer\n\n* 9:51 am – Building a fast frontier model with RL\nLee Robinson  |  Head of DX, Cursor\n\n* 10:11 am – From Code Snippets to Codebases: Then, Now, and What’s Next for Coding Evals\nNaman Jain  |  Engineering, Cursor\n\n* 11:00 am – Code World Model: Building World Models for Computation\nJacob Kahn | Research Scientist, Meta\n\n* 11:20 am – Efficient Reinforcement Learning\nLinden Li  | Co-founder, Applied Computer\nRhythm Garg  | Co-founder, Applied Computer\n\n* 11:40 am – RL Environments at Scale\nWill Brown | Engineering, Prime Intellect\n\n* 12:00 pm – Agent Reinforcement Fine Tuning\nWill Hang |  Member of Technical Staff, OpenAI\nCathy Zhou |  Member of Technical Staff, OpenAI\n\n*12:20 pm – From Vibe Coding To Vibe Engineering\nKitze |  Developer & Creator, Independent\n\n* 1:45 pm – Proactive Agents\nKath Korevec  |  Engineering, Google Labs\n\n* 2:05 pm – Making Codebases \"Agent-Ready\"\nEno Reyes |  Engineering, Factory AI\n\n* 2:25 pm – Amp Code: Next-Generation AI Coding\nBeyang Liu |  Co-founder & CTO, Amp Code / Sourcegraph\n\n* 2:45 pm – Using AI-Generated Kernels to Instantly Speed Up PyTorch\nNatalie Serrino |  Cofounder, Gimlet Labs\n\n* 3:05 pm – The Infinite Software Crisis\nJake Nations  |  Engineering, Netflix\n\n* 4:00 pm – AGI: The Path Forward\nEiso Kant |  CEO, Poolside\n\n* 4:20 pm – Continual System-Prompt Learning for Code Agents\nAparna Dhinakaran |  Co-founder & CPO, Arize\n\n* 4:40 pm – Hard-Won Lessons from Building Effective AI Coding Agents\nNik Pash  |  Creator, Cline\n\n* 5:00 pm – Benchmarks vs economics: the AI capability measurement gap\nJoel Becker |  Researcher, METR\n\n* 5:20 pm – Defying Gravity\nKevin Hou, Google Antigravity",
+    "channelTitle": "AI Engineer",
+    "publishDate": "2025-11-21T23:10:16Z",
+    "duration": "537m",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/xmbSQz-PNMM/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Alexander Embiricos"
+  },
+  {
     "id": "lvMMZLYoDr4",
     "company": "anthropic",
     "category": "anthropic",
@@ -868,6 +1021,23 @@
     },
     "tags": [],
     "person": "Sam Altman"
+  },
+  {
+    "id": "og7R9C_N3Zg",
+    "company": "google",
+    "category": "google",
+    "title": "Google's Gemini 3.0: The Most Powerful LLM Ever",
+    "description": "Get a private, on-screen walkthrough of Google’s new Gemini 3.0 with Logan Kilpatrick from Google Deepmind. We vibe-code full apps, games, and product UIs in real time. You’ll see how to go from raw idea to working product in a single prompt, then iterate visually with design, features, and AI workflows. They turn an IdeaBrowser concept into a live talent-matching platform, screenshot-clone the IdeaBrowser UI, wire up a “generate tomorrow’s idea” feature grounded in Google Search, and even add co-founder matching on top. If you’re building with AI or still on the fence, this episode shows what’s now possible with Gemini 3.0 Pro in AI Studio.\n\n*Timestamps*\n00:00 – Intro\n01:00 – What Gemini 3 is and where it lives (Gemini app, AI Studio, API)\n03:03 – Vibe Coding 3D games\n09:27 – Vibe Coding an idea from IdeaBrowser\n25:02 – Screenshot-cloning the IdeaBrowser UI and regenerating it in Gemini\n\n*Key Points*\n\n* Gemini 3.0 Pro in AI Studio lets you “vibe code” full apps—UI, logic, and AI features—from natural-language prompts, then iteratively refine them.\n* Games and complex simulations are a stress-test and showcase for the model’s capabilities, not just toys.\n* You can paste an entire business idea (like IdeaBrowser’s generational talent-matching concept) into AI Studio and get a working, multi-screen product with AI-powered workflows.\n* Gemini 3.0 Pro is free to use inside AI Studio up to generous limits, and the API is priced at $2 per million input tokens and $12 per million output tokens under 200K input tokens.\n* Screenshot-driven UI cloning plus “add five more features” prompts are powerful loops for product and UX ideation.\n* You can layer social features like co-founder matching directly on top of idea-discovery products with only a few additional prompts.\n\nSection Summaries\n\n1) Why Gemini 3.0 Is an “Unfair Advantage”\nGreg frames the episode as an inside look at Google’s new Gemini 3.0, promising listeners a practical “unfair advantage” in how to use it. Logan explains Gemini 3’s mission—helping you “bring anything to life,” from receipts and papers to app ideas—and outlines where it’s available: the Gemini app, AI Studio, and APIs for developers and enterprises. \n\n2) Vibe Coding Landing Pages and Games\nInside AI Studio’s vibe-coding experience, Logan shows that a single prompt can generate polished landing pages and immersive 3D games. They discuss games as both marketing assets (e.g., branded runners for companies) and as a proxy for the model’s sophistication, since game logic and UX are hard to build by hand. \n\n3) Turning an IdeaBrowser Concept into a Working App\nGreg introduces an IdeaBrowser concept: a generational gap talent-matching platform pairing junior AI developers with senior industry veterans. Logan copies the idea’s full text into AI Studio and asks Gemini to “make it fully functional,” resulting in a live app with landing page, talent profiles, fit analysis, and an enterprise team-builder that evaluates roster balance. \n\n4) Debugging, Annotating, and Deploying Vibe-Coded Apps\nAs they explore, they hit common vibe-coding friction points: a mis-placed “Send” button and a blank preview due to missing files. Logan demonstrates the annotate tool (boxing UI elements and attaching instructions) and the simple fix of telling the model “the screen is white” so it regenerates the correct structure, then describes how you can deploy, share, and iterate on these apps with teammates or customers. \n\n5) Screenshot-Cloning IdeaBrowser and Generating Tomorrow’s Ideas\nThey screenshot IdeaBrowser’s UI and ask Gemini to “clone this UI exactly” while adding a “generate tomorrow’s idea” button grounded in Google Search. The model recreates a close visual match and builds a feature that pulls current AI governance trends to generate a new idea (“Ethos AI”) with positioning, offer, and starter kit concepts—showing how screenshots become launchpads for new verticals or geos. \n\nThe #1 tool to find startup ideas/trends - https://www.ideabrowser.com/\n\nLCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/\n\nThe Vibe Marketer - Resources for people into vibe marketing/marketing with AI: thevibemarketer.com\n\nStartup Empire - get your free builders toolkit to build cashflowing business - https://startup-ideas-pod.link/startup-empire-toolkit\nBecome a member - https://startup-ideas-pod.link/startup-empire\n\nFIND ME ON SOCIAL\nX/Twitter: https://twitter.com/gregisenberg\nInstagram: https://instagram.com/gregisenberg/\nLinkedIn: https://www.linkedin.com/in/gisenberg/\n\nFIND LOGAN ON SOCIAL\nX/Twitter: https://x.com/OfficialLoganK \nYoutube: https://www.youtube.com/@LoganKilpatrickYT \nLinkedIn: https://www.linkedin.com/in/logankilpatrick/",
+    "channelTitle": "Greg Isenberg",
+    "publishDate": "2025-11-18T16:30:32Z",
+    "duration": "39m",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/og7R9C_N3Zg/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Logan Kilpatrick"
   },
   {
     "id": "aAPpQC-3EyE",
@@ -977,6 +1147,23 @@
     "person": "Sam Altman"
   },
   {
+    "id": "Y7dwbJ0AtUA",
+    "company": "a16z",
+    "category": "a16z",
+    "title": "Marc Andreessen and Ben Horowitz on the State of AI",
+    "description": "In this closing keynote from a16z’s Runtime conference, General Partner Erik Torenberg speaks with our firm’s cofounders, Marc Andreessen and Ben Horowitz on highlights from throughout the conference, the current state of LLM capabilities, and why despite huge capex, AI is not a bubble.\n\nTimestamps:\n00:00 Intro \n01:00 Can AI Truly Create? Intelligence vs. Invention\n03:32 Remix, Originality, and the Nature of Human Creativity\n06:20 Ben on Hip-Hop, Innovation, and Creative Genius\n09:10 Intelligence, Power, and Who Really Leads\n12:20 Beyond IQ: Leadership, Emotion, and Theory of Mind\n16:40 Embodied Intelligence – The Mind-Body Question\n20:14 How Advanced AI Really Is at “Theory of Mind”\n23:02 Are We in an AI Bubble? Fundamentals vs. Hype\n27:58 Platform Shifts, Google’s Wake-Up Call, and New UX Paradigms\n31:00 Coaching Founders in a Unique AI Era\n34:14 Talent, Chips, and the Coming Glut Cycle\n37:10 The U.S.-China AI Race and the Robotics Future\n38:52 Reindustrialization and What Comes Next\n\nStay Updated: \nIf you enjoyed this episode, be sure to like, subscribe, and share with your friends!\n\nResources:\nFollow Marc on X: https://x.com/pmarca\nFollow Ben on X: https://x.com/bhorowitz\n\nFind a16z on X: https://x.com/a16z \nFind a16z on LinkedIn: https://www.linkedin.com/company/a16z \nListen to the a16z Podcast on Spotify: https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX\nListen to the a16z Podcast on Apple Podcasts: https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711\nFollow our host: https://x.com/eriktorenberg\n\nPlease note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures.",
+    "channelTitle": "a16z",
+    "publishDate": "2025-10-31T13:32:48Z",
+    "duration": "39m",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/Y7dwbJ0AtUA/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Marc Andreessen"
+  },
+  {
     "id": "G9YlfredZbU",
     "company": "google",
     "category": "google",
@@ -1010,6 +1197,40 @@
     },
     "tags": [],
     "person": "Sam Altman"
+  },
+  {
+    "id": "azvA2Bn2aXw",
+    "company": "google",
+    "category": "google",
+    "title": "Vibe coding with Google AI Studio | The Agent Factory Podcast",
+    "description": "Go from prompt to a fully functional AI app in just a couple minutes. In this episode, Logan Kilpatrick from Google Deep Mind, gives us a hands on tour of the new build experience in Google AI Studio (https://goo.gle/4oejJer), showcasing how to build powerful AI agents with just a few clicks and natural language.\n\nChapters:\n0:00 - Intro\n1:14 - [Demo] Create a virtual food photographer\n10:25 - [Demo] Grounding with Google Maps\n14:55 - [Demo] Exploring the Google AI Studio Gallery\n19:51 - [Demo] \"Yap to App\": Building a live pair programmer\n26:19 - Agent Industry Pulse\n27:05 - [Demo] of AI App that generates your future career in AI using Veo 3.1\n29:10 - Most exciting AI launches at Google\n31:17 - AI launches which had the most developer interest\n32:20 - Upcoming launches in the next 6 months at Google\n33:02 - The overlap between models and agents\n36:00 - Outro\n\nOn the factory floor, Logan gets hands-on with several live demos:\n1️⃣  The Virtual Food Photographer: Watch an app that generates high-end food photography from a simple text menu get built and refined in real-time.\n2️⃣ The Local Tour Guide: A look at the new grounding with Google Maps feature, which connects Gemini to real-time place data without a single line of API setup.\n3️⃣  The AI Pair Programmer: Using just his voice (\"Yap to App\"), Logan creates a conversational AI assistant that can generate and critique HTML code.\n\nWhether you're a seasoned developer or just starting your journey with AI agents, this episode is packed with inspiration and practical demos that will make you want to start building immediately.\nLeave your questions and feedback in the YouTube comments below!\nJoin the conversation on social media with the hashtag #TheAgentFactory.\nConnect with the community at the Google Developer Program forums. → http://goo.gle/4nduIne\n\n🔗  Resources & links mentioned:\n➖  Google AI Studio → https://goo.gle/47kgk6g \n➖  Veo3.1 → https://goo.gle/3J58eGU \n➖  Introducing Veo3.1 → https://goo.gle/3Le6RWP \n➖  Leveling up your developer experience in Google AI Studio → https://goo.gle/3Ld7Arl \n➖  Introducing Gemini 2.5 Computer Use model → https://goo.gle/3LxKbRr \n➖  Gemini Models → https://goo.gle/3Wp9Lum \n\nConnect with Logan:\nLinkedIn → https://goo.gle/47qmYYL\nX → https://goo.gle/4o6DHre\nBlueSky → https://goo.gle/3Lakmaa\nBlog → https://goo.gle/4hv5CP4\n\nConnect with Mollie:\nLinkedIn → https://goo.gle/48NdWaL\nBlueSky → https://goo.gle/4nrzxZM\n\nConnect with Smitha:\nLinkedIn → https://goo.gle/47c5pwS\nYouTube → https://goo.gle/4oA294e\nX → https://goo.gle/47MotBW\nInstagram → https://goo.gle/431iDdg\n\nWatch more Agent Factory → https://www.youtube.com/playlist?list=PLIivdWyY5sqLXR1eSkiM5bE6pFlXC-OSs \n🔔 Subscribe to Google Cloud Tech → https://goo.gle/GoogleCloudTech\n\n#GoogleAIStudio #AIAgents #GroundingWithMaps\n\nSpeaker: Mollie Pettit, Smitha Kolan, Logan Kilpatrick\nProducts Mentioned: Google AI Studio, Cloud Run, Gemini 2.5 Pro, Gemini 2.5 Flash, Gemini 2.5 Flash-lite, Imagen, Veo 3.1 , Gemini Computer Use Model, Google Maps API",
+    "channelTitle": "Google Cloud Tech",
+    "publishDate": "2025-10-28T23:00:04Z",
+    "duration": "37m",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/azvA2Bn2aXw/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Logan Kilpatrick"
+  },
+  {
+    "id": "g-WeCOUYBrk",
+    "company": "a16z",
+    "category": "a16z",
+    "title": "Marc Andreessen & Amjad Masad on “Good Enough” AI, AGI, and the End of Coding",
+    "description": "Amjad Masad, founder and CEO of Replit, joins a16z’s Marc Andreessen and Erik Torenberg to discuss the new world of AI agents, the future of programming, and how software itself is beginning to build software.\n\nThey trace the history of computing to the rise of AI agents that can now plan, reason, and code for hours without breaking, and explore how Replit is making it possible for anyone to create complex applications in natural language. Amjad explains how RL unlocked reasoning for modern models, why verification loops changed everything, whether LLMs are hitting diminishing returns, and if “good enough” AI might actually block progress toward true general intelligence.\n\n00:00 Intro\n00:37 Programming in Plain English\n03:00 The Vision Behind Replit\n05:15 From Machine Code to English Code\n07:00 Building Apps with AI Agents\n09:30 When the Agent Becomes the Programmer\n11:00 Long-Horizon Reasoning and Coherence\n13:45 Reinforcement Learning and Problem Solving\n17:30 The Verification Loop and Multi-Agent Systems\n21:15 Watching AI Work Like a Human Programmer\n23:45 From Stochastic Parrots to Real Reasoning\n26:00 Why Coding Is Advancing Faster Than Other Fields\n30:15 Verifiable Domains: Math, Code, and Physics\n33:45 The AGI Debate: Are We on Track?\n37:45 Transfer Learning and the Limits of Human Intelligence\n41:15 Functional AGI and Automating Labor\n45:20 GPT-5, Diminishing Returns, and Lost “Humanity”\n53:10 Creativity, Reasoning, and Finding Truth in AI\n57:30 The Origins of Replit and Early Coding Days\n01:03:00 Hacking His University and Getting Caught\n01:08:00 The Redemption and Lessons Learned for the AI Age\n\nStay Updated: \nIf you enjoyed this episode, be sure to like, subscribe, and share with your friends!\n\nResources:\nFollow Amjad on X: https://x.com/amasad\nFollow Marc on X: https://x.com/pmarca\nFind a16z on X: https://x.com/a16z \nFind a16z on LinkedIn: https://www.linkedin.com/company/a16z \nListen to the a16z Podcast on Spotify: https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX\nListen to the a16z Podcast on Apple Podcasts: https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711\nFollow our host: https://x.com/eriktorenberg\n\nPlease note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures.",
+    "channelTitle": "a16z",
+    "publishDate": "2025-10-23T15:02:28Z",
+    "duration": "72m",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/g-WeCOUYBrk/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Marc Andreessen"
   },
   {
     "id": "wUOjTR1511M",
@@ -1836,6 +2057,23 @@
     "person": "Boris Cherny"
   },
   {
+    "id": "FuvxluTePk0",
+    "company": "a16z",
+    "category": "a16z",
+    "title": "Marc Andreessen: The US is in a AI Arms Race & It Decides The World's Future",
+    "description": "Marc Andreessen joins Joe Lonsdale for a live conversation at the inaugural Ronald Reagan Economic Forum.\n\nThey explore one of the most urgent and complex questions of our time: Can AI and robotics catalyze a new era of American industrial strength—and how do we ensure the entire country, including rural communities, shares in the upside?\n\nMarc walks through the history of U.S. industrialization, the lessons of tariffs and trade from leaders like McKinley, and how America’s shift to a services-based economy helped fuel our current urban-rural divide. The conversation spans immigration policy, housing, education, energy, and the path to a true AI-powered manufacturing revival—touching on what needs to change and how.\n\nThis episode is a must-listen for anyone thinking about the future of American productivity, growth, and leadership in the age of AI.\n\nTimecodes: \n00:00 Episode intro\n02:18 Understanding McKinley & Trump on tariffs\n07:20 Manufacturing to services; America's economic shift\n11:30 The great clash between cities & rural America\n15:50 Deindustrializing was a choice \n17:40 AI is a fundamental turning point\n20:30 Robotics will be biggest industry ever created\n23:54 High-skilled immigration + DEI hurts rural kids\n29:32 What are bottlenecks to AI boom\n\nResources:  \nFind Marc on X: https://x.com/pmarca\nFollow Joe on X: https://x.com/jtlonsdale\nYou can find his writings here: https://blog.joelonsdale.com/\n\nStay Updated: \nLet us know what you think: https://ratethispodcast.com/a16z \nFind a16z on Twitter: https://twitter.com/a16z \nFind a16z on LinkedIn: https://www.linkedin.com/company/a16z \nSubscribe on your favorite podcast app: https://a16z.simplecast.com/ \nFollow our host: https://twitter.com/stephsmithio \n\nPlease note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details, please see a16z.com/disclosures.",
+    "channelTitle": "a16z",
+    "publishDate": "2025-08-05T13:00:27Z",
+    "duration": "37m",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/FuvxluTePk0/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Marc Andreessen"
+  },
+  {
     "id": "raikcKu-_WI",
     "company": "google",
     "category": "google",
@@ -2231,6 +2469,23 @@
     "person": "Sam Altman"
   },
   {
+    "id": "53FImKtf2i0",
+    "company": "a16z",
+    "category": "a16z",
+    "title": "Marc Andreessen on The Future of Venture Capital | Ep. 12",
+    "description": "(If you enjoyed this, please like and subscribe!)\n\nMarc Andreessen is a cofounder and general partner at the venture capital firm Andreessen Horowitz, a venture capital firm that manages $45 billion in assets under management. He is an innovator and creator, one of the few to pioneer a software category used by more than a billion people and one of the few to establish multiple billion-dollar companies.\n\nMarc co-created the highly influential Mosaic internet browser and co-founded Netscape, which later sold to AOL for $4.2 billion. He also co-founded Loudcloud, which as Opsware, sold to Hewlett-Packard for $1.6 billion. He later served on the board of Hewlett-Packard from 2008 to 2018.\n\nMarc serves on the board of the following Andreessen Horowitz portfolio companies: Applied Intuition, Carta, Coinbase, Dialpad, Flow, Golden, Honor, OpenGov, Samsara, Simple Things, and TipTop Labs. He is also on the board of Meta.\n\nWe covered:\n- Evolution of the venture playbook\n- Small vs large funds\n- Current AI landscape\n- Politics and Silicon Valley\n- Tech and the media\n\nA few highlights:\n- Optimizing for the maximum amount of power\n- Conflicts being the reason a16z isn’t even larger\n- The middle is dead; you’re either Gucci or Walmart\n- Only 8 companies in the S&P 500 are innovating\n- We’ve lived in an era of intense preference falsification\n- AI and machines making the ultimate decision\n\nTimestamps:\n(0:00) Intro\n(0:27) Evolution of the venture playbook\n(15:54) Small vs large funds\n(29:10) Becoming a top tier firm\n(35:33) Limiting factors to building big companies\n(40:11) Investing in AI\n(50:02) Developing investors\n(59:06) AI going wrong\n(1:09:20) Politics and Silicon Valley\n(1:11:39) Tech and the media\n(1:23:22) Preference falsification\n(1:31:10) Career advice \n(1:34:07) Huberman “beef”\n(1:38:21) Question from X\n\nMore on Marc:\nhttps://x.com/pmarca\nhttps://pmarca.substack.com/\nhttps://a16z.simplecast.com/\n\nMore on Uncapped\nhttps://linktr.ee/uncappedpod\nhttps://x.com/jaltma\n\nEmail: friends@uncappedpod.com",
+    "channelTitle": "Uncapped with Jack Altman",
+    "publishDate": "2025-06-11T13:44:51Z",
+    "duration": "100m",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/53FImKtf2i0/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Marc Andreessen"
+  },
+  {
     "id": "Gc_EWijTx9o",
     "company": "google",
     "category": "google",
@@ -2589,6 +2844,23 @@
     },
     "tags": [],
     "person": "Demis Hassabis"
+  },
+  {
+    "id": "qObbK4SjZnk",
+    "company": "a16z",
+    "category": "a16z",
+    "title": "Marc Andreessen Reveals His Biggest Wins and Mistakes at a16z",
+    "description": "What does it take to build a venture firm from scratch—and scale it across multiple waves of technological and cultural change?\n\nIn this special episode recorded at the a16z LP Summit, Marc Andreessen joins Erik Torenberg for a wide-ranging conversation on the origins and evolution of Andreessen Horowitz. From raising Fund I during the depths of the 2008 financial crisis to shaping the firm’s multistage, multi-sector strategy, Marc reflects on how the firm was built—and rebuilt—as the tech landscape shifted.\n\nThey discuss the rise of “Little Tech,” why policy now matters to startups, how scale became a strategic advantage in venture capital, and why the move from generalists to vertical specialists was inevitable.\n\nAlong the way, Marc shares behind-the-scenes stories on Facebook’s near-sale to Yahoo, the evolution of founder archetypes, the global talent arbitrage, and what too many people still misunderstand about tech’s role in society.\n\nThis is a masterclass in firm-building, investing, and long-term thinking.\n\nTimecodes:\n00:00 Introduction\n00:22 Founding the Firm \n10:43 The Evolution of Venture Capital\n13:37 The Rise of Specialized Funds\n16:52 The Role of Domain Expertise in Tech\n19:45 Globalization and Tech Enthusiasm\n21:23 Challenges and Opportunities in Europe\n23:05 International Investments and Policies\n24:38 The Evolution of Tech Industry Politics\n27:43 The Rise of Little Tech vs. Big Tech\n30:47 Historical Context of Tech and Defense\n36:29 Modern Tech's Role in National Security\n\nStay Updated: \nLet us know what you think: https://ratethispodcast.com/a16z \nFind a16z on Twitter: https://twitter.com/a16z \nFind a16z on LinkedIn: https://www.linkedin.com/company/a16z \nSubscribe on your favorite podcast app: https://a16z.simplecast.com/ \nFollow our host: https://x.com/eriktorenberg\n\nPlease note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures.",
+    "channelTitle": "a16z",
+    "publishDate": "2025-06-02T15:23:54Z",
+    "duration": "38m",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/qObbK4SjZnk/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Marc Andreessen"
   },
   {
     "id": "fpujdDJg6l0",

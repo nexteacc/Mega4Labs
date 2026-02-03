@@ -25,10 +25,14 @@ const dedupeById = (items: LandingVideo[]): LandingVideo[] => {
 };
 
 /**
+ * Cache for all videos sorted by publish date
+ */
+const allVideosCache = dedupeById(sortByPublishDateDesc(videos));
+
+/**
  * Get all videos sorted by publish date
  */
-export const getAllVideos = (): LandingVideo[] =>
-  dedupeById(sortByPublishDateDesc(videos));
+export const getAllVideos = (): LandingVideo[] => allVideosCache;
 
 /**
  * Get hero videos (top 4)

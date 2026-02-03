@@ -1,32 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import { OpenAI, Anthropic, Google, Cursor } from "@lobehub/icons";
 import { AI_LEADERS } from "@/config/video-search";
 import { generateSlug } from "@/lib/slug";
 import { getPersonCount } from "@/lib/content";
 import { COMPANIES } from "@/lib/i18n";
 import type { Company } from "@/lib/types";
 import Link from "next/link";
-import Image from "next/image";
-
-const A16zLogo = ({ size = 24, className }: { size?: number; className?: string }) => (
-  <Image
-    src="/a16z.png"
-    alt="a16z"
-    width={size}
-    height={size}
-    className={`object-contain ${className || ""}`}
-  />
-);
-
-const COMPANY_LOGOS = {
-  openai: OpenAI,
-  anthropic: Anthropic,
-  google: Google,
-  cursor: Cursor,
-  a16z: A16zLogo,
-} as const;
+import { COMPANY_LOGOS } from "@/components/icons/CompanyLogos";
 
 export function Navigation() {
   const [activeMenu, setActiveMenu] = useState<Company | null>(null);

@@ -22,6 +22,7 @@ export const AI_LEADERS = {
     color: "#10A37F",
     people: [
       { name: "Sam Altman", role: "CEO" },
+      { name: "Romain Huet", role: "Head of Developer Experience" },
       { name: "Kevin Weil", role: "CPO" },
       { name: "Alexander Embiricos", role: "Product Lead, Codex" },
       { name: "Chris Lehane", role: "Chief Global Affairs Officer" },
@@ -76,32 +77,34 @@ export const AI_LEADERS = {
 export const SEARCH_QUERIES: SearchQuery[] = [
   // OpenAI
   { query: "sam altman openai interview video", company: "openai", person: "Sam Altman", maxResults: 20 },
+  { query: "romain huet openai devday interview video", company: "openai", person: "Romain Huet", maxResults: 20 },
+  { query: "romain huet openai developer experience video", company: "openai", person: "Romain Huet", maxResults: 20 },
   { query: "kevin weil openai interview video", company: "openai", person: "Kevin Weil", maxResults: 20 },
   { query: "chris lehane openai interview video", company: "openai", person: "Chris Lehane", maxResults: 20 },
   { query: "miqdad jaffer openai interview video", company: "openai", person: "Miqdad Jaffer", maxResults: 20 },
   { query: "jiayi weng openai interview video", company: "openai", person: "Jiayi Weng", maxResults: 20 },
   { query: "翁家翌 openai 访谈 视频", company: "openai", person: "Jiayi Weng", maxResults: 20 },
   { query: "alexander embiricos openai codex interview video", company: "openai", person: "Alexander Embiricos", maxResults: 20 },
-  
+
   // Cursor
   { query: "michael truell cursor interview video", company: "cursor", person: "Michael Truell", maxResults: 20 },
   { query: "aman sanger cursor interview video", company: "cursor", person: "Aman Sanger", maxResults: 20 },
   { query: "ryo lu cursor interview video", company: "cursor", person: "Ryo Lu", maxResults: 20 },
-  
+
   // Google
   { query: "demis hassabis google interview video", company: "google", person: "Demis Hassabis", maxResults: 20 },
   { query: "josh woodward google interview video", company: "google", person: "Josh Woodward", maxResults: 20 },
   { query: "sebastian borgeaud google interview video", company: "google", person: "Sebastian Borgeaud", maxResults: 20 },
   { query: "shane legg google interview video", company: "google", person: "Shane Legg", maxResults: 20 },
   { query: "logan kilpatrick google interview video", company: "google", person: "Logan Kilpatrick", maxResults: 20 },
-  
+
   // Anthropic
   { query: "dario amodei anthropic interview video", company: "anthropic", person: "Dario Amodei", maxResults: 20 },
   { query: "daniela amodei anthropic interview video", company: "anthropic", person: "Daniela Amodei", maxResults: 20 },
   { query: "amanda askell anthropic interview video", company: "anthropic", person: "Amanda Askell", maxResults: 20 },
   { query: "boris cherny anthropic interview video", company: "anthropic", person: "Boris Cherny", maxResults: 20 },
   { query: "jenny wen anthropic interview video", company: "anthropic", person: "Jenny Wen", maxResults: 20 },
-  
+
   // a16z
   { query: "marc andreessen a16z interview video", company: "a16z", person: "Marc Andreessen", maxResults: 20 },
 ];
@@ -113,7 +116,7 @@ export const SEARCH_QUERIES: SearchQuery[] = [
 export const EXA_CONFIG = {
   // Domain filtering
   includeDomains: ["youtube.com"],
-  
+
   // Date range filtering
   endPublishedDate: new Date().toISOString(),
 };

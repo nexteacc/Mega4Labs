@@ -56,5 +56,5 @@ export const FOOTER_SUBMIT_VIDEO = "Submit a Sailor";
 export const FOOTER_COPYRIGHT = `© ${new Date().getFullYear()} Mega 4 Labs. Videos belong to their respective creators.`;
 
 // SEO
-export const SEO_KEYWORDS = "AI sailors, AI leaders, Sam Altman, Dario Amodei, Demis Hassabis, Cursor AI, OpenAI interview, Anthropic CEO, Google, Gemini, AI industry, artificial intelligence, AGI, GPT, Claude";
-export const SEO_DESCRIPTION = "Watch interviews and insights from 19 visionary AI sailors shaping the future at OpenAI, Anthropic, Google DeepMind, and Cursor.";
+export const SEO_KEYWORDS = "AI sailors, AI leaders, Sam Altman, Romain Huet, Dario Amodei, Demis Hassabis, Cursor AI, OpenAI interview, Anthropic CEO, Google, Gemini, AI industry, artificial intelligence, AGI, GPT, Claude";
+export const SEO_DESCRIPTION = "Watch interviews and insights from 21 visionary AI sailors shaping the future at OpenAI, Anthropic, Google DeepMind, and Cursor.";

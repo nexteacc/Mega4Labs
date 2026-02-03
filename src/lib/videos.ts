@@ -6,7 +6,7 @@ const VideoThumbnailSchema = z.object({
   height: z.number().positive(),
 });
 
-const CompanySchema = z.enum(["openai", "cursor", "google", "anthropic"]);
+const CompanySchema = z.enum(["openai", "cursor", "google", "anthropic", "a16z"]);
 
 const LandingVideoSchema = z.object({
   id: z.string().min(1),

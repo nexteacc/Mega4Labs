@@ -28,6 +28,7 @@ export const AI_LEADERS = {
       { name: "Chris Lehane", role: "Chief Global Affairs Officer" },
       { name: "Miqdad Jaffer", role: "Head of Product, Enterprise" },
       { name: "Jiayi Weng", role: "Lead of Post-training RL Infrastructure" },
+      { name: "Mark Chen", role: "Chief Research Officer" },
     ],
   },
   cursor: {
@@ -84,6 +85,7 @@ export const SEARCH_QUERIES: SearchQuery[] = [
   { query: "miqdad jaffer openai interview video", company: "openai", person: "Miqdad Jaffer", maxResults: 20 },
   { query: "jiayi weng openai interview video", company: "openai", person: "Jiayi Weng", maxResults: 20 },
   { query: "翁家翌 openai 访谈 视频", company: "openai", person: "Jiayi Weng", maxResults: 20 },
+  { query: "mark chen openai interview video", company: "openai", person: "Mark Chen", maxResults: 20 },
   { query: "alexander embiricos openai codex interview video", company: "openai", person: "Alexander Embiricos", maxResults: 20 },
 
   // Cursor

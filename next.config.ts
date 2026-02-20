@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  reactCompiler: true,
+  reactCompiler: false, // 明确关闭 React Compiler，规避与 Turbopack HMR 的冲突 bug
   images: {
     remotePatterns: [
       {

@@ -3,9 +3,9 @@
 import { useEffect, useRef, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import type { LandingVideo } from "@/lib/types";
-import { GradientButton } from "@/components/ui/gradient-button";
-import { Sparkle, Play } from "lucide-react";
+import { Sparkle } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { gradientButtonVariants } from "@/components/ui/gradient-button";
 
 type AnalysisItem = {
     timestamp: number;
@@ -80,7 +80,7 @@ export function VideoSidekick({ currentTime, onSeek }: VideoSidekickProps) {
     // Scroll active item into view
     useEffect(() => {
         if (activeIndex !== -1 && containerRef.current) {
-            const activeElement = containerRef.current.children[0]?.children[activeIndex] as HTMLElement;
+            const activeElement = containerRef.current.children[activeIndex] as HTMLElement;
             if (activeElement) {
                 activeElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }
@@ -108,18 +108,15 @@ export function VideoSidekick({ currentTime, onSeek }: VideoSidekickProps) {
                         const CardInner = (
                             <>
                                 {/* Topic Badge */}
-                                <div className="flex items-center justify-between mb-4">
+                                <div className="flex items-center mb-4">
                                     <span className={cn(
                                         "px-2.5 py-1 rounded-lg text-[10px] font-bold uppercase tracking-wider border transition-colors",
-                                        isActive 
-                                            ? "bg-accent !text-white border-accent shadow-[0_2px_10px_rgba(33,128,141,0.3)]" 
+                                        isActive
+                                            ? "bg-accent !text-white border-accent shadow-[0_2px_10px_rgba(33,128,141,0.3)]"
                                             : "bg-white/10 !text-white border-white/10"
                                     )}>
                                         TOPIC: {item.topic}
                                     </span>
-                                    {isActive && (
-                                        <Play className="w-3 h-3 text-accent animate-pulse" />
-                                    )}
                                 </div>
 
                                 {/* Question (Host) */}
@@ -146,34 +143,24 @@ export function VideoSidekick({ currentTime, onSeek }: VideoSidekickProps) {
 
                         const motionProps = {
                             initial: { opacity: 0, y: 20 },
-                            animate: { 
-                                opacity: 1, 
+                            animate: {
+                                opacity: 1,
                                 y: 0,
                                 scale: isActive ? 1 : 0.98,
                             },
                             transition: { duration: 0.4, delay: idx * 0.1 },
                             onClick: () => onSeek(item.timestamp),
                             className: cn(
-                                "relative rounded-2xl p-5 transition-all duration-500 cursor-pointer border w-full text-left",
-                                isActive 
-                                    ? "bg-transparent border-transparent shadow-none" 
-                                    : "bg-white/5 border-white/10 hover:bg-white/10 hover:border-white/20"
+                                "relative transition-all duration-500 cursor-pointer overflow-hidden text-left w-full",
+                                isActive
+                                    ? cn(
+                                        gradientButtonVariants({ variant: "variant" }),
+                                        // Override the button's inline-flex row layout → vertical card layout
+                                        "!flex !flex-col !items-start !justify-start rounded-2xl p-5 !min-w-0 border-0 shadow-[0_2px_20px_rgba(33,128,141,0.4)]"
+                                    )
+                                    : "flex flex-col bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 rounded-2xl p-5"
                             )
                         };
-
-                        if (isActive) {
-                            return (
-                                <GradientButton 
-                                    key={idx} 
-                                    asChild 
-                                    className="w-full h-auto p-0 rounded-2xl border-0 block"
-                                >
-                                    <motion.div {...motionProps}>
-                                        {CardInner}
-                                    </motion.div>
-                                </GradientButton>
-                            );
-                        }
 
                         return (
                             <motion.div key={idx} {...motionProps}>

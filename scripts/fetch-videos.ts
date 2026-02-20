@@ -93,7 +93,7 @@ function loadExistingVideos(): { videos: LandingVideo[]; existingIds: Set<string
     const content = readFileSync(VIDEOS_FILE_PATH, "utf-8");
     const videos = JSON.parse(content) as LandingVideo[];
     const existingIds = new Set(videos.map(v => v.id));
-    
+
     // Find latest video date per person
     const personLatestDates = new Map<string, Date>();
     videos.forEach(v => {
@@ -238,10 +238,10 @@ async function verifyVideoRelevanceBatch(
 async function main() {
   console.log("🚀 Starting Optimized Video Fetch...");
   console.log(`ℹ️  Mode: ${isFullScan ? "FULL SCAN (ignoring history)" : "INCREMENTAL"}`);
-  
+
   const { videos: existingVideos, existingIds, personLatestDates } = loadExistingVideos();
   const newVideos: LandingVideo[] = [];
-  
+
   // Default start date: 1 year ago if no history
   const defaultStartDate = new Date();
   defaultStartDate.setFullYear(defaultStartDate.getFullYear() - 1);
@@ -249,10 +249,10 @@ async function main() {
   for (const searchQuery of SEARCH_QUERIES) {
     const personName = searchQuery.person || searchQuery.query;
     console.log(`\n🔍 Processing: ${personName} (${searchQuery.company})`);
-    
+
     // 1. Determine Start Date
     let startPublishedDate = defaultStartDate.toISOString();
-    
+
     if (!isFullScan && searchQuery.person && personLatestDates.has(searchQuery.person)) {
       const latestDate = personLatestDates.get(searchQuery.person)!;
       // Go back 30 days for safety buffer (since we run weekly now)
@@ -292,10 +292,10 @@ async function main() {
         potentialIds.add(id);
       }
     });
-    
+
     const idsToFetch = Array.from(potentialIds);
     console.log(`   Found ${searchResults.results.length} results -> ${idsToFetch.length} new unique IDs`);
-    
+
     if (idsToFetch.length === 0) continue;
 
     // 4. Fetch YouTube Metadata (Batch)
@@ -320,7 +320,7 @@ async function main() {
 
     // 6. Gemini Verification
     const verificationResults = await verifyVideoRelevanceBatch(videosToVerify, personName);
-    
+
     // 7. Add Valid Videos
     let addedCount = 0;
     for (const v of videosToVerify) {
@@ -329,7 +329,7 @@ async function main() {
         const details = youtubeDetailsMap.get(v.id);
         if (!details) continue;
         const snippet = details.snippet;
-        
+
         // Find best thumbnail
         const thumb = snippet.thumbnails.maxres || snippet.thumbnails.high || snippet.thumbnails.medium || snippet.thumbnails.default;
         if (!thumb) continue;
@@ -351,7 +351,7 @@ async function main() {
           },
           person: searchQuery.person
         };
-        
+
         newVideos.push(newVideo);
         existingIds.add(v.id); // Prevent dupes in same run
         addedCount++;
@@ -368,7 +368,7 @@ async function main() {
     const finalVideos = [...existingVideos, ...newVideos];
     // Sort by date desc
     finalVideos.sort((a, b) => new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime());
-    
+
     writeFileSync(VIDEOS_FILE_PATH, JSON.stringify(finalVideos, null, 2));
     console.log(`\n💾 Saved ${newVideos.length} new videos. Total: ${finalVideos.length}`);
   } else {

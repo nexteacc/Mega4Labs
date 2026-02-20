@@ -57,4 +57,4 @@ export const FOOTER_COPYRIGHT = `© ${new Date().getFullYear()} Mega 4 Labs. Vid
 
 // SEO
 export const SEO_KEYWORDS = "AI sailors, AI leaders, Sam Altman, Romain Huet, Dario Amodei, Demis Hassabis, Cursor AI, OpenAI interview, Anthropic CEO, Google, Gemini, AI industry, artificial intelligence, AGI, GPT, Claude, Mark Chen";
-export const SEO_DESCRIPTION = "Watch interviews and insights from 22 visionary AI sailors shaping the future at OpenAI, Anthropic, Google DeepMind, and Cursor.";
+export const SEO_DESCRIPTION = "Watch interviews and insights from 23 visionary AI sailors shaping the future at OpenAI, Anthropic, Google DeepMind, and Cursor.";

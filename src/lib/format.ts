@@ -1,8 +1,15 @@
 const padNumber = (value: number) => value.toString().padStart(2, "0");
 
 const parseIsoDurationToSeconds = (isoDuration: string): number | null => {
-  const pattern = /P(?:(\d+)D)?T?(?:(\d+)H)?(?:(\d+)M)?(?:(\d+(?:\.\d+)?)S)?/;
-  const match = pattern.exec(isoDuration);
+  const value = isoDuration.trim();
+  const legacyMinutes = /^(\d+(?:\.\d+)?)m$/i.exec(value);
+  if (legacyMinutes) {
+    const totalSeconds = Number(legacyMinutes[1]) * 60;
+    return Number.isFinite(totalSeconds) ? totalSeconds : null;
+  }
+
+  const pattern = /^P(?:(\d+)D)?T(?:(\d+)H)?(?:(\d+)M)?(?:(\d+(?:\.\d+)?)S)?$/;
+  const match = pattern.exec(value);
   if (!match) {
     return null;
   }

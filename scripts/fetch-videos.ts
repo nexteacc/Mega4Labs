@@ -177,15 +177,6 @@ function getDurationSeconds(isoDuration: string): number | null {
 }
 
 /**
- * Convert ISO 8601 duration to human readable format (e.g. "15m")
- */
-function parseDuration(isoDuration: string): string {
-  const seconds = getDurationSeconds(isoDuration);
-  if (seconds === null) return "unknown";
-  return Math.round(seconds / 60) + "m";
-}
-
-/**
  * Main execution
  */
 async function main() {
@@ -275,7 +266,7 @@ async function main() {
         description: snippet.description,
         channelTitle: snippet.channelTitle,
         publishDate: snippet.publishedAt,
-        duration: parseDuration(details.contentDetails.duration),
+        duration: details.contentDetails.duration,
         platform: "youtube",
         thumbnail: {
           url: thumb.url,

@@ -1,33 +1,19 @@
 #!/usr/bin/env tsx
-/**
- * Video Fetching Script for Mega 4 Labs (Optimized)
- * Strategy: Exa AI (Search Only) + YouTube API (Metadata) + Incremental Updates
- * 
- * Usage:
- * 1. Set EXA_API_KEY and YOUTUBE_API_KEY in .env.local
- * 2. Run: pnpm run fetch-videos [--full]
- */
-
 import { config } from "dotenv";
 import { writeFileSync, readFileSync, existsSync } from "fs";
-import Exa from "exa-js";
-import { google } from "@ai-sdk/google";
-import { generateObject } from "ai";
-import { z } from "zod";
-import { SEARCH_QUERIES, EXA_CONFIG } from "../src/config/video-search";
+import { tavily } from "@tavily/core";
+import { SEARCH_QUERIES, TAVILY_CONFIG } from "../src/config/video-search";
 import type { LandingVideo } from "../src/lib/types";
 
 const VIDEOS_FILE_PATH = "src/data/videos.json";
 
-// Load .env.local
 config({ path: ".env.local" });
 
-const EXA_API_KEY = process.env.EXA_API_KEY;
+const TAVILY_API_KEY = process.env.TAVILY_API_KEY;
 const YOUTUBE_API_KEY = process.env.YOUTUBE_API_KEY;
-const GOOGLE_API_KEY = process.env.GOOGLE_GENERATIVE_AI_API_KEY;
 
-if (!EXA_API_KEY) {
-  console.error("❌ Error: EXA_API_KEY environment variable not set");
+if (!TAVILY_API_KEY) {
+  console.error("❌ Error: TAVILY_API_KEY environment variable not set");
   process.exit(1);
 }
 
@@ -36,13 +22,7 @@ if (!YOUTUBE_API_KEY) {
   process.exit(1);
 }
 
-if (!GOOGLE_API_KEY) {
-  console.error("❌ Error: GOOGLE_GENERATIVE_AI_API_KEY environment variable not set");
-  process.exit(1);
-}
-
-const exa = new Exa(EXA_API_KEY);
-const verificationModel = google("gemini-3-flash-preview");
+const tavilyClient = tavily({ apiKey: TAVILY_API_KEY });
 
 // Command line args
 const isFullScan = process.argv.includes("--full");
@@ -120,9 +100,28 @@ function loadExistingVideos(): { videos: LandingVideo[]; existingIds: Set<string
 /**
  * Extract YouTube ID from URL
  */
-function extractVideoId(url: string): string | null {
-  const match = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\s]+)/);
-  return match ? match[1] : null;
+function extractVideoId(value: string): string | null {
+  try {
+    const url = new URL(value);
+    const hostname = url.hostname.replace(/^www\./, "");
+    let videoId: string | null = null;
+
+    if (hostname === "youtu.be") {
+      videoId = url.pathname.split("/").filter(Boolean)[0] || null;
+    } else if (hostname === "youtube.com" || hostname.endsWith(".youtube.com")) {
+      videoId = url.searchParams.get("v");
+      if (!videoId) {
+        const segments = url.pathname.split("/").filter(Boolean);
+        if (["embed", "live", "shorts"].includes(segments[0])) {
+          videoId = segments[1] || null;
+        }
+      }
+    }
+
+    return videoId && /^[A-Za-z0-9_-]{11}$/.test(videoId) ? videoId : null;
+  } catch {
+    return null;
+  }
 }
 
 /**
@@ -164,7 +163,7 @@ async function getYouTubeDetails(videoIds: string[]): Promise<Map<string, YouTub
   return results;
 }
 
-function getDurationMinutes(isoDuration: string): number | null {
+function getDurationSeconds(isoDuration: string): number | null {
   const match = isoDuration.match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/);
   if (!match) return null;
 
@@ -172,64 +171,18 @@ function getDurationMinutes(isoDuration: string): number | null {
   const minutes = parseInt(match[2] || "0");
   const seconds = parseInt(match[3] || "0");
 
-  const totalMinutes = hours * 60 + minutes + Math.round(seconds / 60);
-  if (!Number.isFinite(totalMinutes) || totalMinutes < 0) return null;
-  return totalMinutes;
+  const totalSeconds = hours * 3600 + minutes * 60 + seconds;
+  if (!Number.isFinite(totalSeconds) || totalSeconds < 0) return null;
+  return totalSeconds;
 }
 
 /**
  * Convert ISO 8601 duration to human readable format (e.g. "15m")
  */
 function parseDuration(isoDuration: string): string {
-  const minutes = getDurationMinutes(isoDuration);
-  if (minutes === null) return "unknown";
-  return minutes + "m";
-}
-
-/**
- * Verify videos using Gemini
- */
-async function verifyVideoRelevanceBatch(
-  videos: { id: string; title: string; description: string; channelTitle: string }[],
-  personName: string
-): Promise<Map<string, { isRelevant: boolean; reason: string }>> {
-  if (videos.length === 0) return new Map();
-
-  try {
-    const { object } = await generateObject({
-      model: verificationModel,
-      schema: z.object({
-        results: z.array(z.object({
-          id: z.string(),
-          isRelevant: z.boolean(),
-          reason: z.string(),
-        })),
-      }),
-      prompt: `
-        Analyze the following list of videos and determine if each one is relevant to "${personName}".
-        
-        Input Data (JSON):
-        ${JSON.stringify(videos, null, 2)}
-        
-        Task:
-        For EACH video, determine if ${personName} is the MAIN subject, guest, or speaker (e.g. interview, speech, podcast guest).
-        
-        Rules:
-        - Return false if the person is only mentioned in credits or briefly mentioned.
-        - Return false if it's a different person with the same name.
-        - Return true if it is an interview, speech, fireside chat, or presentation by ${personName}.
-        
-        Return a JSON object with a "results" array.
-      `,
-    });
-
-    const resultMap = new Map();
-    object.results.forEach(r => resultMap.set(r.id, r));
-    return resultMap;
-  } catch (error) {
-    console.error("   ⚠️  Batch LLM Verification failed:", error);
-    return new Map();
-  }
+  const seconds = getDurationSeconds(isoDuration);
+  if (seconds === null) return "unknown";
+  return Math.round(seconds / 60) + "m";
 }
 
 /**
@@ -264,23 +217,20 @@ async function main() {
       console.log(`   📅 Full/Initial: Searching from ${startPublishedDate}`);
     }
 
-    // 2. Exa Search (Search Only - Low Cost)
     let searchResults;
     try {
       const effectiveMaxResults = isFullScan
         ? searchQuery.maxResults
         : Math.min(searchQuery.maxResults, INCREMENTAL_MAX_RESULTS);
-      searchResults = await exa.search(
-        searchQuery.query,
-        {
-          ...EXA_CONFIG,
-          numResults: effectiveMaxResults,
-          startPublishedDate: startPublishedDate,
-          // We don't need contents, just URLs to get IDs
-        }
-      );
+      const query = `${searchQuery.query}. Return full-length interviews, podcasts, fireside chats, Q&A sessions, or talks where ${personName} is an actual guest or speaker. Exclude commentary, reactions, clips, highlights, Shorts, and videos that only mention ${personName}.`;
+      searchResults = await tavilyClient.search(query, {
+        ...TAVILY_CONFIG,
+        maxResults: effectiveMaxResults,
+        startDate: startPublishedDate.split("T")[0],
+        endDate: new Date().toISOString().split("T")[0],
+      });
     } catch (e) {
-      console.error(`   ❌ Exa Search failed: ${e}`);
+      console.error(`   ❌ Tavily Search failed: ${e}`);
       continue;
     }
 
@@ -302,65 +252,45 @@ async function main() {
     const youtubeDetailsMap = await getYouTubeDetails(idsToFetch);
     console.log(`   Fetched details for ${youtubeDetailsMap.size} videos from YouTube`);
 
-    // 5. Prepare for Verification
-    const videosToVerify = [];
+    const eligibleVideos: string[] = [];
     for (const [id, details] of youtubeDetailsMap.entries()) {
-      // Basic duration filter (> 20 mins)
-      const minutes = getDurationMinutes(details.contentDetails.duration);
-      if (minutes === null) continue;
-      if (minutes < 20) continue; // Skip shorts/clips/short interviews
-
-      videosToVerify.push({
-        id: id,
-        title: details.snippet.title,
-        description: details.snippet.description.slice(0, 500), // Truncate for token saving
-        channelTitle: details.snippet.channelTitle
-      });
+      const seconds = getDurationSeconds(details.contentDetails.duration);
+      if (seconds === null || seconds < 20 * 60) continue;
+      eligibleVideos.push(id);
     }
 
-    // 6. Gemini Verification
-    const verificationResults = await verifyVideoRelevanceBatch(videosToVerify, personName);
-
-    // 7. Add Valid Videos
     let addedCount = 0;
-    for (const v of videosToVerify) {
-      const decision = verificationResults.get(v.id);
-      if (decision?.isRelevant) {
-        const details = youtubeDetailsMap.get(v.id);
-        if (!details) continue;
-        const snippet = details.snippet;
+    for (const id of eligibleVideos) {
+      const details = youtubeDetailsMap.get(id);
+      if (!details) continue;
+      const snippet = details.snippet;
+      const thumb = snippet.thumbnails.maxres || snippet.thumbnails.high || snippet.thumbnails.medium || snippet.thumbnails.default;
+      if (!thumb) continue;
 
-        // Find best thumbnail
-        const thumb = snippet.thumbnails.maxres || snippet.thumbnails.high || snippet.thumbnails.medium || snippet.thumbnails.default;
-        if (!thumb) continue;
+      const newVideo: LandingVideo = {
+        id,
+        company: searchQuery.company,
+        category: searchQuery.company,
+        title: snippet.title,
+        description: snippet.description,
+        channelTitle: snippet.channelTitle,
+        publishDate: snippet.publishedAt,
+        duration: parseDuration(details.contentDetails.duration),
+        platform: "youtube",
+        thumbnail: {
+          url: thumb.url,
+          width: thumb.width,
+          height: thumb.height
+        },
+        person: searchQuery.person
+      };
 
-        const newVideo: LandingVideo = {
-          id: v.id,
-          company: searchQuery.company,
-          category: searchQuery.company,
-          title: snippet.title,
-          description: snippet.description, // Store full description? or truncate? keeping full for now
-          channelTitle: snippet.channelTitle,
-          publishDate: snippet.publishedAt,
-          duration: parseDuration(details.contentDetails.duration),
-          platform: "youtube",
-          thumbnail: {
-            url: thumb.url,
-            width: thumb.width,
-            height: thumb.height
-          },
-          person: searchQuery.person
-        };
-
-        newVideos.push(newVideo);
-        existingIds.add(v.id); // Prevent dupes in same run
-        addedCount++;
-        console.log(`   ✅ Added: ${snippet.title.slice(0, 50)}...`);
-      } else {
-        // console.log(`   ❌ Skipped: ${v.title.slice(0, 30)}... (${decision?.reason})`);
-      }
+      newVideos.push(newVideo);
+      existingIds.add(id);
+      addedCount++;
+      console.log(`   ✅ Added: ${snippet.title.slice(0, 50)}...`);
     }
-    console.log(`   ✨ Added ${addedCount} relevant videos for ${personName}`);
+    console.log(`   ✨ Added ${addedCount} eligible videos for ${personName}`);
   }
 
   // 8. Save

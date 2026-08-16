@@ -1,8 +1,3 @@
-/**
- * Video Search Configuration for Mega 4 Labs
- * Using Exa AI for intelligent video discovery + YouTube API for metadata
- */
-
 import type { Company } from "@/lib/types";
 
 export type SearchQuery = {
@@ -113,16 +108,12 @@ export const SEARCH_QUERIES: SearchQuery[] = [
   { query: "marc andreessen a16z interview video", company: "a16z", person: "Marc Andreessen", maxResults: 20 },
 ];
 
-/**
- * Exa AI Search Configuration
- * Simple and clean - let Exa's neural search do the work
- */
-export const EXA_CONFIG = {
-  // Domain filtering
-  includeDomains: ["youtube.com"],
-
-  // Date range filtering
-  endPublishedDate: new Date().toISOString(),
+export const TAVILY_CONFIG = {
+  searchDepth: "advanced" as const,
+  topic: "general" as const,
+  includeDomains: ["youtube.com", "youtu.be"],
+  includeAnswer: false as const,
+  includeRawContent: false as const,
 };
 
 /**

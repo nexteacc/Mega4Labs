@@ -15,19 +15,17 @@ jobs:
     
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
         
       - name: Setup pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 9
+        uses: pnpm/action-setup@v6
           
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: '22'  # 使用 Node.js 22 LTS
+          node-version: '24'
           cache: 'pnpm'
           
       - name: Install dependencies

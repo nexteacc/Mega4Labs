@@ -17,6 +17,23 @@
     "person": "Sam Altman"
   },
   {
+    "id": "8SjQMczfl-o",
+    "company": "openai",
+    "category": "openai",
+    "title": "Romain Huet (OpenAI) on Codex & GPT-5.6, my AI papercut spree & Insecure Agents crossover",
+    "description": "Hey folks, Alex here\nI'm out on my 40th birthday RV trip, so this week is a pre-recorded special, and it's stacked.\n\nFirst, 15 minutes on how I actually use AI every day: the papercut-fixing spree with Codex computer use, what Fable Max built for my kids' vacation, and the new ThursdAI openers.\n\nThen, a one-take conversation with Romain Huet, Head of Developer Experience at OpenAI, from the AI Engineer World's Fair floor: Codex's inflection point (5M+ weekly users), /goal, AppShots, Codex managing its own threads, GPT-5.6 Sol/Terra/Luna, and 750 tok/s on Cerebras.\n\nFinally, the tables turn: Allie Howe interviews Wolfram and me on her Insecure Agents podcast about AI evangelism, transparent evals with Wolfbench, token billionaires, and my hot take that prompt injection is mostly a solved problem at the frontier.\n\n⏰ CHAPTERS:\n0:00 — Cold open: this week is a special one\n2:50 — How I use Sol & Fable: papercut-fixing with Computer Use\n8:43 — Fable Max: trip site, kids' newspapers & the perfect packing list\n12:06 — Rebuilding ThursdAI's openers with HyperFrames\n15:53 — Romain Huet (OpenAI): the golden age of AI engineering\n17:49 — Codex's inflection point: 5M weekly users & company-wide adoption\n20:36 — /goal, AppShots & Codex managing its own threads\n23:59 — GPT-5.6 Sol, Terra & Luna: value maxing & 750 tok/s on Cerebras\n25:56 — Why prompting techniques are dying\n28:01 — Voice + reasoning: the next interface for Codex & ChatGPT\n29:47 — Romain's closing + OpenAI booth tour\n31:25 — Insecure Agents pod: AI evangelism vs doomerism\n37:25 — Wolfbench: transparent evals, token costs & surprising results\n40:45 — Token billionaires: when loops are worth the spend\n44:07 — Agent security & the hot take: prompt injection is solved\n49:22 — Deepfakes, voice cloning & why open access makes us safer\n53:35 — Final takeaways: the hallway track & AI Engineer Tel Aviv\n\n🔗 LINKS:\nThursdAI newsletter & podcast: https://thursdai.news\nInsecure Agents: https://www.insecureagents.com\nWolfbench: https://wolfbench.ai\n\nThursdAI is supported by Weights & Biases from CoreWeave 💛\n\n#ThursdAI #OpenAI #Codex #AIEngineer",
+    "channelTitle": "Alex Volkov from ThursdAI",
+    "publishDate": "2026-07-23T16:24:11Z",
+    "duration": "PT57M6S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/8SjQMczfl-o/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Romain Huet"
+  },
+  {
     "id": "7C_IHWkHKmU",
     "company": "anthropic",
     "category": "anthropic",
@@ -119,6 +136,23 @@
     "person": "Boris Cherny"
   },
   {
+    "id": "XROaLetSxg0",
+    "company": "a16z",
+    "category": "a16z",
+    "title": "The New Media Advantage with Ben Horowitz and Marc Andreessen",
+    "description": "Recorded live at the New Media Summit, Marc Andreessen, Ben Horowitz, Erik Torenberg, and Gaby Goldberg discuss how media, communication, and influence are changing in the internet era.\n\nThe conversation explores the shift from legacy media to creator-led platforms, why authenticity has become a competitive advantage, and how founders can build audiences by communicating directly with customers, employees, and the public. They discuss podcasts, social media, storytelling, corporate communications, and the changing relationship between companies, journalists, and audiences.\n\nAlong the way, they examine how founders can develop a public voice, why some leaders become influential communicators, and what it means to build a brand in a world where distribution is increasingly decentralized.\n\nTimestamps:\n00:00 - Intro: The New Rules of Media\n00:56 - Why Authenticity Beats Media Training\n02:41 - Marc's Media Training Horror Story\n06:59 - How the Legacy Press Turned Adversarial\n11:58 - Going Direct: The Founder Is the Brand\n20:20 - Picking Your Battles: When to Fight Back\n23:42 - Why Being Polarizing Beats Being Liked\n25:06 - Hiring a Team Built for New Media\n30:03 - The Founder Messaging Mistakes to Avoid\n33:47 - Tell the Bigger Story: The Alex Karp Playbook\n\nResources:\nFollow Marc Andreessen on X: https://x.com/pmarca\nFollow Ben Horowitz on X: https://x.com/bhorowitz\nFollow Erik Torenberg on X: https://x.com/eriktorenberg\nFollow Gaby Goldberg on X: https://x.com/gaby_goldberg\n\nStay Updated:\nIf you enjoyed this episode, be sure to like, subscribe, and share with your friends!\n\nFind a16z on X: https://twitter.com/a16z\n\nFind a16z on LinkedIn: https://www.linkedin.com/company/a16z\n\nListen to the a16z Show on Spotify: https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX\n\nListen to the a16z Show on Apple Podcasts: https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711\n\nFollow our host: https://x.com/eriktorenberg\nThis material is solely for educational purposes and is not investment advice or an offer of investment advisory services. This material should not be used as the basis for an investment decision. a16z is an investor in SpaceX and Cursor through its managed funds, and thus has a financial interest in the company's performance and future prospects. In particular, a16z benefits if the company grows in value; and a16z funds will receive any customary dividend payments in connection with their status as a shareholder of the company. However, a16z is not being compensated by SpaceX or Cursor for this material.\n\nPlease note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see http://a16z.com/disclosures.",
+    "channelTitle": "a16z",
+    "publishDate": "2026-06-19T14:40:13Z",
+    "duration": "PT41M52S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/XROaLetSxg0/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Marc Andreessen"
+  },
+  {
     "id": "x2VHFgyawPE",
     "company": "anthropic",
     "category": "anthropic",
@@ -153,6 +187,23 @@
     "person": "Logan Kilpatrick"
   },
   {
+    "id": "qCClrWygbwI",
+    "company": "openai",
+    "category": "openai",
+    "title": "S7E6 Romain Huet: OpenAI's View on Agents and Infrastructure",
+    "description": "AI coding tools aren't just about writing code faster. In this episode, OpenAI's Head of Developer Experience Romain Huet explains why tools like Codex are becoming general‑purpose work agents that can handle documentation, reviews, backlog reduction and even operational tasks — and the effect this dramatically compressed time from idea to production will have on the developer ecosystem.\n\nWe also tackle the questions keeping CIOs awake at night: security, visibility and control. Huet outlines how OpenAI is thinking about sandboxing, permissions and human‑in‑the‑loop design, and why IT leaders should focus less on replacing developers and more on unleashing them to work on the problems that actually matter.",
+    "channelTitle": "MES & Computing",
+    "publishDate": "2026-06-09T14:28:57Z",
+    "duration": "PT25M33S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/qCClrWygbwI/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Romain Huet"
+  },
+  {
     "id": "f6SIJDGGjuY",
     "company": "openai",
     "category": "openai",
@@ -181,6 +232,23 @@
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/04JwMS2kRYk/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Daniela Amodei"
+  },
+  {
+    "id": "J_oUABikcCQ",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Anthropic President Amodei on the Future of Claude",
+    "description": "Daniela Amodei, President & Co-Founder at Anthropic discusses the latest in model development, its commercialization strategy and current relations with the US government with Bloomberg’s Shirin Ghaffary at Bloomberg Tech 2026 in San Francisco.\r\n--------\r\nLike this video? Subscribe to Bloomberg Technology on YouTube:\r\nhttps://www.youtube.com/channel/UCrM7B7SL_g1edFOnmj-SDKg\r\n \r\nWatch the latest full episodes of \"Bloomberg Technology\" with Caroline Hyde and Ed Ludlow here:\r\nhttps://www.youtube.com/playlist?list=PLfAX25ZLrPGTygCwn55voYZ_LYyKjxokJ\r\n \r\nGet the latest in tech from Silicon Valley and around the world here:\r\nhttps://www.bloomberg.com/technology\r\nConnect with us on...\r\nX: https://twitter.com/technology\r\nFacebook: https://www.facebook.com/BloombergTechnology\r\nInstagram: https://www.instagram.com/bloombergbusiness/\r\n \r\nFollow Ed Ludlow on X here: https://twitter.com/EdLudlow\r\nFollow Caroline Hyde on X here: https://twitter.com/CarolineHydeTV\r\n \r\nListen to the daily Bloomberg Technology podcast here:\r\nhttps://www.bloomberg.com/podcasts/series/bloomberg-technology\r\n \r\nMore from Bloomberg Business\r\nConnect with us on...\r\nX: https://twitter.com/business\r\nFacebook: https://www.facebook.com/bloombergbusiness\r\nInstagram: https://www.instagram.com/bloombergbusiness/\r\nLinkedIn: https://www.linkedin.com/company/bloomberg-news/\r\nTikTok: https://www.tiktok.com/@bloombergbusiness",
+    "channelTitle": "Bloomberg Tech",
+    "publishDate": "2026-06-04T19:40:13Z",
+    "duration": "PT23M28S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/J_oUABikcCQ/maxresdefault.jpg",
       "width": 1280,
       "height": 720
     },
@@ -238,6 +306,23 @@
     "person": "Daniela Amodei"
   },
   {
+    "id": "EtChrTqglko",
+    "company": "openai",
+    "category": "openai",
+    "title": "EP79｜對世界保持好奇，最後真的走進了太空 ft. 陳慶耀老師",
+    "description": "這集《Talk 太爆炸》，邀請到陽明交大機械工程學系陳慶耀老師。 \n\n他是流體力學學者、太空系統工程研究所創所所長， \n\n也是一路把「航太夢」走成現實的人。 \n\n  \n\n來自台南四草、虱目魚養殖家庭的他，高中時受到一場《牛頓雜誌》演講啟發，立志未來要當教授、研究航太。 \n\n只是人生並沒有照劇本走——聯考失利後進入中興水保系， \n\n大學前兩年甚至自封台中「舞王」，天天往地下舞廳報到。 \n\n  \n\n但在找回方向後，他開始瘋狂補修機械與土木課程， \n\n最終赴美國 USC 攻讀博士，以流體力學與數值模擬重新接上自己的航太夢。 \n\n  \n\n除了研究流體力學，陳老師也是陽明交大「太空系統工程研究所」的創所所長。 \n\n他認為，台灣不缺厲害零件與技術，但長期缺乏真正的系統整合能力。 \n\n因此，他主張學生不能只會理論，而要透過實作理解不同領域如何協作——甚至希望學生能親手造出火箭。 \n\n  \n\n這集節目中，他也談到「極音速流」研究、台灣太空發展、留學時如何與外國人打開話題， \n\n以及自己從外冷內熱、靠後天訓練學會社交的人生故事。 \n\n  \n\n而當大家談退休生活時，他的答案也很特別—— \n\n研究藏族文化、宗教，甚至想去印度、尼泊爾繼續追尋那些非主流的知識世界。 \n\n  \n\n--\n\nHosting provided by SoundOn (https://www.soundon.fm/)",
+    "channelTitle": "Talk 太爆炸 阿太老師的Podcast",
+    "publishDate": "2026-06-03T18:59:16Z",
+    "duration": "PT1H16M10S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/EtChrTqglko/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Jiayi Weng"
+  },
+  {
     "id": "DsewHeVbL-0",
     "company": "google",
     "category": "google",
@@ -266,6 +351,23 @@
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/RkQQ7WEor7w/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Boris Cherny"
+  },
+  {
+    "id": "PZ9u6DR8qOU",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Claude Code creator Boris Cherny on the end of the software engineer",
+    "description": "In the third episode of the Platformer podcast, Claude Code creator Boris Cherny explains how he's automating his own job. He hasn't written a line of code in more than six months, and thinks the title \"software engineer\" could start to disappear as soon as this year. \n\nPlatformer's Casey Newton talks to the inventor of the fastest-growing AI coding tool in the world about what Cherny actually means when he says coding is \"solved,\" why he predicts companies will need both far fewer engineers and far more of them, what he tells new computer science grads about where to build a career now, and whether all this added productivity will ever let anyone work less. (Hint: so far, it just means doing more). \n\nCherny also explains the surprise that keeps upending his own predictions: the people getting the most out of AI tools are increasingly electricians, doctors, and carpenters rather than professional engineers.\n\nPlus, Platformer fellow Ella Markianos joins at the top of the show to discuss a new Microsoft study on AI and jobs.\n\nDisclosure: Casey's fiancé works at Anthropic.\n\nWho else should we have on this show? Let us know at casey@platformer.news.\n\nSponsored by Atlassian Rovo | Become an AI-native team with Rovo. https://www.atlassian.com/rovo\n\n0:00 Intro\n6:23 Token Maxxing\n10:52 Introducing Claude Code's Boris Cherny\n17:21 Will software engineers disappear?\n23:16 The Tractor Analogy\n29:18 Is coding \"solved?\"\n37:03 Productivity Paradox\n42:20 Claude Cowork\n48:56 Who's responsible for displacement?\n52:55 Power users & the AI Divide\n54:46 Predictions for next year",
+    "channelTitle": "Casey Newton",
+    "publishDate": "2026-05-26T23:51:50Z",
+    "duration": "PT1H2M25S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/PZ9u6DR8qOU/maxresdefault.jpg",
       "width": 1280,
       "height": 720
     },
@@ -391,6 +493,23 @@
     "person": "Boris Cherny"
   },
   {
+    "id": "Mklj3Y2-fNg",
+    "company": "openai",
+    "category": "openai",
+    "title": "Sam Altman's Vision For the Future!",
+    "description": "Sam Altman on what comes next and how AI could unlock a future we’ve never seen before!\n\nSam, thank you so much for coming on The Next Big Thing! A privilege to spend time with you and I left feeling electric! Thank you so much to my incredible team who helped bring this video to life - I'm so grateful for you, you are world class and I can't wait to keep making things together! NBT Community you are the reason all of these extraordinary things happens, and the reason I'm so excited to make videos - thank you for being here!\n\n0:00–1:23 \"ChatGPT’s Personality Is the Most Important Thing We’ve Built\"\n1:23–2:55 AI Could Unlock a New Era of Entrepreneurship\n2:55–4:54 Prediction Is Very Close to Intelligence\n4:54–10:28 AI Can Rewire How You Think\n10:28–12:43 If AI Creates Abundance… Do We Lose Struggle?\n12:43–15:53 \"50% of Jobs Will Disappear?\" Sam’s Real Take\n15:53–20:02 AI Is Starting to Discover New Science\n20:02–22:24 The Future of Medicine\n22:24–27:05 Do AI Doubters Bother You?\n27:05–33:30 The 3 Breakthroughs That Will Define AI’s Future\n33:30–34:39 Why Robots Are Essential (& The Nightmare Scenario)\n34:39–39:13 AI Hardware: The Next Big Shift\n39:13–40:16 What the World Could Look Like in 2050\n40:16–41:16 Blind Ranking Game!\n41:16–42:00 Is AI More Important Than Fire?\n42:00–43:00 The Most Common Thought In Your Head \n\nInstagram: https://instagram.com/NBTJacklyn\n\nTwitter: https://mobile.twitter.com/NBTJacklyn \n\nAbout NBT: This is a show that helps millions of people understand technology and feel optimistic about the future we can build. Through deeply researched, highly energizing videos, I explore the most important innovations — from AI and robotics to self-driving cars, Solar energy and scientific breakthroughs\n\nI started this channel at 13 to help my grandma with tech — and have been in love with making videos since. \nToday, I have the privilege of interviewing some of the world’s smartest tech leaders, including Tim Cook, Sundar Pichai, and RJ Scaringe. I also guest lecture at MIT, Harvard, NYU, and Cornell, and the U.S. Congress on the future of emerging technology and creator led media companies\n\nMy goal is to help you feel excited, informed, and ready to build the future:) Thank you so much for being here! Pumped",
+    "channelTitle": "NothingButTech",
+    "publishDate": "2026-05-01T21:48:09Z",
+    "duration": "PT43M1S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/Mklj3Y2-fNg/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Sam Altman"
+  },
+  {
     "id": "PuSx39Y2e4Q",
     "company": "openai",
     "category": "openai",
@@ -423,6 +542,23 @@
       "height": 720
     },
     "person": "Demis Hassabis"
+  },
+  {
+    "id": "voWCwpibLZM",
+    "company": "google",
+    "category": "google",
+    "title": "The Era of Agents is Here: Logan Kilpatrick on Why Everyone Is Now a Builder",
+    "description": "In this video, Sam sits down with Logan Kilpatrick to talk about the latest across Google's AI ecosystem — from AI Studio updates and TPU infrastructure to Nano Banana 2, Antigravity, and more.\n\nTwitter: https://x.com/Sam_Witteveen \n\n🕵️ Interested in building LLM Agents? Fill out the form below\nBuilding LLM Agents Form: https://drp.li/dIMes\n\n👨‍💻Github:\nhttps://github.com/samwit/llm-tutorials\n\n⏱️Time Stamps:00:00 - Intro\n02:02 - AI Studio overview — from prompt to prototype to production\n02:22 - The Build tab — full vibe coding experience\n04:06 - New: Design previews\n04:25 - New: \"I'm Feeling Lucky\" button\n05:04 - New: Tap tap tab — AI prompt autocomplete\n06:20 - Opinionated stack — Next.js, Firebase, Cloud Run\n09:16 - Audio models: TTS, Live, Lyria\n11:00 - Mobile AI Studio\n11:55 - Vibe coding → agentic engineering\n15:00 - The \"ambition\" mindset shift\n21:00 - AI Studio for Everyone\n21:23 - Gemini 3 / 3.1 model discussion\n22:25 - Gemini Live — real-time audio + video streaming\n24:40 - Project Astra — precursor to Gemini Live\n25:41 - TTS model adoption + function calling via voice\n27:14 - Nano Banana + Gen Media portfolio\n29:07 - Coding models\n29:37 - Antigravity\n31:19 - TPU announcement\n33:55 - What's next after coding?\n35:32 - Deep Research API - New Launch\n43:02 - Wrap up",
+    "channelTitle": "Sam Witteveen",
+    "publishDate": "2026-04-24T13:01:44Z",
+    "duration": "PT43M55S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/voWCwpibLZM/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Logan Kilpatrick"
   },
   {
     "id": "GrhTj48kAF4",
@@ -493,6 +629,23 @@
     "person": "Aman Sanger"
   },
   {
+    "id": "O2aSMwI8s9E",
+    "company": "openai",
+    "category": "openai",
+    "title": "AIMLx26 | Sherwin Wu",
+    "description": "Sherwin Wu, head of engineering for OpenAI, delivers the keynote speech, \"Slowly, and Then All At Once: A survey of AI agents over the last three years and a glimpse into next three years,\" during Florida State University's AIMLx26 event in Tallahassee, Florida.",
+    "channelTitle": "FSU Data Science Program",
+    "publishDate": "2026-04-09T19:56:56Z",
+    "duration": "PT1H11M23S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/O2aSMwI8s9E/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Sherwin Wu"
+  },
+  {
     "id": "ZpUKNYcgM-E",
     "company": "openai",
     "category": "openai",
@@ -544,6 +697,23 @@
     "person": "Chris Lehane"
   },
   {
+    "id": "mJSnn0GZmls",
+    "company": "openai",
+    "category": "openai",
+    "title": "The Power and Responsibility of Sam Altman",
+    "description": "This week, Laurie Segall sits down exclusively with OpenAI CEO Sam Altman for his first interview since shutting down the Disney-partnered Sora and making the Department of War deal. From power to parenthood, tech addiction and AI acceleration, Laurie interviews Altman about AI’s human impact and the weight of OpenAI’s influence. In a wide ranging interview, Altman describes a near-term future where automated AI researchers could compress a decade of scientific discovery into a single year, fundamentally reshaping society and an era of AI abundance, where solo-founders can build billion-dollar companies with AI agents. But that innovation sits against a complex backdrop with fundamental human questions at stake. Altman addresses concerns over AI-related job loss and reveals what he thinks are AI-proof jobs. Altman, who is also a father, discusses parenting in the age of AI, when he plans to introduce his own product to his child, and how he believes AI could benefit kids in the long run. This is a  conversation with Sam Altman you're not going to hear anywhere else, where the tech titan answers some fundamental questions about control, innovation, consequences, and the world we'll leave behind for our children. \n\nIf you have thoughts or questions for Laurie about this episode or anything Mostly Human, email us at hello@mostlyhuman.com\n\nhttps://youtu.be/5VRgk7_X7oc\nhttps://www.youtube.com/watch?v=BmhKgkyTvmE",
+    "channelTitle": "Mostly Human",
+    "publishDate": "2026-04-02T12:31:05Z",
+    "duration": "PT1H9M",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/mJSnn0GZmls/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Sam Altman"
+  },
+  {
     "id": "c4tvVKDhpiY",
     "company": "a16z",
     "category": "a16z",
@@ -576,6 +746,40 @@
       "height": 720
     },
     "person": "Jenny Wen"
+  },
+  {
+    "id": "b2RNduOpZ_Q",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Jenny Wen: She Went From FigJam to Anthropic. This Is the New Era of UX.",
+    "description": "Jenny Wen led design on FigJam, one of the most playful tools to hit design in a decade. Now she's at Anthropic designing Claude. Not just the model, but the product that millions use daily. \n\nWhat I didn't expect: she sees these as the same problem. Both hide serious technical complexity behind simple, obvious interfaces. \n\nWe talked about why designers are shipping production code now, why \"UX designer\" as a role feels outdated, and this framework she keeps coming back to: automate toil, augment creativity.\n\nGet the UX Tools Newsletter (written by me)\nJoin 100,000+ designers for weekly insights on creative software and the people shaping it:\nhttps://uxtools.co\n\nCHAPTERS:\n00:00 - From FigJam to Claude: same design problem, higher stakes\n04:52 - How much model complexity should users actually see?\n09:05 - Prototypes over docs in AI product development\n16:04 - Why long-term design vision is harder in AI labs\n21:27 - The canvas-tool category Jenny is watching\n26:30 - Is chat UI over? (Jenny says no)\n33:40 - From print magazine dreams to product design\n42:03 - Will I ever recreate that FigJam magic?\n47:51 - Is \"UX designer\" becoming outdated?\n49:22 - Taste vs execution: the distinction more designers need\n\nLINKS:\nClaude: https://claude.ai\nJenny Wen: https://x.com/jenny_wen\n\nLISTEN ON:\nApple Podcasts: https://podcasts.apple.com/us/podcast/the-new-designers-superpower-code-ai/id1859897039?i=1000757048946\nSpotify: https://open.spotify.com/episode/6Ip3A7AVheLxlZ6wF9vYaJ?si=oGhHFWApSjuAk28pdz0Iww\n\nFOLLOW ME:\nX / Twitter: https://x.com/designertom\nInstagram: https://instagram.com/itsdesignertom\nLinkedIn: https://linkedin.com/in/tommygeoco",
+    "channelTitle": "Tommy Geoco",
+    "publishDate": "2026-03-24T14:00:59Z",
+    "duration": "PT50M54S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/b2RNduOpZ_Q/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Jenny Wen"
+  },
+  {
+    "id": "CEOiwEemiTA",
+    "company": "a16z",
+    "category": "a16z",
+    "title": "The New Media Playbook with Marc Andreessen & Ben Horowitz",
+    "description": "Erik Torenberg, Ben Horowitz, and Marc Andreessen discuss how the media landscape has fundamentally changed and what a16z is doing about it. They cover why offense beats defense, why individuals now matter more than corporate brands, why speed wins in the new media landscape, and the difference between oral and written culture on the internet.\n\nTimestamps:\n0:00 — Introduction\n2:26 — Offense Beats Defense in New Media\n7:01 — The Death of the Corporate Brand\n12:17 — Long Form as the Ultimate Shield\n17:55 — If It's on TV It's a TV Show — If It's on the Internet It's a Viral Post\n28:13 — Speed Wins Everything\n33:16 — Is the Internet Oral or Written Culture?\n37:02 — Building a16z's New Media Machine\n\nResources:\nFollow Erik Torenberg on X: https://twitter.com/eriktorenberg \nFollow Ben Horowitz on X: https://twitter.com/bhorowitz \nFollow Marc Andreessen on X: https://twitter.com/bhorowitz \n\nStay Updated:\nIf you enjoyed this episode, be sure to like, subscribe, and share with your friends!\n\nFind a16z on X: https://twitter.com/a16z\n\nFind a16z on LinkedIn: https://www.linkedin.com/company/a16z\n\nListen to the a16z Show on Spotify: https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX\n\nListen to the a16z Show on Apple Podcasts: https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711\n\nFollow our host: https://x.com/eriktorenberg\n\nPlease note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see http://a16z.com/disclosures.",
+    "channelTitle": "a16z",
+    "publishDate": "2026-03-18T14:30:00Z",
+    "duration": "PT46M31S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/CEOiwEemiTA/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Marc Andreessen"
   },
   {
     "id": "swXyvtrz_nM",
@@ -697,6 +901,40 @@
     "person": "Jenny Wen"
   },
   {
+    "id": "MPTNHrq_4LU",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Full interview: Anthropic CEO responds to Trump order, Pentagon clash",
+    "description": "Anthropic CEO Dario Amodei sat down with CBS News for an exclusive interview, hours after Defense Secretary Pete Hegseth declared the company a supply chain risk to national security, which restricts military contractors from doing business with the AI giant. Amodei called the move \"retaliatory and punitive,\" and he said Anthropic sought to draw \"red lines\" in the government's use of its technology because \"we believe that crossing those lines is contrary to American values, and we wanted to stand up for American values.\"\n\n0:00 Why won't Anthropic release AI without restrictions to the U.S. government?\n3:21 Why couldn't an agreement with the Pentagon be reached?\n4:55 Amodei responds to Trump's claim that Anthropic is putting \"our national security in jeopardy\"\n7:23 Amodei reacts to Hegseth labeling Anthropic a supply chain risk\n11:15 Amodei on why Americans should trust him as CEO of Anthropic\n14:37 Amodei on why Anthropic needs to \"draw a line in the sand\"\n19:38 Amodei on the \"worst case scenario\" Americans should know about\n20:59 Amodei responds to Trump calling Anthropic \"a woke company\"\n22:36 Will there be an agreement with the government in the future?\n23:18 Amodei on his message to Trump on Anthropic\n24:27 Can Anthropic survive this as a business?\n26:13 Will Anthropic take legal action?\n\n#news #artificialintelligence #pentagon \n\nCBS News 24/7 is the premier anchored streaming news service from CBS News and Stations that is available free to everyone with access to the internet and is the destination for breaking news, live events, original reporting and storytelling, and programs from CBS News and Stations' top anchors and correspondents working locally, nationally and around the globe. It is available on more than 30 platforms across mobile, desktop and connected TVs for free, as well as CBSNews.com and Paramount+ and live in 91 countries.\n\nSubscribe to the CBS News YouTube channel: https://youtube.com/cbsnews\nWatch CBS News 24/7: https://cbsnews.com/live/\nDownload the CBS News app: https://cbsnews.com/mobile/\nFollow CBS News on Instagram: https://instagram.com/cbsnews/\nLike CBS News on Facebook: https://facebook.com/cbsnews\nFollow CBS News on X: https://twitter.com/cbsnews\nSubscribe to our newsletters: https://cbsnews.com/newsletters/\nTry Paramount+ free: https://paramountplus.com/?ftag=PPM-05-10aeh8h\n\nFor video licensing inquiries, contact: licensing@veritone.com",
+    "channelTitle": "CBS News",
+    "publishDate": "2026-02-28T11:40:06Z",
+    "duration": "PT27M44S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/MPTNHrq_4LU/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Dario Amodei"
+  },
+  {
+    "id": "IiV9q73YUxI",
+    "company": "openai",
+    "category": "openai",
+    "title": "Fireside Chat: Sam Altman×Vinod Khosla and AMA at IIT Delhi | 20 February 2026",
+    "description": "Watch Sam Altman, CEO of OpenAI, in conversation at IIT Delhi. The video features a fireside chat moderated by Vinod Khosla, Co-founder of Sun Microsystems, followed by an AMA with students at the iconic Dogra Hall, IIT Delhi.\n\nWatch the highlights of the Day with Ms. Sunita Williams at IIT Delhi here: https://youtu.be/UgRDioSUeeI\n\nFor details about our New Initiatives of IIT Delhi, please visit: https://academicoutreach.iitd.ac.in/\n\n*Social Media:*\n*Instagram:* https://www.instagram.com/outreach_iitd/\n*WhatsApp:* https://whatsapp.com/channel/0029Vb994QoLtOjByAcUQW3n\n*LinkedIN:* https://www.linkedin.com/company/98419490/admin/dashboard/\n*X:* https://x.com/outreachIITD\n\n#ExperienceIITD\n#IITDbychoice",
+    "channelTitle": "IIT Delhi",
+    "publishDate": "2026-02-22T06:10:07Z",
+    "duration": "PT52M54S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/IiV9q73YUxI/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Sam Altman"
+  },
+  {
     "id": "S1rQngjpUdI",
     "company": "openai",
     "category": "openai",
@@ -799,6 +1037,23 @@
     "person": "Ryo Lu"
   },
   {
+    "id": "lTOfOVmZrUo",
+    "company": "openai",
+    "category": "openai",
+    "title": "\"India Leading The Way In AI Literacy\", Says OpenAI's Chris Lehane At NDTV Summit",
+    "description": "India is growing fast in AI literacy and agency and the country can help democratise artificial intelligence, Chris Lehane, Chief Global Affairs Officer of OpenAI said in a session at NDTV Ind.AI Summit in partnership with Startup Policy Forum today. The session, moderated by NDTV Editor-in-Chief Rahul Kanwal and public policy expert Shweta Rajpal Kohli, dealt with topics like how India is becoming well-positioned in data and talent on developing AI.\n\n#NDTVIndAISummit #StartupPolicyForum #NDTVAISummit #NDTVIndAISummit #AISummit2026 #IndiaAISummit2026 #AIImpactSummit2026 #INDAiSummit #NDTV #AIImpact #TrustedAI #IndiaAI #INDAiSummit \n\nAbout NDTV (English news channel):\r\n\r\nNDTV is India's Most-Trusted News Broadcaster with the latest updates in news, sports, entertainment and much more from within India and around the world. Watch big political debates, exclusive entertainment interviews, news bulletins, current affairs, talk shows and tech reviews with our 24x7 news live streams, packed with credible information across all platforms: TV, Internet and Mobile.\r\n\r\nFor Latest Videos, click here: https://www.youtube.com/playlist?list=PLYSfYVdrOZvh5iPadUPTAg3sxFD_DZpT_\r\n\r\nTo watch NDTV 24x7's premium shows listed together for your easy access, click here: https://www.youtube.com/@NDTV/playlists?view=50&sort=dd&shelf_id=5\r\n\r\nFor Ground Reports and Analysis from NDTV's reporters and anchors of day's top news stories, click here: https://www.youtube.com/playlist?list=PLYSfYVdrOZvgHr6OHiZYKbr_21MOmvk04\r\n\r\nFor News in Shorts, click here: https://www.youtube.com/playlist?list=PLYSfYVdrOZvjJ8fhLPk_Fz4tFARkpG-Y-\r\n\r\nSubscribe to our channel to get latest news updates.\r\n\r\nFollow us on Social Media:\r\nLike us on Facebook: https://www.facebook.com/ndtv/\r\nFollow us on Twitter: https://twitter.com/ndtv/\r\nFollow us on Instagram: https://www.instagram.com/ndtv/\r\nFollow us on WhatsApp: https://whatsapp.com/channel/0029Va4lixw7z4kcvZI9JM12\r\nJoin NDTV on Telegram Messenger: https://t.me/NDTVbot/?start=hi\r\n\r\nFollow us on Google News for Breaking and Latest News Updates:\r\nNDTV: https://bit.ly/3e5ngbP\r\nNDTV India (Hindi News): https://bit.ly/3mNVwMY\r\n\r\nDownload NDTV Mobile Apps: http://www.ndtv.com/page/apps\r\n\r\n#BreakingNews #LatestNews #TodayNews #News #IndiaNews #NDTV #CurrentAffairs",
+    "channelTitle": "NDTV",
+    "publishDate": "2026-02-18T07:45:06Z",
+    "duration": "PT28M56S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/lTOfOVmZrUo/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Chris Lehane"
+  },
+  {
     "id": "B26CwKm5C1k",
     "company": "openai",
     "category": "openai",
@@ -882,6 +1137,23 @@
       "height": 720
     },
     "person": "Jiayi Weng"
+  },
+  {
+    "id": "87Pm0SGTtN8",
+    "company": "a16z",
+    "category": "a16z",
+    "title": "Marc Andreessen: The real AI boom hasn’t even started yet",
+    "description": "Marc Andreessen is a founder, investor, and co-founder of Netscape, as well as co-founder of the venture capital firm Andreessen Horowitz (a16z). In this conversation, we dig into why we’re living through a unique and one of the most incredible times in history, and what comes next.\n\n*We discuss:*\n1. Why AI is arriving at the perfect moment to counter demographic collapse and declining productivity\n2. How Marc has raised his 10-year-old kid to thrive in an AI-driven world\n3. What’s actually going to happen with AI and jobs (spoiler: he thinks the panic is “totally off base”)\n4. The “Mexican standoff” that’s happening between product managers, designers, and engineers\n5. Why you should still learn to code (even with AI)\n6. How to develop an “E-shaped” career that combines multiple skills, with AI as a force multiplier\n7. The career advice he keeps coming back to (“Don’t be fungible”)\n8. How AI can democratize one-on-one tutoring, potentially transforming education\n9. His media diet: X and old books, nothing in between\n\n*Brought to you by:*\nDX—The developer intelligence platform designed by leading researchers: https://getdx.com/lenny\nBrex—The banking solution for startups: https://www.brex.com/product/business-account?ref_code=bmk_dp_brand1H25_ln_new_fs\nDatadog—Now home to Eppo, the leading experimentation and feature flagging platform: https://www.datadoghq.com/lenny\n\n*Episode transcript:* https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom\n\n*Archive of all Lenny's Podcast transcripts:*\nhttps://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0\n\n*Where to find Marc Andreessen:*\n• X: https://x.com/pmarca\n• Substack: https://pmarca.substack.com\n• Andreessen Horowitz’s website: https://a16z.com\n• Andreessen Horowitz’s YouTube channel: https://www.youtube.com/@a16z\n\n*Where to find Lenny:*\n• Newsletter: https://www.lennysnewsletter.com\n• X: https://twitter.com/lennysan\n• LinkedIn: https://www.linkedin.com/in/lennyrachitsky/\n\n*In this episode, we cover:*\n(00:00) Introduction to Marc Andreessen\n(04:27) The historic moment we’re living in\n(06:52) The impact of AI on society\n(11:14) AI’s role in education and parenting\n(22:15) The future of jobs in an AI-driven world\n(30:15) Marc's past predictions\n(35:35) The Mexican standoff of tech roles\n(39:28) Adapting to changing job tasks\n(42:15) The shift to scripting languages\n(44:50) The importance of understanding code\n(51:37) The value of design in the AI era\n(53:30) The T-shaped skill strategy\n(01:02:05) AI’s impact on founders and companies\n(01:05:58) The concept of one-person billion-dollar companies\n(01:08:33) Debating AI moats and market dynamics\n(01:14:39) The rapid evolution of AI models\n(01:18:05) Indeterminate optimism in venture capital\n(01:22:17) The concept of AGI and its implications\n(01:30:00) Marc's media diet\n(01:36:18) Favorite movies and AI voice technology\n(01:39:24) Marc's product diet\n(01:43:16) Closing thoughts and recommendations\n\n*Referenced:*\n• Linus Torvalds on LinkedIn: https://www.linkedin.com/in/linustorvalds\n• The philosopher’s stone: https://en.wikipedia.org/wiki/Philosopher%27s_stone\n• Alexander the Great: https://en.wikipedia.org/wiki/Alexander_the_Great\n• Aristotle: https://en.wikipedia.org/wiki/Aristotle\n• Bloom’s 2 sigma problem: https://en.wikipedia.org/wiki/Bloom%27s_2_sigma_problem\n• Alpha School: https://alpha.school\n• In Tech We Trust? A Debate with Peter Thiel and Marc Andreessen: https://a16z.com/in-tech-we-trust-a-debate-with-peter-thiel-and-marc-andreessen\n• John Woo: https://en.wikipedia.org/wiki/John_Woo\n• Assembly: https://en.wikipedia.org/wiki/Assembly_language\n• C programming language: https://en.wikipedia.org/wiki/C_(programming_language)\n• Python: https://www.python.org\n• Netscape: https://en.wikipedia.org/wiki/Netscape\n• Perl: https://www.perl.org\n• Scott Adams: https://en.wikipedia.org/wiki/Scott_Adams\n• Larry Summers’s website: https://larrysummers.com\n• Nano Banana: https://gemini.google/overview/image-generation\n• Bitcoin: https://bitcoin.org\n• Ethereum: https://ethereum.org\n• Satoshi Nakamoto: https://en.wikipedia.org/wiki/Satoshi_Nakamoto\n• Inside ChatGPT: The fastest-growing product in history | Nick Turley (Head of ChatGPT at OpenAI): https://www.lennysnewsletter.com/p/inside-chatgpt-nick-turley\n...References continued at: https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom\n\n_Production and marketing by https://penname.co/._\n_For inquiries about sponsoring the podcast, email podcast@lennyrachitsky.com._\n\nLenny may be an investor in the companies discussed.",
+    "channelTitle": "Lenny's Podcast",
+    "publishDate": "2026-01-29T13:30:16Z",
+    "duration": "PT1H44M36S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/87Pm0SGTtN8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Marc Andreessen"
   },
   {
     "id": "Wpxv-8nG8ec",
@@ -1800,6 +2072,40 @@
     "person": "Amanda Askell"
   },
   {
+    "id": "UpikeSpkeaY",
+    "company": "google",
+    "category": "google",
+    "title": "The human cost of AI, with Geoffrey Hinton",
+    "description": "Computer scientist and Nobel laureate Geoffrey Hinton joins Ian Bremmer on the GZERO World podcast to talk about artificial intelligence, the technology transforming our society faster than anything humans have ever built. The question is: how fast is too fast? Hinton is known as the “Godfather of AI.” He helped build the neural networks that made today’s generative AI tools possible and that work earned him the 2024 Nobel Prize in physics. But recently, he’s turned from a tech evangelist to a whistleblower, warning that the technology he helped create will displace millions of jobs and eventually destroy humanity itself.\n\n\nThe Nobel laureate joins Ian to discuss some of the biggest threats from AI: Mass job loss, widening inequality, social unrest, autonomous weapons, and eventually something far more dire: AI that becomes smarter than humans and might not let us turn it off. But he also sees a path forward: if we can model good behavior and program ‘maternal instincts’ into AI, could we avoid a worst-case scenario?\n\n\nHost: Ian Bremmer\n\n\nGuest: Geoffrey Hinton\n\n\n\n\n\n\nSubscribe to the GZERO World with Ian Bremmer Podcast (https://www.gzeromedia.com/gzero-world-podcast/)  on Apple Podcasts (https://podcasts.apple.com/us/podcast/gzero-world-with-ian-bremmer/id1294461271) , Spotify (https://open.spotify.com/show/13QW2sLPCjVbdDE6fmJCNf) , or your preferred podcast platform, to receive new episodes as soon as they're published.\n\n\n\n\n \n\nHosted by Simplecast, an AdsWizz company. See pcm.adswizz.com (https://pcm.adswizz.com)  for information about our collection and use of personal data for advertising.",
+    "channelTitle": "GZERO Media",
+    "publishDate": "2025-12-06T11:10:39Z",
+    "duration": "PT26M58S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/UpikeSpkeaY/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "person": "Shane Legg"
+  },
+  {
+    "id": "GXAAzKX6oaQ",
+    "company": "google",
+    "category": "google",
+    "title": "Shaping model behavior in GPT-5.1— the OpenAI Podcast Ep. 11",
+    "description": "What does it mean for an AI model to have \"personality\"? \n\nResearcher Christina Kim and product manager Laurentia Romaniuk talk about how OpenAI set out to build a model that delivers on both IQ and EQ, while giving people more flexibility in how ChatGPT responds. They break down what goes into model behavior and why it's an important, but still imperfect blend of art and science.\n\nChapters\n- 00:00:43 — GPT-5.1 goals and the shift to reasoning models\n- 00:02:18 — Differences between GPT-5 and GPT-5.1\n- 00:04:55 — Unpacking the model switcher\n- 00:07:24 — Understanding user feedback\n- 00:08:27 — Measuring progress on emotional intelligence\n- 00:10:02 — What is model personality?\n- 00:14:25 — Model steerability, bias, and uncertainty \n- 00:21:59 — Advantages of memory in ChatGPT\n- 00:25:27 — Looking ahead and advice for getting the most out of models",
+    "channelTitle": "OpenAI",
+    "publishDate": "2025-12-02T18:00:27Z",
+    "duration": "PT28M41S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/GXAAzKX6oaQ/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Shane Legg"
+  },
+  {
     "id": "ZeyHBM2Y5_4",
     "company": "openai",
     "category": "openai",
@@ -1832,6 +2138,23 @@
       "height": 720
     },
     "person": "Sherwin Wu"
+  },
+  {
+    "id": "fXiKQk-IzqQ",
+    "company": "google",
+    "category": "google",
+    "title": "Fall 2025 GRASP on Robotics - Jie Tan, Google DeepMind",
+    "description": "“Gemini Robotics: Bringing AI into the Physical World”\n\nABSTRACT\nRecent advancements in large multimodal models have led to the emergence of remarkable generalist capabilities in digital domains, yet their translation to physical agents such as robots remains a significant challenge. In this talk, I will present Gemini Robotics, an advanced Vision-Language-Action (VLA) generalist model capable of directly controlling robots. Gemini Robotics executes smooth movements to tackle a wide range of complex manipulation tasks while also being robust to variations in object types and positions, handling unseen environments as well as following diverse, open vocabulary instructions. With additional fine-tuning, Gemini Robotics can be specialized to new capabilities including solving long-horizon, highly dexterous tasks, learning new short-horizon tasks from as few as 100 demonstrations and adapting to completely novel robot embodiments. Furthermore, I will discuss the challenges, learnings and future research directions on robot foundation models.\n\nPresenter\nJie Tan is a Senior Staff Research Scientist and Tech Lead Manager in the robotics team of Google DeepMind. His research focuses on building foundation models and deep reinforcement learning methods to robots, with interests spanning locomotion, navigation, manipulation, simulation, and sim-to-real transfer. Jie Tan is also an adjunct associate professor at Georgia Institute of Technology. He got his PhD at the Computer Graphics Laboratory in Georgia Tech, advised by Greg Turk and Karen Liu.",
+    "channelTitle": "GRASP Lab",
+    "publishDate": "2025-11-26T18:14:57Z",
+    "duration": "PT1H15M9S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/fXiKQk-IzqQ/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Shane Legg"
   },
   {
     "id": "iFqDyWFuw1c",
@@ -2041,6 +2364,23 @@
       "height": 720
     },
     "person": "Michael Truell"
+  },
+  {
+    "id": "T8T2gHCKWCE",
+    "company": "cursor",
+    "category": "cursor",
+    "title": "Building with Cursor ft Designers from Cursor (Ryo Lu), Notion (Jin Park), and Ramp (Catherine Wang)",
+    "description": "This is from a live event on November 3, 2025 in NYC hosted by Elizabeth Lin at the Ramp NYC office sponsored by Cursor. How are design teams integrating Cursor into their workflows? What does it look like to build pixel perfect prototypes using a design system? How do designers and engineers collaborate in an AI-first world?\n\n📒 The schedule\n0:00: Introduction\n1:37: Catherine Wang, Staff Product Designer at Ramp\n17:12: Jin Park, Product Designer at Notion, AI\n30:48: Ryo Lu, Head of Design at Cursor\n43:33: Panel discussion moderated by Elizabeth Lin\n\n✨ Interested in learning how to prototype with Cursor? \n→ Learn more: https://designisaparty.com/prototyping\n\n🔗 Relevant links\nDesign is a Party: https://designisaparty.com/\nCursor: https://cursor.com/\nRamp: https://ramp.com/\nNotion: https://notion.com/\n\n#ai #cursor #cursorai #productdesign #ux #uxdesign",
+    "channelTitle": "Elizabeth Lin",
+    "publishDate": "2025-11-10T21:16:40Z",
+    "duration": "PT1H11M55S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/T8T2gHCKWCE/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Ryo Lu"
   },
   {
     "id": "r-xjo7MYc18",
@@ -2360,6 +2700,23 @@
     },
     "tags": [],
     "person": "Sam Altman"
+  },
+  {
+    "id": "BptP3tF35KU",
+    "company": "openai",
+    "category": "openai",
+    "title": "🚀 Fueling the AI Ecosystem: Fireside Chat with OpenAI’s Sherwin Wu | Scaling, APIs & GPT-5",
+    "description": "0:00 – Intro & Sherwin Wu’s journey to OpenAI\n0:28 – Early impressions: why DALL·E 2 was a turning point\n2:02 – Role as Head of Engineering at OpenAI\n4:09 – How OpenAI’s API & platform evolved\n6:23 – Scaling challenges at unprecedented growth\n7:37 – GPT-5 reflections: tradeoffs, latency & lessons learned\n10:15 – Why GPT-5 launch strategy missed the mark\n11:36 – Building a developer ecosystem & unexpected use cases\n13:18 – Consumer surprises: AI toys for kids\n14:26 – Balancing ChatGPT vs. API developers\n17:03 – Diverging use cases: enterprise vs. consumer voice AI\n18:13 – Lessons from successful startups building on OpenAI\n20:10 – How enterprises adopt OpenAI APIs & products\n23:01 – Why 95% of AI projects fail ROI (and how to avoid it)\n26:28 – Advice for enterprises starting their AI journey\n27:24 – Ensuring API safety & responsible usage\n29:48 – Guardrails and developer misuse challenges\n30:00 – Upcoming breakthroughs: reasoning, multimodal & voice\n31:58 – What to expect before GPT-6\n32:18 – Closing remarks\n\n🔥 About this Fireside Chat\nIn this exclusive Fireside Chat hosted by Fellows Fund, Sherwin Wu (Head of Engineering, OpenAI) shares behind-the-scenes insights on how OpenAI scaled its API, balanced developer ecosystems, and managed the rollout of GPT-5.\nTopics covered:\nWhy DALL·E 2 convinced him to join OpenAI\nThe evolution of OpenAI’s API, Codex, and ChatGPT Enterprise\nLessons learned from scaling to global adoption\nReflections on GPT-5 launch: speed vs. reasoning tradeoffs\nEmerging use cases from B2B, consumer, and even kids’ toys\nWhy most AI projects fail ROI & how enterprises can succeed\nBreakthroughs ahead in reasoning, multimodal, and real-time voice\n🔔 Subscribe for more exclusive AI panels & fireside chats\n\n#OpenAI #GPT5 #ArtificialIntelligence #MachineLearning #AIagents #EnterpriseAI #ChatGPT #FellowsFund\nMentions: @OpenAI @FellowsFund",
+    "channelTitle": "Fellows Forum",
+    "publishDate": "2025-09-30T00:25:25Z",
+    "duration": "PT32M35S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/BptP3tF35KU/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Sherwin Wu"
   },
   {
     "id": "KSgPNVmZ8jQ",
@@ -2716,6 +3073,23 @@
     "person": "Chris Lehane"
   },
   {
+    "id": "n5x6yXDj0uo",
+    "company": "google",
+    "category": "google",
+    "title": "Genie 3: An infinite world model | Shlomi Fruchter and Jack Parker-Holder",
+    "description": "In this episode, Professor Hannah Fry speaks with Jack Parker-Holder and Shlomi Fruchter about Genie 3, a general-purpose world model that can generate an unprecedented diversity of interactive environments. The conversation covers how this model's auto-regressive nature allows for the creation of consistent, explorable worlds from text or image prompts, and how its capabilities differ from video generation models like Veo. \n\nTimecodes\n00:00 Coming up \n00:54 Intro\n02:00 What is Genie 3?\n03:00 Demos \n06:50 Physics \n11:00 Possible scenarios \n15:07 Emergent properties \n20:35 Veo and Genie \n25:00 Hunter's lodge \n28:02 Memory \n34:52 SIMA and Genie 3 \n39:13 Searching for interestingness \n52:00 AGI and the future \n59:23 Hannah's thoughts \n\n___\n\nFurther reading \n\nGenie 3: https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/\nSIMA, A generalist AI agent for 3D virtual environments: https://deepmind.google/discover/blog/sima-generalist-ai-agent-for-3d-virtual-environments/\nSIMA, Google DeepMind: The Podcast: https://www.youtube.com/watch?v=64pndvbbokA\nxLand: https://deepmind.google/discover/blog/generally-capable-agents-emerge-from-open-ended-play/\nPicbreeder: https://dl.acm.org/doi/10.1145/1357054.1357328\n\n___\n\nThanks to everyone who made this possible, including but not limited to: \n\nPresenter: Professor Hannah Fry\nSeries Producer: Dan Hardoon\nEditor: Rami Tzabar\nCommissioner & Producer: Emma Yousif\nMusic composition: Eleni Shaw\nAudio engineer: Richard Courtice\n\nProduction Manager: Dan Lazard\nStudio Manager: Nicholas Duke\nVideo Director: Bernardo Resende\nVideo Editor: Anthony Le, Bilal Merhi \nAudio Engineer: Perry Rogantin\nCamera and Lighting Operator: Robert Messere\nProduction Coordination: Zoey Roberts\nVisual Identity and Design: Rob Ashley \nCommissioned by Google DeepMind\n\n___\n\nSubscribe to our channel https://www.youtube.com/@googledeepmind\nFind us on X https://twitter.com/GoogleDeepMind\nFollow us on Instagram https://instagram.com/googledeepmind\nAdd us on Linkedin https://www.linkedin.com/company/deepmind/",
+    "channelTitle": "Google DeepMind",
+    "publishDate": "2025-08-21T14:41:42Z",
+    "duration": "PT1H41S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/n5x6yXDj0uo/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Shane Legg"
+  },
+  {
     "id": "TQhv6Wol6Ns",
     "company": "cursor",
     "category": "cursor",
@@ -2749,6 +3123,23 @@
       "height": 720
     },
     "person": "Jenny Wen"
+  },
+  {
+    "id": "yBzStBK6Z8c",
+    "company": "google",
+    "category": "google",
+    "title": "AGI progress, surprising breakthroughs, and the road ahead — the OpenAI Podcast Ep. 5",
+    "description": "How close are we to automating scientific discovery? What do AI competition wins really tell us about progress toward AGI? OpenAI Chief Scientist Jakub Pachocki and researcher Szymon Sidor share inside stories—from gold medals at the International Math Olympiad to surprising leaps in reasoning—that reveal where AI is headed next.\n\nChapters\n1:20 – From high school in Poland to AI research leaders\n4:50 – Explaining AGI: technical and everyday perspectives\n6:30 – Automating scientific discovery with AI\n7:50 – Breakthroughs in medicine, AI safety, and alignment\n10:30 – Today is a decade in the making\n14:30 – Benchmark saturation and its limits\n16:50 – Why math competitions matter for AI\n18:15 – How models reason without tools\n21:45 – Recognizing when a model can’t solve a problem\n23:30 – Storytime: AtCoder competition in Japan\n26:50 – How reasoning breakthroughs really happen\n28:55 – What’s next for scaling and long-horizon reasoning\n30:30 – What AGI will look and feel like\n36:25 – Balancing trust and personal value\n34:00 – Advice to high school students in 2025",
+    "channelTitle": "OpenAI",
+    "publishDate": "2025-08-15T16:01:44Z",
+    "duration": "PT40M24S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/yBzStBK6Z8c/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Shane Legg"
   },
   {
     "id": "SfOaZIGJ_gs",
@@ -2911,6 +3302,23 @@
     },
     "tags": [],
     "person": "Sam Altman"
+  },
+  {
+    "id": "SOP4W2hid8A",
+    "company": "openai",
+    "category": "openai",
+    "title": "Mark Chen: GPT-5, Open-Source, Agents, Future of OpenAI, and more!",
+    "description": "Download (GPT-5 UPDATED) Humanities Last Prompt Engineering Guide (free) 👇🏼\nhttp://bit.ly/4m76knm\n\nJoin My Newsletter for Regular AI Updates 👇🏼\nhttps://forwardfuture.ai\n\nDiscover The Best AI Tools👇🏼\nhttps://tools.forwardfuture.ai\n\nMy Links 🔗\n👉🏻 X: https://x.com/matthewberman\n👉🏻 Instagram: https://www.instagram.com/matthewberman_ai\n👉🏻 Discord: https://discord.gg/xxysSXBxFW\n\nMedia/Sponsorship Inquiries ✅ \nhttps://bit.ly/44TC45V\n\nChapters:\n0:00 - Intro\n0:50 - Buildup to GPT-5\n1:56 - Research vs. Product\n2:53 - Lessons from GPT-4\n4:39 - Can Synthetic Data Scale?\n8:03 - Early Bets on GPT-5 Architecture\n8:50 - Pre vs. Post Training\n9:40 - When is a model \"ready\"?\n10:43 - Mark Chen's \"Vibe Check\"\n13:03 - Creative Writing\n13:58 - AI for Life Advice\n14:45 - China's Open Source Models\n17:09 - Emergent Capabilities in GPT-5\n19:18 - Omni Model vs. Specialized Models?\n20:35 - Agents and Scaffolding\n23:05 - Future of AI Memory\n24:02 - Multi-modality in GPT-5\n25:11 - Creating Codex, future of AI Coding\n26:55 - Coding is the path to AGI\n27:51 - Verifiers and RL\n28:46 - What is Mark excited about with GPT-5?\n29:51 - IMO to Real Usage\n31:17 - GPT-OSS\n34:06 - Benchmark Saturation\n36:44 - Future of Work / Coding\n38:51 - Future Roadmap (6 months & 24 months)",
+    "channelTitle": "Matthew Berman",
+    "publishDate": "2025-08-07T19:30:09Z",
+    "duration": "PT40M32S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/SOP4W2hid8A/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Mark Chen"
   },
   {
     "id": "hmtuvNfytjM",
@@ -3447,6 +3855,23 @@
     },
     "tags": [],
     "person": "Dario Amodei"
+  },
+  {
+    "id": "7mDyfYJwSro",
+    "company": "google",
+    "category": "google",
+    "title": "Gemini 2.5 with Logan Kilpatrick",
+    "description": "Logan Kilpatrick from Google DeepMind talks about the latest developments in the Gemini 2.5 model family, including Gemini 2.5 Pro, Flash, and the newly introduced Flashlight. Logan also offers insight into AI development workflows, model performance, and the future of proactive AI assistants.\n\n\nLinks\n\n\n\n\nWebsite: https://logank.ai\n\nLinkedIn: https://www.linkedin.com/in/logankilpatrick\n\nX: https://x.com/officiallogank\n\nYouTube: https://www.youtube.com/@LoganKilpatrickYT\n\nGoogle AI Studio: https://aistudio.google.com\n\n\nResources\n\n\n\n\nGemini 2.5 Pro Preview: even better coding performance (https://developers.googleblog.com/en/gemini-2-5-pro-io-improved-coding-performance) \n\nBuilding with AI: highlights for developers at Google I/O (https://blog.google/technology/developers/google-ai-developer-updates-io-2025) \n\n\nWe want to hear from you!\n\n\n\n\nHow did you find us? Did you see us on Twitter? In a newsletter? Or maybe we were recommended by a friend?\n\n\n\n\nLet us know by sending an email to our producer, Em, at emily.kochanek@logrocket.com (mailto:emily.kochanek@logrocket.com) , or tweet at us at PodRocketPod (https://twitter.com/PodRocketpod) .\n\n\nFollow us. Get free stickers.\n\n\n\n\nFollow us on Apple Podcasts, fill out this form (https://podrocket.logrocket.com/get-podrocket-stickers) , and we’ll send you free PodRocket stickers!\n\n\nWhat does LogRocket do?\n\n\n\n\nLogRocket provides AI-first session replay and analytics that surfaces the UX and technical issues impacting user experiences. Start understanding where your users are struggling by trying it for free at LogRocket.com. Try LogRocket for free today. (https://logrocket.com/signup/?pdr) \n\n\nSpecial Guest:  Logan Kilpatrick.",
+    "channelTitle": "LogRocket",
+    "publishDate": "2025-06-19T12:17:57Z",
+    "duration": "PT30M26S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/7mDyfYJwSro/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Logan Kilpatrick"
   },
   {
     "id": "2LGKwf2xH7g",
@@ -5419,6 +5844,23 @@
     "person": "Mark Chen"
   },
   {
+    "id": "_uMOtt_pb-A",
+    "company": "google",
+    "category": "google",
+    "title": "The Stack Overflow Podcast: Logan Kilpatrick, Google AI",
+    "description": "Today’s guest is Logan Kilpatrick, a senior product manager at Google, who tells Ben about his journey from software engineering to machine learning to product management, all with an emphasis on reducing developer friction. They talk through the challenges of non-determinism in AI models and how Google is addressing these issues with a new feature: Grounding with Google Search. Plus, what working at the Apple Store taught Logan about product management.\n\nhttps://stackoverflow.blog/2024/11/05/how-google-is-helping-developers-get-better-answers-from-ai/",
+    "channelTitle": "Stack Overflow",
+    "publishDate": "2024-12-11T16:45:40Z",
+    "duration": "PT22M32S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/_uMOtt_pb-A/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Logan Kilpatrick"
+  },
+  {
     "id": "RQ7J2_TmhOk",
     "company": "google",
     "category": "google",
@@ -5506,6 +5948,23 @@
     },
     "tags": [],
     "person": "Daniela Amodei"
+  },
+  {
+    "id": "KDSSraX8SHE",
+    "company": "openai",
+    "category": "openai",
+    "title": "dotAI 2024 - Romain Huet and Katia Gil Guzman - Building with OpenAI: What's Ahead",
+    "description": "Filmed at dotAI 2024 in Paris on October 17-18, 2024 – Europe’s premier AI conference for AI builders, founders, and innovators.\n\n🔍 What’s Inside?\nHear directly from Katia Gil Guzman (Developer Experience Engineer at OpenAI) and Romain Huet (Head of Developer Experience at OpenAI) as they share:\n✅ Behind-the-scenes stories from scaling AI adoption—from 1:1 customer solutions to empowering millions of developers\n✅ Lessons on building intuitive tools that developers love\n✅ The future of AI integration—how OpenAI is shaping the next wave of developer-first innovation\n\n💻 Who Are the Speakers?\n\nKatia Gil Guzman\nKatia is a developer experience engineer who moved from working with some of OpenAI's most innovative customers 1:1 as a solutions Architect to doing the 1:many in the Developer Experience team. \n\nRomain Huet\nRomain currently leads Developer Experience at OpenAI, inspiring and supporting founders and builders to integrate AI into their applications, and directing the creation of elegant and powerful tools for all developers. Previously, Romain spent 5 years at Stripe, leading product management for the developer platform and overseeing global developer relations. Before Stripe, he helped with the relaunch of Twitter’s developer platform and co-founded Jolicloud in Paris, where he developed a cloud-based OS.\n\n💡 Why This Talk is a Must-Watch\nWhether you’re a founder, AI engineer, or AI enthusiast, this talk is packed with actionable insights on:\n🔹 Developer-first AI adoption (how to avoid common pitfalls)\n🔹 Designing tools that feel magical (lessons from OpenAI)\n🔹 The shifting landscape of AI in 2024/2025 (what’s next for builders?)\n\n🎤 Missed dotAI 2024?\nThis talk was recorded live at dotAI, Paris’ must-attend conference for AI builders. Save the date for this year and join us on November 6, 2025: https://www.dotai.io/.\n\n🔔 Don’t Miss Out\n👉 Subscribe for more AI deep dives, founder stories, and dev tool breakdowns!\n👉 Drop a comment: What’s your biggest challenge in integrating AI? Let’s discuss!\n\n#OpenAI #DeveloperExperience #AIDevelopers #dotAI #AIInnovation #TechTalks #ParisTech",
+    "channelTitle": "dotconferences",
+    "publishDate": "2024-10-23T08:28:08Z",
+    "duration": "PT22M32S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/KDSSraX8SHE/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Romain Huet"
   },
   {
     "id": "EJLg9Q29mmA",
@@ -5649,6 +6108,23 @@
     "person": "Romain Huet"
   },
   {
+    "id": "4lfcRqmyJcY",
+    "company": "openai",
+    "category": "openai",
+    "title": "Le nouveau ChatGPT 4o est incroyable ! Rencontre avec Romain Huet d'OpenAI",
+    "description": "Romain Huet, responsable de \"l'expérience développeurs\" chez OpenAI, explique comment fonctionne la nouvelle version du modèle de langage GPT-4o (pas encore sortie en juillet 2024). GPT-4o se caractérise par une approche \"omnicanale\" qui permet d'interagir non seulement en texte mais aussi en audio et en image de manière native avec une réactivité des temps de réponse impressionnante. Une interview exceptionnelle depuis le siège d'OpenAI à San Francisco.\n\n0:47 Romain Huet: Parcours et Rôle chez OpenAI\n5:43 OpenAI: Une Startup en Pleine Expansion\n8:06 Son regard sur la France et la tech française\n11:24 Décryptage de ChatGPT avec Romain Huet\n13:18 Fonctionnement des Modèles de Langage\n14:51 OpenAI: Démocratiser l'IA avec l'API\n20:48 Vers l'avenir: Agents Intelligents Accessibles\n25:35 Découverte de GPT-4O\n33:00 Omnicanalité et émotions avec GPT-4O\n34:16 Intégration de GPT-4O dans les appareils Apple\n36:25 Futur des interfaces avec l'IA\n39:55 Personnalisation des modèles avec GPT-4O\n41:50 Confidentialité des données avec ChatGPT\n43:03 Vers GPT-5 et l'IAG\n\n-------\nAbonnez-vous au podcast ! 👉  https://mondenumerique.info/podcast/monde-numerique",
+    "channelTitle": "Monde Numérique | Actualité Tech & IA",
+    "publishDate": "2024-07-09T17:13:51Z",
+    "duration": "PT48M12S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/4lfcRqmyJcY/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Romain Huet"
+  },
+  {
     "id": "l_c4Yr3e4B0",
     "company": "anthropic",
     "category": "anthropic",
@@ -5665,6 +6141,40 @@
     },
     "tags": [],
     "person": "Dario Amodei"
+  },
+  {
+    "id": "xm6jNMSFT7g",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Dario Amodei - CEO of Anthropic | Podcast | In Good Company | Norges Bank Investment Management",
+    "description": "Dario Amodei CEO of Anthropic: Claude, New models, AI safety and Economic impact\n\nHow much bigger and more powerful will the next AI models be? Anthropic’s CEO, Dario Amodei, joins Nicolai in Oslo to discuss the latest advancements in AI, the economic impact of this technology, and the importance of responsible scaling. Dario also shares his excitement about the upcoming models and his thoughts on who will profit the most from AI in the future. Don’t miss this enlightening conversation about the cutting-edge developments in AI. Tune in!\n\nIn Good Company is hosted by Nicolai Tangen, CEO of Norges Bank Investment Management. New episode out every Wednesday.\n\nThe podcast In Good Company is part of Norges Bank Investment Management , a podcast about our investments. We are transparent about how the fund is invested. In this podcast, you to get a deeper insight into the companies the fund is invested in. \n\nOur CEO, Nicolai Tangen, has in-depth interviews with the leaders of some of the largest companies in the world. You will get insight into their leadership principles, the company’s strategy and how they are dealing with a large investor like us. You will also learn more about our role as an owner of the companies. \n\nYou can read more about the podcast on https://www.nbim.no/en/publications/podcast/\n#AI #Anthropic #ingoodcompany #oljefondet #DarioAmodei #claude",
+    "channelTitle": "Norges Bank Investment Management",
+    "publishDate": "2024-06-26T14:34:23Z",
+    "duration": "PT1H7M15S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/xm6jNMSFT7g/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Dario Amodei"
+  },
+  {
+    "id": "D-eyJhJXXsE",
+    "company": "google",
+    "category": "google",
+    "title": "A conversation with Google DeepMind's Demis Hassabis",
+    "description": "At Stripe Tour in London, Demis Hassabis, cofounder and CEO of Google DeepMind, joined Entrepreneur First Cofounder Matt Clifford for a fireside chat on building deep tech companies and the most promising new developments in AI.",
+    "channelTitle": "Stripe",
+    "publishDate": "2024-06-07T10:00:12Z",
+    "duration": "PT37M48S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/D-eyJhJXXsE/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Demis Hassabis"
   },
   {
     "id": "CD1ku-YnoIE",
@@ -5753,6 +6263,23 @@
       "height": 720
     },
     "person": "Jenny Wen"
+  },
+  {
+    "id": "nwUARJeeplA",
+    "company": "google",
+    "category": "google",
+    "title": "Demis Hassabis on Chatbots to AGI | EP 71",
+    "description": "This week’s episode is a conversation with Demis Hassabis, the head of Google’s artificial intelligence division. We talk about Google’s latest A.I. models, Gemini and Gemma; the existential risks of artificial intelligence; his timelines for artificial general intelligence; and what he thinks the world will look like post-A.G.I.\nThis interview was recorded on Wednesday. Since then, Google has temporarily suspended Gemini’s ability to generate images of humans, following criticism of images the chatbot generated of people of color in Nazi-era uniforms.\n\n\nChapters\n\n00:00:00 - Demis Highlights\n00:00:32 - This week on Hard Fork\n00:00:46 - Who is Demis Hassabis? \n00:05:40 - Demis Interview\n00:05:43 - Gemini/Gemma\n00:13:37 - Open sourced VS closed Source\n00:16:21 - How much personality should Chatbots have? \n00:17:51 - Gemini hits pause on people pictures\n00:19:26 - Benefits of being at Google \n00:23:57 - Public’s negative opinion of A.I. \n00:26:11 - How useful as a science tool?\n00:28:29 - Curing diseases \n00:29:24 - A.G.I.\n00:34:04 - how should we prepare for AGI? \n00:38:31 - whats your p(doom) ?\n00:43:03 - will this just concentrate power more?\n00:50:26 - most A.I.-proof job? \n00:53:12 - Your personal post-A.G.I. plan? \n00:54:55 - BONUS clip: chatGPT went KrAzy!\n\n\nHard Fork is a weekly look into the future that's already here. Hosts Kevin Roose and Casey Newton explore stories from the bleeding edge of tech.\nCasey’s publication, Platformer: https://www.platformer.news/\n\n\nFOLLOW US ON SOCIAL\n\nTikTok:https://www.tiktok.com/@hardfork?is_from_webapp=1&sender_device=pc\n\nInsta:\nKevin Roose- https://www.instagram.com/kevinroose/?hl=en\nCasey Newton - https://www.instagram.com/crumbler/?hl=en\n\nTwitter (X):\nKevin - https://x.com/kevinroose?s=20\nCasey - https://x.com/CaseyNewton?s=20\n\nThreads:\nKevin - https://www.threads.net/@kevinroose\nCasey - https://www.threads.net/@crumbler\n\nSubscribe to the audio only podcast:\nApple - https://podcasts.apple.com/us/podcast/hard-fork/id1528594034\nSpotify - https://open.spotify.com/show/44fllCS2FTFr2x2kjP9xeT?si=f4a017fd2201479d\nAmazon - https://music.amazon.com/podcasts/7c7fe198-e6a8-41a8-b0fe-1d46b976dcd8/hard-fork\nGoogle - https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9sMmk5WW5UZA==\nThe New York Times - https://www.nytimes.com/column/hard-fork",
+    "channelTitle": "Hard Fork",
+    "publishDate": "2024-02-23T18:13:23Z",
+    "duration": "PT56M38S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/nwUARJeeplA/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Demis Hassabis"
   },
   {
     "id": "RikVztHFUQ8",
@@ -5844,6 +6371,23 @@
     "person": "Sam Altman"
   },
   {
+    "id": "PkXELH6Y2lM",
+    "company": "openai",
+    "category": "openai",
+    "title": "Episode 6: OpenAI CEO Sam Altman on the future of AI",
+    "description": "If you ask people to name leaders in artificial intelligence, there’s one name you’ll probably hear more than any other: Sam Altman. His team at OpenAI is pushing the boundaries of what AI can do with ChatGPT, and I loved getting to talk to him about what’s next. Our conversation covered why today’s AI models are the stupidest they’ll ever be, how societies adapt to technological change, and even where humanity will find purpose once we’ve perfected artificial intelligence. Subscribe wherever you listen to podcasts. Learn more at https://gatesnot.es/3vvavUv",
+    "channelTitle": "Bill Gates",
+    "publishDate": "2024-01-11T13:51:03Z",
+    "duration": "PT33M6S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/PkXELH6Y2lM/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Sam Altman"
+  },
+  {
     "id": "Kc1atfJkiJU",
     "company": "google",
     "category": "google",
@@ -5895,6 +6439,23 @@
       "height": 720
     },
     "person": "Marc Andreessen"
+  },
+  {
+    "id": "knHW-p31R0c",
+    "company": "openai",
+    "category": "openai",
+    "title": "The Business of AI",
+    "description": "Learn the surprising things that leaders at Shopify, Typeform, and Salesforce focused on to build and launch successful Al products \n\n(spoiler: it's not just picking the right LLM)\n\nSpeakers: \nAliisa Rosenthal\nHead of Sales at OpenAI\n\nOji Udezue - Chief Product Officer - Typeform\nKathy Baxter - Principal Architect, Responsible AI & Tech - Salesforce\nMiqdad Jaffer - Director of Product - Shopify",
+    "channelTitle": "OpenAI",
+    "publishDate": "2023-11-13T22:34:06Z",
+    "duration": "PT43M22S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/knHW-p31R0c/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Miqdad Jaffer"
   },
   {
     "id": "XGJNo8TpuVA",
@@ -6123,6 +6684,23 @@
       "height": 720
     },
     "person": "Shane Legg"
+  },
+  {
+    "id": "1n2rXx-IOyE",
+    "company": "a16z",
+    "category": "a16z",
+    "title": "Inside the Mind of A Famous Investor | Marc Andreessen",
+    "description": "Silicon valley icon Marc Andreessen explores investing, decision making, and the art of solving unsolvable problems. \n\nIn this discussion, Andreessen reveals why the Internet has become the conduit for some people to disrupt traditional power structures and for others to enforce them, optimistic and pessimistic scenarios for the future of the Internet, assessing judgment, and the book he turns to for insight. \n\nAndreessen is a co-founder and general partner at the venture-capital firm Andreessen Horowitz, and has invested in companies such as Facebook, Pinterest, Twitter and Skype, among others. He co-created the highly influential Mosaic internet browser and co-founded Netscape, and has been named one of the 100 most influential people in the world by Time.\n\nView all book recommendations here: https://fs.blog/knowledge-podcast/marc-andreessen/\n\n\n00:00 - Intro\n02:13 - Why Marc “reads backwards” to understand the world\n03:57 - Societies reaction to new technology\n07:51 - How technology influences social hierarchy\n16:00 - The idea of free information\n17:48 - Optimistic side for the next ten years\n23:00 - Pessimistic side for the next ten years\n26:25 - How to not get burned from past failures\n29:31 - How to extract the right lessons from an experience\n34:13 - How do you assess the judgement of founders\n38:40 - The three types of venture investments\n42:23 - Decision making process a16z uses to make investments\n47:44 - How probabilistic thinking can help you make great decisions\n51:29 - The problem with the education system\n59:28 - Political policy platform that encourages innovation\n01:06:10 - Mental Model of Elon Musk and others\n1:12:10 - How to not become complacent\n1:14:04 - The last book Marc re-read\n\n----\n\nABOUT THE KNOWLEDGE PROJECT\n\nLike the mentor you’ve always dreamed of having, The Knowledge Project shares timely yet timeless lessons for work and life. Past guests include Naval Ravikant, Daniel Kahneman, Jim Collins, Angela Duckworth, Seth Godin, Melanie Mitchell, & Esther Perel.\n\nSUBSCRIBE for full episodes and clips highlighting actionable lessons and profound wisdom from guests ranging from Nobel Prize winners to CEOs of the largest companies in the world and everything in between.\n\nGet early access and episode transcripts: https://fs.blog/membership/\n\nSubscribe to the podcast: Apple Podcasts: https://apple.co/3fz6u4X​ | Spotify: https://spoti.fi/2SSgCvT​ | Google Podcasts: https://bit.ly/2Wjw7iy \n\n----\n\nFOLLOW\n\nInstagram: https://www.instagram.com/farnamstreet/​\nTwitter: https://twitter.com/farnamstreet​\nShane Parrish: https://twitter.com/ShaneAParrish\nNewsletter: https://fs.blog/newsletter/\nFacebook: https://www.facebook.com/FarnamStreet/",
+    "channelTitle": "The Knowledge Project Podcast",
+    "publishDate": "2022-01-25T10:00:02Z",
+    "duration": "PT1H17M36S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/1n2rXx-IOyE/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Marc Andreessen"
   },
   {
     "id": "R5opeML6iF8",

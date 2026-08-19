@@ -10,7 +10,6 @@ import { COMPANY_LOGOS } from "@/components/icons/CompanyLogos";
 type CompanySectionProps = {
   company: Company;
   displayName: string;
-  description: string;
   videos: LandingVideo[];
 };
 
@@ -20,7 +19,6 @@ const LOAD_MORE_COUNT = 6;
 export function CompanySection({
   company,
   displayName,
-  description,
   videos,
 }: CompanySectionProps) {
   const { playVideo } = useVideoPlayer();
@@ -48,9 +46,6 @@ export function CompanySection({
               {displayName}
             </h2>
           </div>
-          <p className="max-w-2xl text-base leading-relaxed text-secondary sm:text-lg">
-            {description}
-          </p>
         </div>
       </div>
 
@@ -63,7 +58,7 @@ export function CompanySection({
         <div className="mt-8 flex justify-center sm:mt-12">
           <button
             onClick={handleLoadMore}
-            className="group relative inline-flex items-center justify-center overflow-hidden rounded-full bg-surface px-6 py-2.5 text-sm font-medium text-primary transition-all hover:bg-surface-hover hover:text-accent sm:px-8 sm:py-3 sm:text-base"
+            className="group relative inline-flex items-center justify-center overflow-hidden rounded-full bg-accent px-6 py-2.5 text-sm font-semibold text-white shadow-md transition-all hover:bg-accent-strong hover:shadow-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent sm:px-8 sm:py-3 sm:text-base"
           >
             <span className="relative z-10">{LOAD_MORE_LABEL}</span>
           </button>

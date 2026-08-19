@@ -84,19 +84,11 @@ export function VideoCard({
         <h3 className="text-sm font-semibold leading-snug text-primary break-words sm:text-base">
           {video.title}
         </h3>
-        <p className="line-clamp-2 text-xs leading-relaxed text-secondary break-words sm:text-sm">
-          {video.description}
-        </p>
-        <div className="flex items-center gap-2">
-          <span className="text-[10px] font-semibold uppercase tracking-wide text-secondary/70 truncate sm:text-xs">
-            {video.channelTitle}
+        {video.person && (
+          <span className="text-[10px] font-medium text-accent truncate sm:text-xs">
+            {video.person}
           </span>
-          {video.person && (
-            <span className="text-[10px] font-medium text-accent truncate sm:text-xs">
-              • {video.person}
-            </span>
-          )}
-        </div>
+        )}
       </div>
     </button>
   );

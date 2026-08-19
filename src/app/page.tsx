@@ -142,7 +142,6 @@ export default function HomePage() {
           key={module.company}
           company={module.company}
           displayName={module.displayName}
-          description={module.description}
           videos={module.videos}
         />
       ))}

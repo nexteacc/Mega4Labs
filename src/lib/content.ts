@@ -38,22 +38,25 @@ export const getAllVideos = (): LandingVideo[] => allVideosCache;
  * Get hero videos (top 4)
  */
 export const getHeroVideos = (): LandingVideo[] => {
-  const heroes = videos.filter((video) => video.category === "hero");
+  const selected: LandingVideo[] = [];
+  const selectedIds = new Set<string>();
+  const selectedCompanies = new Set<Company>();
 
-  if (heroes.length > 0) {
-    return heroes.slice(0, 4);
+  for (const video of allVideosCache) {
+    if (selectedCompanies.has(video.company)) continue;
+    selected.push(video);
+    selectedIds.add(video.id);
+    selectedCompanies.add(video.company);
+    if (selected.length === 4) return selected;
   }
 
-  // Fallback: pick one from each company
-  const fallbackHeroes: LandingVideo[] = [];
-  for (const company of COMPANIES) {
-    const companyVideo = videos.find((v) => v.company === company);
-    if (companyVideo) {
-      fallbackHeroes.push(companyVideo);
-    }
+  for (const video of allVideosCache) {
+    if (selectedIds.has(video.id)) continue;
+    selected.push(video);
+    if (selected.length === 4) break;
   }
 
-  return fallbackHeroes.slice(0, 4);
+  return selected;
 };
 
 /**
@@ -61,9 +64,7 @@ export const getHeroVideos = (): LandingVideo[] => {
  */
 export const getVideoModules = (): VideoModule[] => {
   return COMPANIES.map((company) => {
-    const companyVideos = videos.filter(
-      (video) => video.company === company && video.category !== "hero"
-    );
+    const companyVideos = videos.filter((video) => video.company === company);
 
     return {
       company,

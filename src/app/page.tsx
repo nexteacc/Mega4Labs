@@ -28,7 +28,7 @@ export async function generateMetadata(
   const videoId = sp?.video;
   
   const defaultMetadata: Metadata = {
-    title: `${SITE_NAME} - Interviews & Insights from AI Industry Sailors`,
+    title: `${SITE_NAME} - Long-form AI interviews and talks`,
     description: SEO_DESCRIPTION,
     keywords: SEO_KEYWORDS,
     authors: [{ name: SITE_NAME }],

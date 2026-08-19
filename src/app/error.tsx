@@ -18,10 +18,10 @@ export default function Error({
     <div className="flex min-h-screen flex-col items-center justify-center px-4">
       <div className="max-w-md text-center">
         <h2 className="mb-4 text-2xl font-bold text-gray-900">
-          Something went wrong!
+          We couldn&apos;t load this page.
         </h2>
         <p className="mb-6 text-gray-600">
-          We apologize for the inconvenience. Please try again.
+          Please try again.
         </p>
         <button
           onClick={reset}

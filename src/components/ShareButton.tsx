@@ -146,7 +146,7 @@ export function ShareButton({ videoId, videoTitle }: ShareButtonProps) {
             aria-label="Share video"
           >
             <div className="mb-6 flex items-center justify-between">
-              <h3 className="text-xl font-semibold text-white">分享视频</h3>
+              <h3 className="text-xl font-semibold text-white">Share video</h3>
               <button 
                 onClick={() => setIsOpen(false)}
                 className="rounded-full p-2 text-gray-400 hover:bg-white/10 hover:text-white transition-colors"
@@ -174,12 +174,9 @@ export function ShareButton({ videoId, videoTitle }: ShareButtonProps) {
                   </div>
                   <div className="flex-1">
                     <span className="block text-base font-medium text-white">
-                      {option.name === "Copy Link" && copied ? "已复制链接" : option.name}
+                      {option.name === "Copy Link" && copied ? "Link copied" : option.name}
                     </span>
                   </div>
-                  {option.name === "Copy Link" && copied && (
-                    <span className="text-sm font-medium text-green-400 animate-in fade-in slide-in-from-right-2">Copied!</span>
-                  )}
                 </button>
               ))}
             </div>

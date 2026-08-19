@@ -37,7 +37,7 @@ export function Footer() {
               onClick={() => track('social_click', { platform: 'twitter', url: 'https://x.com/nexteacc' })}
             >
               <Image src="/x-logo.svg" alt="X" width={20} height={20} />
-              <span>Twitter</span>
+              <span>X</span>
             </a>
           </div>
         </div>

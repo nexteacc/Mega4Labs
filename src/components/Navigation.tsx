@@ -41,10 +41,10 @@ export function Navigation() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
                 </span>
-                <span>Weekly Updates</span>
+                <span>Updated weekly</span>
               </div>
               <div className="mt-0.5 font-medium">
-                Tracking {personCount} AI Sailors
+                Following {personCount} people
               </div>
             </div>
           </div>

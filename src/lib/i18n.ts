@@ -17,29 +17,29 @@ export const VIDEO_COUNT_LABEL = "videos";
 
 export const buildHeroSupporting = (videoCount: number): string => {
   const roundedCount = Math.floor(videoCount / 10) * 10;
-  return `${roundedCount}+ ${VIDEO_COUNT_LABEL} • Updated daily • Expert-curated`;
+  return `${roundedCount}+ ${VIDEO_COUNT_LABEL} • Updated weekly`;
 };
 
 // Load more
-export const LOAD_MORE_LABEL = "Load More";
+export const LOAD_MORE_LABEL = "Show More";
 
 // Company configuration
 export const COMPANIES: Company[] = ["openai", "cursor", "google", "anthropic", "a16z"];
 
 export const COMPANY_TITLES: Record<Company, string> = {
-  openai: "OpenAI / ChatGPT",
-  cursor: "Cursor AI",
-  google: "Google / Gemini",
-  anthropic: "Anthropic / Claude",
-  a16z: "a16z / Andreessen Horowitz",
+  openai: "OpenAI",
+  cursor: "Cursor",
+  google: "Google DeepMind",
+  anthropic: "Anthropic",
+  a16z: "a16z",
 };
 
 export const COMPANY_DESCRIPTIONS: Record<Company, string> = {
-  openai: "Insights from Sam Altman and the OpenAI team on GPT, AGI, and the future of AI.",
-  cursor: "The team revolutionizing AI-powered code editors and developer productivity.",
-  google: "Demis Hassabis and colleagues on Gemini, breakthrough AI research, and multimodal AI.",
-  anthropic: "Dario Amodei and the Anthropic team on AI safety and Claude's development.",
-  a16z: "Marc Andreessen and partners on the future of technology, AI, and startups.",
+  openai: "Interviews and talks from people at OpenAI.",
+  cursor: "Interviews and talks from people at Cursor.",
+  google: "Interviews and talks from people at Google DeepMind.",
+  anthropic: "Interviews and talks from people at Anthropic.",
+  a16z: "Interviews and talks from people at a16z.",
 };
 
 export const COMPANY_COLORS: Record<Company, string> = {
@@ -52,9 +52,9 @@ export const COMPANY_COLORS: Record<Company, string> = {
 
 // Footer
 export const FOOTER_MADE_WITH_LOVE = "Made for AI builders";
-export const FOOTER_SUBMIT_VIDEO = "Submit a Sailor";
+export const FOOTER_SUBMIT_VIDEO = "Suggest a video";
 export const FOOTER_COPYRIGHT = `© ${new Date().getFullYear()} Mega 4 Labs. Videos belong to their respective creators.`;
 
 // SEO
-export const SEO_KEYWORDS = "AI sailors, AI leaders, Sam Altman, Romain Huet, Dario Amodei, Demis Hassabis, Cursor AI, OpenAI interview, Anthropic CEO, Google, Gemini, AI industry, artificial intelligence, AGI, GPT, Claude, Mark Chen";
-export const SEO_DESCRIPTION = "Watch interviews and insights from 23 visionary AI sailors shaping the future at OpenAI, Anthropic, Google DeepMind, and Cursor.";
+export const SEO_KEYWORDS = "AI interviews, AI leaders, OpenAI, Anthropic, Google DeepMind, Cursor, a16z, artificial intelligence, AGI, GPT, Claude, Gemini";
+export const SEO_DESCRIPTION = "Watch long-form interviews and talks featuring people from OpenAI, Anthropic, Google DeepMind, Cursor, and a16z.";

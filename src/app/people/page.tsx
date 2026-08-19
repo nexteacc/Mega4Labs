@@ -6,8 +6,8 @@ import { COMPANIES } from "@/lib/i18n";
 import { COMPANY_LOGOS } from "@/components/icons/CompanyLogos";
 
 export const metadata: Metadata = {
-  title: "AI Sailors",
-  description: "Meet the sailors navigating the future of AI - visionaries from OpenAI, Anthropic, Google, Cursor, and a16z.",
+  title: "People",
+  description: "Browse interviews and talks by people from OpenAI, Anthropic, Google DeepMind, Cursor, and a16z.",
 };
 
 export default function PeoplePage() {
@@ -15,10 +15,10 @@ export default function PeoplePage() {
     <div className="mx-auto w-full max-w-[1180px] px-4 py-12 sm:px-8 sm:py-16 lg:px-10 lg:py-20">
       <div className="mb-12 text-center">
         <h1 className="mb-4 text-4xl font-bold text-primary sm:text-5xl lg:text-6xl">
-          AI Sailors
+          People
         </h1>
         <p className="text-lg text-secondary sm:text-xl">
-          Meet the sailors navigating the future of AI
+          Browse videos by person and organization.
         </p>
       </div>
 

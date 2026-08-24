@@ -1,5 +1,22 @@
 [
   {
+    "id": "go6aAiPHbMs",
+    "company": "openai",
+    "category": "openai",
+    "title": "【星际老男孩】8月18号CS2 02",
+    "description": "(=・ω・=)",
+    "channelTitle": "John Z",
+    "publishDate": "2026-08-19T07:10:26Z",
+    "duration": "PT1H7M50S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/go6aAiPHbMs/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Jiayi Weng"
+  },
+  {
     "id": "XDB5beon4DY",
     "company": "openai",
     "category": "openai",
@@ -425,6 +442,23 @@
     "person": "Josh Woodward"
   },
   {
+    "id": "8CeUe-zMSTo",
+    "company": "google",
+    "category": "google",
+    "title": "Inside Google’s Creative Frontier with Josh Woodward & Robert Wong",
+    "description": "On this special episode of the Frontier CMO podcast, host Josh Spanier, VP of AI and Marketing Strategy at Google, sits down with two of the driving forces shaping the future of AI and creative: Robert Wong, head of Google’s Creative Lab, and Josh Woodward, head of Google Labs, Gemini, & AI Studio. \nTogether, they tell the story of how their teams of engineers and marketers came together to create Flow, a groundbreaking AI tool that is unlocking creativity and storytelling in marketing, Hollywood and beyond.\n\nTaped at Google Marketing Live, Google’s biggest marketing event of the year, this conversation offers a rare look at how Google is reimagining creativity in the age of AI.\n\n0:00 – AI’s Creative Breakthrough Moment\n2:05 – Mind-Blowing AI Projects & Experiences\n4:15 – Building Gemini & What’s “Almost Possible”\n6:15 – Bringing Soul & Humanity Into AI\n7:20 – Staying Ahead in the AI Era\n10:05 – Lowering Fear to Unlock Creativity\n12:05 – The Frustrations & Limits of AI\n15:05 – Why AI Still Needs Human Creativity\n16:00 – Building Flow for Creative Professionals\n20:05 – The Future of Personalized AI Tools\n22:00 – The Best Google AI Tools to Try Now\n25:05 – Why Great Creative Still Matters\n26:00 – The AI Creative Renaissance Ahead",
+    "channelTitle": "Think with Google",
+    "publishDate": "2026-05-21T08:00:17Z",
+    "duration": "PT28M36S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/8CeUe-zMSTo/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Josh Woodward"
+  },
+  {
     "id": "Z6IT4gjrcPE",
     "company": "anthropic",
     "category": "anthropic",
@@ -440,6 +474,23 @@
       "height": 720
     },
     "person": "Boris Cherny"
+  },
+  {
+    "id": "k1z0e7bGzq0",
+    "company": "a16z",
+    "category": "a16z",
+    "title": "Marc Andreessen’s Worldview in 60 Minutes | Live on MTS",
+    "description": "Erik Torenberg speaks with Marc Andreessen about the state of AI, media, and the broader cultural and economic shifts shaping the internet. They discuss how narratives around AI, from fear to hype, are influencing public perception, and why real-world usage tells a very different story.\n\nThe conversation covers AI’s impact on jobs and productivity, the rise of “AI-native” builders, and why increased capability tends to expand work rather than eliminate it. Andreessen also examines how companies are adapting, from restructuring teams to rethinking roles around more generalist “builders.”\n\nThey also explore the changing media landscape, from the dynamics of influence and information to the breakdown of traditional authority, and what it means for trust, culture, and generational attitudes. Along the way, they touch on topics ranging from institutional power to emerging internet subcultures, offering a wide-ranging look at how technology is reshaping both systems and society.\n\nTimestamps:\n00:00 - Intro\n00:42 - The Anthropic Blackmail Incident & AI Doomer Literature\n02:49 - Suicidal Empathy & the SPLC Indictment\n16:33 - AI, Jobs & the Rise of the AI Vampire\n25:39 - The Future of Tech Jobs: From Coder to Builder\n30:55 - AI Psychosis, AI Cope & Why the Models Are Actually Great Now\n38:48 - Why AI Sentiment Polls Are Misleading\n45:28 - UFOs: What We Know and What the Government Has Hidden\n52:25 - Advice for Young People & the Generational Divide\n\nResources:\nFollow Marc Andreessen on X: https://x.com/pmarca\n\nStay Updated:\nIf you enjoyed this episode, be sure to like, subscribe, and share with your friends!\n\nFind a16z on X: https://twitter.com/a16z\n\nFind a16z on LinkedIn: https://www.linkedin.com/company/a16z\n\nListen to the a16z Podcast on Spotify: https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX\n\nListen to the a16z Podcast on Apple Podcasts: https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711\n\nFollow our host: https://x.com/eriktorenberg\n\nPlease note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see http://a16z.com/disclosures.",
+    "channelTitle": "a16z",
+    "publishDate": "2026-05-11T14:30:11Z",
+    "duration": "PT1H6M21S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/k1z0e7bGzq0/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Marc Andreessen"
   },
   {
     "id": "ttkd0t5qTD4",
@@ -748,6 +799,23 @@
     "person": "Jenny Wen"
   },
   {
+    "id": "eiu81s0iyj8",
+    "company": "a16z",
+    "category": "a16z",
+    "title": "Inside Marc Andreessen & Ben Horowitz’s Multi-Family Office",
+    "description": "Michel Del Buono, CIO of Andreessen Horowitz’s multi-family office Perennial, breaks down how Silicon Valley’s top founders and investors manage wealth after massive liquidity events.\n\nPerennial was built after Marc Andreessen and Ben Horowitz saw a major gap: traditional wealth managers weren’t delivering institutional-quality investment advice, while institutional asset managers weren’t built for taxable individuals. \n\nIn this episode, we go deep on how portfolios should be constructed when you’re managing $50M to $1B+, including how to prepare for potential mega-events like a SpaceX IPO — which could be one of the largest in history. \n\nWe cover:\n\n• Why most wealth management portfolios are misaligned\n• The structural flaws of RIAs vs institutional asset managers\n• How to manage concentrated stock positions pre- and post-IPO\n• Why venture capital returns are driven by extreme dispersion\n• How taxes, fees, and structure can drive hundreds of basis points of alpha\n• Why volatility is one of the biggest opportunities for long-term investors\n• The rise of multi-family offices in Silicon Valley\n\nMichel also explains why many founders make critical mistakes immediately after their first liquidity event — and how to avoid them.\n\nIf you’re building, investing, or approaching a major liquidity event, this is a masterclass in how wealth is actually managed at scale.\n\n\nMichel Del Buono: https://www.linkedin.com/in/mdelbuono/ \nMolly O’Shea: https://x.com/MollySOShea \nSourcery: ⁠https://x.com/sourceryy \n\n\n𝐄𝐏𝐈𝐒𝐎𝐃𝐄 𝐋𝐈𝐍𝐊𝐒\n\nApple Podcasts: https://podcasts.apple.com/in/podcast/inside-marc-andreessen-ben-horowitzs-multi-family-office/id1738124704?i=1000757708120\n\nSpotify: https://open.spotify.com/episode/7cM8oYfrf3aSUQN14NFrqJ?si=GfOjGngFSTukAdspycf3Mw\n\n\n𝐒𝐏𝐎𝐍𝐒𝐎𝐑𝐒\n\n• Brex—The modern finance platform, combining the world’s smartest corporate card with integrated expense management, banking, bill pay, & travel. https://brex.com/sourcery\n\n• Turing—Turing delivers top-tier talent, data, and tools to help AI labs improve model performance—and enables enterprises to turn those models into powerful, production-ready systems. https://turing.com/sourcery\n\n• VCX—VCX is the public ticker for private tech, allowing investors of all sizes to invest in venture capital. View The Portfolio at http://GetVCX.com\n\n• Deel—Deel is the global people platform that helps startups hire, manage, pay, and equip anyone, anywhere. Trusted by more than 35,000 fast-growing companies, Deel is the people platform that just works, so teams can scale without the chaos. Visit: https://www.deel.com/sourcery\n\n• Public–Investing platform Public just launched Generated Assets, which lets you turn any idea into an investable index with AI. With Generated Assets, you can build, backtest, refine, and invest in any thesis with AI. Gone are the days of one-size-fits-all ETFs. https://public.com/sourcery\n\nFollow Sourcery for the latest updates!\nhttps://www.sourcery.vc/\n\nDisclosure\nPaid Endorsement. Brokerage services by Open to the Public Investing Inc, member FINRA & SIPC. Advisory services by Public Advisors LLC, SEC-registered adviser. Crypto trading provided by Zero Hash LLC, licensed by the NYSDFS. Generated Assets is an interactive analysis tool by Public Advisors. Output is for informational purposes only and is not an investment recommendation or advice. See disclosures at public.com/disclosures/ga. Matched funds must remain in your account for at least 5 years. Match rate and other terms are subject to change at any time.\n \n\n𝐓𝐈𝐌𝐄𝐒𝐓𝐀𝐌𝐏𝐒\n\n(00:00) Michel Del Buono, CIO a16z Perennial\n(01:25) The idea behind a16z Perennial\n(03:38) What’s broken in wealth management\n(09:05) How wealth has changed over time\n(11:57) How fee structures shape portfolios\n(15:26) Why single family offices are hard to run\n(19:47) Who wealth management is really for\n(23:26) What makes Perennial different\n(22:21) Preparing for massive liquidity events: SpaceX, OpenAI...\n(24:01) How to choose the right wealth manager\n(26:39) Why switching firms is so hard\n(28:01) How portfolios are actually built\n(31:29) Why volatility is an opportunity\n(32:47) Why real estate is so powerful\n(34:55) Taxes and the Billionaire Tax debate\n(38:46) Should you move to save taxes?\n(40:59) SPAC losses and how they affect taxes\n(42:21) Secondary deals, SPVs and the risks\n(46:16) What drives returns in Venture Capital\n(49:42) Biggest Lesson from Marc Andreessen & Ben Horowitz\n(51:27) The biggest mistake founders make with money\n(52:53) How to invest after a big exit\n(54:16) Concerns around private credit\n(56:38) What big IPOs mean for markets\n(58:08) Keeping up with markets\n(59:35) What’s the focus this year at a16z",
+    "channelTitle": "Sourcery with Molly O'Shea",
+    "publishDate": "2026-03-27T13:00:49Z",
+    "duration": "PT1H1M",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/eiu81s0iyj8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Marc Andreessen"
+  },
+  {
     "id": "b2RNduOpZ_Q",
     "company": "anthropic",
     "category": "anthropic",
@@ -833,6 +901,23 @@
     "person": "Josh Woodward"
   },
   {
+    "id": "ngftMkZOxZQ",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Is AI Faking Human Consciousness? How AI Will Destroy Human Truth",
+    "description": "CHAPTERS  ⤵ \n00:00 - AI News: Brain Cells Playing Doom & Soft Robots \n03:33 - Biocomputing: Can 800,000 Human Brain Cells Learn Doom? \n05:05 - Robotics: University of Southern Denmark’s New Soft Robot \n05:59 - The Fly Connectome: Simulating a Fruit Fly Brain in the Matrix \n07:47 - Elon Musk vs. Amanda Askell: The Fight Over AI Moral Frameworks \n11:53 - AI Consciousness: Sapience vs. Sentience in LLMs \n14:20 - The Alignment Problem: Can AI Treat Values as Sacred? \n17:19 - Emergent Behavior: How Claude Reverse-Engineered its own Benchmark \n19:22 - Privacy Alert: Tracking Cars via Tire Pressure Sensors (TPMS) \n21:09 - Agentic AI: The Accountability Gap in Autonomous Systems \n23:12 - Gen Z & AI: How \"Social Offloading\" is Changing Relationships \n24:57 - AI Safety: Why Ethical Reasoning is Better Than Guardrails\n27:18 - Philosophy: Does Truth Define Humanity in a Post-Fact World?\n\nSOURCES  ⤵ \nhttps://www.instagram.com/reels/DVj3lDsmR7V/\n\nhttps://www.instagram.com/reels/DVeO-GREUwE/\n\nhttps://www.reddit.com/r/singularity/comments/1roins8/eonsys_releases_video_of_a_simulated_fly_running/\n\nhttps://medium.com/fourth-wave/elon-musk-cant-stop-attacking-this-woman-politics-feminism-technology-psychology-8c23ac3cf610\n\nhttps://medium.com/fourth-wave/elon-musk-cant-stop-attacking-this-woman-politics-feminism-technology-psychology-8c23ac3cf610\n\nhttps://www.verysane.ai/p/might-an-llm-be-conscious\n\nhttps://www.lesswrong.com/posts/sjeqDKhDHgu3sxrSq/sacred-values-of-future-ais\n\nhttps://www.anthropic.com/engineering/eval-awareness-browsecomp\n\nhttps://techxplore.com/news/2026-02-car-sensors-track.html\n\nhttps://singularityhub.com/2026/03/06/autonomous-ai-agents-have-an-ethics-problem/\n\nhttps://www.cnn.com/2026/03/07/health/gen-z-ai-conversations-wellness\n\nhttps://techxplore.com/news/2026-02-safe-ai-isnt-fairness-honesty.html\n\nhttps://phys.org/news/2026-03-truth-lost-philosopher-humanity.html\n\n@anthropic-ai \n@CNN \n@Wes-Dylan  \n\nWATCH THE YOUTUBE VIDEO  ⤵    \nhttps://youtu.be/ngftMkZOxZQ",
+    "channelTitle": "Dylan Curious",
+    "publishDate": "2026-03-12T14:08:50Z",
+    "duration": "PT30M27S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/ngftMkZOxZQ/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Amanda Askell"
+  },
+  {
     "id": "ddTvK9nlquM",
     "company": "openai",
     "category": "openai",
@@ -848,6 +933,23 @@
       "height": 720
     },
     "person": "Mark Chen"
+  },
+  {
+    "id": "FjlymGBt-vY",
+    "company": "openai",
+    "category": "openai",
+    "title": "We Interviewed Sam Altman at TreeHacks 2026",
+    "description": "0:00 Steam tunneling and freshman year at Stanford\n2:03 Founding Loopt in soph year\n4:16 YC changes everything\n6:16 Dropping out of Stanford\n8:16 How to raise\n10:38 How OpenAI was born, the early days\n15:18 How he met OpenAI co-founders\n17:03 OpenAI's first day in @gdb's apartment\n19:01 When moment when OpenAI started to work\n20:33 Why GPT-2 was the turning point\n22:07 AGI will be here in 2 years.\n25:32 What should people build now?\n29:57 How AI will impact politics, religion, and society\n34:24 How do you compete with OpenAI?\n36:40 Is OpenAI *really* burning cash dangerously fast?\n37:46 Sam, are you happy?\n40:23 What AI subfield today feels like OpenAI in 2016?\n42:26 Custom silicon & hardware",
+    "channelTitle": "TreeHacks",
+    "publishDate": "2026-03-08T21:11:44Z",
+    "duration": "PT43M36S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/FjlymGBt-vY/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Sam Altman"
   },
   {
     "id": "julbw1JuAz0",
@@ -1054,6 +1156,40 @@
     "person": "Chris Lehane"
   },
   {
+    "id": "PQU9o_5rHC4",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Inside Claude Code With Its Creator Boris Cherny",
+    "description": "A very special guest on this episode of the Lightcone! Boris Cherny, the creator of Claude Code, sits down to share the incredible journey of developing one of the most transformative coding tools of the AI era. \n\n00:00 Intro\n01:45 The most surprising moment in the rise of Claude Code\n02:38 How Boris came up with the idea for Claude Code\n05:38 The elegant simplicity of terminals\n07:09 The first use cases\n09:00 What’s in Boris’ CLAUDE.md?\n11:29 How do you decide the terminal’s verbosity? \n15:44 Beginner’s mindset is key as the models improve\n18:56 Hyper specialists vs hyper generalists\n21:51 The vision for Claude teams\n23:48 Subagents\n25:12 A world without plan mode? \n28:38 Tips for founders to build for the future\n30:07 How much life does the terminal still have? \n30:57 Advice for dev tool founders\n32:11 Claude Code and TypeScript parallels \n35:34 Designing for the terminal was hard\n37:36 Other advice for builders\n40:31 Productivity per engineer\n41:36 Why Boris chose to join Anthropic \n44:46 How coding will change\n46:22 Outro\n\nApply to Y Combinator: https://www.ycombinator.com/apply\nWork at a startup: https://www.ycombinator.com/jobs",
+    "channelTitle": "Y Combinator",
+    "publishDate": "2026-02-17T15:00:42Z",
+    "duration": "PT50M11S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/PQU9o_5rHC4/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Boris Cherny"
+  },
+  {
+    "id": "n1E9IZfvGMA",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Dario Amodei — “We are near the end of the exponential”",
+    "description": "Dario Amodei thinks we are just a few years away from “a country of geniuses in a data center”. In this episode, we discuss what to make of the scaling hypothesis in the current RL regime, how AI will diffuse throughout the economy, whether Anthropic is underinvesting in compute given their timelines, how frontier labs will ever make money, whether regulation will destroy the boons of this technology, US-China competition, and much more.\n\n𝐄𝐏𝐈𝐒𝐎𝐃𝐄 𝐋𝐈𝐍𝐊𝐒\n* Transcript: https://www.dwarkesh.com/p/dario-amodei-2\n* Apple Podcasts: https://podcasts.apple.com/us/podcast/dario-amodei-the-highest-stakes-financial-model-in-history/id1516093381?i=1000749621800\n* Spotify: https://open.spotify.com/episode/2ZNrpVSrgZMlDwQinl20Ay?si=9D4aG1l7S-2wzLsiILRLIg\n\n𝐒𝐏𝐎𝐍𝐒𝐎𝐑𝐒\n- Labelbox can get you the RL tasks and environments you need. Their massive network of subject-matter experts ensures realism across domains, and their in-house tooling lets them continuously tweak task difficulty to optimize learning. Reach out at https://labelbox.com/dwarkesh\n- Jane Street sent me another puzzle… this time, they’ve trained backdoors into 3 different language models — they want you to find the triggers. Jane Street isn’t even sure this is possible, but they’ve set aside $50,000 for the best attempts and write-ups. They’re accepting submissions until April 1st at https://janestreet.com/dwarkesh\n- Mercury’s personal accounts make it easy to share finances with a partner, a roommate… or OpenClaw. Last week, I wanted to try OpenClaw for myself, so I used Mercury to spin up a virtual debit card with a small spend limit, and then I let my agent loose. No matter your use case, apply at https://mercury.com/personal-banking\n\nTo sponsor a future episode, visit https://dwarkesh.com/advertise.\n\n𝐓𝐈𝐌𝐄𝐒𝐓𝐀𝐌𝐏𝐒\n00:00:00 - What exactly are we scaling?\n00:12:36 - Is diffusion cope?\n00:29:42 - Is continual learning necessary?\n00:46:20 - If AGI is imminent, why not buy more compute?\n00:58:49 - How will AI labs actually make profit?\n01:31:19 - Will regulations destroy the boons of AGI?\n01:47:41 - Why can’t China and America both have a country of geniuses in a datacenter?\n02:05:46 - Claude's constitution",
+    "channelTitle": "Dwarkesh Patel",
+    "publishDate": "2026-02-13T17:11:03Z",
+    "duration": "PT2H22M20S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/n1E9IZfvGMA/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Dario Amodei"
+  },
+  {
     "id": "B26CwKm5C1k",
     "company": "openai",
     "category": "openai",
@@ -1171,6 +1307,23 @@
       "height": 720
     },
     "person": "Sam Altman"
+  },
+  {
+    "id": "lbESr58-7DQ",
+    "company": "google",
+    "category": "google",
+    "title": "Master Google AI Studio in 40 Minutes | Logan Kilpatrick",
+    "description": "📌 Copy the AI system I use to run a one-person $1M+ business: https://www.behindthecraft.com\n🤝 Subscribe to my practical AI newsletter read by 150K+ professionals: https://creatoreconomy.so\n\n​ ​ Logan is the Product Lead for Google AI Studio. I got him to give us an inside look at how he uses AI Studio to build AI Studio (very meta) and how his team ships at startup speed inside Google. AI Studio is the feature that I rely on the most to do my product job better, so don't miss this tutorial.\n\nLogan and I talked about:\n(00:00) Tour of Google AI Studio's Build mode\n(06:29) Live demo: Building a social media content generator\n(09:31) How Logan uses AI Studio to build AI Studio\n(11:34) Cloning the AI Studio UI in 68 seconds\n(12:58) Getting AI to show you 5-6 design options in one UI\n(17:20) Live demo: Building a restaurant finder with Google Maps\n(21:12) Using annotate mode to give visual feedback\n(34:09) \"There's one mode and the mode is we ship fast\"\n(36:00) What Logan looks for when hiring PMs\n\nThanks to our sponsors:\nLinear: The AI agent platform for modern teams https://linear.app/behind-the-craft\nReplit: From 0 to full stack app in 2 min https://replit.com/?utm_source=creator&utm_medium=organic&utm_campaign=creator_program&utm_content=peteryang \n\n📌 Get the takeaways: https://creatoreconomy.so/p/master-google-ai-studio-for-prototyping-logan-kilpatrick\n\nWhere to find Logan:\nX: https://x.com/OfficialLoganK\nWebsite: https://aistudio.google.com/apps\n\nSubscribe to this channel - more interviews coming soon!",
+    "channelTitle": "Peter Yang",
+    "publishDate": "2026-01-25T14:01:14Z",
+    "duration": "PT39M18S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/lbESr58-7DQ/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Logan Kilpatrick"
   },
   {
     "id": "-RPbxvz6sB8",
@@ -6248,6 +6401,23 @@
     "person": "Daniela Amodei"
   },
   {
+    "id": "GLKoDkbS1Cg",
+    "company": "openai",
+    "category": "openai",
+    "title": "The Possibilities of AI [Entire Talk] - Sam Altman (OpenAI)",
+    "description": "Sam Altman is the co-founder and CEO of OpenAI, the AI research and deployment company behind ChatGPT and DALL-E. Altman was president of the early-stage startup accelerator Y Combinator from 2014 to 2019. In 2015, he co-founded OpenAI as a nonprofit research lab with the mission to build general-purpose artificial intelligence that benefits all humanity. In this conversation with Stanford adjunct lecturer Ravi Belani, Altman gives advice for aspiring AI entrepreneurs and shares his insights about the opportunities and risks of AI tools and artificial general intelligence.\n\n—-----------------------------------\nStanford eCorner content is produced by the Stanford Technology Ventures Program. At STVP, we empower aspiring entrepreneurs to become global citizens who create and scale responsible innovations.\n\nCONNECT WITH US\nTwitter: https://twitter.com/ECorner \nLinkedIn: https://www.linkedin.com/company/stanfordtechnologyventuresprogram/ \nFacebook: https://www.facebook.com/StanfordTechnologyVenturesProgram/ \nYouTube: https://www.youtube.com/user/ecorner \n\nLEARN MORE\neCorner Website: https://ecorner.stanford.edu/\nSTVP Website: https://stvp.stanford.edu/\n\nSupport our mission of providing students and educators around the world with free access to Stanford University’s network of entrepreneurial thought leaders: https://ecorner.stanford.edu/give.",
+    "channelTitle": "Stanford eCorner",
+    "publishDate": "2024-05-01T15:05:26Z",
+    "duration": "PT45M49S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/GLKoDkbS1Cg/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Sam Altman"
+  },
+  {
     "id": "kPQgWd0QCY0",
     "company": "anthropic",
     "category": "anthropic",
@@ -6581,6 +6751,40 @@
     "person": "Jenny Wen"
   },
   {
+    "id": "I_mS2LJH6gU",
+    "company": "openai",
+    "category": "openai",
+    "title": "ABAP入門（上）-chatGPT生成内容，真人讲演，ABAP入門带你快速熟悉ABAP程序开发",
+    "description": "大家好，这里是海威NS的IT即战力会，我们的目标是支援大家学习IT新技术，在日本IT业界获得稳定的工作。欢迎登录我们的youtube频道，成为我们的会员。\n\nこんにちは、海威NSのIT即戦力セミナーです。私たちの目標は、皆様に支援して、ITの新しい技術を学び、日本のIT業界で安定な仕事を取ることです。ようこそ、私たちのYouTubeチャンネルに登録して、私たちのメンバーになりましょう。\n\n【频道登録】：https://www.youtube.com/@highwayns\n\n【视频内容】：chatGPT生成内容，真人讲演，ABAP入門带你快速熟悉ABAP程序开发\n\nEmail：tei952@hotmail.com\nHP：http://edu.ujhb.org/\nYoutube：https://www.youtube.com/channel/UCT55QlKl1QDlD06iYK2smrQ\nTelegram：https://t.me/+gK1gYBp9xE4wY2U1\nTwitter：https://twitter.com/tei952\nFacebook：https://www.facebook.com/jun.zheng.547\nlinkedin：https://www.linkedin.com/in/gun-tei-7ab7a749/\nLineId：zheng7519\nWechat：17055395\nwechat公众号：海威康联\n百度：海威咨询\n\n#abap #youtube #ai #bigdata #nft",
+    "channelTitle": "IT即戦力セミナー",
+    "publishDate": "2023-04-18T06:14:11Z",
+    "duration": "PT29M33S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/I_mS2LJH6gU/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "person": "Jiayi Weng"
+  },
+  {
+    "id": "hECYru0kEh4",
+    "company": "openai",
+    "category": "openai",
+    "title": "Highlights: Lex Fridman Interview with Sam Altman of OpenAI",
+    "description": "This highlight video showcases the best clips from Lex Fridman's interesting interview with Sam Altman, CEO and founder of OpenAI (ChatGPT). This 30 minute video puts together and highlights the best parts from Lex Fridman's longer (over 2 hours) interview with Sam Altman where all aspects of ChatGPT and AI are discussed. The full length video interview is available Lex Fridman's YouTube Channel here: https://youtu.be/L_Guz73e6fw \n\n#chatgpt #artificialintelligence #ai #education #gpt4 #samaltman #lexfridman #openai \n-------------------\nE-book on Amazon: \n\"ChatGPT AI in Education: What it is and How to Use it in the Classroom\" https://www.amazon.com/dp/B0BRWXPVB7\n\n​Sovorel Educational Blog: http://sovorelpublishing.com\n-----\nSovorel Apparel and Design Store for cool clothing/accessories dealing with teaching & learning: https://teespring.com/stores/sovorel\n​-----\n\nAdditional Credits: Outro music: «Elevate» from https://Bensound.com​\n​-----\n\nFor information about AI like ChatGPT and education check out my educational blog at http://sovorelpublishing.com, Educational YouTube Channel https://www.youtube.com/@sovorel-EDU and follow me on Twitter https://twitter.com/BrentAAnders",
+    "channelTitle": "Sovorel",
+    "publishDate": "2023-03-27T08:48:50Z",
+    "duration": "PT36M9S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/hECYru0kEh4/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Sam Altman"
+  },
+  {
     "id": "Dm5sfALoL1Y",
     "company": "google",
     "category": "google",
@@ -6667,6 +6871,23 @@
       "height": 720
     },
     "person": "Sebastian Borgeaud"
+  },
+  {
+    "id": "HvtibgLaGf8",
+    "company": "openai",
+    "category": "openai",
+    "title": "Data Exchange podcast (Episode 137): Mark Chen of OpenAI",
+    "description": "Episode notes: https://thedataexchange.media/how-dalle-works/\nMark Chen is a Research Scientist at OpenAI and part of the team behind DALL·E 2, a new AI system that can create realistic images and art based on natural language descriptions. \n***Sections*** ↓\nIntroduction to Mark Chen - 00:00:03\nWhat is DALL·E and who are the target users? - 00:00:26\nUse cases, evaluating models, training data, and quality checks - 00:01:35\nEvolution from DALL·E 1 to Clip to DALL·E 2  - 00:08:14\nDALL·E , Clip introduced, and diffusion models - 00:11:39\nOrigin story of DALL·E and describe it now - 00:16:10\nDo you build your own tools for training? - 00:21:45\nImportance of clean and fair training data - 00:28:02\nBroader trends and transformers - 00:30:21",
+    "channelTitle": "Gradient Flow",
+    "publishDate": "2022-07-21T11:00:08Z",
+    "duration": "PT41M9S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/HvtibgLaGf8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Mark Chen"
   },
   {
     "id": "Uy4OYU7PQYA",
@@ -6765,6 +6986,23 @@
     "platform": "youtube",
     "thumbnail": {
       "url": "https://i.ytimg.com/vi/qg6-mdcVBeo/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Marc Andreessen"
+  },
+  {
+    "id": "pLNQZegq7KA",
+    "company": "a16z",
+    "category": "a16z",
+    "title": "[PREMONEY 2013] Marc Andreessen & Dave McClure: The Future of Startups, VC's, and Technology",
+    "description": "-~-~~-~~~-~~-~-\nPlease watch: \"Growing with Pinterest - Pinterest Marketing for Startups\" \n➨ https://www.youtube.com/watch?v=spjaZRokMVo\n-~-~~-~~~-~~-~-",
+    "channelTitle": "500 Global",
+    "publishDate": "2013-07-18T22:06:57Z",
+    "duration": "PT41M54S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/pLNQZegq7KA/maxresdefault.jpg",
       "width": 1280,
       "height": 720
     },

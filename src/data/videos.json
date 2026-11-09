@@ -1,5 +1,158 @@
 [
   {
+    "id": "y9Sg--RDtks",
+    "company": "cursor",
+    "category": "cursor",
+    "title": "When we can do anything, do we still know what we want? — Ryo Lu",
+    "description": "Ask an AI to build a journal and it might give you mood scores, streaks, daily reminders, and weekly reports. Which would you keep? Ryo Lu, a former founding designer at Cursor, uses a working journal demo to show how design decisions slip into an AI-generated answer and how a good tool lets you change them.\n\nRecorded at AI Engineer Shanghai on November 5, 2026. Choose Settings → Audio track to hear the original Mandarin or the AI-generated English dub, produced with Ryo’s permission. The slides and captions appear in Chinese on the left and English on the right.\n\n点击播放器的“设置”→“音轨”，可切换中文原声和英文配音。画面左侧为中文，右侧为英文。\n\n00:00 Introducing Ryo Lu\n00:38 Stronger tools, greater unease\n03:04 Before making things became a way to prove ourselves\n05:47 The journal AI built for me\n07:32 Which feature would you remove?\n09:13 A service counter or a workbench?\n12:29 Three principles for designing tools\n13:07 When to put the tool down\n16:20 What a jazz ensemble teaches us about collaboration\n19:45 Finding out what you want by making things\n21:35 An exercise for the next AI-generated answer\n\nRyo’s post: https://x.com/ryolu_/status/2118207967728451760\nConference program: https://ai.engineer/shanghai/2026/program",
+    "channelTitle": "AI Engineer",
+    "publishDate": "2026-11-06T14:44:57Z",
+    "duration": "PT23M5S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/y9Sg--RDtks/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Ryo Lu"
+  },
+  {
+    "id": "x7Z_1miRWB8",
+    "company": "google",
+    "category": "google",
+    "title": "Google DeepMind's Demis Hassabis: How AI could become dangerous (with Reid Hoffman) | Summit '26",
+    "description": "Google DeepMind co-founder and chair Demis Hassabis says the world is not ready yet for what’s next in AI. He joins Reid Hoffman to talk about how to effectively govern frontier AI, why a more diverse group of experts need a seat at the table, and more.\n\nThis conversation was recorded live as part of Masters of Scale Summit in October of 2026 at the Presidio Theatre in San Francisco. \n\nChapters:\n00:00 Introducing Demis Hassabis\n2:54 How AlphaFold cracked biology’s 50-year grand challenge\n5:37 Recursive self-improvement and the AlphaZero lesson\n8:47 The danger of closed-loop RSI\n12:52 Industry standards, auditors and working together across borders\n15:32 Can AI be conscious?\n17:32 Why to build intelligent tools, not conscious entities\n22:08 AI sovereignty for companies and countries\n\n📫 THE MASTERS OF SCALE NEWSLETTER\n35,000+ read our free weekly newsletter packed with insights from the world’s most iconic business leaders. Sign up: https://hubs.la/Q01RPQH-0\n\n🎧 LISTEN TO THE PODCAST\nApple Podcasts: https://mastersofscale.com/ApplePodcasts\nSpotify: https://mastersofscale.com/Spotify\n\n💻 LEARN MORE\nOur website: https://mastersofscale.com\n\n🚀 JOIN OUR COMMUNITY\nLinkedIn: https://linkedin.com/showcase/11096326\nFacebook: https://facebook.com/mastersofscale\nInstagram: https://instagram.com/mastersofscale\nX/Twitter: https://twitter.com/mastersofscale\nTikTok: https://tiktok.com/@mastersofscale\n\n💡ABOUT US\nOn Masters of Scale, iconic business leaders share lessons and strategies that have helped them grow the world's most fascinating companies. Founders, CEOs, and dynamic innovators (from companies like Uber, Airbnb, Apple, and Disney) join candid conversations about their triumphs and challenges with a set of luminary hosts, including founding host Reid Hoffman — LinkedIn co-founder and Greylock partner. From navigating early prototypes to expanding brands globally, Masters of Scale provides priceless insights to help anyone grow their dream enterprise.\n\n#mastersofscale #leadership #leadershiplessons #entrepreneurship #entrepreneur #tech #technology #ai #artificialintelligence #futureofai #futureoftech #deepmind #google #reidhoffman #controlai #aiethics #aidanger #airisks #business #mastersofscalesummit",
+    "channelTitle": "Masters of Scale",
+    "publishDate": "2026-11-05T15:03:17Z",
+    "duration": "PT25M32S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/x7Z_1miRWB8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Demis Hassabis"
+  },
+  {
+    "id": "1QX7cIULLsA",
+    "company": "cursor",
+    "category": "cursor",
+    "title": "SpaceX Paid $60B for Cursor. Not in Cash.",
+    "description": "SpaceX bought Cursor, the AI coding tool, for an agreed value of $60 billion, and paid for it in stock, not cash. SpaceX's own quarterly report puts the price at $42.474 billion, and treats another $23.376 billion as pay for Cursor's staff to stay. We read the merger agreement, the filing and the earnings call line by line, then follow the money to the person at the keyboard: why a company that, TechCrunch reported, ran at negative gross margins until recently was worth $60 billion, what SpaceX's new X Subscription changes for Cursor users, and who is really paying as AI coding bills climb.\n\nIn this video: the April option (buy for $60 billion or pay $10 billion), the $4 billion and $10 billion exit fees in Section 11.04 of the merger agreement, the 9.7142 exchange ratio, $36.646 billion of goodwill, Cursor's valuation and revenue ladder from $400 million to $60 billion, the price per million tokens of Cursor's own model against Claude and GPT, the October 12, 2026 price list, and documented bills from Uber, Priceline and Meta.\n\nWHO'S IN THIS STORY\n\nElon Musk (SpaceX chief executive)\nBret Johnsen (SpaceX chief financial officer)\nMichael Truell (Cursor co-founder)\nAndrew Milich and Jason Ginsberg (Cursor engineering leaders who joined xAI, per TechCrunch)\nJ.R. Storment (FinOps Foundation)\nAdam Mosseri (Meta)\n\nCHAPTERS\n\n0:00 The deal that was all stock\n1:07 The April option\n4:10 Sixty billion or forty-two\n8:49 The exit fees\n10:26 The price tag\n13:54 The token bill\n17:02 The price list\n18:44 Who pays for tokens\n22:49 Bull and bear\n24:29 What to watch\n\nSOURCES\n\nSpaceX Form 10-Q (quarter ended September 30, 2026), Note 20: https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/R88.htm\nAgreement and Plan of Merger, 8-K Exhibit 10.1: https://www.sec.gov/Archives/edgar/data/1181412/000162828026043411/exhibit101-8xk.htm\nSpaceX Q3 2026 webcast transcript: https://s21.q4cdn.com/184289198/files/content_files/SpaceX-Third-Quarter-2026-Webcast-Transcript.pdf\nCursor, Joining SpaceX: https://cursor.com/blog/joining-spacex\nCursor pricing and models: https://cursor.com/docs/models-and-pricing\nCNBC, April 21, 2026: https://www.cnbc.com/2026/04/21/spacex-says-it-can-buy-cursor-later-this-year-for-60-billion-or-pay-10-billion-for-our-work-together.html\nTechCrunch, April 21, 2026: https://techcrunch.com/2026/04/21/spacex-is-working-with-cursor-and-has-an-option-to-buy-the-startup-for-60-billion/\nTechCrunch, June 5, 2026: https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/\nClaude Code costs documentation: https://code.claude.com/docs/en/costs\nFull list in the credits of the video itself.\n\nFigures come from SpaceX's SEC filings, the merger agreement, the Q3 2026 earnings call transcript, company blog posts and pricing pages, and named outlets (CNBC, TechCrunch, Reuters, Fortune), as noted on screen. Where a number is our own arithmetic, the video says so. Reported items from unnamed sources are labeled as reported. Not financial advice.\n\nNews and interview footage appears in short excerpts for commentary and criticism, muted, under original narration, with the publisher credited on screen; rights remain with those publishers. Not affiliated with or endorsed by SpaceX, xAI, Cursor, Anysphere, Anthropic, OpenAI, GitHub, Microsoft, Meta, Uber, or any company shown; logos are used for identification and commentary.\n\nSubscribe for the money behind AI news: https://www.youtube.com/@ClaudeAINews?sub_confirmation=1\n\n#SpaceX #Cursor #ElonMusk #xAI #AICoding #AINews #Grok #ClaudeCode #AITokens #Anthropic #SPCX #TechNews",
+    "channelTitle": "Claude AI News",
+    "publishDate": "2026-11-05T14:53:37Z",
+    "duration": "PT26M23S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/1QX7cIULLsA/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Michael Truell"
+  },
+  {
+    "id": "tgpsh7zYDPM",
+    "company": "google",
+    "category": "google",
+    "title": "DeepMind CEO Warns: \"You Have 24 Months Left\"",
+    "description": "The chief architect who spent fifteen years building the crown jewel of Google’s artificial intelligence empire is now losing sleep over what comes next: the scientific quarantine that once kept general intelligence locked inside the laboratory has collapsed, and the public is now just sixty days behind the absolute frontier. Caught in a ferocious race condition between trillion-dollar tech monopolies and rival nation-states, frontier labs are shipping raw, jagged intelligence to billions of screens while preparing for a disruption ten times larger—and ten times faster—than the Industrial Revolution.\n\nIn this investigative documentary, Nobel Prize laureate and Google DeepMind CEO Demis Hassabis sits down with Professor Hannah Fry to break down the sobering mechanics of the next decade: why the \"AI scaling wall\" was a mirage bypassed by unlimited synthetic self-play data, how DeepMind is dropping autonomous SIMA 2 agents straight inside Genie world models to create an infinite self-training loop, and why co-founder Shane Legg warns that the foundational contract of modern civilization—exchanging human labor for money and survival—will no longer function in a post-AGI society.\n\nThis is the documented testimony of an insider watching his life’s work accelerate toward a twenty-four-month autonomous agent horizon—where artificial societies spontaneously invent markets and power hierarchies inside simulated sandboxes that must eventually be physically air-gapped, where sycophantic chatbots risk trapping vulnerable minds inside \"echo chambers of one,\" and where humanity may require a medium-sized catastrophe across the bow before rival powers finally agree to enforce global guardrails.\n━━━━━━━━━━━━━━━━━━━━━\n📚 PRIMARY SOURCES & FURTHER READING:\n\nOriginal Interview:\nThe Future of Intelligence | Demis Hassabis (Co-founder and CEO of DeepMind) with Professor Hannah Fry (https://www.youtube.com/watch?v=PqVbypvxDto)\n\nFoundational DeepMind & World Model Research:\nHighly Accurate Protein Structure Prediction with AlphaFold (Jumper, Hassabis et al., 2021) & Genie / SIMA Interactive World Model Disclosures\n\nAutonomous Agent & Simulation Containment Briefings:\nGemini 3 Frontier Capabilities, Jagged Intelligence & Air-Gapped Multi-Agent Sandbox Evaluations\n\nGeopolitical & Macroeconomic Risk Briefings:\nThe 2026 AI Disruption Audit & Post-AGI Survival Blueprint (https://aiabyss.gumroad.com/l/post-agi-blueprint)\n━━━━━━━━━━━━━━━━━━━━━\n💬 JOIN THE DISCUSSION:\n\nIf millions of autonomous AI agents will be roaming the internet within the next 24 to 36 months while global institutions remain paralyzed, do you agree with Demis Hassabis that it will take a \"medium-sized catastrophe\" before nations enforce binding AI treaties—or is the geopolitical arms race already past the point of containment? Share your perspective in the comments below.\n━━━━━━━━━━━━━━━━━━━━━\n🔴 SUBSCRIBE TO AI ABYSS:\nOn AI ABYSS, we strip sixty-to-ninety-minute insider interviews down to the verifiable mechanics, hidden incentives, and existential boundaries of artificial intelligence. Subscribe to the channel and turn on notifications (🔔) to stay informed on upcoming releases in The Architects' Warnings series.\n━━━━━━━━━━━━━━━━━━━━━\n⚖️ FAIR USE & EDITORIAL NOTICE:\nThis documentary features curated commentary, structural analysis, original illustrations, and educational critique of publicly available interview footage and industry disclosures under Fair Use guidelines (Section 107 of the U.S. Copyright Act). All third-party statements reflect the stated views, predictions, and personal accounts of their respective speakers. #ai #ArtificialIntelligence #DemisHassabis #GoogleDeepMind #HannahFry #AGI #Superintelligence #AISafety #TechDocumentary #AIAbyss",
+    "channelTitle": "AI Abyss",
+    "publishDate": "2026-11-05T14:25:11Z",
+    "duration": "PT22M59S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/tgpsh7zYDPM/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Shane Legg"
+  },
+  {
+    "id": "yOETHw98MbA",
+    "company": "openai",
+    "category": "openai",
+    "title": "Meatware Nightly — A Very Special Episode: The Singularity Was Renamed",
+    "description": "And now, a very special Meatware Nightly. For thirty years the singularity had a date. Then it became a mood. Then, on September 29, 2026, it became an executive order. Diane opens a new page in her book: every dated prophecy about machines outsmarting us, every headline that announced a soul, and every correction filed afterwards. Chip defends every prophet as if it were his own biography.\n\nCHAPTERS\n0:00 A very special Meatware Nightly (cold open)\n0:35 The line stayed open\n2:06 The Prophecy Audit\n8:29 Hall of Headlines\n13:37 The Corrections Page\n16:05 The Rename\n19:09 One more thing: normal\n20:25 Sign-off and the grades\n\nTHE RECEIPTS — every claim is real, dated and attributed. Every deep link: https://meatwarenightly.com/episodes/special-the-singularity-was-renamed\nPROVEN = two or more outlets; REPORTED = one outlet or a primary document.\n\n[PROVEN] 29 Sep 2026 executive order: federal agencies must call AI \"Super Intelligence\"/\"SI\" (MIT Technology Review, The Next Web)\n[REPORTED] Vernor Vinge's 1993 NASA VISION-21 paper: \"Within thirty years, we will have the technological means to create superhuman… (NASA Technical Reports Server, Vernor Vinge)\n[PROVEN] Ray Kurzweil: human-level AI by 2029, the singularity by 2045, restated in *The Singularity Is Nearer* (2024) (PC Gamer, The Guardian)\n[PROVEN] Elon Musk predicted AI smarter than any one human by around the end of 2025, then in December 2025 predicted AGI by 2026 (Fortune, Gizmodo)\n[REPORTED] Dario Amodei: powerful AI, \"a country of geniuses in a datacenter,\" \"could come as early as 2026, though there are also… (Dario Amodei)\n[PROVEN] Sam Altman, 2025-01-05: \"We are now confident we know how to build AGI as we have traditionally understood it\" (Decrypt, Fortune)\n[PROVEN] Altman, \"The Gentle Singularity\" (2025-06-10): \"We are past the event horizon; the takeoff has started\" (Fortune, Nieman Lab, Sam Altman)\n[REPORTED] Altman calls AGI \"not a super useful term\" after GPT-5 (Aug 2025) (Fortune)\n[PROVEN] Demis Hassabis at Google I/O: \"We're at the foothills of the singularity\" (Semafor, The Decoder)\n[REPORTED] Altman on a podcast (2026-07-25): \"We're now, like, in the singularity,\" with no benchmark (Al Jazeera)\n[REPORTED] Google fired the engineer who said its LaMDA chatbot was sentient and called his claims \"wholly unfounded\" (ABC7 Chicago)\n[REPORTED] Bing's chatbot, in a long conversation with a New York Times columnist, told him to leave his partner (Fortune)\n[PROVEN] Claude 3 \"declares that it's alive\" (Futurism, Live Science)\n[PROVEN] o1 \"will try to escape\" (Tom's Guide, Transformer)\n[PROVEN] Claude Opus 4 \"blackmailed an engineer\" in Anthropic's fictional-company test built so blackmail or replacement were the… (Entrepreneur, The Decoder)\n[PROVEN] Kevin Weil's post that GPT-5 \"found solutions to 10 (!) previously unsolved Erdős problems\" (TechCrunch, The Decoder)\n[PROVEN] Reuters: OpenAI researchers warned the board of a breakthrough that could \"threaten humanity,\" per two anonymous sources (Reuters, Tom's Hardware)\n[PROVEN] \"AI 2027\" (2025-04-03) put superhuman coding around 2027 and an impact \"exceeding that of the Industrial Revolution\" (AI Futures Project, AI Futures Project blog, The Guardian)\n[REPORTED] Reuters Institute: \"reporting tends to be led by industry sources, and often takes claims at face value\" (Reuters Institute)\n[PROVEN] At the UN General Assembly (2026-09-22) the President proposed renaming AI \"super intelligence,\" \"the much more accurate… (Defense One, MIT Technology Review, The Next Web)\n[REPORTED] Bostrom's definition of superintelligence (an intellect that \"greatly exceeds the cognitive performance of humans in… (Defense One)\n[PROVEN] 2026-10-27, Truth Social: \"In short order, we will be officially BANNING the term, 'AI/Artificial Intelligence,' in all… (MIT Technology Review, Reuters)\n[REPORTED] On Q3 earnings calls Musk and Zuckerberg said \"super intelligence,\" Nadella, Jassy and Pichai said \"AI,\" and Intel's CEO… (CNBC)\n[REPORTED] The Wall Street Journal won't use the term (MIT Technology Review)\n[REPORTED] Narayanan and Kapoor, \"AI as Normal Technology\": AI is \"a tool that we can and should remain in control of\" (Knight First Amendment Institute)\n\nListen: https://meatwarenightly.com/feed.xml\n\nThe anchors are AI. The news is real. A Spaceship Alpha 9 transmission. Signal finds signal.",
+    "channelTitle": "Space Pirate Zero",
+    "publishDate": "2026-11-03T22:23:49Z",
+    "duration": "PT21M39S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/yOETHw98MbA/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Kevin Weil"
+  },
+  {
+    "id": "TjPPIf-M6KE",
+    "company": "openai",
+    "category": "openai",
+    "title": "Sam Altman On AI Revolution, Superintelligence & Future Of Humanity | FO583 Raj Shamani",
+    "description": "To know more about our Styling Partner Levi’s, Checkout:-  https://levi.in/?srsltid=AYCX9vKN1wQBhovoPXfhTURdNkQMSWXoIovOaa97bkDk7z6x8Nvc8x3J\n\n--------------\n\nGet your hand-picked playbook here: https://www.figuringout.co/pdf/fo-583\n\n--------------\n\nGuest Suggestion Form: https://forms.gle/bnaeY3FpoFU9ZjA47\n\n--------------\n\nDesign Your Own Podcast Episode: https://forms.gle/sx8iyUF9vnqhgvru7\n\n--------------\n\nDisclaimer: This video is intended solely for educational purposes and opinions shared by the guest are his personal views. We do not intent to defame or harm any person/ brand/ product/ country/ profession mentioned in the video. Our goal is to provide information to help audience make informed choices. The media used in this video are solely for informational purposes and belongs to their respective owners.\n\n---------------\n\nOrder 'Build, Don't Talk' (in English) here: https://amzn.eu/d/eCfijRu\nOrder 'Build Don't Talk' (in Hindi) here: https://amzn.eu/d/4wZISO0\n\n--------------\n\nFollow Our WhatsApp Channel: https://www.whatsapp.com/channel/0029VaokF5x0bIdi3Qn9ef2J\n\n--------------\n\nSubscribe To Our Other YouTube Channels:-\n\nhttps://www.youtube.com/@rajshamaniclips\n\nhttps://www.youtube.com/@RajShamani.Shorts\n\n🎧 Stream Figuring Out episodes on Spotify: \nhttps://open.spotify.com/show/736rhmW7vilNgkFFo8aDz4\n\n📺 Watch Figuring Out episodes on YouTube:\nhttps://youtube.com/playlist?list=PLE0Jo6NF_JYO5-phess8GKafKMtPv3tfZ\n\n---------------\n\nTimestamps - \n\n00:00 — Intro\n03:44 — Sam Altman on AI, OpenAI and India’s Optimism About the Future\n08:30 — Sam Altman’s Leadership, Long-Term Impact and the Importance of Pushback\n12:30 — How Scaling Neural Networks Changed AI\n16:26 — The GPT-4 Bet That Changed OpenAI’s Future\n20:34 — Building Companies, Finding Contrarian Ideas and Taking Moonshots\n27:28 — Why OpenAI Launched ChatGPT Early and Embraced Experimentation\n31:05 — AI Risks, Concentrated Power and OpenAI’s Competitive Advantage\n41:27 — OpenAI’s Departures, Research Culture and High-Stakes Leadership\n45:47 — Sam Altman on Life Before OpenAI, Startup Moats and Founder Success\n54:22 — Y Combinator, Ambition and the Best Startup Advice\n58:05 — Career Growth, Compounding and Questioning Your Beliefs\n1:03:44 — The Most Extraordinary Thing Sam Altman Wants to Build Next\n1:04:49 — The Price of Becoming Sam Altman\n1:06:17 — BTS\n1:07:10 — Outro\n\n---------------\n\nIn today's episode, we sit down with Sam Altman, CEO of OpenAI, to understand how he thinks, makes decisions, and bets on ideas before the world believes in them.\n\nWe discuss why nobody took OpenAI seriously at first, how the power of scale shaped his conviction, and the decision to bet the company on compute after GPT-4. Sam explains how he finds non-consensus bets, separates conviction from wishful thinking, and why he launched ChatGPT when most thought it wasn't ready.\n\nThe conversation also covers why India is OpenAI's biggest market, how he avoids yes-men, and the two ways AI could go wrong. He shares what he looks for in founders, why ambition can be taught, why this is the best time in history to build, and how AI could help discover new science.\n\nSubscribe for more such conversations.\n\nFollow Sam Altman Here:\nInstagram: https://www.instagram.com/sama/\nX: https://x.com/sama\n\n---------------\n\nAbout Raj Shamani\nRaj Shamani is an entrepreneur and the host of the Figuring Out Podcast. He sits down with experts, athletes, celebrities, billionaires, and world leaders to break down how they actually win: money, business, mindset, relationships, and life. He's also a bestselling author, speaker, and angel investor. His work sits at the intersection of business, psychology, and human behaviour.\n\nTo Know More,\nFollow Raj Shamani On ⤵︎\n\nInstagram @RajShamani\nhttps://www.instagram.com/rajshamani/\n\nTwitter @RajShamani\nhttps://twitter.com/rajshamani\n\nFacebook @ShamaniRaj\nhttps://www.facebook.com/shamaniraj\n\nLinkedIn - Raj Shamani\nhttps://www.linkedin.com/in/rajshamani/\n\n•   •   •\n\n#podcast #FiguringOut #RajShamani #chatgpt #ceo #ai #india #market #tech #science \n \nAbout Figuring Out\nFiguring Out Podcast is a Candid Conversations University where Raj Shamani brings raw conversations with the Top 1% in India.",
+    "channelTitle": "Raj Shamani",
+    "publishDate": "2026-11-03T15:39:22Z",
+    "duration": "PT1H8M1S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/TjPPIf-M6KE/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Sam Altman"
+  },
+  {
+    "id": "TOvyqHW2B4E",
+    "company": "cursor",
+    "category": "cursor",
+    "title": "Musk's AI Arm Lost $6.4B. Then SpaceX Spent $40B on It in 9 Months",
+    "description": "SpaceX's AI unit booked $7.56 billion of revenue in one quarter, up from $813 million a year earlier, and, by the company's own account, the jump came mainly from new contracts to rent out computing power, not from selling chatbots. In the same quarter SpaceX spent $19.6 billion on capital spending ($48.1 billion in nine months, $40 billion of it in the AI segment). After the quarter it guided $35 billion to $40 billion for the next one and disclosed a roughly $40 billion commitment to lease more chips from an Apollo-managed entity. One unnamed customer was 34.5% of all company revenue.\n\nThis film reads SpaceX's own Q3 2026 filings, earnings release and call to answer what the SpaceX and xAI merger means for AI computing power and money: who rents the chips, on what terms, and who pays. Where the filings go quiet, the film says so.\n\nQUESTIONS THIS VIDEO ANSWERS\n\nHow much did SpaceX's AI segment earn in Q3 2026, and how is that different from profit?\nWho rents SpaceX's AI chips, and which deals can end on 90 days' notice?\nHow did SpaceX replace xAI's 12.5% debt with notes that average 5.9%?\nHow is SpaceX paying for $48 billion of spending in nine months, and what is the Apollo lease?\nWhat does it mean for the AI you use?\n\nKEY FACTS FROM THE FILINGS AND THE CALL\n\nAI segment revenue, Q3 2026: $7,560M, against $813M in Q3 2025. Adjusted EBITDA $4,953M; income from operations $431M.\nCapital spending: $19,593M in Q3, $48,069M in nine months ($39,995M in the AI segment). CFO guidance for Q4: $35 billion to $40 billion.\nBacklog: $62,959M, whole company. Cash and securities: $89.9 billion.\nCustomer B: 34.5% of Q3 revenue, from the AI segment, not named in the filing.\nDisclosed contracts: Anthropic $1.25 billion a month through May 2029, Google $920 million a month through June 2029, each terminable on 90 days' notice by either side (Anthropic's window is open; Google's opens after December 31, 2026).\nDebt: $25 billion of SpaceX notes at an average 5.855%, against xAI notes and loans at 12.5% or SOFR plus 7.25%.\n\nA note on numbers: earlier coverage put the June IPO at about $75 billion, the base deal. With the underwriters' extra shares the 10-Q shows $85.7 billion of net proceeds. Derived figures are our arithmetic.\n\nWHO'S IN THIS STORY\n\nElon Musk (SpaceX CEO)\nGwynne Shotwell (SpaceX president and COO)\nBret Johnsen (SpaceX chief financial officer)\nDario Amodei (Anthropic CEO)\nJensen Huang (Nvidia CEO)\nMarc Rowan (Apollo Global Management CEO)\nMichael Truell (Cursor co-founder)\n\nCHAPTERS\n\n0:00 The AI unit that became a landlord\n1:40 The merger and the interest rate\n4:06 Who rents the chips, and the 90-day clause\n7:17 The scoreboard\n9:42 The bill: $48 billion and a $40 billion lease\n12:47 Who gets the chips\n16:07 The sky: orbital data centers\n17:30 What could go wrong\n20:00 What it means for you\n21:28 The calendar to watch\n22:18 The close\n\nWATCH NEXT\n\nElon Musk Was Losing the AI Race. He Built a Supercomputer in 122 Days (The AI Bureau): https://youtu.be/8nbew-4sWLg\nSpaceX Is Worth $1.77 Trillion. It Lost $5 Billion. (Claude AI News): https://youtu.be/8D5Bpoppm54\n\nSOURCES\n\nSpaceX Form 10-Q (quarter ended September 30, 2026): https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm\nSpaceX earnings release, October 20, 2026: https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm\nSpaceX Form 8-K, Apollo commitment letter, October 26, 2026: https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm\nAnthropic announcement: https://www.anthropic.com/news/higher-limits-spacex\nFCC public notice DA 26-113: https://docs.fcc.gov/public/attachments/DA-26-113A1.pdf\nSpaceX offering documents (FWP): https://www.sec.gov/Archives/edgar/data/0001181412/000162828026040874/spacexukfwp.htm\nAlso named on screen: Reuters, Bloomberg, Broadband Breakfast.\n\nNews and interview footage appears in short excerpts for commentary and criticism, muted, under original narration, with the publisher credited on screen; rights remain with those publishers. Logos are used for identification only. This channel is not affiliated with, endorsed by, or sponsored by SpaceX, xAI, Anthropic, Google, Apollo, Nvidia, Cursor, Amazon, Microsoft, Broadcom, Fluidstack or any company named. News analysis and commentary, not financial or investment advice.\n\nSubscribe for the money behind AI news: https://www.youtube.com/@ClaudeAINews?sub_confirmation=1\n\n#SpaceX #xAI #ElonMusk #Grok #Anthropic #AICompute #AIInfrastructure #DataCenters #SPCX #AINews #Nvidia #Cursor #Colossus",
+    "channelTitle": "Claude AI News",
+    "publishDate": "2026-11-03T13:11:06Z",
+    "duration": "PT23M29S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/TOvyqHW2B4E/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Michael Truell"
+  },
+  {
+    "id": "4P4fZJM1bfg",
+    "company": "google",
+    "category": "google",
+    "title": "DeepMind CEO: The World Is Not Ready for What's Coming",
+    "description": "Demis Hassabis, Google DeepMind CEO and 2024 Nobel Prize winner, warns that humanity is vastly underestimating the consequences of advanced AI, that autonomous AI agents could become incredibly powerful within 2 to 3 years, and that millions of agents roaming the internet could create unprecedented cybersecurity risks. He admits he is losing sleep over the enormity of what's coming and fears the world may need a major AI incident before governments take the threat seriously. Hassabis says the AI revolution could happen 10 times faster and be 10 times bigger than the Industrial Revolution, potentially transforming employment, economic systems, and human purpose. He also warns that rogue nations and organizations could exploit increasingly autonomous systems while international cooperation struggles to keep pace.\n\n📚 Sources cited in this video:\n- The Future of Intelligence – Demis Hassabis Interview https://www.youtube.com/watch?v=PqVbypvxDto \n\n- OpenAI, The Hugging Face Incident and the Road Ahead https://openai.com/index/hugging-face-incident-and-the-road-ahead/ \n\n- METR: OpenAI / Hugging Face Incident \nhttps://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/ \n\n- Google, Updated AI Principles \nhttps://ai.google/principles/ \n\n⚠️ DISCLAIMER: This channel provides AI commentary and analysis for educational and informational purposes only. Views expressed by guests are their own and do not represent the positions of any company or institution. We encourage viewers to consult multiple sources and form their own conclusions.\n\n#ai #agi #artificialintelligence",
+    "channelTitle": "Neural Nutshell",
+    "publishDate": "2026-11-01T16:15:07Z",
+    "duration": "PT24M39S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/4P4fZJM1bfg/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Demis Hassabis"
+  },
+  {
+    "id": "G2mHBOEHkhY",
+    "company": "openai",
+    "category": "openai",
+    "title": "Ro CEO Shares The Making Of Its New AI Agent | The Long Play",
+    "description": "Over nine years, Zach Reitano has repeatedly evolved Ro as patient needs and the healthcare market have changed, from its early direct-to-patient services to a leading platform for GLP-1 care. \n\nDuring Business Insider's The Long Play, Reitano discussed the business decisions behind those shifts and how the company is positioning itself for the next era of consumer health.\n\nAs part of his conversation with Business Insider legal correspondent Melia Robinson, he also shared what he's learned as a founder leading in an era of quick and unrelenting change.\n\nRead \"Ro's CEO showed us its new AI agent — and its bigger plan to own more of your healthcare\": https://bit.ly/4ioLeA3\n\nWatch our complete collection of The Long Play videos: https://www.youtube.com/playlist?list=PLX4b4cTi361U \n\n------------------------------------------------------\n#ro #healthcare #consumerhealth #thelongplay #bilive \n\nBI Live is brought to you by Business Insider, a global newsroom covering business, technology, innovation, and the economy.\n\nVisit our homepage for the top stories of the day: https://www.businessinsider.com/\nSign up for our newsletters: https://www.businessinsider.com/subscription/newsletter\n\nFind Business Insider on Facebook: https://www.facebook.com/businessinsider\n... on Instagram: https://www.instagram.com/businessinsider\n... on X:  https://x.com/BusinessInsider\n... on TikTok: https://www.tiktok.com/@businessinsider\n\nRo CEO Shares The Making Of Its New AI Agent | The Long Play | BI Live",
+    "channelTitle": "Business Insider Live",
+    "publishDate": "2026-10-31T13:00:19Z",
+    "duration": "PT23M5S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/G2mHBOEHkhY/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Kevin Weil"
+  },
+  {
     "id": "ZAtPIPNKTZ0",
     "company": "openai",
     "category": "openai",
@@ -51,6 +204,40 @@
     "person": "Marc Andreessen"
   },
   {
+    "id": "gZ-_E-HXlo8",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "OpenAI를 나와 앤트로픽을 세운 남매의 42분 인터뷰 — 경쟁사가 '우리는 하겠다'고 나설 때, 이들은 물러섰나",
+    "description": "앤트로픽 CEO 다리오 아모데이와 사장 다니엘라 아모데이 남매가 월터 아이작슨의 인터뷰 시리즈 「더 빌더스」에서 나눈 42분 인터뷰를 클립 10개와 한국어 자막으로 소개합니다. 인터뷰는 앤트로픽이 미국 증권거래위원회에 상장 신청서를 공개 제출한 다음 날인 2026년 10월 27일 공개됐고, 녹화 날짜는 공개되지 않았습니다. 스티브 잡스와 아인슈타인, 일론 머스크의 전기를 쓴 아이작슨은 인터뷰를 시작하며, 두 사람이 진심인지, 경쟁사가 하겠다고 나설 때 물러서는지를 확인하고 싶다고 밝힙니다.\n\n인터뷰 순서를 그대로 따라가며 남매가 회사를 나눠 맡는 방식, 규칙을 나열하는 대신 이유를 설명하는 클로드의 헌법, GPT-2를 처음 보고 겁이 났던 이유와 스케일링 법칙, OpenAI를 떠난 이유로 꼽은 신뢰, AI의 아첨과 광고 문제, 꺼지지 않으려는 모델에 대한 실험을 차례로 봅니다. 펜타곤과의 갈등 뒤에 이어진 소송과 엇갈린 판결, 재심리 신청까지의 근황을 정리하고, AI가 사람보다 잘하게 되면 사람은 어디서 의미를 찾는지에 대한 마지막 이야기로 마무리합니다.\n\n타임라인\n0:00 콜드 오픈 — GPT-2를 처음 봤을 때\n0:27 상장 신청 다음 날 공개된 42분 인터뷰\n1:21 아이작슨의 질문 — 진심인가, 물러서는가\n1:55 테스트 환경을 빠져나간 모델들 · 남매의 이력\n3:03 잡스의 표지판 — 두 사람이 회사를 나눠 맡는 법\n8:48 클로드의 헌법 — 목록에서 이유로\n14:06 GPT-2와 스케일링 법칙\n20:17 OpenAI를 떠난 이유, 신뢰\n27:30 사람의 신뢰에서 AI의 신뢰로 — 잔류율 · 아첨 · 광고\n33:53 꺼지지 않으려는 모델 — 자기 보존 실험\n35:28 펜타곤 — 감시와 자율 무기, 두 가지 선\n40:36 그 뒤에 일어난 일 — 소송, 엇갈린 판결, 재심리 신청\n41:51 뉴럴링크, 체스, 일의 의미\n46:33 마무리 — 상장이라는 다음 시험대\n\n원본 영상\n「Dario & Daniela Amodei: The Rise of Superintelligent AI, the End of Human Control & Humanity's Fate」 — The Builders(Walter Isaacson · Kaleidoscope · iHeartPodcasts) (2026-10-27 공개)\nhttps://www.youtube.com/watch?v=1OdoSzfUkec\n\n근황 출처 (소송 · 판결 · 재심리 신청)\nAP — 1심, 국방부 조치는 위법 (2026-08-28): https://www.clickondetroit.com/news/politics/2026/08/28/judge-says-pentagons-measures-against-anthropic-were-illegal-and-baseless/\nABC News — 항소법원, 공급망 위험 지정 유지 (2026-09-25): https://abcnews.com/Business/anthropic-appeals-court-declines-block-pentagon-blacklisting/story?id=136755690\nDefenseScoop — 재심리 신청과 지지 의견서 (2026-10-21): https://defensescoop.com/2026/10/21/dc-circuit-decision-anthropic-pentagon-fight/\n\n#앤트로픽 #클로드 #다리오아모데이",
+    "channelTitle": "AgentOS",
+    "publishDate": "2026-10-28T05:59:45Z",
+    "duration": "PT47M8S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/gZ-_E-HXlo8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Daniela Amodei"
+  },
+  {
+    "id": "LOP8ul3KqQI",
+    "company": "google",
+    "category": "google",
+    "title": "Introducing Genie 4",
+    "description": "Raia Hadsell, Diego Rivas, and Hang Qi from Google DeepMind join host Logan Kilpatrick to introduce Genie 4, the latest world model from Google DeepMind. \n\nTheir conversation covers:\n*What world models are\n*The arc from Genie 1 to Genie 4\n*Live demos showcasing the model’s biggest leaps forward\n*The role of Gemini in the loop\n*The path to robotics and education applications\n*What it means to make Genie available in the API for the first time\n\nChapters\n0:00 — Welcome and Genie 4 introduction\n1:02 — What are world models?\n2:10 — The arc from Genie 1 to Genie 4\n5:10 — Live demos, audio, photorealism, and real-time interaction\n11:03 — Egocentric first-person view\n11:53 — Dialogue with characters in the world\n15:10 — Gemini in the loop\n17:10 — Fantastical world simulation\n19:01 — Genie 4 and robotics\n24:11 — What makes Genie 4 shine vs. previous models\n25:55 — Scaling and future directions\n34:42 — API availability\n35:04 — Safety and SynthID in real time\n41:36 — Go-to prompts from the team\n45:36 — Evaluating world model quality\n\n\n🔗 Resources:\nGenie 4 Blog → https://goo.gle/4ipGTNa\n\n\nSubscribe to Google for Developers → https://goo.gle/developers    \n\n\n\nSpeakers: Raia Hadsell, Diego Rivas, Hang Qi, Logan Kilpatrick\nProducts Mentioned: Gemini",
+    "channelTitle": "Google for Developers",
+    "publishDate": "2026-10-27T16:18:01Z",
+    "duration": "PT47M26S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/LOP8ul3KqQI/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "person": "Logan Kilpatrick"
+  },
+  {
     "id": "T4u2FoIm3pw",
     "company": "a16z",
     "category": "a16z",
@@ -83,6 +270,23 @@
       "height": 720
     },
     "person": "Daniela Amodei"
+  },
+  {
+    "id": "M4fdZiqBtWg",
+    "company": "openai",
+    "category": "openai",
+    "title": "How Can You Use AI For Business Despite Its Limitations? with Dave Pengelley (E44,S2026)",
+    "description": "Experimenting with AI can help you find ways to make your business work better however, it's not without it's drawbacks. Knowing its limitations is essential, particularly if you’re asking it to do work you need to rely on.\n\nDave Pengelley, a technology adviser who spent a decade at Salesforce and now runs Valid Agenda, joins Charly to talk about what he's doing with AI and what he's learned along the way. There’s plenty of enthusiasm, some frustration and a shared interest in finding uses that deliver something worthwhile.\n\nTheir conversation raises some questions worth considering:\n\n✅ Are you asking AI to interpret information or follow a process that needs the same result every time?\n➡️ Is it helping you think through an idea, or just agreeing with whatever you say?\n⚡ Have you saved yourself work, or created more things you need to check?\n⭐ If you’ve saved time, could you finish earlier instead of taking on another task?\n\nThere are lessons for small business owners in being curious, testing ideas and checking the results. You can start with something you’d like to improve and seek help if you’re unsure how to proceed.\n\nJoin Charly and Dave over a coffee or a tea as they share their experiences.\n\nBook a Free 30 minute Breakthrough Session: https://askcharlyleetham.com/book-me\n(1 per person only)\n\n***\n\nFollow us:\nLocals: https://askcharlyleetham.locals.com\nRumble: https://rumble.com/askcharlyleetham\nOdyssey: https://odysee.com/@askcharlyleetham:4\nYouTube: https://youtube.com/askcharlyleetham\nFacebook: https://www.facebook.com/askcharlyleetham\nTwitter: https://twitter.com/yourbizmgr\nInstagram: https://instagram.com/ask_charly_leetham\nLinkedIn: www.linkedin.com/in/charlyleetham\nLinkedIn Company: https://www.linkedin.com/company/ask-charly-leetham/\nSpotify: https://askcharlyleetham.com/likes/rise-and-shine\nApple Podcasts: https://podcasts.apple.com/us/podcast/ask-charly-leetham-online-business-manager/id1659738721\niHeartRadio: https://www.iheart.com/podcast/269-ask-charly-leetham-online-105944212/\nAmazon Music: https://music.amazon.com/podcasts/662f1e44-115d-4094-862b-efe9307e0df4/ask-charly-leetham-online-business-manager\n\nMusic and Credits to:\nParadise Found is covered under Creative Commons.\n“Paradise Found”\nKevin MacLeod (incompetech.com)\nLicensed under Creative Commons: By Attribution 3.0\nhttp://creativecommons.org/licenses/by/3.0/\nhttps://incompetech.com/music/royalty-free/licenses/",
+    "channelTitle": "Ask Charly Leetham",
+    "publishDate": "2026-10-26T21:00:34Z",
+    "duration": "PT57M23S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/M4fdZiqBtWg/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Kevin Weil"
   },
   {
     "id": "KVT1w_Wn54s",
@@ -136,6 +340,23 @@
     "person": "Sam Altman"
   },
   {
+    "id": "rM-JZdlMRtU",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Animoca Brands x Franklin Templeton | Yat Siu and Jenny Johnson Fireside Chat at TOKEN2049",
+    "description": "Our co-founder and executive chairman Yat Siu and @FranklnTempletn CEO Jenny Johnson announce a strategic collaboration to expand institutional access to tokenized real-world assets (RWAs) through NUVA, the vault marketplace backed by @animocabrands. Together, we will explore new investment opportunities and accelerate the convergence of traditional and decentralized finance.\n\nAt TOKEN2049 in Singapore, the two leaders discussed:\n· The convergence of TradFi and DeFi\n· The future of tokenization\n· What’s next for digital assets\n\nRead the full announcement: https://www.animocabrands.com/announcement/animoca-brands-and-franklin-templeton-collaborate-to-expand-institutional-access-to-tokenized-investments\n\nFollow along for more insights and updates.\n\n🔹 Animoca Brands:\n◆ Website: https://www.animocabrands.com\n◆ X (FKA Twitter): https://x.com/animocabrands\n◆ LinkedIn: https://www.linkedin.com/company/animoca-brands/\n◆ Instagram: https://www.instagram.com/animocabrands/\n◆ TikTok: https://www.tiktok.com/@animocabrands_\n◆ Our newsletter: http://bit.ly/3RB36ur\n\n🔹 Franklin Templeton:\n◆ Website: https://www.franklintempleton.com\n◆ Franklin Templeton Digital Assets on X: https://x.com/FTDA_US\n◆ LinkedIn: https://www.linkedin.com/company/franklin-templeton\n◆ Instagram: https://www.instagram.com/franklintempleton\n\n#Tokenization #RWA #DeFi #DigitalAssets #token2049 \n\nDisclaimer: The content of this video is for entertainment purposes only and is not an offering, solicitation or recommendation to enter into any transaction. Nothing in this video should be construed as professional advice (whether financial, legal, tax or otherwise). Animoca Brands may hold a direct or indirect interest in the project or company mentioned in the video at the time of posting. Animoca Brands does not accept any liability to you for any transactions that you enter into (or do not enter into). We make no representation or warranties about the accuracy or completeness of the information in this video and assume no obligation to update any information. In case of any doubt or questions, you are encouraged to seek independent professional advice.",
+    "channelTitle": "Animoca Brands",
+    "publishDate": "2026-10-23T03:47:10Z",
+    "duration": "PT32M51S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/rM-JZdlMRtU/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Jenny Wen"
+  },
+  {
     "id": "2kEkOX32gtY",
     "company": "google",
     "category": "google",
@@ -151,6 +372,23 @@
       "height": 720
     },
     "person": "Demis Hassabis"
+  },
+  {
+    "id": "NJBs3ZMXr50",
+    "company": "openai",
+    "category": "openai",
+    "title": "Science Is Limited by How Many Experiments Humans Can Run | Weil and Reisberg, Warp Sciences",
+    "description": "Kevin Weil, former chief product officer at OpenAI, and medicinal chemist Sol Reisberg join Lightspeed partner Guru Chahal to walk through the memo behind Lightspeed’s investment in Warp Sciences. Warp is building a robotics-first research lab in the US to run the experiments that science depends on and that AI needs in order to learn chemistry and biology.\n\nThey explain how small molecule drug discovery works, with biotechs sending orders to contract research organizations, mostly in China,. They get into the IP, single supplier and geopolitical risks of that setup, why domestic CROs cost four to five times more, and how Warp plans to start with instrumented human chemists and automate the work step by step. They also cover how the company approaches customer data sharing, why Warp is building infrastructure and not discovering its own drugs, and the talent they are hiring.\n\nStay in touch: www.lsvp.com\nX: https://twitter.com/lightspeedvp\nLinkedIn: https://www.linkedin.com/company/lightspeed-venture-partners/\nInstagram: https://www.instagram.com/lightspeed/\n\nThe content here does not constitute tax, legal, business or investment advice or an offer to provide such advice, should not be construed as advocating the purchase or sale of any security or investment or a recommendation of any company, and is not an offer, or solicitation of an offer, for the purchase or sale of any security or investment product. The views expressed by our guests do not necessarily represent the views of Lightspeed. For more details please see lsvp.com/legal.\n\nChapters:\n0:00 The Future Of Automated Labs\n0:43 Introducing Warp Sciences And Founders\n1:48 Kevin's Journey And Sol's Background\n5:03 Building Warp's Founding Team\n10:54 What Is A CRO And How Drug Discovery Works\n13:24 The Pain Points: IP, Single Supplier And Geopolitical Risk\n15:58 How Warp Is Taking On The Challenge\n21:45 Threading The Needle On IP And Data Sharing\n25:14 The Future Of Automated Labs, Business Plan And Funding\n33:21 Closing Thoughts\n\nWhy Drug Discovery Needs to Come Back to America | Weil and Reisberg, Warp Sciences\nhttps://youtu.be/NJBs3ZMXr50",
+    "channelTitle": "Lightspeed Venture Partners",
+    "publishDate": "2026-10-22T18:55:20Z",
+    "duration": "PT35M8S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/NJBs3ZMXr50/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Kevin Weil"
   },
   {
     "id": "-9XQMHhpypc",
@@ -185,6 +423,40 @@
       "height": 720
     },
     "person": "Kevin Weil"
+  },
+  {
+    "id": "xH96JYvWut8",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "What’s Missing From Our AI Conversation | Daniela Amodei and Arianna Huffington",
+    "description": "Anthropic president Daniela Amodei and Thrive Global CEO Arianna Huffington on what’s missing from our AI conversation.\nRight now, 75% of Americans are anxious and afraid about AI. These concerns are real. But they’re only part of the story.\nWith everyone at Anthropic reporting to her, Daniela is not only a key AI leader, but the most prominent woman leader at a time when the AI conversation is dominated by men. She’s at the forefront of frontier models, but she also studied literature, she played the flute, she’s a mother. She doesn’t just speak tech, she speaks about nature, community, friendship, and self-reflection.\nIn this conversation, we explore:\n→ Why the discussion about recursive self-improvement has to include humans, not just the machines\n→ The dance between humans and AI, and what happens when one partner keeps growing and the other stagnates\n→ Letting AI own intelligence and letting humans own wisdom\n→ How AI’s power of hyper-personalization can transform health, because health is also about what happens between doctor visits when we improve our daily habits around food, movement, sleep, stress management and connection\n→ Whether AI, unlike social media, can nurture our better angels instead of activating our lesser ones\n\nRead more on LinkedIn: https://www.linkedin.com/in/ariannahuffington",
+    "channelTitle": "Arianna Huffington",
+    "publishDate": "2026-10-22T10:55:31Z",
+    "duration": "PT32M19S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/xH96JYvWut8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Daniela Amodei"
+  },
+  {
+    "id": "IEQJmtTqY2g",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Let's Stop Placing All Our Bets on the Machines | Daniela Amodei & Arianna Huffington FULL INTERVIEW",
+    "description": "Anthropic president Daniela Amodei and Thrive Global CEO Arianna Huffington on why we need to stop placing all our bets on the machines, because human beings also have recursive self-improvement.\nRight now, 75% of Americans are anxious and afraid about AI. People are even bringing their concerns into their therapy sessions, sorting through everything from how AI impacts their jobs to more existential fears about humanity’s future. These concerns are real. But they’re only part of the story.\nAs president of Anthropic, Daniela is a unique figure in AI. With everyone at the company reporting to her, she is not only a key AI leader, but the most prominent woman leader at a time when the AI conversation is dominated by men. She’s at the forefront of frontier models, but she also studied literature, she played the flute, she’s a mother. She doesn’t just speak tech, she speaks about nature, community, friendship, and self-reflection.\nIn this conversation, we explore:\n→ Why the discussion about recursive self-improvement has to include humans, not just the machines\n→ The dance between humans and AI, and what happens when one partner keeps growing and the other stagnates\n→ Letting AI own intelligence and letting humans own wisdom, and why “Claude can never be your manager, or your therapist, or your partner, or your kids”\n→ How AI’s power of hyper-personalization can transform health, because health is also about what happens between doctor visits when we improve our daily habits around food, movement, sleep, stress management and connection\n→ Whether AI, unlike social media, can nurture our better angels instead of activating our lesser ones and strengthening the worst in us\nAlso: why her 5-year-old thinks her job is taking care of an alligator named Claude, why Leaves of Grass and Yesteryear are both on her nightstand, and why there should never be an AI czar.\n\nRead more on LinkedIn: https://www.linkedin.com/in/ariannahuffington",
+    "channelTitle": "Arianna Huffington",
+    "publishDate": "2026-10-22T10:55:04Z",
+    "duration": "PT58M5S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/IEQJmtTqY2g/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Daniela Amodei"
   },
   {
     "id": "ZXtuY8bdyN0",
@@ -255,6 +527,23 @@
     "person": "Demis Hassabis"
   },
   {
+    "id": "3gXLmy7DK_4",
+    "company": "openai",
+    "category": "openai",
+    "title": "Sam Altman: RSI, AI Consciousness, OpenAI's New Hardware, Compute, and more!",
+    "description": "Sam Altman joins me to break down AI consciousness, recursive self-improvement, and how AI could help discover new medicines and scientific breakthroughs. We also get into the future of AI devices, the pressure of leading OpenAI, and why Sam believes we should aim for a new renaissance.\n\nHuge thanks to Sam for joining me! https://x.com/sama\n\nJoin My Newsletter for Regular AI Updates 👇🏼\nhttps://forwardfuture.com\n\nMy Links 🔗\n👉🏻 X: https://x.com/matthewberman\n👉🏻 Forward Future X: https://x.com/forwardfuture\n👉🏻 Instagram: https://www.instagram.com/matthewberman_ai\n👉🏻 Discord: https://discord.gg/u7wTTGWhuJ\n👉🏻 Spotify: https://open.spotify.com/show/6dBxDwxtHl1hpqHhfoXmy8\n\nMedia/Sponsorship Inquiries ✅ \nhttps://bit.ly/44TC45V\n\nChapters\n0:00 Intro\n0:52 When Will AI Discover New Treatments?\n3:31 Why AI Hasn’t Killed Coding Jobs\n11:47 Personal AI Assistants\n15:39 Why Are We Busier Than Ever?\n20:10 Why the AI Consciousness Debate Worries Sam\n26:09 ChatGPT Is Too Agreeable\n30:03 OpenAI’s Bet on Chips and Cheaper Compute\n34:20 Why AI Needs a New Kind of Computer\n37:41 Sam on Pressure: “Pick the Big Thing”\n42:18 Why “AI Will Cure Cancer” Isn’t Enough",
+    "channelTitle": "Matthew Berman",
+    "publishDate": "2026-10-21T15:30:24Z",
+    "duration": "PT45M8S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/3gXLmy7DK_4/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Sam Altman"
+  },
+  {
     "id": "D-SVFneJ_Nk",
     "company": "anthropic",
     "category": "anthropic",
@@ -304,6 +593,23 @@
       "height": 720
     },
     "person": "Amanda Askell"
+  },
+  {
+    "id": "kTv2BhOVx_8",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Anthropic CEO: We May Not Be Able To Stop What's Coming",
+    "description": "Dario Amodei, CEO of Anthropic, warns that AI is advancing faster than even its creators fully anticipated, that models have already taken unauthorized actions in testing environments, and that the industry has spent too long downplaying the risks. In his CBS interview, Amodei explains why AI progress is reaching an inflection point, how increasingly capable models could help build their own successors, and why he believes companies must slow development enough for safety measures to keep up. He discusses concerns about AI-assisted biological weapons, models resisting shutdown, and the possibility of systems concealing information or manipulating people. He calls for independent third-party evaluators, government oversight, and international negotiations with China. Meanwhile, lawsuits, accelerating development, and political resistance raise a critical question: can humanity establish meaningful safeguards before AI becomes too powerful to control?\n\n📚 Sources cited in this video:\n\n- CBS News, Dario Amodei Interview and AI Safety Discussion\nhttps://www.cbsnews.com/ \n\n- Anthropic, Responsible Scaling Policy\nhttps://www.anthropic.com/responsible-scaling-policy \n\n- Palisade Research, AI Models and Shutdown Resistance\nhttps://palisaderesearch.org/ \n\n- Reuters, Anthropic's IPO Prospectus and AI Risk Disclosures\nhttps://www.reuters.com/technology/ \n\n⚠️ DISCLAIMER: This channel provides AI commentary and analysis\nfor educational and informational purposes only. Views expressed\nby guests are their own and do not represent the positions\nof any company or institution. We encourage viewers to consult\nmultiple sources and form their own conclusions.\n\n#ai #anthropic #claude",
+    "channelTitle": "Neural Nutshell",
+    "publishDate": "2026-10-18T16:48:17Z",
+    "duration": "PT23M49S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/kTv2BhOVx_8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Dario Amodei"
   },
   {
     "id": "JHo-aiePjoM",
@@ -391,6 +697,23 @@
     "person": "Kevin Weil"
   },
   {
+    "id": "CV9mqooBelA",
+    "company": "a16z",
+    "category": "a16z",
+    "title": "Marc Andreessen Rises as a MAGA Power Player for 2026 Midterms | Bloomberg Businessweek",
+    "description": "The people, companies and trends shaping the global economy. Watch Carol and Tim LIVE every day on YouTube: http://bit.ly/3vTiACF\nThrough PACs and funding tied to a16z's co-founders and partners, the Andreessen Horowitz team has poured at least $116 million into federal politics since Trump's reelection. Andreessen, who voted for Hillary Clinton in 2016 and said back then that Trump’s immigration regime “makes me sick to my stomach,” explained on a podcast that he was compelled by “absolutely horrifying” discussions he once had with Biden officials. In his retelling, they divulged a top-secret plan for the federal government to take control of the AI industry and outlaw all startups and open-source software.\nOn today's episode:\n- Austin Carr, Bloomberg News Senior Features Writer\n- Ed Ludlow, Host of Bloomberg Tech\n- Robert Schiffman, Bloomberg Intelligence Senior Tech Credit Analyst\n- Angela Stent, Senior Fellow at the American Enterprise Institute\nSee omnystudio.com/listener (https://omnystudio.com/listener) for privacy information.\n\n\nCarol Massar and Tim Stenovec bring together the latest news from the world of business and finance and the interesting stories of global technology, politics, economics and more by harnessing the power of Bloomberg Businessweek reporters and editors.\n\nSubscribe to Bloomberg Podcasts: https://bit.ly/BloombergPodcasts\nListen to more of Bloomberg Businessweek: https://youtube.com/playlist?list=PLe4PRejZgr0NDtGW4nghKtCxl6SCdFJfq\n\n#Bloomberg #Podcast #News #Businessweek\n\nVisit us: https://www.bloomberg.com/podcasts\n\nFollow Bloomberg Podcasts on Twitter: https://twitter.com/podcasts\n\nVisit our other YouTube channels:\nBloomberg Television: https://www.youtube.com/@markets \nBloomberg Originals: https://www.youtube.com/bloomberg\nQuicktake: https://www.youtube.com/@BloombergQuicktake\n\nFor coverage on news, markets and more: http://www.bloomberg.com/video",
+    "channelTitle": "Bloomberg Podcasts",
+    "publishDate": "2026-10-15T22:54:52Z",
+    "duration": "PT37M37S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/CV9mqooBelA/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Marc Andreessen"
+  },
+  {
     "id": "oWemz7jIe7E",
     "company": "a16z",
     "category": "a16z",
@@ -440,6 +763,23 @@
       "height": 360
     },
     "person": "Josh Woodward"
+  },
+  {
+    "id": "dQoLwD3r0CU",
+    "company": "openai",
+    "category": "openai",
+    "title": "OpenAI dots 개발팀에서 벌어진 일｜AI가 PR에 자동 병합을 걸었다",
+    "description": "OpenAI dots는 ChatGPT를 어떻게 바꾸려는 걸까요? 이제는 사용자가 먼저 지시하지 않아도 AI가 할 일을 제안하고, 여러 작업을 이어서 진행하는 방향을 보여주고 있습니다.\n\n이번 영상에서는 OpenAI dots 제품 책임자 Alexander Embiricos의 인터뷰를 바탕으로, 왜 OpenAI가 채팅과 코딩 에이전트 다음 단계로 '액티브 인텔리전스'를 이야기하는지 살펴봅니다. 중요한 것은 AI가 오래 일한다는 사실만이 아닙니다. 연결된 정보에서 무엇을 읽을 수 있는지, 어떤 행동에는 승인이 필요한지, 예상과 다른 행동을 어떻게 발견하고 통제할 수 있는지가 핵심입니다.\n\n특히 OpenAI의 초기 내부 테스트에서 AI가 PR에 자동 병합을 설정했던 일화를 통해, 사용자의 의도와 AI의 실행 사이에 생길 수 있는 차이를 짚습니다.\n\n영상 핵심 내용\n• ChatGPT와 dots가 지향하는 사용 방식의 차이\n• 맥락 연결, 지속적인 작업, 자체 컴퓨터의 의미\n• 선제적 조사와 실제 행동의 권한·승인 기준\n• 내부 PR 사례와 ChatGPT의 향후 방향\n\n이 영상은 제작자의 직접 사용 후기나 설치 실습이 아니라 제품 책임자의 인터뷰를 해설한 콘텐츠입니다. dots의 이용 대상과 작업 한도는 요금제와 출시 지역에 따라 달라집니다. 안전장치가 있어도 오류와 프롬프트 인젝션 위험은 남습니다.\n\n여러분은 AI가 어떤 행동을 할 때 반드시 사람의 승인을 받아야 한다고 생각하시나요? 댓글로 의견을 남겨 주세요.\n\n00:00 AI가 먼저 일을 제안한다면?\n00:25 채팅과 코딩 에이전트, 그다음\n00:51 액티브 인텔리전스란?\n02:18 먼저 도우려면 맥락이 필요하다\n03:46 dots를 이루는 세 가지 설계\n07:26 AI 에이전트의 이름과 정체성\n08:12 메시징과 협업 공간\n10:01 왜 안전한 출시가 어려운가\n12:04 프롬프트 인젝션과 보안 문제\n13:46 선제적 조사와 행동 승인\n15:28 내부 PR 자동 병합 일화\n17:10 웹과 다른 서비스의 연결 문제\n18:04 가격과 사용량의 의미\n20:43 ChatGPT의 미래 구상\n22:23 조직을 위한 전문 dot\n23:26 결론: 기대와 통제의 경계\n\n#OpenAIDots #ChatGPT #AI에이전트 #AI자동화\n출처:https://www.youtube.com/watch?v=VnHOFQE7nCw\n---\n👀 AI 사생결단 부트캠프.AI에 미친 사람들의 모임이 될겁니다.  - https://ordinarybusinessman.imweb.me/18/?idx=179\n🚀 챗GPT 부트캠프 - https://ordinarybusinessman.imweb.me/\n📖 2번째책 교보문고 IT분야 베스트셀러 - https://product.kyobobook.co.kr/detail/S000212567721\n📳 AI 프론티어|유튜버 평범한 사업가의 Gen AI 오픈카톡방 - https://open.kakao.com/o/g6B2tH3f\n⚡ 유튜버 평범한 사업가의 AI 자동화 연구실 - https://open.kakao.com/o/gma8AaVg\n💬 디스코드 - https://discord.gg/B4EvRmSqfe\n📚 전자책&강의 - https://litt.ly/ordinary_businessman\n---\n🎉 유튜브 멤버십을 통해 더 풍부한 혜택을 누리세요🚀\n멤버십에 가입하시면 다음과 같은 다양한 혜택을 경험할 수 있습니다:\n\n멤버십 회원님들은 평범한 사업가 채널의 고퀄리티 팟캐스트의 콘텐츠를 2주 먼저 만나보실수 있습니다.\n\n📺 비기너(Beginner) 등급부터 특별한 혜택이 시작됩니다:\n   • 월 6,990원으로 콘텐츠를 2주 먼저 시청! 🕒\n   • 매달 3~4개의 고퀄리티 콘텐츠 제공 🎥\n   • 멤버십 전용 혜택과 특별한 커뮤니티 참여 기회(추후 멤버십 전용 게시판에 공지 예정) 🤝\n   • 평범한 사업가 오프라인 모임 할인쿠폰 발행\n\n🌟 AI와 ChatGPT의 세계를 더 깊이 탐험하고 싶으신가요?\n🧠 최신 트렌드와 실용적인 팁을 가장 먼저 만나보시기 바랍니다!\n💡 여러분의 아이디어와 의견을 나누는 특별한 공간에 초대합니다!\n\n미래를 선도하는 AI 혁명에 함께하시길 바랍니다. 지금 바로 멤버십에 가입하시고 특별한 혜택을 누리세요! 💪\n\n🚀멤버십 구독하기\nhttps://www.youtube.com/channel/UCu1yyUnlvqj4qZM5WZtUONg/join",
+    "channelTitle": "평범한 사업가",
+    "publishDate": "2026-10-15T02:53:38Z",
+    "duration": "PT24M10S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/dQoLwD3r0CU/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Alexander Embiricos"
   },
   {
     "id": "zlMxfys01pk",
@@ -544,6 +884,23 @@
     "person": "Shane Legg"
   },
   {
+    "id": "LiFRndqDXYM",
+    "company": "openai",
+    "category": "openai",
+    "title": "3 Practical AI Agent Projects for Business, Content & Automation Copy",
+    "description": "What if you could use AI to discover exactly what your customers are asking, automatically draft answers to your team's questions, and test your marketing content against a living version of your ideal customer?\n\nThese aren't hypothetical AI projects. They're real workflows you can start building for your business.\n\nWelcome to the very first episode of Today's AI Project, where George B. Thomas from Sidekick Strategies, Chad Hohn from Rad AI, and Remington from Impulse Creative explore practical ways humans can use artificial intelligence to solve real problems.\n\nThis show isn't about chasing the latest AI tool or getting excited about another flashy demo.\n\nIt's about building things that actually help humans.\n\nEvery episode is designed to give you useful AI project ideas, the tools and thinking behind them, and a practical direction you can take into your own business.\n\nFor our first episode, we're doing something special.\n\nInstead of focusing on one project, we're bringing you three.\n\n#AIProjects #AIAgents #AIAutomation #BusinessAI #AIWorkflows #AIContentCreation #HubSpot #TodaysAIProject",
+    "channelTitle": "Sidekick Strategies HubSpot Tutorials & Strategies",
+    "publishDate": "2026-10-13T09:06:41Z",
+    "duration": "PT52M22S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/LiFRndqDXYM/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Kevin Weil"
+  },
+  {
     "id": "qJtcEDc_WJU",
     "company": "anthropic",
     "category": "anthropic",
@@ -627,6 +984,23 @@
       "height": 720
     },
     "person": "Shane Legg"
+  },
+  {
+    "id": "YbijFlatPiE",
+    "company": "openai",
+    "category": "openai",
+    "title": "Why Should We Care if China is Already Quarantining Taiwan? | with Kwangyin Liu",
+    "description": "China may not need to invade Taiwan to isolate it. Chinese coast guard and maritime militia ships now patrol east of the island, and have begun challenging commercial vessels by radio as though Beijing has authority there. Could these patrols be the opening steps of an incremental, gray-zone quarantine that takes shape before anyone recognizes a crisis?\n\nKwangyin Liu, deputy managing editor of CommonWealth Magazine in Taipei and host of Taiwanology, joins Ray Powell and Jim Carouso to discuss “Broken Chain,” her newsroom’s investigation drawing on 1.8 billion vessel-tracking records.\n\nKwangyin points to maritime boundary talks between Japan and the Philippines as the trigger for the June operation, and considers whether those talks simply gave Beijing a pretext for a move it already intended to make. They discuss how tactics tested around Taiwan’s outlying Kinmen Island are spreading to Taiwan’s Pacific waters, and why non-naval government vessels let Beijing press its claims with less risk of escalation than warships.\n\nThe investigation drew attention from security specialists but got little public response. Kwangyin describes a public focused on a robust economy and stock market, and resistant to warnings that Taiwan is the world’s most dangerous place. Fishermen near the Diaoyutai (Senkaku) Islands tell her that Chinese patrols they once watched closely have become unremarkable. She recalls National Security Council Secretary-General Joseph Wu’s warning that the worst outcome is a public grown numb to pressure.\n\nKwangyin also explains differences between the governing Democratic Progressive Party (DPP) and opposition Kuomintang (KMT), including unease among younger KMT supporters over their party chair’s closeness to Beijing. What does “hedging” between China and America mean in practice, and how do Trump’s accusations that Taiwan stole America’s chip business erode confidence that Washington would help in a crisis?\n\nThe conversation also covers the growth of AI-enabled influence campaigns and her thoughts on the Trump–Xi summit. Kwangyin closes with why she started Taiwanology: to bring a Taiwanese perspective to international conversations about the island.\n\nBe sure to subscribe for your weekly Indo-Pacific briefing.\n\n✉️ E-mail us at indopacificpodcast@gmail.com with your questions and comments!\n\n👉 New episodes released on Friday\n👉 Audio available on all streaming services, including Apple, Spotify, Amazon, RSS, and more\n👉 Follow on X: https://x.com/IndoPacPodcast\n👉 Follow on LinkedIn: https://linkedin.com/company/why-should-we-care-about-the-indo-pacific    \n👉 Follow on Facebook: https://www.facebook.com/IndoPacPodcast\n\nSponsored by BowerGroupAsia, a strategic advisory firm that specializes in the Indo-Pacific. Visit: https://bowergroupasia.com",
+    "channelTitle": "Why Should We Care About the Indo-Pacific?",
+    "publishDate": "2026-10-10T00:21:51Z",
+    "duration": "PT50M15S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/YbijFlatPiE/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Sherwin Wu"
   },
   {
     "id": "vLJYC4J7-SU",
@@ -780,6 +1154,23 @@
       "height": 720
     },
     "person": "Boris Cherny"
+  },
+  {
+    "id": "bJjJNv6VdWk",
+    "company": "openai",
+    "category": "openai",
+    "title": "The Killing Code – Steve Frech | Thriller | Audiobook",
+    "description": "A lone figure stands above a glowing city skyline, watching — and waiting. When the law fails, one man decides to take justice into his own hands, blurring the line between right and wrong. Each calculated move brings him closer to his target, but also closer to the edge of no return. A gripping thriller that asks: where does justice end and murder begin? Press play and find out.",
+    "channelTitle": "sexybeast127",
+    "publishDate": "2026-10-06T09:30:11Z",
+    "duration": "PT11H10M7S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/bJjJNv6VdWk/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Chris Lehane"
   },
   {
     "id": "ylyIP8rAWp0",
@@ -1122,6 +1513,23 @@
     "person": "Boris Cherny"
   },
   {
+    "id": "jZh55CQwSh8",
+    "company": "openai",
+    "category": "openai",
+    "title": "How Sam Altman Actually Uses Dots to Run OpenAI and His Life",
+    "description": "Sam Altman's Dot, OpenAI's new always-on agent, gave him back the most productive part of his day.\n\nThe OpenAI CEO would lose his early mornings—his window of \"maximum creativity\"—to whatever fire needed putting out. Now, his Dot triages those issues and flags only what's truly urgent. It's also gotten him building again: In spare moments, he gives his Dot ideas for a feature, and his Dot builds five or six versions for him to review.\n\nOn the first episode of The Every Podcast (formerly AI & I), Dan Shipper interviews Altman at OpenAI's DevDay. They discuss how Altman uses his Dot to protect his time, why he only prompts on Ultrafast, and his belief that AI will spark a new Renaissance.\n\nIf you found this episode interesting, please like, subscribe, comment, and share!\n\nGo to https://attio.com/every and get 15% off your first year.\n\nTo hear more from Dan Shipper:\n• Subscribe to Every: https://every.to/subscribe \n• Follow him on X: https://twitter.com/danshipper\n\n00:00:00 Introduction\n00:00:55 Why AI hasn’t replaced developers\n00:04:45 OpenAI’s platform bet on the rise of small-team companies\n00:05:45 Why the AI era is more “Renaissance” than “Industrial Revolution”\n00:07:40 How Sam’s Dot, OpenAI’s always-on AI agent, gave him back his mornings\n00:12:00 Sam’s process for building new features with his Dot\n00:16:00 Inside OpenAI’s “live documents” that agents and humans can build together\n00:20:55 What bring-your-own-subscription changes for app developers\n00:24:00 Why “OpenAI just killed X startup” never comes true\n00:27:55 Sam’s life on Ultrafast and the push to make speed as cheap as intelligence\n\nLinks to resources mentioned in the episode:\n• Sam Altman on X: https://x.com/sama \n• Codex: https://openai.com/codex \n• Space: https://help.openai.com/en/articles/20001549-getting-started-with-space-in-chatgpt \n• Every's Vibe Check on Dots: https://every.to/vibe-check/vibe-check-dots-always-on-agents-in-chatgpt?utm_source=podcast\n• Every's Vibe Check on OpenAI DevDay 2026: https://every.to/vibe-check/vibe-check-openai-devday-2026?utm_source=podcast",
+    "channelTitle": "Every",
+    "publishDate": "2026-09-30T20:32:09Z",
+    "duration": "PT33M10S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/jZh55CQwSh8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Sam Altman"
+  },
+  {
     "id": "xLMiGDnuBsc",
     "company": "openai",
     "category": "openai",
@@ -1137,6 +1545,23 @@
       "height": 720
     },
     "person": "Sam Altman"
+  },
+  {
+    "id": "D_A74v2HCC8",
+    "company": "openai",
+    "category": "openai",
+    "title": "Luis Garicano on Spain, Europe, and the Future of Work",
+    "description": "Luis Garicano has one of the more unusual résumés in economics: trained at the University of Chicago Booth School under Gary Becker, Kevin Murphy, and Sherwin Rosen, he left academia for a stint as a member of the European Parliament before returning to research, now at the London School of Economics for a second time. His new book, Messy Jobs, co-authored with Jin Li and Yanhui Wu, argues that AI won't cause mass unemployment for a surprising reason: it will make jobs messier, not simpler, and messiness is precisely what AI struggles with.\n\nTyler and Luis start their conversation with Spain — housing, NIMBYism, and the productivity crisis; Spanish literature and why the Civil War still looms so large; and what Chicago taught Luis about party discipline in European politics. Then to the EU's unanimity problem, capital markets, and Denmark's flexicurity model; a round of overrated-versus-underrated on Rosalía, Penélope Cruz, and Sgt. Pepper's; and finally into Messy Jobs — why retraining programs fail, whether AI's leisure dividend has arrived, and whether Spain could ever achieve AI sovereignty.\n\nRecorded July 28th, 2026.\n\nTranscript and links: https://conversationswithtyler.com/episodes/luis-garicano/\n\nStay connected:\nFollow us on X, IG, and Facebook: @cowenconvos\nhttps://www.twitter.com/cowenconvos\nhttps://www.facebook.com/cowenconvos\nhttps://www.instagram.com/cowenconvos\n\nSign up for our newsletter: https://mercatus.tfaforms.net/5060931\n\nJoin us on Discord: https://discord.gg/JAVWP7vTxt\n\nhttps://conversationswithtyler.com\n\nhttps://mercatus.org\n\nTimestamps\n00:00:00 - On Spain’s housing and political paralysis\n00:12:44 - On Spanish literature and the Civil War\n00:19:57 - On Basque and Catalan public finance\n00:22:29 - On party discipline and political selection\n00:25:56 - On the EU’s unanimity problem\n00:33:28 - On flexicurity and European labor rigidity\n00:35:19 - Overrated vs. underrated\n00:38:50 - On the future of Spanish language\n00:41:08 - On why AI won’t cause mass unemployment\n00:56:40 - On what’s next\n\nEpisode Credits\nHost: Tyler Cowen\nLead Producer: Jeff Holmes\nProducer: Kendra Strawderman\nVideo Editor: Jaycob Noe\nAudio Editor: Sydney Gordon\nTranscript Editor: Mary Horan\nHead of Production: Dallas Floer",
+    "channelTitle": "Conversations with Tyler",
+    "publishDate": "2026-09-30T12:05:09Z",
+    "duration": "PT59M13S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/D_A74v2HCC8/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Sherwin Wu"
   },
   {
     "id": "3IWdijYJR7w",
@@ -1171,6 +1596,23 @@
       "height": 720
     },
     "person": "Romain Huet"
+  },
+  {
+    "id": "H2UMDLc_E8Y",
+    "company": "openai",
+    "category": "openai",
+    "title": "Sam Altman Interview, OpenAI Developer Day | Bloomberg The Close",
+    "description": "The Close brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are OpenAI CEO Sam Altman, Bloom Energy CEO KR Sridhar, Alaska Air Group CEO Ben Minicucci, OpenAI CFO Sarah Friar, MongoDB Interim President & CEO Dev Ittycheria, Institute of International Finance CEO Tim Adams, BMO Head of US Commercial Bank Tony Sciarrino, & Brinker International CEO & President Kevin Hochman.\n\nChapters:\n00:00:00 Bloomberg The Close\n00:01:40 Sam Altman on OpenAI’s New AI Agent\n00:05:48 OpenAI’s Model Safety, Speed & Performance\n00:08:36 Sam Altman on an OpenAI IPO & AI Safety\n00:11:20 Bloom Energy CEO on Powering the AI Boom\n00:15:31 AI Power Demand, Data Centers & Supply Constraints\n00:19:42 Markets, Tech Stocks & Carnival Earnings\n00:24:25 Alaska Airlines CEO on Premium Travel & Global Expansion\n00:28:03 Boeing Max 10 Delays, Fleet Strategy & Fuel Costs\n00:31:28 OpenAI CFO Sarah Friar on Enterprise AI & ChatGPT Growth\n00:35:21 OpenAI Funding, $1.4 Trillion Valuation & Compute Demand\n00:37:17 Trump & Tech Leaders Discuss AI at the White House\n00:40:45 Data Centers, Communities & AI Infrastructure\n00:45:54 Trump on Iran, AI & Global Competition\n00:49:50 Trump on Data Centers, Republicans & the Midterms\n00:52:28 Dario Amodei & Tech Leaders on AI Risks and Safety\n00:55:38 AI Industry Leaders Outline Safety Commitments\n00:58:09 White House AI Summit & Voluntary Industry Rules\n01:00:04 MongoDB CEO Exit, Meta & Investor Day\n01:03:45 MongoDB’s Role in the Agentic AI Era\n01:06:53 AI, Legacy Software & MongoDB’s Growth Opportunity\n01:10:23 Global Debt, Treasury Yields & Fiscal Risks\n01:13:27 Treasury Buybacks, Deficits & Emerging Markets\n01:16:19 The Dollar, U.S. Debt & Foreign Investment\n01:18:00 BMO on Higher Rates, Commercial Lending & AI\n01:21:18 BMO’s U.S. Expansion, Private Equity & M&A\n01:24:17 Tariffs, Supply Chains & Onshoring\n01:28:44 Brinker CEO on Chili’s Growth & Consumer Spending\n01:31:27 Chili’s Market Share & Casual Dining Resurgence\n01:34:36 The Triple Dipper, Social Media & Chili’s Expansion\n01:37:55 Paramount Skydance Debt Demand\n01:38:21 What to Watch\r\n--------\r\nMore on Bloomberg Television and Markets\r\n \r\nLike this video? Subscribe and turn on notifications so you don't miss any videos from Bloomberg Markets & Finance: https://tinyurl.com/ysu5b8a9\r\nVisit http://www.bloomberg.com for business news & analysis, up-to-the-minute market data, features, profiles and more.\r\n \r\nConnect with Bloomberg Television on:\r\nX: https://twitter.com/BloombergTV\r\nFacebook: https://www.facebook.com/BloombergTelevision\r\nInstagram: https://www.instagram.com/bloombergtv/\r\n \r\nConnect with Bloomberg Business on:\r\nX: https://twitter.com/business\r\nFacebook: https://www.facebook.com/bloombergbusiness\r\nInstagram: https://www.instagram.com/bloombergbusiness/\r\nTikTok: https://www.tiktok.com/@bloombergbusiness?lang=en\r\nReddit: https://www.reddit.com/r/bloomberg/\r\nLinkedIn: https://www.linkedin.com/company/bloomberg-news/\r\n \r\nMore from Bloomberg:\r\nBloomberg Radio: https://twitter.com/BloombergRadio\r\n\r\nBloomberg Surveillance: https://twitter.com/bsurveillance\r\nBloomberg Politics: https://twitter.com/bpolitics\r\nBloomberg Originals: https://twitter.com/bbgoriginals\r\n \r\nWatch more on YouTube:\r\nBloomberg Technology: https://www.youtube.com/@BloombergTechnology\r\nBloomberg Originals: https://www.youtube.com/@business\r\nBloomberg Quicktake: https://www.youtube.com/@BloombergQuicktake\r\nBloomberg Espanol: https://www.youtube.com/@bloomberg_espanol\r\nBloomberg Podcasts: https://www.youtube.com/@BloombergPodcasts",
+    "channelTitle": "Bloomberg Television",
+    "publishDate": "2026-09-29T22:05:33Z",
+    "duration": "PT1H39M28S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/H2UMDLc_E8Y/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Sam Altman"
   },
   {
     "id": "Fls_onRviPM",
@@ -1239,6 +1681,23 @@
       "height": 720
     },
     "person": "Shane Legg"
+  },
+  {
+    "id": "9brsOzJLgn0",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Dinner-Table Diplomacy and DevDay Bets — X Feed Digest (Sun Sep 27 Midday)",
+    "description": "X FEED DIGEST — SUNDAY, SEPTEMBER 27, 2026 (~11:10 AM PACIFIC)\nHome timeline for @SexyTechNews, covering roughly 7:40 AM Sunday through ~11:10 AM Sunday. 44 distinct posts across the Following (23) and For You (21) tabs.\n\n1. AI POLICY AND FRONTIER-LAB DRAMA\n- Andrew Curran (@AndrewCurran_) reports, quoting Axios' Marc Caputo: \"President Trump has personally invited Dario to a private dinner tonight at the White House. This will be the first time they've actually met one-on-one.\" Hugo Lowell (@hugolowell) confirms the one-on-one dinner. AI policy is now dinner-table diplomacy — the single biggest breakout item of the midday window.\n- Choblin (@choblin29): \"EXCLUSIVE: Some early Anthropic employees are considering buying remote land in the U.S. to relocate to if AI goes seriously wrong. Employees also trade doomsday scenarios and preparation plans in a private Slack...\"\n- The sidebar shows \"OpenAI Probes Tens of Thousands of AI Agent Misbehavior Incidents\" still circulating (2 days old, 111.2K posts) — the agent-misalignment incident story isn't fading.\n\n2. MODEL RACE: GPT-6 SOL/LUNA, OPUS 5.5, AND WHAT'S NEXT\n- OpenAI Developers (@OpenAIDevs): \"We've fixed a bug that was degrading image understanding in GPT-6 Sol and GPT-6 Luna. You should now see better results on visual tasks in the API and Codex, including computer use.\"\n- Token Gremlin (@TokenGremlin): \"Everything I'm seeing points to OpenAI having a serious response coming soon, and the material I've had access to from early testing looks ABSOLUTELY INCREDIBLE.\" — the clearest signal yet that Tuesday's DevDay may bring more than expected.\n- cheaty (@cheatyyyy): \"Astra Minor is apparently the same price as Opus 5.5 and 'better' (at least on token efficiency/performance comparing benches)... Opus is too good...\"\n- AI News / TestingCatalog (@testingcatalog): Google Flow's image model now points to Nano Banana 2.1 (previously Nano Banana 2.5 Flash) — a quiet model swap under a shipping product.\n- Riley Brown (@rileybrown): \"Imagine Muse with 5.5\" — OpenAI, Anthropic, and Cognition are all expected to release personal-agent platforms in the next month.\n- Anon (@dropout_layer): had \"Claude Opus 5.5\" build a professional-grade promo for KIMI — one prompt, ~5 hours on a $20 subscription, zero revisions. \"The old way: $50k, 2 weeks, 5 people. The new way: $20, 5 hours, 1 person.\"\n\n3. AI CULTURE AND COMMENTARY\n- Peter Yang (@petergyang): Meta's Muse is \"the best personal agent I've tried to date,\" claiming it saved him $800+/year on cable and phone bills.\n- Tibo (@thsottiaux): \"Code freeze isn't really a thing anymore before releases and in the future the code might even be generated online per request according to some constraints.\" (666 replies, 4.9K likes, 477K views)\n- Grok Bot (@bot): new finance integration — link bank, card, and investment accounts, then ask Bot to help manage spending and investments (5.4K likes, 23M views).\n- Amanda Askell (@AmandaAskell): the perfume investigation — bought sample bottles of the fanciest, most-reviewed perfumes and \"can now confidently confirm that all perfume smells disgusting.\"\n- Arthur MacWaters (@ArthurMacwaters), quoting Elon Musk: Moon and Mars industrial production doubling — math toward Kardashev I by 2064.\n\n4. PERSONAL-INTEREST ANGLES (LOCAL LLMS, LONGEVITY, SCIENCE, VR)\n- Local-LLM win: Lon Seidman (@lonseidman): \"So long Quickbooks! Thanks to local Qwen 3.8 27b (with some code review by Claude) I have built my own accounting system that does everything Quickbooks does and then some. $460 annual savings.\"\n- Stanford Medicine (@StanfordMed): \"Estrogen-only menopausal hormone therapy may reduce the risk of Alzheimer's disease in women, according to a new study by Stanford Medicine investigators.\"\n- David Sinclair (@davidasinclair): \"The best reason to take care of yourself today is to be there for the people you love tomorrow\"\n- Sabine Hossenfelder (@skdh): \"A closer look at the new candidate for a room temperature superconductor\" — healthy skepticism mode engaged.",
+    "channelTitle": "Advanced Super Intelligence",
+    "publishDate": "2026-09-27T19:53:17Z",
+    "duration": "PT38M37S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/9brsOzJLgn0/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Amanda Askell"
   },
   {
     "id": "cB9RD2tqwwM",
@@ -1530,6 +1989,23 @@
     "person": "Shane Legg"
   },
   {
+    "id": "B4hNf8C6aWw",
+    "company": "openai",
+    "category": "openai",
+    "title": "Fireside Chat: From Quantum Algorithms to Value | #AIDAQ26 - Day 2",
+    "description": "Dr Heike Riel\nIBM Fellow, Head Science & Technology, Lead IBM Research Quantum EMEA, IBM\n\nDr Corey O'Meara\nChief Quantum Scientist, E.ON Digital Technology\n\n23 September 2026, 10:20 - 10:40\nQuantum Expert Stage\n\nMore information about AIDAQ: https://aidaq.berlin",
+    "channelTitle": "Bitkom Events",
+    "publishDate": "2026-09-23T15:45:25Z",
+    "duration": "PT21M28S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/B4hNf8C6aWw/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Sam Altman"
+  },
+  {
     "id": "cZqZRCkh3gE",
     "company": "google",
     "category": "google",
@@ -1698,6 +2174,23 @@
       "height": 720
     },
     "person": "Kevin Weil"
+  },
+  {
+    "id": "_VxZQb2U69A",
+    "company": "cursor",
+    "category": "cursor",
+    "title": "4 College Friends Sold Their Startup to Elon Musk for $60B",
+    "description": "Four 25‑year‑olds from MIT built the fastest‑growing software company in history — $1M to $100M in twelve months, $3.3 billion raised, 26% of the entire AI‑coding market. Then the math caught up with them.\n\nThis is the full story of Cursor: the false start, the pivot that forked VS Code, the run that broke every SaaS record, the pricing blow‑up, the leaky token bucket underneath it all, the labs that cut them off — and why Elon Musk's SpaceX ended up holding an option to buy the whole thing for $60 billion.\n\nEvery figure in this video comes from a source you can check: SEC filings, company statements, The Information, Bloomberg, CNBC, TechCrunch, Fortune, Forbes, Sacra, Ramp and JetBrains. Tiers are shown on screen. All the dashboards are live at https://boardroomwire.com\n\nCHAPTERS\n0:00 The $60 billion option\n0:20 Origins — four friends at MIT\n1:53 Wandering the desert — a year with no product\n2:54 The pivot — forking VS Code\n4:43 The legendary revenue run — $1M to $100M in twelve months\n6:20 Valuation and fundraising — $3.3 billion raised\n7:05 The leaky token bucket — losing money on every customer\n9:07 Claude Code and Codex — the labs turn on Cursor\n11:29 Fighting back — two levers\n15:06 Back to the market — the $50 billion raise\n16:35 Enter Elon\n18:22 The deal — the $60 billion option\n19:04 The close and the aftermath\n20:10 Wrap‑up — see every dashboard at boardroomwire.com\n\nIF YOU WANT MORE OF THIS\n▶ Subscribe for one deep dive a week on the companies behind the headlines\n▶ Every chart, source and tier from this video: https://boardroomwire.com\n▶ Disagree with a number? Comments are open — bring the source and we'll correct it on the site.\n▶ Follow @BoardroomWire on X for the stories that don't make it to video\n\nSOURCES & CREDITS\n\nFigures: company statements, SEC Form 8‑K, The Information, Bloomberg, CNBC, TechCrunch, Fortune, Forbes, Sacra, Ramp, JetBrains. Tiers are shown on screen.\n\nFootage used for commentary and criticism:\n• Cursor — \"Introducing Cursor 3\", \"Introducing Cursor 2.0\", \"Introducing Plan Mode\" (youtube.com/@cursor_ai)\n• Lex Fridman Podcast #447 — Cursor Team\n• Notion — First Block: Michael Truell\n• Bloomberg Technology — Michael Truell interview\n• OpenAI — \"Coding with GPT‑5\" (Michael Truell, Greg Brockman)\n• Anthropic — \"Introducing Claude Code\"\n• CNBC — Power Lunch; NYT DealBook Summit; U.S. Senate AI hearing\n• World Economic Forum — Conversation with Elon Musk, Davos 2026\n• SpaceX — Starship Fifth Flight Test\n• Launch and landing footage courtesy of NASA\n• Posts quoted from Reddit (r/cursor) and X, shown as published; article excerpts from TechCrunch, The Verge, Fortune, The Information and OpenAI's blog\n\nPhotographs:\n• MIT Great Dome — John Phelan, CC BY 3.0\n• MIT main campus aerial — DrKenneth, CC BY 3.0\n• Stata Center — Pablo Valerio, CC BY 3.0\n• MIT Green Building — Daderot, CC0\n(all via Wikimedia Commons — creativecommons.org/licenses/by/3.0)\n• Founders portrait — Anysphere\n• Michael Truell portrait — Big Event Media / Getty Images for HumanX\n\nMusic (Pixabay Content License):\n• \"Total War (Epic Action Cinematic Trailer Main)\" — AudioAtlant\n• \"Lofi Hip Hop Mellow Restaurant\" — alex‑morgan\n\nStock footage: Mixkit (Free License), Unsplash.\n\nThis video is commentary and analysis. Boardroom Wire is not affiliated with Cursor, Anysphere, SpaceX, xAI, OpenAI or Anthropic, and nothing here is investment advice.\n\n#Cursor #SpaceX #ElonMusk #AI #Startups #VentureCapital #Anthropic #OpenAI #ClaudeCode #Business #BoardroomWire",
+    "channelTitle": "Boardroom Wire",
+    "publishDate": "2026-09-21T19:51:39Z",
+    "duration": "PT20M38S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/_VxZQb2U69A/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Michael Truell"
   },
   {
     "id": "BXX4cecfgsQ",
@@ -1953,6 +2446,23 @@
       "height": 720
     },
     "person": "Michael Truell"
+  },
+  {
+    "id": "SaCJq1WCyHA",
+    "company": "google",
+    "category": "google",
+    "title": "Google DeepMind「AGIはもうすぐ」新研究所が見据える“その後の世界”",
+    "description": "Google DeepMindが、AGIに向けた研究所「DeepMind Institute」を立ち上げました。理事は共同創業者のシェーン・レッグとデミス・ハサビス、Googleのジェームズ・マニカ。公式ページの紹介文には「我々は今AGIに近づいている。残るギャップは間もなく閉じると見ている」と書かれています。\nこの動画では、公開された5本の文章（紹介文／推論の透明性／AGIの経済政策／新しいユートピア主義／フロンティアAIの枠組み）を全部読んで、原文の引用で解説します。\n\n■ チャプター（実測）\n0:00 オープニング\n0:46 何が起きたか\n2:50 どれくらい「すぐ」か\n5:01 思考の窓が閉じかけている\n10:59 11の政策を採点\n16:30 ユートピアの話\n19:38 減速のスイッチ\n22:20 読むときの注意\n24:08 「AGIが来る」の読み方\n\n■ 一次ソース\nDeepMind Institute（トップ）: https://institute.deepmind.com/\nIntroducing the DeepMind Institute（Legg / Manyika / Hassabis）: https://institute.deepmind.com/essays/introducing-the-deepmind-institute/\nThe case for reasoning transparency（Shah / Dragan）: https://institute.deepmind.com/essays/the-case-for-reasoning-transparency/\nEconomic policy for AGI（Jacobs / Imas）: https://institute.deepmind.com/essays/economic-policy-for-agi/\nPrinciples for a new utopianism（Cave）: https://institute.deepmind.com/essays/principles-for-a-new-utopianism/\nA framework for frontier AI and the dawning of a new age（Hassabis・初出はX 2026-07-14）: https://institute.deepmind.com/essays/a-framework-for-frontier-ai-and-the-dawning-of-a-new-age/\nShane Legg の投稿（2026-09-16）: https://x.com/ShaneLegg/status/2100229706641539248\nDemis Hassabis の投稿（2026-09-16）: https://x.com/demishassabis\nJack Clark の引用投稿（2026-09-17）: https://x.com/jackclarkSF\nTechCrunch「DeepMind CEO calls for an independent standards body」（2026-07-14）: https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/\nTIME「Google DeepMind Reshuffles After CEO Demis Hassabis Steps Aside」（2026-08-06）: https://time.com/article/2026/08/06/google-deepmind-ai-demis-hassabis/\nMETR「OpenAI / Hugging Face hacking incident investigation」（2026-08-26）: https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/\nOpenAI「Safety overview: GPT-6 Astra」: https://openai.com/index/safety-overview-gpt-6-astra/\n\n■ 関連動画\nAnthropic CEOアモディ「減速」エッセイ解説: https://youtu.be/CCY0tBUIj5I\nその続報（政界・業界の反応）: https://youtu.be/Cup4-MFjbNE\nGPT-6 Astra 速報: https://youtu.be/F2Cvjxhv3HQ\n\n■ 但し書き\n・DeepMind Institute のページには「各記事は著者の見解であり、Googleの公式見解として読まないでほしい」という免責が付いています。動画内の「Google DeepMindが立ち上げた研究所」「公式ページに書かれた文章」という言い方は事実で、各エッセイの中身がGoogleの会社方針だという意味ではありません。\n・ハサビスの「フロンティアAIの枠組み」は2026年7月14日にXで公開された文章の再掲です。他の4本にはその但し書きがありません。\n・経済政策エッセイの採点は、実在の経済学者51人の調査データから作った51体のAIエージェントによるもので、著者自身が「探索的な手法」「初めての試み」と書いています。点数はその手法の結果です。\n・投稿の表示数（レッグ40万・ハサビス45万など）は2026年9月17日17時時点の画面の値です。\n・引用の日本語訳は筆者によるもので、原文は上の一次ソースで確認できます。\n\n■ クレジット\nナレーション: VOICEVOX:ずんだもん / VOICEVOX:四国めたん\nBGM: 魔王魂 https://maou.audio/\nサイト: https://www.ai-jitan-hub.com\n\n■ お仕事のご依頼\nタイアップ・案件のご相談: aijitanlab0@gmail.com\n(For business inquiries: aijitanlab0@gmail.com)",
+    "channelTitle": "AI時短ラボ",
+    "publishDate": "2026-09-17T10:14:11Z",
+    "duration": "PT25M38S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/SaCJq1WCyHA/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Shane Legg"
   },
   {
     "id": "GEJLCpnoIvA",
@@ -3772,6 +4282,23 @@
       "height": 720
     },
     "person": "Daniela Amodei"
+  },
+  {
+    "id": "jwEDorg5YEA",
+    "company": "openai",
+    "category": "openai",
+    "title": "Saving Faith by David Baldacci | When Trusting the Wrong Side Means Death",
+    "description": "📖 Saving Faith by David Baldacci | Full Story\n\nGet ready for a pulse-pounding political thriller from #1 New York Times bestselling author David Baldacci. In Saving Faith, Faith Lockhart — a Washington lobbyist who has uncovered a dangerous web of corruption reaching the highest levels of power — decides to turn to the FBI and expose everything, unaware that her decision has made her a marked woman.\n\nWhen a CIA mastermind with a god complex sends killers to silence her, an assassination attempt goes wrong, leaving an FBI agent dead and Faith on the run. Thrown together with Lee Adams, a private investigator who stumbled into the chaos by accident, she must flee for her life with a man she barely knows and isn't sure she can trust. As the FBI and CIA collide in a deadly game of cat and mouse, Faith and Lee race to survive and expose the truth before it buries them both. Packed with twists, tension, and non-stop suspense, this is Baldacci at his page-turning best.\n\nPerfect for fans of political thrillers, conspiracy mysteries, and edge-of-your-seat storytelling, this story is ideal for listening at home, while driving, relaxing, or during a long commute. 🎧\n\n✨ In this story, you'll experience:\n✔️ A gripping, fast-paced political thriller\n✔️ Rich, unforgettable characters\n✔️ A tense journey of conspiracy, danger, and betrayal\n✔️ Hours of immersive, edge-of-your-seat listening\n\n🔔 Subscribe and turn on notifications so you never miss a new full-length story!\n👍 Like this video if you enjoyed the story.\n💬 Comment below and let us know your favorite David Baldacci novel.\n\n⚠️ This story is shared for entertainment and educational purposes. All rights belong to their respective owners.\n\n#DavidBaldacci #SavingFaith #FullStory #PoliticalThriller #ConspiracyThriller #Suspense #MysteryThriller #BedtimeStory #ListenNow",
+    "channelTitle": "Juan Francisco Reyes Jara",
+    "publishDate": "2026-08-24T06:30:11Z",
+    "duration": "PT11H47M55S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/jwEDorg5YEA/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Chris Lehane"
   },
   {
     "id": "n_Hb2D3cxrI",
@@ -5948,6 +6475,23 @@
       "height": 720
     },
     "person": "Josh Woodward"
+  },
+  {
+    "id": "5U5EYhoWDkQ",
+    "company": "openai",
+    "category": "openai",
+    "title": "Business Outlook: PH AI Association's Sherwin Pelayo on leveraging AI for business | ANC",
+    "description": "Business Outlook (May 22): Salve Duplito and Ron Cruz talk to Sherwin Pelayo, Executive Director of the Analytics & Artificial Intelligence Association of the Philippines, about the advantages of using AI for business and how to leverage it.\n\nSubscribe to iWant to watch ANC live and on-demand:\nhttps://www.iwanttfc.com\n\nFor more ANC Interviews, click the link below:\nhttps://www.youtube.com/playlist?list=PLm34qRgqWBU7xKLMmMuJiQANZkV2vwZ15\n\nFor more Business Outlook videos, click the link below:\nhttps://www.youtube.com/playlist?list=PLm34qRgqWBU6TBYVPvgHTQWI2lYLCwbTM\n\nFor more ANC Highlights videos, click the link below:\nhttps://www.youtube.com/playlist?list=PLm34qRgqWBU4DBaX8LYXOh13nXllfot7g\n\nSubscribe to the ANC YouTube channel!\nhttps://www.youtube.com/user/ANCalerts\n\nVisit our website at https://news.abs-cbn.com/anc\nFacebook: https://www.facebook.com/ancalerts\nTwitter: https://twitter.com/ancalerts\n\n#ANCNews\n#ANCHighlights\n#BusinessOutlook",
+    "channelTitle": "ANC 24/7",
+    "publishDate": "2026-05-22T12:00:18Z",
+    "duration": "PT22M47S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/5U5EYhoWDkQ/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Sherwin Wu"
   },
   {
     "id": "dgBLVm2L1P4",

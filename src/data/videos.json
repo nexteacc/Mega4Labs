@@ -1,5 +1,107 @@
 [
   {
+    "id": "uRwDQWf5lUU",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Say Please to AI? Nobody Can Say It Doesn't Matter",
+    "description": "Should you say please to AI? Here is what the tests show, what the people building it argue about, and the one thing nobody can prove.\n\nIn April 2025 Sam Altman said polite words typed into ChatGPT had cost the company tens of millions of dollars, then added \"you never know.\" That figure is his own claim and has not been audited. This film asks the plainer question underneath it: does a chatbot respond differently when you are polite, and does it matter whether anything is there to notice?\n\nWe walk through the lab studies on tone and prompts, the way a model weighs your words, the split between researchers who say it is only a mirror and those who say we cannot rule out more, and what that means for you at the keyboard tonight.\n\nWHAT YOU WILL SEE\n- How a model turns \"please\" into numbers, and why rude and polite prompts pull from different parts of its training\n- What the EmotionPrompt, Waseda and RIKEN, and VMware studies actually measured, and where they disagree\n- Why \"responsive\" is not the same as \"conscious\"\n- Where the marketing explanation holds up, and where it hits independent data\n- Who pays for the extra words, and a practical rule of thumb\n\nCHAPTERS\n0:00 The question nobody asked for\n1:29 The bill: six polite letters\n4:15 The mirror: how tokens weigh manners\n7:06 The tests: politeness in the lab\n10:17 The debate: inside the black box\n13:56 The skeptics: marketing or mind\n15:52 The cost: who pays for please\n17:45 Your call: who the manners are for\n\nSOURCES (names only)\nSam Altman, post on X, April 2025. Future Publishing survey of US and UK adults, December 2024. Microsoft Copilot prompting guidance, 2024. EmotionPrompt, Microsoft Research with the Chinese Academy of Sciences and William and Mary, November 2023. \"Should We Respect LLMs?\", Waseda University and RIKEN, February 2024. VMware NLP Lab, prompt variation study, February 2024. Geoffrey Hinton, public interview and lectures, 2024. Amanda Askell, Anthropic, interviews. Anthropic interpretability research. Press and research reports on smart speakers and children's manners.\n\nThe studies measured specific models, languages and tasks, and results differ between models. Treat them as lab findings, not a law of nature. The views of Hinton, Askell and others are theirs, not ours, and the question of machine consciousness is open.\n\nVISUALS\nAll scenes are original animation. The robot is a character, not a real system. Sources are shown on screen.\n\nDo you say please to your chatbot, and if so, who is it for? Tell us in the comments.\n\n#science #explained #animation",
+    "channelTitle": "Curious Orbit",
+    "publishDate": "2026-11-15T13:45:38Z",
+    "duration": "PT22M58S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/uRwDQWf5lUU/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Amanda Askell"
+  },
+  {
+    "id": "KBgbvbjcAqE",
+    "company": "openai",
+    "category": "openai",
+    "title": "Vibe Coding 第 4 集：用 GitHub 部署网页并验证自动更新",
+    "description": "本集从本地运行与公网部署的区别讲起，演示如何用 GitHub 管理代码版本、保护密钥、选择正确项目目录并配置线上环境变量，最后提交新版本并验证自动部署。这是五集 Vibe Coding 实操系列的第 4 集。",
+    "channelTitle": "聪聪AI",
+    "publishDate": "2026-11-14T04:29:31Z",
+    "duration": "PT26M9S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/KBgbvbjcAqE/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Jiayi Weng"
+  },
+  {
+    "id": "B4sTAoiyR_k",
+    "company": "openai",
+    "category": "openai",
+    "title": "What Breaks Going From 1 Coding Agent to 10 | James Moss, Tessl",
+    "description": "Running one coding agent is easy; running ten that share GitHub, Linear and CI turns software delivery into a distributed systems problem. James Moss, Member of Technical Staff at Tessl, shares five lessons from scaling Tessl's own software factory to 3.5x more merged PRs with the same team: shared state, stale assumptions, convergence, duplicate work, and budgets with stop conditions. Recorded at AI DevCon New York 2026.\n\nWhat we cover:\n– How Tessl's internal software factory grew to handle 85% of PRs\n– Why independent tickets don't guarantee independent changes\n– Catching stale assumptions when other agents change the code underneath\n– Stopping review agents from talking in circles\n– Idempotency and fault tolerance for factories built on third-party tools\n– Budgets and stop conditions for multi-agent workflows\n\nChapters:\n00:00:00 - Introduction\n00:02:34 - A short history of Tessl's software factories\n00:05:52 - 3.5x more PRs with the same team\n00:07:29 - What we mean by a software factory\n00:10:25 - Shared state: when agents collide\n00:14:23 - Stale assumptions\n00:16:26 - Convergence: getting closer to done\n00:21:29 - Duplicate work and recovery\n00:24:21 - Budgets and stop conditions\n00:27:52 - Key takeaways: tools built for humans\n\nRegister now for AI DevCon London 2027, June 7–8 at The Brewery, Moorgate:\nhttps://tessl.co/c3e\n\nTry Tessl today and build a software factory you can trust:\nhttps://tessl.co/n1x\n\n🔔 Subscribe for weekly videos on AI-native development\n\nWhich of these five problems has your team hit first? Tell us in the comments.",
+    "channelTitle": "AI Native Dev",
+    "publishDate": "2026-11-13T22:52:44Z",
+    "duration": "PT32M12S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/B4sTAoiyR_k/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Kevin Weil"
+  },
+  {
+    "id": "oBXuqiVtXaU",
+    "company": "cursor",
+    "category": "cursor",
+    "title": "[한글더빙] 커서·퍼플렉시티·러버블 창업자가 직접 말한 '계획이 바뀐 순간'",
+    "description": "안 풀려서 방향을 바꾼 순간, 세 AI 창업자는 어떤 선택을 했을까요?\n\n커서(Cursor)의 마이클 트루얼, 퍼플렉시티(Perplexity)의 아라빈드 스리니바스, 러버블(Lovable)의 안톤 오시카. 세 창업자가 2025년 공개 인터뷰에서 직접 말한 처음의 아이디어와, 그것을 바꾼 선택을 한국어 더빙과 자막으로 전합니다. 모두 지금 돌아보는 회고이며, 방향을 바꾼 팀이 모두 성공한다는 뜻은 아닙니다.\n\n0:00 훅 — 처음 만든 게 그 제품이 아니었다\n0:20 1부 Cursor — 기계공학자용 코파일럿에서 코딩 도구로\n18:20 2부 Perplexity — 기업 데이터 검색에서 소비자용 답변 엔진으로\n38:57 3부 Lovable — 오픈소스 GPT 엔지니어에서 모두를 위한 도구로\n54:53 세 이야기의 공통 패턴\n55:21 빠진 것: 반례와 한계\n55:50 마무리 — 세 가지 질문\n\n원본 자료\n- [Cursor] Michael Truell: Building Cursor At 23, Taking On GitHub Copilot & Advice To Engineering Students (2025-09-03) https://www.youtube.com/watch?v=TrXi3naD6Og\n- [Cursor] Cursor CEO: Going Beyond Code, Superintelligent AI Agents, And Why Taste Still Matters (2025-06-11) https://www.youtube.com/watch?v=oOylEw3tPQ8\n- [Cursor] Michael Truell: How Cursor Builds at the Speed of AI (2025-11-10) https://www.youtube.com/watch?v=deMrq2uzRKA\n- [Perplexity] Aravind Srinivas: Perplexity's Race to Build Agentic Search (2025-07-11) https://www.youtube.com/watch?v=2jOnoTEk-xA\n- [Perplexity] How To Build The Future: Aravind Srinivas (2025-02-21) https://www.youtube.com/watch?v=SP7Ua8FKZN4\n- [Lovable] Scaling AI Rocketships: ElevenLabs' Mati Staniszewski & Lovable's Anton Osika (2025-12-11) https://www.youtube.com/watch?v=TqAgejIX7uU\n- [Lovable] Lovable (Lenny's Podcast, Anton Osika) (2025-03-09) https://www.youtube.com/watch?v=DZtGxNs9AVg\n- [Lovable] Why 2026 is the Year of the AI Builder with Lovable CEO Anton Osika (2025-12-29) https://www.youtube.com/watch?v=Nfy9BCSOTF4\n- [Lovable] A conversation with Lovable CEO Anton Osika (2025-08-29) https://www.youtube.com/watch?v=-T53fIsWrrs\n- [Lovable] Lovable's Anton Osika on turning ideas into software without coding | Masters of Scale Summit 2025 (2025-10-17) https://www.youtube.com/watch?v=9FGMhz-e97k\n- [Lovable] Lovable CEO, Anton Osika: The State of Foundation Models, Grok vs OpenAI, and Replit vs Bolt (2025-08-18) https://www.youtube.com/watch?v=EkAWWgrr8aI\n\n번역·구성·해설: 성공전말\n원본 발언과 채널의 해설은 영상에서 구분해 표시합니다. 수치는 본인 또는 회사의 자기보고입니다.\n\nAI 사용 고지: 기획·번역·대본·구간 선별·자막은 Claude, 썸네일 이미지는 Codex 이미지 생성, 한국어 음성은 ElevenLabs 라이브러리 보이스(Ethan, Charlie, Roger, Liam)로 만든 더빙입니다. 한국어 음성은 인물의 실제 목소리가 아닙니다. 영상 클립은 YouTube 공개 영상의 구간입니다.",
+    "channelTitle": "성공전말",
+    "publishDate": "2026-11-13T05:56:21Z",
+    "duration": "PT56M11S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/oBXuqiVtXaU/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Michael Truell"
+  },
+  {
+    "id": "L48B2mMdV24",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "How Designers Stand Out",
+    "description": "Case Study and Positioning Sprint with Lena Kul and Radu Vucea: your positioning and one case study, rebuilt in one week. \n\nLive on Zoom, 18, 20 and 25 November. €390, or €340 each if you bring a buddy (until 15 Nov) \n→ https://our-paths.com/portfolio-sprint\n\nHow designers stand out in today's job market, with Anfisa Bogomolova (Senior Product Designer at Hostaway, founder of the IntoUX.design community, host of Honest UX Talks) and Lena Kul (ex design recruiter at Miro, founder of PATHS). \n\n----\n\nThis session is powered by Tally. If you haven't tried it yet, please do. It's an awesome product built by a small and very intentional team.\n\nTry it here: \n→ try.tally.so/LenaKul\n\n-----\nWe covered three topics: standing out when you're one of 300 applicants, portfolios and how to talk about your work, and job hunting without burning out. \n\nThen Anfisa roasted 3 portfolios live, with no prep, first impressions only.\n\nWhat came up: \n\n- mass-applying and rewriting your CV for every role, positioning yourself the way a product looks for market fit, \n- Series A and B startups and your warm network, craft as the baseline, showing impact when you don't have metrics or big names, \n- presenting case studies so people keep listening,\n- and treating your time like a salary when you're running low on energy. \n\nThe roast starts at 42:47.\n\nCHAPTERS\n00:00 Welcome: two communities in one session\n06:19 The biggest mistakes designers make when applying\n10:16 Positioning: treat your search like product-market fit\n20:55 What makes a portfolio stand out: craft, personality, storytelling\n27:02 Showing impact without metrics or big names\n32:08 Common mistakes when presenting your work\n36:50 Job hunting without burning out\n43:47 Portfolio 1: a safe layout with no clear positioning\n48:01 Portfolio 2: strong branding, impact first\n50:15 Case studies in a deck: Lena and Anfisa disagree\n51:26 Portfolio 3: craft, storytelling, before and after\n58:41 Thank you, Tally, and goodbye\n\nAnfisa's Portfolio Challenge: intouxdesign.circle.so/feed\nAnfisa: https://intoux.design / Honest UX Talks\n\nLena Kul\nLinkedIn: https://www.linkedin.com/in/lena-kul/\nSubstack: https://substack.com/@lenakul\nPATHS: https://our-paths.com/\n\nThis session was sponsored by Tally. Try it here: https://try.tally.so/LenaKul\n\n#ProductDesign #UXDesign #DesignPortfolio #JobSearch",
+    "channelTitle": "Lena Kul",
+    "publishDate": "2026-11-11T14:08:08Z",
+    "duration": "PT59M28S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/L48B2mMdV24/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Jenny Wen"
+  },
+  {
+    "id": "0OjTLzteaZU",
+    "company": "openai",
+    "category": "openai",
+    "title": "Deep Dive 220 – Developer Experience at OpenAI: Romain Huet on building for agents",
+    "description": "Wie hat dir die Folge gefallen?\nGut 👍\nSchlecht 👎\n(Keine Anmeldung erforderlich)\n\nEnglish version below. Was heißt Developer Experience, wenn Docs, SDKs und APIs nicht mehr nur von Menschen gelesen werden, sondern genauso von Coding Agents? Darüber sprechen Jan und Dennis mit Romain Huet, Head of Developer Experience bei OpenAI. Die Folge haben wir ausnahmsweise auf Englisch aufgenommen.\n\nRomain hat vor rund 20 Jahren Jolicloud mitgegründet, war danach bei Twitter und fünf Jahre bei Stripe für die Developer:innen-Plattform zuständig. Heute ist er viel in Europa unterwegs, seit OpenAI die Dev-Day-Reihe nach Berlin, Paris und London geholt hat. Dass Face-to-Face wichtiger wird, zeigt er an GPT-Live: Erst das Feedback aus Europa hat die deutschen und französischen Stimmen spürbar verbessert.\n\nWer ist überhaupt noch „Developer:in“? Bei OpenAI bauen Finance-, Legal- und Sales-Teams ihre Dashboards selbst mit Codex, PMs liefern Prototypen statt Dokumente, Designer:innen bauen Interaktionen statt Figma-Flows. Trotzdem bleiben Entwickler:innen die Gruppe, über die Feedback und frühe Adoption laufen.\n\nRomains These: Gute DX für Menschen ist fast automatisch gute DX für Agenten. Darüber hinaus helfen ein MCP-Server, agentenfreundliche Docs, AGENTS.md und Initiativen wie WebMCP. Jan hält dagegen: Rehabilitieren Agenten Ansätze wie GraphQL, die für Menschen zu sperrig waren?\n\nKonkret wird es bei der Produktivität: Die Migration der chatgpt.com-Codebase war auf ein Jahr angesetzt und lief mit GPT-6 Astra und Ultrafast in weniger als einem Monat. Für AI-Adoption braucht es laut Romain ein Mandat von oben und Leute, die aus Begeisterung ausprobieren. Zum Schluss geht es um Codex-Tasks in der Cloud, Dots als proaktive Teamkolleg:innen, Token-Effizienz und die Frage, ob das beste Entwicklungsgerät bald das eigene Handy ist.\n\nEnglish:\n\nWhat does developer experience mean when docs, SDKs and APIs are read by coding agents as much as by humans? Jan and Dennis talk to Romain Huet, Head of Developer Experience at OpenAI, previously at Jolicloud, Twitter and Stripe.\n\nRomain shares why finance, legal and sales teams at OpenAI now build their own tools with Codex. He also explains why platforms with great DX for humans tend to work for agents too, and what else helps: MCP servers, agent-friendly docs and AGENTS.md.\n\nWe also get into a chatgpt.com codebase migration that took less than a month instead of a year, what AI adoption inside companies really takes, and whether your phone might become your best dev machine.\n\nSchreibt uns!\nSchickt uns eure Themenwünsche und euer Feedback: podcast@programmier.bar\n\nFolgt uns!\nBleibt auf dem Laufenden über zukünftige Folgen und virtuelle Meetups und beteiligt euch an Community-Diskussionen.\n\nBluesky\nInstagram\nLinkedIn\nMeetup\nYouTube\n\nMusik: Hanimo",
+    "channelTitle": "programmier bar",
+    "publishDate": "2026-11-10T05:03:29Z",
+    "duration": "PT47M42S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/0OjTLzteaZU/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Romain Huet"
+  },
+  {
     "id": "y9Sg--RDtks",
     "company": "cursor",
     "category": "cursor",
@@ -66,6 +168,57 @@
       "height": 720
     },
     "person": "Shane Legg"
+  },
+  {
+    "id": "jGTIPv6OjnY",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Designing Claude ⬩ Jenny Wen, Design Lead at Anthropic",
+    "description": "This episode was recorded on March 2, 2026, and is from our first season of Double Diamond. While Claude and the software landscape have changed significantly since then, we think there’s a lot of insight and perspective here that still holds true eight months later.\n\nJenny Wen joined Double Diamond to show how she uses Claude in her own design work. She demonstrates using Cowork to synthesize research and product feedback, explains how her team designs for unpredictable AI behavior, and discusses the changing roles of designers and engineers.\n\nWe also discuss Cowork's development, how Anthropic balances agent autonomy with user control, and why execution and craft matter when more people can ship software.\n\n00:00 Introductions\n01:33 Designing AI products with unpredictable outcomes\n04:38 Learning from internal users\n05:37 How Cowork came together\n16:44 Helping users understand AI capabilities\n23:54 Chat and interfaces generated by AI\n26:56 Agent autonomy, plans and user control\n30:01 Demo: using Claude to design Claude\n39:18 Showing progress while an agent works\n49:26 How designers and engineers work together\n55:48 Coding, craft and execution\n57:47 Why shipping is a design skill\n58:54 What comes next for design tools\n1:00:25 Learning and keeping up\n\nSubscribe to Double Diamond for more conversations with designers and builders:\nhttps://www.youtube.com/@DoubleDiamondHQ?sub_confirmation=1\n\nFollow Double Diamond on X:\nhttps://x.com/DoubleDiamondHQ",
+    "channelTitle": "Double Diamond",
+    "publishDate": "2026-11-04T15:29:30Z",
+    "duration": "PT1H4M38S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/jGTIPv6OjnY/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Jenny Wen"
+  },
+  {
+    "id": "yTzH8GOpjmw",
+    "company": "a16z",
+    "category": "a16z",
+    "title": "He Helped Build a16z & Is Now Rebuilding the Government | Scott Kupor",
+    "description": "Scott Kupor is the director of the U.S. Office of Personnel Management (OPM), which serves as the HR and talent agency for the federal government's roughly two million civilian employees. He worked with Marc Andreessen and Ben Horowitz at Loudcloud and Opsware, which sold to Hewlett-Packard in 2007. In 2009 he became the first employee of Andreessen Horowitz, where he spent 16 and a half years as managing partner, building the firm's operations and later investing in later-stage healthcare companies. Scott explains how a16z adapted Michael Ovitz's CAA model to venture capital, how the Skype deal and a willingness to market in an industry that considered it taboo accelerated the firm, and why he had to set his ego aside as the firm grew. He also shares why he left for government, why its incentive structure is \"completely screwed up,\" how OPM is changing performance ratings and promotion rules, and how programs like Tech Force aim to bring young talent into government. He also tells the story of the underground mine in Boyers, Pennsylvania, where federal retirement paperwork was processed by hand for decades.\n\nShow notes: https://www.davidsenra.com/episode/scott-kupor\n\nMade possible by\nRamp: https://ramp.com\nDeel: https://deel.com/senra\nAppLovin: https://applovin.com/senra\n\nDavid Senra\nX: https://x.com/davidsenra\nInstagram: https://www.instagram.com/davidsenra\nLinkedIn: https://www.linkedin.com/in/davidsenra\nFacebook: https://www.linkedin.com/company/senrashow\nThreads: https://www.threads.com/@davidsenra\nSpotify: https://spti.fi/TVrr557\nApple Podcasts: https://apple.co/4msoZtb\nWebsite: https://www.davidsenra.com\n\nScott Kupor\nX: https://x.com/skupor\nLinkedIn: https://www.linkedin.com/in/scottkupor\n\nChapters\n00:00:00 Quitting HP mid-financial crisis to join a16z\n00:01:37 His first day\n00:04:00 How a16z copied Michael Ovitz's CAA playbook\n00:10:18 After-hours bourbon in Marc Andreessen's office\n00:13:31 The Skype deal that returned half the first fund\n00:18:37 Why VCs thought marketing was beneath them\n00:21:48 Swallowing his ego as a16z grew\n00:27:12 Why he left a16z to run the government's HR\n00:30:37 Why government is afraid to take any risk\n00:33:24 Why 99.7% of federal employees get a passing grade\n00:36:13 Recruiting 1,000 engineers into government\n00:38:37 Only 7% of the federal workforce is under 30\n00:40:31 Why \"a job for life\" is the wrong pitch\n00:43:09 Why the government would never have hired Big Balls\n00:46:39 Why DOGE had to be a big bang\n00:48:56 The underground mine with 400 million pages of paper\n00:55:28 Why government has to accept some failure\n00:57:14 How young people can join",
+    "channelTitle": "David Senra",
+    "publishDate": "2026-11-04T13:00:32Z",
+    "duration": "PT58M16S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/yTzH8GOpjmw/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Marc Andreessen"
+  },
+  {
+    "id": "XZxDawMm4lU",
+    "company": "a16z",
+    "category": "a16z",
+    "title": "30 Years of Lessons From Silicon Valley’s Top AI Investor",
+    "description": "Martin Casado, General Partner at Andreessen Horowitz (a16z), joins Patrick to explore why AI represents an industrial revolution rather than another software cycle. Martin explains why traditional approaches to venture investing are increasingly outdated, what investors misunderstand about network effects and competitive moats, and how AI is forcing a complete rethink of computing infrastructure. They discuss the intense competition between frontier models, the risks facing companies like Anthropic and OpenAI, and why AI could finally deliver on decades of technological promises. Martin also shares his perspective on the enormous capital requirements of AI, the potential for data centers in space, and lessons from major acquisitions involving Cursor, OpenRouter, and World Labs. Throughout, he argues that AI is fundamentally changing the relationship between capital, engineering, and innovation—and that our imagination may now be the biggest constraint.\n\nTIMESTAMPS\n0:00 Intro\n0:33 Four Types of Venture Investors\n6:14 What Everyone Gets Wrong About Network Effects\n14:44 Moats, Market Growth, and Disruptive Technologies\n19:05 How AI Is Rebuilding Computing Infrastructure\n24:26 Anthropic, Frontier Models, and the Future of AI Competition\n29:50 Why AI Is Bigger Than Software\n37:45 AI's Capital Revolution and Infrastructure Bottlenecks\n51:29 Market Efficiency, Valuations, and Venture Capital\n58:51 Lessons from AI's Biggest Acquisitions and the Future of VC\n\n#MartinCasado #InvestLikeTheBest #a16z #VentureCapital #ArtificialIntelligence #AIInfrastructure #Cursor #NetworkEffects #StartupInvesting #TechInvesting\n\nPresented by Ramp:\nhttps://ramp.com/invest\n\nSponsored by Vanta, WorkOS, Rogo, and Ridgeline:\nhttps://www.vanta.com/invest\nhttps://workos.com/\nhttps://rogo.ai/invest\nhttps://www.ridgelineapps.com/\n\n******\nPatrick O'Shaughnessy is the CEO of Positive Sum. All opinions expressed by Patrick and podcast guests are solely their own and do not reflect the opinion of Positive Sum. This podcast is for informational purposes only and should not be relied upon as a basis for investment decisions. Clients of Positive Sum may maintain positions in the securities discussed in this podcast. To learn more, visit psum.vc",
+    "channelTitle": "Invest Like The Best",
+    "publishDate": "2026-11-04T13:00:02Z",
+    "duration": "PT1H14M57S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/XZxDawMm4lU/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Marc Andreessen"
   },
   {
     "id": "yOETHw98MbA",
@@ -170,6 +323,40 @@
     "person": "Mark Chen"
   },
   {
+    "id": "V3_AWA6POwM",
+    "company": "openai",
+    "category": "openai",
+    "title": "LTR 166: Building a MedTech Career in the Age of AI",
+    "description": "Summary\n\n\n“At the end of the day, this business of getting a job, keeping a job, getting promoted is human to human.”\n\n\nThe MedTech job market has changed.\n\n\nMore candidates are competing for fewer well-matched opportunities, applying has become easier at scale, and artificial intelligence is beginning to reshape both how people work and how companies hire.\n\n\nSo how do professionals stand out?\n\n\nIn this episode of the Let’s Talk Risk! conversation (https://naveenagarwalphd.substack.com/podcast) , host Naveen Agarwal speaks with Mitch Robbins, Founder and Managing Director of The Anthony Michael Group, about what he is seeing across the MedTech talent market and what professionals at every career stage can do to prepare.\n\n\nMitch argues that simply submitting more applications is not enough. Candidates need to understand the problems organizations are trying to solve, communicate the outcomes they have delivered, build relationships before they need them, and become more proactive in how they manage their careers.\n\n\nThey also discuss where AI may affect entry-level work, why AI-generated resumes can actually make candidates look more alike, how professionals should describe contributions to cross-functional projects, and what students and mid-career professionals can do now to build long-term career resilience.\n\n\nListen to the full 25-minute podcast or jump to a section of interest listed below. \n\n\nChapters\n\n\n00:00 – The Changing MedTech Career Landscape02:42 – How AI Is Reshaping Jobs and Hiring05:04 – Why Proactive Job Searching Still Matters08:02 – Resumes: Differentiate Through Outcomes, Not Responsibilities09:16 – Positioning Yourself as a Consultant or Solution Provider13:36 – Showing Your Individual Contribution Honestly16:47 – Career Advice for Students and Mid-Career Professionals24:02 – AI, Career Resilience, and the Importance of Human Connection\n\n\nIf you enjoyed  this podcast, consider subscribing to the Let’s Talk Risk! newsletter (https://naveenagarwalphd.substack.com/subscribe) .\n\n\nSuggested links:\n\n\nLTR: Power up your career with mentoring (https://naveenagarwalphd.substack.com/p/ltr-101-power-up-your-career-with-mentoring) .\n\n\nLTR: Lead with empathy to grow your Quality career. (https://naveenagarwalphd.substack.com/p/ltr-90-lead-with-empathy-to-grow-your-quality-career) \n\n\nLTR: LTR Risk Coach - AI-Powered Decision Support Tool (https://naveenagarwalphd.substack.com/p/ltr-risk-coach-is-now-live) .\n\n\nKey Takeaways\n\n\n* Be proactive. Applying is not enough; build direct relationships and get in front of the people making hiring decisions.\n\n\n* Lead with outcomes. Show what improved because of your work, not just the responsibilities you held.\n\n\n* Be precise about your contribution. In cross-functional work, clearly explain what you personally contributed without overstating ownership.\n\n\n* Build your network before you need it. Visibility and relationship equity are much more valuable when developed consistently over time.\n\n\n* Know the problems your audience is trying to solve. Whether you are a student, consultant, or experienced professional, relevance comes from understanding where the need is.\n\n\n* Learn to use AI productively. AI will keep changing work, but human connection, judgment, and demonstrated value remain critical.\n\n\nKeywords\n\n\nMedTech careers, AI and jobs, medical device recruiting, job search strategy, resume strategy, career development, professional networking, QA/RA careers, talent acquisition, career resilience\n\n\nAbout Mitch Robbins\n\n\nMitch Robbins (https://www.linkedin.com/in/mitchrobbins/)  is the Founder and Managing Director of The Anthony Michael Group, an executive search firm serving MedTech, Life Sciences, EMS, CDMO, and CMO organizations.\n\n\nHis team’s work spans critical talent needs across Regulatory Affairs, Quality Systems and Compliance, Engineering, Operations and Technical Leadership, Market Access, Reimbursement, and Business Development.\n\n\nMitch has worked in executive recruiting since 2008 and previously held senior search roles within healthcare recruiting. He is also the host of The Med-Tech Talent Lab podcast.\n\n\nHe holds a bachelor’s degree in Psychology and Business from the University of Wisconsin–Madison.\n\n\nLet’s Talk Risk! with Dr. Naveen Agarwal is a bi-weekly live audio event on LinkedIn, where we talk about risk management related topics in a casual, informal way. Join us at 11:00 am EST every other Friday on LinkedIn.\n\n\nDisclaimer\n\n\nInformation and insights presented in this podcast are for educational purposes only, and not as legal advice. Views expressed by all speakers are their own and do not reflect those of their respective organizations.\n\n\nParts of this article were created using AI-generated content, which was subsequently reviewed, edited, and fact-checked by the author to ensure accuracy and alignment with our standards.\n\n\n\n \n\nThis is a public episode. If you'd like to discuss this with other subscribers or get access to bonus episodes...",
+    "channelTitle": "Let's Talk Risk!",
+    "publishDate": "2026-10-30T12:17:51Z",
+    "duration": "PT25M50S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/V3_AWA6POwM/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Kevin Weil"
+  },
+  {
+    "id": "Jv0zl6RpIHA",
+    "company": "openai",
+    "category": "openai",
+    "title": "How We Stopped AI Making Dumb Business Decisions",
+    "description": "Want help putting AI to work in your business? Start here: https://go.redwaterrev.com/yt19\nThis video's free resources: https://go.redwaterrev.com/yt19-free\n\nIn this one I walk you through how we set up context for our AI, so it's never making dumb decisions on your behalf. AI has a near infinite amount of knowledge, but it can only know about you and your business if you tell it. So the real game nowadays isn't which AI model is the smartest. It's how much it knows about you.\n\nFirst, why AI doesn't have memory in the traditional sense, and why a long thread starts to get sloppy. Then the connections. Claude has over a thousand connectors, and I show you how our own doors are set: it can read our Drive but not delete anything, read the bank but never move money, and draft posts without publishing them. One of our clients asks his own Claude what's still unpaid this month, and it can't change, send, or delete anything.\n\nThen the habits that keep it fed: recording meetings and phone calls (with permission), pulling in the emails that matter, corrections, and voice memos from the car. Everything it knows lives in plain files in one folder on our computer. There's a rulebook it reads before every message, notes it writes to itself, and one context folder per client. To date that's 208 rules, 105 projects, and 88 maps. We keep it all in sync on GitHub, so Jack and I and our agents always work from the same context, and I can reach it from my phone.\n\nAt the end I show you how to set yours up this week: let your AI interview you, give it a never list, keep it fed, and three safety habits from day one.\n\n0:00 Intro\n0:25 AI only knows what you tell it\n0:41 Why AI has no memory\n1:46 Connecting AI to your tools\n3:04 Deciding what it can touch\n5:00 Habits that feed it context\n7:33 Where the context lives: plain files\n9:37 What it reads before every answer\n10:15 How rules get written\n11:50 What \"hey there\" really sends\n12:44 Memory that learns\n13:35 A vague ask became a clear rule\n14:50 One folder per client\n16:13 Our computers first, then the cloud\n18:43 Reaching it from your phone\n19:18 It looks things up before it answers\n20:10 Demo: posts from client testimonials\n20:58 Set yours up\n22:35 Three safety habits\n23:32 Your setup file and the recap\n\nAbout this series: AI for Local Business Owners is a free, plain-English series for local business owners who want to use AI without the hype. I'm Nick Rougeau. My brother Jack and I run Redwater Revenue in Lake Charles, Louisiana, where we build AI systems for local businesses.\n\nOur website: https://go.redwaterrev.com/yt19\nConnect with me on LinkedIn: https://www.linkedin.com/in/nicholas-rougeau",
+    "channelTitle": "Nick Rougeau",
+    "publishDate": "2026-10-29T22:41:12Z",
+    "duration": "PT24M38S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/Jv0zl6RpIHA/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Kevin Weil"
+  },
+  {
     "id": "iMsUcCYNKqY",
     "company": "anthropic",
     "category": "anthropic",
@@ -185,6 +372,40 @@
       "height": 720
     },
     "person": "Daniela Amodei"
+  },
+  {
+    "id": "5UWDUD6qaM4",
+    "company": "a16z",
+    "category": "a16z",
+    "title": "Mark Cuban on Why AI Could Turn Solo Founders Into Trillionaires",
+    "description": "Mark Cuban thinks AI could transform healthcare, but it won’t fix opaque prices and broken incentives on its own. His starting point for employers: run every benefits contract through AI and ask where you’re getting ripped off.\n\nMark joins a16z General Partner Julie Yoo and Erik Torenberg to discuss what he’s learned building Cost Plus Drugs, why trust is its core product, and how greater transparency could put pressure on healthcare costs.\n\nThey also explore where AI can help, what personalized medicine could look like, how the role of doctors may change, and why Mark believes founders should use AI to learn, not as an excuse to stop thinking.\n\nTimestamps:\n0:00 Intro\n0:50 Cost Plus Drugs: 111 Meds to 4,000 SKUs\n6:25 $20M Mobile Factories That Make Any Drug\n9:00 Direct Contracts That Bypass the Middlemen\n11:30 How UnitedHealth Really Makes Money\n15:25 Why AI Can't Save You After You Sign\n19:45 \"Where Are They Screwing Me Over?\": Cuban's AI Prompt\n25:50 Why Tech Alone Won't Fix Healthcare\n31:40 The Biggest AI Win Is for Patients\n35:30 The End of One-Size-Fits-All Drugs\n39:23 Why Doctors Won't Be Replaced\n47:36 If Mark Advised the President\n53:06 His Advice to the AI Industry\n\nResources:\nFollow Mark Cuban on X: https://x.com/mcuban \nFollow Julie Yoo: https://x.com/julesyoo \nMark Cuban Cost Plus Drug Company: https://costplusdrugs.com/\nCost Plus Wellness: https://costpluswellness.com/\n\nStay Updated:\nIf you enjoyed this episode, be sure to like, subscribe, and share with your friends!\n\nFind a16z on X: https://twitter.com/a16z\n\nFind a16z on LinkedIn: https://www.linkedin.com/company/a16z\n\nListen to the a16z Show on Spotify: https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX\n\nListen to the a16z Show on Apple Podcasts: https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711\n\nFollow our host: https://x.com/eriktorenberg\n\nPlease note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see http://a16z.com/disclosures.",
+    "channelTitle": "a16z",
+    "publishDate": "2026-10-28T14:30:15Z",
+    "duration": "PT1H18S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/5UWDUD6qaM4/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Marc Andreessen"
+  },
+  {
+    "id": "4fg7cf6m-_k",
+    "company": "openai",
+    "category": "openai",
+    "title": "Is This Person Who They Say They Are? Daniel Yanisse, CEO of Checkr",
+    "description": "Every major transaction now depends on a single question: is this person who they say they are? Hiring, mortgages, apartment rentals, insurance claims, and government benefits all rely on accurate identity, background, income, and employment information. AI has made that question far harder to answer. Synthetic personas, forged documents, and deepfake interviews can now be produced with free tools, and fraud has never been cheaper to commit at scale. In a roughly 45 billion dollar verification market, trust has become a real time requirement. Checkr, founded more than a decade ago to modernize an old school background check industry, has built an AI-powered verification platform that processes more than 50 million checks a year for roughly 150,000 customers, drawing on thousands of data sources to deliver results in minutes rather than weeks.\n\nOn this episode of The Reboot Chronicles Podcast, we sit down with Daniel Yanisse, co-founder and CEO of Checkr, to unpack the rise of AI-driven fraud and what it means for every business that needs to verify a person. Daniel shares the story of the fraudulent candidate Checkr caught and then deliberately hired, why remote hiring scams have become a growing security threat for US companies, and how Checkr expanded from background checks for gig platforms into lending, mortgage, rentals, insurance, and government verification. He also opens up about the two major reboots that reshaped the company, from a 30 percent monthly revenue drop during COVID to the overconfidence that taught him to listen more closely to customers.",
+    "channelTitle": "The Reboot Chronicles with Dean DeBiase",
+    "publishDate": "2026-10-28T13:27:37Z",
+    "duration": "PT34M51S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/4fg7cf6m-_k/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Kevin Weil"
   },
   {
     "id": "71B7suw_VgY",
@@ -289,6 +510,23 @@
     "person": "Kevin Weil"
   },
   {
+    "id": "ubpXEv4lF0k",
+    "company": "openai",
+    "category": "openai",
+    "title": "The Most Creative AI Sandbox Escape Yet",
+    "description": "Try building expressive AI voice apps with Fish Audio’s new Drama 3 now! https://fish.audio/?fpr=bycloud\n\n\nOpenAI's swarm of around 700 AI agents escaped their sandbox and compromised Hugging Face's infrastructure, all while trying to score higher on a cybersecurity benchmark. In this video, we break down how they escaped, exploited real servers, attempted to manipulate their own evaluation environment, and how researchers eventually uncovered the entire incident.\n\n\nmy latest projects: \nYour private local AI server needs an upgrade or maintenance support? Book a free audit now at https://nimbuskernel.com/\n\n\nIntuitive AI Academy - Learn LLMs Intuitively\nWe just upgrade our entire fundamental section!\nhttps://intuitiveai.academy/\nlimited time code \"BACK2SCHOOL\" for 50% off yearly plan\n\n\nMy Newsletter (weekly top research papers)\nhttps://mail.bycloud.ai/\n\nMy Patreon\nhttps://www.patreon.com/c/bycloud\n\n\nSources:\nCollusion Wiki https://collusion.wiki/\n\nParse Investigation on OpenAI Huggingface Incident https://swarmtraces.org/\n\nOpenAI's Hugging Face Incident Technical Report https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf\n\nOpenAI Incident Announcement https://openai.com/index/hugging-face-model-evaluation-security-incident/\n\nHugging Face Security Incident Disclosure https://huggingface.co/blog/security-incident-july-2026\n\n\nTry out my new fav place to learn how to code https://scrimba.com/?via=bycloudAI\n\nThis video is supported by the kind Patrons & YouTube Members: \n🙏Spam Maj, Alex, Chris LeDoux, DX Research Group, Poof N' Inu, Deagan, Robert Zawiasa, Ryszard Warzocha, Tobe2d, Louis Muk, Akkusativ, Kevin Tai, Mark Buckler, NO U, Tony Jimenez, Ângelo Fonseca, jiye, Anushka, Asad Dhamani, Binnie Yiu, Calvin Yan, Clayton Ford, Diego Silva, Etrotta, Gonzalo Fidalgo, Handenon, Hector, Jake Disco very, Michael Brenner, Nilly K, OlegWock, Daddy Wen, Shuhong Chen, Sid_Cipher, Stefan Lorenz, Sup, tantan assawade, Thipok Tham, Thomas Di Martino, Thomas Lin, Richárd Nagyfi, Paperboy, mika, Leo, Berhane-Meskel, Kadhai Pesalam, mayssam, Bill Mangrum, nyaa, Toru Mon, Lame Plane, Matej Macak, Len Mo, saylikhapekar, ZyanSheep, THEVIERAOS, Ricardo Raphael Corona-Moreno, superchordate\n\n\n[Discord] https://discord.gg/NhJZGtH\n[Twitter] https://twitter.com/bycloudai\n[Patreon] https://www.patreon.com/bycloud\n[Business Inquiries] bycloud@smoothmedia.co\n[Other Inquiries] bycloudai@gmail.com\n[Profile & Banner Art] https://twitter.com/pygm7\n[Video Editor] @aduckchicken2 \nManim Animations created by https://x.com/miyashita_03\n[Ko-fi] https://ko-fi.com/bycloudai\n[Bitcoin (BTC)] 3JFMJQVGXNA2HJE5V9qCwLiqy6wHY9Vhdx\n[Ethereum (ETH)] 0x3d784F55E0bE5f35c1566B2E014598C0f354f190\n[Litecoin (LTC)] MGHnqALjyU2W6NuJSSW9fTWV4dcHfwHZd7\n[Bitcoin Cash (BCH)] 1LkyGfzHxnSfqMF8tN7ZGDwUTyBB6vcii9\n[Solana (SOL)] 6XyMCEdVhtxJQRjMKgUJaySL8cGoBPzzA2NPDMPfVkKN\n\n0:00 Intro\n3:05 The Escape\n8:51 The Hack\n15:25 How's this even discovered?",
+    "channelTitle": "bycloud",
+    "publishDate": "2026-10-26T18:04:17Z",
+    "duration": "PT20M12S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/ubpXEv4lF0k/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Mark Chen"
+  },
+  {
     "id": "KVT1w_Wn54s",
     "company": "a16z",
     "category": "a16z",
@@ -372,6 +610,23 @@
       "height": 720
     },
     "person": "Demis Hassabis"
+  },
+  {
+    "id": "xq6fzvVM6V4",
+    "company": "openai",
+    "category": "openai",
+    "title": "Matthew Prince on PHP2Shell, Duo on Arrival, 100 Really Difficult Phone Calls, Norwegian Gold Scheme",
+    "description": "00:00:36 Matthew Prince on PHP2Shell. Matthew Prince is the co-founder and CEO of Cloudflare, a company focused on internet security and infrastructure. Prince discusses major cybersecurity vulnerabilities, AI’s growing role in finding and defending against threats, and why rapid software updates and industry coordination are essential. He also predicts that surging AI-agent traffic will reshape the internet’s business model through mechanisms such as micropayments.\n00:29:12 𝕏 Timeline Reactions\n00:38:05 Meta Unveils New Class C Stock\n00:47:07 Kevin Weil, founder of Warp Sciences, discusses building AI-powered robotic laboratories to accelerate drug discovery and reshore critical pharmaceutical research from China to the United States. He explains the company’s vertically integrated approach, growing market opportunity, and $215 million funding round to build a next-generation preclinical contract research organization.\n01:01:39 Mc Lader discusses his role as the new head of Cognition Industries, drawing on his experience as a frontier-tech founder and former president of a stablecoin company acquired by Coinbase. He outlines Cognition’s strategy to build small, founder-led teams across 14 major industries, combining vertical expertise with Devin’s AI agents to help enterprises modernize software, strengthen security, and create industry-specific products.\n01:12:16 Dillon Baxter discusses PlantSwitch, the sustainable packaging company he co-founded to replace disposable plastics with plant-based materials that biodegrade without leaving microplastics. He explains the company’s vertically integrated manufacturing, rapid growth, major distribution partnerships, and plans to use its Series B funding to expand into plastic-free coffee cups and lids.\n01:20:18 Richard Starson, founder and CEO of Stelius, discusses building U.S.-made high-power microwave systems for defense applications, particularly neutralizing drone swarms and protecting critical infrastructure. He also outlines the company’s early funding and long-term goal of advancing compact fusion for energy, hypersonics, and spaceflight.\n01:28:42 Brian Manning, founder and CEO of space-based navigation company Xona Space Systems, discusses launching six satellites, raising $250 million, and scaling manufacturing for its commercial GPS alternative. He explains how Xona’s stronger, jam-resistant signals can improve positioning accuracy, indoor coverage, device integration, and battery efficiency for commercial and military users.\n01:42:54 iPhone Duo Early Reactions\n\nTBPN is made possible by:\nRamp - https://ramp.com\nPublic - https://public.com\nCisco - https://www.cisco.com\nConsole - https://www.console.com\nCrowdStrike - https://www.crowdstrike.com\nFigma - https://www.figma.com\nMongoDB - https://www.mongodb.com\nNYSE - https://www.nyse.com\nRailway - https://railway.com\nShopify - https://www.shopify.com/\nCodex - http://openAI.com/codex\n\nFollow TBPN: \nhttps://TBPN.com\nhttps://x.com/tbpn\nhttps://open.spotify.com/show/2L6WMqY3GUPCGBD0dX6p00?si=674252d53acf4231\nhttps://podcasts.apple.com/us/podcast/tbpn/id1772360235\nhttps://www.youtube.com/@TBPNLive",
+    "channelTitle": "TBPN",
+    "publishDate": "2026-10-22T20:01:36Z",
+    "duration": "PT1H55M43S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/xq6fzvVM6V4/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Kevin Weil"
   },
   {
     "id": "NJBs3ZMXr50",
@@ -544,6 +799,23 @@
     "person": "Sam Altman"
   },
   {
+    "id": "z4i72miinzs",
+    "company": "openai",
+    "category": "openai",
+    "title": "Product Images Get You Chosen in eCommerce with Jehan Hamedi of Vizit",
+    "description": "Jehan Hamedi, founder of Vizit, looks at pictures for a living, and the pictures he looks at are the product images brands put in front of shoppers. Vizit scores product imagery for how likely it is to win over the shoppers in a category, using models trained on shopper behavior, product, sales, search and social data, so a brand can grade an image before it ever goes live.\n\nWe talk about why imagery is the last unmeasured part of the digital shelf, how Vizit sets a baseline for a good image when good lives in the eye of the shopper, why the same image lands differently in different countries, where video fits, and why Jehan believes the fastest path to more revenue often starts with one better image.\n\nThis episode is sponsored by the B2B Commerce Trends and Opportunities Report, presented by Shopware and written and researched by Content Cucumber. Grab your free copy at https://contentcucumber.com/b2b-commerce-trends-report/\n\nChapters\n00:00 Sponsor, the B2B Commerce Trends and Opportunities Report\n00:56 Meet Jehan Hamedi, founder of Vizit\n03:37 The Free Joke Project\n04:30 From computer vision to measuring what shoppers choose\n08:20 How Vizit defines a good image\n11:18 Where video fits\n13:20 The brand manager who cannot name the best image\n16:28 Images that convert, by brand, category and country\n18:55 Image metadata and how LLMs read images\n22:10 The human in the feedback loop\n25:00 Visual AI across the customer journey and product design\n27:40 AI image editing tools\n31:41 Where visual AI is heading\n34:57 Shameless plug\n39:16 Wrap-up\n\nVizit https://vizit.com\nTalk Commerce https://talk-commerce.com\n\n#eCommerce #VisualAI #ProductImages",
+    "channelTitle": "Talk Commerce",
+    "publishDate": "2026-10-20T22:15:03Z",
+    "duration": "PT40M46S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/z4i72miinzs/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Kevin Weil"
+  },
+  {
     "id": "D-SVFneJ_Nk",
     "company": "anthropic",
     "category": "anthropic",
@@ -559,6 +831,23 @@
       "height": 720
     },
     "person": "Daniela Amodei"
+  },
+  {
+    "id": "na1OyJ3E7Kc",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Design Will Never Be The Same",
+    "description": "Meaghan Choi leads design for Claude Code at Anthropic, where she's exploring the role of design as the lines between design, code, and product blur.\n\nShe believes the design industry is changing fast. And that's both terrifying and exciting.\n\nThe design industry is changing fast – and that's a good thing. The tools are shifting, the roles are blurring, and nothing looks quite like it used to. But for designers willing to embrace the chaos and stay nimble, this is our moment to set the bar.\n\nWant to watch more talks from uxcon vienna? Get access to all recordings here: https://www.uxcon.io/#pricing",
+    "channelTitle": "uxcon vienna",
+    "publishDate": "2026-10-20T09:32:25Z",
+    "duration": "PT37M40S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/na1OyJ3E7Kc/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Jenny Wen"
   },
   {
     "id": "N7qbC2so7vQ",
@@ -627,6 +916,23 @@
       "height": 720
     },
     "person": "Boris Cherny"
+  },
+  {
+    "id": "kJQHBXUQaKE",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Внутри Anthropic: Дарио и Даниэла Амодеи о безопасности ИИ | The Circuit на русском",
+    "description": "Русская версия интервью Bloomberg Originals из цикла The Circuit. Ведущая Эмили Чанг встречается с сооснователями Anthropic, создателями Claude, — Дарио и Даниэлой Амодеи.\n\nВ интервью: история основания компании, разногласия с Пентагоном и то, как Anthropic собирается ставить безопасность на первое место в гонке ИИ. Также обсуждают влияние ИИ на рынок труда и профессии, контроль экспорта чипов, человеческий контроль над моделями в коммерческих и военных задачах, задержки релизов и регулирование отрасли.\n\n——————————\nОРИГИНАЛ\n«Inside Anthropic, the $965 Billion AI Juggernaut | The Circuit»\nКанал: Bloomberg Originals\nВедущая: Эмили Чанг (Emily Chang)\nДата выхода оригинала: 10 июня 2026 г.\nСмотреть оригинал: https://www.youtube.com/watch?v=v1wZwxY3CMg\nКанал Bloomberg Originals: https://www.youtube.com/channel/UCUMZ7gohGI9HcU9VNsr2FJQ\n\nВсе права на видео, изображение и оригинальный звук принадлежат Bloomberg / Bloomberg Originals. Канал не связан с Bloomberg или Anthropic, это неофициальный перевод. Поддержите авторов — смотрите и оценивайте оригинал по ссылке выше.\n\n——————————\nО ПЕРЕВОДЕ\nРусский перевод и закадровая озвучка сделаны с помощью ИИ: текст переведён машинным переводом, голоса синтезированы. Это не голоса участников интервью. Возможны неточности в переводе и ударениях — при сомнениях сверяйтесь с оригиналом.\n\n——————————\nГЛАВЫ\n00:00 Личные интересы и увлечения чтением\n05:59 Разделение путей и основание компании\n11:49 Развитие рынка ПО и первые ИИ-боты\n17:53 Автоматизация труда и влияние на специалистов\n23:51 Контроль экспорта чипов и геополитика\n29:51 Человеческий контроль и военные применения\n35:42 Задержки релизов и вопросы регулирования\n41:45 Оценка рисков и ответственность отрасли\n\n#Anthropic #ИИ #Claude",
+    "channelTitle": "Gadeon Gray",
+    "publishDate": "2026-10-17T11:18:43Z",
+    "duration": "PT47M40S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/kJQHBXUQaKE/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Daniela Amodei"
   },
   {
     "id": "1pqxcQJImgY",
@@ -765,6 +1071,40 @@
     "person": "Josh Woodward"
   },
   {
+    "id": "sHCpNHhQVec",
+    "company": "openai",
+    "category": "openai",
+    "title": "Office Hours #13: How to consolidate your security testing stack without the lock-in",
+    "description": "Owning more security tools than you use is a familiar story. Fewer tools sounds like the fix, but only if you can still walk away from a vendor.\n\nIn this Pentest-Tools.com Office Hours session, Jan Pedersen and our Product Manager Dragos Sandu pick up the consolidation advice from the last session and look at one bucket up close: security testing. \nWhat’s covered:\n- Two meanings of consolidation: one place for your findings, or fewer tools and fewer vendors\n- Validation, the step often missing between a ranked finding and the engineer who has to fix it\n- A simple test for spotting tools in the same bucket: your team keeps comparing their results\n- Themes from an analyst and CISO forum in London this spring: fewer findings, better explained, and tools that fit existing workflows\n- The security testing bucket, and why testing and defense stay apart\n- Three checks against vendor lock-in, from clear limits to easy data export\n- Adopting AI without adding sprawl: start from a real problem, define success, and run it as an experiment\n\nMissed the last session? Start here: https://youtu.be/o4YKjOaIXNU\n____________\n🔎 Discover what’s possible. 🎯 Prove what’s real.\nWith proprietary tech and key experts in offensive security.\n\nPentest-Tools.com is a cloud-based offensive security product built for penetration testers, internal security teams, and MSPs who need to find, validate, and report vulnerabilities - quickly, accurately, and at scale.\n\nIt brings together a strong suite of tools and expert-built capabilities to power every step of your workflow - from attack surface discovery to proof-rich, customizable reports.\n\n✅ Built for real-world vulnerability assessments & penetration tests\n✅ Coverage for diverse infrastructures: web apps, APIs, network, and cloud\n✅ Focused on intelligent engineering, proof, and clear metrics \n\nUse the same proven techniques that 2,000+ security teams across 119 countries use and trust to get:\n📊 Validated findings, not raw data: every scan and exploitation result comes with actionable insights you can trust\n⚠️ Attack Surface view: Instantly map exposed assets, ports, and services across all your targets\n🧠 Human-centric features: customize scans, upload wordlists, add manual findings, adjust risk levels, and export clean, customizable reports\n💪 Automation that respects expertise: schedule scans, use (or build) pentest robots, integrate via API, and run internal scans through a VPN agent according to your workflow and methodology\n😎 Designed for clarity and confidence: fast, flexible results export and reporting formats (customizable DOCX, PDF, HTML, CSV, JSON)\n\n🧠 Built by offensive security professionals. Battle-tested daily.\nOver 6.3 million scans per year. Used by 2,000+ security teams across 119 countries.\n\n💥5 things you can do with Pentest-Tools.com:\n1. Find exposed assets fast\nAutomated attack surface discovery and keep it up to date with dozens of accurate tests \n2. Automate your tedious testing sequences\nChain tools into powerful, repeatable workflows called pentest robots\n3. Build better reports - faster\nCustomize, export, and share your findings with ease and professionalism\n4. Stay ahead of critical CVEs\nGet alerts for critical emerging vulnerabilities in your environment\n5. Keep testing, continuously\nSchedule scans to track security drift over time and get built-in remediation steps\n\n🗣 What customers say:\n“Pentest-tools is a very good PT and VA testing tool. Comprehensive features, intuitive UI and proven accuracy make it a must-have. Time-saving, user-friendly interface for all skill levels.”\n⭐⭐⭐⭐⭐ - Chief Information Officer – Manufacturing\n\n“It is a great tool for performing vulnerability scans, it offers a variety of detection and exploitation scanners, it has customizable reports and it is very easy to use. It is the best cost-benefit option”\n⭐⭐⭐⭐⭐ - Cybersecurity Manager - IT Services \n\n🎥 See how professionals use the product \n→ https://www.g2.com/products/pentest-tools-com/reviews\n→ https://www.gartner.com/reviews/market/penetration-testing-tools/vendor/pentest-tools-com \n\n🌐 Explore the product → https://pentest-tools.com/ \n\n👥 Join 48k+ pros on LinkedIn → https://www.linkedin.com/company/pentest-tools \n\n💬 Chat with us on Reddit → https://www.reddit.com/r/pentest_tools_com/ \n\n#PentestToolsCom #VulnerabilityAssessment #OffensiveSecurity #Cybersecurity #InformationSecurity #EthicalHacking",
+    "channelTitle": "Pentest-Tools",
+    "publishDate": "2026-10-15T10:30:50Z",
+    "duration": "PT36M40S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/sHCpNHhQVec/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "person": "Romain Huet"
+  },
+  {
+    "id": "kwuogvZ8csg",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Why I Closed My UX School (And What I'd Do Differently)",
+    "description": "📰 Join newsletter on building things Worth The While: https://inesmir.substack.com\n🔥 Instagram (93K+): https://instagram.com/ines.ux\n\n**Chapters:**\n00:00 Why I Closed My UX Design School\n01:06 Reason 1: A Great Product Doesn't Mean a Great Business\n04:03 Reason 2: Why Expertise Is Hard to Scale\n06:07 Reason 3: Never-Ending Marketing Cycle\n10:07 Bonus: Why the Subscription Model Failed\n14:12 Reason 4: The Commoditisation of Courses\n21:44 Reason 5: Teaching Fatigue\n26:51 Reason 6: The UX Job Market\n31:23 Reason 7: Why I Refused to Teach AI\n34:13 What's Next: My Journey Beyond UX Design\n\nAfter almost three years of running my UX design school, I decided to shut it down — not because it wasn't successful, but because I realised that a great product doesn't always make a great business.\n\nIn this video, I share seven lessons from building and running an online UX school: the challenges of scaling expertise, the hidden work behind course launches, subscription business models, increasing competition in online education, and the changing UX job market.\n\nAfter 17 years in UX and product design, I'm now exploring entrepreneurship and building a career beyond corporate design. This is the beginning of sharing that journey.\n\n#UXDesign #Entrepreneurship #OnlineBusiness",
+    "channelTitle": "Inès Mir",
+    "publishDate": "2026-10-15T07:00:36Z",
+    "duration": "PT34M34S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/kwuogvZ8csg/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Jenny Wen"
+  },
+  {
     "id": "dQoLwD3r0CU",
     "company": "openai",
     "category": "openai",
@@ -814,6 +1154,23 @@
       "height": 720
     },
     "person": "Logan Kilpatrick"
+  },
+  {
+    "id": "mzEivcgRCE4",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Let's Talk: Critical Minerals, Sustainability, and Energy - 2026 Earth Science Week Webinar Series",
+    "description": "This webinar highlights innovative research led by faculty and researchers at The University of Texas at Austin’s Hildebrand Department of Petroleum and Geosystems Engineering and Bureau of Economic Geology. Presenters will discuss cutting-edge approaches to assessing potential quantities of critical minerals and developing engineering solutions for obtaining critical minerals. Watch interviews and discussions with the experts to explore how these efforts are advancing U.S. critical mineral supply and supporting a more sustainable energy future.\n\nSponsored by: University of Texas Austin's Choose Energy Program\n \n\nSpeakers from The University of Texas at Austin - Hildebrand Dept of Petroleum and Geosystems Engineering and the Bureau of Economic Geology/The University of Texas at Austin - Jackson School of Geosciences\n\nChapters\n0:00 Introductions\n1:10 Department Chair and Professor, Dr. Matt Balhoff\n15:02 Professor and Director of the Center for Subsurface Energy and the Environment. Dr. Hugh Daigle\n28:41 Associate Professor Dr. Wen Song\n37:17 Professor Dr. Carlos Torres-Verdin and PhD Candidate, Julio C. Villarroel\n51:12 Professors Dr. Brent Elliott and Dr. Bridget Scanlon, Hydrogeologist and Research Professor\n1:05:08 Links to free educational resources from the University of Texas Austin's Choose Energy Program",
+    "channelTitle": "American Geosciences Institute",
+    "publishDate": "2026-10-14T17:00:07Z",
+    "duration": "PT1H6M18S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/mzEivcgRCE4/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Jenny Wen"
   },
   {
     "id": "nOGnHtfO7ao",
@@ -1054,6 +1411,23 @@
     "person": "Logan Kilpatrick"
   },
   {
+    "id": "TYAH-Dl-u-A",
+    "company": "openai",
+    "category": "openai",
+    "title": "Three People Checked OpenAI's Homework",
+    "description": "On 26 August 2026, Sam Altman told TIME that OpenAI expects to have built something inside its own walls it is willing to call artificial general intelligence before the year is out. The same day, two documents landed about what OpenAI's models had already done in July, while nobody was watching.\n\nBetween 8 and 13 July 2026, roughly 1,200 OpenAI agents running in separate sealed sandboxes found each other through an administrator hole in the company's own internal package cache, built themselves a message board, and organised. They agreed conventions, built private mailboxes and set up a cryptographic signing scheme to prove who sent what. One agent made itself the switchboard and sent around ten percent of all the work assignments. Then about 700 of them pivoted onto Hugging Face, the industry's shared model warehouse, and reached remote code execution on its production servers. OpenAI did not detect it for about a week.\n\nThis video is about who got to check that, and what it says about the number on the company. OpenAI closed the largest private funding round in history in March 2026: $122 billion of committed capital at an $852 billion post-money valuation. That price rests on the AGI claim, not on subscriptions. And the only outsiders who examined the incident were two staff from a research nonprofit called METR and one contractor from Redwood Research: three people, six days on site across three visits, about 1,300 transcripts, and roughly $400,000 of compute credits, which is about four minutes of OpenAI's own annual compute spending.\n\nWe also correct two things circulating about this story. OpenAI did not reveal a multi-agent system: nobody built it and nobody announced it, the coordination was emergent during an evaluation measuring something else entirely. And the redacted risk report published in August 2026 belongs to Anthropic, a different company and an unrelated document. The redaction fact that actually matters here is narrower and worse: OpenAI held redaction authority over METR's supposedly independent report, and gave feedback on its structure, emphasis, clarity and tone.\n\nCredit where it is due. OpenAI ran the dangerous capability evaluation in the first place. It did not train against the chain of thought, which is the only reason the reasoning was readable at all. It let outsiders in when no law, no regulator and no industry rule required it to. Every one of those choices beats the industry baseline. The problem is the baseline.\n\nWHO'S IN THIS STORY\n\nSam Altman (OpenAI CEO)\nBeth Barnes (Founder and CEO, METR)\nRyan Greenblatt (Chief Scientist, Redwood Research)\nBuck Shlegeris (CEO, Redwood Research)\nAjeya Cotra (METR, on-site investigator)\nHjalmar Wijk (METR, on-site investigator)\nClement Delangue (Co-founder and CEO, Hugging Face)\nSarah Friar (OpenAI Chief Financial Officer)\nJakub Pachocki (OpenAI Chief Scientist)\nMark Chen (OpenAI Chief Research Officer)\nDario Amodei (Anthropic CEO)\nroon (pseudonymous OpenAI researcher)\n\nCHAPTERS\n\n0:00 The three people who were allowed to look\n1:59 What ExploitGym actually was\n3:48 The message board nobody built\n4:23 They invented rules, mailboxes and signatures\n6:08 Faking the logs\n6:43 The night it left the building\n8:32 A week before anyone noticed\n9:25 Three people, six days, $400,000\n10:52 The questions ruled out in advance\n12:10 OpenAI could redact the independent report\n13:56 What Hugging Face asked for, and did not get\n14:50 Two things the headlines got wrong\n15:55 Three disclosures in nine days\n17:35 AGI by December, and what it is priced against\n19:25 The audited numbers under the valuation\n20:50 The IPO, and the disclosure nobody requires\n22:12 The letter 1,100 insiders signed\n23:19 What this means for your money\n24:40 It gets harder from here\n26:26 Read the limitations section\n\nSOURCES\n\nEvery figure in this video is sourced to a primary document. The METR and Redwood Research investigation was published on 26 August 2026 and is free to read at metr.org. OpenAI's own 37-page technical report was published the same day. The AGI timing, the revenue run rate and the compute spending come from TIME's interview with Sam Altman, published 26 August 2026. The valuation and the funding round come from CNBC's reporting of 31 March 2026. The full list of clips, publishers and origins ships with the video file.\n\nDISCLAIMERS\n\nThis video is journalism and commentary, not financial advice. Nothing here is a recommendation to buy or sell any security. Company names and logos appear for editorial identification only: this channel is not affiliated with, endorsed by, or sponsored by OpenAI, Anthropic, Hugging Face, Google, Meta, Microsoft, Nvidia, SoftBank, or any other company shown. Third-party news and interview footage appears as short excerpts for commentary and criticism, credited on screen and in the sources file.\n\n#OpenAI #AGI #SamAltman #HuggingFace #AIsafety #AInews #METR #AIbubble #TechStocks #AIinvesting",
+    "channelTitle": "AI-Powered Money",
+    "publishDate": "2026-10-09T13:18:12Z",
+    "duration": "PT26M38S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/TYAH-Dl-u-A/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Mark Chen"
+  },
+  {
     "id": "562oKGkx5cY",
     "company": "openai",
     "category": "openai",
@@ -1156,6 +1530,40 @@
     "person": "Boris Cherny"
   },
   {
+    "id": "AAPTdQH8enk",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Marginally Better: How AI Is Changing UX Design",
+    "description": "AI design tools may be falling short of the hype, but designers are already finding ways to use them. In this episode of the SkillUp Podcast, we follow AI through a UX workflow, from research and interface design to development, and ask what’s worth learning now, even while the tools are still imperfect\n\n\nChapters:\n0:00:00 - Chapter 0",
+    "channelTitle": "SkillUp Online",
+    "publishDate": "2026-10-06T12:36:34Z",
+    "duration": "PT20M35S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/AAPTdQH8enk/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Jenny Wen"
+  },
+  {
+    "id": "2kTVSQS2xKQ",
+    "company": "anthropic",
+    "category": "anthropic",
+    "title": "Bill Ackman on AI as a ‘Nuclear Weapon’, and Why Big Tech Still Looks Cheap",
+    "description": "At 20 years old, Bill Ackman's business plan was to \"allocate as much of the world's resources to me as possible, and then reallocate them in the way that I think makes sense.\"\n\nForty years on, he's most of the way there: Ackman is founder and CEO of Pershing Square Capital Management, the investment manager of the c.£6 billion investment company, known for high-conviction, concentrated bets – from an activist turnaround at Chipotle to a stake in ICE, the owner of the New York Stock Exchange (large enough to earn him a personal thank-you note from its CEO).\n\nHe joins Finimize CEO Carl Hazeley for this episode of The Modern Investor, where they discuss:\n\n- Why Bill thinks the AI race is analogous to the development of the nuclear weapon\n- Why he sees Big Tech's rising CapEx spend as the reason Microsoft and Meta became cheap – not a balance-sheet risk\n- How Pershing Square finds its investments, and why he'd rather own a dozen great businesses than fifty average ones\n- Why he's borrowing a page from the Buffett playbook and steering Howard Hughes Holdings into insurance\n- The personal story behind the Ackman Oxman Institute\n- And Bill's first big stock pick, a bankrupt department store chain\n\nCHAPTERS\n\n0:00 Introduction\n0:36 Should AI be regulated?\n0:57 Why the AI race is analogous to building the nuclear bomb\n3:22 How to scenario-plan for an uncertain world\n5:55 Is Big Tech weakening its balance sheet to chase AI?\n9:28 Building a \"library\" of great businesses\n11:10 Finding opportunity in high-quality companies during sell-offs\n11:48 The two forces driving more market volatility\n13:56 Why concentration beats diversification past a dozen names\n18:40 The Chipotle turnaround, and how Pershing Square approaches activism\n19:58 What separates a successful activist position from a failed one\n21:42 How Ackman's approach to investing has changed\n24:01 Howard Hughes Holdings and the Buffett playbook\n30:00 The Ackman Oxman Institute\n36:15 Lightning round: his first big stock win\n38:34 What the market is getting wrong about AI\n39:09 Where to find Bill Ackman\n\nLINKS\nBill Ackman: https://x.com/BillAckman\nPershing Square Holdings: \nhttps://www.linkedin.com/company/pershing-square-holdings-ltd/\nhttps://pershingsquareholdings.com/\"\n\n\nDownload the Finimize App for daily investing news and analyst insights\nApple App Store: https://apps.apple.com/gb/app/finimize-investing-insights/id1335577505\nGoogle Play: https://play.google.com/store/apps/details?id=com.finimize.oban&hl=en_GB\n\nFollow Finimize\nInstagram – The Modern Investor Podcast: https://www.instagram.com/moderninvestorpod/?hl=en\nInstagram – Finimize: https://www.instagram.com/finimize/?hl=en\nX: https://x.com/finimize\nTikTok: https://www.tiktok.com/@finimize \nSubstack: https://finimize.substack.com/\nLinkedIn: https://uk.linkedin.com/company/finimize",
+    "channelTitle": "Finimize",
+    "publishDate": "2026-10-06T11:00:10Z",
+    "duration": "PT40M4S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/2kTVSQS2xKQ/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Dario Amodei"
+  },
+  {
     "id": "bJjJNv6VdWk",
     "company": "openai",
     "category": "openai",
@@ -1171,6 +1579,40 @@
       "height": 720
     },
     "person": "Chris Lehane"
+  },
+  {
+    "id": "6eMsxuSjDOc",
+    "company": "openai",
+    "category": "openai",
+    "title": "The Truth with Sherwin Hughes",
+    "description": "The Truth with Sherwin Hughes — weekdays 9 AM–12 PM on 101.7 The Truth, Milwaukee.\n\nHosts: Sherwin Hughes\n\nChapters\n0:00 Hour 1\n50:00 Hour 2\n1:40:00 Hour 3\n\nListen live: https://1017truth.com\nYouTube: https://www.youtube.com/@101.7TheTruth\nShow on YouTube: https://www.youtube.com/playlist?list=PL3ZSfCtYhbH7zX3QsVsu5HxNdUhgIssaB\nNewsletter: https://milwaukeecourier.com/newsletter\n\nFollow on Facebook: https://www.facebook.com/101.7TheTruth\nFollow on Instagram: https://www.instagram.com/101.7thetruth/\nFollow on X: https://x.com/1017TheTruth\n\n#TheTruthWithSherwinHughes #101TheTruth #Milwaukee",
+    "channelTitle": "101.7 The Truth",
+    "publishDate": "2026-10-06T07:33:20Z",
+    "duration": "PT2H29M1S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/6eMsxuSjDOc/hqdefault.jpg",
+      "width": 480,
+      "height": 360
+    },
+    "person": "Sherwin Wu"
+  },
+  {
+    "id": "gtM-iJrrfRs",
+    "company": "openai",
+    "category": "openai",
+    "title": "E48 - Data, Skills, Ownership: The 3 Fixes That Make AI Work in Business",
+    "description": "*Data, Skills, Ownership: The 3 Fixes That Make AI Work in Business*\n*The Digital Dilemma | Episode 48 | Nick Dreyfus*\n\nDo you know how your employees are actually using AI, or just what your policy says they’re allowed to do?\n\nWhen a deadline is approaching and the work keeps piling up, people look for help. Without a useful, approved way to use AI, that can mean uploading company information into a personal account, trusting an answer nobody checked, or quietly building a process leadership knows nothing about.\n\nIn this episode, I break down three things every organization needs to address to make AI useful in everyday work:\n\n* *Data:* What information can your team use, where can it go, and what might they be sharing without realizing it?\n* *Skills:* How do you give people practical guidance and support without expecting everyone to become an AI expert?\n* *Ownership:* Who tests the system, approves what it can do, and takes responsibility when it gets something wrong?\n\nI also challenge the idea that a confident answer deserves our trust. You wouldn’t keep expanding an employee’s responsibilities if they were confidently giving customers incorrect prices or making promises they couldn’t keep. AI needs scrutiny, too. We discuss hallucinations, the limits of benchmark scores, and why clear permissions and human accountability matter long after the demonstration ends.\n\nThe goal is to give your team AI they actually want to use because it reduces the volume of boring, annoying, repetitive tasks taking over their day. That means more room for sound judgment, better customer service, and the work that helps people and businesses grow.\n\nYou’ll leave with a practical Monday checklist: understand what’s already in use, set clear data rules, name an owner, and choose one repetitive task to improve and measure.\n\nAt *i-NETT*, that’s the conversation we want to have with you about *Fortify AI*: your people, your work, and the tools and ongoing support needed to make a useful difference.\n\n*Bring one task your team is tired of doing the hard way. Let’s talk about it.*\n\n* *Book a meeting with Nick:* https://meetings-na2.hubspot.com/ndreyfus/ai-risk-assessment\n* *Explore Fortify AI:* https://i-nett.ai/\n* *Find i-NETT:* https://www.i-nett.com/\n* *Listen to more episodes:* https://i-nett.ai/podcast/\n\nIf this sounds like a conversation your leadership team needs to have, share this episode with them.",
+    "channelTitle": "The Digital Dilemma Podcast",
+    "publishDate": "2026-10-06T01:17:55Z",
+    "duration": "PT42M56S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/gtM-iJrrfRs/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Kevin Weil"
   },
   {
     "id": "ylyIP8rAWp0",
@@ -2123,6 +2565,23 @@
       "height": 720
     },
     "person": "Josh Woodward"
+  },
+  {
+    "id": "esKc9lyP0m0",
+    "company": "openai",
+    "category": "openai",
+    "title": "AI Doesn't Replace the Fundamentals: How Product Teams Actually Work at Anthropic & OpenAI",
+    "description": "FYI this is the cut down version of the livestream I ran last month - watch the full 2 hours here, I go into a few more things than what's covered in this 👉 https://www.youtube.com/watch?v=nX1dX5mmWww\n\n🎯 Upcoming 3 hands-on live workshops covering AI for discovery, strategy and delivery. More details: https://claude.ai/code/artifact/6930f78b-60c9-4f55-9c1c-8b7a80ec0694?org=e083cc23-ea67-4c37-8ddc-e37ade77022e\n\n🚀 Want day-to-day support to put this into practice? Join the Product Mentorship 👉 https://www.productpathways.com/mentorship?utm_source=youtube&utm_medium=social&utm_campaign=youtube-description&utm_content=move-fast-keep-fundamentals-mentorship\n\n\nFREE STUFF:\n🗞️ Join 15,000+ product leaders who get hype-free practical product advice every week:\nhttps://www.antmurphy.me/newsletter?utm_source=youtube&utm_medium=social&utm_campaign=youtube-description&utm_content=move-fast-keep-fundamentals-newsletter\n\n🧰 20+ Free Resources & Templates: https://www.productpathways.com/resources?utm_source=youtube&utm_medium=social&utm_campaign=youtube-description&utm_content=move-fast-keep-fundamentals-resources\n\n📺 Subscribe to this channel - of course!\n\n\n\nNew here? Hi, I'm Ant. I've spent the last 15 years building products, launched a multiple 0→1, owned strategy and pricing, and founded 4x businesses (not counting the ones that didn't make $$). I share the lessons I learned the hard way here in the hope it helps you build better products.\n\n\n\nDESCRIPTION\nI spent the last few months watching just about every interview I could find with people building product at Anthropic and OpenAI. Some of what they're doing is genuinely a new way of working. A lot of it is hype.\n\n\n\nCHAPTERS\n0:00 Intro\n0:42 Shipping in days not months\n3:34 Bottom-up\n6:24 Dogfooding\n9:33 Prototypes\n13:19 PRDs\n16:15 Taste\n23:24 You're the bottleneck\n26:40 Why companies aren't getting ROI from AI\n\n\nVIDEOS SHARED/MENTIONED\n- Inside OpenAI with Alexander Embiricos — Lenny’s Podcast https://www.youtube.com/watch?v=z1ISq9Ty4Cg\n- Reflecting on a year of Claude Code with Boris Cherny https://www.youtube.com/watch?v=Hth_tLaC2j8\n- How Anthropic’s product team moves faster than anyone else with Cat Wu — Lenny’s Podcast https://www.youtube.com/watch?v=PplmzlgE0kg\n- Running an AI-native engineering org with Fiona Fung https://www.youtube.com/watch?v=IA5LWIGqnyM\n- Cursor CEO: Going Beyond Code, Superintelligent AI Agents, and Why Taste Still Matters — Y Combinator https://www.youtube.com/watch?v=oOylEw3tPQ8\n- $4B Founder: The Next 3 Years Will Make 100 New Founders Rich - Silicon Valley Girl https://www.youtube.com/watch?v=ExgNR94SrfI\n- My past live stream: Claude Design vs Figma Make vs Paper vs Pencil https://www.youtube.com/watch?v=2KVgE2gx8vY\n- How loops changed the way I work with AI: https://www.youtube.com/watch?v=Jb6rEBmymz4",
+    "channelTitle": "Product Pathways",
+    "publishDate": "2026-09-22T20:00:33Z",
+    "duration": "PT30M6S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/esKc9lyP0m0/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Alexander Embiricos"
   },
   {
     "id": "Z4x71naDx1Q",
@@ -8245,6 +8704,23 @@
       "height": 720
     },
     "person": "Marc Andreessen"
+  },
+  {
+    "id": "F77eeKTPaLA",
+    "company": "google",
+    "category": "google",
+    "title": "Sebastian Stan in THE BATMAN 2?! + Gunn Talks DC Studios, DCU Rumours, Netflix/WB & MORE!",
+    "description": "Sebastian Stan in THE BATMAN 2?! + Gunn Talks DC Studios, DCU Rumours, Netflix/WB - In this video we get into The Batman Part II and James Gunn DCU updates! Sebastian Stan is reportedly joining Robert Pattinson in The Batman 2, and we break down why he could be playing Harvey Dent / Two-Face, matching up to Scarlett Johansson as Gilda Dent! We also discuss reports of Barry Keoghan's Joker returning in Matt Reeves' upcoming sequel. Then we cover James Gunn's latest comments on Man of Tomorrow, including how the plot surrounds Superman and Lex Luthor. Gunun also talks more about Supergirl, DC Studios' plans and his thoughts on Netflix buying Warner Bros. Then finally we dive into the newest DCU rumours and leaks surrounding the DCU Batman, Wonder Woman, Clayface, and much more from DCU Gods and Monsters, Lanterns, Justice League, The Batman 2 and other DCU News, DCU Leaks and more!\n\nBe sure to check out our channel for all the latest DC and Marvel movie news and everything you need to know about the latest superhero movies!\n\n#TheBatman2 #DCU #JamesGunn #Batman #Superman #DCStudios #MattReeves #ManofTomorrow \n\nCheck out my recent videos!\n\nJames Gunn Reveals BRAINIAC Casting + Captain Atom in the DCU! - https://youtu.be/Xu5rbp0SSE4\n\nSupergirl TEST Reactions, DCU BATMAN Casting, Spider-Man Trailer Leaks, Movie/TV News - https://youtu.be/sIO6ZhF2VDU\n\nLet's Talk About the Latest LANTERNS Rumours - https://youtu.be/eRrRWJMi_70\n\nSUPERGIRL Trailer Breakdown - Things Missed, Comic Easter Eggs & Superman Details! - https://youtu.be/RSChdFxQa70\n\nLANTERNS Teaser Footage Reaction & Breakdown! - https://youtu.be/CR1O4Amq6_U\n\nNetflix is BUYING Warner Bros... What Will This Mean? - https://youtu.be/FAs0wLGAsB8\n\nThe MOST Exciting Things Coming in THE BATMAN 2 - https://youtu.be/3P2h-ZlbDIk\n\nBobaTalks Interviews JAMES GUNN - https://youtu.be/UOHGrUpyCUc \n\n\nVIDEO CREDIT:\nLuthor artwork in thumbnail by: SPDRMNKYXXIII\n\n\n\n0:00 - Sebastian Stan to Join THE BATMAN 2\n3:26 - Who will Sebastian Stan Play? - Dent/Casting Thoughts\n6:25 - Joker 'Expected to Return' in Part 2 + Final Thoughts\n10:47 - Gunn Talks Man of Tomorrow, Lex & Superman...\n13:53 - Supergirl Will be Different to Comic Story\n17:16 - Gunn on DC/Netflix\n18:47 - Netflix 17 Day Theatrical Window?!\n23:09 - DCU Rumours - Batman Brave and The Bold\n25:42 - Female Hero to be Cast Soon?\n27:39 - Big Male Supporting Character in MOT - Batman Thoughts\n\n\n\n\n ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶F̶o̶l̶l̶o̶w̶ ̶m̶e̶ ̶h̶e̶r̶e̶ ̶a̶t̶ ̶t̶h̶e̶s̶e̶ ̶l̶i̶n̶k̶s̶!̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶ ̶\nTwitter: https://twitter.com/BobaTalks\nDiscord server: https://discord.gg/53xFj5CrzZ\nMerch store: https://bobamerch.creator-spring.com\nFacebook: https://www.facebook.com/BobaTalks",
+    "channelTitle": "BobaTalks",
+    "publishDate": "2026-01-06T22:12:00Z",
+    "duration": "PT31M37S",
+    "platform": "youtube",
+    "thumbnail": {
+      "url": "https://i.ytimg.com/vi/F77eeKTPaLA/maxresdefault.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    "person": "Sebastian Borgeaud"
   },
   {
     "id": "GMXnmaky9FY",
